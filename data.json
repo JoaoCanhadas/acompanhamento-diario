@@ -1,15 +1,15 @@
 {
   "workbook": "COMPROMISSO MES.xlsx",
-  "lastModified": "07/05/2026 09:44",
+  "lastModified": "07/05/2026 10:28",
   "summary": {
     "commitment": 130000.0,
-    "reached": 14812.24,
-    "missing": 115187.76,
-    "percent": 11.4,
+    "reached": 26078.42,
+    "missing": 103921.58,
+    "percent": 20.1,
     "weekGoal": 700000.0,
-    "weekRevenue": 507653.81,
-    "weekMissing": 192346.19,
-    "weekPercent": 72.5,
+    "weekRevenue": 518919.99,
+    "weekMissing": 181080.01,
+    "weekPercent": 74.1,
     "positiveCount": 1,
     "pendingCount": 18
   },
@@ -27,11 +27,11 @@
     {
       "seller": "CENTRO",
       "commitment": 13500.0,
-      "reached": 4949.85,
+      "reached": 6494.85,
       "missing": 9261.43,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 36.7,
+      "percent": 48.1,
       "status": "pending"
     },
     {
@@ -47,41 +47,41 @@
     {
       "seller": "INTERLAGOS",
       "commitment": 9000.0,
-      "reached": 2315.4,
+      "reached": 3961.9,
       "missing": 6791.56,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 25.7,
+      "percent": 44.0,
       "status": "pending"
     },
     {
       "seller": "JUNDIAI",
       "commitment": 3780.0,
-      "reached": 0.0,
+      "reached": 1042.6,
       "missing": 5973.43,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 27.6,
       "status": "pending"
     },
     {
       "seller": "LESTE",
       "commitment": 7750.0,
-      "reached": 1607.98,
+      "reached": 1986.78,
       "missing": 4974.89,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.7,
+      "percent": 25.6,
       "status": "pending"
     },
     {
       "seller": "LESTE MOOCA",
       "commitment": 7670.0,
-      "reached": 2378.05,
+      "reached": 2565.55,
       "missing": 4919.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 31.0,
+      "percent": 33.4,
       "status": "pending"
     },
     {
@@ -107,11 +107,11 @@
     {
       "seller": "MOGI",
       "commitment": 6990.0,
-      "reached": 324.68,
+      "reached": 498.73,
       "missing": 3164.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 4.6,
+      "percent": 7.1,
       "status": "pending"
     },
     {
@@ -127,11 +127,11 @@
     {
       "seller": "OSASCO",
       "commitment": 14000.0,
-      "reached": 0.0,
+      "reached": 1683.34,
       "missing": 2598.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 12.0,
       "status": "pending"
     },
     {
@@ -157,31 +157,31 @@
     {
       "seller": "SANTO ANDRE",
       "commitment": 8200.0,
-      "reached": 182.7,
+      "reached": 1297.0,
       "missing": 1610.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 2.2,
+      "percent": 15.8,
       "status": "pending"
     },
     {
       "seller": "SBC",
       "commitment": 10740.0,
-      "reached": 0.0,
+      "reached": 2509.93,
       "missing": 1526.59,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 23.4,
       "status": "pending"
     },
     {
       "seller": "SJC",
       "commitment": 2870.0,
-      "reached": 0.0,
+      "reached": 601.84,
       "missing": 387.17,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 21.0,
       "status": "pending"
     },
     {
@@ -197,11 +197,11 @@
     {
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 4000.0,
-      "reached": 1274.4,
+      "reached": 1656.72,
       "missing": -88.19,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 31.9,
+      "percent": 41.4,
       "status": "ok"
     }
   ],
@@ -210,9 +210,9 @@
     {
       "name": "Semana 1",
       "goal": 700000.0,
-      "reached": 507653.81,
-      "missing": 192346.19,
-      "percent": 72.5
+      "reached": 518919.99,
+      "missing": 181080.01,
+      "percent": 74.1
     },
     {
       "name": "Semana 2",
