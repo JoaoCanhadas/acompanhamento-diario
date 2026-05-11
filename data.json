@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "11/05/2026 15:11",
+  "lastModified": "11/05/2026 16:03",
   "summary": {
     "commitment": 250540.0,
-    "reached": 231041.88,
-    "missing": 19498.12,
-    "percent": 92.2,
+    "reached": 233099.13,
+    "missing": 17440.87,
+    "percent": 93.0,
     "weekGoal": 700000.0,
     "weekRevenue": 646806.23,
     "weekMissing": 53193.77,
@@ -57,21 +57,11 @@
     {
       "seller": "MOOCA",
       "commitment": 12390.0,
-      "reached": 8685.83,
-      "missing": 3704.17,
+      "reached": 8994.53,
+      "missing": 3395.47,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 70.1,
-      "status": "pending"
-    },
-    {
-      "seller": "PIRITUBA",
-      "commitment": 9580.0,
-      "reached": 7416.2,
-      "missing": 2163.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 77.4,
+      "percent": 72.6,
       "status": "pending"
     },
     {
@@ -122,6 +112,16 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 98.1,
+      "status": "pending"
+    },
+    {
+      "seller": "PIRITUBA",
+      "commitment": 9580.0,
+      "reached": 9164.75,
+      "missing": 415.25,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 95.7,
       "status": "pending"
     },
     {
@@ -217,9 +217,9 @@
     {
       "name": "Semana 2",
       "goal": 700000.0,
-      "reached": 231041.88,
-      "missing": 468958.12,
-      "percent": 33.0
+      "reached": 233099.13,
+      "missing": 466900.87,
+      "percent": 33.3
     },
     {
       "name": "Semana 3",
