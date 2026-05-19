@@ -748,7 +748,6 @@ INDEX_HTML = r"""<!doctype html>
         positiveText: "bateram a meta",
         format: formatNumber,
         columns: [
-          { key: "reference", label: "Referencia", value: (row) => row.reference || row.seller },
           { key: "seller", label: "Vendedor", value: (row) => row.seller },
           { key: "commitment", label: "Meta", value: (row) => formatNumber(row.commitment) },
           { key: "reached", label: "Atingido", value: (row) => formatNumber(row.reached) },
