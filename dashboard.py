@@ -22,6 +22,7 @@ WEEKLY_GOALS_PATH = BASE_DIR / "weekly_goals.json"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 DEFAULT_WEEKLY_GOAL = 700000.0
+POSITIVACAO_MILHO_WEEKLY_GOAL = 200.0
 WEEKDAY_LABELS = {
     0: "SEG",
     1: "TER",
@@ -1491,9 +1492,9 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
             raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
-            goal = money(sheet.cell(row_number, commitment_col).value)
+            goal = POSITIVACAO_MILHO_WEEKLY_GOAL
             reached = money(sheet.cell(row_number, reached_col).value)
-            missing = money(sheet.cell(row_number, missing_col).value)
+            missing = money(goal - reached)
             weeks.append(
                 {
                     "name": normalize_week_name(raw_label),
