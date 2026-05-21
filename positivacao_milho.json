@@ -1,17 +1,17 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "21/05/2026 10:51",
+  "lastModified": "21/05/2026 13:20",
   "summary": {
     "commitment": 800.0,
-    "reached": 501.0,
-    "missing": 299.0,
-    "percent": 37.4,
+    "reached": 504.0,
+    "missing": 296.0,
+    "percent": 37.0,
     "weekGoal": 200.0,
     "weekRevenue": 178.0,
     "weekMissing": 22.0,
     "weekPercent": 89.0,
-    "positiveCount": 0,
-    "pendingCount": 18
+    "positiveCount": 1,
+    "pendingCount": 17
   },
   "rows": [
     {
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 49.0,
-      "reached": 29.0,
-      "missing": 20.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 59.2,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 46.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 56.5,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 49.0,
+      "reached": 31.0,
+      "missing": 18.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 63.3,
       "status": "pending"
     },
     {
@@ -205,12 +205,12 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 39.0,
-      "reached": 38.0,
-      "missing": 1.0,
+      "reached": 39.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 97.4,
-      "status": "pending"
+      "percent": 100.0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 200.0,
-      "reached": 202.0,
-      "missing": -2.0,
-      "percent": 101.0
+      "reached": 213.0,
+      "missing": -13.0,
+      "percent": 106.5
     },
     {
       "name": "Semana 4",
