@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "21/05/2026 14:54",
+  "lastModified": "21/05/2026 15:20",
   "summary": {
     "commitment": 134330.0,
-    "reached": 95179.16,
-    "missing": 39150.84,
-    "percent": 70.9,
+    "reached": 95809.66,
+    "missing": 38520.34,
+    "percent": 71.3,
     "weekGoal": 700000.0,
     "weekRevenue": 645369.18,
     "weekMissing": 54630.82,
@@ -107,21 +107,11 @@
     {
       "seller": "VALE",
       "commitment": 5000.0,
-      "reached": 2613.74,
-      "missing": 2386.26,
+      "reached": 2622.74,
+      "missing": 2377.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 52.3,
-      "status": "pending"
-    },
-    {
-      "seller": "LESTE",
-      "commitment": 6410.0,
-      "reached": 4441.97,
-      "missing": 1968.03,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 69.3,
+      "percent": 52.5,
       "status": "pending"
     },
     {
@@ -135,13 +125,23 @@
       "status": "pending"
     },
     {
-      "seller": "INTERNO 1",
-      "commitment": 5000.0,
-      "reached": 3801.16,
-      "missing": 1198.84,
+      "seller": "LESTE",
+      "commitment": 6410.0,
+      "reached": 4779.97,
+      "missing": 1630.03,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.0,
+      "percent": 74.6,
+      "status": "pending"
+    },
+    {
+      "seller": "INTERNO 1",
+      "commitment": 5000.0,
+      "reached": 4084.66,
+      "missing": 915.34,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.7,
       "status": "pending"
     },
     {
@@ -224,9 +224,9 @@
     {
       "name": "Semana 3",
       "goal": 700000.0,
-      "reached": 602251.48,
-      "missing": 97748.52,
-      "percent": 86.0
+      "reached": 602881.98,
+      "missing": 97118.02,
+      "percent": 86.1
     },
     {
       "name": "Semana 4",
