@@ -723,9 +723,12 @@ INDEX_HTML = r"""<!doctype html>
     const byId = (id) => document.getElementById(id);
     const formatMoney = (value) => brl.format(Number(value || 0));
     const formatNumber = (value) => numberFormatter.format(Number(value || 0));
-    const remainingValue = (value) => Math.max(Number(value || 0), 0);
-    const formatRemainingMoney = (value) => formatMoney(remainingValue(value));
-    const formatRemainingNumber = (value) => formatNumber(remainingValue(value));
+    const formatBalance = (value, formatter) => {
+      const amount = Number(value || 0);
+      if (amount > 0) return formatter(-amount);
+      if (amount < 0) return `+${formatter(Math.abs(amount))}`;
+      return formatter(0);
+    };
     const moneyClass = (value) => Number(value) <= 0 ? "good" : "bad";
     const setText = (id, value) => { byId(id).textContent = value; };
     const views = {
@@ -741,7 +744,7 @@ INDEX_HTML = r"""<!doctype html>
           { key: "seller", label: "Vendedor", value: (row) => row.seller },
           { key: "commitment", label: "Compromisso", value: (row) => formatMoney(row.commitment) },
           { key: "reached", label: "Atingido", value: (row) => formatMoney(row.reached) },
-          { key: "missing", label: "Falta", value: (row) => formatRemainingMoney(row.missing), className: (row) => `money ${moneyClass(row.missing)}` },
+          { key: "missing", label: "Falta", value: (row) => formatBalance(row.missing, formatMoney), className: (row) => `money ${moneyClass(row.missing)}` },
           { key: "percent", label: "%", value: (row) => `${row.percent}%` },
         ],
       },
@@ -757,7 +760,7 @@ INDEX_HTML = r"""<!doctype html>
           { key: "seller", label: "Vendedor", value: (row) => row.seller },
           { key: "commitment", label: "Meta", value: (row) => formatNumber(row.commitment) },
           { key: "reached", label: "Atingido", value: (row) => formatNumber(row.reached) },
-          { key: "missing", label: "Falta", value: (row) => formatRemainingNumber(row.missing), className: (row) => `money ${moneyClass(row.missing)}` },
+          { key: "missing", label: "Falta", value: (row) => formatBalance(row.missing, formatNumber), className: (row) => `money ${moneyClass(row.missing)}` },
         ],
       },
       keys: {
@@ -772,7 +775,7 @@ INDEX_HTML = r"""<!doctype html>
           { key: "seller", label: "Vendedor", value: (row) => row.seller },
           { key: "commitment", label: "Compromisso", value: (row) => formatMoney(row.commitment) },
           { key: "reached", label: "Atingido", value: (row) => formatMoney(row.reached) },
-          { key: "missing", label: "Falta", value: (row) => formatRemainingMoney(row.missing), className: (row) => `money ${moneyClass(row.missing)}` },
+          { key: "missing", label: "Falta", value: (row) => formatBalance(row.missing, formatMoney), className: (row) => `money ${moneyClass(row.missing)}` },
           { key: "percent", label: "%", value: (row) => `${row.percent}%` },
         ],
       },
@@ -818,7 +821,8 @@ INDEX_HTML = r"""<!doctype html>
       setText("commitmentHint", config.commitmentHint);
       setText("commitment", config.format(summary.commitment));
       setText("reached", config.format(summary.reached));
-      setText("missing", config.format(remainingValue(summary.missing)));
+      setText("missing", formatBalance(summary.missing, config.format));
+      byId("missing").className = `value ${moneyClass(summary.missing)}`;
       setText("percent", `${summary.percent || 0}%`);
       setText("pendingCount", `${summary.pendingCount || 0} ${config.pendingText}`);
       setText("positiveCount", `${summary.positiveCount || 0} ${config.positiveText}`);
