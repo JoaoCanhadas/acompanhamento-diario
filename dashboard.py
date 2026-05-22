@@ -18,6 +18,7 @@ PYTHON_EXCEL_PATH = BASE_DIR / "BASE PYTHON.xlsx"
 LEGACY_EXCEL_PATH = BASE_DIR / "base_vendas.xlsx"
 DATA_PATH = BASE_DIR / "data.json"
 POSITIVACAO_MILHO_DATA_PATH = BASE_DIR / "positivacao_milho.json"
+KEYS_DATA_PATH = BASE_DIR / "keys.json"
 WEEKLY_GOALS_PATH = BASE_DIR / "weekly_goals.json"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
@@ -646,6 +647,7 @@ INDEX_HTML = r"""<!doctype html>
       <div class="meta">
         <div class="view-tabs" aria-label="Telas do acompanhamento">
           <button class="view-tab active" data-view="sales" type="button">Faturamento</button>
+          <button class="view-tab" data-view="keys" type="button">Keys</button>
           <button class="view-tab" data-view="milho" type="button">Positivacao Milho</button>
         </div>
         <span class="pill" id="workbook">Carregando...</span>
@@ -753,6 +755,22 @@ INDEX_HTML = r"""<!doctype html>
           { key: "commitment", label: "Meta", value: (row) => formatNumber(row.commitment) },
           { key: "reached", label: "Atingido", value: (row) => formatNumber(row.reached) },
           { key: "missing", label: "Falta", value: (row) => formatNumber(row.missing), className: (row) => `money ${moneyClass(row.missing)}` },
+        ],
+      },
+      keys: {
+        endpoint: "/api/keys",
+        title: "Keys por vendedor",
+        commitmentLabel: "Meta semanal",
+        commitmentHint: "Meta consolidada de Keys",
+        pendingText: "vendedores pendentes",
+        positiveText: "superaram a meta",
+        format: formatMoney,
+        columns: [
+          { key: "seller", label: "Vendedor", value: (row) => row.seller },
+          { key: "commitment", label: "Compromisso", value: (row) => formatMoney(row.commitment) },
+          { key: "reached", label: "Atingido", value: (row) => formatMoney(row.reached) },
+          { key: "missing", label: "Falta", value: (row) => formatMoney(row.missing), className: (row) => `money ${moneyClass(row.missing)}` },
+          { key: "percent", label: "%", value: (row) => `${row.percent}%` },
         ],
       },
     };
@@ -897,14 +915,14 @@ INDEX_HTML = r"""<!doctype html>
               <span>Realizado<strong>${config.format(week.reached)}</strong></span>
               <span>Meta<strong>${config.format(week.goal)}</strong></span>
             </div>
-            <div class="week-edit" ${activeView === "milho" ? "hidden" : ""}>
+            <div class="week-edit" ${activeView === "sales" ? "" : "hidden"}>
               <input class="goal-input" type="number" min="0" step="0.01" value="${goal}" data-week="${week.name}" aria-label="Meta ${week.name}">
             </div>
           </div>
         `;
       }).join("");
-      byId("weekly").innerHTML = cards + (activeView === "milho" ? "" : `<button class="save-goals" id="saveGoals" type="button">Salvar metas</button>`);
-      if (activeView !== "milho") {
+      byId("weekly").innerHTML = cards + (activeView === "sales" ? `<button class="save-goals" id="saveGoals" type="button">Salvar metas</button>` : "");
+      if (activeView === "sales") {
         byId("saveGoals").addEventListener("click", saveWeeklyGoals);
       }
     }
@@ -1538,6 +1556,128 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
     }
 
 
+def find_block_table_header(sheet, reference_col, seller_col, commitment_col, reached_col, max_rows=25):
+    for row_number in range(1, min(sheet.max_row, max_rows) + 1):
+        reference = normalize_key(sheet.cell(row_number, reference_col).value)
+        seller = normalize_key(sheet.cell(row_number, seller_col).value)
+        commitment = normalize_key(sheet.cell(row_number, commitment_col).value)
+        reached = normalize_key(sheet.cell(row_number, reached_col).value)
+        if (
+            reference in {"REFERENCIA", "REFERENCA"}
+            and seller == "VENDEDOR"
+            and commitment in {"COMPROMISSO", "META", "META A"}
+            and reached == "ATINGIDO"
+        ):
+            return row_number
+    raise ValueError("Cabecalho do bloco nao encontrado")
+
+
+def read_keys_planilha1_data(excel_path, workbook):
+    sheet = workbook["Planilha1"]
+    title_col = find_block_start(sheet, "KEY")
+    reference_col = title_col - 1
+    seller_col = title_col
+    commitment_col = title_col + 1
+    reached_col = title_col + 2
+    missing_col = title_col + 3
+    header_row = find_block_table_header(
+        sheet, reference_col, seller_col, commitment_col, reached_col
+    )
+
+    rows = []
+    for row_number in range(header_row + 1, sheet.max_row + 1):
+        reference = normalize_text(sheet.cell(row_number, reference_col).value)
+        seller = normalize_text(sheet.cell(row_number, seller_col).value)
+        if not reference and not seller:
+            break
+        if normalize_key(reference) in {"SEMANAL", "TOTAL"} or normalize_key(seller) in {"SEMANAL", "TOTAL"}:
+            break
+
+        commitment = money(sheet.cell(row_number, commitment_col).value)
+        reached = money(sheet.cell(row_number, reached_col).value)
+        missing = money(sheet.cell(row_number, missing_col).value)
+        percent = (reached / commitment * 100) if commitment else 0
+        rows.append(
+            {
+                "reference": reference or seller,
+                "seller": seller or reference,
+                "commitment": commitment,
+                "reached": reached,
+                "missing": missing,
+                "average": 0.0,
+                "difference": 0.0,
+                "percent": round(percent, 1),
+                "status": "ok" if missing <= 0 else "pending",
+            }
+        )
+
+    indicators = {}
+    for row_number in range(4, 8):
+        key = normalize_key(sheet.cell(row_number, seller_col).value)
+        if key:
+            raw_value = sheet.cell(row_number, commitment_col).value
+            indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
+
+    weeks = []
+    weekly_header_row = None
+    for row_number in range(header_row + 1, sheet.max_row + 1):
+        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
+            weekly_header_row = row_number
+            break
+
+    if weekly_header_row:
+        for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
+            raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
+            if not normalize_key(raw_label).startswith("SEMANA"):
+                continue
+            goal = money(sheet.cell(row_number, commitment_col).value)
+            reached = money(sheet.cell(row_number, reached_col).value)
+            missing = money(sheet.cell(row_number, missing_col).value)
+            weeks.append(
+                {
+                    "name": normalize_week_name(raw_label),
+                    "goal": goal,
+                    "reached": reached,
+                    "missing": missing,
+                    "percent": round((reached / goal * 100) if goal else 0, 1),
+                }
+            )
+
+    total_commitment = money(
+        indicators.get("META SEMANAL", sum(item["commitment"] for item in rows))
+    )
+    total_reached = money(indicators.get("ATINGIDO", sum(item["reached"] for item in rows)))
+    total_missing = money(indicators.get("FALTA", total_commitment - total_reached))
+    realized_indicator = indicators.get("REALIZADO")
+    total_percent = (
+        realized_indicator * 100
+        if realized_indicator is not None
+        else (total_reached / total_commitment * 100) if total_commitment else 0
+    )
+
+    return {
+        "workbook": excel_path.name,
+        "lastModified": datetime.fromtimestamp(excel_path.stat().st_mtime).strftime(
+            "%d/%m/%Y %H:%M"
+        ),
+        "summary": {
+            "commitment": total_commitment,
+            "reached": total_reached,
+            "missing": total_missing,
+            "percent": round(total_percent, 1),
+            "weekGoal": weeks[0]["goal"] if weeks else 0,
+            "weekRevenue": weeks[0]["reached"] if weeks else 0,
+            "weekMissing": weeks[0]["missing"] if weeks else 0,
+            "weekPercent": weeks[0]["percent"] if weeks else 0,
+            "positiveCount": sum(1 for item in rows if item["missing"] <= 0),
+            "pendingCount": sum(1 for item in rows if item["missing"] > 0),
+        },
+        "rows": sorted(rows, key=lambda item: item["missing"], reverse=True),
+        "history": [],
+        "weeks": weeks,
+    }
+
+
 def select_daily_total(daily_totals):
     if not daily_totals:
         return None
@@ -1733,6 +1873,21 @@ def read_positivacao_milho_data():
     return json.loads(POSITIVACAO_MILHO_DATA_PATH.read_text(encoding="utf-8"))
 
 
+def read_keys_data():
+    excel_path = find_compromisso_workbook()
+    if excel_path:
+        workbook = openpyxl.load_workbook(excel_path, data_only=True, read_only=True)
+        try:
+            if "Planilha1" in workbook.sheetnames:
+                return read_keys_planilha1_data(excel_path, workbook)
+        finally:
+            workbook.close()
+
+    if not KEYS_DATA_PATH.exists():
+        raise FileNotFoundError(f"Arquivo nao encontrado: {KEYS_DATA_PATH}")
+    return json.loads(KEYS_DATA_PATH.read_text(encoding="utf-8"))
+
+
 class DashboardHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
@@ -1754,6 +1909,18 @@ class DashboardHandler(BaseHTTPRequestHandler):
         if parsed.path == "/api/positivacao-milho":
             try:
                 payload = json.dumps(read_positivacao_milho_data(), ensure_ascii=False).encode("utf-8")
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+            except Exception as exc:
+                self.send_text(str(exc), "text/plain; charset=utf-8", status=500)
+            return
+        if parsed.path == "/api/keys":
+            try:
+                payload = json.dumps(read_keys_data(), ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
                 self.send_header("Cache-Control", "no-store")
