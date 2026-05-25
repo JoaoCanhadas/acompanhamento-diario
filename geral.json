@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "25/05/2026 12:24",
+  "lastModified": "25/05/2026 13:57",
   "summary": {
     "commitment": 5181500.0,
-    "reached": 4080561.59,
-    "missing": 1100938.41,
-    "percent": 78.8,
+    "reached": 4112277.71,
+    "missing": 1069222.29,
+    "percent": 79.4,
     "weekGoal": 1280000.0,
     "weekRevenue": 1184379.59,
     "weekMissing": 95620.41,
@@ -29,11 +29,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 500000.0,
-      "reached": 365838.25,
-      "missing": 134161.75,
+      "reached": 384255.85,
+      "missing": 115744.15,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 73.2,
+      "percent": 76.9,
       "status": "pending"
     },
     {
@@ -62,33 +62,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 302000.0,
-      "reached": 240078.96,
-      "missing": 61921.04,
+      "reached": 242623.9,
+      "missing": 59376.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.5,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 235000.0,
-      "reached": 178977.91,
-      "missing": 56022.09,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.2,
-      "status": "pending"
-    },
-    {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 255000.0,
-      "reached": 199577.15,
-      "missing": 55422.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 78.3,
+      "percent": 80.3,
       "status": "pending"
     },
     {
@@ -103,14 +81,36 @@
       "status": "pending"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 255000.0,
+      "reached": 200692.25,
+      "missing": 54307.75,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 78.7,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 235000.0,
+      "reached": 183106.16,
+      "missing": 51893.84,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.9,
+      "status": "pending"
+    },
+    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 115000.0,
-      "reached": 63353.7,
-      "missing": 51646.3,
+      "reached": 66182.3,
+      "missing": 48817.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.1,
+      "percent": 57.5,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 215000.0,
-      "reached": 178083.98,
-      "missing": 36916.02,
+      "reached": 179403.9,
+      "missing": 35596.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 82.8,
+      "percent": 83.4,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 59118.37,
-      "missing": 30881.63,
+      "reached": 60480.07,
+      "missing": 29519.93,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 65.7,
+      "percent": 67.2,
       "status": "pending"
     },
     {
@@ -338,9 +338,9 @@
     {
       "name": "Semana 4",
       "goal": 1280000.0,
-      "reached": 196066.13,
-      "missing": 1083933.86,
-      "percent": 15.3
+      "reached": 227782.25,
+      "missing": 1052217.75,
+      "percent": 17.8
     }
   ]
 }
