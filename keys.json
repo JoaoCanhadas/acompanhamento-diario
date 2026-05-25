@@ -1,15 +1,15 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "25/05/2026 09:41",
+  "lastModified": "25/05/2026 11:45",
   "summary": {
     "commitment": 627000.0,
     "reached": 784238.58,
     "missing": -157238.58,
-    "percent": -25.1,
-    "weekGoal": 0.0,
+    "percent": 125.1,
+    "weekGoal": 505000.0,
     "weekRevenue": 520661.22,
-    "weekMissing": -520661.22,
-    "weekPercent": 0,
+    "weekMissing": -15661.22,
+    "weekPercent": 103.1,
     "positiveCount": 5,
     "pendingCount": 2
   },
@@ -96,31 +96,31 @@
   "weeks": [
     {
       "name": "Semana 1",
-      "goal": 0.0,
+      "goal": 505000.0,
       "reached": 520661.22,
-      "missing": -520661.22,
-      "percent": 0
+      "missing": -15661.22,
+      "percent": 103.1
     },
     {
       "name": "Semana 2",
-      "goal": 0.0,
+      "goal": 627000.0,
       "reached": 784238.58,
-      "missing": -784238.58,
-      "percent": 0
+      "missing": -157238.58,
+      "percent": 125.1
     },
     {
       "name": "Semana 3",
-      "goal": 0.0,
+      "goal": 586500.0,
       "reached": 477253.27,
-      "missing": -477253.27,
-      "percent": 0
+      "missing": 109246.73,
+      "percent": 81.4
     },
     {
       "name": "Semana 4",
-      "goal": 0.0,
-      "reached": 8854.9,
-      "missing": -8854.9,
-      "percent": 0
+      "goal": 717500.0,
+      "reached": 43994.75,
+      "missing": 673505.25,
+      "percent": 6.1
     }
   ]
 }
