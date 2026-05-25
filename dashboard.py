@@ -139,11 +139,51 @@ INDEX_HTML = r"""<!doctype html>
       background: transparent;
       font-size: 14px;
       font-weight: 900;
+      cursor: pointer;
+    }
+
+    .view-tab:not(.active):hover {
+      background: rgba(255,255,255,.07);
+      color: var(--ink);
     }
 
     .view-tab.active {
       color: var(--ink);
       background: linear-gradient(135deg, var(--blue-2), var(--purple));
+    }
+
+    .rotation-bar {
+      height: 3px;
+      background: rgba(34,48,71,.6);
+      overflow: hidden;
+    }
+
+    .rotation-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--blue), var(--purple));
+    }
+
+    .pause-btn {
+      height: 36px;
+      padding: 0 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 900;
+      cursor: pointer;
+      background: rgba(17,24,39,.8);
+      border: 1px solid var(--line);
+      color: var(--soft);
+    }
+
+    .pause-btn:hover {
+      color: var(--ink);
+      background: rgba(34,48,71,.9);
+    }
+
+    .pause-btn.paused {
+      color: var(--warn);
+      border-color: rgba(251,191,36,.4);
     }
 
     main {
@@ -657,7 +697,6 @@ INDEX_HTML = r"""<!doctype html>
       </div>
     </div>
   </header>
-
   <main>
     <div id="error"></div>
 
@@ -719,6 +758,7 @@ INDEX_HTML = r"""<!doctype html>
   <script>
     const state = { rows: [], weeks: [], sortKey: "missing", sortDir: "desc" };
     let activeView = "sales";
+    let loadRequestId = 0;
     let sellerScrollFrame = null;
     const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
     const numberFormatter = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 2 });
@@ -800,18 +840,24 @@ INDEX_HTML = r"""<!doctype html>
     };
 
     async function loadData() {
+      const requestId = ++loadRequestId;
+      const viewForRequest = activeView;
       byId("error").innerHTML = "";
+      setText("tableTitle", views[viewForRequest].title);
+      byId("tableBody").innerHTML = `<tr><td data-label="Carregando" colspan="6">Carregando...</td></tr>`;
       try {
-        const config = views[activeView];
+        const config = views[viewForRequest];
         const response = await fetch(config.endpoint + "?ts=" + Date.now());
         if (!response.ok) throw new Error(await response.text());
         const data = await response.json();
+        if (requestId !== loadRequestId || viewForRequest !== activeView) return;
         state.rows = data.rows || [];
         state.weeks = normalizeWeeks(data);
         renderSummary(data);
         renderTable();
         renderWeeks();
       } catch (error) {
+        if (requestId !== loadRequestId || viewForRequest !== activeView) return;
         byId("error").innerHTML = `<div class="error">${error.message}</div>`;
       }
     }
@@ -2031,6 +2077,15 @@ def read_keys_data():
     return json.loads(KEYS_DATA_PATH.read_text(encoding="utf-8"))
 
 
+def read_published_payload(path, *, weekly_goals=False):
+    if not path.exists():
+        return None
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if weekly_goals:
+        return apply_weekly_goals(payload)
+    return payload
+
+
 class DashboardHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
@@ -2039,7 +2094,8 @@ class DashboardHandler(BaseHTTPRequestHandler):
             return
         if parsed.path == "/api/data":
             try:
-                payload = json.dumps(read_dashboard_data(), ensure_ascii=False).encode("utf-8")
+                data = read_published_payload(DATA_PATH, weekly_goals=True) or read_dashboard_data()
+                payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
                 self.send_header("Cache-Control", "no-store")
@@ -2051,7 +2107,8 @@ class DashboardHandler(BaseHTTPRequestHandler):
             return
         if parsed.path == "/api/positivacao-milho":
             try:
-                payload = json.dumps(read_positivacao_milho_data(), ensure_ascii=False).encode("utf-8")
+                data = read_published_payload(POSITIVACAO_MILHO_DATA_PATH) or read_positivacao_milho_data()
+                payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
                 self.send_header("Cache-Control", "no-store")
@@ -2063,7 +2120,8 @@ class DashboardHandler(BaseHTTPRequestHandler):
             return
         if parsed.path == "/api/geral":
             try:
-                payload = json.dumps(read_general_data(), ensure_ascii=False).encode("utf-8")
+                data = read_published_payload(GERAL_DATA_PATH) or read_general_data()
+                payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
                 self.send_header("Cache-Control", "no-store")
@@ -2075,7 +2133,8 @@ class DashboardHandler(BaseHTTPRequestHandler):
             return
         if parsed.path == "/api/keys":
             try:
-                payload = json.dumps(read_keys_data(), ensure_ascii=False).encode("utf-8")
+                data = read_published_payload(KEYS_DATA_PATH) or read_keys_data()
+                payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
                 self.send_header("Cache-Control", "no-store")
