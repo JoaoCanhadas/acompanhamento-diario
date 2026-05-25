@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "25/05/2026 13:57",
+  "lastModified": "25/05/2026 14:41",
   "summary": {
     "commitment": 800.0,
-    "reached": 545.0,
-    "missing": 255.0,
-    "percent": 68.1,
+    "reached": 556.0,
+    "missing": 244.0,
+    "percent": 69.5,
     "weekGoal": 200.0,
     "weekRevenue": 178.0,
     "weekMissing": 22.0,
@@ -18,22 +18,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 39.0,
-      "reached": 12.0,
-      "missing": 27.0,
+      "reached": 13.0,
+      "missing": 26.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.8,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 39.0,
-      "reached": 17.0,
-      "missing": 22.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 43.6,
+      "percent": 33.3,
       "status": "pending"
     },
     {
@@ -48,14 +37,14 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 46.0,
-      "reached": 26.0,
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 39.0,
+      "reached": 19.0,
       "missing": 20.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 56.5,
+      "percent": 48.7,
       "status": "pending"
     },
     {
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 73.6,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 46.0,
+      "reached": 28.0,
+      "missing": 18.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.9,
       "status": "pending"
     },
     {
@@ -95,22 +95,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 33.0,
-      "reached": 17.0,
-      "missing": 16.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 51.5,
-      "status": "pending"
-    },
-    {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 47.0,
-      "reached": 32.0,
+      "reached": 18.0,
       "missing": 15.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 68.1,
+      "percent": 54.5,
       "status": "pending"
     },
     {
@@ -125,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 49.0,
-      "reached": 35.0,
-      "missing": 14.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 71.4,
-      "status": "pending"
-    },
-    {
       "reference": "PERDIZES",
       "seller": "PERDIZES",
       "commitment": 32.0,
@@ -144,6 +122,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 56.2,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 47.0,
+      "reached": 33.0,
+      "missing": 14.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.2,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 49.0,
+      "reached": 36.0,
+      "missing": 13.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 73.5,
       "status": "pending"
     },
     {
@@ -194,22 +194,22 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 73.0,
-      "reached": 67.0,
-      "missing": 6.0,
+      "reached": 69.0,
+      "missing": 4.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 91.8,
+      "percent": 94.5,
       "status": "pending"
     },
     {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 39.0,
-      "reached": 43.0,
-      "missing": -4.0,
+      "reached": 44.0,
+      "missing": -5.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 110.3,
+      "percent": 112.8,
       "status": "ok"
     }
   ],
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 200.0,
-      "reached": 44.0,
-      "missing": 156.0,
-      "percent": 22.0
+      "reached": 68.0,
+      "missing": 132.0,
+      "percent": 34.0
     }
   ]
 }
