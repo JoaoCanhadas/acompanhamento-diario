@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "25/05/2026 12:24",
+  "lastModified": "25/05/2026 13:57",
   "summary": {
     "commitment": 300220.0,
-    "reached": 133416.58,
-    "missing": 166803.42,
-    "percent": 44.4,
+    "reached": 143886.49,
+    "missing": 156333.51,
+    "percent": 47.9,
     "weekGoal": 700000.0,
     "weekRevenue": 645369.18,
     "weekMissing": 54630.82,
@@ -27,21 +27,11 @@
     {
       "seller": "OSASCO",
       "commitment": 27000.0,
-      "reached": 9101.14,
-      "missing": 17898.86,
+      "reached": 11646.09,
+      "missing": 15353.91,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 33.7,
-      "status": "pending"
-    },
-    {
-      "seller": "NORTE",
-      "commitment": 24500.0,
-      "reached": 10989.6,
-      "missing": 13510.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.9,
+      "percent": 43.1,
       "status": "pending"
     },
     {
@@ -67,21 +57,31 @@
     {
       "seller": "SBC",
       "commitment": 21000.0,
-      "reached": 9345.12,
-      "missing": 11654.88,
+      "reached": 10460.22,
+      "missing": 10539.78,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 44.5,
+      "percent": 49.8,
       "status": "pending"
     },
     {
       "seller": "INTERLAGOS",
       "commitment": 22000.0,
-      "reached": 10994.6,
-      "missing": 11005.4,
+      "reached": 12314.52,
+      "missing": 9685.48,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.0,
+      "percent": 56.0,
+      "status": "pending"
+    },
+    {
+      "seller": "NORTE",
+      "commitment": 24500.0,
+      "reached": 15117.85,
+      "missing": 9382.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 61.7,
       "status": "pending"
     },
     {
@@ -185,16 +185,6 @@
       "status": "pending"
     },
     {
-      "seller": "MOGI",
-      "commitment": 6660.0,
-      "reached": 3513.66,
-      "missing": 3146.34,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 52.8,
-      "status": "pending"
-    },
-    {
       "seller": "INDAIATUBA",
       "commitment": 9480.0,
       "reached": 6873.11,
@@ -202,6 +192,16 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 72.5,
+      "status": "pending"
+    },
+    {
+      "seller": "MOGI",
+      "commitment": 6660.0,
+      "reached": 4875.36,
+      "missing": 1784.64,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 73.2,
       "status": "pending"
     }
   ],
@@ -231,9 +231,9 @@
     {
       "name": "Semana 4",
       "goal": 700000.0,
-      "reached": 133416.57,
-      "missing": 566583.43,
-      "percent": 19.1
+      "reached": 143886.49,
+      "missing": 556113.51,
+      "percent": 20.6
     },
     {
       "name": "Semana 5",
