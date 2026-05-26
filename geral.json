@@ -1,17 +1,17 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "26/05/2026 12:30",
+  "lastModified": "26/05/2026 12:55",
   "summary": {
     "commitment": 5181500.0,
-    "reached": 4330978.19,
-    "missing": 850521.81,
-    "percent": 83.6,
+    "reached": 4345993.66,
+    "missing": 835506.34,
+    "percent": 83.9,
     "weekGoal": 1280000.0,
     "weekRevenue": 1184379.6,
     "weekMissing": 95620.4,
     "weekPercent": 92.5,
-    "positiveCount": 2,
-    "pendingCount": 25
+    "positiveCount": 3,
+    "pendingCount": 24
   },
   "rows": [
     {
@@ -51,11 +51,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 315000.0,
-      "reached": 255853.87,
-      "missing": 59146.13,
+      "reached": 258379.62,
+      "missing": 56620.38,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.2,
+      "percent": 82.0,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 302000.0,
-      "reached": 261561.83,
-      "missing": 40438.17,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 86.6,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
@@ -114,14 +103,25 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 302000.0,
+      "reached": 269497.82,
+      "missing": 32502.18,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 89.2,
+      "status": "pending"
+    },
+    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
-      "reached": 134643.04,
-      "missing": 32356.96,
+      "reached": 134693.04,
+      "missing": 32306.96,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.6,
+      "percent": 80.7,
       "status": "pending"
     },
     {
@@ -172,8 +172,8 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 63465.52,
-      "missing": 26534.48,
+      "reached": 63470.97,
+      "missing": 26529.03,
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.5,
@@ -183,11 +183,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 215000.0,
-      "reached": 188526.15,
-      "missing": 26473.85,
+      "reached": 189630.8,
+      "missing": 25369.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 87.7,
+      "percent": 88.2,
       "status": "pending"
     },
     {
@@ -216,22 +216,22 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 55000.0,
-      "reached": 37911.81,
-      "missing": 17088.19,
+      "reached": 38309.61,
+      "missing": 16690.39,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 68.9,
+      "percent": 69.7,
       "status": "pending"
     },
     {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 64500.0,
-      "reached": 47906.06,
-      "missing": 16593.94,
+      "reached": 48005.06,
+      "missing": 16494.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.3,
+      "percent": 74.4,
       "status": "pending"
     },
     {
@@ -249,11 +249,11 @@
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 260000.0,
-      "reached": 246499.14,
-      "missing": 13500.86,
+      "reached": 249240.74,
+      "missing": 10759.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 94.8,
+      "percent": 95.9,
       "status": "pending"
     },
     {
@@ -279,25 +279,25 @@
       "status": "pending"
     },
     {
-      "reference": "ECOMMERCE",
-      "seller": "ECOMMERCE",
-      "commitment": 1000.0,
-      "reached": 939.84,
-      "missing": 60.16,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.0,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 68000.0,
-      "reached": 68069.98,
-      "missing": -69.98,
+      "reached": 68074.98,
+      "missing": -74.98,
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.1,
+      "status": "ok"
+    },
+    {
+      "reference": "ECOMMERCE",
+      "seller": "ECOMMERCE",
+      "commitment": 1000.0,
+      "reached": 1090.08,
+      "missing": -90.08,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 109.0,
       "status": "ok"
     },
     {
@@ -338,9 +338,9 @@
     {
       "name": "Semana 4",
       "goal": 1280000.0,
-      "reached": 446852.14,
-      "missing": 833147.86,
-      "percent": 34.9
+      "reached": 461867.61,
+      "missing": 818132.39,
+      "percent": 36.1
     }
   ]
 }
