@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "25/05/2026 14:41",
+  "lastModified": "26/05/2026 08:12",
   "summary": {
     "commitment": 800.0,
-    "reached": 556.0,
-    "missing": 244.0,
-    "percent": 69.5,
+    "reached": 558.0,
+    "missing": 242.0,
+    "percent": 69.8,
     "weekGoal": 200.0,
     "weekRevenue": 178.0,
     "weekMissing": 22.0,
@@ -51,11 +51,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 72.0,
-      "reached": 53.0,
-      "missing": 19.0,
+      "reached": 54.0,
+      "missing": 18.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 73.6,
+      "percent": 75.0,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 53.0,
-      "reached": 38.0,
-      "missing": 15.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 71.7,
-      "status": "pending"
-    },
-    {
       "reference": "PERDIZES",
       "seller": "PERDIZES",
       "commitment": 32.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.2,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 53.0,
+      "reached": 39.0,
+      "missing": 14.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 73.6,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 200.0,
-      "reached": 68.0,
-      "missing": 132.0,
-      "percent": 34.0
+      "reached": 74.0,
+      "missing": 126.0,
+      "percent": 37.0
     }
   ]
 }
