@@ -1,51 +1,62 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "26/05/2026 08:29",
+  "lastModified": "26/05/2026 10:56",
   "summary": {
-    "commitment": 627000.0,
+    "commitment": 717500.0,
     "reached": 784238.58,
-    "missing": -157238.58,
-    "percent": 125.1,
+    "missing": -66738.58,
+    "percent": 109.3,
     "weekGoal": 0.0,
     "weekRevenue": 520661.22,
     "weekMissing": -520661.22,
     "weekPercent": 0,
-    "positiveCount": 5,
-    "pendingCount": 2
+    "positiveCount": 3,
+    "pendingCount": 4
   },
   "rows": [
     {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
-      "commitment": 220000.0,
+      "commitment": 233000.0,
       "reached": 89210.21,
-      "missing": 130789.79,
+      "missing": 143789.79,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 40.6,
+      "percent": 38.3,
       "status": "pending"
     },
     {
       "reference": "PIRACICABA",
       "seller": "KEY PIRACICABA",
-      "commitment": 73000.0,
+      "commitment": 54000.0,
       "reached": 0.0,
-      "missing": 73000.0,
+      "missing": 54000.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
       "status": "pending"
     },
     {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 31500.0,
-      "reached": 33627.8,
-      "missing": -2127.8,
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 146500.0,
+      "reached": 123308.7,
+      "missing": 23191.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 106.8,
-      "status": "ok"
+      "percent": 84.2,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 51000.0,
+      "reached": 33627.8,
+      "missing": 17372.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.9,
+      "status": "pending"
     },
     {
       "reference": "KEY CASA",
@@ -59,14 +70,14 @@
       "status": "ok"
     },
     {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
-      "commitment": 82500.0,
-      "reached": 123308.7,
-      "missing": -40808.7,
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 233000.0,
+      "reached": 363074.9,
+      "missing": -130074.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 149.5,
+      "percent": 155.8,
       "status": "ok"
     },
     {
@@ -78,17 +89,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 220000.0,
-      "reached": 363074.9,
-      "missing": -143074.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 165.0,
       "status": "ok"
     }
   ],
@@ -118,8 +118,8 @@
     {
       "name": "Semana 4",
       "goal": 0.0,
-      "reached": 125310.36,
-      "missing": -125310.36,
+      "reached": 136989.66,
+      "missing": -136989.66,
       "percent": 0
     }
   ]
