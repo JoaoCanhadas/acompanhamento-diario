@@ -11,6 +11,8 @@ from urllib.parse import urlparse
 
 import openpyxl
 
+import sensum_sql
+
 
 BASE_DIR = Path(__file__).resolve().parent
 EXCEL_PATH = BASE_DIR / "COMPROMISSO MES.xlsx"
@@ -2021,6 +2023,10 @@ def read_legacy_excel_dashboard_data():
 
 
 def read_dashboard_data():
+    sql_data = sensum_sql.read_panel("sales")
+    if sql_data:
+        return apply_weekly_goals(sql_data)
+
     if find_compromisso_workbook():
         return apply_weekly_goals(read_compromisso_maio_data())
 
@@ -2033,6 +2039,10 @@ def read_dashboard_data():
 
 
 def read_positivacao_milho_data():
+    sql_data = sensum_sql.read_panel("milho")
+    if sql_data:
+        return sql_data
+
     excel_path = find_compromisso_workbook()
     if excel_path:
         workbook = openpyxl.load_workbook(excel_path, data_only=True, read_only=True)
@@ -2048,6 +2058,10 @@ def read_positivacao_milho_data():
 
 
 def read_general_data():
+    sql_data = sensum_sql.read_panel("general")
+    if sql_data:
+        return sql_data
+
     excel_path = find_compromisso_workbook()
     if excel_path:
         workbook = openpyxl.load_workbook(excel_path, data_only=True, read_only=True)
@@ -2063,6 +2077,10 @@ def read_general_data():
 
 
 def read_keys_data():
+    sql_data = sensum_sql.read_panel("keys")
+    if sql_data:
+        return sql_data
+
     excel_path = find_compromisso_workbook()
     if excel_path:
         workbook = openpyxl.load_workbook(excel_path, data_only=True, read_only=True)
