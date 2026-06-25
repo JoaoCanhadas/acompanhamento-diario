@@ -32,7 +32,7 @@ PANEL_CONFIG = {
         "weekly_goal_override": None,
     },
     "milho": {
-        "title": "Positivacao Milho",
+        "title": "Postivação",
         "default_week_goal": 200.0,
         "weekly_goal_override": 200.0,
     },
