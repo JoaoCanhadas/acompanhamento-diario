@@ -27,7 +27,7 @@ HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 DEFAULT_WEEKLY_GOAL = 700000.0
 POSITIVACAO_MILHO_WEEKLY_GOAL = 200.0
-DEPLOY_VERSION = "2026-05-29 17:15"
+DEPLOY_VERSION = "2026-06-25 08:27"
 WEEKDAY_LABELS = {
     0: "SEG",
     1: "TER",
@@ -1474,6 +1474,8 @@ def read_base_python_planilha1_data(excel_path, workbook):
         key = normalize_key(sheet.cell(row_number, seller_col).value)
         if key:
             raw_value = sheet.cell(row_number, commitment_col).value
+            if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
+                continue
             indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
 
     weeks = []
@@ -1572,6 +1574,8 @@ def read_general_planilha1_data(excel_path, workbook):
         key = normalize_key(sheet.cell(row_number, seller_col).value)
         if key:
             raw_value = sheet.cell(row_number, commitment_col).value
+            if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
+                continue
             indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
 
     weeks = []
@@ -1793,6 +1797,8 @@ def read_keys_planilha1_data(excel_path, workbook):
         key = normalize_key(sheet.cell(row_number, seller_col).value)
         if key:
             raw_value = sheet.cell(row_number, commitment_col).value
+            if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
+                continue
             indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
 
     weeks = []
