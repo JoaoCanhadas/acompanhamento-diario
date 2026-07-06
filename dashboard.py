@@ -1436,10 +1436,20 @@ def find_block_start(sheet, title):
     raise ValueError(f"Bloco nao encontrado em {sheet.title}: {title}")
 
 
+def find_block_start_any(sheet, titles):
+    for title in titles:
+        try:
+            return find_block_start(sheet, title)
+        except ValueError:
+            continue
+    raise ValueError(f"Bloco nao encontrado em {sheet.title}: {', '.join(titles)}")
+
+
 def read_base_python_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
     block_start = find_block_start(sheet, "VAREJO")
-    seller_col = block_start
+    seller_col = block_start - 1
+    reference_col = block_start
     commitment_col = block_start + 1
     reached_col = block_start + 2
     missing_col = block_start + 3
@@ -1447,6 +1457,7 @@ def read_base_python_planilha1_data(excel_path, workbook):
     rows = []
     for row_number in range(10, sheet.max_row + 1):
         seller = normalize_text(sheet.cell(row_number, seller_col).value)
+        reference = normalize_text(sheet.cell(row_number, reference_col).value)
         if not seller:
             continue
         if normalize_key(seller) in {"SEMANAL", "TOTAL", "VENDEDOR"}:
@@ -1459,6 +1470,7 @@ def read_base_python_planilha1_data(excel_path, workbook):
         rows.append(
             {
                 "seller": seller,
+                "reference": reference or seller,
                 "commitment": commitment,
                 "reached": reached,
                 "missing": missing,
@@ -1471,7 +1483,7 @@ def read_base_python_planilha1_data(excel_path, workbook):
 
     indicators = {}
     for row_number in range(4, 8):
-        key = normalize_key(sheet.cell(row_number, seller_col).value)
+        key = normalize_key(sheet.cell(row_number, reference_col).value)
         if key:
             raw_value = sheet.cell(row_number, commitment_col).value
             if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
@@ -1481,13 +1493,13 @@ def read_base_python_planilha1_data(excel_path, workbook):
     weeks = []
     weekly_header_row = None
     for row_number in range(10, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
+        if normalize_key(sheet.cell(row_number, reference_col).value) == "SEMANAL":
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
         for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
+            raw_label = normalize_text(sheet.cell(row_number, reference_col).value)
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
             goal = money(sheet.cell(row_number, commitment_col).value)
@@ -1533,11 +1545,12 @@ def read_base_python_planilha1_data(excel_path, workbook):
 
 def read_general_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
-    seller_col = find_block_start(sheet, "GERAL")
-    reference_col = seller_col - 1
-    commitment_col = seller_col + 1
-    reached_col = seller_col + 2
-    missing_col = seller_col + 3
+    title_col = find_block_start(sheet, "GERAL")
+    seller_col = title_col - 1
+    reference_col = title_col
+    commitment_col = title_col + 1
+    reached_col = title_col + 2
+    missing_col = title_col + 3
     header_row = find_block_table_header(
         sheet, reference_col, seller_col, commitment_col, reached_col
     )
@@ -1571,7 +1584,7 @@ def read_general_planilha1_data(excel_path, workbook):
 
     indicators = {}
     for row_number in range(4, 8):
-        key = normalize_key(sheet.cell(row_number, seller_col).value)
+        key = normalize_key(sheet.cell(row_number, title_col).value)
         if key:
             raw_value = sheet.cell(row_number, commitment_col).value
             if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
@@ -1581,13 +1594,13 @@ def read_general_planilha1_data(excel_path, workbook):
     weeks = []
     weekly_header_row = None
     for row_number in range(header_row + 1, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
+        if normalize_key(sheet.cell(row_number, reference_col).value) == "SEMANAL":
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
         for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
+            raw_label = normalize_text(sheet.cell(row_number, reference_col).value)
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
             goal = money(sheet.cell(row_number, commitment_col).value)
@@ -1638,9 +1651,9 @@ def read_general_planilha1_data(excel_path, workbook):
 
 def read_positivacao_milho_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
-    title_col = find_block_start(sheet, "POSITIVACAO MILHO")
-    reference_col = title_col - 1
-    seller_col = title_col
+    title_col = find_block_start_any(sheet, ("POSITIVACAO MILHO", "POSITIVACAO BRIOCHE"))
+    seller_col = title_col - 1
+    reference_col = title_col
     commitment_col = title_col + 1
     reached_col = title_col + 2
     missing_col = title_col + 3
@@ -1682,13 +1695,13 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
     weeks = []
     weekly_header_row = None
     for row_number in range(10, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
+        if normalize_key(sheet.cell(row_number, reference_col).value) == "SEMANAL":
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
         for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
+            raw_label = normalize_text(sheet.cell(row_number, reference_col).value)
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
             goal = POSITIVACAO_MILHO_WEEKLY_GOAL
@@ -1756,8 +1769,8 @@ def find_block_table_header(sheet, reference_col, seller_col, commitment_col, re
 def read_keys_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
     title_col = find_block_start(sheet, "KEY")
-    reference_col = title_col - 1
-    seller_col = title_col
+    seller_col = title_col - 1
+    reference_col = title_col
     commitment_col = title_col + 1
     reached_col = title_col + 2
     missing_col = title_col + 3
@@ -1794,7 +1807,7 @@ def read_keys_planilha1_data(excel_path, workbook):
 
     indicators = {}
     for row_number in range(4, 8):
-        key = normalize_key(sheet.cell(row_number, seller_col).value)
+        key = normalize_key(sheet.cell(row_number, title_col).value)
         if key:
             raw_value = sheet.cell(row_number, commitment_col).value
             if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
@@ -1804,13 +1817,13 @@ def read_keys_planilha1_data(excel_path, workbook):
     weeks = []
     weekly_header_row = None
     for row_number in range(header_row + 1, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
+        if normalize_key(sheet.cell(row_number, reference_col).value) == "SEMANAL":
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
         for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
+            raw_label = normalize_text(sheet.cell(row_number, reference_col).value)
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
             goal = money(sheet.cell(row_number, commitment_col).value)
