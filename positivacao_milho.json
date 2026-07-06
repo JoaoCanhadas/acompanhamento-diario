@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "06/07/2026 08:46",
+  "lastModified": "06/07/2026 10:55",
   "summary": {
     "commitment": 758.0,
-    "reached": 84.0,
-    "missing": 674.0,
-    "percent": 11.1,
+    "reached": 95.0,
+    "missing": 663.0,
+    "percent": 12.5,
     "weekGoal": 200.0,
     "weekRevenue": 81.0,
     "weekMissing": 119.0,
@@ -51,22 +51,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 61.0,
-      "reached": 13.0,
-      "missing": 48.0,
+      "reached": 16.0,
+      "missing": 45.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.3,
-      "status": "pending"
-    },
-    {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
-      "commitment": 51.0,
-      "reached": 7.0,
-      "missing": 44.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 13.7,
+      "percent": 26.2,
       "status": "pending"
     },
     {
@@ -81,6 +70,17 @@
       "status": "pending"
     },
     {
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "commitment": 51.0,
+      "reached": 9.0,
+      "missing": 42.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 17.6,
+      "status": "pending"
+    },
+    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 39.0,
@@ -89,17 +89,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 40.0,
-      "reached": 2.0,
-      "missing": 38.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 5.0,
       "status": "pending"
     },
     {
@@ -114,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 52.0,
-      "reached": 16.0,
-      "missing": 36.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 30.8,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 45.0,
@@ -136,14 +114,25 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 44.0,
-      "reached": 9.0,
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 40.0,
+      "reached": 4.0,
+      "missing": 36.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 10.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 52.0,
+      "reached": 17.0,
       "missing": 35.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.5,
+      "percent": 32.7,
       "status": "pending"
     },
     {
@@ -180,6 +169,17 @@
       "status": "pending"
     },
     {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 44.0,
+      "reached": 11.0,
+      "missing": 33.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 25.0,
+      "status": "pending"
+    },
+    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37.0,
@@ -194,11 +194,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 27.0,
-      "reached": 5.0,
-      "missing": 22.0,
+      "reached": 6.0,
+      "missing": 21.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 18.5,
+      "percent": 22.2,
       "status": "pending"
     }
   ],
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 200.0,
-      "reached": 3.0,
-      "missing": 197.0,
-      "percent": 1.5
+      "reached": 14.0,
+      "missing": 186.0,
+      "percent": 7.0
     },
     {
       "name": "Semana 3",
