@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "13/07/2026 08:58",
+  "lastModified": "13/07/2026 11:11",
   "summary": {
     "commitment": 758.0,
-    "reached": 198.0,
-    "missing": 560.0,
-    "percent": 26.1,
+    "reached": 205.0,
+    "missing": 553.0,
+    "percent": 27.0,
     "weekGoal": 200.0,
     "weekRevenue": 79.0,
     "weekMissing": 121.0,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
-      "commitment": 51.0,
-      "reached": 16.0,
-      "missing": 35.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 31.4,
-      "status": "pending"
-    },
-    {
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 35.0,
@@ -92,14 +81,14 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 61.0,
-      "reached": 29.0,
-      "missing": 32.0,
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "commitment": 51.0,
+      "reached": 17.0,
+      "missing": 34.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 47.5,
+      "percent": 33.3,
       "status": "pending"
     },
     {
@@ -114,14 +103,25 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 61.0,
+      "reached": 30.0,
+      "missing": 31.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 49.2,
+      "status": "pending"
+    },
+    {
       "reference": "PENHA",
       "seller": "LESTE PENHA",
       "commitment": 39.0,
-      "reached": 9.0,
-      "missing": 30.0,
+      "reached": 10.0,
+      "missing": 29.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 23.1,
+      "percent": 25.6,
       "status": "pending"
     },
     {
@@ -144,17 +144,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 40.9,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 41.0,
-      "reached": 17.0,
-      "missing": 24.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 41.5,
       "status": "pending"
     },
     {
@@ -191,6 +180,17 @@
       "status": "pending"
     },
     {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 41.0,
+      "reached": 21.0,
+      "missing": 20.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 51.2,
+      "status": "pending"
+    },
+    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 27.0,
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 200.0,
-      "reached": 3.0,
-      "missing": 197.0,
-      "percent": 1.5
+      "reached": 17.0,
+      "missing": 183.0,
+      "percent": 8.5
     },
     {
       "name": "Semana 4",
