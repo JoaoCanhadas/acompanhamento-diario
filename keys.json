@@ -1,10 +1,10 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "13/07/2026 11:11",
+  "lastModified": "14/07/2026 09:50",
   "summary": {
     "commitment": 0.0,
-    "reached": 16903.1,
-    "missing": -16903.1,
+    "reached": 44476.38,
+    "missing": -44476.38,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
@@ -26,8 +26,8 @@
       "status": "ok"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
+      "reference": "KEY PIRACICABA",
+      "seller": "PIRACICABA",
       "commitment": 0.0,
       "reached": 0.0,
       "missing": 0.0,
@@ -37,8 +37,8 @@
       "status": "ok"
     },
     {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
       "commitment": 0.0,
       "reached": 0.0,
       "missing": 0.0,
@@ -59,11 +59,11 @@
       "status": "ok"
     },
     {
-      "reference": "KEY PIRACICABA",
-      "seller": "PIRACICABA",
+      "reference": "KEY CASA",
+      "seller": "KEY CASA",
       "commitment": 0.0,
-      "reached": 1505.5,
-      "missing": -1505.5,
+      "reached": 0.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -73,19 +73,19 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 0.0,
-      "reached": 7328.6,
-      "missing": -7328.6,
+      "reached": 14725.18,
+      "missing": -14725.18,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
       "status": "ok"
     },
     {
-      "reference": "KEY CASA",
-      "seller": "KEY CASA",
+      "reference": "KEY SP",
+      "seller": "KEY SP",
       "commitment": 0.0,
-      "reached": 8069.0,
-      "missing": -8069.0,
+      "reached": 29751.2,
+      "missing": -29751.2,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -111,9 +111,9 @@
     {
       "name": "Semana 3",
       "goal": 619318.18,
-      "reached": 16903.1,
-      "missing": 602415.08,
-      "percent": 2.7
+      "reached": 203726.33,
+      "missing": 415591.85,
+      "percent": 32.9
     },
     {
       "name": "Semana 4",
