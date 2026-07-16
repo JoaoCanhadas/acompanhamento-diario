@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "16/07/2026 10:59",
+  "lastModified": "16/07/2026 11:12",
   "summary": {
     "commitment": 758.0,
-    "reached": 285.0,
-    "missing": 473.0,
-    "percent": 37.6,
+    "reached": 286.0,
+    "missing": 472.0,
+    "percent": 37.7,
     "weekGoal": 200.0,
     "weekRevenue": 79.0,
     "weekMissing": 121.0,
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 40.0,
-      "reached": 21.0,
-      "missing": 19.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 52.5,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 52.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 65.4,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 40.0,
+      "reached": 22.0,
+      "missing": 18.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.0,
       "status": "pending"
     },
     {
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 200.0,
-      "reached": 145.0,
-      "missing": 55.0,
-      "percent": 72.5
+      "reached": 148.0,
+      "missing": 52.0,
+      "percent": 74.0
     },
     {
       "name": "Semana 4",
