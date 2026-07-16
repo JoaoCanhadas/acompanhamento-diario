@@ -1,10 +1,10 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "15/07/2026 10:42",
+  "lastModified": "16/07/2026 10:52",
   "summary": {
     "commitment": 0.0,
-    "reached": 47193.4,
-    "missing": -47193.4,
+    "reached": 28279.5,
+    "missing": -28279.5,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 266634.82,
@@ -28,17 +28,6 @@
     {
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
       "commitment": 0.0,
       "reached": 0.0,
       "missing": 0.0,
@@ -73,8 +62,19 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 0.0,
-      "reached": 14711.1,
-      "missing": -14711.1,
+      "reached": 3075.6,
+      "missing": -3075.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 0.0,
+      "reached": 11566.4,
+      "missing": -11566.4,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -84,8 +84,8 @@
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 0.0,
-      "reached": 32482.3,
-      "missing": -32482.3,
+      "reached": 13637.5,
+      "missing": -13637.5,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -104,16 +104,16 @@
     {
       "name": "Semana 2",
       "goal": 495454.55,
-      "reached": 521362.39,
-      "missing": -25907.84,
-      "percent": 105.2
+      "reached": 520408.39,
+      "missing": -24953.84,
+      "percent": 105.0
     },
     {
       "name": "Semana 3",
       "goal": 619318.18,
-      "reached": 431856.27,
-      "missing": 187461.91,
-      "percent": 69.7
+      "reached": 486595.87,
+      "missing": 132722.31,
+      "percent": 78.6
     },
     {
       "name": "Semana 4",
