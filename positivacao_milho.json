@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "16/07/2026 14:06",
+  "lastModified": "17/07/2026 10:54",
   "summary": {
     "commitment": 758.0,
-    "reached": 296.0,
-    "missing": 462.0,
-    "percent": 39.1,
+    "reached": 302.0,
+    "missing": 456.0,
+    "percent": 39.8,
     "weekGoal": 200.0,
     "weekRevenue": 79.0,
     "weekMissing": 121.0,
@@ -84,11 +84,11 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 51.0,
-      "reached": 24.0,
-      "missing": 27.0,
+      "reached": 25.0,
+      "missing": 26.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 47.1,
+      "percent": 49.0,
       "status": "pending"
     },
     {
@@ -106,22 +106,11 @@
       "reference": "PENHA",
       "seller": "LESTE PENHA",
       "commitment": 39.0,
-      "reached": 17.0,
-      "missing": 22.0,
+      "reached": 19.0,
+      "missing": 20.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 43.6,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 52.0,
-      "reached": 34.0,
-      "missing": 18.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 65.4,
+      "percent": 48.7,
       "status": "pending"
     },
     {
@@ -147,6 +136,17 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 52.0,
+      "reached": 35.0,
+      "missing": 17.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 67.3,
+      "status": "pending"
+    },
+    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 44.0,
@@ -161,11 +161,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 61.0,
-      "reached": 47.0,
-      "missing": 14.0,
+      "reached": 49.0,
+      "missing": 12.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 77.0,
+      "percent": 80.3,
       "status": "pending"
     },
     {
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 200.0,
-      "reached": 163.0,
-      "missing": 37.0,
-      "percent": 81.5
+      "reached": 171.0,
+      "missing": 29.0,
+      "percent": 85.5
     },
     {
       "name": "Semana 4",
