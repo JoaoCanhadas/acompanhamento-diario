@@ -1,83 +1,28 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "22/07/2026 14:26",
+  "lastModified": "22/07/2026 14:47",
   "summary": {
     "commitment": 758.0,
-    "reached": 355.0,
-    "missing": 403.0,
-    "percent": 46.8,
+    "reached": 570.0,
+    "missing": 188.0,
+    "percent": 75.2,
     "weekGoal": 200.0,
-    "weekRevenue": 79.0,
-    "weekMissing": 121.0,
-    "weekPercent": 39.5,
+    "weekRevenue": 119.0,
+    "weekMissing": 81.0,
+    "weekPercent": 59.5,
     "positiveCount": 0,
     "pendingCount": 17
   },
   "rows": [
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 59.0,
-      "reached": 0.0,
-      "missing": 59.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 55.0,
-      "reached": 0.0,
-      "missing": 55.0,
+      "reached": 36.0,
+      "missing": 19.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 49.0,
-      "reached": 0.0,
-      "missing": 49.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 39.0,
-      "reached": 0.0,
-      "missing": 39.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 36.0,
-      "reached": 0.0,
-      "missing": 36.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "VALE",
-      "seller": "SJC/VALE",
-      "commitment": 35.0,
-      "reached": 0.0,
-      "missing": 35.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
+      "percent": 65.5,
       "status": "pending"
     },
     {
@@ -147,6 +92,28 @@
       "status": "pending"
     },
     {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 36.0,
+      "reached": 23.0,
+      "missing": 13.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 63.9,
+      "status": "pending"
+    },
+    {
+      "reference": "VALE",
+      "seller": "SJC/VALE",
+      "commitment": 35.0,
+      "reached": 23.0,
+      "missing": 12.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.7,
+      "status": "pending"
+    },
+    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 52.0,
@@ -166,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 78.0,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 59.0,
+      "reached": 50.0,
+      "missing": 9.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 84.7,
       "status": "pending"
     },
     {
@@ -191,6 +169,28 @@
       "status": "pending"
     },
     {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 39.0,
+      "reached": 35.0,
+      "missing": 4.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 89.7,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 49.0,
+      "reached": 48.0,
+      "missing": 1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 98.0,
+      "status": "pending"
+    },
+    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 61.0,
@@ -207,30 +207,30 @@
     {
       "name": "Semana 1",
       "goal": 200.0,
-      "reached": 79.0,
-      "missing": 121.0,
-      "percent": 39.5
+      "reached": 119.0,
+      "missing": 81.0,
+      "percent": 59.5
     },
     {
       "name": "Semana 2",
       "goal": 200.0,
-      "reached": 132.0,
-      "missing": 68.0,
-      "percent": 66.0
+      "reached": 214.0,
+      "missing": -14.0,
+      "percent": 107.0
     },
     {
       "name": "Semana 3",
       "goal": 200.0,
-      "reached": 189.0,
-      "missing": 11.0,
-      "percent": 94.5
+      "reached": 294.0,
+      "missing": -94.0,
+      "percent": 147.0
     },
     {
       "name": "Semana 4",
       "goal": 200.0,
-      "reached": 112.0,
-      "missing": 88.0,
-      "percent": 56.0
+      "reached": 183.0,
+      "missing": 17.0,
+      "percent": 91.5
     },
     {
       "name": "Semana 5",
