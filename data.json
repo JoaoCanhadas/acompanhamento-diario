@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "22/07/2026 14:26",
+  "lastModified": "22/07/2026 14:47",
   "summary": {
     "commitment": 150000.0,
-    "reached": 92787.07,
-    "missing": 57212.93,
-    "percent": 61.9,
+    "reached": 93987.07,
+    "missing": 56012.93,
+    "percent": 62.7,
     "weekGoal": 700000.0,
     "weekRevenue": 270334.04,
     "weekMissing": 429665.96,
@@ -51,22 +51,11 @@
       "seller": "NORTE",
       "reference": "NORTE",
       "commitment": 11960.0,
-      "reached": 6785.77,
-      "missing": 5174.23,
+      "reached": 7244.07,
+      "missing": 4715.93,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 56.7,
-      "status": "pending"
-    },
-    {
-      "seller": "CENTRO",
-      "reference": "CENTRO",
-      "commitment": 15000.0,
-      "reached": 10024.62,
-      "missing": 4975.38,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.8,
+      "percent": 60.6,
       "status": "pending"
     },
     {
@@ -81,14 +70,25 @@
       "status": "pending"
     },
     {
+      "seller": "CENTRO",
+      "reference": "CENTRO",
+      "commitment": 15000.0,
+      "reached": 10594.42,
+      "missing": 4405.58,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.6,
+      "status": "pending"
+    },
+    {
       "seller": "LESTE",
       "reference": "LESTE",
       "commitment": 6840.0,
-      "reached": 3369.55,
-      "missing": 3470.45,
+      "reached": 3541.45,
+      "missing": 3298.55,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 49.3,
+      "percent": 51.8,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 700000.0,
-      "reached": 430698.24,
-      "missing": 269301.76,
-      "percent": 61.5
+      "reached": 431898.24,
+      "missing": 268101.76,
+      "percent": 61.7
     },
     {
       "name": "Semana 5",
