@@ -1,28 +1,28 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "22/07/2026 11:36",
+  "lastModified": "22/07/2026 12:08",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 3617775.02,
-    "missing": 1974724.98,
-    "percent": 64.7,
+    "reached": 3626171.32,
+    "missing": 1966328.68,
+    "percent": 64.8,
     "weekGoal": 390750.0,
     "weekRevenue": 545683.8,
     "weekMissing": -154933.8,
     "weekPercent": 139.7,
-    "positiveCount": 3,
-    "pendingCount": 24
+    "positiveCount": 2,
+    "pendingCount": 25
   },
   "rows": [
     {
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 950000.0,
-      "reached": 518079.7,
-      "missing": 431920.3,
+      "reached": 516869.3,
+      "missing": 433130.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 54.5,
+      "percent": 54.4,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 172081.79,
-      "missing": 100918.21,
+      "reached": 173776.34,
+      "missing": 99223.66,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 63.0,
+      "percent": 63.7,
       "status": "pending"
     },
     {
@@ -117,22 +117,22 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 325000.0,
-      "reached": 255197.0,
-      "missing": 69803.0,
+      "reached": 257828.4,
+      "missing": 67171.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.5,
+      "percent": 79.3,
       "status": "pending"
     },
     {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 126381.53,
-      "missing": 68618.47,
+      "reached": 131494.31,
+      "missing": 63505.69,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 64.8,
+      "percent": 67.4,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
-      "reached": 110932.86,
-      "missing": 56067.14,
+      "reached": 113353.06,
+      "missing": 53646.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 66.4,
+      "percent": 67.9,
       "status": "pending"
     },
     {
@@ -238,11 +238,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
-      "reached": 50497.23,
-      "missing": 27502.77,
+      "reached": 51280.28,
+      "missing": 26719.72,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 64.7,
+      "percent": 65.7,
       "status": "pending"
     },
     {
@@ -271,11 +271,22 @@
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 73000.0,
-      "reached": 52206.95,
-      "missing": 20793.05,
+      "reached": 52543.4,
+      "missing": 20456.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 71.5,
+      "percent": 72.0,
+      "status": "pending"
+    },
+    {
+      "reference": "ECOMMERCE",
+      "seller": "IATAGAM JUNIOR",
+      "commitment": 1000.0,
+      "reached": 151.09,
+      "missing": 848.91,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 15.1,
       "status": "pending"
     },
     {
@@ -290,25 +301,14 @@
       "status": "ok"
     },
     {
-      "reference": "ECOMMERCE",
-      "seller": "IATAGAM JUNIOR",
-      "commitment": 1000.0,
-      "reached": 4733.22,
-      "missing": -3733.22,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 473.3,
-      "status": "ok"
-    },
-    {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 170000.0,
-      "reached": 262775.0,
-      "missing": -92775.0,
+      "reached": 263985.4,
+      "missing": -93985.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 154.6,
+      "percent": 155.3,
       "status": "ok"
     }
   ],
@@ -338,9 +338,9 @@
     {
       "name": "Semana 4",
       "goal": 651250.0,
-      "reached": 576026.06,
-      "missing": 75223.94,
-      "percent": 88.4
+      "reached": 584422.36,
+      "missing": 66827.64,
+      "percent": 89.7
     },
     {
       "name": "Semana 5",
