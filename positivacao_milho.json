@@ -1,6 +1,6 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "22/07/2026 14:47",
+  "lastModified": "22/07/2026 16:15",
   "summary": {
     "commitment": 758.0,
     "reached": 570.0,
@@ -18,11 +18,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 55.0,
-      "reached": 36.0,
-      "missing": 19.0,
+      "reached": 35.0,
+      "missing": 20.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 65.5,
+      "percent": 63.6,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 40.0,
-      "reached": 26.0,
-      "missing": 14.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 65.0,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 36.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 63.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 40.0,
+      "reached": 27.0,
+      "missing": 13.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 67.5,
       "status": "pending"
     },
     {
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 200.0,
-      "reached": 183.0,
-      "missing": 17.0,
-      "percent": 91.5
+      "reached": 184.0,
+      "missing": 16.0,
+      "percent": 92.0
     },
     {
       "name": "Semana 5",
