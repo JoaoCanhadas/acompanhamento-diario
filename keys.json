@@ -1,10 +1,10 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "23/07/2026 08:37",
+  "lastModified": "23/07/2026 10:42",
   "summary": {
     "commitment": 0.0,
-    "reached": 1217.6,
-    "missing": -1217.6,
+    "reached": 24029.34,
+    "missing": -24029.34,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
@@ -26,30 +26,8 @@
       "status": "ok"
     },
     {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
       "commitment": 0.0,
       "reached": 0.0,
       "missing": 0.0,
@@ -81,11 +59,33 @@
       "status": "ok"
     },
     {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 0.0,
+      "reached": 3534.2,
+      "missing": -3534.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 0.0,
+      "reached": 4583.44,
+      "missing": -4583.44,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 0.0,
-      "reached": 1217.6,
-      "missing": -1217.6,
+      "reached": 15911.7,
+      "missing": -15911.7,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -118,9 +118,9 @@
     {
       "name": "Semana 4",
       "goal": 619318.18,
-      "reached": 550898.81,
-      "missing": 68419.37,
-      "percent": 89.0
+      "reached": 590236.75,
+      "missing": 29081.43,
+      "percent": 95.3
     },
     {
       "name": "Semana 5",
