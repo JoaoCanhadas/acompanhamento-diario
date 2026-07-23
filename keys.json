@@ -1,10 +1,10 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "23/07/2026 10:42",
+  "lastModified": "23/07/2026 11:57",
   "summary": {
     "commitment": 0.0,
-    "reached": 24029.34,
-    "missing": -24029.34,
+    "reached": 40559.59,
+    "missing": -40559.59,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
@@ -48,17 +48,6 @@
       "status": "ok"
     },
     {
-      "reference": "KEY CASA",
-      "seller": "KEY CASA",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 0.0,
@@ -70,11 +59,11 @@
       "status": "ok"
     },
     {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
+      "reference": "KEY CASA",
+      "seller": "KEY CASA",
       "commitment": 0.0,
-      "reached": 4583.44,
-      "missing": -4583.44,
+      "reached": 4507.2,
+      "missing": -4507.2,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -86,6 +75,17 @@
       "commitment": 0.0,
       "reached": 15911.7,
       "missing": -15911.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 0.0,
+      "reached": 16606.49,
+      "missing": -16606.49,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -111,16 +111,16 @@
     {
       "name": "Semana 3",
       "goal": 619318.18,
-      "reached": 685907.55,
-      "missing": -66589.37,
-      "percent": 110.8
+      "reached": 684697.15,
+      "missing": -65378.97,
+      "percent": 110.6
     },
     {
       "name": "Semana 4",
       "goal": 619318.18,
-      "reached": 590236.75,
-      "missing": 29081.43,
-      "percent": 95.3
+      "reached": 606767.0,
+      "missing": 12551.18,
+      "percent": 98.0
     },
     {
       "name": "Semana 5",
