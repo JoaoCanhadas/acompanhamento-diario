@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "23/07/2026 10:42",
+  "lastModified": "23/07/2026 11:57",
   "summary": {
     "commitment": 758.0,
-    "reached": 584.0,
-    "missing": 174.0,
-    "percent": 77.0,
+    "reached": 587.0,
+    "missing": 171.0,
+    "percent": 77.4,
     "weekGoal": 200.0,
     "weekRevenue": 119.0,
     "weekMissing": 81.0,
@@ -51,11 +51,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37.0,
-      "reached": 21.0,
-      "missing": 16.0,
+      "reached": 22.0,
+      "missing": 15.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 56.8,
+      "percent": 59.5,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 59.0,
-      "reached": 50.0,
-      "missing": 9.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 84.7,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 52.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 82.9,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 59.0,
+      "reached": 52.0,
+      "missing": 7.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 88.1,
       "status": "pending"
     },
     {
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 200.0,
-      "reached": 202.0,
-      "missing": -2.0,
-      "percent": 101.0
+      "reached": 212.0,
+      "missing": -12.0,
+      "percent": 106.0
     },
     {
       "name": "Semana 5",
