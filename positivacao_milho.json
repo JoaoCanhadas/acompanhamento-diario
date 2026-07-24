@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "24/07/2026 13:15",
+  "lastModified": "24/07/2026 14:14",
   "summary": {
     "commitment": 758.0,
-    "reached": 619.0,
-    "missing": 139.0,
-    "percent": 81.7,
+    "reached": 620.0,
+    "missing": 138.0,
+    "percent": 81.8,
     "weekGoal": 200.0,
     "weekRevenue": 119.0,
     "weekMissing": 81.0,
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
-      "commitment": 51.0,
-      "reached": 41.0,
-      "missing": 10.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.4,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 36.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 75.0,
+      "status": "pending"
+    },
+    {
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "commitment": 51.0,
+      "reached": 42.0,
+      "missing": 9.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 82.4,
       "status": "pending"
     },
     {
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 200.0,
-      "reached": 264.0,
-      "missing": -64.0,
-      "percent": 132.0
+      "reached": 268.0,
+      "missing": -68.0,
+      "percent": 134.0
     },
     {
       "name": "Semana 5",
