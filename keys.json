@@ -1,10 +1,10 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "24/07/2026 07:10",
+  "lastModified": "24/07/2026 09:26",
   "summary": {
     "commitment": 0.0,
-    "reached": 0.0,
-    "missing": 0.0,
+    "reached": 4793.2,
+    "missing": -4793.2,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
@@ -28,17 +28,6 @@
     {
       "reference": "KEY PIRACICABA",
       "seller": "PIRACICABA",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
       "commitment": 0.0,
       "reached": 0.0,
       "missing": 0.0,
@@ -90,6 +79,17 @@
       "difference": 0.0,
       "percent": 0,
       "status": "ok"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 0.0,
+      "reached": 4793.2,
+      "missing": -4793.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -118,9 +118,9 @@
     {
       "name": "Semana 4",
       "goal": 619318.18,
-      "reached": 650081.9,
-      "missing": -30763.72,
-      "percent": 105.0
+      "reached": 654875.1,
+      "missing": -35556.92,
+      "percent": 105.7
     },
     {
       "name": "Semana 5",
