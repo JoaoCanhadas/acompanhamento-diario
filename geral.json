@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "24/07/2026 14:14",
+  "lastModified": "24/07/2026 15:02",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4303049.2,
-    "missing": 1289450.8,
-    "percent": 76.9,
+    "reached": 4306197.7,
+    "missing": 1286302.3,
+    "percent": 77.0,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -84,11 +84,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 318500.0,
-      "reached": 249627.99,
-      "missing": 68872.01,
+      "reached": 249957.91,
+      "missing": 68542.09,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.4,
+      "percent": 78.5,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 144901.16,
-      "missing": 50098.84,
+      "reached": 145926.96,
+      "missing": 49073.04,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.3,
+      "percent": 74.8,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "PENHA",
       "seller": "LESTE PENHA",
       "commitment": 140000.0,
-      "reached": 98763.68,
-      "missing": 41236.32,
+      "reached": 98883.58,
+      "missing": 41116.42,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 70.5,
+      "percent": 70.6,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 90000.0,
-      "reached": 53231.21,
-      "missing": 36768.79,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 59.1,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
@@ -213,25 +202,36 @@
       "status": "pending"
     },
     {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 90000.0,
+      "reached": 53511.01,
+      "missing": 36488.99,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 59.5,
+      "status": "pending"
+    },
+    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 134500.0,
-      "reached": 100773.35,
-      "missing": 33726.65,
+      "reached": 101953.75,
+      "missing": 32546.25,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.9,
+      "percent": 75.8,
       "status": "pending"
     },
     {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
-      "reached": 55853.92,
-      "missing": 22146.08,
+      "reached": 56056.6,
+      "missing": 21943.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 71.6,
+      "percent": 71.9,
       "status": "pending"
     },
     {
@@ -249,8 +249,8 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 55000.0,
-      "reached": 33544.44,
-      "missing": 21455.56,
+      "reached": 33554.44,
+      "missing": 21445.56,
       "average": 0.0,
       "difference": 0.0,
       "percent": 61.0,
@@ -338,9 +338,9 @@
     {
       "name": "Semana 4",
       "goal": 1270795.45,
-      "reached": 1269654.28,
-      "missing": 1141.17,
-      "percent": 99.9
+      "reached": 1272802.78,
+      "missing": -2007.33,
+      "percent": 100.2
     },
     {
       "name": "Semana 5",
