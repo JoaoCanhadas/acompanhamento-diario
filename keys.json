@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "27/07/2026 11:55",
+  "lastModified": "27/07/2026 13:17",
   "summary": {
     "commitment": 0.0,
-    "reached": 2256716.12,
-    "missing": -2256716.12,
+    "reached": 60695.48,
+    "missing": -60695.48,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
@@ -15,44 +15,22 @@
   },
   "rows": [
     {
-      "reference": "KEY PIRACICABA",
-      "seller": "PIRACICABA",
-      "commitment": 0.0,
-      "reached": 107460.08,
-      "missing": -107460.08,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 0.0,
-      "reached": 127140.1,
-      "missing": -127140.1,
+      "reached": 0.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
       "status": "ok"
     },
     {
-      "reference": "KEY CASA",
-      "seller": "KEY CASA",
+      "reference": "KEY PIRACICABA",
+      "seller": "PIRACICABA",
       "commitment": 0.0,
-      "reached": 270422.68,
-      "missing": -270422.68,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
-      "commitment": 0.0,
-      "reached": 275080.62,
-      "missing": -275080.62,
+      "reached": 1724.0,
+      "missing": -1724.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -62,19 +40,8 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 0.0,
-      "reached": 279492.74,
-      "missing": -279492.74,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 0.0,
-      "reached": 335556.3,
-      "missing": -335556.3,
+      "reached": 7118.08,
+      "missing": -7118.08,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -84,8 +51,41 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 0.0,
-      "reached": 861563.6,
-      "missing": -861563.6,
+      "reached": 8959.8,
+      "missing": -8959.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY CASA",
+      "seller": "KEY CASA",
+      "commitment": 0.0,
+      "reached": 9921.6,
+      "missing": -9921.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 0.0,
+      "reached": 14424.0,
+      "missing": -14424.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 0.0,
+      "reached": 18548.0,
+      "missing": -18548.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -125,9 +125,9 @@
     {
       "name": "Semana 5",
       "goal": 619318.18,
-      "reached": 48695.6,
-      "missing": 570622.58,
-      "percent": 7.9
+      "reached": 60695.48,
+      "missing": 558622.7,
+      "percent": 9.8
     }
   ]
 }
