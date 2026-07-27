@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "27/07/2026 15:38",
+  "lastModified": "27/07/2026 15:39",
   "summary": {
     "commitment": 300000.0,
-    "reached": 230364.55,
-    "missing": 69635.45,
-    "percent": 76.8,
+    "reached": 231004.2,
+    "missing": 68995.8,
+    "percent": 77.0,
     "weekGoal": 700000.0,
     "weekRevenue": 270442.18,
     "weekMissing": 429557.82,
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 13570.0,
-      "reached": 6460.0,
-      "missing": 7110.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.6,
-      "status": "pending"
-    },
-    {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 17000.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 59.3,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 13570.0,
+      "reached": 6749.9,
+      "missing": 6820.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 49.7,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 7700.0,
-      "reached": 8398.86,
-      "missing": -698.86,
+      "reached": 8748.61,
+      "missing": -1048.61,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 109.1,
+      "percent": 113.6,
       "status": "ok"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 700000.0,
-      "reached": 230364.55,
-      "missing": 469635.45,
-      "percent": 32.9
+      "reached": 231004.2,
+      "missing": 468995.8,
+      "percent": 33.0
     }
   ]
 }
