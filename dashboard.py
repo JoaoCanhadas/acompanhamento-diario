@@ -2042,8 +2042,16 @@ def read_legacy_excel_dashboard_data():
     }
 
 
+def read_sql_panel(panel):
+    try:
+        return sensum_sql.read_panel(panel)
+    except Exception as exc:
+        print(f"[SQL] Falha ao ler painel {panel}; usando fallback local: {exc}")
+        return None
+
+
 def read_dashboard_data():
-    sql_data = sensum_sql.read_panel("sales")
+    sql_data = read_sql_panel("sales")
     if sql_data:
         return apply_weekly_goals(sql_data)
 
@@ -2059,7 +2067,7 @@ def read_dashboard_data():
 
 
 def read_positivacao_milho_data():
-    sql_data = sensum_sql.read_panel("milho")
+    sql_data = read_sql_panel("milho")
     if sql_data:
         return sql_data
 
@@ -2078,7 +2086,7 @@ def read_positivacao_milho_data():
 
 
 def read_general_data():
-    sql_data = sensum_sql.read_panel("general")
+    sql_data = read_sql_panel("general")
     if sql_data:
         return sql_data
 
@@ -2097,7 +2105,7 @@ def read_general_data():
 
 
 def read_keys_data():
-    sql_data = sensum_sql.read_panel("keys")
+    sql_data = read_sql_panel("keys")
     if sql_data:
         return sql_data
 
@@ -2132,7 +2140,7 @@ class DashboardHandler(BaseHTTPRequestHandler):
             return
         if parsed.path == "/api/data":
             try:
-                data = read_published_payload(DATA_PATH, weekly_goals=True) or read_dashboard_data()
+                data = read_dashboard_data()
                 payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
@@ -2145,7 +2153,7 @@ class DashboardHandler(BaseHTTPRequestHandler):
             return
         if parsed.path == "/api/positivacao-milho":
             try:
-                data = read_published_payload(POSITIVACAO_MILHO_DATA_PATH) or read_positivacao_milho_data()
+                data = read_positivacao_milho_data()
                 payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
@@ -2158,7 +2166,7 @@ class DashboardHandler(BaseHTTPRequestHandler):
             return
         if parsed.path == "/api/geral":
             try:
-                data = read_published_payload(GERAL_DATA_PATH) or read_general_data()
+                data = read_general_data()
                 payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
@@ -2171,7 +2179,7 @@ class DashboardHandler(BaseHTTPRequestHandler):
             return
         if parsed.path == "/api/keys":
             try:
-                data = read_published_payload(KEYS_DATA_PATH) or read_keys_data()
+                data = read_keys_data()
                 payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
