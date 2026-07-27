@@ -44,10 +44,10 @@ Write-Host ""
 
 $Server = Read-Host "Servidor SQL"
 $Database = Read-Host "Banco de dados"
-$User = Read-Host "Usuario SQL"
+$User = Read-Default "Usuario SQL" "powerbi"
 $Password = Secure-To-Text (Read-Host "Senha SQL" -AsSecureString)
 $Port = Read-Default "Porta SQL" "1433"
-$View = Read-Default "View de pedidos" "dbo.VIW_IATAGEM_PEDIDO"
+$View = Read-Default "View de pedidos" "dbo.VIW_IATAGAM_PEDIDO"
 $Area = Read-Default "Area/filtro" "IATAGAM"
 
 if ([string]::IsNullOrWhiteSpace($Server) -or
