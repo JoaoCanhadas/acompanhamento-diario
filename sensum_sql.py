@@ -14,6 +14,13 @@ PANEL_JSON = {
     "milho": BASE_DIR / "positivacao_milho.json",
 }
 
+PANEL_TEMPLATE_JSON = {
+    "sales": BASE_DIR / "template_data.json",
+    "general": BASE_DIR / "template_geral.json",
+    "keys": BASE_DIR / "template_keys.json",
+    "milho": BASE_DIR / "template_positivacao_milho.json",
+}
+
 
 PANEL_CONFIG = {
     "sales": {
@@ -114,7 +121,7 @@ def read_pedido_panel(panel):
 
 def query_pedido_reached(panel):
     select_name, where_extra, aggregate = pedido_panel_sql(panel)
-    start_date, end_date = period_range()
+    start_date, end_date = reached_period_range(panel)
     view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGEM_PEDIDO")
     area_filter = os.environ.get("SENSUM_SQL_AREA", "IATAGAM")
     date_expr = pedido_date_expr()
@@ -215,7 +222,7 @@ def pedido_date_expr():
 
 
 def sales_filter_sql():
-    value = os.environ.get("SENSUM_SQL_SALES_FILTER", "")
+    value = os.environ.get("SENSUM_SQL_SALES_FILTER", "UPPER(REGIAO) NOT LIKE 'KEY%'")
     return f" AND ({value})" if value else ""
 
 
@@ -230,7 +237,7 @@ def keys_filter_sql():
 def milho_filter_sql():
     value = os.environ.get(
         "SENSUM_SQL_MILHO_FILTER",
-        "UPPER(GRUPO) LIKE '%MILHO%' OR UPPER(PRODUTO) LIKE '%MILHO%'",
+        "(UPPER(GRUPO) LIKE '%BRIOCHE%' OR UPPER(PRODUTO) LIKE '%BRIOCHE%') AND UPPER(REGIAO) NOT LIKE 'KEY%'",
     )
     return f" AND ({value})" if value else ""
 
@@ -250,8 +257,27 @@ def period_range():
     return start, end
 
 
+def reached_period_range(panel):
+    if panel in {"sales", "keys"}:
+        return current_week_range()
+    return period_range()
+
+
+def current_week_range():
+    month_start, month_end = period_range()
+    today = datetime.now()
+    year = int(os.environ.get("SENSUM_SQL_YEAR", today.year))
+    month = int(os.environ.get("SENSUM_SQL_MONTH", today.month))
+    day = int(os.environ.get("SENSUM_SQL_UNTIL_DAY", today.day))
+    current = datetime(year, month, day)
+    week_start = current - timedelta(days=current.weekday())
+    return max(month_start, week_start), min(month_end, current + timedelta(days=1))
+
+
 def load_template(panel):
-    path = PANEL_JSON[panel]
+    path = PANEL_TEMPLATE_JSON.get(panel, PANEL_JSON[panel])
+    if not path.exists():
+        path = PANEL_JSON[panel]
     if not path.exists():
         return {"summary": {}, "rows": [], "weeks": []}
     return json.loads(path.read_text(encoding="utf-8"))
@@ -283,6 +309,9 @@ def merge_template_rows(panel, template, reached_rows):
                 "status": "ok" if missing <= 0 else "pending",
             }
         )
+
+    if template_rows:
+        return rows
 
     known_names = {normalize_name(item.get("seller")) for item in rows}
     known_refs = {normalize_name(item.get("reference")) for item in rows}
