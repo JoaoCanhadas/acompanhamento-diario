@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "27/07/2026 14:42",
+  "lastModified": "27/07/2026 14:43",
   "summary": {
     "commitment": 300000.0,
-    "reached": 224009.75,
-    "missing": 75990.25,
-    "percent": 74.7,
+    "reached": 224360.45,
+    "missing": 75639.55,
+    "percent": 74.8,
     "weekGoal": 700000.0,
     "weekRevenue": 270442.18,
     "weekMissing": 429557.82,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "VALE",
-      "seller": "SJC/VALE",
-      "commitment": 7010.0,
-      "reached": 2626.08,
-      "missing": 4383.92,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 37.5,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "LESTE PENHA",
       "commitment": 16330.0,
@@ -114,6 +103,28 @@
       "status": "pending"
     },
     {
+      "reference": "VALE",
+      "seller": "SJC/VALE",
+      "commitment": 7010.0,
+      "reached": 3105.78,
+      "missing": 3904.22,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 44.3,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 26910.0,
+      "reached": 23278.29,
+      "missing": 3631.71,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 86.5,
+      "status": "pending"
+    },
+    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 21560.0,
@@ -122,17 +133,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 83.6,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 26910.0,
-      "reached": 23407.29,
-      "missing": 3502.71,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 87.0,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 700000.0,
-      "reached": 224009.74,
-      "missing": 475990.26,
-      "percent": 32.0
+      "reached": 224360.45,
+      "missing": 475639.55,
+      "percent": 32.1
     }
   ]
 }
