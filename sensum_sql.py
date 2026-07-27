@@ -58,6 +58,34 @@ def enabled():
     )
 
 
+def status():
+    if not enabled():
+        return {
+            "mode": "json-fallback",
+            "sqlEnabled": False,
+            "sqlOk": False,
+            "message": "Variaveis SQL nao configuradas.",
+        }
+
+    try:
+        view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGEM_PEDIDO")
+        rows = sql_fetch(f"SELECT TOP 1 1 AS ok FROM {view_name}")
+        return {
+            "mode": "sql-live",
+            "sqlEnabled": True,
+            "sqlOk": bool(rows),
+            "view": view_name,
+            "message": "Conexao SQL ativa.",
+        }
+    except Exception as exc:
+        return {
+            "mode": "json-fallback",
+            "sqlEnabled": True,
+            "sqlOk": False,
+            "message": str(exc),
+        }
+
+
 def read_panel(panel):
     if not enabled():
         return None
