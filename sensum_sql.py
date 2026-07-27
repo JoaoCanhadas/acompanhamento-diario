@@ -40,7 +40,15 @@ PANEL_CONFIG = {
 
 
 def enabled():
-    return bool(os.environ.get("SENSUM_SQL_CONNECTION_STRING"))
+    return bool(
+        os.environ.get("SENSUM_SQL_CONNECTION_STRING")
+        or (
+            os.environ.get("SENSUM_SQL_SERVER")
+            and os.environ.get("SENSUM_SQL_DATABASE")
+            and os.environ.get("SENSUM_SQL_USER")
+            and os.environ.get("SENSUM_SQL_PASSWORD")
+        )
+    )
 
 
 def read_panel(panel):
@@ -82,22 +90,9 @@ def read_panel(panel):
 
 
 def query_rows(panel):
-    try:
-        import pyodbc
-    except ImportError as exc:
-        raise RuntimeError(
-            "Instale o pyodbc para ler o Sensum SQL: python -m pip install pyodbc"
-        ) from exc
-
-    connection_string = os.environ["SENSUM_SQL_CONNECTION_STRING"]
     view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.vw_acompanhamento_diario")
     sql = f"SELECT * FROM {view_name} WHERE painel = ?"
-
-    with pyodbc.connect(connection_string, timeout=30) as connection:
-        cursor = connection.cursor()
-        cursor.execute(sql, panel)
-        columns = [column[0].lower() for column in cursor.description]
-        return [dict(zip(columns, row)) for row in cursor.fetchall()]
+    return sql_fetch(sql, panel)
 
 
 def read_pedido_panel(panel):
@@ -155,18 +150,48 @@ def query_pedido_weeks(panel):
 
 
 def sql_fetch(sql, *params):
+    connection, driver = open_connection()
     try:
-        import pyodbc
-    except ImportError as exc:
-        raise RuntimeError(
-            "Instale o pyodbc para ler o Sensum SQL: python -m pip install pyodbc"
-        ) from exc
-
-    with pyodbc.connect(os.environ["SENSUM_SQL_CONNECTION_STRING"], timeout=30) as connection:
+        if driver == "pymssql":
+            sql = sql.replace("?", "%s")
         cursor = connection.cursor()
-        cursor.execute(sql, *params)
+        cursor.execute(sql, params)
         columns = [column[0].lower() for column in cursor.description]
         return [dict(zip(columns, row)) for row in cursor.fetchall()]
+    finally:
+        connection.close()
+
+
+def open_connection():
+    connection_string = os.environ.get("SENSUM_SQL_CONNECTION_STRING")
+    if connection_string:
+        try:
+            import pyodbc
+        except ImportError as exc:
+            raise RuntimeError(
+                "Instale o pyodbc para ler o SQL por connection string: python -m pip install pyodbc"
+            ) from exc
+        return pyodbc.connect(connection_string, timeout=30), "pyodbc"
+
+    try:
+        import pymssql
+    except ImportError as exc:
+        raise RuntimeError(
+            "Instale o pymssql para ler o SQL: python -m pip install pymssql"
+        ) from exc
+
+    return (
+        pymssql.connect(
+            server=os.environ["SENSUM_SQL_SERVER"],
+            database=os.environ["SENSUM_SQL_DATABASE"],
+            user=os.environ["SENSUM_SQL_USER"],
+            password=os.environ["SENSUM_SQL_PASSWORD"],
+            port=int(os.environ.get("SENSUM_SQL_PORT", "1433")),
+            login_timeout=30,
+            timeout=30,
+        ),
+        "pymssql",
+    )
 
 
 def pedido_panel_sql(panel):
