@@ -3,7 +3,7 @@
 View criada pelo suporte:
 
 ```sql
-dbo.VIW_IATAGAM_PEDIDO
+dbo.VIW_IATAGEM_PEDIDO
 ```
 
 Essa view traz pedidos linha a linha. O dashboard usa essa view para calcular o realizado/atingido dos paineis.
@@ -45,7 +45,7 @@ $env:SENSUM_SQL_DATABASE="banco"
 $env:SENSUM_SQL_USER="powerbi"
 $env:SENSUM_SQL_PASSWORD="senha"
 $env:SENSUM_SQL_PORT="1433"
-$env:SENSUM_SQL_VIEW="dbo.VIW_IATAGAM_PEDIDO"
+$env:SENSUM_SQL_VIEW="dbo.VIW_IATAGEM_PEDIDO"
 $env:SENSUM_SQL_SOURCE_MODE="pedido"
 $env:SENSUM_SQL_AREA="IATAGAM"
 ```
@@ -60,7 +60,7 @@ Tambem funciona por connection string ODBC, se a maquina tiver driver ODBC:
 
 ```powershell
 $env:SENSUM_SQL_CONNECTION_STRING="DRIVER={ODBC Driver 17 for SQL Server};SERVER=servidor;DATABASE=banco;UID=usuario;PWD=senha;TrustServerCertificate=yes"
-$env:SENSUM_SQL_VIEW="dbo.VIW_IATAGAM_PEDIDO"
+$env:SENSUM_SQL_VIEW="dbo.VIW_IATAGEM_PEDIDO"
 $env:SENSUM_SQL_SOURCE_MODE="pedido"
 $env:SENSUM_SQL_AREA="IATAGAM"
 python exportar_dados.py
