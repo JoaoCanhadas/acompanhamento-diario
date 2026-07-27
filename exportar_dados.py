@@ -28,7 +28,7 @@ EXPORTS = [
 
 
 def main():
-    print("Lendo Excel e gerando arquivos de dados...\n")
+    print("Lendo fonte de dados e gerando arquivos...\n")
     erros = []
 
     for label, path, reader in EXPORTS:
