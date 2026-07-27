@@ -26,7 +26,7 @@ Os arquivos JSON/Excel ficam apenas como fallback operacional.
 | `REGIAO` | Agrupamento principal dos paineis. |
 | `REP` | Filtro auxiliar para Keys. |
 | `COD_CLIENTE` | Contagem de postivacao por cliente distinto. |
-| `PRODUTO`, `GRUPO` | Filtro de produtos de milho/brioche conforme variavel. |
+| `PRODUTO`, `GRUPO` | Filtro de produtos de brioche/postivacao conforme variavel. |
 | `TOTAL` | Valor realizado dos paineis de faturamento. |
 
 ## Configuracao local
@@ -92,16 +92,16 @@ $env:SENSUM_SQL_UNTIL_DAY="27"
 $env:SENSUM_SQL_SELLER_COLUMN="REGIAO"
 $env:SENSUM_SQL_SALES_FILTER="COD_TIPO_OPERACAO IN (1,2,3)"
 $env:SENSUM_SQL_KEYS_FILTER="UPPER(REGIAO) LIKE 'KEY%' OR UPPER(REP) LIKE 'KEY%'"
-$env:SENSUM_SQL_MILHO_FILTER="UPPER(GRUPO) LIKE '%MILHO%' OR UPPER(PRODUTO) LIKE '%MILHO%'"
+$env:SENSUM_SQL_MILHO_FILTER="(UPPER(GRUPO) LIKE '%BRIOCHE%' OR UPPER(PRODUTO) LIKE '%BRIOCHE%') AND UPPER(REGIAO) NOT LIKE 'KEY%'"
 $env:SENSUM_SQL_MILHO_METRIC="COUNT(DISTINCT COD_CLIENTE)"
 ```
 
 ## Regras atuais
 
-- `sales`: soma `TOTAL`, agrupado por `REGIAO` por padrao.
+- `sales`: soma `TOTAL` da semana atual, agrupado por `REGIAO`, excluindo regioes Key por padrao.
 - `general`: soma `TOTAL`, agrupado por `REGIAO`.
-- `keys`: soma `TOTAL`, filtrando `REGIAO` ou `REP` iniciando com `KEY`.
-- `milho`: conta `COUNT(DISTINCT COD_CLIENTE)`, filtrando `GRUPO` ou `PRODUTO` contendo `MILHO` por padrao.
+- `keys`: soma `TOTAL` da semana atual, filtrando `REGIAO` ou `REP` iniciando com `KEY`.
+- `milho`: conta `COUNT(DISTINCT COD_CLIENTE)`, filtrando `GRUPO` ou `PRODUTO` contendo `BRIOCHE` e excluindo regioes Key por padrao.
 - O realizado/atingido vem do SQL em tempo real quando as variaveis estiverem configuradas.
 - As metas continuam vindo dos JSONs atuais enquanto nao existir tabela/view de metas no Sensum.
 
