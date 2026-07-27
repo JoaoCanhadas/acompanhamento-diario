@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "27/07/2026 15:14",
+  "lastModified": "27/07/2026 15:16",
   "summary": {
     "commitment": 300000.0,
-    "reached": 227348.0,
-    "missing": 72652.0,
-    "percent": 75.8,
+    "reached": 229644.5,
+    "missing": 70355.5,
+    "percent": 76.5,
     "weekGoal": 700000.0,
     "weekRevenue": 270442.18,
     "weekMissing": 429557.82,
@@ -14,17 +14,6 @@
     "pendingCount": 17
   },
   "rows": [
-    {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 13570.0,
-      "reached": 4963.0,
-      "missing": 8607.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 36.6,
-      "status": "pending"
-    },
     {
       "reference": "OSASCO",
       "seller": "OSASCO",
@@ -37,6 +26,17 @@
       "status": "pending"
     },
     {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 13570.0,
+      "reached": 6460.0,
+      "missing": 7110.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 47.6,
+      "status": "pending"
+    },
+    {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 17000.0,
@@ -45,17 +45,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 59.3,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 15000.0,
-      "reached": 8690.38,
-      "missing": 6309.62,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 57.9,
       "status": "pending"
     },
     {
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 64.3,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 15000.0,
+      "reached": 9489.88,
+      "missing": 5510.12,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 63.3,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 700000.0,
-      "reached": 227348.0,
-      "missing": 472652.0,
-      "percent": 32.5
+      "reached": 229644.5,
+      "missing": 470355.5,
+      "percent": 32.8
     }
   ]
 }
