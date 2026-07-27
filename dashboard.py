@@ -886,7 +886,8 @@ INDEX_HTML = r"""<!doctype html>
       setText("tableTitle", config.title);
       setText("commitmentLabel", config.commitmentLabel);
       setText("commitmentHint", config.commitmentHint);
-      setText("commitment", config.format(summary.commitment));
+      const commitmentValue = activeView === "keys" ? summary.weekGoal : summary.commitment;
+      setText("commitment", config.format(commitmentValue));
       setText("reached", config.format(summary.reached));
       setText("missing", formatBalance(summary.missing, config.format));
       byId("missing").className = `value ${moneyClass(summary.missing)}`;
