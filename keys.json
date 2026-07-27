@@ -1,10 +1,10 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "27/07/2026 09:02",
+  "lastModified": "27/07/2026 10:38",
   "summary": {
     "commitment": 0.0,
-    "reached": 4507.2,
-    "missing": -4507.2,
+    "reached": 13999.6,
+    "missing": -13999.6,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
@@ -48,17 +48,6 @@
       "status": "ok"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 0.0,
@@ -84,8 +73,19 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 0.0,
-      "reached": 4507.2,
-      "missing": -4507.2,
+      "reached": 5039.8,
+      "missing": -5039.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 0.0,
+      "reached": 8959.8,
+      "missing": -8959.8,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -125,9 +125,9 @@
     {
       "name": "Semana 5",
       "goal": 619318.18,
-      "reached": 4507.2,
-      "missing": 614810.98,
-      "percent": 0.7
+      "reached": 13999.6,
+      "missing": 605318.58,
+      "percent": 2.3
     }
   ]
 }
