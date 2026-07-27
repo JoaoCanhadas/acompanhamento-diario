@@ -1,10 +1,10 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "27/07/2026 10:38",
+  "lastModified": "27/07/2026 11:44",
   "summary": {
     "commitment": 0.0,
-    "reached": 13999.6,
-    "missing": -13999.6,
+    "reached": 46179.0,
+    "missing": -46179.0,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
@@ -15,30 +15,8 @@
   },
   "rows": [
     {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY PIRACICABA",
       "seller": "PIRACICABA",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
       "commitment": 0.0,
       "reached": 0.0,
       "missing": 0.0,
@@ -90,6 +68,28 @@
       "difference": 0.0,
       "percent": 0,
       "status": "ok"
+    },
+    {
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 0.0,
+      "reached": 14424.0,
+      "missing": -14424.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 0.0,
+      "reached": 17755.4,
+      "missing": -17755.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -125,9 +125,9 @@
     {
       "name": "Semana 5",
       "goal": 619318.18,
-      "reached": 13999.6,
-      "missing": 605318.58,
-      "percent": 2.3
+      "reached": 47903.0,
+      "missing": 571415.18,
+      "percent": 7.7
     }
   ]
 }
