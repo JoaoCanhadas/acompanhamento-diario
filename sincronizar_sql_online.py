@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import base64
 import json
+import os
 import subprocess
 import sys
 import time
@@ -20,6 +21,18 @@ FILES_TO_SYNC = [
     "keys.json",
     "positivacao_milho.json",
 ]
+
+
+def load_env_file():
+    env_path = BASE_DIR / ".env"
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        name, value = line.split("=", 1)
+        os.environ[name.strip()] = value.strip()
 
 
 def gh_api(*args, stdin_data=None):
@@ -127,6 +140,7 @@ def sync_once():
 
 
 def main():
+    load_env_file()
     parser = argparse.ArgumentParser(description="Sincroniza SQL local com o dashboard online.")
     parser.add_argument("--once", action="store_true", help="Executa uma sincronizacao e sai.")
     parser.add_argument("--interval", type=int, default=60, help="Intervalo em segundos.")
