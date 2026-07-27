@@ -115,7 +115,7 @@ def read_pedido_panel(panel):
 def query_pedido_reached(panel):
     select_name, where_extra, aggregate = pedido_panel_sql(panel)
     start_date, end_date = period_range()
-    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGEM_PEDIDO")
+    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGAM_PEDIDO")
     area_filter = os.environ.get("SENSUM_SQL_AREA", "IATAGAM")
     sql = f"""
         SELECT
@@ -133,7 +133,7 @@ def query_pedido_reached(panel):
 def query_pedido_weeks(panel):
     _, where_extra, aggregate = pedido_panel_sql(panel)
     start_date, end_date = period_range()
-    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGEM_PEDIDO")
+    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGAM_PEDIDO")
     area_filter = os.environ.get("SENSUM_SQL_AREA", "IATAGAM")
     sql = f"""
         SELECT
