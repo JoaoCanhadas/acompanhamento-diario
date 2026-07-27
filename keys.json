@@ -1,10 +1,10 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "27/07/2026 07:19",
+  "lastModified": "27/07/2026 09:02",
   "summary": {
     "commitment": 0.0,
-    "reached": 0.0,
-    "missing": 0.0,
+    "reached": 4507.2,
+    "missing": -4507.2,
     "percent": 0,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
@@ -84,8 +84,8 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
+      "reached": 4507.2,
+      "missing": -4507.2,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -118,16 +118,16 @@
     {
       "name": "Semana 4",
       "goal": 619318.18,
-      "reached": 687271.8,
-      "missing": -67953.62,
-      "percent": 111.0
+      "reached": 684913.8,
+      "missing": -65595.62,
+      "percent": 110.6
     },
     {
       "name": "Semana 5",
       "goal": 619318.18,
-      "reached": 0.0,
-      "missing": 619318.18,
-      "percent": 0.0
+      "reached": 4507.2,
+      "missing": 614810.98,
+      "percent": 0.7
     }
   ]
 }
