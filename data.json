@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "27/07/2026 14:16",
+  "lastModified": "27/07/2026 14:34",
   "summary": {
     "commitment": 300000.0,
-    "reached": 224274.8,
-    "missing": 75725.2,
+    "reached": 224464.4,
+    "missing": 75535.6,
     "percent": 74.8,
     "weekGoal": 700000.0,
     "weekRevenue": 270442.18,
@@ -18,22 +18,22 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 13570.0,
-      "reached": 4332.3,
-      "missing": 9237.7,
+      "reached": 4347.0,
+      "missing": 9223.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 31.9,
+      "percent": 32.0,
       "status": "pending"
     },
     {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 25160.0,
-      "reached": 17518.25,
-      "missing": 7641.75,
+      "reached": 17663.25,
+      "missing": 7496.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 69.6,
+      "percent": 70.2,
       "status": "pending"
     },
     {
@@ -51,8 +51,8 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 17000.0,
-      "reached": 10079.73,
-      "missing": 6920.27,
+      "reached": 10084.73,
+      "missing": 6915.27,
       "average": 0.0,
       "difference": 0.0,
       "percent": 59.3,
@@ -139,11 +139,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 13630.0,
-      "reached": 10200.26,
-      "missing": 3429.74,
+      "reached": 10205.16,
+      "missing": 3424.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.8,
+      "percent": 74.9,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 7700.0,
-      "reached": 8378.86,
-      "missing": -678.86,
+      "reached": 8398.86,
+      "missing": -698.86,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 108.8,
+      "percent": 109.1,
       "status": "ok"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 700000.0,
-      "reached": 224274.8,
-      "missing": 475725.2,
-      "percent": 32.0
+      "reached": 224464.4,
+      "missing": 475535.6,
+      "percent": 32.1
     }
   ]
 }
