@@ -2055,21 +2055,25 @@ def read_dashboard_data():
     if sql_data:
         return apply_weekly_goals(sql_data)
 
+    if DATA_PATH.exists():
+        return apply_weekly_goals(json.loads(DATA_PATH.read_text(encoding="utf-8")))
+
     if find_compromisso_workbook():
         return apply_weekly_goals(read_compromisso_maio_data())
 
     if LEGACY_EXCEL_PATH.exists():
         return apply_weekly_goals(read_legacy_excel_dashboard_data())
 
-    if not DATA_PATH.exists():
-        raise FileNotFoundError(f"Arquivo nao encontrado: {DATA_PATH}")
-    return apply_weekly_goals(json.loads(DATA_PATH.read_text(encoding="utf-8")))
+    raise FileNotFoundError(f"Arquivo nao encontrado: {DATA_PATH}")
 
 
 def read_positivacao_milho_data():
     sql_data = read_sql_panel("milho")
     if sql_data:
         return sql_data
+
+    if POSITIVACAO_MILHO_DATA_PATH.exists():
+        return json.loads(POSITIVACAO_MILHO_DATA_PATH.read_text(encoding="utf-8"))
 
     excel_path = find_compromisso_workbook()
     if excel_path:
@@ -2080,15 +2084,16 @@ def read_positivacao_milho_data():
         finally:
             workbook.close()
 
-    if not POSITIVACAO_MILHO_DATA_PATH.exists():
-        raise FileNotFoundError(f"Arquivo nao encontrado: {POSITIVACAO_MILHO_DATA_PATH}")
-    return json.loads(POSITIVACAO_MILHO_DATA_PATH.read_text(encoding="utf-8"))
+    raise FileNotFoundError(f"Arquivo nao encontrado: {POSITIVACAO_MILHO_DATA_PATH}")
 
 
 def read_general_data():
     sql_data = read_sql_panel("general")
     if sql_data:
         return sql_data
+
+    if GERAL_DATA_PATH.exists():
+        return json.loads(GERAL_DATA_PATH.read_text(encoding="utf-8"))
 
     excel_path = find_compromisso_workbook()
     if excel_path:
@@ -2099,15 +2104,16 @@ def read_general_data():
         finally:
             workbook.close()
 
-    if not GERAL_DATA_PATH.exists():
-        raise FileNotFoundError(f"Arquivo nao encontrado: {GERAL_DATA_PATH}")
-    return json.loads(GERAL_DATA_PATH.read_text(encoding="utf-8"))
+    raise FileNotFoundError(f"Arquivo nao encontrado: {GERAL_DATA_PATH}")
 
 
 def read_keys_data():
     sql_data = read_sql_panel("keys")
     if sql_data:
         return sql_data
+
+    if KEYS_DATA_PATH.exists():
+        return json.loads(KEYS_DATA_PATH.read_text(encoding="utf-8"))
 
     excel_path = find_compromisso_workbook()
     if excel_path:
@@ -2118,9 +2124,7 @@ def read_keys_data():
         finally:
             workbook.close()
 
-    if not KEYS_DATA_PATH.exists():
-        raise FileNotFoundError(f"Arquivo nao encontrado: {KEYS_DATA_PATH}")
-    return json.loads(KEYS_DATA_PATH.read_text(encoding="utf-8"))
+    raise FileNotFoundError(f"Arquivo nao encontrado: {KEYS_DATA_PATH}")
 
 
 def read_published_payload(path, *, weekly_goals=False):
