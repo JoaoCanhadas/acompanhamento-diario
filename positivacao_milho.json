@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "27/07/2026 10:38",
+  "lastModified": "27/07/2026 11:44",
   "summary": {
     "commitment": 758.0,
-    "reached": 629.0,
-    "missing": 129.0,
-    "percent": 83.0,
+    "reached": 632.0,
+    "missing": 126.0,
+    "percent": 83.4,
     "weekGoal": 200.0,
     "weekRevenue": 119.0,
     "weekMissing": 81.0,
@@ -40,11 +40,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 55.0,
-      "reached": 38.0,
-      "missing": 17.0,
+      "reached": 39.0,
+      "missing": 16.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 69.1,
+      "percent": 70.9,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 36.0,
-      "reached": 27.0,
-      "missing": 9.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 75.0,
-      "status": "pending"
-    },
-    {
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 51.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 74.3,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 36.0,
+      "reached": 28.0,
+      "missing": 8.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.8,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 45.0,
-      "reached": 45.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "ok"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 61.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.0,
+      "status": "ok"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 45.0,
+      "reached": 46.0,
+      "missing": -1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 102.2,
       "status": "ok"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 36.0,
-      "missing": 164.0,
-      "percent": 18.0
+      "reached": 48.0,
+      "missing": 152.0,
+      "percent": 24.0
     }
   ]
 }
