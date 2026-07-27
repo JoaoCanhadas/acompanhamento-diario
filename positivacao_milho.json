@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "27/07/2026 09:02",
+  "lastModified": "27/07/2026 10:38",
   "summary": {
     "commitment": 758.0,
-    "reached": 624.0,
-    "missing": 134.0,
-    "percent": 82.3,
+    "reached": 629.0,
+    "missing": 129.0,
+    "percent": 83.0,
     "weekGoal": 200.0,
     "weekRevenue": 119.0,
     "weekMissing": 81.0,
@@ -14,17 +14,6 @@
     "pendingCount": 14
   },
   "rows": [
-    {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 55.0,
-      "reached": 37.0,
-      "missing": 18.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 67.3,
-      "status": "pending"
-    },
     {
       "reference": "LESTE",
       "seller": "LESTE",
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 61.4,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 55.0,
+      "reached": 38.0,
+      "missing": 17.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 69.1,
       "status": "pending"
     },
     {
@@ -114,28 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 52.0,
-      "reached": 47.0,
-      "missing": 5.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.4,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 41.0,
-      "reached": 36.0,
-      "missing": 5.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 87.8,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 59.0,
@@ -147,14 +125,36 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 27.0,
-      "reached": 23.0,
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 52.0,
+      "reached": 48.0,
       "missing": 4.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 85.2,
+      "percent": 92.3,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 41.0,
+      "reached": 38.0,
+      "missing": 3.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 92.7,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 27.0,
+      "reached": 24.0,
+      "missing": 3.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 88.9,
       "status": "pending"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 10.0,
-      "missing": 190.0,
-      "percent": 5.0
+      "reached": 36.0,
+      "missing": 164.0,
+      "percent": 18.0
     }
   ]
 }
