@@ -1,17 +1,17 @@
 {
-  "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "27/07/2026 11:44",
+  "workbook": "Sensum SQL - Geral",
+  "lastModified": "27/07/2026 11:49",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4494723.55,
-    "missing": 1097776.45,
+    "reached": 4495461.04,
+    "missing": 1097038.96,
     "percent": 80.4,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
     "weekPercent": 71.6,
-    "positiveCount": 2,
-    "pendingCount": 25
+    "positiveCount": 3,
+    "pendingCount": 24
   },
   "rows": [
     {
@@ -29,22 +29,22 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 950000.0,
-      "reached": 860353.2,
-      "missing": 89646.8,
+      "reached": 861563.6,
+      "missing": 88436.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.6,
+      "percent": 90.7,
       "status": "pending"
     },
     {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 415000.0,
-      "reached": 334763.7,
-      "missing": 80236.3,
+      "reached": 335556.3,
+      "missing": 79443.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.7,
+      "percent": 80.9,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 206188.16,
-      "missing": 66811.84,
+      "reached": 207064.56,
+      "missing": 65935.44,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 75.5,
+      "percent": 75.8,
       "status": "pending"
     },
     {
@@ -103,6 +103,17 @@
       "status": "pending"
     },
     {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 195000.0,
+      "reached": 149887.45,
+      "missing": 45112.55,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 76.9,
+      "status": "pending"
+    },
+    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 237500.0,
@@ -111,17 +122,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 82.0,
-      "status": "pending"
-    },
-    {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 195000.0,
-      "reached": 154469.58,
-      "missing": 40530.42,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 79.2,
       "status": "pending"
     },
     {
@@ -150,44 +150,44 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 142500.0,
-      "reached": 107065.41,
-      "missing": 35434.59,
+      "reached": 107918.51,
+      "missing": 34581.49,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 75.1,
+      "percent": 75.7,
       "status": "pending"
     },
     {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 56704.27,
-      "missing": 33295.73,
+      "reached": 57302.97,
+      "missing": 32697.03,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 63.0,
+      "percent": 63.7,
       "status": "pending"
     },
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 325000.0,
-      "reached": 291950.25,
-      "missing": 33049.75,
+      "reached": 292582.95,
+      "missing": 32417.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.8,
+      "percent": 90.0,
       "status": "pending"
     },
     {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
-      "reached": 134448.27,
-      "missing": 32551.73,
+      "reached": 134801.47,
+      "missing": 32198.53,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.5,
+      "percent": 80.7,
       "status": "pending"
     },
     {
@@ -227,11 +227,11 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 55000.0,
-      "reached": 35397.51,
-      "missing": 19602.49,
+      "reached": 35617.41,
+      "missing": 19382.59,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 64.4,
+      "percent": 64.8,
       "status": "pending"
     },
     {
@@ -260,11 +260,11 @@
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 73000.0,
-      "reached": 63280.78,
-      "missing": 9719.22,
+      "reached": 63357.46,
+      "missing": 9642.54,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 86.7,
+      "percent": 86.8,
       "status": "pending"
     },
     {
@@ -282,12 +282,12 @@
       "reference": "ECOMMERCE",
       "seller": "IATAGAM JUNIOR",
       "commitment": 1000.0,
-      "reached": 166.49,
-      "missing": 833.51,
+      "reached": 1082.83,
+      "missing": -82.83,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.6,
-      "status": "pending"
+      "percent": 108.3,
+      "status": "ok"
     },
     {
       "reference": "ECOMMERCE",
@@ -304,11 +304,11 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 170000.0,
-      "reached": 271633.08,
-      "missing": -101633.08,
+      "reached": 270422.68,
+      "missing": -100422.68,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 159.8,
+      "percent": 159.1,
       "status": "ok"
     }
   ],
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 194343.06,
-      "missing": 1076452.39,
-      "percent": 15.3
+      "reached": 198746.34,
+      "missing": 1072049.11,
+      "percent": 15.6
     }
   ]
 }
