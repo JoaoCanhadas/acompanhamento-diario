@@ -22,6 +22,21 @@ PANEL_TEMPLATE_JSON = {
 }
 
 
+def load_env_file():
+    env_path = BASE_DIR / ".env"
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        name, value = line.split("=", 1)
+        os.environ.setdefault(name.strip(), value.strip())
+
+
+load_env_file()
+
+
 PANEL_CONFIG = {
     "sales": {
         "title": "Faturamento",
