@@ -47,7 +47,7 @@ $Database = Read-Host "Banco de dados"
 $User = Read-Default "Usuario SQL" "powerbi"
 $Password = Secure-To-Text (Read-Host "Senha SQL" -AsSecureString)
 $Port = Read-Default "Porta SQL" "1433"
-$View = Read-Default "View de pedidos" "dbo.VIW_IATAGAM_PEDIDO"
+$View = Read-Default "View de pedidos" "dbo.VIW_IATAGEM_PEDIDO"
 $Area = Read-Default "Area/filtro" "IATAGAM"
 
 if ([string]::IsNullOrWhiteSpace($Server) -or
@@ -71,7 +71,7 @@ Set-UserEnv "SENSUM_SQL_AREA" $Area.Trim()
 
 Write-Host ""
 Write-Host "Instalando/conferindo dependencia SQL..."
-python -m pip install pymssql
+python -m pip install pymssql==2.3.13
 if ($LASTEXITCODE -ne 0) {
     Write-Host ""
     Write-Host "ERRO: nao consegui instalar pymssql."
