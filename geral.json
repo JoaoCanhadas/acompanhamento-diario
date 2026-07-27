@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "27/07/2026 14:10",
+  "lastModified": "27/07/2026 14:15",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4588784.27,
-    "missing": 1003715.73,
+    "reached": 4592773.22,
+    "missing": 999726.78,
     "percent": 82.1,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -62,11 +62,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 211286.36,
-      "missing": 61713.64,
+      "reached": 212244.36,
+      "missing": 60755.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 77.4,
+      "percent": 77.7,
       "status": "pending"
     },
     {
@@ -216,11 +216,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 325000.0,
-      "reached": 300348.77,
-      "missing": 24651.23,
+      "reached": 301893.27,
+      "missing": 23106.73,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.4,
+      "percent": 92.9,
       "status": "pending"
     },
     {
@@ -238,11 +238,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 64500.0,
-      "reached": 48521.51,
-      "missing": 15978.49,
+      "reached": 49173.96,
+      "missing": 15326.04,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 75.2,
+      "percent": 76.2,
       "status": "pending"
     },
     {
@@ -304,11 +304,11 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 170000.0,
-      "reached": 275304.48,
-      "missing": -105304.48,
+      "reached": 276138.48,
+      "missing": -106138.48,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 161.9,
+      "percent": 162.4,
       "status": "ok"
     }
   ],
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 292069.58,
-      "missing": 978725.87,
-      "percent": 23.0
+      "reached": 296058.53,
+      "missing": 974736.92,
+      "percent": 23.3
     }
   ]
 }
