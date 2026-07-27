@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "27/07/2026 16:27",
+  "lastModified": "27/07/2026 16:28",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4627126.11,
-    "missing": 965373.89,
-    "percent": 82.7,
+    "reached": 4706228.41,
+    "missing": 886271.59,
+    "percent": 84.2,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -23,17 +23,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 53.6,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 950000.0,
-      "reached": 861563.6,
-      "missing": 88436.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.7,
       "status": "pending"
     },
     {
@@ -139,11 +128,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
-      "reached": 134801.47,
-      "missing": 32198.53,
+      "reached": 136131.17,
+      "missing": 30868.83,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.7,
+      "percent": 81.5,
       "status": "pending"
     },
     {
@@ -257,6 +246,17 @@
       "status": "pending"
     },
     {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 950000.0,
+      "reached": 939336.2,
+      "missing": 10663.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 98.9,
+      "status": "pending"
+    },
+    {
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 73000.0,
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 326830.37,
-      "missing": 943965.08,
-      "percent": 25.7
+      "reached": 405932.67,
+      "missing": 864862.78,
+      "percent": 31.9
     }
   ]
 }
