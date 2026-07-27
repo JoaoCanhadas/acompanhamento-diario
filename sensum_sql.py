@@ -115,14 +115,15 @@ def read_pedido_panel(panel):
 def query_pedido_reached(panel):
     select_name, where_extra, aggregate = pedido_panel_sql(panel)
     start_date, end_date = period_range()
-    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGAM_PEDIDO")
+    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGEM_PEDIDO")
     area_filter = os.environ.get("SENSUM_SQL_AREA", "IATAGAM")
+    date_expr = pedido_date_expr()
     sql = f"""
         SELECT
             {select_name} AS seller,
             {aggregate} AS reached
         FROM {view_name}
-        WHERE DATA >= ? AND DATA < ?
+        WHERE {date_expr} >= ? AND {date_expr} < ?
           AND (? = '' OR AREA = ?)
           {where_extra}
         GROUP BY {select_name}
@@ -133,18 +134,19 @@ def query_pedido_reached(panel):
 def query_pedido_weeks(panel):
     _, where_extra, aggregate = pedido_panel_sql(panel)
     start_date, end_date = period_range()
-    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGAM_PEDIDO")
+    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGEM_PEDIDO")
     area_filter = os.environ.get("SENSUM_SQL_AREA", "IATAGAM")
+    date_expr = pedido_date_expr()
     sql = f"""
         SELECT
-            DATEPART(ISO_WEEK, DATA) AS week_number,
+            DATEPART(ISO_WEEK, {date_expr}) AS week_number,
             {aggregate} AS reached
         FROM {view_name}
-        WHERE DATA >= ? AND DATA < ?
+        WHERE {date_expr} >= ? AND {date_expr} < ?
           AND (? = '' OR AREA = ?)
           {where_extra}
-        GROUP BY DATEPART(ISO_WEEK, DATA)
-        ORDER BY DATEPART(ISO_WEEK, DATA)
+        GROUP BY DATEPART(ISO_WEEK, {date_expr})
+        ORDER BY DATEPART(ISO_WEEK, {date_expr})
     """
     return sql_fetch(sql, start_date, end_date, area_filter, area_filter)
 
@@ -206,6 +208,10 @@ def pedido_panel_sql(panel):
         metric = os.environ.get("SENSUM_SQL_MILHO_METRIC", "COUNT(DISTINCT COD_CLIENTE)")
         return "REGIAO", milho_filter_sql(), metric
     raise ValueError(f"Painel SQL desconhecido: {panel}")
+
+
+def pedido_date_expr():
+    return os.environ.get("SENSUM_SQL_DATE_EXPR", "DATEFROMPARTS(ANO, MES, DIA)")
 
 
 def sales_filter_sql():
