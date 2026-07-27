@@ -336,7 +336,7 @@ def merge_template_rows(panel, template, reached_rows):
     for item in template_rows:
         seller = text(item.get("seller"))
         reference = text(item.get("reference"))
-        reached = reached_by_name.get(normalize_name(reference), reached_by_name.get(normalize_name(seller), 0.0))
+        reached = reached_by_name.get(normalize_name(seller), reached_by_name.get(normalize_name(reference), 0.0))
         commitment = money(item.get("commitment"))
         missing = money(commitment - reached)
         rows.append(
