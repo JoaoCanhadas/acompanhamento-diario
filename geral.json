@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "24/07/2026 15:02",
+  "lastModified": "27/07/2026 07:19",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4306197.7,
-    "missing": 1286302.3,
-    "percent": 77.0,
+    "reached": 4302738.49,
+    "missing": 1289761.51,
+    "percent": 76.9,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -18,11 +18,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 560000.0,
-      "reached": 286852.54,
-      "missing": 273147.46,
+      "reached": 279492.74,
+      "missing": 280507.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 51.2,
+      "percent": 49.9,
       "status": "pending"
     },
     {
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 193521.24,
-      "missing": 79478.76,
+      "reached": 194214.79,
+      "missing": 78785.21,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 70.9,
+      "percent": 71.1,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 325000.0,
-      "reached": 258976.12,
-      "missing": 66023.88,
+      "reached": 260656.62,
+      "missing": 64343.38,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.7,
+      "percent": 80.2,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 145926.96,
-      "missing": 49073.04,
+      "reached": 145450.1,
+      "missing": 49549.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.8,
+      "percent": 74.6,
       "status": "pending"
     },
     {
@@ -224,6 +224,17 @@
       "status": "pending"
     },
     {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 64500.0,
+      "reached": 42533.81,
+      "missing": 21966.19,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.9,
+      "status": "pending"
+    },
+    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
@@ -232,17 +243,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 71.9,
-      "status": "pending"
-    },
-    {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 64500.0,
-      "reached": 42903.81,
-      "missing": 21596.19,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.5,
       "status": "pending"
     },
     {
@@ -268,25 +268,25 @@
       "status": "pending"
     },
     {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 130000.0,
-      "reached": 127140.1,
-      "missing": 2859.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.8,
-      "status": "pending"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "IATAGAM JUNIOR",
       "commitment": 1000.0,
-      "reached": 151.09,
-      "missing": 848.91,
+      "reached": 166.49,
+      "missing": 833.51,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.1,
+      "percent": 16.6,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 130000.0,
+      "reached": 129498.1,
+      "missing": 501.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.6,
       "status": "pending"
     },
     {
@@ -338,9 +338,9 @@
     {
       "name": "Semana 4",
       "goal": 1270795.45,
-      "reached": 1272802.78,
-      "missing": -2007.33,
-      "percent": 100.2
+      "reached": 1269343.57,
+      "missing": 1451.88,
+      "percent": 99.9
     },
     {
       "name": "Semana 5",
