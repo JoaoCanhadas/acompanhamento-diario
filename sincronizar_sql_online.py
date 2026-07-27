@@ -1,0 +1,136 @@
+from __future__ import annotations
+
+import argparse
+import base64
+import json
+import subprocess
+import sys
+import time
+from datetime import datetime
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).resolve().parent
+GH = BASE_DIR / ".tools" / "bin" / "gh.exe"
+REPO = "JoaoCanhadas/acompanhamento-diario"
+BRANCH = "main"
+FILES_TO_SYNC = [
+    "data.json",
+    "geral.json",
+    "keys.json",
+    "positivacao_milho.json",
+]
+
+
+def gh_api(*args, stdin_data=None):
+    result = subprocess.run(
+        [str(GH), "api", *args],
+        capture_output=True,
+        text=True,
+        input=stdin_data,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(result.stderr or result.stdout)
+    return result.stdout
+
+
+def gh_json(*args, stdin_data=None):
+    return json.loads(gh_api(*args, stdin_data=stdin_data))
+
+
+def generate_files():
+    result = subprocess.run([sys.executable, str(BASE_DIR / "exportar_dados.py")])
+    if result.returncode != 0:
+        raise RuntimeError("Falha ao gerar os dados pelo SQL.")
+
+
+def publish_json_files():
+    ref = gh_json(f"repos/{REPO}/git/ref/heads/{BRANCH}")
+    head_sha = ref["object"]["sha"]
+    head_commit = gh_json(f"repos/{REPO}/git/commits/{head_sha}")
+    base_tree = head_commit["tree"]["sha"]
+
+    tree_items = []
+    for filename in FILES_TO_SYNC:
+        local_path = BASE_DIR / filename
+        content = base64.b64encode(local_path.read_bytes()).decode("ascii")
+        blob = gh_json(
+            f"repos/{REPO}/git/blobs",
+            "--method",
+            "POST",
+            "--input",
+            "-",
+            stdin_data=json.dumps({"content": content, "encoding": "base64"}),
+        )
+        tree_items.append(
+            {
+                "path": filename,
+                "mode": "100644",
+                "type": "blob",
+                "sha": blob["sha"],
+            }
+        )
+
+    tree = gh_json(
+        f"repos/{REPO}/git/trees",
+        "--method",
+        "POST",
+        "--input",
+        "-",
+        stdin_data=json.dumps({"base_tree": base_tree, "tree": tree_items}),
+    )
+    message = f"Dados SQL sincronizados em {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"
+    commit = gh_json(
+        f"repos/{REPO}/git/commits",
+        "--method",
+        "POST",
+        "--input",
+        "-",
+        stdin_data=json.dumps(
+            {
+                "message": message,
+                "tree": tree["sha"],
+                "parents": [head_sha],
+            }
+        ),
+    )
+    gh_api(
+        f"repos/{REPO}/git/refs/heads/{BRANCH}",
+        "--method",
+        "PATCH",
+        "--input",
+        "-",
+        stdin_data=json.dumps({"sha": commit["sha"]}),
+    )
+    return commit["sha"]
+
+
+def sync_once():
+    generate_files()
+    commit_sha = publish_json_files()
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Online atualizado: {commit_sha[:7]}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Sincroniza SQL local com o dashboard online.")
+    parser.add_argument("--once", action="store_true", help="Executa uma sincronizacao e sai.")
+    parser.add_argument("--interval", type=int, default=60, help="Intervalo em segundos.")
+    args = parser.parse_args()
+
+    if args.once:
+        sync_once()
+        return 0
+
+    print("Sincronizacao SQL -> dashboard online iniciada.")
+    print(f"Intervalo: {args.interval} segundos")
+    print("Pressione Ctrl+C para parar.")
+    while True:
+        try:
+            sync_once()
+        except Exception as exc:
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] ERRO: {exc}")
+        time.sleep(max(args.interval, 15))
+
+
+if __name__ == "__main__":
+    sys.exit(main())
