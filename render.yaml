@@ -5,3 +5,20 @@ services:
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python dashboard.py
+    envVars:
+      - key: SENSUM_SQL_SERVER
+        sync: false
+      - key: SENSUM_SQL_DATABASE
+        sync: false
+      - key: SENSUM_SQL_USER
+        sync: false
+      - key: SENSUM_SQL_PASSWORD
+        sync: false
+      - key: SENSUM_SQL_PORT
+        value: "1433"
+      - key: SENSUM_SQL_VIEW
+        value: dbo.VIW_IATAGEM_PEDIDO
+      - key: SENSUM_SQL_SOURCE_MODE
+        value: pedido
+      - key: SENSUM_SQL_AREA
+        value: IATAGAM
