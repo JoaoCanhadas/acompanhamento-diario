@@ -45,13 +45,17 @@ def generate_files():
 
 
 def publish_json_files():
+    changed = [filename for filename in FILES_TO_SYNC if remote_content(filename) != (BASE_DIR / filename).read_bytes()]
+    if not changed:
+        return None
+
     ref = gh_json(f"repos/{REPO}/git/ref/heads/{BRANCH}")
     head_sha = ref["object"]["sha"]
     head_commit = gh_json(f"repos/{REPO}/git/commits/{head_sha}")
     base_tree = head_commit["tree"]["sha"]
 
     tree_items = []
-    for filename in FILES_TO_SYNC:
+    for filename in changed:
         local_path = BASE_DIR / filename
         content = base64.b64encode(local_path.read_bytes()).decode("ascii")
         blob = gh_json(
@@ -105,10 +109,21 @@ def publish_json_files():
     return commit["sha"]
 
 
+def remote_content(filename):
+    try:
+        item = gh_json(f"repos/{REPO}/contents/{filename}")
+        return base64.b64decode(item["content"])
+    except Exception:
+        return None
+
+
 def sync_once():
     generate_files()
     commit_sha = publish_json_files()
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Online atualizado: {commit_sha[:7]}")
+    if commit_sha:
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] Online atualizado: {commit_sha[:7]}", flush=True)
+    else:
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] Sem alteracoes nos dados.", flush=True)
 
 
 def main():
@@ -121,14 +136,14 @@ def main():
         sync_once()
         return 0
 
-    print("Sincronizacao SQL -> dashboard online iniciada.")
-    print(f"Intervalo: {args.interval} segundos")
-    print("Pressione Ctrl+C para parar.")
+    print("Sincronizacao SQL -> dashboard online iniciada.", flush=True)
+    print(f"Intervalo: {args.interval} segundos", flush=True)
+    print("Pressione Ctrl+C para parar.", flush=True)
     while True:
         try:
             sync_once()
         except Exception as exc:
-            print(f"[{datetime.now().strftime('%H:%M:%S')}] ERRO: {exc}")
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] ERRO: {exc}", flush=True)
         time.sleep(max(args.interval, 15))
 
 
