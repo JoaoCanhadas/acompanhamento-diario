@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 10:11",
+  "lastModified": "28/07/2026 10:12",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4776813.76,
-    "missing": 815686.24,
+    "reached": 4778659.58,
+    "missing": 813840.42,
     "percent": 85.4,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 415000.0,
-      "reached": 346327.75,
-      "missing": 68672.25,
+      "reached": 347948.05,
+      "missing": 67051.95,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.5,
+      "percent": 83.8,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 62769.52,
-      "missing": 27230.48,
+      "reached": 62924.52,
+      "missing": 27075.48,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 69.7,
+      "percent": 69.9,
       "status": "pending"
     },
     {
@@ -202,17 +202,6 @@
       "status": "pending"
     },
     {
-      "reference": "VALE",
-      "seller": "SJC/VALE",
-      "commitment": 55000.0,
-      "reached": 38451.67,
-      "missing": 16548.33,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 69.9,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 325000.0,
@@ -221,6 +210,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 94.9,
+      "status": "pending"
+    },
+    {
+      "reference": "VALE",
+      "seller": "SJC/VALE",
+      "commitment": 55000.0,
+      "reached": 38522.19,
+      "missing": 16477.81,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.0,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 476856.23,
-      "missing": 793939.22,
-      "percent": 37.5
+      "reached": 478702.05,
+      "missing": 792093.4,
+      "percent": 37.7
     }
   ]
 }
