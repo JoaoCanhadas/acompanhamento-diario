@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "28/07/2026 10:02",
+  "lastModified": "28/07/2026 10:03",
   "summary": {
     "commitment": 608500.0,
-    "reached": 177400.28,
-    "missing": 431099.72,
-    "percent": 29.2,
+    "reached": 185336.98,
+    "missing": 423163.02,
+    "percent": 30.5,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
     "weekMissing": 96349.29,
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 138500.0,
-      "reached": 20495.8,
-      "missing": 118004.2,
+      "reached": 26793.9,
+      "missing": 111706.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.8,
+      "percent": 19.3,
       "status": "pending"
     },
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY PIRACICABA",
-      "seller": "PIRACICABA",
-      "commitment": 69000.0,
-      "reached": 1724.0,
-      "missing": 67276.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 2.5,
-      "status": "pending"
-    },
-    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 66000.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY PIRACICABA",
+      "seller": "PIRACICABA",
+      "commitment": 69000.0,
+      "reached": 3362.6,
+      "missing": 65637.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 4.9,
       "status": "pending"
     },
     {
@@ -125,9 +125,9 @@
     {
       "name": "Semana 5",
       "goal": 619318.18,
-      "reached": 177400.28,
-      "missing": 441917.9,
-      "percent": 28.6
+      "reached": 185336.98,
+      "missing": 433981.2,
+      "percent": 29.9
     }
   ]
 }
