@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "28/07/2026 11:45",
+  "lastModified": "28/07/2026 11:46",
   "summary": {
-    "commitment": 608500.0,
+    "commitment": 643500.0,
     "reached": 215146.63,
-    "missing": 393353.37,
-    "percent": 35.4,
+    "missing": 428353.37,
+    "percent": 33.4,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
     "weekMissing": 96349.29,
@@ -70,22 +70,22 @@
       "status": "pending"
     },
     {
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 35000.0,
+      "reached": 38518.75,
+      "missing": -3518.75,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 110.1,
+      "status": "ok"
+    },
+    {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 0.0,
       "reached": 23060.2,
       "missing": -23060.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
-      "commitment": 0.0,
-      "reached": 38518.75,
-      "missing": -38518.75,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
