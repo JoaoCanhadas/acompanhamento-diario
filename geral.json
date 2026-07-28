@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 08:17",
+  "lastModified": "28/07/2026 08:18",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4725804.79,
-    "missing": 866695.21,
+    "reached": 4728162.12,
+    "missing": 864337.88,
     "percent": 84.5,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "PENHA",
-      "seller": "LESTE PENHA",
-      "commitment": 140000.0,
-      "reached": 111025.41,
-      "missing": 28974.59,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 79.3,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
@@ -169,14 +158,25 @@
       "status": "pending"
     },
     {
+      "reference": "PENHA",
+      "seller": "LESTE PENHA",
+      "commitment": 140000.0,
+      "reached": 112690.86,
+      "missing": 27309.14,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 80.5,
+      "status": "pending"
+    },
+    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
-      "reached": 72382.99,
-      "missing": 27617.01,
+      "reached": 72954.97,
+      "missing": 27045.03,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 72.4,
+      "percent": 73.0,
       "status": "pending"
     },
     {
@@ -238,11 +238,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
-      "reached": 65787.16,
-      "missing": 12212.84,
+      "reached": 65907.06,
+      "missing": 12092.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 84.3,
+      "percent": 84.5,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 425847.25,
-      "missing": 844948.2,
-      "percent": 33.5
+      "reached": 428204.58,
+      "missing": 842590.87,
+      "percent": 33.7
     }
   ]
 }
