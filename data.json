@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/07/2026 12:01",
+  "lastModified": "28/07/2026 12:02",
   "summary": {
     "commitment": 200000.0,
-    "reached": 87525.29,
-    "missing": 112474.71,
-    "percent": 43.8,
+    "reached": 89856.09,
+    "missing": 110143.91,
+    "percent": 44.9,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
@@ -81,28 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 9690.0,
-      "reached": 3109.15,
-      "missing": 6580.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 32.1,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 19700.0,
-      "reached": 13665.2,
-      "missing": 6034.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 69.4,
-      "status": "pending"
-    },
-    {
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 10330.0,
@@ -133,6 +111,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 23.7,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 9690.0,
+      "reached": 4496.55,
+      "missing": 5193.45,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 46.4,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 19700.0,
+      "reached": 14608.6,
+      "missing": 5091.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 74.2,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 322244.69,
-      "missing": 329005.31,
-      "percent": 49.5
+      "reached": 324575.49,
+      "missing": 326674.51,
+      "percent": 49.8
     }
   ]
 }

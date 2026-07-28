@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 12:01",
+  "lastModified": "28/07/2026 12:02",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4837348.85,
-    "missing": 755151.15,
+    "reached": 4839679.65,
+    "missing": 752820.35,
     "percent": 86.5,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 318500.0,
-      "reached": 284998.66,
-      "missing": 33501.34,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 89.5,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
@@ -103,14 +92,14 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 167000.0,
-      "reached": 139240.32,
-      "missing": 27759.68,
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 318500.0,
+      "reached": 285942.06,
+      "missing": 32557.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.4,
+      "percent": 89.8,
       "status": "pending"
     },
     {
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.7,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 167000.0,
+      "reached": 140627.72,
+      "missing": 26372.28,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 84.2,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 537391.32,
-      "missing": 733404.13,
-      "percent": 42.3
+      "reached": 539722.12,
+      "missing": 731073.33,
+      "percent": 42.5
     }
   ]
 }
