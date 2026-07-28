@@ -98,7 +98,7 @@ $env:SENSUM_SQL_MILHO_METRIC="COUNT(DISTINCT COD_CLIENTE)"
 
 ## Regras atuais
 
-- `sales`: soma `TOTAL` da semana atual, agrupado por `REGIAO`, excluindo regioes Key por padrao.
+- `sales`: soma `TOTAL` do dia atual, agrupado por `REGIAO`, excluindo regioes Key por padrao.
 - `general`: soma `TOTAL`, agrupado por `REGIAO`.
 - `keys`: soma `TOTAL` da semana atual, filtrando `REGIAO` ou `REP` iniciando com `KEY`.
 - `milho`: conta `COUNT(DISTINCT COD_CLIENTE)`, filtrando `GRUPO` ou `PRODUTO` contendo `BRIOCHE` e excluindo regioes Key por padrao.
