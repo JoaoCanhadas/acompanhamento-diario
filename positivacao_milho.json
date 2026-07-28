@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "28/07/2026 07:10",
+  "lastModified": "28/07/2026 07:21",
   "summary": {
     "commitment": 758.0,
     "reached": 644.0,
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 52.0,
-      "reached": 49.0,
-      "missing": 3.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.2,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 59.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 94.9,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 52.0,
+      "reached": 49.0,
+      "missing": 3.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 94.2,
       "status": "pending"
     },
     {
@@ -158,10 +158,10 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 39.0,
-      "reached": 39.0,
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 49.0,
+      "reached": 49.0,
       "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
@@ -169,10 +169,10 @@
       "status": "ok"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 49.0,
-      "reached": 49.0,
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 39.0,
+      "reached": 39.0,
       "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
