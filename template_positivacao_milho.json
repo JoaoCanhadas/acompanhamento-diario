@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "28/07/2026 09:15",
+  "lastModified": "28/07/2026 09:48",
   "summary": {
     "commitment": 758.0,
-    "reached": 646.0,
-    "missing": 112.0,
-    "percent": 85.2,
+    "reached": 652.0,
+    "missing": 106.0,
+    "percent": 86.0,
     "weekGoal": 200.0,
     "weekRevenue": 119.0,
     "weekMissing": 81.0,
@@ -95,33 +95,22 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 51.0,
-      "reached": 44.0,
-      "missing": 7.0,
+      "reached": 45.0,
+      "missing": 6.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 86.3,
+      "percent": 88.2,
       "status": "pending"
     },
     {
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 35.0,
-      "reached": 28.0,
-      "missing": 7.0,
+      "reached": 29.0,
+      "missing": 6.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 52.0,
-      "reached": 49.0,
-      "missing": 3.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.2,
+      "percent": 82.9,
       "status": "pending"
     },
     {
@@ -136,14 +125,14 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 27.0,
-      "reached": 24.0,
-      "missing": 3.0,
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 52.0,
+      "reached": 50.0,
+      "missing": 2.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 88.9,
+      "percent": 96.2,
       "status": "pending"
     },
     {
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 96.6,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 27.0,
+      "reached": 26.0,
+      "missing": 1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 96.3,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "ok"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 49.0,
-      "reached": 51.0,
-      "missing": -2.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 104.1,
-      "status": "ok"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 61.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 103.3,
+      "status": "ok"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 49.0,
+      "reached": 52.0,
+      "missing": -3.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 106.1,
       "status": "ok"
     }
   ],
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 92.0,
-      "missing": 108.0,
-      "percent": 46.0
+      "reached": 107.0,
+      "missing": 93.0,
+      "percent": 53.5
     }
   ]
 }
