@@ -92,19 +92,57 @@ INDEX_HTML = r"""<!doctype html>
       flex-wrap: wrap;
     }
 
-    .title-block h1 {
-      margin: 0;
-      font-size: 30px;
-      line-height: 1.1;
-      font-weight: 800;
+    .brand-logo {
+      min-width: 280px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
     }
 
-    .title-block span {
-      display: block;
-      margin-top: 6px;
-      color: var(--soft);
-      font-size: 15px;
-      font-weight: 600;
+    .brand-name {
+      color: #e11d48;
+      font-size: 38px;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .brand-divider {
+      width: 1px;
+      height: 38px;
+      background: rgba(255,255,255,.24);
+    }
+
+    .brand-wheat {
+      width: 28px;
+      height: 42px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .brand-wheat::before {
+      content: "";
+      position: absolute;
+      left: 13px;
+      top: 4px;
+      width: 2px;
+      height: 34px;
+      border-radius: 999px;
+      background: rgba(226,232,240,.66);
+    }
+
+    .brand-wheat i {
+      position: absolute;
+      width: 11px;
+      height: 16px;
+      border-radius: 11px 0 11px 0;
+      background: rgba(226,232,240,.66);
+      transform-origin: bottom center;
+    }
+
+    .brand-wheat i:nth-child(1) { left: 3px; top: 7px; transform: rotate(-38deg); }
+    .brand-wheat i:nth-child(2) { right: 3px; top: 16px; transform: rotate(38deg); }
+    .brand-wheat i:nth-child(3) { left: 3px; top: 25px; transform: rotate(-38deg); }
     }
 
     .meta {
@@ -164,7 +202,7 @@ INDEX_HTML = r"""<!doctype html>
     .rotation-bar-fill {
       height: 100%;
       width: 0%;
-      background: linear-gradient(90deg, var(--blue), var(--purple));
+      background: linear-gradient(90deg, var(--good), #84cc16);
     }
 
     .pause-btn {
@@ -221,7 +259,7 @@ INDEX_HTML = r"""<!doctype html>
       position: absolute;
       inset: auto 0 0;
       height: 3px;
-      background: linear-gradient(90deg, var(--blue), var(--purple));
+      background: linear-gradient(90deg, var(--good), #84cc16);
     }
 
     .label {
@@ -270,7 +308,7 @@ INDEX_HTML = r"""<!doctype html>
 
     .layout {
       display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(360px, .9fr);
+      grid-template-columns: minmax(0, 1.7fr) minmax(340px, .78fr);
       gap: 18px;
       align-items: start;
     }
@@ -317,21 +355,10 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .table-wrap {
-      height: 430px;
-      max-height: 430px;
+      height: 560px;
+      max-height: 560px;
       overflow: hidden;
       position: relative;
-    }
-
-    .table-wrap::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 58px;
-      pointer-events: none;
-      background: linear-gradient(180deg, transparent, rgba(12,17,29,.96));
     }
 
     table {
@@ -415,10 +442,18 @@ INDEX_HTML = r"""<!doctype html>
       border-color: rgba(251,113,133,.38);
     }
 
+    .weekly-wrap {
+      height: 560px;
+      max-height: 560px;
+      overflow: hidden;
+      position: relative;
+    }
+
     .weekly {
       display: grid;
       gap: 14px;
       padding: 18px;
+      will-change: transform;
     }
 
     .week-card {
@@ -463,23 +498,6 @@ INDEX_HTML = r"""<!doctype html>
       font-size: 18px;
     }
 
-    .week-edit {
-      display: flex;
-      gap: 10px;
-      margin-top: 12px;
-    }
-
-    .week-edit input {
-      width: 100%;
-      min-width: 0;
-      height: 38px;
-    }
-
-    .save-goals {
-      width: 100%;
-      margin-top: 4px;
-    }
-
     .error {
       margin-bottom: 18px;
       padding: 16px 18px;
@@ -510,12 +528,21 @@ INDEX_HTML = r"""<!doctype html>
         gap: 14px;
       }
 
-      .title-block h1 {
-        font-size: 24px;
+      .brand-logo {
+        min-width: 0;
       }
 
-      .title-block span {
-        font-size: 14px;
+      .brand-name {
+        font-size: 30px;
+      }
+
+      .brand-divider {
+        height: 32px;
+      }
+
+      .brand-wheat {
+        width: 24px;
+        height: 36px;
       }
 
       .meta {
@@ -598,7 +625,6 @@ INDEX_HTML = r"""<!doctype html>
         overflow: visible;
       }
 
-      .table-wrap::after,
       thead {
         display: none;
       }
@@ -670,6 +696,12 @@ INDEX_HTML = r"""<!doctype html>
         padding: 14px;
       }
 
+      .weekly-wrap {
+        height: auto;
+        max-height: none;
+        overflow: visible;
+      }
+
       .week-card {
         padding: 14px;
       }
@@ -684,9 +716,10 @@ INDEX_HTML = r"""<!doctype html>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <div class="title-block">
-        <h1>Acompanhamento Diario</h1>
-        <span>Relatorio comercial em tempo real</span>
+      <div class="brand-logo" aria-label="IATAGAM">
+        <span class="brand-name">IATAGAM</span>
+        <span class="brand-divider"></span>
+        <span class="brand-wheat" aria-hidden="true"><i></i><i></i><i></i></span>
       </div>
       <div class="meta">
         <div class="view-tabs" aria-label="Telas do acompanhamento">
@@ -707,7 +740,6 @@ INDEX_HTML = r"""<!doctype html>
       <article class="card">
         <div class="label" id="commitmentLabel">Compromisso</div>
         <div class="value" id="commitment">R$ 0,00</div>
-        <div class="hint" id="commitmentHint">Meta consolidada do periodo</div>
       </article>
       <article class="card">
         <div class="label" id="reachedLabel">Atingido</div>
@@ -753,7 +785,9 @@ INDEX_HTML = r"""<!doctype html>
           <h2>Acompanhamento semanal</h2>
           <span class="pill" id="weekCount">4 semanas</span>
         </div>
-        <div class="weekly" id="weekly"></div>
+        <div class="weekly-wrap">
+          <div class="weekly" id="weekly"></div>
+        </div>
       </aside>
     </section>
   </main>
@@ -763,6 +797,7 @@ INDEX_HTML = r"""<!doctype html>
     let activeView = "sales";
     let loadRequestId = 0;
     let sellerScrollFrame = null;
+    let weeklyScrollFrame = null;
     const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
     const numberFormatter = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 2 });
     const byId = (id) => document.getElementById(id);
@@ -781,7 +816,6 @@ INDEX_HTML = r"""<!doctype html>
         endpoint: "/api/data",
         title: "Performance por vendedor",
         commitmentLabel: "Compromisso",
-        commitmentHint: "Meta consolidada do periodo",
         pendingText: "vendedores pendentes",
         positiveText: "acima da meta",
         format: formatMoney,
@@ -797,7 +831,6 @@ INDEX_HTML = r"""<!doctype html>
         endpoint: "/api/geral",
         title: "Faturamento geral por referencia",
         commitmentLabel: "Meta mes",
-        commitmentHint: "Meta geral consolidada",
         pendingText: "referencias pendentes",
         positiveText: "acima da meta",
         format: formatMoney,
@@ -813,7 +846,6 @@ INDEX_HTML = r"""<!doctype html>
         endpoint: "/api/positivacao-milho",
         title: "Postivação por vendedor",
         commitmentLabel: "Meta mes",
-        commitmentHint: "Meta consolidada de postivação",
         pendingText: "vendedores pendentes",
         positiveText: "bateram a meta",
         format: formatNumber,
@@ -828,7 +860,6 @@ INDEX_HTML = r"""<!doctype html>
         endpoint: "/api/keys",
         title: "Keys por vendedor",
         commitmentLabel: "Meta semanal",
-        commitmentHint: "Meta consolidada de Keys",
         pendingText: "vendedores pendentes",
         positiveText: "superaram a meta",
         format: formatMoney,
@@ -885,7 +916,6 @@ INDEX_HTML = r"""<!doctype html>
       const config = views[activeView];
       setText("tableTitle", config.title);
       setText("commitmentLabel", config.commitmentLabel);
-      setText("commitmentHint", config.commitmentHint);
       const commitmentValue = activeView === "keys" ? summary.weekGoal : summary.commitment;
       setText("commitment", config.format(commitmentValue));
       setText("reached", config.format(summary.reached));
@@ -962,10 +992,7 @@ INDEX_HTML = r"""<!doctype html>
         if (lastTime === null) lastTime = time;
         const elapsed = time - lastTime;
         lastTime = time;
-        offset += (speed * elapsed) / 1000;
-        if (offset >= loopHeight) {
-          offset = 0;
-        }
+        offset = (offset + (speed * elapsed) / 1000) % loopHeight;
         tableBody.style.transform = `translateY(-${offset}px)`;
         sellerScrollFrame = requestAnimationFrame(tick);
       };
@@ -976,11 +1003,10 @@ INDEX_HTML = r"""<!doctype html>
       const config = views[activeView];
       const weeks = state.weeks.slice(0, 5);
       setText("weekCount", `${weeks.length} semanas`);
-      const cards = weeks.map((week) => {
+      const renderWeekCard = (week, loopCopy = false) => {
         const percent = Math.min(Number(week.percent || 0), 100);
-        const goal = Number(week.goal || 0).toFixed(2);
         return `
-          <div class="week-card">
+          <div class="week-card${loopCopy ? " loop-copy" : ""}">
             <div class="week-top">
               <div class="week-name">${week.name}</div>
               <div class="week-percent">${Number(week.percent || 0).toFixed(1)}%</div>
@@ -990,35 +1016,44 @@ INDEX_HTML = r"""<!doctype html>
               <span>Realizado<strong>${config.format(week.reached)}</strong></span>
               <span>Meta<strong>${config.format(week.goal)}</strong></span>
             </div>
-            <div class="week-edit" ${activeView === "sales" ? "" : "hidden"}>
-              <input class="goal-input" type="number" min="0" step="0.01" value="${goal}" data-week="${week.name}" aria-label="Meta ${week.name}">
-            </div>
           </div>
         `;
-      }).join("");
-      byId("weekly").innerHTML = cards + (activeView === "sales" ? `<button class="save-goals" id="saveGoals" type="button">Salvar metas</button>` : "");
-      if (activeView === "sales") {
-        byId("saveGoals").addEventListener("click", saveWeeklyGoals);
-      }
+      };
+      const cards = weeks.map((week) => renderWeekCard(week)).join("");
+      const duplicateCards = weeks.map((week) => renderWeekCard(week, true)).join("");
+      byId("weekly").innerHTML = weeks.length > 3 ? cards + duplicateCards : cards;
+      requestAnimationFrame(() => startWeeklyAutoScroll(weeks.length > 3));
     }
 
-    async function saveWeeklyGoals() {
-      byId("error").innerHTML = "";
-      try {
-        const goals = {};
-        document.querySelectorAll(".goal-input").forEach((input) => {
-          goals[input.dataset.week] = Number(input.value || 0);
-        });
-        const response = await fetch("/api/weekly-goals", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ goals }),
-        });
-        if (!response.ok) throw new Error(await response.text());
-        await loadData();
-      } catch (error) {
-        byId("error").innerHTML = `<div class="error">${error.message}</div>`;
+    function startWeeklyAutoScroll(enabled) {
+      const weeklyWrap = document.querySelector(".weekly-wrap");
+      const weekly = byId("weekly");
+      if (weeklyScrollFrame) {
+        cancelAnimationFrame(weeklyScrollFrame);
+        weeklyScrollFrame = null;
       }
+      weekly.style.transform = "translateY(0px)";
+      if (!enabled || window.matchMedia("(max-width: 640px)").matches) return;
+
+      const originalCards = Array.from(weekly.querySelectorAll(".week-card:not(.loop-copy)"));
+      const loopHeight = originalCards.reduce(
+        (total, card) => total + card.getBoundingClientRect().height,
+        0
+      ) + Math.max(originalCards.length - 1, 0) * 14;
+      if (loopHeight <= weeklyWrap.clientHeight) return;
+
+      let lastTime = null;
+      const speed = 20;
+      let offset = 0;
+      const tick = (time) => {
+        if (lastTime === null) lastTime = time;
+        const elapsed = time - lastTime;
+        lastTime = time;
+        offset = (offset + (speed * elapsed) / 1000) % loopHeight;
+        weekly.style.transform = `translateY(-${offset}px)`;
+        weeklyScrollFrame = requestAnimationFrame(tick);
+      };
+      weeklyScrollFrame = requestAnimationFrame(tick);
     }
 
     byId("tableHead").addEventListener("click", (event) => {
