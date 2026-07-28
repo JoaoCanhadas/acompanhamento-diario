@@ -4,6 +4,7 @@ import json
 import os
 import socket
 import unicodedata
+from copy import deepcopy
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -32,6 +33,8 @@ REMOTE_RAW_BASE = os.environ.get(
     "DASHBOARD_RAW_BASE",
     "https://raw.githubusercontent.com/JoaoCanhadas/acompanhamento-diario/main",
 ).rstrip("/")
+REMOTE_CACHE_TTL_SECONDS = int(os.environ.get("DASHBOARD_REMOTE_CACHE_SECONDS", "55"))
+REMOTE_CACHE = {}
 DEFAULT_WEEKLY_GOAL = 700000.0
 POSITIVACAO_MILHO_WEEKLY_GOAL = 200.0
 DEPLOY_VERSION = "2026-06-25 08:39"
@@ -2061,7 +2064,7 @@ def read_legacy_excel_dashboard_data():
 
 
 def read_sql_panel(panel):
-    if os.environ.get("RENDER") or os.environ.get("RENDER_SERVICE_ID"):
+    if os.environ.get("RENDER") or os.environ.get("RENDER_SERVICE_ID") or os.environ.get("PORT"):
         return None
     try:
         return sensum_sql.read_panel(panel)
@@ -2173,6 +2176,12 @@ def read_published_payload(path, *, weekly_goals=False):
 
 
 def read_remote_payload(filename, *, weekly_goals=False):
+    cache_key = (filename, weekly_goals)
+    now = datetime.now().timestamp()
+    cached = REMOTE_CACHE.get(cache_key)
+    if cached and now - cached["timestamp"] < REMOTE_CACHE_TTL_SECONDS:
+        return deepcopy(cached["payload"])
+
     url = f"{REMOTE_RAW_BASE}/{filename}?ts={int(datetime.now().timestamp())}"
     request = Request(url, headers={"User-Agent": "acompanhamento-diario"})
     try:
@@ -2181,7 +2190,8 @@ def read_remote_payload(filename, *, weekly_goals=False):
     except (OSError, URLError, TimeoutError, json.JSONDecodeError):
         return None
     if weekly_goals:
-        return apply_weekly_goals(payload)
+        payload = apply_weekly_goals(payload)
+    REMOTE_CACHE[cache_key] = {"timestamp": now, "payload": deepcopy(payload)}
     return payload
 
 
