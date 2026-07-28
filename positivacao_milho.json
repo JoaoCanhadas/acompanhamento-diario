@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "28/07/2026 13:20",
+  "lastModified": "28/07/2026 13:21",
   "summary": {
     "commitment": 758.0,
-    "reached": 662.0,
-    "missing": 96.0,
-    "percent": 87.3,
+    "reached": 665.0,
+    "missing": 93.0,
+    "percent": 87.7,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "VALE",
-      "seller": "SJC/VALE",
-      "commitment": 35.0,
-      "reached": 30.0,
-      "missing": 5.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 85.7,
-      "status": "pending"
-    },
-    {
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 51.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 92.2,
+      "status": "pending"
+    },
+    {
+      "reference": "VALE",
+      "seller": "SJC/VALE",
+      "commitment": 35.0,
+      "reached": 32.0,
+      "missing": 3.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 91.4,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 61.0,
-      "reached": 67.0,
-      "missing": -6.0,
+      "reached": 68.0,
+      "missing": -7.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 109.8,
+      "percent": 111.5,
       "status": "ok"
     }
   ],
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 133.0,
-      "missing": 67.0,
-      "percent": 66.5
+      "reached": 137.0,
+      "missing": 63.0,
+      "percent": 68.5
     }
   ]
 }
