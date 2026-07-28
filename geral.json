@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 10:56",
+  "lastModified": "28/07/2026 10:57",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4809568.29,
-    "missing": 782931.71,
-    "percent": 86.0,
+    "reached": 4816603.29,
+    "missing": 775896.71,
+    "percent": 86.1,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -18,11 +18,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 560000.0,
-      "reached": 302147.57,
-      "missing": 257852.43,
+      "reached": 306128.57,
+      "missing": 253871.43,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 54.0,
+      "percent": 54.7,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 260000.0,
-      "reached": 217985.13,
-      "missing": 42014.87,
+      "reached": 219278.53,
+      "missing": 40721.47,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.8,
+      "percent": 84.3,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 318500.0,
-      "reached": 283349.95,
-      "missing": 35150.05,
+      "reached": 284449.31,
+      "missing": 34050.69,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.0,
+      "percent": 89.3,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 90000.0,
-      "reached": 63069.12,
-      "missing": 26930.88,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 70.1,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
@@ -158,14 +147,25 @@
       "status": "pending"
     },
     {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 90000.0,
+      "reached": 63428.54,
+      "missing": 26571.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.5,
+      "status": "pending"
+    },
+    {
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 142500.0,
-      "reached": 115812.68,
-      "missing": 26687.32,
+      "reached": 116114.5,
+      "missing": 26385.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.3,
+      "percent": 81.5,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 509610.76,
-      "missing": 761184.69,
-      "percent": 40.1
+      "reached": 516645.76,
+      "missing": 754149.69,
+      "percent": 40.7
     }
   ]
 }
