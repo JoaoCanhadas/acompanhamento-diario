@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/07/2026 11:13",
+  "lastModified": "28/07/2026 11:14",
   "summary": {
     "commitment": 200000.0,
-    "reached": 75637.53,
-    "missing": 124362.47,
+    "reached": 75639.13,
+    "missing": 124360.87,
     "percent": 37.8,
-    "weekGoal": 700000.0,
+    "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
-    "weekMissing": 429557.82,
-    "weekPercent": 38.6,
+    "weekMissing": 120307.82,
+    "weekPercent": 69.2,
     "positiveCount": 0,
     "pendingCount": 18
   },
@@ -73,8 +73,8 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 13240.0,
-      "reached": 5238.45,
-      "missing": 8001.55,
+      "reached": 5240.05,
+      "missing": 7999.95,
       "average": 0.0,
       "difference": 0.0,
       "percent": 39.6,
@@ -217,38 +217,38 @@
   "weeks": [
     {
       "name": "Semana 1",
-      "goal": 700000.0,
+      "goal": 390750.0,
       "reached": 270442.18,
-      "missing": 429557.82,
-      "percent": 38.6
+      "missing": 120307.82,
+      "percent": 69.2
     },
     {
       "name": "Semana 2",
-      "goal": 700000.0,
+      "goal": 521000.0,
       "reached": 540392.24,
-      "missing": 159607.76,
-      "percent": 77.2
+      "missing": -19392.24,
+      "percent": 103.7
     },
     {
       "name": "Semana 3",
-      "goal": 700000.0,
+      "goal": 651250.0,
       "reached": 699453.78,
-      "missing": 546.22,
-      "percent": 99.9
+      "missing": -48203.78,
+      "percent": 107.4
     },
     {
       "name": "Semana 4",
-      "goal": 700000.0,
+      "goal": 651250.0,
       "reached": 581648.83,
-      "missing": 118351.17,
-      "percent": 83.1
+      "missing": 69601.17,
+      "percent": 89.3
     },
     {
       "name": "Semana 5",
-      "goal": 700000.0,
-      "reached": 310356.93,
-      "missing": 389643.07,
-      "percent": 44.3
+      "goal": 651250.0,
+      "reached": 310358.53,
+      "missing": 340891.47,
+      "percent": 47.7
     }
   ]
 }
