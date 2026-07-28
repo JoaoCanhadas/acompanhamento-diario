@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 08:44",
+  "lastModified": "28/07/2026 08:45",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4733666.72,
-    "missing": 858833.28,
-    "percent": 84.6,
+    "reached": 4734516.27,
+    "missing": 857983.73,
+    "percent": 84.7,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 167000.0,
-      "reached": 136307.37,
-      "missing": 30692.63,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 81.6,
-      "status": "pending"
-    },
-    {
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 142500.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 78.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 167000.0,
+      "reached": 137156.92,
+      "missing": 29843.08,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 82.1,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 433709.18,
-      "missing": 837086.27,
-      "percent": 34.1
+      "reached": 434558.73,
+      "missing": 836236.72,
+      "percent": 34.2
     }
   ]
 }
