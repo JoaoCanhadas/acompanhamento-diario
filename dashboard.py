@@ -93,8 +93,8 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .brand-logo {
-      width: clamp(260px, 31vw, 430px);
-      min-width: 260px;
+      width: clamp(360px, 36vw, 520px);
+      min-width: 360px;
       display: block;
     }
 
@@ -218,7 +218,7 @@ INDEX_HTML = r"""<!doctype html>
       position: absolute;
       inset: auto 0 0;
       height: 3px;
-      background: linear-gradient(90deg, var(--good), #84cc16);
+      background: linear-gradient(90deg, var(--blue), var(--purple));
     }
 
     .label {
@@ -262,7 +262,7 @@ INDEX_HTML = r"""<!doctype html>
       width: 0;
       max-width: 100%;
       border-radius: inherit;
-      background: linear-gradient(90deg, var(--blue), var(--purple));
+      background: linear-gradient(90deg, var(--good), #16a34a);
     }
 
     .layout {
@@ -664,7 +664,7 @@ INDEX_HTML = r"""<!doctype html>
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand-logo" aria-label="IATAGAM Comercio de Produtos Alimenticios LTDA">
-        <svg viewBox="0 0 760 160" role="img" aria-labelledby="logoTitle">
+        <svg viewBox="0 0 940 160" role="img" aria-labelledby="logoTitle">
           <title id="logoTitle">IATAGAM Comercio de Produtos Alimenticios LTDA</title>
           <text x="0" y="92" fill="#c30f3f" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="900" letter-spacing="0">IATAGAM</text>
           <rect x="500" y="30" width="4" height="106" rx="2" fill="#c30f3f"></rect>
@@ -676,9 +676,9 @@ INDEX_HTML = r"""<!doctype html>
             <ellipse cx="40" cy="72" rx="10" ry="24" transform="rotate(34 40 72)"></ellipse>
             <ellipse cx="20" cy="87" rx="10" ry="24" transform="rotate(-34 20 87)"></ellipse>
           </g>
-          <text x="550" y="90" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="2">COM&#201;RCIO DE</text>
-          <text x="550" y="122" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="2">PRODUTOS ALIMENT&#205;CIOS</text>
-          <text x="550" y="154" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="2">LTDA</text>
+          <text x="620" y="76" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="900" letter-spacing="2">COM&#201;RCIO DE</text>
+          <text x="620" y="108" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="900" letter-spacing="2">PRODUTOS ALIMENT&#205;CIOS</text>
+          <text x="620" y="140" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="900" letter-spacing="2">LTDA</text>
         </svg>
       </div>
       <div class="meta">
