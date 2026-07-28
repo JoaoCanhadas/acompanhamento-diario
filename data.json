@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/07/2026 09:52",
+  "lastModified": "28/07/2026 09:53",
   "summary": {
     "commitment": 200000.0,
-    "reached": 41245.03,
-    "missing": 158754.97,
-    "percent": 20.6,
+    "reached": 45938.98,
+    "missing": 154061.02,
+    "percent": 23.0,
     "weekGoal": 700000.0,
     "weekRevenue": 270442.18,
     "weekMissing": 429557.82,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 19700.0,
-      "reached": 4014.84,
-      "missing": 15685.16,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 20.4,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 14750.0,
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 9.8,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 19700.0,
+      "reached": 6743.59,
+      "missing": 12956.41,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 34.2,
       "status": "pending"
     },
     {
@@ -73,11 +73,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 13240.0,
-      "reached": 1714.1,
-      "missing": 11525.9,
+      "reached": 3143.2,
+      "missing": 10096.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 12.9,
+      "percent": 23.7,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERNO 1",
-      "seller": "VENDEDOR INTERNO 1",
-      "commitment": 3290.0,
-      "reached": 552.0,
-      "missing": 2738.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 16.8,
-      "status": "pending"
-    },
-    {
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 3670.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 31.3,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERNO 1",
+      "seller": "VENDEDOR INTERNO 1",
+      "commitment": 3290.0,
+      "reached": 1088.1,
+      "missing": 2201.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 33.1,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 700000.0,
-      "reached": 275964.43,
-      "missing": 424035.57,
-      "percent": 39.4
+      "reached": 280658.38,
+      "missing": 419341.62,
+      "percent": 40.1
     }
   ]
 }
