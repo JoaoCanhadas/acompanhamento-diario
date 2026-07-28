@@ -1163,7 +1163,7 @@ def week_sort_key(item):
 
 
 def apply_weekly_goals(data):
-    goals = read_weekly_goals()
+    goals = read_excel_weekly_goals() or read_weekly_goals()
     weeks = data.get("weeks") or []
     for index in range(1, 6):
         week_name = f"Semana {index}"
@@ -1227,6 +1227,32 @@ def read_sales_rows(workbook):
             }
         )
     return rows
+
+
+def read_excel_weekly_goals():
+    excel_path = find_compromisso_workbook()
+    if not excel_path:
+        return {}
+
+    workbook = openpyxl.load_workbook(excel_path, data_only=True, read_only=True)
+    try:
+        if excel_path.name.upper().startswith("BASE PYTHON") and "BASE" in workbook.sheetnames:
+            data = read_base_python_dashboard_data(excel_path, workbook)
+        elif excel_path.name.upper().startswith("BASE PYTHON") and "Planilha1" in workbook.sheetnames:
+            data = read_base_python_planilha1_data(excel_path, workbook)
+        elif "Planilha1" in workbook.sheetnames:
+            weeks, _daily_totals = read_weekly_blocks(workbook)
+            data = {"weeks": weeks}
+        else:
+            return {}
+    finally:
+        workbook.close()
+
+    return {
+        normalize_week_name(week.get("name")): money(week.get("goal"))
+        for week in data.get("weeks", [])
+        if money(week.get("goal")) > 0
+    }
 
 
 def read_month_summary_data(workbook):
