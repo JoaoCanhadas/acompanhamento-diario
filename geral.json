@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 10:32",
+  "lastModified": "28/07/2026 10:33",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4786943.1,
-    "missing": 805556.9,
-    "percent": 85.6,
+    "reached": 4790062.7,
+    "missing": 802437.3,
+    "percent": 85.7,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -62,22 +62,22 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 260000.0,
-      "reached": 207544.26,
-      "missing": 52455.74,
+      "reached": 209388.26,
+      "missing": 50611.74,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.8,
+      "percent": 80.5,
       "status": "pending"
     },
     {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 155856.4,
-      "missing": 39143.6,
+      "reached": 156096.2,
+      "missing": 38903.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.9,
+      "percent": 80.0,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 88229.96,
-      "missing": 33770.04,
+      "reached": 89005.96,
+      "missing": 32994.04,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 72.3,
+      "percent": 73.0,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 142500.0,
-      "reached": 114817.88,
-      "missing": 27682.12,
+      "reached": 115077.68,
+      "missing": 27422.32,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.6,
+      "percent": 80.8,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 486985.57,
-      "missing": 783809.88,
-      "percent": 38.3
+      "reached": 490105.17,
+      "missing": 780690.28,
+      "percent": 38.6
     }
   ]
 }
