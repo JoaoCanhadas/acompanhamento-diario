@@ -841,8 +841,7 @@ INDEX_HTML = r"""<!doctype html>
       const requestId = ++loadRequestId;
       const viewForRequest = activeView;
       byId("error").innerHTML = "";
-      setText("tableTitle", views[viewForRequest].title);
-      byId("tableBody").innerHTML = `<tr><td data-label="Carregando" colspan="6">Carregando...</td></tr>`;
+      renderLoading(viewForRequest);
       try {
         const config = views[viewForRequest];
         const response = await fetch(config.endpoint + "?ts=" + Date.now());
@@ -851,13 +850,32 @@ INDEX_HTML = r"""<!doctype html>
         if (requestId !== loadRequestId || viewForRequest !== activeView) return;
         state.rows = data.rows || [];
         state.weeks = normalizeWeeks(data);
-        renderSummary(data);
-        renderTable();
-        renderWeeks();
+        renderSummary(data, viewForRequest);
+        renderTable(viewForRequest);
+        renderWeeks(viewForRequest);
       } catch (error) {
         if (requestId !== loadRequestId || viewForRequest !== activeView) return;
         byId("error").innerHTML = `<div class="error">${error.message}</div>`;
       }
+    }
+
+    function renderLoading(viewName) {
+      const config = views[viewName];
+      setText("workbook", `Carregando ${config.commitmentLabel.toLowerCase()}...`);
+      setText("updated", "");
+      setText("tableTitle", config.title);
+      setText("commitmentLabel", config.commitmentLabel);
+      setText("commitment", config.format(0));
+      setText("reached", config.format(0));
+      setText("missing", config.format(0));
+      byId("missing").className = "value";
+      setText("percent", "0%");
+      setText("pendingCount", "");
+      setText("positiveCount", "");
+      byId("totalProgress").style.width = "0%";
+      renderTableHead(config);
+      byId("tableBody").innerHTML = `<tr><td data-label="Carregando" colspan="${config.columns.length + 1}">Carregando...</td></tr>`;
+      byId("weekly").innerHTML = `<div class="week-card">Carregando...</div>`;
     }
 
     function normalizeWeeks(data) {
@@ -873,14 +891,14 @@ INDEX_HTML = r"""<!doctype html>
       }));
     }
 
-    function renderSummary(data) {
+    function renderSummary(data, viewName = activeView) {
       const summary = data.summary || {};
       setText("workbook", data.workbook || "data.json");
       setText("updated", "Atualizado em " + (data.lastModified || "-"));
-      const config = views[activeView];
+      const config = views[viewName];
       setText("tableTitle", config.title);
       setText("commitmentLabel", config.commitmentLabel);
-      const commitmentValue = activeView === "keys" ? summary.weekGoal : summary.commitment;
+      const commitmentValue = viewName === "keys" ? summary.weekGoal : summary.commitment;
       setText("commitment", config.format(commitmentValue));
       setText("reached", config.format(summary.reached));
       setText("missing", formatBalance(summary.missing, config.format));
@@ -905,16 +923,20 @@ INDEX_HTML = r"""<!doctype html>
         });
     }
 
-    function renderTable() {
-      const config = views[activeView];
-      const rows = filteredRows();
-      const tableBody = byId("tableBody");
+    function renderTableHead(config) {
       byId("tableHead").innerHTML = `
         <tr>
           ${config.columns.map((column) => `<th data-sort="${column.key}">${column.label}</th>`).join("")}
           <th>Status</th>
         </tr>
       `;
+    }
+
+    function renderTable(viewName = activeView) {
+      const config = views[viewName];
+      const rows = filteredRows();
+      const tableBody = byId("tableBody");
+      renderTableHead(config);
       const markup = rows.map((row) => `
         <tr>
           ${config.columns.map((column) => `<td data-label="${column.label}" class="${column.key === "seller" ? "seller" : ""} ${column.className ? column.className(row) : ""}">${column.value(row)}</td>`).join("")}
@@ -963,8 +985,8 @@ INDEX_HTML = r"""<!doctype html>
       sellerScrollFrame = requestAnimationFrame(tick);
     }
 
-    function renderWeeks() {
-      const config = views[activeView];
+    function renderWeeks(viewName = activeView) {
+      const config = views[viewName];
       const weeks = state.weeks.slice(0, 5);
       setText("weekCount", `${weeks.length} semanas`);
       const renderWeekCard = (week, loopCopy = false) => {
