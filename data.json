@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/07/2026 08:02",
+  "lastModified": "28/07/2026 08:03",
   "summary": {
     "commitment": 200000.0,
-    "reached": 8774.08,
-    "missing": 191225.92,
-    "percent": 4.4,
+    "reached": 9556.08,
+    "missing": 190443.92,
+    "percent": 4.8,
     "weekGoal": 700000.0,
     "weekRevenue": 270442.18,
     "weekMissing": 429557.82,
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 7260.0,
-      "reached": 0.0,
-      "missing": 7260.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 7840.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 8.5,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 7260.0,
+      "reached": 230.0,
+      "missing": 7030.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 3.2,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 3290.0,
-      "reached": 0.0,
-      "missing": 3290.0,
+      "reached": 552.0,
+      "missing": 2738.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 16.8,
       "status": "pending"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 700000.0,
-      "reached": 243426.08,
-      "missing": 456573.92,
-      "percent": 34.8
+      "reached": 244208.08,
+      "missing": 455791.92,
+      "percent": 34.9
     }
   ]
 }
