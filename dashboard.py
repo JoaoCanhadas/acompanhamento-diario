@@ -2061,6 +2061,8 @@ def read_legacy_excel_dashboard_data():
 
 
 def read_sql_panel(panel):
+    if os.environ.get("RENDER") or os.environ.get("RENDER_SERVICE_ID"):
+        return None
     try:
         return sensum_sql.read_panel(panel)
     except Exception as exc:
