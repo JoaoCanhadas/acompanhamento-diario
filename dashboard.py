@@ -7,6 +7,8 @@ import unicodedata
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.error import URLError
+from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 
 import openpyxl
@@ -26,6 +28,10 @@ WEEKLY_GOALS_PATH = BASE_DIR / "weekly_goals.json"
 LOGO_PATH = BASE_DIR / "logo_iatagam_word.svg"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
+REMOTE_RAW_BASE = os.environ.get(
+    "DASHBOARD_RAW_BASE",
+    "https://raw.githubusercontent.com/JoaoCanhadas/acompanhamento-diario/main",
+).rstrip("/")
 DEFAULT_WEEKLY_GOAL = 700000.0
 POSITIVACAO_MILHO_WEEKLY_GOAL = 200.0
 DEPLOY_VERSION = "2026-06-25 08:39"
@@ -2067,6 +2073,10 @@ def read_dashboard_data():
     if sql_data:
         return apply_weekly_goals(sql_data)
 
+    remote_data = read_remote_payload("data.json", weekly_goals=True)
+    if remote_data:
+        return remote_data
+
     if DATA_PATH.exists():
         return apply_weekly_goals(json.loads(DATA_PATH.read_text(encoding="utf-8")))
 
@@ -2083,6 +2093,10 @@ def read_positivacao_milho_data():
     sql_data = read_sql_panel("milho")
     if sql_data:
         return sql_data
+
+    remote_data = read_remote_payload("positivacao_milho.json")
+    if remote_data:
+        return remote_data
 
     if POSITIVACAO_MILHO_DATA_PATH.exists():
         return json.loads(POSITIVACAO_MILHO_DATA_PATH.read_text(encoding="utf-8"))
@@ -2104,6 +2118,10 @@ def read_general_data():
     if sql_data:
         return sql_data
 
+    remote_data = read_remote_payload("geral.json")
+    if remote_data:
+        return remote_data
+
     if GERAL_DATA_PATH.exists():
         return json.loads(GERAL_DATA_PATH.read_text(encoding="utf-8"))
 
@@ -2124,6 +2142,10 @@ def read_keys_data():
     if sql_data:
         return sql_data
 
+    remote_data = read_remote_payload("keys.json")
+    if remote_data:
+        return remote_data
+
     if KEYS_DATA_PATH.exists():
         return json.loads(KEYS_DATA_PATH.read_text(encoding="utf-8"))
 
@@ -2143,6 +2165,19 @@ def read_published_payload(path, *, weekly_goals=False):
     if not path.exists():
         return None
     payload = json.loads(path.read_text(encoding="utf-8"))
+    if weekly_goals:
+        return apply_weekly_goals(payload)
+    return payload
+
+
+def read_remote_payload(filename, *, weekly_goals=False):
+    url = f"{REMOTE_RAW_BASE}/{filename}?ts={int(datetime.now().timestamp())}"
+    request = Request(url, headers={"User-Agent": "acompanhamento-diario"})
+    try:
+        with urlopen(request, timeout=8) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except (OSError, URLError, TimeoutError, json.JSONDecodeError):
+        return None
     if weekly_goals:
         return apply_weekly_goals(payload)
     return payload

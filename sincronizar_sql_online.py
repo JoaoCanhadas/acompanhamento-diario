@@ -96,7 +96,7 @@ def publish_json_files():
         "-",
         stdin_data=json.dumps({"base_tree": base_tree, "tree": tree_items}),
     )
-    message = f"Dados SQL sincronizados em {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"
+    message = f"Dados SQL sincronizados em {datetime.now().strftime('%d/%m/%Y %H:%M:%S')} [skip render]"
     commit = gh_json(
         f"repos/{REPO}/git/commits",
         "--method",
