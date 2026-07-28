@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 09:45",
+  "lastModified": "28/07/2026 09:46",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4748198.07,
-    "missing": 844301.93,
-    "percent": 84.9,
+    "reached": 4750878.84,
+    "missing": 841621.16,
+    "percent": 85.0,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -51,8 +51,8 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 214305.36,
-      "missing": 58694.64,
+      "reached": 214342.26,
+      "missing": 58657.74,
       "average": 0.0,
       "difference": 0.0,
       "percent": 78.5,
@@ -73,11 +73,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 318500.0,
-      "reached": 272140.88,
-      "missing": 46359.12,
+      "reached": 272980.0,
+      "missing": 45520.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 85.4,
+      "percent": 85.7,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 152436.8,
-      "missing": 42563.2,
+      "reached": 153656.7,
+      "missing": 41343.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.2,
+      "percent": 78.8,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
-      "reached": 69998.52,
-      "missing": 20001.48,
+      "reached": 70583.37,
+      "missing": 19416.63,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 77.8,
+      "percent": 78.4,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 448240.53,
-      "missing": 822554.92,
-      "percent": 35.3
+      "reached": 450921.31,
+      "missing": 819874.14,
+      "percent": 35.5
     }
   ]
 }
