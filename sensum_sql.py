@@ -301,9 +301,21 @@ def period_range():
 
 
 def reached_period_range(panel):
-    if panel in {"sales", "keys"}:
+    if panel == "sales":
+        return current_day_range()
+    if panel == "keys":
         return current_week_range()
     return period_range()
+
+
+def current_day_range():
+    month_start, month_end = period_range()
+    today = datetime.now()
+    year = int(os.environ.get("SENSUM_SQL_YEAR", today.year))
+    month = int(os.environ.get("SENSUM_SQL_MONTH", today.month))
+    day = int(os.environ.get("SENSUM_SQL_UNTIL_DAY", today.day))
+    current = datetime(year, month, day)
+    return max(month_start, current), min(month_end, current + timedelta(days=1))
 
 
 def current_week_range():
