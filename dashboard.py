@@ -4,6 +4,7 @@ import json
 import os
 import socket
 import unicodedata
+import base64
 from copy import deepcopy
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -32,6 +33,10 @@ PORT = int(os.environ.get("PORT", "8000"))
 REMOTE_RAW_BASE = os.environ.get(
     "DASHBOARD_RAW_BASE",
     "https://raw.githubusercontent.com/JoaoCanhadas/acompanhamento-diario/main",
+).rstrip("/")
+REMOTE_API_BASE = os.environ.get(
+    "DASHBOARD_API_BASE",
+    "https://api.github.com/repos/JoaoCanhadas/acompanhamento-diario/contents",
 ).rstrip("/")
 REMOTE_CACHE_TTL_SECONDS = int(os.environ.get("DASHBOARD_REMOTE_CACHE_SECONDS", "55"))
 REMOTE_CACHE = {}
@@ -2182,13 +2187,27 @@ def read_remote_payload(filename, *, weekly_goals=False):
     if cached and now - cached["timestamp"] < REMOTE_CACHE_TTL_SECONDS:
         return deepcopy(cached["payload"])
 
-    url = f"{REMOTE_RAW_BASE}/{filename}?ts={int(datetime.now().timestamp())}"
-    request = Request(url, headers={"User-Agent": "acompanhamento-diario"})
+    api_url = f"{REMOTE_API_BASE}/{filename}?ref=main&ts={int(now)}"
+    request = Request(
+        api_url,
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "acompanhamento-diario",
+        },
+    )
     try:
         with urlopen(request, timeout=8) as response:
-            payload = json.loads(response.read().decode("utf-8"))
-    except (OSError, URLError, TimeoutError, json.JSONDecodeError):
-        return None
+            api_payload = json.loads(response.read().decode("utf-8"))
+            encoded = "".join(str(api_payload.get("content", "")).split())
+            payload = json.loads(base64.b64decode(encoded).decode("utf-8"))
+    except (OSError, URLError, TimeoutError, ValueError, json.JSONDecodeError):
+        raw_url = f"{REMOTE_RAW_BASE}/{filename}?ts={int(now)}"
+        raw_request = Request(raw_url, headers={"User-Agent": "acompanhamento-diario"})
+        try:
+            with urlopen(raw_request, timeout=8) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+        except (OSError, URLError, TimeoutError, json.JSONDecodeError):
+            return None
     if weekly_goals:
         payload = apply_weekly_goals(payload)
     REMOTE_CACHE[cache_key] = {"timestamp": now, "payload": deepcopy(payload)}
