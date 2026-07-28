@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 13:12",
+  "lastModified": "28/07/2026 13:13",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4851680.58,
-    "missing": 740819.42,
+    "reached": 4854080.88,
+    "missing": 738419.12,
     "percent": 86.8,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -103,28 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 100000.0,
-      "reached": 73214.54,
-      "missing": 26785.46,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 73.2,
-      "status": "pending"
-    },
-    {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
-      "commitment": 142500.0,
-      "reached": 116114.5,
-      "missing": 26385.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 81.5,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
@@ -133,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.7,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 100000.0,
+      "reached": 73831.34,
+      "missing": 26168.66,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 73.8,
       "status": "pending"
     },
     {
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 82.0,
+      "status": "pending"
+    },
+    {
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "commitment": 142500.0,
+      "reached": 117898.0,
+      "missing": 24602.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 82.7,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 551723.05,
-      "missing": 719072.4,
-      "percent": 43.4
+      "reached": 554123.35,
+      "missing": 716672.1,
+      "percent": 43.6
     }
   ]
 }
