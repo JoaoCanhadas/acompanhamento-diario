@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 09:36",
+  "lastModified": "28/07/2026 09:38",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4745225.95,
-    "missing": 847274.05,
-    "percent": 84.8,
+    "reached": 4747708.02,
+    "missing": 844791.98,
+    "percent": 84.9,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -73,11 +73,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 318500.0,
-      "reached": 271820.96,
-      "missing": 46679.04,
+      "reached": 272140.88,
+      "missing": 46359.12,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 85.3,
+      "percent": 85.4,
       "status": "pending"
     },
     {
@@ -117,11 +117,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 237500.0,
-      "reached": 206001.42,
-      "missing": 31498.58,
+      "reached": 207898.07,
+      "missing": 29601.93,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 86.7,
+      "percent": 87.5,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 134500.0,
-      "reached": 109892.75,
-      "missing": 24607.25,
+      "reached": 110152.55,
+      "missing": 24347.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.7,
+      "percent": 81.9,
       "status": "pending"
     },
     {
@@ -216,8 +216,8 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 325000.0,
-      "reached": 308464.28,
-      "missing": 16535.72,
+      "reached": 308466.08,
+      "missing": 16533.92,
       "average": 0.0,
       "difference": 0.0,
       "percent": 94.9,
@@ -238,8 +238,8 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
-      "reached": 66433.18,
-      "missing": 11566.82,
+      "reached": 66437.08,
+      "missing": 11562.92,
       "average": 0.0,
       "difference": 0.0,
       "percent": 85.2,
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 445268.41,
-      "missing": 825527.04,
-      "percent": 35.0
+      "reached": 447750.48,
+      "missing": 823044.97,
+      "percent": 35.2
     }
   ]
 }
