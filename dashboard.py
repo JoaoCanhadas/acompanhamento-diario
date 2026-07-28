@@ -23,6 +23,7 @@ GERAL_DATA_PATH = BASE_DIR / "geral.json"
 POSITIVACAO_MILHO_DATA_PATH = BASE_DIR / "positivacao_milho.json"
 KEYS_DATA_PATH = BASE_DIR / "keys.json"
 WEEKLY_GOALS_PATH = BASE_DIR / "weekly_goals.json"
+LOGO_PATH = BASE_DIR / "logo_iatagam.svg"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 DEFAULT_WEEKLY_GOAL = 700000.0
@@ -93,15 +94,18 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .brand-logo {
-      width: clamp(360px, 36vw, 520px);
-      min-width: 360px;
+      width: clamp(300px, 34vw, 460px);
+      min-width: 300px;
+      height: 82px;
       display: block;
     }
 
-    .brand-logo svg {
+    .brand-logo img {
       display: block;
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: contain;
+      object-position: left center;
     }
 
     .meta {
@@ -489,6 +493,7 @@ INDEX_HTML = r"""<!doctype html>
 
       .brand-logo {
         width: min(300px, 100%);
+        height: 70px;
         min-width: 0;
       }
 
@@ -663,23 +668,8 @@ INDEX_HTML = r"""<!doctype html>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <div class="brand-logo" aria-label="IATAGAM Comercio de Produtos Alimenticios LTDA">
-        <svg viewBox="0 0 940 160" role="img" aria-labelledby="logoTitle">
-          <title id="logoTitle">IATAGAM Comercio de Produtos Alimenticios LTDA</title>
-          <text x="0" y="92" fill="#c30f3f" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="900" letter-spacing="0">IATAGAM</text>
-          <rect x="500" y="30" width="4" height="106" rx="2" fill="#c30f3f"></rect>
-          <g transform="translate(550 24)" fill="#8a8a8a">
-            <rect x="25" y="5" width="5" height="75" rx="3"></rect>
-            <ellipse cx="22" cy="24" rx="10" ry="24" transform="rotate(-24 22 24)"></ellipse>
-            <ellipse cx="38" cy="40" rx="10" ry="24" transform="rotate(28 38 40)"></ellipse>
-            <ellipse cx="19" cy="55" rx="10" ry="24" transform="rotate(-32 19 55)"></ellipse>
-            <ellipse cx="40" cy="72" rx="10" ry="24" transform="rotate(34 40 72)"></ellipse>
-            <ellipse cx="20" cy="87" rx="10" ry="24" transform="rotate(-34 20 87)"></ellipse>
-          </g>
-          <text x="620" y="76" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="900" letter-spacing="2">COM&#201;RCIO DE</text>
-          <text x="620" y="108" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="900" letter-spacing="2">PRODUTOS ALIMENT&#205;CIOS</text>
-          <text x="620" y="140" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="900" letter-spacing="2">LTDA</text>
-        </svg>
+      <div class="brand-logo">
+        <img src="/logo_iatagam.svg" alt="IATAGAM Comercio de Produtos Alimenticios LTDA">
       </div>
       <div class="meta">
         <div class="view-tabs" aria-label="Telas do acompanhamento">
@@ -2137,6 +2127,18 @@ class DashboardHandler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
         if parsed.path == "/":
             self.send_text(INDEX_HTML, "text/html; charset=utf-8")
+            return
+        if parsed.path == "/logo_iatagam.svg":
+            if not LOGO_PATH.exists():
+                self.send_text("Logo nao encontrada", "text/plain; charset=utf-8", status=404)
+                return
+            payload = LOGO_PATH.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", "image/svg+xml; charset=utf-8")
+            self.send_header("Cache-Control", "public, max-age=300")
+            self.send_header("Content-Length", str(len(payload)))
+            self.end_headers()
+            self.wfile.write(payload)
             return
         if parsed.path == "/api/sql-status":
             status = sensum_sql.status()
