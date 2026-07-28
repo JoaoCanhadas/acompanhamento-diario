@@ -93,56 +93,15 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .brand-logo {
-      min-width: 280px;
-      display: flex;
-      align-items: center;
-      gap: 14px;
+      width: clamp(260px, 31vw, 430px);
+      min-width: 260px;
+      display: block;
     }
 
-    .brand-name {
-      color: #e11d48;
-      font-size: 38px;
-      line-height: 1;
-      font-weight: 900;
-      letter-spacing: 0;
-    }
-
-    .brand-divider {
-      width: 1px;
-      height: 38px;
-      background: rgba(255,255,255,.24);
-    }
-
-    .brand-wheat {
-      width: 28px;
-      height: 42px;
-      position: relative;
-      display: inline-block;
-    }
-
-    .brand-wheat::before {
-      content: "";
-      position: absolute;
-      left: 13px;
-      top: 4px;
-      width: 2px;
-      height: 34px;
-      border-radius: 999px;
-      background: rgba(226,232,240,.66);
-    }
-
-    .brand-wheat i {
-      position: absolute;
-      width: 11px;
-      height: 16px;
-      border-radius: 11px 0 11px 0;
-      background: rgba(226,232,240,.66);
-      transform-origin: bottom center;
-    }
-
-    .brand-wheat i:nth-child(1) { left: 3px; top: 7px; transform: rotate(-38deg); }
-    .brand-wheat i:nth-child(2) { right: 3px; top: 16px; transform: rotate(38deg); }
-    .brand-wheat i:nth-child(3) { left: 3px; top: 25px; transform: rotate(-38deg); }
+    .brand-logo svg {
+      display: block;
+      width: 100%;
+      height: auto;
     }
 
     .meta {
@@ -529,20 +488,8 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       .brand-logo {
+        width: min(300px, 100%);
         min-width: 0;
-      }
-
-      .brand-name {
-        font-size: 30px;
-      }
-
-      .brand-divider {
-        height: 32px;
-      }
-
-      .brand-wheat {
-        width: 24px;
-        height: 36px;
       }
 
       .meta {
@@ -716,10 +663,23 @@ INDEX_HTML = r"""<!doctype html>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <div class="brand-logo" aria-label="IATAGAM">
-        <span class="brand-name">IATAGAM</span>
-        <span class="brand-divider"></span>
-        <span class="brand-wheat" aria-hidden="true"><i></i><i></i><i></i></span>
+      <div class="brand-logo" aria-label="IATAGAM Comercio de Produtos Alimenticios LTDA">
+        <svg viewBox="0 0 760 160" role="img" aria-labelledby="logoTitle">
+          <title id="logoTitle">IATAGAM Comercio de Produtos Alimenticios LTDA</title>
+          <text x="0" y="92" fill="#c30f3f" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="900" letter-spacing="0">IATAGAM</text>
+          <rect x="500" y="30" width="4" height="106" rx="2" fill="#c30f3f"></rect>
+          <g transform="translate(550 24)" fill="#8a8a8a">
+            <rect x="25" y="5" width="5" height="75" rx="3"></rect>
+            <ellipse cx="22" cy="24" rx="10" ry="24" transform="rotate(-24 22 24)"></ellipse>
+            <ellipse cx="38" cy="40" rx="10" ry="24" transform="rotate(28 38 40)"></ellipse>
+            <ellipse cx="19" cy="55" rx="10" ry="24" transform="rotate(-32 19 55)"></ellipse>
+            <ellipse cx="40" cy="72" rx="10" ry="24" transform="rotate(34 40 72)"></ellipse>
+            <ellipse cx="20" cy="87" rx="10" ry="24" transform="rotate(-34 20 87)"></ellipse>
+          </g>
+          <text x="550" y="90" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="2">COM&#201;RCIO DE</text>
+          <text x="550" y="122" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="2">PRODUTOS ALIMENT&#205;CIOS</text>
+          <text x="550" y="154" fill="#8a8a8a" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="2">LTDA</text>
+        </svg>
       </div>
       <div class="meta">
         <div class="view-tabs" aria-label="Telas do acompanhamento">
