@@ -94,9 +94,9 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .brand-logo {
-      width: clamp(300px, 34vw, 460px);
-      min-width: 300px;
-      height: 82px;
+      width: clamp(220px, 20vw, 300px);
+      min-width: 220px;
+      height: 58px;
       display: block;
     }
 
@@ -492,8 +492,8 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       .brand-logo {
-        width: min(300px, 100%);
-        height: 70px;
+        width: min(240px, 100%);
+        height: 52px;
         min-width: 0;
       }
 
@@ -669,7 +669,7 @@ INDEX_HTML = r"""<!doctype html>
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand-logo">
-        <img src="/logo_iatagam.svg" alt="IATAGAM Comercio de Produtos Alimenticios LTDA">
+        <img src="/logo_iatagam.svg" alt="IATAGAM">
       </div>
       <div class="meta">
         <div class="view-tabs" aria-label="Telas do acompanhamento">
