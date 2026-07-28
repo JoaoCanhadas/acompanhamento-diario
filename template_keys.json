@@ -1,15 +1,15 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "28/07/2026 07:14",
+  "lastModified": "28/07/2026 08:10",
   "summary": {
     "commitment": 0.0,
-    "reached": 0.0,
-    "missing": 0.0,
+    "reached": 2080.6,
+    "missing": -2080.6,
     "percent": 0,
     "weekGoal": 371590.91,
-    "weekRevenue": 281585.82,
-    "weekMissing": 90005.09,
-    "weekPercent": 75.8,
+    "weekRevenue": 275241.62,
+    "weekMissing": 96349.29,
+    "weekPercent": 74.1,
     "positiveCount": 7,
     "pendingCount": 0
   },
@@ -59,17 +59,6 @@
       "status": "ok"
     },
     {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 0.0,
@@ -90,6 +79,17 @@
       "difference": 0.0,
       "percent": 0,
       "status": "ok"
+    },
+    {
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 0.0,
+      "reached": 2080.6,
+      "missing": -2080.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -97,37 +97,37 @@
     {
       "name": "Semana 1",
       "goal": 371590.91,
-      "reached": 281585.82,
-      "missing": 90005.09,
-      "percent": 75.8
+      "reached": 275241.62,
+      "missing": 96349.29,
+      "percent": 74.1
     },
     {
       "name": "Semana 2",
       "goal": 495454.55,
-      "reached": 574798.8,
-      "missing": -79344.25,
-      "percent": 116.0
+      "reached": 563167.95,
+      "missing": -67713.4,
+      "percent": 113.7
     },
     {
       "name": "Semana 3",
       "goal": 619318.18,
-      "reached": 693901.87,
-      "missing": -74583.69,
-      "percent": 112.0
+      "reached": 684697.15,
+      "missing": -65378.97,
+      "percent": 110.6
     },
     {
       "name": "Semana 4",
       "goal": 619318.18,
-      "reached": 693970.58,
-      "missing": -74652.4,
-      "percent": 112.1
+      "reached": 684913.8,
+      "missing": -65595.62,
+      "percent": 110.6
     },
     {
       "name": "Semana 5",
       "goal": 619318.18,
-      "reached": 173371.88,
-      "missing": 445946.3,
-      "percent": 28.0
+      "reached": 175452.48,
+      "missing": 443865.7,
+      "percent": 28.3
     }
   ]
 }
