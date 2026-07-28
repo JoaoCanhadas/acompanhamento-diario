@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "28/07/2026 14:20",
+  "lastModified": "28/07/2026 14:21",
   "summary": {
     "commitment": 758.0,
-    "reached": 669.0,
-    "missing": 89.0,
-    "percent": 88.3,
+    "reached": 670.0,
+    "missing": 88.0,
+    "percent": 88.4,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
     "weekPercent": 60.0,
-    "positiveCount": 4,
-    "pendingCount": 13
+    "positiveCount": 5,
+    "pendingCount": 12
   },
   "rows": [
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 59.0,
-      "reached": 58.0,
-      "missing": 1.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 98.3,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 27.0,
@@ -156,6 +145,17 @@
       "difference": 0.0,
       "percent": 96.3,
       "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 59.0,
+      "reached": 59.0,
+      "missing": 0.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "ok"
     },
     {
       "reference": "MOGI",
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 149.0,
-      "missing": 51.0,
-      "percent": 74.5
+      "reached": 150.0,
+      "missing": 50.0,
+      "percent": 75.0
     }
   ]
 }
