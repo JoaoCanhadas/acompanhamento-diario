@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 15:21",
+  "lastModified": "28/07/2026 15:22",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4901315.54,
-    "missing": 691184.46,
-    "percent": 87.6,
+    "reached": 4903291.64,
+    "missing": 689208.36,
+    "percent": 87.7,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -73,22 +73,22 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 90229.31,
-      "missing": 31770.69,
+      "reached": 91045.41,
+      "missing": 30954.59,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.0,
+      "percent": 74.6,
       "status": "pending"
     },
     {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 260000.0,
-      "reached": 229192.99,
-      "missing": 30807.01,
+      "reached": 230352.99,
+      "missing": 29647.01,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 88.2,
+      "percent": 88.6,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 601358.01,
-      "missing": 669437.44,
-      "percent": 47.3
+      "reached": 603334.11,
+      "missing": 667461.34,
+      "percent": 47.5
     }
   ]
 }
