@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "28/07/2026 11:03",
+  "lastModified": "28/07/2026 11:45",
   "summary": {
     "commitment": 758.0,
-    "reached": 659.0,
-    "missing": 99.0,
-    "percent": 86.9,
+    "reached": 662.0,
+    "missing": 96.0,
+    "percent": 87.3,
     "weekGoal": 200.0,
     "weekRevenue": 119.0,
     "weekMissing": 81.0,
@@ -40,11 +40,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 55.0,
-      "reached": 40.0,
-      "missing": 15.0,
+      "reached": 41.0,
+      "missing": 14.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 72.7,
+      "percent": 74.5,
       "status": "pending"
     },
     {
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "PENHA",
-      "seller": "LESTE PENHA",
-      "commitment": 39.0,
-      "reached": 30.0,
-      "missing": 9.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.9,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 36.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 77.8,
+      "status": "pending"
+    },
+    {
+      "reference": "PENHA",
+      "seller": "LESTE PENHA",
+      "commitment": 39.0,
+      "reached": 31.0,
+      "missing": 8.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 79.5,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 59.0,
-      "reached": 57.0,
-      "missing": 2.0,
+      "reached": 58.0,
+      "missing": 1.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 96.6,
+      "percent": 98.3,
       "status": "pending"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 121.0,
-      "missing": 79.0,
-      "percent": 60.5
+      "reached": 127.0,
+      "missing": 73.0,
+      "percent": 63.5
     }
   ]
 }
