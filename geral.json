@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/07/2026 10:36",
+  "lastModified": "28/07/2026 10:37",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4790908.5,
-    "missing": 801591.5,
-    "percent": 85.7,
+    "reached": 4795966.45,
+    "missing": 796533.55,
+    "percent": 85.8,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -62,11 +62,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 260000.0,
-      "reached": 209388.26,
-      "missing": 50611.74,
+      "reached": 213031.21,
+      "missing": 46968.79,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.5,
+      "percent": 81.9,
       "status": "pending"
     },
     {
@@ -139,22 +139,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 62289.72,
-      "missing": 27710.28,
+      "reached": 62979.72,
+      "missing": 27020.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 69.2,
-      "status": "pending"
-    },
-    {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
-      "commitment": 142500.0,
-      "reached": 115077.68,
-      "missing": 27422.32,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.8,
+      "percent": 70.0,
       "status": "pending"
     },
     {
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 73.1,
+      "status": "pending"
+    },
+    {
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "commitment": 142500.0,
+      "reached": 115802.68,
+      "missing": 26697.32,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.3,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 490950.97,
-      "missing": 779844.48,
-      "percent": 38.6
+      "reached": 496008.92,
+      "missing": 774786.53,
+      "percent": 39.0
     }
   ]
 }
