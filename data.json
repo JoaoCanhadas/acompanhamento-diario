@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "29/07/2026 10:20",
+  "lastModified": "29/07/2026 10:21",
   "summary": {
     "commitment": 150000.0,
-    "reached": 32622.3,
-    "missing": 117377.7,
-    "percent": 21.7,
+    "reached": 32747.3,
+    "missing": 117252.7,
+    "percent": 21.8,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
@@ -18,11 +18,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 16350.0,
-      "reached": 0.0,
-      "missing": 16350.0,
+      "reached": 125.0,
+      "missing": 16225.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 0.8,
       "status": "pending"
     },
     {
@@ -246,8 +246,8 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 416536.05,
-      "missing": 234713.95,
+      "reached": 416661.05,
+      "missing": 234588.95,
       "percent": 64.0
     }
   ]
