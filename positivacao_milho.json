@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "29/07/2026 09:30",
+  "lastModified": "29/07/2026 09:32",
   "summary": {
     "commitment": 758.0,
-    "reached": 670.0,
-    "missing": 88.0,
-    "percent": 88.4,
+    "reached": 674.0,
+    "missing": 84.0,
+    "percent": 88.9,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
     "weekPercent": 60.0,
-    "positiveCount": 5,
-    "pendingCount": 12
+    "positiveCount": 6,
+    "pendingCount": 11
   },
   "rows": [
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "VALE",
-      "seller": "SJC/VALE",
-      "commitment": 35.0,
-      "reached": 32.0,
-      "missing": 3.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 91.4,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 41.0,
@@ -145,6 +134,17 @@
       "difference": 0.0,
       "percent": 96.3,
       "status": "pending"
+    },
+    {
+      "reference": "VALE",
+      "seller": "SJC/VALE",
+      "commitment": 35.0,
+      "reached": 35.0,
+      "missing": 0.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "ok"
     },
     {
       "reference": "INTERLAGOS",
@@ -194,11 +194,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 61.0,
-      "reached": 69.0,
-      "missing": -8.0,
+      "reached": 70.0,
+      "missing": -9.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 113.1,
+      "percent": 114.8,
       "status": "ok"
     }
   ],
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 153.0,
-      "missing": 47.0,
-      "percent": 76.5
+      "reached": 160.0,
+      "missing": 40.0,
+      "percent": 80.0
     }
   ]
 }
