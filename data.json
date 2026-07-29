@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "29/07/2026 10:07",
+  "lastModified": "29/07/2026 10:09",
   "summary": {
     "commitment": 150000.0,
-    "reached": 25129.94,
-    "missing": 124870.06,
-    "percent": 16.8,
+    "reached": 32619.35,
+    "missing": 117380.65,
+    "percent": 21.7,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
@@ -26,25 +26,25 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 18240.0,
-      "reached": 4213.1,
-      "missing": 14026.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 23.1,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 14090.0,
-      "reached": 716.5,
-      "missing": 13373.5,
+      "reached": 1001.4,
+      "missing": 13088.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 5.1,
+      "percent": 7.1,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 18240.0,
+      "reached": 6180.4,
+      "missing": 12059.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 33.9,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 16680.0,
-      "reached": 6101.24,
-      "missing": 10578.76,
+      "reached": 6899.14,
+      "missing": 9780.86,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 36.6,
+      "percent": 41.4,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 9600.0,
-      "reached": 4088.4,
-      "missing": 5511.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.6,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5410.0,
@@ -147,14 +136,14 @@
       "status": "pending"
     },
     {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
-      "commitment": 4240.0,
-      "reached": 239.85,
-      "missing": 4000.15,
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 9600.0,
+      "reached": 5979.25,
+      "missing": 3620.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 5.7,
+      "percent": 62.3,
       "status": "pending"
     },
     {
@@ -169,25 +158,25 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 3020.0,
-      "reached": 109.96,
-      "missing": 2910.04,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 3.6,
-      "status": "pending"
-    },
-    {
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 2910.0,
-      "reached": 0.0,
-      "missing": 2910.0,
+      "reached": 279.8,
+      "missing": 2630.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 9.6,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 3020.0,
+      "reached": 484.76,
+      "missing": 2535.24,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 16.1,
       "status": "pending"
     },
     {
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "commitment": 4240.0,
+      "reached": 2133.71,
+      "missing": 2106.29,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.3,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 409034.64,
-      "missing": 242215.36,
-      "percent": 62.8
+      "reached": 416524.05,
+      "missing": 234725.95,
+      "percent": 64.0
     }
   ]
 }

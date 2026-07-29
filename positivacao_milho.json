@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "29/07/2026 10:07",
+  "lastModified": "29/07/2026 10:09",
   "summary": {
     "commitment": 758.0,
-    "reached": 674.0,
-    "missing": 84.0,
-    "percent": 88.9,
+    "reached": 676.0,
+    "missing": 82.0,
+    "percent": 89.2,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
@@ -95,11 +95,11 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 51.0,
-      "reached": 47.0,
-      "missing": 4.0,
+      "reached": 48.0,
+      "missing": 3.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.2,
+      "percent": 94.1,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "ok"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 59.0,
-      "reached": 59.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "ok"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 39.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.0,
+      "status": "ok"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 59.0,
+      "reached": 60.0,
+      "missing": -1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.7,
       "status": "ok"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 169.0,
-      "missing": 31.0,
-      "percent": 84.5
+      "reached": 174.0,
+      "missing": 26.0,
+      "percent": 87.0
     }
   ]
 }
