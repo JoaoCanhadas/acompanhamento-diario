@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/07/2026 12:03",
+  "lastModified": "29/07/2026 13:06",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4990664.09,
-    "missing": 601835.91,
-    "percent": 89.2,
+    "reached": 5006059.88,
+    "missing": 586440.12,
+    "percent": 89.5,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -40,11 +40,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 222930.26,
-      "missing": 50069.74,
+      "reached": 223582.96,
+      "missing": 49417.04,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.7,
+      "percent": 81.9,
       "status": "pending"
     },
     {
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 260000.0,
-      "reached": 231272.29,
-      "missing": 28727.71,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 89.0,
-      "status": "pending"
-    },
-    {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
@@ -103,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 90000.0,
-      "reached": 65641.2,
-      "missing": 24358.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 72.9,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
@@ -122,6 +100,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 76.3,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 90000.0,
+      "reached": 66512.95,
+      "missing": 23487.05,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 73.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 260000.0,
+      "reached": 237150.69,
+      "missing": 22849.31,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 91.2,
       "status": "pending"
     },
     {
@@ -136,28 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 318500.0,
-      "reached": 299010.55,
-      "missing": 19489.45,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 93.9,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 237500.0,
-      "reached": 218110.31,
-      "missing": 19389.69,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 91.8,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 134500.0,
@@ -169,11 +147,33 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 318500.0,
+      "reached": 300571.45,
+      "missing": 17928.55,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 94.4,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 237500.0,
+      "reached": 219668.19,
+      "missing": 17831.81,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 92.5,
+      "status": "pending"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
-      "reached": 72318.3,
-      "missing": 17681.7,
+      "reached": 72320.8,
+      "missing": 17679.2,
       "average": 0.0,
       "difference": 0.0,
       "percent": 80.4,
@@ -205,22 +205,11 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 55000.0,
-      "reached": 42312.55,
-      "missing": 12687.45,
+      "reached": 42962.61,
+      "missing": 12037.39,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.9,
-      "status": "pending"
-    },
-    {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 78000.0,
-      "reached": 68632.32,
-      "missing": 9367.68,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 88.0,
+      "percent": 78.1,
       "status": "pending"
     },
     {
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 86.6,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 78000.0,
+      "reached": 70050.52,
+      "missing": 7949.48,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 89.8,
       "status": "pending"
     },
     {
@@ -279,17 +279,6 @@
       "status": "ok"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 325000.0,
-      "reached": 326127.66,
-      "missing": -1127.66,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.3,
-      "status": "ok"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "IATAGAM JUNIOR",
       "commitment": 1000.0,
@@ -298,6 +287,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 480.0,
+      "status": "ok"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 325000.0,
+      "reached": 328931.06,
+      "missing": -3931.06,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.2,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 690835.56,
-      "missing": 579959.89,
-      "percent": 54.4
+      "reached": 706231.35,
+      "missing": 564564.1,
+      "percent": 55.6
     }
   ]
 }
