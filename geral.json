@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/07/2026 08:58",
+  "lastModified": "29/07/2026 08:59",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 4904813.0,
-    "missing": 687687.0,
-    "percent": 87.7,
+    "reached": 4915867.8,
+    "missing": 676632.2,
+    "percent": 87.9,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -18,11 +18,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 560000.0,
-      "reached": 314391.87,
-      "missing": 245608.13,
+      "reached": 314639.87,
+      "missing": 245360.13,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 56.1,
+      "percent": 56.2,
       "status": "pending"
     },
     {
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 221583.86,
-      "missing": 51416.14,
+      "reached": 222300.36,
+      "missing": 50699.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.2,
+      "percent": 81.4,
       "status": "pending"
     },
     {
@@ -172,22 +172,22 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
-      "reached": 70914.58,
-      "missing": 19085.42,
+      "reached": 71924.48,
+      "missing": 18075.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.8,
+      "percent": 79.9,
       "status": "pending"
     },
     {
       "reference": "PENHA",
       "seller": "LESTE PENHA",
       "commitment": 140000.0,
-      "reached": 121946.91,
-      "missing": 18053.09,
+      "reached": 122376.81,
+      "missing": 17623.19,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 87.1,
+      "percent": 87.4,
       "status": "pending"
     },
     {
@@ -235,28 +235,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 950000.0,
-      "reached": 941427.4,
-      "missing": 8572.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.1,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 325000.0,
-      "reached": 318420.47,
-      "missing": 6579.53,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 98.0,
-      "status": "pending"
-    },
-    {
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 73000.0,
@@ -265,6 +243,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 92.3,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 325000.0,
+      "reached": 321744.97,
+      "missing": 3255.03,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.0,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 950000.0,
+      "reached": 946753.4,
+      "missing": 3246.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.7,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 604984.47,
-      "missing": 665810.98,
-      "percent": 47.6
+      "reached": 616039.27,
+      "missing": 654756.18,
+      "percent": 48.5
     }
   ]
 }
