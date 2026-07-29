@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/07/2026 14:18",
+  "lastModified": "29/07/2026 14:19",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5030051.79,
-    "missing": 562448.21,
-    "percent": 89.9,
+    "reached": 5080901.26,
+    "missing": 511598.74,
+    "percent": 90.9,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
     "weekPercent": 71.6,
-    "positiveCount": 4,
-    "pendingCount": 23
+    "positiveCount": 5,
+    "pendingCount": 22
   },
   "rows": [
     {
@@ -40,11 +40,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 223582.96,
-      "missing": 49417.04,
+      "reached": 225968.96,
+      "missing": 47031.04,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.9,
+      "percent": 82.8,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 170004.98,
-      "missing": 24995.02,
+      "reached": 171001.58,
+      "missing": 23998.42,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 87.2,
+      "percent": 87.7,
       "status": "pending"
     },
     {
@@ -125,28 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 167000.0,
-      "reached": 149103.41,
-      "missing": 17896.59,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 89.3,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 90000.0,
-      "reached": 72320.8,
-      "missing": 17679.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.4,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 237500.0,
@@ -155,6 +133,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 92.6,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 167000.0,
+      "reached": 150262.06,
+      "missing": 16737.94,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 90.0,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 90000.0,
+      "reached": 73632.5,
+      "missing": 16367.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.8,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 134500.0,
-      "reached": 119742.74,
-      "missing": 14757.26,
+      "reached": 119846.66,
+      "missing": 14653.34,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.0,
+      "percent": 89.1,
       "status": "pending"
     },
     {
@@ -246,17 +246,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 950000.0,
-      "reached": 948025.0,
-      "missing": 1975.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.8,
-      "status": "pending"
-    },
-    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 130000.0,
@@ -298,6 +287,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 101.8,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 950000.0,
+      "reached": 992917.6,
+      "missing": -42917.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 104.5,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 730223.25,
-      "missing": 540572.2,
-      "percent": 57.5
+      "reached": 781072.72,
+      "missing": 489722.73,
+      "percent": 61.5
     }
   ]
 }

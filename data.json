@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "29/07/2026 14:18",
+  "lastModified": "29/07/2026 14:19",
   "summary": {
     "commitment": 150000.0,
-    "reached": 85071.56,
-    "missing": 64928.44,
-    "percent": 56.7,
+    "reached": 91028.43,
+    "missing": 58971.57,
+    "percent": 60.7,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
@@ -18,11 +18,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 14090.0,
-      "reached": 1999.1,
-      "missing": 12090.9,
+      "reached": 4385.1,
+      "missing": 9704.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.2,
+      "percent": 31.1,
       "status": "pending"
     },
     {
@@ -92,28 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 12180.0,
-      "reached": 8040.59,
-      "missing": 4139.41,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.0,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 5440.0,
-      "reached": 1393.4,
-      "missing": 4046.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 25.6,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5410.0,
@@ -128,11 +106,33 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 8200.0,
-      "reached": 4808.22,
-      "missing": 3391.78,
+      "reached": 4912.14,
+      "missing": 3287.86,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.6,
+      "percent": 59.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 12180.0,
+      "reached": 9199.24,
+      "missing": 2980.76,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 75.5,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 5440.0,
+      "reached": 2705.1,
+      "missing": 2734.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 49.7,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 9600.0,
-      "reached": 10235.54,
-      "missing": -635.54,
+      "reached": 11232.14,
+      "missing": -1632.14,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 106.6,
+      "percent": 117.0,
       "status": "ok"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 469077.86,
-      "missing": 182172.14,
-      "percent": 72.0
+      "reached": 475034.73,
+      "missing": 176215.27,
+      "percent": 72.9
     }
   ]
 }
