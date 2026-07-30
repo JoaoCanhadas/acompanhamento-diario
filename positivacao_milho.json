@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "30/07/2026 13:41",
+  "lastModified": "30/07/2026 14:01",
   "summary": {
     "commitment": 758.0,
-    "reached": 716.0,
-    "missing": 42.0,
-    "percent": 94.5,
+    "reached": 722.0,
+    "missing": 36.0,
+    "percent": 95.3,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
@@ -29,22 +29,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 44.0,
-      "reached": 30.0,
-      "missing": 14.0,
+      "reached": 31.0,
+      "missing": 13.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 68.2,
-      "status": "pending"
-    },
-    {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 55.0,
-      "reached": 44.0,
-      "missing": 11.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.0,
+      "percent": 70.5,
       "status": "pending"
     },
     {
@@ -59,14 +48,25 @@
       "status": "pending"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 55.0,
+      "reached": 45.0,
+      "missing": 10.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.8,
+      "status": "pending"
+    },
+    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37.0,
-      "reached": 29.0,
-      "missing": 8.0,
+      "reached": 30.0,
+      "missing": 7.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.4,
+      "percent": 81.1,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 36.0,
-      "reached": 31.0,
-      "missing": 5.0,
+      "reached": 32.0,
+      "missing": 4.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 86.1,
+      "percent": 88.9,
       "status": "pending"
     },
     {
@@ -172,22 +172,22 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 51.0,
-      "reached": 55.0,
-      "missing": -4.0,
+      "reached": 56.0,
+      "missing": -5.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 107.8,
+      "percent": 109.8,
       "status": "ok"
     },
     {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 49.0,
-      "reached": 55.0,
-      "missing": -6.0,
+      "reached": 56.0,
+      "missing": -7.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 112.2,
+      "percent": 114.3,
       "status": "ok"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 254.0,
-      "missing": -54.0,
-      "percent": 127.0
+      "reached": 260.0,
+      "missing": -60.0,
+      "percent": 130.0
     }
   ]
 }
