@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/07/2026 11:37",
+  "lastModified": "30/07/2026 11:46",
   "summary": {
     "commitment": 120000.0,
-    "reached": 67449.42,
-    "missing": 52550.58,
-    "percent": 56.2,
+    "reached": 71420.93,
+    "missing": 48579.07,
+    "percent": 59.5,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
@@ -51,11 +51,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 8120.0,
-      "reached": 3378.66,
-      "missing": 4741.34,
+      "reached": 3634.02,
+      "missing": 4485.98,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 41.6,
+      "percent": 44.8,
       "status": "pending"
     },
     {
@@ -89,17 +89,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 12300.0,
-      "reached": 8838.31,
-      "missing": 3461.69,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 71.9,
       "status": "pending"
     },
     {
@@ -180,6 +169,17 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 12300.0,
+      "reached": 11888.11,
+      "missing": 411.89,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 96.7,
+      "status": "pending"
+    },
+    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 1540.0,
@@ -194,11 +194,11 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 5740.0,
-      "reached": 5912.07,
-      "missing": -172.07,
+      "reached": 6578.42,
+      "missing": -838.42,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 103.0,
+      "percent": 114.6,
       "status": "ok"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 544462.73,
-      "missing": 106787.27,
-      "percent": 83.6
+      "reached": 548434.24,
+      "missing": 102815.76,
+      "percent": 84.2
     }
   ]
 }
