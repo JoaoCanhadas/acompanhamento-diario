@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/07/2026 11:25",
+  "lastModified": "30/07/2026 11:32",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5296353.63,
-    "missing": 296146.37,
+    "reached": 5298701.51,
+    "missing": 293798.49,
     "percent": 94.7,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -62,22 +62,22 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 92818.46,
-      "missing": 29181.54,
+      "reached": 93294.16,
+      "missing": 28705.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.1,
+      "percent": 76.5,
       "status": "pending"
     },
     {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 67557.45,
-      "missing": 22442.55,
+      "reached": 67757.33,
+      "missing": 22242.67,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 75.1,
+      "percent": 75.3,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 176694.85,
-      "missing": 18305.15,
+      "reached": 176934.15,
+      "missing": 18065.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.6,
+      "percent": 90.7,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 260000.0,
-      "reached": 248408.74,
-      "missing": 11591.26,
+      "reached": 248742.74,
+      "missing": 11257.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 95.5,
+      "percent": 95.7,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 142500.0,
-      "reached": 133681.86,
-      "missing": 8818.14,
+      "reached": 134780.86,
+      "missing": 7719.14,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 93.8,
+      "percent": 94.6,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 996525.09,
-      "missing": 274270.36,
-      "percent": 78.4
+      "reached": 998872.97,
+      "missing": 271922.48,
+      "percent": 78.6
     }
   ]
 }
