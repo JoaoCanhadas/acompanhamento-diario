@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/07/2026 14:27",
+  "lastModified": "30/07/2026 14:36",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5370587.74,
-    "missing": 221912.26,
-    "percent": 96.0,
+    "reached": 5381448.34,
+    "missing": 211051.66,
+    "percent": 96.2,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -18,11 +18,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 560000.0,
-      "reached": 431420.88,
-      "missing": 128579.12,
+      "reached": 439462.48,
+      "missing": 120537.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 77.0,
+      "percent": 78.5,
       "status": "pending"
     },
     {
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 239988.56,
-      "missing": 33011.44,
+      "reached": 242807.56,
+      "missing": 30192.44,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 87.9,
+      "percent": 88.9,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1071099.2,
-      "missing": 199696.25,
-      "percent": 84.3
+      "reached": 1081959.8,
+      "missing": 188835.65,
+      "percent": 85.1
     }
   ]
 }
