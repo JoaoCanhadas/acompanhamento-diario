@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "30/07/2026 15:48",
+  "lastModified": "30/07/2026 15:55",
   "summary": {
     "commitment": 643500.0,
-    "reached": 536785.98,
-    "missing": 106714.02,
-    "percent": 83.4,
+    "reached": 539300.38,
+    "missing": 104199.62,
+    "percent": 83.8,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
     "weekMissing": 96349.29,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 185000.0,
-      "reached": 194451.2,
-      "missing": -9451.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 105.1,
-      "status": "ok"
-    },
-    {
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 150000.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 106.6,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 185000.0,
+      "reached": 196965.6,
+      "missing": -11965.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 106.5,
       "status": "ok"
     },
     {
@@ -125,9 +125,9 @@
     {
       "name": "Semana 5",
       "goal": 619318.18,
-      "reached": 536785.98,
-      "missing": 82532.2,
-      "percent": 86.7
+      "reached": 539300.38,
+      "missing": 80017.8,
+      "percent": 87.1
     }
   ]
 }
