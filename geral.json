@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/07/2026 08:16",
+  "lastModified": "30/07/2026 09:22",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5194640.17,
-    "missing": 397859.83,
-    "percent": 92.9,
+    "reached": 5207673.35,
+    "missing": 384826.65,
+    "percent": 93.1,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -40,22 +40,22 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 225968.96,
-      "missing": 47031.04,
+      "reached": 228453.06,
+      "missing": 44546.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 82.8,
+      "percent": 83.7,
       "status": "pending"
     },
     {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 415000.0,
-      "reached": 374414.25,
-      "missing": 40585.75,
+      "reached": 375491.25,
+      "missing": 39508.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.2,
+      "percent": 90.5,
       "status": "pending"
     },
     {
@@ -70,36 +70,25 @@
       "status": "pending"
     },
     {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
-      "commitment": 325000.0,
-      "reached": 299175.37,
-      "missing": 25824.63,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 92.1,
-      "status": "pending"
-    },
-    {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 171022.08,
-      "missing": 23977.92,
+      "reached": 171141.98,
+      "missing": 23858.02,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 87.7,
+      "percent": 87.8,
       "status": "pending"
     },
     {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 66512.95,
-      "missing": 23487.05,
+      "reached": 66652.85,
+      "missing": 23347.15,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 73.9,
+      "percent": 74.1,
       "status": "pending"
     },
     {
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 91.9,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 325000.0,
+      "reached": 307046.27,
+      "missing": 17953.73,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 94.5,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "PENHA",
       "seller": "LESTE PENHA",
       "commitment": 140000.0,
-      "reached": 124011.39,
-      "missing": 15988.61,
+      "reached": 124439.44,
+      "missing": 15560.56,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 88.6,
+      "percent": 88.9,
       "status": "pending"
     },
     {
@@ -227,11 +227,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
-      "reached": 70056.52,
-      "missing": 7943.48,
+      "reached": 70408.55,
+      "missing": 7591.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.8,
+      "percent": 90.3,
       "status": "pending"
     },
     {
@@ -282,11 +282,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 325000.0,
-      "reached": 330928.31,
-      "missing": -5928.31,
+      "reached": 331489.61,
+      "missing": -6489.61,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 101.8,
+      "percent": 102.0,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 894811.64,
-      "missing": 375983.81,
-      "percent": 70.4
+      "reached": 907844.82,
+      "missing": 362950.63,
+      "percent": 71.4
     }
   ]
 }
