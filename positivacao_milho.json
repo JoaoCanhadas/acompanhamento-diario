@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "29/07/2026 16:58",
+  "lastModified": "30/07/2026 08:16",
   "summary": {
     "commitment": 758.0,
     "reached": 690.0,
@@ -147,17 +147,6 @@
       "status": "ok"
     },
     {
-      "reference": "VALE",
-      "seller": "SJC/VALE",
-      "commitment": 35.0,
-      "reached": 36.0,
-      "missing": -1.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 102.9,
-      "status": "ok"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 59.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 101.7,
+      "status": "ok"
+    },
+    {
+      "reference": "VALE",
+      "seller": "SJC/VALE",
+      "commitment": 35.0,
+      "reached": 36.0,
+      "missing": -1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 102.9,
       "status": "ok"
     },
     {
