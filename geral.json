@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/07/2026 13:27",
+  "lastModified": "30/07/2026 13:41",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5344192.13,
-    "missing": 248307.87,
+    "reached": 5347408.58,
+    "missing": 245091.42,
     "percent": 95.6,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -73,11 +73,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
-      "reached": 78073.5,
-      "missing": 21926.5,
+      "reached": 78223.4,
+      "missing": 21776.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.1,
+      "percent": 78.2,
       "status": "pending"
     },
     {
@@ -106,8 +106,8 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
-      "reached": 177338.32,
-      "missing": 17661.68,
+      "reached": 177346.32,
+      "missing": 17653.68,
       "average": 0.0,
       "difference": 0.0,
       "percent": 90.9,
@@ -161,8 +161,8 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 134500.0,
-      "reached": 123751.91,
-      "missing": 10748.09,
+      "reached": 123761.91,
+      "missing": 10738.09,
       "average": 0.0,
       "difference": 0.0,
       "percent": 92.0,
@@ -172,11 +172,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 260000.0,
-      "reached": 250716.59,
-      "missing": 9283.41,
+      "reached": 251574.34,
+      "missing": 8425.66,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 96.4,
+      "percent": 96.8,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 78000.0,
-      "reached": 70692.34,
-      "missing": 7307.66,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.6,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 64500.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 89.0,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 78000.0,
+      "reached": 71124.04,
+      "missing": 6875.96,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 91.2,
       "status": "pending"
     },
     {
@@ -238,11 +238,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 318500.0,
-      "reached": 316962.39,
-      "missing": 1537.61,
+      "reached": 317365.59,
+      "missing": 1134.41,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.5,
+      "percent": 99.6,
       "status": "pending"
     },
     {
@@ -282,11 +282,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 325000.0,
-      "reached": 339095.41,
-      "missing": -14095.41,
+      "reached": 340451.31,
+      "missing": -15451.31,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 104.3,
+      "percent": 104.8,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1044703.59,
-      "missing": 226091.86,
-      "percent": 82.2
+      "reached": 1047920.04,
+      "missing": 222875.41,
+      "percent": 82.5
     }
   ]
 }
