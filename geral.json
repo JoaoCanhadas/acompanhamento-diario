@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/07/2026 15:10",
+  "lastModified": "30/07/2026 15:48",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5402061.59,
-    "missing": 190438.41,
-    "percent": 96.6,
+    "reached": 5420674.19,
+    "missing": 171825.81,
+    "percent": 96.9,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -73,11 +73,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
-      "reached": 78603.1,
-      "missing": 21396.9,
+      "reached": 78723.0,
+      "missing": 21277.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.6,
+      "percent": 78.7,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
-      "reached": 153896.08,
-      "missing": 13103.92,
+      "reached": 154100.98,
+      "missing": 12899.02,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.2,
+      "percent": 92.3,
       "status": "pending"
     },
     {
@@ -293,11 +293,11 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 950000.0,
-      "reached": 1028767.2,
-      "missing": -78767.2,
+      "reached": 1047055.0,
+      "missing": -97055.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 108.3,
+      "percent": 110.2,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1102573.05,
-      "missing": 168222.4,
-      "percent": 86.8
+      "reached": 1121185.65,
+      "missing": 149609.8,
+      "percent": 88.2
     }
   ]
 }
