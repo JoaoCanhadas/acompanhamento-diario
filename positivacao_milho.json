@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "30/07/2026 11:59",
+  "lastModified": "30/07/2026 12:30",
   "summary": {
     "commitment": 758.0,
-    "reached": 710.0,
-    "missing": 48.0,
-    "percent": 93.7,
+    "reached": 711.0,
+    "missing": 47.0,
+    "percent": 93.8,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
     "weekPercent": 60.0,
-    "positiveCount": 9,
-    "pendingCount": 8
+    "positiveCount": 10,
+    "pendingCount": 7
   },
   "rows": [
     {
@@ -92,21 +92,21 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 41.0,
-      "reached": 40.0,
-      "missing": 1.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.6,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 52.0,
       "reached": 52.0,
+      "missing": 0.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "ok"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 41.0,
+      "reached": 41.0,
       "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
@@ -125,17 +125,6 @@
       "status": "ok"
     },
     {
-      "reference": "VALE",
-      "seller": "SJC/VALE",
-      "commitment": 35.0,
-      "reached": 36.0,
-      "missing": -1.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 102.9,
-      "status": "ok"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 27.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 103.7,
+      "status": "ok"
+    },
+    {
+      "reference": "VALE",
+      "seller": "SJC/VALE",
+      "commitment": 35.0,
+      "reached": 36.0,
+      "missing": -1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 102.9,
       "status": "ok"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 245.0,
-      "missing": -45.0,
-      "percent": 122.5
+      "reached": 247.0,
+      "missing": -47.0,
+      "percent": 123.5
     }
   ]
 }
