@@ -1,39 +1,28 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/07/2026 11:59",
+  "lastModified": "30/07/2026 12:30",
   "summary": {
     "commitment": 120000.0,
-    "reached": 74029.49,
-    "missing": 45970.51,
-    "percent": 61.7,
+    "reached": 81415.83,
+    "missing": 38584.17,
+    "percent": 67.8,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
     "weekPercent": 69.2,
-    "positiveCount": 3,
-    "pendingCount": 15
+    "positiveCount": 4,
+    "pendingCount": 14
   },
   "rows": [
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 14230.0,
-      "reached": 7206.6,
-      "missing": 7023.4,
+      "reached": 7802.9,
+      "missing": 6427.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.6,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 14820.0,
-      "reached": 9818.45,
-      "missing": 5001.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.3,
+      "percent": 54.8,
       "status": "pending"
     },
     {
@@ -45,17 +34,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 16.3,
-      "status": "pending"
-    },
-    {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 5520.0,
-      "reached": 964.58,
-      "missing": 4555.42,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 17.5,
       "status": "pending"
     },
     {
@@ -92,14 +70,14 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 3770.0,
-      "reached": 911.0,
-      "missing": 2859.0,
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 14820.0,
+      "reached": 11365.35,
+      "missing": 3454.65,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 24.2,
+      "percent": 76.7,
       "status": "pending"
     },
     {
@@ -125,6 +103,17 @@
       "status": "pending"
     },
     {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 3770.0,
+      "reached": 1114.0,
+      "missing": 2656.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 29.5,
+      "status": "pending"
+    },
+    {
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 2920.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 14.2,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 5520.0,
+      "reached": 3383.23,
+      "missing": 2136.77,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 61.3,
       "status": "pending"
     },
     {
@@ -161,22 +161,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 10230.0,
-      "reached": 9556.61,
-      "missing": 673.39,
+      "reached": 10180.33,
+      "missing": 49.67,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 93.4,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 12300.0,
-      "reached": 12038.01,
-      "missing": 261.99,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.9,
+      "percent": 99.5,
       "status": "pending"
     },
     {
@@ -211,6 +200,17 @@
       "difference": 0.0,
       "percent": 144.6,
       "status": "ok"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 12300.0,
+      "reached": 14035.78,
+      "missing": -1735.78,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 114.1,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -239,16 +239,16 @@
     {
       "name": "Semana 4",
       "goal": 651250.0,
-      "reached": 581473.83,
-      "missing": 69776.17,
+      "reached": 581308.83,
+      "missing": 69941.17,
       "percent": 89.3
     },
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 549693.8,
-      "missing": 101556.2,
-      "percent": 84.4
+      "reached": 556650.24,
+      "missing": 94599.76,
+      "percent": 85.5
     }
   ]
 }
