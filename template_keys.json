@@ -1,17 +1,17 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "30/07/2026 12:49",
+  "lastModified": "31/07/2026 08:47",
   "summary": {
     "commitment": 643500.0,
-    "reached": 457122.38,
-    "missing": 186377.62,
-    "percent": 71.0,
+    "reached": 539300.38,
+    "missing": 104199.62,
+    "percent": 83.8,
     "weekGoal": 371590.91,
     "weekRevenue": 275241.62,
     "weekMissing": 96349.29,
     "weekPercent": 74.1,
-    "positiveCount": 2,
-    "pendingCount": 5
+    "positiveCount": 4,
+    "pendingCount": 3
   },
   "rows": [
     {
@@ -40,44 +40,33 @@
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 66000.0,
-      "reached": 4203.0,
-      "missing": 61797.0,
+      "reached": 5437.8,
+      "missing": 60562.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 6.4,
+      "percent": 8.2,
       "status": "pending"
     },
     {
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 150000.0,
-      "reached": 133695.74,
-      "missing": 16304.26,
+      "reached": 159969.74,
+      "missing": -9969.74,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.1,
-      "status": "pending"
+      "percent": 106.6,
+      "status": "ok"
     },
     {
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 185000.0,
-      "reached": 176163.4,
-      "missing": 8836.6,
+      "reached": 196965.6,
+      "missing": -11965.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 95.2,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
-      "commitment": 35000.0,
-      "reached": 46389.65,
-      "missing": -11389.65,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 132.5,
+      "percent": 106.5,
       "status": "ok"
     },
     {
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 35000.0,
+      "reached": 80256.65,
+      "missing": -45256.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 229.3,
       "status": "ok"
     }
   ],
@@ -125,9 +125,9 @@
     {
       "name": "Semana 5",
       "goal": 619318.18,
-      "reached": 457122.38,
-      "missing": 162195.8,
-      "percent": 73.8
+      "reached": 539300.38,
+      "missing": 80017.8,
+      "percent": 87.1
     }
   ]
 }
