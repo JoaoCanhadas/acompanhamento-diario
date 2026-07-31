@@ -1,28 +1,28 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 16:41",
+  "lastModified": "31/07/2026 16:42",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5676864.07,
-    "missing": -84364.07,
-    "percent": 101.5,
+    "reached": 5694449.02,
+    "missing": -101949.02,
+    "percent": 101.8,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
     "weekPercent": 71.6,
-    "positiveCount": 13,
-    "pendingCount": 14
+    "positiveCount": 14,
+    "pendingCount": 13
   },
   "rows": [
     {
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 560000.0,
-      "reached": 446627.88,
-      "missing": 113372.12,
+      "reached": 463470.48,
+      "missing": 96529.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.8,
+      "percent": 82.8,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "PENHA",
-      "seller": "LESTE PENHA",
-      "commitment": 140000.0,
-      "reached": 139958.79,
-      "missing": 41.21,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "pending"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.3,
+      "status": "ok"
+    },
+    {
+      "reference": "PENHA",
+      "seller": "LESTE PENHA",
+      "commitment": 140000.0,
+      "reached": 140701.14,
+      "missing": -701.14,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.5,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1377375.52,
-      "missing": -106580.07,
-      "percent": 108.4
+      "reached": 1394960.47,
+      "missing": -124165.02,
+      "percent": 109.8
     }
   ]
 }
