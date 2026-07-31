@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "31/07/2026 14:04",
+  "lastModified": "31/07/2026 14:05",
   "summary": {
     "commitment": 758.0,
-    "reached": 752.0,
-    "missing": 6.0,
-    "percent": 99.2,
+    "reached": 753.0,
+    "missing": 5.0,
+    "percent": 99.3,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
     "weekPercent": 60.0,
-    "positiveCount": 10,
-    "pendingCount": 7
+    "positiveCount": 11,
+    "pendingCount": 6
   },
   "rows": [
     {
@@ -84,12 +84,12 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 36.0,
-      "reached": 35.0,
-      "missing": 1.0,
+      "reached": 36.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 97.2,
-      "status": "pending"
+      "percent": 100.0,
+      "status": "ok"
     },
     {
       "reference": "MOGI",
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 312.0,
-      "missing": -112.0,
-      "percent": 156.0
+      "reached": 313.0,
+      "missing": -113.0,
+      "percent": 156.5
     }
   ]
 }
