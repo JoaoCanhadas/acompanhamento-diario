@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 12:05",
+  "lastModified": "31/07/2026 12:06",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5545379.07,
-    "missing": 47120.93,
+    "reached": 5546460.82,
+    "missing": 46039.18,
     "percent": 99.2,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 250606.71,
-      "missing": 22393.29,
+      "reached": 250881.61,
+      "missing": 22118.39,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 91.8,
+      "percent": 91.9,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 167000.0,
-      "reached": 155200.23,
-      "missing": 11799.77,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 92.9,
-      "status": "pending"
-    },
-    {
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 55000.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 79.3,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 167000.0,
+      "reached": 156007.08,
+      "missing": 10992.92,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 93.4,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1245890.52,
-      "missing": 24904.93,
-      "percent": 98.0
+      "reached": 1246972.27,
+      "missing": 23823.18,
+      "percent": 98.1
     }
   ]
 }
