@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 11:16",
+  "lastModified": "31/07/2026 11:18",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5472769.18,
-    "missing": 119730.82,
-    "percent": 97.9,
+    "reached": 5522957.18,
+    "missing": 69542.82,
+    "percent": 98.8,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -29,22 +29,11 @@
       "reference": "KEY PIRACICABA",
       "seller": "KEY PIRACICABA",
       "commitment": 175000.0,
-      "reached": 110536.28,
-      "missing": 64463.72,
+      "reached": 121529.28,
+      "missing": 53470.72,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 63.2,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 415000.0,
-      "reached": 375491.25,
-      "missing": 39508.75,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.5,
+      "percent": 69.4,
       "status": "pending"
     },
     {
@@ -202,6 +191,17 @@
       "status": "pending"
     },
     {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 415000.0,
+      "reached": 414253.01,
+      "missing": 746.99,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.8,
+      "status": "pending"
+    },
+    {
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 73000.0,
@@ -282,11 +282,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 325000.0,
-      "reached": 342411.96,
-      "missing": -17411.96,
+      "reached": 342845.2,
+      "missing": -17845.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 105.4,
+      "percent": 105.5,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1173280.63,
-      "missing": 97514.82,
-      "percent": 92.3
+      "reached": 1223468.63,
+      "missing": 47326.82,
+      "percent": 96.3
     }
   ]
 }
