@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/07/2026 12:17",
+  "lastModified": "31/07/2026 12:18",
   "summary": {
     "commitment": 230680.0,
-    "reached": 49114.12,
-    "missing": 181565.88,
-    "percent": 21.3,
+    "reached": 51055.3,
+    "missing": 179624.7,
+    "percent": 22.1,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
@@ -84,8 +84,8 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 11905.0,
-      "reached": 539.48,
-      "missing": 11365.52,
+      "reached": 539.56,
+      "missing": 11365.44,
       "average": 0.0,
       "difference": 0.0,
       "percent": 4.5,
@@ -117,22 +117,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 13000.0,
-      "reached": 4547.95,
-      "missing": 8452.05,
+      "reached": 5327.35,
+      "missing": 7672.65,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 35.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 10000.0,
-      "reached": 2780.14,
-      "missing": 7219.86,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 27.8,
+      "percent": 41.0,
       "status": "pending"
     },
     {
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 18.9,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 10000.0,
+      "reached": 3766.34,
+      "missing": 6233.66,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 37.7,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 3580.0,
-      "reached": 4354.6,
-      "missing": -774.6,
+      "reached": 4530.1,
+      "missing": -950.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 121.6,
+      "percent": 126.5,
       "status": "ok"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 637459.04,
-      "missing": 13790.96,
-      "percent": 97.9
+      "reached": 639400.22,
+      "missing": 11849.78,
+      "percent": 98.2
     }
   ]
 }
