@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 11:44",
+  "lastModified": "31/07/2026 11:46",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5541812.63,
-    "missing": 50687.37,
+    "reached": 5542194.95,
+    "missing": 50305.05,
     "percent": 99.1,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
     "weekPercent": 71.6,
-    "positiveCount": 9,
-    "pendingCount": 18
+    "positiveCount": 10,
+    "pendingCount": 17
   },
   "rows": [
     {
@@ -202,17 +202,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERNO 1",
-      "seller": "VENDEDOR INTERNO 1",
-      "commitment": 73000.0,
-      "reached": 72857.32,
-      "missing": 142.68,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.8,
-      "status": "pending"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
@@ -221,6 +210,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 108.3,
+      "status": "ok"
+    },
+    {
+      "reference": "INTERNO 1",
+      "seller": "VENDEDOR INTERNO 1",
+      "commitment": 73000.0,
+      "reached": 73239.64,
+      "missing": -239.64,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.3,
       "status": "ok"
     },
     {
@@ -345,8 +345,8 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1242324.08,
-      "missing": 28471.37,
+      "reached": 1242706.4,
+      "missing": 28089.05,
       "percent": 97.8
     }
   ]
