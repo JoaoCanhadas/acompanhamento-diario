@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/07/2026 10:47",
+  "lastModified": "31/07/2026 10:48",
   "summary": {
     "commitment": 230680.0,
-    "reached": 28414.33,
-    "missing": 202265.67,
-    "percent": 12.3,
+    "reached": 32171.43,
+    "missing": 198508.57,
+    "percent": 13.9,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
@@ -92,25 +92,25 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 12955.0,
-      "reached": 1053.75,
-      "missing": 11901.25,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 8.1,
-      "status": "pending"
-    },
-    {
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 11905.0,
-      "reached": 119.9,
-      "missing": 11785.1,
+      "reached": 335.6,
+      "missing": 11569.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 1.0,
+      "percent": 2.8,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 12955.0,
+      "reached": 1623.35,
+      "missing": 11331.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 12.5,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 7360.0,
-      "reached": 2469.22,
-      "missing": 4890.78,
+      "reached": 5441.02,
+      "missing": 1918.98,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 33.5,
+      "percent": 73.9,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 616759.25,
-      "missing": 34490.75,
-      "percent": 94.7
+      "reached": 620516.35,
+      "missing": 30733.65,
+      "percent": 95.3
     }
   ]
 }
