@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "31/07/2026 14:37",
+  "lastModified": "31/07/2026 14:38",
   "summary": {
     "commitment": 758.0,
-    "reached": 753.0,
-    "missing": 5.0,
-    "percent": 99.3,
+    "reached": 755.0,
+    "missing": 3.0,
+    "percent": 99.6,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
@@ -92,17 +92,6 @@
       "status": "ok"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 39.0,
-      "reached": 39.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "ok"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 52.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 101.9,
+      "status": "ok"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 39.0,
+      "reached": 40.0,
+      "missing": -1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 102.6,
       "status": "ok"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 35.0,
-      "reached": 37.0,
-      "missing": -2.0,
+      "reached": 38.0,
+      "missing": -3.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 105.7,
+      "percent": 108.6,
       "status": "ok"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 313.0,
-      "missing": -113.0,
-      "percent": 156.5
+      "reached": 315.0,
+      "missing": -115.0,
+      "percent": 157.5
     }
   ]
 }

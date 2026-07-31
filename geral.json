@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 14:37",
+  "lastModified": "31/07/2026 14:38",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5609552.67,
-    "missing": -17052.67,
+    "reached": 5610980.62,
+    "missing": -18480.62,
     "percent": 100.3,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -84,22 +84,22 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 55000.0,
-      "reached": 44806.57,
-      "missing": 10193.43,
+      "reached": 45001.42,
+      "missing": 9998.58,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.5,
+      "percent": 81.8,
       "status": "pending"
     },
     {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 79891.88,
-      "missing": 10108.12,
+      "reached": 80001.78,
+      "missing": 9998.22,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 88.8,
+      "percent": 88.9,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 195000.0,
-      "reached": 189194.51,
-      "missing": 5805.49,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.0,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 93.6,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 195000.0,
+      "reached": 190317.71,
+      "missing": 4682.29,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.6,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1310064.12,
-      "missing": -39268.67,
-      "percent": 103.1
+      "reached": 1311492.07,
+      "missing": -40696.62,
+      "percent": 103.2
     }
   ]
 }
