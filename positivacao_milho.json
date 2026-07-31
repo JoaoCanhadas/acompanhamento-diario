@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "31/07/2026 07:22",
+  "lastModified": "31/07/2026 07:54",
   "summary": {
     "commitment": 758.0,
-    "reached": 724.0,
-    "missing": 34.0,
-    "percent": 95.5,
+    "reached": 727.0,
+    "missing": 31.0,
+    "percent": 95.9,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 37.0,
-      "reached": 31.0,
-      "missing": 6.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 83.8,
-      "status": "pending"
-    },
-    {
       "reference": "PENHA",
       "seller": "LESTE PENHA",
       "commitment": 39.0,
@@ -81,14 +70,25 @@
       "status": "pending"
     },
     {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 37.0,
+      "reached": 32.0,
+      "missing": 5.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 86.5,
+      "status": "pending"
+    },
+    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 36.0,
-      "reached": 32.0,
-      "missing": 4.0,
+      "reached": 33.0,
+      "missing": 3.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 88.9,
+      "percent": 91.7,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 35.0,
-      "reached": 36.0,
-      "missing": -1.0,
+      "reached": 37.0,
+      "missing": -2.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 102.9,
+      "percent": 105.7,
       "status": "ok"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 263.0,
-      "missing": -63.0,
-      "percent": 131.5
+      "reached": 268.0,
+      "missing": -68.0,
+      "percent": 134.0
     }
   ]
 }
