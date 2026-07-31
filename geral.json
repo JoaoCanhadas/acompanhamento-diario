@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 16:08",
+  "lastModified": "31/07/2026 16:09",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5665458.24,
-    "missing": -72958.24,
+    "reached": 5667978.99,
+    "missing": -75478.99,
     "percent": 101.3,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 134500.0,
-      "reached": 130207.68,
-      "missing": 4292.32,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 96.8,
-      "status": "pending"
-    },
-    {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 195000.0,
@@ -152,6 +141,17 @@
       "commitment": 140000.0,
       "reached": 136261.99,
       "missing": 3738.01,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.3,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 134500.0,
+      "reached": 130889.63,
+      "missing": 3610.37,
       "average": 0.0,
       "difference": 0.0,
       "percent": 97.3,
@@ -224,17 +224,6 @@
       "status": "ok"
     },
     {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
-      "commitment": 142500.0,
-      "reached": 145175.18,
-      "missing": -2675.18,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 101.9,
-      "status": "ok"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "IATAGAM JUNIOR",
       "commitment": 1000.0,
@@ -243,6 +232,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 480.0,
+      "status": "ok"
+    },
+    {
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "commitment": 142500.0,
+      "reached": 147013.98,
+      "missing": -4513.98,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 103.2,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1365969.69,
-      "missing": -95174.24,
-      "percent": 107.5
+      "reached": 1368490.44,
+      "missing": -97694.99,
+      "percent": 107.7
     }
   ]
 }
