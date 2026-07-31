@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/07/2026 10:28",
+  "lastModified": "31/07/2026 10:29",
   "summary": {
     "commitment": 230680.0,
-    "reached": 23078.03,
-    "missing": 207601.97,
-    "percent": 10.0,
+    "reached": 26893.13,
+    "missing": 203786.87,
+    "percent": 11.7,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
     "weekPercent": 69.2,
-    "positiveCount": 0,
-    "pendingCount": 18
+    "positiveCount": 1,
+    "pendingCount": 17
   },
   "rows": [
     {
@@ -161,11 +161,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 7105.0,
-      "reached": 1514.14,
-      "missing": 5590.86,
+      "reached": 1902.14,
+      "missing": 5202.86,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.3,
+      "percent": 26.8,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 3580.0,
-      "reached": 927.5,
-      "missing": 2652.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 25.9,
-      "status": "pending"
-    },
-    {
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 2975.0,
@@ -211,6 +200,17 @@
       "difference": 0.0,
       "percent": 53.9,
       "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 3580.0,
+      "reached": 4354.6,
+      "missing": -774.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 121.6,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 611422.95,
-      "missing": 39827.05,
-      "percent": 93.9
+      "reached": 615238.05,
+      "missing": 36011.95,
+      "percent": 94.5
     }
   ]
 }

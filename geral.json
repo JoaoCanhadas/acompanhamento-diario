@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 10:28",
+  "lastModified": "31/07/2026 10:29",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5458252.27,
-    "missing": 134247.73,
-    "percent": 97.6,
+    "reached": 5462067.37,
+    "missing": 130432.63,
+    "percent": 97.7,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
     "weekPercent": 71.6,
-    "positiveCount": 8,
-    "pendingCount": 19
+    "positiveCount": 9,
+    "pendingCount": 18
   },
   "rows": [
     {
@@ -172,11 +172,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 260000.0,
-      "reached": 254410.08,
-      "missing": 5589.92,
+      "reached": 254798.08,
+      "missing": 5201.92,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 97.9,
+      "percent": 98.0,
       "status": "pending"
     },
     {
@@ -202,17 +202,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 237500.0,
-      "reached": 234850.47,
-      "missing": 2649.53,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 98.9,
-      "status": "pending"
-    },
-    {
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 73000.0,
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 108.3,
+      "status": "ok"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 237500.0,
+      "reached": 238277.57,
+      "missing": -777.57,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.3,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1158763.72,
-      "missing": 112031.73,
-      "percent": 91.2
+      "reached": 1162578.82,
+      "missing": 108216.63,
+      "percent": 91.5
     }
   ]
 }
