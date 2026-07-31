@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 13:25",
+  "lastModified": "31/07/2026 13:26",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5563830.85,
-    "missing": 28669.15,
-    "percent": 99.5,
+    "reached": 5569196.75,
+    "missing": 23303.25,
+    "percent": 99.6,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
     "weekPercent": 71.6,
-    "positiveCount": 10,
-    "pendingCount": 17
+    "positiveCount": 11,
+    "pendingCount": 16
   },
   "rows": [
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 195000.0,
-      "reached": 181705.17,
-      "missing": 13294.83,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 93.2,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 85.9,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 195000.0,
+      "reached": 183053.87,
+      "missing": 11946.13,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 93.9,
       "status": "pending"
     },
     {
@@ -117,11 +117,11 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 55000.0,
-      "reached": 43637.37,
-      "missing": 11362.63,
+      "reached": 44806.57,
+      "missing": 10193.43,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.3,
+      "percent": 81.5,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
-      "commitment": 142500.0,
-      "reached": 141605.93,
-      "missing": 894.07,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.4,
-      "status": "pending"
-    },
-    {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 415000.0,
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.4,
+      "status": "ok"
+    },
+    {
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "commitment": 142500.0,
+      "reached": 144453.93,
+      "missing": -1953.93,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.4,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1264342.3,
-      "missing": 6453.15,
-      "percent": 99.5
+      "reached": 1269708.2,
+      "missing": 1087.25,
+      "percent": 99.9
     }
   ]
 }
