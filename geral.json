@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 15:24",
+  "lastModified": "31/07/2026 15:26",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5657673.87,
-    "missing": -65173.87,
-    "percent": 101.2,
+    "reached": 5662823.07,
+    "missing": -70323.07,
+    "percent": 101.3,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -29,11 +29,11 @@
       "reference": "KEY PIRACICABA",
       "seller": "KEY PIRACICABA",
       "commitment": 175000.0,
-      "reached": 124456.58,
-      "missing": 50543.42,
+      "reached": 125828.58,
+      "missing": 49171.42,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 71.1,
+      "percent": 71.9,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "PENHA",
-      "seller": "LESTE PENHA",
-      "commitment": 140000.0,
-      "reached": 132384.79,
-      "missing": 7615.21,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.6,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 134500.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 93.6,
+      "status": "pending"
+    },
+    {
+      "reference": "PENHA",
+      "seller": "LESTE PENHA",
+      "commitment": 140000.0,
+      "reached": 136161.99,
+      "missing": 3838.01,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.3,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1358185.32,
-      "missing": -87389.87,
-      "percent": 106.9
+      "reached": 1363334.52,
+      "missing": -92539.07,
+      "percent": 107.3
     }
   ]
 }
