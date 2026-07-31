@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 08:44",
+  "lastModified": "31/07/2026 08:56",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5433934.71,
-    "missing": 158565.29,
-    "percent": 97.2,
+    "reached": 5439042.26,
+    "missing": 153457.74,
+    "percent": 97.3,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -172,11 +172,11 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 142500.0,
-      "reached": 135986.53,
-      "missing": 6513.47,
+      "reached": 136390.88,
+      "missing": 6109.12,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 95.4,
+      "percent": 95.7,
       "status": "pending"
     },
     {
@@ -246,17 +246,6 @@
       "status": "ok"
     },
     {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 130000.0,
-      "reached": 132577.9,
-      "missing": -2577.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 102.0,
-      "status": "ok"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "IATAGAM JUNIOR",
       "commitment": 1000.0,
@@ -265,6 +254,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 480.0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 130000.0,
+      "reached": 137281.1,
+      "missing": -7281.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 105.6,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1134446.17,
-      "missing": 136349.28,
-      "percent": 89.3
+      "reached": 1139553.72,
+      "missing": 131241.73,
+      "percent": 89.7
     }
   ]
 }
