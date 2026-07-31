@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/07/2026 15:43",
+  "lastModified": "31/07/2026 15:44",
   "summary": {
     "commitment": 230680.0,
-    "reached": 97223.17,
-    "missing": 133456.83,
-    "percent": 42.1,
+    "reached": 97278.12,
+    "missing": 133401.88,
+    "percent": 42.2,
     "weekGoal": 390750.0,
     "weekRevenue": 270442.18,
     "weekMissing": 120307.82,
@@ -73,11 +73,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 17940.0,
-      "reached": 7941.65,
-      "missing": 9998.35,
+      "reached": 7996.6,
+      "missing": 9943.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 44.3,
+      "percent": 44.6,
       "status": "pending"
     },
     {
@@ -246,8 +246,8 @@
     {
       "name": "Semana 5",
       "goal": 651250.0,
-      "reached": 685278.09,
-      "missing": -34028.09,
+      "reached": 685333.04,
+      "missing": -34083.04,
       "percent": 105.2
     }
   ]
