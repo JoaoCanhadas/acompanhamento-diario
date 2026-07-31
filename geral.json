@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 14:29",
+  "lastModified": "31/07/2026 14:30",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5594387.27,
-    "missing": -1887.27,
-    "percent": 100.0,
+    "reached": 5609552.67,
+    "missing": -17052.67,
+    "percent": 100.3,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
     "weekPercent": 71.6,
-    "positiveCount": 11,
-    "pendingCount": 16
+    "positiveCount": 12,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -81,28 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "PENHA",
-      "seller": "LESTE PENHA",
-      "commitment": 140000.0,
-      "reached": 128389.69,
-      "missing": 11610.31,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 91.7,
-      "status": "pending"
-    },
-    {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 90000.0,
-      "reached": 79741.98,
-      "missing": 10258.02,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 88.6,
-      "status": "pending"
-    },
-    {
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 55000.0,
@@ -111,6 +89,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 81.5,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 90000.0,
+      "reached": 79891.88,
+      "missing": 10108.12,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 88.8,
+      "status": "pending"
+    },
+    {
+      "reference": "PENHA",
+      "seller": "LESTE PENHA",
+      "commitment": 140000.0,
+      "reached": 131404.69,
+      "missing": 8595.31,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 93.9,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 415000.0,
-      "reached": 414253.01,
-      "missing": 746.99,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.8,
-      "status": "pending"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.3,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 415000.0,
+      "reached": 415591.71,
+      "missing": -591.71,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.1,
       "status": "ok"
     },
     {
@@ -293,11 +293,11 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 950000.0,
-      "reached": 1049569.4,
-      "missing": -99569.4,
+      "reached": 1060231.2,
+      "missing": -110231.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 110.5,
+      "percent": 111.6,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1294898.72,
-      "missing": -24103.27,
-      "percent": 101.9
+      "reached": 1310064.12,
+      "missing": -39268.67,
+      "percent": 103.1
     }
   ]
 }
