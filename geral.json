@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 14:12",
+  "lastModified": "31/07/2026 14:13",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5587473.07,
-    "missing": 5026.93,
-    "percent": 99.9,
+    "reached": 5592007.47,
+    "missing": 492.53,
+    "percent": 100.0,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 90000.0,
-      "reached": 75742.18,
-      "missing": 14257.82,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 84.2,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 85.9,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 90000.0,
+      "reached": 77362.18,
+      "missing": 12637.82,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 86.0,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 195000.0,
-      "reached": 186785.41,
-      "missing": 8214.59,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.8,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 134500.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 96.2,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 195000.0,
+      "reached": 189194.51,
+      "missing": 5805.49,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.0,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 260000.0,
-      "reached": 257980.03,
-      "missing": 2019.97,
+      "reached": 258485.33,
+      "missing": 1514.67,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.2,
+      "percent": 99.4,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1287984.52,
-      "missing": -17189.07,
-      "percent": 101.4
+      "reached": 1292518.92,
+      "missing": -21723.47,
+      "percent": 101.7
     }
   ]
 }
