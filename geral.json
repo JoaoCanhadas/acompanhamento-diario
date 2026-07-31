@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 11:53",
+  "lastModified": "31/07/2026 11:54",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5542194.95,
-    "missing": 50305.05,
-    "percent": 99.1,
+    "reached": 5545150.59,
+    "missing": 47349.41,
+    "percent": 99.2,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 250202.31,
-      "missing": 22797.69,
+      "reached": 250442.11,
+      "missing": 22557.89,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 91.6,
+      "percent": 91.7,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 55000.0,
-      "reached": 43644.37,
-      "missing": 11355.63,
+      "reached": 43573.41,
+      "missing": 11426.59,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.4,
+      "percent": 79.2,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 260000.0,
-      "reached": 255624.03,
-      "missing": 4375.97,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 98.3,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 64500.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 93.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 260000.0,
+      "reached": 256803.73,
+      "missing": 3196.27,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 98.8,
       "status": "pending"
     },
     {
@@ -235,17 +235,6 @@
       "status": "ok"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 318500.0,
-      "reached": 321272.92,
-      "missing": -2772.92,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.9,
-      "status": "ok"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "IATAGAM JUNIOR",
       "commitment": 1000.0,
@@ -254,6 +243,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 480.0,
+      "status": "ok"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 318500.0,
+      "reached": 322880.02,
+      "missing": -4380.02,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.4,
       "status": "ok"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1242706.4,
-      "missing": 28089.05,
-      "percent": 97.8
+      "reached": 1245662.04,
+      "missing": 25133.41,
+      "percent": 98.0
     }
   ]
 }

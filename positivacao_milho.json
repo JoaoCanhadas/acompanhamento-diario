@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "31/07/2026 11:53",
+  "lastModified": "31/07/2026 11:54",
   "summary": {
     "commitment": 758.0,
-    "reached": 741.0,
-    "missing": 17.0,
-    "percent": 97.8,
+    "reached": 743.0,
+    "missing": 15.0,
+    "percent": 98.0,
     "weekGoal": 200.0,
     "weekRevenue": 120.0,
     "weekMissing": 80.0,
@@ -147,17 +147,6 @@
       "status": "ok"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 59.0,
-      "reached": 63.0,
-      "missing": -4.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 106.8,
-      "status": "ok"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 45.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 108.9,
+      "status": "ok"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 59.0,
+      "reached": 64.0,
+      "missing": -5.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 108.5,
       "status": "ok"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 61.0,
-      "reached": 72.0,
-      "missing": -11.0,
+      "reached": 73.0,
+      "missing": -12.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 118.0,
+      "percent": 119.7,
       "status": "ok"
     }
   ],
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 200.0,
-      "reached": 290.0,
-      "missing": -90.0,
-      "percent": 145.0
+      "reached": 293.0,
+      "missing": -93.0,
+      "percent": 146.5
     }
   ]
 }
