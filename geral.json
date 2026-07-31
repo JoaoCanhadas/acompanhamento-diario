@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/07/2026 15:20",
+  "lastModified": "31/07/2026 15:21",
   "summary": {
     "commitment": 5592500.0,
-    "reached": 5653465.72,
-    "missing": -60965.72,
-    "percent": 101.1,
+    "reached": 5657673.87,
+    "missing": -65173.87,
+    "percent": 101.2,
     "weekGoal": 762477.27,
     "weekRevenue": 545683.8,
     "weekMissing": 216793.47,
@@ -29,22 +29,22 @@
       "reference": "KEY PIRACICABA",
       "seller": "KEY PIRACICABA",
       "commitment": 175000.0,
-      "reached": 123084.58,
-      "missing": 51915.42,
+      "reached": 124456.58,
+      "missing": 50543.42,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 70.3,
+      "percent": 71.1,
       "status": "pending"
     },
     {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 94398.38,
-      "missing": 27601.62,
+      "reached": 95533.13,
+      "missing": 26466.87,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 77.4,
+      "percent": 78.3,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 252413.06,
-      "missing": 20586.94,
+      "reached": 254114.46,
+      "missing": 18885.54,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.5,
+      "percent": 93.1,
       "status": "pending"
     },
     {
@@ -345,9 +345,9 @@
     {
       "name": "Semana 5",
       "goal": 1270795.45,
-      "reached": 1353977.17,
-      "missing": -83181.72,
-      "percent": 106.5
+      "reached": 1358185.32,
+      "missing": -87389.87,
+      "percent": 106.9
     }
   ]
 }
