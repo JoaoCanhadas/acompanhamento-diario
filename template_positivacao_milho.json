@@ -1,15 +1,15 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "05/08/2026 08:34",
+  "lastModified": "05/08/2026 09:41",
   "summary": {
     "commitment": 783.0,
-    "reached": 115.0,
-    "missing": 668.0,
-    "percent": 14.7,
+    "reached": 117.0,
+    "missing": 666.0,
+    "percent": 14.9,
     "weekGoal": 200.0,
-    "weekRevenue": 115.0,
-    "weekMissing": 85.0,
-    "weekPercent": 57.5,
+    "weekRevenue": 117.0,
+    "weekMissing": 83.0,
+    "weekPercent": 58.5,
     "positiveCount": 0,
     "pendingCount": 17
   },
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 61.0,
-      "reached": 13.0,
-      "missing": 48.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 21.3,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 48.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 61.0,
+      "reached": 14.0,
+      "missing": 47.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 23.0,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 40.0,
-      "reached": 6.0,
-      "missing": 34.0,
+      "reached": 7.0,
+      "missing": 33.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.0,
+      "percent": 17.5,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 200.0,
-      "reached": 115.0,
-      "missing": 85.0,
-      "percent": 57.5
+      "reached": 117.0,
+      "missing": 83.0,
+      "percent": 58.5
     },
     {
       "name": "Semana 2",
