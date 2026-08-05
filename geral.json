@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "05/08/2026 14:55",
+  "lastModified": "05/08/2026 14:56",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 865587.48,
-    "missing": 4918912.52,
+    "reached": 869248.28,
+    "missing": 4915251.72,
     "percent": 15.0,
     "weekGoal": 1377261.9,
-    "weekRevenue": 865587.48,
-    "weekMissing": 511674.42,
-    "weekPercent": 62.8,
+    "weekRevenue": 869248.28,
+    "weekMissing": 508013.62,
+    "weekPercent": 63.1,
     "positiveCount": 2,
     "pendingCount": 24
   },
@@ -51,11 +51,11 @@
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 350000.0,
-      "reached": 15446.24,
-      "missing": 334553.76,
+      "reached": 18807.24,
+      "missing": 331192.76,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 4.4,
+      "percent": 5.4,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
-      "reached": 46815.3,
-      "missing": 218184.7,
+      "reached": 47115.1,
+      "missing": 217884.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 17.7,
+      "percent": 17.8,
       "status": "pending"
     },
     {
@@ -306,9 +306,9 @@
     {
       "name": "Semana 1",
       "goal": 1377261.9,
-      "reached": 865587.48,
-      "missing": 511674.42,
-      "percent": 62.8
+      "reached": 869248.28,
+      "missing": 508013.62,
+      "percent": 63.1
     },
     {
       "name": "Semana 2",
