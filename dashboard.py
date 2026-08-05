@@ -799,7 +799,6 @@ INDEX_HTML = r"""<!doctype html>
         positiveText: "acima da meta",
         format: formatMoney,
         columns: [
-          { key: "reference", label: "Referencia", value: (row) => row.reference || row.seller },
           { key: "seller", label: "Vendedor", value: (row) => row.seller },
           { key: "commitment", label: "Meta", value: (row) => formatMoney(row.commitment) },
           { key: "reached", label: "Atingido", value: (row) => formatMoney(row.reached) },
