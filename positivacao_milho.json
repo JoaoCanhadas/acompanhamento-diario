@@ -1,30 +1,19 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "05/08/2026 13:13",
+  "lastModified": "05/08/2026 13:51",
   "summary": {
     "commitment": 783.0,
-    "reached": 154.0,
-    "missing": 629.0,
-    "percent": 19.7,
+    "reached": 163.0,
+    "missing": 620.0,
+    "percent": 20.8,
     "weekGoal": 200.0,
-    "weekRevenue": 157.0,
-    "weekMissing": 43.0,
-    "weekPercent": 78.5,
-    "positiveCount": 0,
+    "weekRevenue": 163.0,
+    "weekMissing": 37.0,
+    "weekPercent": 81.5,
+    "positiveCount": 1,
     "pendingCount": 17
   },
   "rows": [
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 63.0,
-      "reached": 16.0,
-      "missing": 47.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 25.4,
-      "status": "pending"
-    },
     {
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
@@ -37,14 +26,14 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 61.0,
-      "reached": 16.0,
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 63.0,
+      "reached": 18.0,
       "missing": 45.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 26.2,
+      "percent": 28.6,
       "status": "pending"
     },
     {
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 18.2,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 61.0,
+      "reached": 18.0,
+      "missing": 43.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 29.5,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 51.0,
-      "reached": 11.0,
-      "missing": 40.0,
+      "reached": 12.0,
+      "missing": 39.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.6,
+      "percent": 23.5,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 47.0,
-      "reached": 13.0,
-      "missing": 34.0,
+      "reached": 14.0,
+      "missing": 33.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 27.7,
+      "percent": 29.8,
       "status": "pending"
     },
     {
@@ -200,6 +200,17 @@
       "difference": 0.0,
       "percent": 10.3,
       "status": "pending"
+    },
+    {
+      "reference": "IATAGAM JUNIOR",
+      "seller": "IATAGAM JUNIOR",
+      "commitment": 0.0,
+      "reached": 3.0,
+      "missing": -3.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -207,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 200.0,
-      "reached": 157.0,
-      "missing": 43.0,
-      "percent": 78.5
+      "reached": 163.0,
+      "missing": 37.0,
+      "percent": 81.5
     },
     {
       "name": "Semana 2",
