@@ -1,80 +1,58 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "31/07/2026 08:47",
+  "lastModified": "05/08/2026 07:37",
   "summary": {
-    "commitment": 643500.0,
-    "reached": 539300.38,
-    "missing": 104199.62,
-    "percent": 83.8,
-    "weekGoal": 371590.91,
-    "weekRevenue": 275241.62,
-    "weekMissing": 96349.29,
-    "weekPercent": 74.1,
-    "positiveCount": 4,
-    "pendingCount": 3
+    "commitment": 0.0,
+    "reached": 126842.16,
+    "missing": -126842.16,
+    "percent": 0,
+    "weekGoal": 0,
+    "weekRevenue": 0,
+    "weekMissing": 0,
+    "weekPercent": 0,
+    "positiveCount": 7,
+    "pendingCount": 0
   },
   "rows": [
     {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 138500.0,
-      "reached": 58482.95,
-      "missing": 80017.05,
+      "reference": "PIRACICABA",
+      "seller": "KEY PIRACICABA",
+      "commitment": 0.0,
+      "reached": 0.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 42.2,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY PIRACICABA",
-      "seller": "PIRACICABA",
-      "commitment": 69000.0,
-      "reached": 3362.6,
-      "missing": 65637.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 4.9,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 66000.0,
-      "reached": 5437.8,
-      "missing": 60562.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 8.2,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
-      "commitment": 150000.0,
-      "reached": 159969.74,
-      "missing": -9969.74,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 106.6,
+      "percent": 0,
       "status": "ok"
     },
     {
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
-      "commitment": 185000.0,
-      "reached": 196965.6,
-      "missing": -11965.6,
+      "commitment": 0.0,
+      "reached": 0.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 106.5,
+      "percent": 0,
       "status": "ok"
     },
     {
-      "reference": "KEY CASA",
-      "seller": "KEY CASA",
+      "reference": "KEY SP",
+      "seller": "KEY SP",
       "commitment": 0.0,
-      "reached": 34825.04,
-      "missing": -34825.04,
+      "reached": 0.0,
+      "missing": 0.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 0.0,
+      "reached": 0.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -83,51 +61,37 @@
     {
       "reference": "KEY ABC",
       "seller": "KEY ABC",
-      "commitment": 35000.0,
-      "reached": 80256.65,
-      "missing": -45256.65,
+      "commitment": 0.0,
+      "reached": 11521.5,
+      "missing": -11521.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 229.3,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 0.0,
+      "reached": 41755.37,
+      "missing": -41755.37,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY CASA",
+      "seller": "KEY CASA",
+      "commitment": 0.0,
+      "reached": 73565.29,
+      "missing": -73565.29,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
       "status": "ok"
     }
   ],
   "history": [],
-  "weeks": [
-    {
-      "name": "Semana 1",
-      "goal": 371590.91,
-      "reached": 275241.62,
-      "missing": 96349.29,
-      "percent": 74.1
-    },
-    {
-      "name": "Semana 2",
-      "goal": 495454.55,
-      "reached": 563167.95,
-      "missing": -67713.4,
-      "percent": 113.7
-    },
-    {
-      "name": "Semana 3",
-      "goal": 619318.18,
-      "reached": 684697.15,
-      "missing": -65378.97,
-      "percent": 110.6
-    },
-    {
-      "name": "Semana 4",
-      "goal": 619318.18,
-      "reached": 684913.8,
-      "missing": -65595.62,
-      "percent": 110.6
-    },
-    {
-      "name": "Semana 5",
-      "goal": 619318.18,
-      "reached": 539300.38,
-      "missing": 80017.8,
-      "percent": 87.1
-    }
-  ]
+  "weeks": []
 }
