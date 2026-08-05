@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "05/08/2026 15:36",
+  "lastModified": "05/08/2026 15:37",
   "summary": {
     "commitment": 130680.0,
     "reached": 103257.01,
     "missing": 27422.99,
     "percent": 79.0,
-    "weekGoal": 700000.0,
-    "weekRevenue": 0.0,
-    "weekMissing": 700000.0,
-    "weekPercent": 0.0,
+    "weekGoal": 692023.81,
+    "weekRevenue": 451551.26,
+    "weekMissing": 240472.55,
+    "weekPercent": 65.3,
     "positiveCount": 6,
     "pendingCount": 12
   },
@@ -217,37 +217,37 @@
   "weeks": [
     {
       "name": "Semana 1",
-      "goal": 700000.0,
-      "reached": 0.0,
-      "missing": 700000.0,
-      "percent": 0.0
+      "goal": 692023.81,
+      "reached": 451551.26,
+      "missing": 240472.55,
+      "percent": 65.3
     },
     {
       "name": "Semana 2",
-      "goal": 700000.0,
+      "goal": 692023.81,
       "reached": 0.0,
-      "missing": 700000.0,
+      "missing": 692023.81,
       "percent": 0.0
     },
     {
       "name": "Semana 3",
-      "goal": 700000.0,
+      "goal": 692023.81,
       "reached": 0.0,
-      "missing": 700000.0,
+      "missing": 692023.81,
       "percent": 0.0
     },
     {
       "name": "Semana 4",
-      "goal": 700000.0,
+      "goal": 692023.81,
       "reached": 0.0,
-      "missing": 700000.0,
+      "missing": 692023.81,
       "percent": 0.0
     },
     {
       "name": "Semana 5",
-      "goal": 700000.0,
+      "goal": 138404.76,
       "reached": 0.0,
-      "missing": 700000.0,
+      "missing": 138404.76,
       "percent": 0.0
     }
   ]
