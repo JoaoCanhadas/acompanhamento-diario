@@ -793,9 +793,9 @@ INDEX_HTML = r"""<!doctype html>
       },
       general: {
         endpoint: "/api/geral",
-        title: "Faturamento geral por referencia",
+        title: "Faturamento geral por vendedor",
         commitmentLabel: "Meta mes",
-        pendingText: "referencias pendentes",
+        pendingText: "vendedores pendentes",
         positiveText: "acima da meta",
         format: formatMoney,
         columns: [
