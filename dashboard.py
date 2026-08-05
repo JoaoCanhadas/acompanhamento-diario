@@ -1594,8 +1594,8 @@ def read_base_python_planilha1_data(excel_path, workbook):
 def read_general_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
     title_col = find_block_start(sheet, "GERAL")
-    seller_col = title_col - 1
-    reference_col = title_col
+    reference_col = title_col - 1
+    seller_col = title_col
     commitment_col = title_col + 1
     reached_col = title_col + 2
     missing_col = title_col + 3
@@ -1817,8 +1817,8 @@ def find_block_table_header(sheet, reference_col, seller_col, commitment_col, re
 def read_keys_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
     title_col = find_block_start(sheet, "KEY")
-    seller_col = title_col - 1
-    reference_col = title_col
+    reference_col = title_col - 1
+    seller_col = title_col
     commitment_col = title_col + 1
     reached_col = title_col + 2
     missing_col = title_col + 3
