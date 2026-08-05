@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "05/08/2026 12:36",
+  "lastModified": "05/08/2026 12:37",
   "summary": {
     "commitment": 130680.0,
-    "reached": 66260.78,
-    "missing": 64419.22,
-    "percent": 50.7,
+    "reached": 68450.38,
+    "missing": 62229.62,
+    "percent": 52.4,
     "weekGoal": 692023.81,
-    "weekRevenue": 416367.63,
-    "weekMissing": 275656.18,
-    "weekPercent": 60.2,
+    "weekRevenue": 418557.23,
+    "weekMissing": 273466.58,
+    "weekPercent": 60.5,
     "positiveCount": 2,
     "pendingCount": 16
   },
@@ -51,11 +51,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 10910.0,
-      "reached": 5132.93,
-      "missing": 5777.07,
+      "reached": 5315.63,
+      "missing": 5594.37,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 47.0,
+      "percent": 48.7,
       "status": "pending"
     },
     {
@@ -67,17 +67,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 51.2,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 15870.0,
-      "reached": 11419.63,
-      "missing": 4450.37,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 72.0,
       "status": "pending"
     },
     {
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 5.3,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 15870.0,
+      "reached": 12727.03,
+      "missing": 3142.97,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 80.2,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 12070.0,
-      "reached": 9729.25,
-      "missing": 2340.75,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.6,
-      "status": "pending"
-    },
-    {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 9620.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 11.4,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 12070.0,
+      "reached": 10428.75,
+      "missing": 1641.25,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 86.4,
       "status": "pending"
     },
     {
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 416367.63,
-      "missing": 275656.18,
-      "percent": 60.2
+      "reached": 418557.23,
+      "missing": 273466.58,
+      "percent": 60.5
     },
     {
       "name": "Semana 2",
