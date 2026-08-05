@@ -1,15 +1,15 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "05/08/2026 11:38",
+  "lastModified": "05/08/2026 11:42",
   "summary": {
     "commitment": 130680.0,
-    "reached": 56598.64,
-    "missing": 74081.36,
-    "percent": 43.3,
+    "reached": 60094.81,
+    "missing": 70585.19,
+    "percent": 46.0,
     "weekGoal": 692023.81,
-    "weekRevenue": 376638.99,
-    "weekMissing": 315384.82,
-    "weekPercent": 54.4,
+    "weekRevenue": 380047.54,
+    "weekMissing": 311976.27,
+    "weekPercent": 54.9,
     "positiveCount": 2,
     "pendingCount": 16
   },
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "seller": "CENTRO",
-      "reference": "CENTRO",
-      "commitment": 16930.0,
-      "reached": 7086.65,
-      "missing": 9843.35,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 41.9,
-      "status": "pending"
-    },
-    {
       "seller": "PIRITUBA",
       "reference": "PIRITUBA",
       "commitment": 8740.0,
@@ -48,14 +37,25 @@
       "status": "pending"
     },
     {
+      "seller": "CENTRO",
+      "reference": "CENTRO",
+      "commitment": 16930.0,
+      "reached": 8929.15,
+      "missing": 8000.85,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.7,
+      "status": "pending"
+    },
+    {
       "seller": "SANTO ANDRE",
       "reference": "SANTO ANDRE",
       "commitment": 10910.0,
-      "reached": 3444.8,
-      "missing": 7465.2,
+      "reached": 3678.8,
+      "missing": 7231.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 31.6,
+      "percent": 33.7,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "seller": "SBC",
-      "reference": "SBC",
-      "commitment": 12070.0,
-      "reached": 8032.4,
-      "missing": 4037.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.5,
-      "status": "pending"
-    },
-    {
       "seller": "JUNDIAI",
       "reference": "JUNDIAI",
       "commitment": 4030.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 5.3,
+      "status": "pending"
+    },
+    {
+      "seller": "SBC",
+      "reference": "SBC",
+      "commitment": 12070.0,
+      "reached": 8619.85,
+      "missing": 3450.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 71.4,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "seller": "LESTE MOOCA",
       "reference": "MOOCA",
       "commitment": 9620.0,
-      "reached": 7350.1,
-      "missing": 2269.9,
+      "reached": 7437.72,
+      "missing": 2182.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.4,
+      "percent": 77.3,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "seller": "CAMPINAS",
-      "reference": "CAMPINAS",
-      "commitment": 2540.0,
-      "reached": 2806.4,
-      "missing": -266.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 110.5,
-      "status": "ok"
-    },
-    {
       "seller": "LESTE",
       "reference": "LESTE",
       "commitment": 3800.0,
@@ -211,6 +200,17 @@
       "difference": 0.0,
       "percent": 123.6,
       "status": "ok"
+    },
+    {
+      "seller": "CAMPINAS",
+      "reference": "CAMPINAS",
+      "commitment": 2540.0,
+      "reached": 3551.0,
+      "missing": -1011.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 139.8,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 376638.99,
-      "missing": 315384.82,
-      "percent": 54.4
+      "reached": 380047.54,
+      "missing": 311976.27,
+      "percent": 54.9
     },
     {
       "name": "Semana 2",
