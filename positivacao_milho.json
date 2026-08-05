@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "05/08/2026 13:52",
+  "lastModified": "05/08/2026 14:07",
   "summary": {
     "commitment": 783.0,
-    "reached": 163.0,
-    "missing": 620.0,
-    "percent": 20.8,
+    "reached": 166.0,
+    "missing": 617.0,
+    "percent": 21.2,
     "weekGoal": 200.0,
-    "weekRevenue": 163.0,
-    "weekMissing": 37.0,
-    "weekPercent": 81.5,
+    "weekRevenue": 166.0,
+    "weekMissing": 34.0,
+    "weekPercent": 83.0,
     "positiveCount": 1,
     "pendingCount": 17
   },
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 61.0,
-      "reached": 18.0,
-      "missing": 43.0,
+      "reached": 19.0,
+      "missing": 42.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 29.5,
+      "percent": 31.1,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "PENHA",
-      "seller": "LESTE PENHA",
-      "commitment": 41.0,
-      "reached": 4.0,
-      "missing": 37.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 9.8,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 44.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 18.2,
+      "status": "pending"
+    },
+    {
+      "reference": "PENHA",
+      "seller": "LESTE PENHA",
+      "commitment": 41.0,
+      "reached": 5.0,
+      "missing": 36.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 12.2,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 29.0,
-      "reached": 3.0,
-      "missing": 26.0,
+      "reached": 4.0,
+      "missing": 25.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 10.3,
+      "percent": 13.8,
       "status": "pending"
     },
     {
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 200.0,
-      "reached": 163.0,
-      "missing": 37.0,
-      "percent": 81.5
+      "reached": 166.0,
+      "missing": 34.0,
+      "percent": 83.0
     },
     {
       "name": "Semana 2",

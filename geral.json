@@ -1,16 +1,16 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "05/08/2026 13:52",
+  "lastModified": "05/08/2026 14:07",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 781851.24,
-    "missing": 5002648.76,
-    "percent": 13.5,
+    "reached": 792937.04,
+    "missing": 4991562.96,
+    "percent": 13.7,
     "weekGoal": 1377261.9,
-    "weekRevenue": 782495.52,
-    "weekMissing": 594766.38,
-    "weekPercent": 56.8,
-    "positiveCount": 1,
+    "weekRevenue": 792937.04,
+    "weekMissing": 584324.86,
+    "weekPercent": 57.6,
+    "positiveCount": 2,
     "pendingCount": 24
   },
   "rows": [
@@ -62,11 +62,11 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 420000.0,
-      "reached": 92245.69,
-      "missing": 327754.31,
+      "reached": 95236.89,
+      "missing": 324763.11,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 22.0,
+      "percent": 22.7,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 35405.68,
-      "missing": 237594.32,
+      "reached": 36674.63,
+      "missing": 236325.37,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 13.0,
+      "percent": 13.4,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 14308.98,
-      "missing": 130691.02,
+      "reached": 19131.78,
+      "missing": 125868.22,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 9.9,
+      "percent": 13.2,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
-      "reached": 9005.27,
-      "missing": 90994.73,
+      "reached": 9265.07,
+      "missing": 90734.93,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 9.0,
+      "percent": 9.3,
       "status": "pending"
     },
     {
@@ -238,11 +238,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
-      "reached": 12048.17,
-      "missing": 65951.83,
+      "reached": 13146.94,
+      "missing": 64853.06,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.4,
+      "percent": 16.9,
       "status": "pending"
     },
     {
@@ -279,6 +279,17 @@
       "status": "pending"
     },
     {
+      "reference": "ECOMMERCE",
+      "seller": "ECOMMERCE",
+      "commitment": 0.0,
+      "reached": 644.28,
+      "missing": -644.28,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
       "reference": "IATAGAM JUNIOR",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -295,9 +306,9 @@
     {
       "name": "Semana 1",
       "goal": 1377261.9,
-      "reached": 782495.52,
-      "missing": 594766.38,
-      "percent": 56.8
+      "reached": 792937.04,
+      "missing": 584324.86,
+      "percent": 57.6
     },
     {
       "name": "Semana 2",
