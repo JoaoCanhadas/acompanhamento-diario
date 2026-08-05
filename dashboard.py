@@ -1708,9 +1708,13 @@ def read_general_planilha1_data(excel_path, workbook):
 
 def read_positivacao_milho_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
-    title_col = find_block_start_any(sheet, ("POSITIVACAO MILHO", "POSITIVACAO BRIOCHE"))
-    seller_col = title_col - 1
-    reference_col = title_col
+    title_col = find_block_start_any(
+        sheet,
+        ("POSITIVACAO MILHO", "POSITIVACAO BRIOCHE")
+    )
+
+    reference_col = title_col - 1
+    seller_col = title_col
     commitment_col = title_col + 1
     reached_col = title_col + 2
     missing_col = title_col + 3
@@ -1749,28 +1753,37 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
             raw_value = sheet.cell(row_number, commitment_col).value
             indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
 
-    weeks = []
+        weeks = []
     weekly_header_row = None
+
     for row_number in range(10, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, reference_col).value) == "SEMANAL":
+        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
         for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, reference_col).value)
+            raw_label = normalize_text(
+                sheet.cell(row_number, seller_col).value
+            )
+
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
-            goal = POSITIVACAO_MILHO_WEEKLY_GOAL
+
+            goal = money(sheet.cell(row_number, commitment_col).value)
             reached = money(sheet.cell(row_number, reached_col).value)
             missing = money(goal - reached)
+
             weeks.append(
                 {
                     "name": normalize_week_name(raw_label),
                     "goal": goal,
                     "reached": reached,
                     "missing": missing,
-                    "percent": round((reached / goal * 100) if goal else 0, 1),
+                    "percent": round(
+                        (reached / goal * 100) if goal else 0,
+                        1
+                    ),
                 }
             )
 
