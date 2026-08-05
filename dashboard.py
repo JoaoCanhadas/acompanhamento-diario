@@ -1495,8 +1495,8 @@ def find_block_start_any(sheet, titles):
 def read_base_python_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
     block_start = find_block_start(sheet, "VAREJO")
-    seller_col = block_start - 1
-    reference_col = block_start
+    reference_col = block_start - 1
+    seller_col = block_start
     commitment_col = block_start + 1
     reached_col = block_start + 2
     missing_col = block_start + 3
