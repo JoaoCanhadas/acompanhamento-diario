@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "05/08/2026 08:51",
+  "lastModified": "05/08/2026 09:04",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 673578.33,
-    "missing": 5110921.67,
-    "percent": 11.6,
+    "reached": 677837.22,
+    "missing": 5106662.78,
+    "percent": 11.7,
     "weekGoal": 0,
     "weekRevenue": 0,
     "weekMissing": 0,
     "weekPercent": 0,
-    "positiveCount": 2,
-    "pendingCount": 25
+    "positiveCount": 0,
+    "pendingCount": 24
   },
   "rows": [
     {
@@ -62,11 +62,11 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 420000.0,
-      "reached": 86736.69,
-      "missing": 333263.31,
+      "reached": 91732.29,
+      "missing": 328267.71,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.7,
+      "percent": 21.8,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 330000.0,
-      "reached": 51270.99,
-      "missing": 278729.01,
+      "reached": 51822.84,
+      "missing": 278177.16,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.5,
+      "percent": 15.7,
       "status": "pending"
     },
     {
@@ -277,39 +277,6 @@
       "difference": 0.0,
       "percent": 13.6,
       "status": "pending"
-    },
-    {
-      "reference": "ECOMMERCE",
-      "seller": "ECOMMERCE",
-      "commitment": 1000.0,
-      "reached": 644.28,
-      "missing": 355.72,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 64.4,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY PIRACICABA",
-      "seller": "KEY PIRACICABA",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "IATAGAM JUNIOR",
-      "seller": "ECOMMERCE",
-      "commitment": 0.0,
-      "reached": 644.28,
-      "missing": -644.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
     }
   ],
   "history": [],
