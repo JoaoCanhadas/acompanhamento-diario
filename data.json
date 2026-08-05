@@ -1,30 +1,19 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "05/08/2026 09:47",
+  "lastModified": "05/08/2026 10:04",
   "summary": {
     "commitment": 130680.0,
-    "reached": 16781.2,
-    "missing": 113898.8,
-    "percent": 12.8,
+    "reached": 22022.6,
+    "missing": 108657.4,
+    "percent": 16.9,
     "weekGoal": 692023.81,
-    "weekRevenue": 366888.05,
-    "weekMissing": 325135.76,
-    "weekPercent": 53.0,
+    "weekRevenue": 372129.45,
+    "weekMissing": 319894.36,
+    "weekPercent": 53.8,
     "positiveCount": 1,
     "pendingCount": 17
   },
   "rows": [
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 15870.0,
-      "reached": 0.0,
-      "missing": 15870.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
     {
       "reference": "NORTE",
       "seller": "NORTE",
@@ -59,6 +48,17 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 15870.0,
+      "reached": 4786.55,
+      "missing": 11083.45,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 30.2,
+      "status": "pending"
+    },
+    {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 9620.0,
@@ -84,11 +84,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 8740.0,
-      "reached": 316.85,
-      "missing": 8423.15,
+      "reached": 546.7,
+      "missing": 8193.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 3.6,
+      "percent": 6.3,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "INTERNO 1",
       "seller": "VENDEDOR INTERNO 1",
       "commitment": 1980.0,
-      "reached": 0.0,
-      "missing": 1980.0,
+      "reached": 225.0,
+      "missing": 1755.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 11.4,
       "status": "pending"
     },
     {
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 366888.05,
-      "missing": 325135.76,
-      "percent": 53.0
+      "reached": 372129.45,
+      "missing": 319894.36,
+      "percent": 53.8
     },
     {
       "name": "Semana 2",
