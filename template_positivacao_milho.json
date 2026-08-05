@@ -6,10 +6,10 @@
     "reached": 152.0,
     "missing": 631.0,
     "percent": 19.4,
-    "weekGoal": 200.0,
+    "weekGoal": 186.43,
     "weekRevenue": 150.0,
-    "weekMissing": 50.0,
-    "weekPercent": 75.0,
+    "weekMissing": 36.43,
+    "weekPercent": 80.5,
     "positiveCount": 0,
     "pendingCount": 17
   },
@@ -26,8 +26,8 @@
       "status": "pending"
     },
     {
-      "reference": "TATUAPE",
-      "seller": "LESTE TATUAPE",
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
       "commitment": 53.0,
       "reached": 6.0,
       "missing": 47.0,
@@ -81,8 +81,8 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
       "commitment": 51.0,
       "reached": 11.0,
       "missing": 40.0,
@@ -114,8 +114,8 @@
       "status": "pending"
     },
     {
-      "reference": "PENHA",
-      "seller": "LESTE PENHA",
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
       "commitment": 41.0,
       "reached": 4.0,
       "missing": 37.0,
@@ -180,8 +180,8 @@
       "status": "pending"
     },
     {
-      "reference": "VALE",
-      "seller": "SJC/VALE",
+      "reference": "SJC/VALE",
+      "seller": "VALE",
       "commitment": 38.0,
       "reached": 10.0,
       "missing": 28.0,
@@ -206,37 +206,37 @@
   "weeks": [
     {
       "name": "Semana 1",
-      "goal": 200.0,
+      "goal": 186.43,
       "reached": 150.0,
-      "missing": 50.0,
-      "percent": 75.0
+      "missing": 36.43,
+      "percent": 80.5
     },
     {
       "name": "Semana 2",
-      "goal": 200.0,
+      "goal": 186.43,
       "reached": 0.0,
-      "missing": 200.0,
+      "missing": 186.43,
       "percent": 0.0
     },
     {
       "name": "Semana 3",
-      "goal": 200.0,
+      "goal": 186.43,
       "reached": 0.0,
-      "missing": 200.0,
+      "missing": 186.43,
       "percent": 0.0
     },
     {
       "name": "Semana 4",
-      "goal": 200.0,
+      "goal": 186.43,
       "reached": 0.0,
-      "missing": 200.0,
+      "missing": 186.43,
       "percent": 0.0
     },
     {
       "name": "Semana 5",
-      "goal": 200.0,
+      "goal": 37.29,
       "reached": 0.0,
-      "missing": 200.0,
+      "missing": 37.29,
       "percent": 0.0
     }
   ]
