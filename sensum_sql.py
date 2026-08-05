@@ -365,16 +365,19 @@ def merge_template_rows(panel, template, reached_rows):
             }
         )
 
-    if template_rows:
-        return rows
-
-    known_names = {normalize_name(item.get("seller")) for item in rows}
+        known_names = {normalize_name(item.get("seller")) for item in rows}
     known_refs = {normalize_name(item.get("reference")) for item in rows}
+
     for item in reached_rows:
         seller = text(item.get("seller"))
         key = normalize_name(seller)
+
+        if panel == "general" and key == "KEY PIRACICABA":
+            continue
+
         if key in known_names or key in known_refs:
             continue
+
         reached = money(item.get("reached"))
         rows.append(
             {
@@ -389,6 +392,7 @@ def merge_template_rows(panel, template, reached_rows):
                 "status": "ok",
             }
         )
+
     return rows
 
 
