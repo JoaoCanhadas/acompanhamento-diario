@@ -1434,7 +1434,7 @@ def read_base_python_dashboard_data(excel_path, workbook):
         if not normalize_key(raw_label).startswith("SEMANA"):
             continue
         label = normalize_week_name(raw_label)
-        goal = money(sheet.cell(row_number, commitment_col).value)
+        goal = round(money(sheet.cell(row_number, commitment_col).value))
         reached = money(sheet.cell(row_number, reached_col).value)
         missing = money(sheet.cell(row_number, missing_col).value)
         weeks.append(
