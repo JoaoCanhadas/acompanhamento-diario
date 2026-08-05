@@ -10,8 +10,8 @@
     "weekRevenue": 0,
     "weekMissing": 0,
     "weekPercent": 0,
-    "positiveCount": 2,
-    "pendingCount": 25
+    "positiveCount": 0,
+    "pendingCount": 24
   },
   "rows": [
     {
@@ -277,39 +277,6 @@
       "difference": 0.0,
       "percent": 13.6,
       "status": "pending"
-    },
-    {
-      "reference": "ECOMMERCE",
-      "seller": "ECOMMERCE",
-      "commitment": 1000.0,
-      "reached": 644.28,
-      "missing": 355.72,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 64.4,
-      "status": "pending"
-    },
-    {
-      "reference": "IATAGAM JUNIOR",
-      "seller": "ECOMMERCE",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY PIRACICABA",
-      "seller": "KEY PIRACICABA",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
     }
   ],
   "history": [],
