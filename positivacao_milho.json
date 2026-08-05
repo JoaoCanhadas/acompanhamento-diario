@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "05/08/2026 13:10",
+  "lastModified": "05/08/2026 13:11",
   "summary": {
     "commitment": 783.0,
-    "reached": 153.0,
-    "missing": 630.0,
-    "percent": 19.5,
+    "reached": 154.0,
+    "missing": 629.0,
+    "percent": 19.7,
     "weekGoal": 200.0,
-    "weekRevenue": 156.0,
-    "weekMissing": 44.0,
-    "weekPercent": 78.0,
+    "weekRevenue": 157.0,
+    "weekMissing": 43.0,
+    "weekPercent": 78.5,
     "positiveCount": 0,
     "pendingCount": 17
   },
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 44.0,
-      "reached": 7.0,
-      "missing": 37.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 15.9,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 54.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 9.8,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 44.0,
+      "reached": 8.0,
+      "missing": 36.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 18.2,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 200.0,
-      "reached": 156.0,
-      "missing": 44.0,
-      "percent": 78.0
+      "reached": 157.0,
+      "missing": 43.0,
+      "percent": 78.5
     },
     {
       "name": "Semana 2",
