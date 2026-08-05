@@ -55,8 +55,8 @@ PANEL_CONFIG = {
     },
     "milho": {
         "title": "Postivação",
-        "default_week_goal": 200.0,
-        "weekly_goal_override": 200.0,
+        "default_week_goal": 0.0,
+        "weekly_goal_override": None,
     },
 }
 
