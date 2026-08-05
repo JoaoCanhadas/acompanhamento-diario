@@ -400,12 +400,23 @@ def merge_template_weeks(panel, template, reached_weeks):
     reached_values = [money(item.get("reached")) for item in reached_weeks]
     template_weeks = template.get("weeks") or []
     weeks = []
+
     for index, item in enumerate(template_weeks[:5]):
         goal = PANEL_CONFIG[panel]["weekly_goal_override"]
+
         if goal is None:
-            goal = money(item.get("goal", PANEL_CONFIG[panel]["default_week_goal"]))
+            goal = round(
+                money(
+                    item.get(
+                        "goal",
+                        PANEL_CONFIG[panel]["default_week_goal"]
+                    )
+                )
+            )
+
         reached = reached_values[index] if index < len(reached_values) else 0.0
         missing = money(goal - reached)
+
         weeks.append(
             {
                 "name": text(item.get("name") or f"Semana {index + 1}"),
@@ -415,6 +426,7 @@ def merge_template_weeks(panel, template, reached_weeks):
                 "percent": percent_value(None, reached, goal),
             }
         )
+
     return weeks
 
 
