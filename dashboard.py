@@ -1537,21 +1537,23 @@ def read_base_python_planilha1_data(excel_path, workbook):
                 continue
             indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
 
-    weeks = []
+        weeks = []
     weekly_header_row = None
     for row_number in range(10, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, reference_col).value) == "SEMANAL":
+        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
         for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, reference_col).value)
+            raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
+
             goal = money(sheet.cell(row_number, commitment_col).value)
             reached = money(sheet.cell(row_number, reached_col).value)
             missing = money(sheet.cell(row_number, missing_col).value)
+
             weeks.append(
                 {
                     "name": normalize_week_name(raw_label),
