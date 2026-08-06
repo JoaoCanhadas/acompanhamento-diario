@@ -1055,22 +1055,50 @@ INDEX_HTML = r"""<!doctype html>
     });
 
     document.querySelectorAll(".view-tab").forEach((button) => {
-      button.addEventListener("click", () => {
-        activeView = button.dataset.view;
-        state.sortKey = "missing";
-        state.sortDir = "desc";
-        document.querySelectorAll(".view-tab").forEach((tab) => {
-          tab.classList.toggle("active", tab === button);
-        });
-        loadData();
-      });
+  button.addEventListener("click", () => {
+    activeView = button.dataset.view;
+    state.sortKey = "missing";
+    state.sortDir = "desc";
+
+    document.querySelectorAll(".view-tab").forEach((tab) => {
+      tab.classList.toggle("active", tab === button);
     });
 
-    byId("search").addEventListener("input", renderTable);
-    byId("status").addEventListener("change", renderTable);
-    byId("refresh").addEventListener("click", loadData);
     loadData();
-    setInterval(loadData, 30000);
+  });
+});
+
+byId("search").addEventListener("input", renderTable);
+byId("status").addEventListener("change", renderTable);
+byId("refresh").addEventListener("click", loadData);
+
+const autoRotateViews = ["sales", "general", "keys", "milho"];
+let autoRotateTimer = null;
+
+function changeToNextView() {
+  const currentIndex = autoRotateViews.indexOf(activeView);
+  const nextIndex = (currentIndex + 1) % autoRotateViews.length;
+
+  activeView = autoRotateViews[nextIndex];
+
+  state.sortKey = "missing";
+  state.sortDir = "desc";
+
+  document.querySelectorAll(".view-tab").forEach((tab) => {
+    tab.classList.toggle("active", tab.dataset.view === activeView);
+  });
+
+  loadData();
+}
+
+function startAutoRotate() {
+  if (autoRotateTimer) clearInterval(autoRotateTimer);
+  autoRotateTimer = setInterval(changeToNextView, 20000);
+}
+
+loadData();
+setInterval(loadData, 30000);
+startAutoRotate();
   </script>
 </body>
 </html>
