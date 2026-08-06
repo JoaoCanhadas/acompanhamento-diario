@@ -27,7 +27,7 @@ GERAL_DATA_PATH = BASE_DIR / "geral.json"
 POSITIVACAO_MILHO_DATA_PATH = BASE_DIR / "positivacao_milho.json"
 KEYS_DATA_PATH = BASE_DIR / "keys.json"
 WEEKLY_GOALS_PATH = BASE_DIR / "weekly_goals.json"
-LOGO_PATH = BASE_DIR / "logo_iatagam_word.svg"
+LOGO_PATH = BASE_DIR / "logo_iatagam_completo.png"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 REMOTE_RAW_BASE = os.environ.get(
@@ -683,7 +683,7 @@ INDEX_HTML = r"""<!doctype html>
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand-logo">
-        <img src="/logo_iatagam_word.svg?v=2" alt="IATAGAM">
+        <img src="/iatagam_site_logo_cor.png?v=1" alt="IATAGAM">
       </div>
       <div class="meta">
         <div class="view-tabs" aria-label="Telas do acompanhamento">
