@@ -343,14 +343,22 @@ def merge_template_rows(panel, template, reached_rows):
         normalize_name(item.get("seller")): money(item.get("reached"))
         for item in reached_rows
     }
+
     rows = []
     template_rows = template.get("rows") or []
+
     for item in template_rows:
         seller = text(item.get("seller"))
         reference = text(item.get("reference"))
-        reached = reached_by_name.get(normalize_name(seller), reached_by_name.get(normalize_name(reference), 0.0))
+
+        reached = reached_by_name.get(
+            normalize_name(seller),
+            reached_by_name.get(normalize_name(reference), 0.0),
+        )
+
         commitment = money(item.get("commitment"))
         missing = money(commitment - reached)
+
         rows.append(
             {
                 "reference": reference,
@@ -365,12 +373,15 @@ def merge_template_rows(panel, template, reached_rows):
             }
         )
 
-        known_names = {normalize_name(item.get("seller")) for item in rows}
+    known_names = {normalize_name(item.get("seller")) for item in rows}
     known_refs = {normalize_name(item.get("reference")) for item in rows}
 
     for item in reached_rows:
         seller = text(item.get("seller"))
         key = normalize_name(seller)
+
+        if panel == "milho":
+            continue
 
         if panel == "general" and key == "KEY PIRACICABA":
             continue
@@ -379,6 +390,7 @@ def merge_template_rows(panel, template, reached_rows):
             continue
 
         reached = money(item.get("reached"))
+
         rows.append(
             {
                 "reference": seller if panel != "sales" else "",
