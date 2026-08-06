@@ -27,7 +27,7 @@ GERAL_DATA_PATH = BASE_DIR / "geral.json"
 POSITIVACAO_MILHO_DATA_PATH = BASE_DIR / "positivacao_milho.json"
 KEYS_DATA_PATH = BASE_DIR / "keys.json"
 WEEKLY_GOALS_PATH = BASE_DIR / "weekly_goals.json"
-LOGO_PATH = BASE_DIR / "logo_iatagam_completo.png"
+LOGO_PATH = BASE_DIR / "iatagam_site_logo_cor.png"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 REMOTE_RAW_BASE = os.environ.get(
@@ -683,7 +683,7 @@ INDEX_HTML = r"""<!doctype html>
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand-logo">
-        <img src="/iatagam_site_logo_cor.png?v=1" alt="IATAGAM">
+        <img src="/logo_iatagam_word.svg?v=3" alt="IATAGAM">
       </div>
       <div class="meta">
         <div class="view-tabs" aria-label="Telas do acompanhamento">
@@ -2261,21 +2261,29 @@ def read_remote_payload(filename, *, weekly_goals=False):
 class DashboardHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
+
         if parsed.path == "/":
             self.send_text(INDEX_HTML, "text/html; charset=utf-8")
             return
+
         if parsed.path in ("/logo_iatagam.svg", "/logo_iatagam_word.svg"):
             if not LOGO_PATH.exists():
-                self.send_text("Logo nao encontrada", "text/plain; charset=utf-8", status=404)
+                self.send_text(
+                    "Logo nao encontrada",
+                    "text/plain; charset=utf-8",
+                    status=404,
+                )
                 return
+
             payload = LOGO_PATH.read_bytes()
             self.send_response(200)
-            self.send_header("Content-Type", "image/svg+xml; charset=utf-8")
+            self.send_header("Content-Type", "image/png")
             self.send_header("Cache-Control", "no-store")
             self.send_header("Content-Length", str(len(payload)))
             self.end_headers()
             self.wfile.write(payload)
             return
+
         if parsed.path == "/api/sql-status":
             status = sensum_sql.status()
             payload = json.dumps(status, ensure_ascii=False).encode("utf-8")
@@ -2286,6 +2294,7 @@ class DashboardHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(payload)
             return
+
         if parsed.path == "/api/data":
             try:
                 data = read_dashboard_data()
