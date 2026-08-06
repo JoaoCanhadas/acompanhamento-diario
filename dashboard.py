@@ -837,11 +837,15 @@ INDEX_HTML = r"""<!doctype html>
     };
 
     async function loadData() {
-      const requestId = ++loadRequestId;
-      const viewForRequest = activeView;
-      byId("error").innerHTML = "";
-      renderLoading(viewForRequest);
-      try {
+  const requestId = ++loadRequestId;
+  const viewForRequest = activeView;
+  byId("error").innerHTML = "";
+
+  if (!state.rows.length) {
+    renderLoading(viewForRequest);
+  }
+
+  try {
         const config = views[viewForRequest];
         const response = await fetch(config.endpoint + "?ts=" + Date.now());
         if (!response.ok) throw new Error(await response.text());
