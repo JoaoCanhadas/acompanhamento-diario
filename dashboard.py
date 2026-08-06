@@ -1093,7 +1093,7 @@ function changeToNextView() {
 
 function startAutoRotate() {
   if (autoRotateTimer) clearInterval(autoRotateTimer);
-  autoRotateTimer = setInterval(changeToNextView, 60000);
+  autoRotateTimer = setInterval(changeToNextView, 120000);
 }
 
 loadData();
