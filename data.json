@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "06/08/2026 10:29",
+  "lastModified": "06/08/2026 10:30",
   "summary": {
     "commitment": 120660.0,
-    "reached": 23568.39,
-    "missing": 97091.61,
-    "percent": 19.5,
+    "reached": 25999.07,
+    "missing": 94660.93,
+    "percent": 21.5,
     "weekGoal": 692023.81,
-    "weekRevenue": 475320.44,
-    "weekMissing": 216703.37,
-    "weekPercent": 68.7,
+    "weekRevenue": 477751.12,
+    "weekMissing": 214272.69,
+    "weekPercent": 69.0,
     "positiveCount": 0,
     "pendingCount": 18
   },
@@ -40,11 +40,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 11990.0,
-      "reached": 0.0,
-      "missing": 11990.0,
+      "reached": 1405.2,
+      "missing": 10584.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 11.7,
       "status": "pending"
     },
     {
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 8030.0,
-      "reached": 1099.25,
-      "missing": 6930.75,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 13.7,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 15270.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 58.1,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 8030.0,
+      "reached": 1796.85,
+      "missing": 6233.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 22.4,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 2610.0,
-      "reached": 365.2,
-      "missing": 2244.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 14.0,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 3520.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 43.5,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 2610.0,
+      "reached": 693.08,
+      "missing": 1916.92,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 26.6,
       "status": "pending"
     },
     {
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 475320.44,
-      "missing": 216703.37,
-      "percent": 68.7
+      "reached": 477751.12,
+      "missing": 214272.69,
+      "percent": 69.0
     },
     {
       "name": "Semana 2",
