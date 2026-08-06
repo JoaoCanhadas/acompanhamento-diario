@@ -1,14 +1,14 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "06/08/2026 15:04",
+  "lastModified": "06/08/2026 15:05",
   "summary": {
     "commitment": 120660.0,
-    "reached": 98328.26,
-    "missing": 22331.74,
+    "reached": 98378.26,
+    "missing": 22281.74,
     "percent": 81.5,
     "weekGoal": 692023.81,
-    "weekRevenue": 550034.11,
-    "weekMissing": 141989.7,
+    "weekRevenue": 550084.11,
+    "weekMissing": 141939.7,
     "weekPercent": 79.5,
     "positiveCount": 6,
     "pendingCount": 12
@@ -73,11 +73,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 8030.0,
-      "reached": 5958.45,
-      "missing": 2071.55,
+      "reached": 6008.45,
+      "missing": 2021.55,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.2,
+      "percent": 74.8,
       "status": "pending"
     },
     {
@@ -218,8 +218,8 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 550034.11,
-      "missing": 141989.7,
+      "reached": 550084.11,
+      "missing": 141939.7,
       "percent": 79.5
     },
     {
