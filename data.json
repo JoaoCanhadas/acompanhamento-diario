@@ -1,25 +1,25 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "06/08/2026 11:57",
+  "lastModified": "06/08/2026 11:58",
   "summary": {
     "commitment": 120660.0,
-    "reached": 60980.65,
-    "missing": 59679.35,
-    "percent": 50.5,
+    "reached": 62472.36,
+    "missing": 58187.64,
+    "percent": 51.8,
     "weekGoal": 692023.81,
-    "weekRevenue": 512732.71,
-    "weekMissing": 179291.1,
-    "weekPercent": 74.1,
-    "positiveCount": 0,
-    "pendingCount": 18
+    "weekRevenue": 514224.41,
+    "weekMissing": 177799.4,
+    "weekPercent": 74.3,
+    "positiveCount": 1,
+    "pendingCount": 17
   },
   "rows": [
     {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 16700.0,
-      "reached": 5984.55,
-      "missing": 10715.45,
+      "reached": 5984.56,
+      "missing": 10715.44,
       "average": 0.0,
       "difference": 0.0,
       "percent": 35.8,
@@ -29,11 +29,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15540.0,
-      "reached": 5408.04,
-      "missing": 10131.96,
+      "reached": 6150.84,
+      "missing": 9389.16,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 34.8,
+      "percent": 39.6,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 5650.0,
-      "reached": 1902.83,
-      "missing": 3747.17,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 33.7,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 4780.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 78.9,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 5650.0,
+      "reached": 2482.83,
+      "missing": 3167.17,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 43.9,
       "status": "pending"
     },
     {
@@ -205,12 +205,12 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 2510.0,
-      "reached": 2438.05,
-      "missing": 71.95,
+      "reached": 2606.95,
+      "missing": -96.95,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 97.1,
-      "status": "pending"
+      "percent": 103.9,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 512732.71,
-      "missing": 179291.1,
-      "percent": 74.1
+      "reached": 514224.41,
+      "missing": 177799.4,
+      "percent": 74.3
     },
     {
       "name": "Semana 2",
