@@ -690,7 +690,7 @@ INDEX_HTML = r"""<!doctype html>
           <button class="view-tab active" data-view="sales" type="button">Faturamento</button>
           <button class="view-tab" data-view="general" type="button">Geral</button>
           <button class="view-tab" data-view="keys" type="button">Keys</button>
-          <button class="view-tab" data-view="milho" type="button">Postivação</button>
+          <button class="view-tab" data-view="milho" type="button">Positivação</button>
         </div>
         <span class="pill" id="workbook">Carregando...</span>
         <span class="pill" id="updated"></span>
