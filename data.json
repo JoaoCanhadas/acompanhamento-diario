@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "06/08/2026 11:03",
+  "lastModified": "06/08/2026 11:04",
   "summary": {
     "commitment": 120660.0,
-    "reached": 35937.06,
-    "missing": 84722.94,
-    "percent": 29.8,
+    "reached": 39724.11,
+    "missing": 80935.89,
+    "percent": 32.9,
     "weekGoal": 692023.81,
-    "weekRevenue": 487689.11,
-    "weekMissing": 204334.7,
-    "weekPercent": 70.5,
+    "weekRevenue": 491476.16,
+    "weekMissing": 200547.65,
+    "weekPercent": 71.0,
     "positiveCount": 0,
     "pendingCount": 18
   },
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 11990.0,
-      "reached": 1644.8,
-      "missing": 10345.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 13.7,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15540.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 34.8,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 11990.0,
+      "reached": 3946.85,
+      "missing": 8043.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 32.9,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 4200.0,
-      "reached": 831.4,
-      "missing": 3368.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 19.8,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 3030.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 43.5,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 4200.0,
+      "reached": 2316.4,
+      "missing": 1883.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.2,
       "status": "pending"
     },
     {
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 487689.11,
-      "missing": 204334.7,
-      "percent": 70.5
+      "reached": 491476.16,
+      "missing": 200547.65,
+      "percent": 71.0
     },
     {
       "name": "Semana 2",
