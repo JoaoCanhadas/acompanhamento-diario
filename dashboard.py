@@ -969,7 +969,7 @@ INDEX_HTML = r"""<!doctype html>
       if (!enabled || window.matchMedia("(max-width: 640px)").matches) return;
 
       let lastTime = null;
-      const speed = 28;
+      const speed = 15;
       let offset = 0;
       const originalRows = Array.from(tableBody.querySelectorAll("tr:not(.loop-copy)"));
       const loopHeight = originalRows.reduce(
