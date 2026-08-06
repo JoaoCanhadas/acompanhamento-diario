@@ -778,7 +778,7 @@ INDEX_HTML = r"""<!doctype html>
     const views = {
       sales: {
         endpoint: "/api/data",
-        title: "Performance por vendedor",
+        title: "Performance Varejo por vendedor",
         commitmentLabel: "Compromisso",
         pendingText: "vendedores pendentes",
         positiveText: "acima da meta",
@@ -793,7 +793,7 @@ INDEX_HTML = r"""<!doctype html>
       },
       general: {
         endpoint: "/api/geral",
-        title: "Performance Geral",
+        title: "Performance Geral por vendedor",
         commitmentLabel: "Meta mes",
         pendingText: "vendedores pendentes",
         positiveText: "acima da meta",
@@ -807,7 +807,7 @@ INDEX_HTML = r"""<!doctype html>
       },
       milho: {
         endpoint: "/api/positivacao-milho",
-        title: "Postivação por vendedor",
+        title: "Performance Positivação por vendedor",
         commitmentLabel: "Meta mes",
         pendingText: "vendedores pendentes",
         positiveText: "bateram a meta",
@@ -821,7 +821,7 @@ INDEX_HTML = r"""<!doctype html>
       },
       keys: {
         endpoint: "/api/keys",
-        title: "Keys por vendedor",
+        title: "Performance Keys por vendedor",
         commitmentLabel: "Meta semanal",
         pendingText: "vendedores pendentes",
         positiveText: "superaram a meta",
