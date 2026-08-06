@@ -1,14 +1,14 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "06/08/2026 12:21",
+  "lastModified": "06/08/2026 12:22",
   "summary": {
     "commitment": 120660.0,
-    "reached": 63855.31,
-    "missing": 56804.69,
-    "percent": 52.9,
+    "reached": 63899.71,
+    "missing": 56760.29,
+    "percent": 53.0,
     "weekGoal": 692023.81,
-    "weekRevenue": 515130.86,
-    "weekMissing": 176892.95,
+    "weekRevenue": 515175.26,
+    "weekMissing": 176848.55,
     "weekPercent": 74.4,
     "positiveCount": 1,
     "pendingCount": 17
@@ -106,11 +106,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 5650.0,
-      "reached": 2582.28,
-      "missing": 3067.72,
+      "reached": 2596.78,
+      "missing": 3053.22,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 45.7,
+      "percent": 46.0,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2510.0,
-      "reached": 1763.82,
-      "missing": 746.18,
+      "reached": 1793.72,
+      "missing": 716.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 70.3,
+      "percent": 71.5,
       "status": "pending"
     },
     {
@@ -218,8 +218,8 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 515130.86,
-      "missing": 176892.95,
+      "reached": 515175.26,
+      "missing": 176848.55,
       "percent": 74.4
     },
     {
