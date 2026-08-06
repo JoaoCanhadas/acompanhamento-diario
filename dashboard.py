@@ -725,7 +725,7 @@ INDEX_HTML = r"""<!doctype html>
     <section class="layout">
       <article class="panel">
         <div class="panel-header">
-          <h2 id="tableTitle">Faturamento Varejo por vendedor</h2>
+          <h2 id="tableTitle">Performance Varejo</h2>
           <div class="controls">
             <input id="search" type="search" placeholder="Buscar vendedor">
             <select id="status">
@@ -793,7 +793,7 @@ INDEX_HTML = r"""<!doctype html>
       },
       general: {
         endpoint: "/api/geral",
-        title: "Faturamento Geral por vendedor",
+        title: "Performance Geral",
         commitmentLabel: "Meta mes",
         pendingText: "vendedores pendentes",
         positiveText: "acima da meta",
