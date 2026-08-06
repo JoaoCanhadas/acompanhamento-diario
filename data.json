@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "06/08/2026 10:45",
+  "lastModified": "06/08/2026 10:46",
   "summary": {
     "commitment": 120660.0,
-    "reached": 27245.0,
-    "missing": 93415.0,
-    "percent": 22.6,
+    "reached": 28855.36,
+    "missing": 91804.64,
+    "percent": 23.9,
     "weekGoal": 692023.81,
-    "weekRevenue": 478997.05,
-    "weekMissing": 213026.76,
-    "weekPercent": 69.2,
+    "weekRevenue": 480607.41,
+    "weekMissing": 211416.4,
+    "weekPercent": 69.4,
     "positiveCount": 0,
     "pendingCount": 18
   },
@@ -29,11 +29,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15540.0,
-      "reached": 1413.44,
-      "missing": 14126.56,
+      "reached": 2439.04,
+      "missing": 13100.96,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 9.1,
+      "percent": 15.7,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 2460.0,
-      "reached": 193.78,
-      "missing": 2266.22,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 7.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 3520.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 31.5,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 2460.0,
+      "reached": 778.54,
+      "missing": 1681.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.6,
       "status": "pending"
     },
     {
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 478997.05,
-      "missing": 213026.76,
-      "percent": 69.2
+      "reached": 480607.41,
+      "missing": 211416.4,
+      "percent": 69.4
     },
     {
       "name": "Semana 2",
