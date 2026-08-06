@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "06/08/2026 14:02",
+  "lastModified": "06/08/2026 14:03",
   "summary": {
     "commitment": 120660.0,
-    "reached": 95554.53,
-    "missing": 25105.47,
-    "percent": 79.2,
+    "reached": 97815.93,
+    "missing": 22844.07,
+    "percent": 81.1,
     "weekGoal": 692023.81,
-    "weekRevenue": 547230.09,
-    "weekMissing": 144793.72,
-    "weekPercent": 79.1,
-    "positiveCount": 5,
-    "pendingCount": 13
+    "weekRevenue": 549491.49,
+    "weekMissing": 142532.32,
+    "weekPercent": 79.4,
+    "positiveCount": 6,
+    "pendingCount": 12
   },
   "rows": [
     {
@@ -78,17 +78,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 74.2,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 15540.0,
-      "reached": 13616.92,
-      "missing": 1923.08,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 87.6,
       "status": "pending"
     },
     {
@@ -180,6 +169,17 @@
       "status": "ok"
     },
     {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 15540.0,
+      "reached": 15878.32,
+      "missing": -338.32,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 102.2,
+      "status": "ok"
+    },
+    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 3520.0,
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 547230.09,
-      "missing": 144793.72,
-      "percent": 79.1
+      "reached": 549491.49,
+      "missing": 142532.32,
+      "percent": 79.4
     },
     {
       "name": "Semana 2",
