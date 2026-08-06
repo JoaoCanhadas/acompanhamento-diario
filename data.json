@@ -1,14 +1,14 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "06/08/2026 10:05",
+  "lastModified": "06/08/2026 10:07",
   "summary": {
     "commitment": 120660.0,
-    "reached": 19331.28,
-    "missing": 101328.72,
-    "percent": 16.0,
+    "reached": 19729.02,
+    "missing": 100930.98,
+    "percent": 16.4,
     "weekGoal": 692023.81,
-    "weekRevenue": 471083.33,
-    "weekMissing": 220940.48,
+    "weekRevenue": 471481.07,
+    "weekMissing": 220542.74,
     "weekPercent": 68.1,
     "positiveCount": 0,
     "pendingCount": 18
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 2460.0,
-      "reached": 0.0,
-      "missing": 2460.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 2510.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 4.8,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 2460.0,
+      "reached": 193.78,
+      "missing": 2266.22,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 7.9,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2510.0,
-      "reached": 1547.21,
-      "missing": 962.79,
+      "reached": 1751.17,
+      "missing": 758.83,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 61.6,
+      "percent": 69.8,
       "status": "pending"
     }
   ],
@@ -218,8 +218,8 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 471083.33,
-      "missing": 220940.48,
+      "reached": 471481.07,
+      "missing": 220542.74,
       "percent": 68.1
     },
     {
