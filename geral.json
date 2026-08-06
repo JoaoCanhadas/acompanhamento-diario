@@ -1,14 +1,14 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "06/08/2026 15:10",
+  "lastModified": "06/08/2026 15:11",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1070938.66,
-    "missing": 4713561.34,
+    "reached": 1071223.31,
+    "missing": 4713276.69,
     "percent": 18.5,
     "weekGoal": 1377262,
-    "weekRevenue": 1070938.66,
-    "weekMissing": 306323.34,
+    "weekRevenue": 1071223.3,
+    "weekMissing": 306038.7,
     "weekPercent": 77.8,
     "positiveCount": 2,
     "pendingCount": 24
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 323500.0,
-      "reached": 68991.67,
-      "missing": 254508.33,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 21.3,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 330000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 23.0,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 323500.0,
+      "reached": 69254.37,
+      "missing": 254245.63,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 21.4,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 20298.52,
-      "missing": 101701.48,
+      "reached": 20320.47,
+      "missing": 101679.53,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.6,
+      "percent": 16.7,
       "status": "pending"
     },
     {
@@ -306,8 +306,8 @@
     {
       "name": "Semana 1",
       "goal": 1377262,
-      "reached": 1070938.66,
-      "missing": 306323.34,
+      "reached": 1071223.3,
+      "missing": 306038.7,
       "percent": 77.8
     },
     {
