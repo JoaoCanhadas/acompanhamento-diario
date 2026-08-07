@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/08/2026 08:53",
+  "lastModified": "07/08/2026 08:54",
   "summary": {
     "commitment": 120660.0,
-    "reached": 9512.2,
-    "missing": 111147.8,
-    "percent": 7.9,
+    "reached": 10312.5,
+    "missing": 110347.5,
+    "percent": 8.5,
     "weekGoal": 692023.81,
-    "weekRevenue": 560190.71,
-    "weekMissing": 131833.1,
-    "weekPercent": 80.9,
+    "weekRevenue": 560991.01,
+    "weekMissing": 131032.8,
+    "weekPercent": 81.1,
     "positiveCount": 0,
     "pendingCount": 18
   },
@@ -40,11 +40,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 15270.0,
-      "reached": 2554.8,
-      "missing": 12715.2,
+      "reached": 3083.2,
+      "missing": 12186.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.7,
+      "percent": 20.2,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 3520.0,
-      "reached": 0.0,
-      "missing": 3520.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 4200.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 19.6,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 3520.0,
+      "reached": 271.9,
+      "missing": 3248.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 7.7,
       "status": "pending"
     },
     {
@@ -218,9 +218,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 560190.71,
-      "missing": 131833.1,
-      "percent": 80.9
+      "reached": 560991.01,
+      "missing": 131032.8,
+      "percent": 81.1
     },
     {
       "name": "Semana 2",
