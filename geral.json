@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "07/08/2026 10:41",
+  "lastModified": "07/08/2026 10:42",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1122320.32,
-    "missing": 4662179.68,
-    "percent": 19.4,
+    "reached": 1126127.62,
+    "missing": 4658372.38,
+    "percent": 19.5,
     "weekGoal": 1377262,
-    "weekRevenue": 1122320.31,
-    "weekMissing": 254941.69,
-    "weekPercent": 81.5,
+    "weekRevenue": 1126127.61,
+    "weekMissing": 251134.39,
+    "weekPercent": 81.8,
     "positiveCount": 2,
     "pendingCount": 24
   },
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 323500.0,
-      "reached": 71257.25,
-      "missing": 252242.75,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 22.0,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 330000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 24.1,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 323500.0,
+      "reached": 74911.65,
+      "missing": 248588.35,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 23.2,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
-      "reached": 33705.97,
-      "missing": 133294.03,
+      "reached": 33858.87,
+      "missing": 133141.13,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.2,
+      "percent": 20.3,
       "status": "pending"
     },
     {
@@ -306,9 +306,9 @@
     {
       "name": "Semana 1",
       "goal": 1377262,
-      "reached": 1122320.31,
-      "missing": 254941.69,
-      "percent": 81.5
+      "reached": 1126127.61,
+      "missing": 251134.39,
+      "percent": 81.8
     },
     {
       "name": "Semana 2",
