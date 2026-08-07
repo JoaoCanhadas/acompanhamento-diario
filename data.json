@@ -1,14 +1,14 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/08/2026 14:21",
+  "lastModified": "07/08/2026 14:22",
   "summary": {
     "commitment": 120660.0,
-    "reached": 63166.45,
-    "missing": 57493.55,
-    "percent": 52.4,
+    "reached": 63286.35,
+    "missing": 57373.65,
+    "percent": 52.5,
     "weekGoal": 692023.81,
-    "weekRevenue": 613856.9,
-    "weekMissing": 78166.91,
+    "weekRevenue": 613976.8,
+    "weekMissing": 78047.01,
     "weekPercent": 88.7,
     "positiveCount": 4,
     "pendingCount": 15
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 2610.0,
-      "reached": 2621.3,
-      "missing": -11.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.4,
-      "status": "ok"
-    },
-    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 2610.0,
+      "reached": 2741.2,
+      "missing": -131.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 105.0,
       "status": "ok"
     },
     {
@@ -229,8 +229,8 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 613856.9,
-      "missing": 78166.91,
+      "reached": 613976.8,
+      "missing": 78047.01,
       "percent": 88.7
     },
     {
