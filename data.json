@@ -1,16 +1,16 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/08/2026 13:37",
+  "lastModified": "07/08/2026 13:38",
   "summary": {
     "commitment": 120660.0,
-    "reached": 56214.2,
-    "missing": 64445.8,
-    "percent": 46.6,
+    "reached": 56303.2,
+    "missing": 64356.8,
+    "percent": 46.7,
     "weekGoal": 692023.81,
-    "weekRevenue": 606904.65,
-    "weekMissing": 85119.16,
+    "weekRevenue": 606993.65,
+    "weekMissing": 85030.16,
     "weekPercent": 87.7,
-    "positiveCount": 2,
+    "positiveCount": 3,
     "pendingCount": 16
   },
   "rows": [
@@ -191,6 +191,17 @@
       "status": "pending"
     },
     {
+      "reference": "",
+      "seller": "IATAGAM JUNIOR",
+      "commitment": 0.0,
+      "reached": 89.0,
+      "missing": -89.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 2460.0,
@@ -218,8 +229,8 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 606904.65,
-      "missing": 85119.16,
+      "reached": 606993.65,
+      "missing": 85030.16,
       "percent": 87.7
     },
     {
