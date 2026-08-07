@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "07/08/2026 08:36",
+  "lastModified": "07/08/2026 08:38",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1101738.0,
-    "missing": 4682762.0,
-    "percent": 19.0,
+    "reached": 1103084.16,
+    "missing": 4681415.84,
+    "percent": 19.1,
     "weekGoal": 1377262,
-    "weekRevenue": 1101738.01,
-    "weekMissing": 275523.99,
-    "weekPercent": 80.0,
+    "weekRevenue": 1103084.16,
+    "weekMissing": 274177.84,
+    "weekPercent": 80.1,
     "positiveCount": 2,
     "pendingCount": 24
   },
@@ -73,8 +73,8 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 323500.0,
-      "reached": 69254.36,
-      "missing": 254245.64,
+      "reached": 69254.37,
+      "missing": 254245.63,
       "average": 0.0,
       "difference": 0.0,
       "percent": 21.4,
@@ -128,11 +128,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 200000.0,
-      "reached": 33754.74,
-      "missing": 166245.26,
+      "reached": 33949.74,
+      "missing": 166050.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.9,
+      "percent": 17.0,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 20580.27,
-      "missing": 101419.73,
+      "reached": 21197.37,
+      "missing": 100802.63,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.9,
+      "percent": 17.4,
       "status": "pending"
     },
     {
@@ -238,11 +238,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
-      "reached": 16511.06,
-      "missing": 61488.94,
+      "reached": 17045.11,
+      "missing": 60954.89,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.2,
+      "percent": 21.9,
       "status": "pending"
     },
     {
@@ -306,9 +306,9 @@
     {
       "name": "Semana 1",
       "goal": 1377262,
-      "reached": 1101738.01,
-      "missing": 275523.99,
-      "percent": 80.0
+      "reached": 1103084.16,
+      "missing": 274177.84,
+      "percent": 80.1
     },
     {
       "name": "Semana 2",
