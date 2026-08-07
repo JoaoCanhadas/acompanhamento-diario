@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "07/08/2026 14:05",
+  "lastModified": "07/08/2026 14:06",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1164846.64,
-    "missing": 4619653.36,
-    "percent": 20.1,
+    "reached": 1167425.49,
+    "missing": 4617074.51,
+    "percent": 20.2,
     "weekGoal": 1377262,
-    "weekRevenue": 1164846.63,
-    "weekMissing": 212415.37,
-    "weekPercent": 84.6,
+    "weekRevenue": 1167425.48,
+    "weekMissing": 209836.52,
+    "weekPercent": 84.8,
     "positiveCount": 2,
     "pendingCount": 24
   },
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 330000.0,
-      "reached": 83276.25,
-      "missing": 246723.75,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 25.2,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 323500.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 24.1,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 330000.0,
+      "reached": 85582.95,
+      "missing": 244417.05,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 25.9,
       "status": "pending"
     },
     {
@@ -260,11 +260,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 64500.0,
-      "reached": 13360.2,
-      "missing": 51139.8,
+      "reached": 13632.35,
+      "missing": 50867.65,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.7,
+      "percent": 21.1,
       "status": "pending"
     },
     {
@@ -306,9 +306,9 @@
     {
       "name": "Semana 1",
       "goal": 1377262,
-      "reached": 1164846.63,
-      "missing": 212415.37,
-      "percent": 84.6
+      "reached": 1167425.48,
+      "missing": 209836.52,
+      "percent": 84.8
     },
     {
       "name": "Semana 2",

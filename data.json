@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/08/2026 14:05",
+  "lastModified": "07/08/2026 14:06",
   "summary": {
     "commitment": 120660.0,
-    "reached": 60421.4,
-    "missing": 60238.6,
-    "percent": 50.1,
+    "reached": 63000.25,
+    "missing": 57659.75,
+    "percent": 52.2,
     "weekGoal": 692023.81,
-    "weekRevenue": 611111.85,
-    "weekMissing": 80911.96,
-    "weekPercent": 88.3,
-    "positiveCount": 3,
-    "pendingCount": 16
+    "weekRevenue": 613690.7,
+    "weekMissing": 78333.11,
+    "weekPercent": 88.7,
+    "positiveCount": 4,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 15270.0,
-      "reached": 7540.12,
-      "missing": 7729.88,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 49.4,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 8030.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 6.4,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 15270.0,
+      "reached": 9846.82,
+      "missing": 5423.18,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.5,
       "status": "pending"
     },
     {
@@ -183,12 +183,12 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 2610.0,
-      "reached": 2349.15,
-      "missing": 260.85,
+      "reached": 2621.3,
+      "missing": -11.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.0,
-      "status": "pending"
+      "percent": 100.4,
+      "status": "ok"
     },
     {
       "reference": "",
@@ -229,9 +229,9 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 611111.85,
-      "missing": 80911.96,
-      "percent": 88.3
+      "reached": 613690.7,
+      "missing": 78333.11,
+      "percent": 88.7
     },
     {
       "name": "Semana 2",
