@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "10/08/2026 11:10",
+  "lastModified": "10/08/2026 11:11",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1332173.15,
-    "missing": 4452326.85,
-    "percent": 23.0,
+    "reached": 1338273.8,
+    "missing": 4446226.2,
+    "percent": 23.1,
     "weekGoal": 1377262,
     "weekRevenue": 1205087.71,
     "weekMissing": 172174.29,
@@ -84,33 +84,33 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
-      "reached": 57335.9,
-      "missing": 207664.1,
+      "reached": 58771.0,
+      "missing": 206229.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.6,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 273000.0,
-      "reached": 67485.78,
-      "missing": 205514.22,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 24.7,
+      "percent": 22.2,
       "status": "pending"
     },
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 330000.0,
-      "reached": 124581.13,
-      "missing": 205418.87,
+      "reached": 124610.93,
+      "missing": 205389.07,
       "average": 0.0,
       "difference": 0.0,
       "percent": 37.8,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 273000.0,
+      "reached": 67780.68,
+      "missing": 205219.32,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 24.8,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 200000.0,
-      "reached": 38257.57,
-      "missing": 161742.43,
+      "reached": 42509.07,
+      "missing": 157490.93,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 19.1,
+      "percent": 21.3,
       "status": "pending"
     },
     {
@@ -260,11 +260,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 64500.0,
-      "reached": 15224.25,
-      "missing": 49275.75,
+      "reached": 15313.6,
+      "missing": 49186.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 23.6,
+      "percent": 23.7,
       "status": "pending"
     },
     {
@@ -313,9 +313,9 @@
     {
       "name": "Semana 2",
       "goal": 1377262,
-      "reached": 127085.44,
-      "missing": 1250176.56,
-      "percent": 9.2
+      "reached": 133186.09,
+      "missing": 1244075.91,
+      "percent": 9.7
     },
     {
       "name": "Semana 3",
