@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "10/08/2026 11:38",
+  "lastModified": "10/08/2026 11:40",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1362583.03,
-    "missing": 4421916.97,
+    "reached": 1366235.11,
+    "missing": 4418264.89,
     "percent": 23.6,
     "weekGoal": 1377262,
     "weekRevenue": 1205128.01,
@@ -84,33 +84,33 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 330000.0,
-      "reached": 125532.63,
-      "missing": 204467.37,
+      "reached": 125854.43,
+      "missing": 204145.57,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.0,
-      "status": "pending"
-    },
-    {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 265000.0,
-      "reached": 61486.64,
-      "missing": 203513.36,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 23.2,
+      "percent": 38.1,
       "status": "pending"
     },
     {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 71373.93,
-      "missing": 201626.07,
+      "reached": 71613.93,
+      "missing": 201386.07,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 26.1,
+      "percent": 26.2,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 265000.0,
+      "reached": 63849.24,
+      "missing": 201150.76,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 24.1,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 200000.0,
-      "reached": 45454.12,
-      "missing": 154545.88,
+      "reached": 45609.12,
+      "missing": 154390.88,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 22.7,
+      "percent": 22.8,
       "status": "pending"
     },
     {
@@ -227,11 +227,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
-      "reached": 17417.49,
-      "missing": 72582.51,
+      "reached": 17990.17,
+      "missing": 72009.83,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 19.4,
+      "percent": 20.0,
       "status": "pending"
     },
     {
@@ -313,9 +313,9 @@
     {
       "name": "Semana 2",
       "goal": 1377262,
-      "reached": 157455.02,
-      "missing": 1219806.98,
-      "percent": 11.4
+      "reached": 161107.1,
+      "missing": 1216154.9,
+      "percent": 11.7
     },
     {
       "name": "Semana 3",
