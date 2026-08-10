@@ -211,11 +211,10 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .cards {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 16px;
-      margin-bottom: 18px;
-    }
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
 
     .card, .panel {
       border: 1px solid var(--line);
@@ -247,19 +246,37 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .value {
-      margin-top: 10px;
-      font-size: 34px;
-      line-height: 1.08;
-      font-weight: 900;
-      word-break: break-word;
-    }
+  margin-top: 10px;
+  font-size: 34px;
+  line-height: 1.08;
+  font-weight: 900;
+  word-break: break-word;
+}
 
-    .hint {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 14px;
-      font-weight: 700;
-    }
+/* VALOR DA PROJEÇÃO */
+.projection-value {
+  color: #FFC857;
+}
+
+/* LINHA DIVISÓRIA DO CARD PROJEÇÃO */
+.projection-divider {
+  height: 1px;
+  margin: 6px 0 6px;
+  background: rgba(148, 163, 184, 0.28);
+}
+
+/* DIFERENÇA PARA A META */
+.projection-difference {
+  margin-top: 4px;
+  font-weight: 900;
+}
+
+.hint {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+}
 
     .good { color: var(--good); }
     .bad { color: var(--bad); }
@@ -705,20 +722,41 @@ INDEX_HTML = r"""<!doctype html>
         <div class="label" id="commitmentLabel">Compromisso</div>
         <div class="value" id="commitment">R$ 0,00</div>
       </article>
+
       <article class="card">
         <div class="label" id="reachedLabel">Atingido</div>
         <div class="value good" id="reached">R$ 0,00</div>
         <div class="progress"><span id="totalProgress"></span></div>
       </article>
+
       <article class="card">
         <div class="label">Falta</div>
         <div class="value bad" id="missing">R$ 0,00</div>
         <div class="hint" id="pendingCount">0 vendedores pendentes</div>
       </article>
+
       <article class="card">
         <div class="label">Realizado</div>
         <div class="value accent" id="percent">0%</div>
         <div class="hint" id="positiveCount">0 acima da meta</div>
+      </article>
+
+      <article class="card projection-card" id="projectionCard">
+        <div class="label">Projeção Mês</div>
+
+        <div class="value projection-value" id="monthProjection">
+          R$ 0,00
+        </div>
+
+        <div class="projection-divider"></div>
+
+        <div class="hint" id="projectionDays">
+          0 de 0 dias úteis
+        </div>
+
+        <div class="projection-difference" id="projectionDifference">
+          R$ 0,00
+        </div>
       </article>
     </section>
 
@@ -757,40 +795,99 @@ INDEX_HTML = r"""<!doctype html>
   </main>
 
   <script>
-    const state = { rows: [], weeks: [], sortKey: "missing", sortDir: "desc" };
-    let activeView = "sales";
-    let loadRequestId = 0;
-    let sellerScrollFrame = null;
-    let weeklyScrollFrame = null;
-    const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
-    const numberFormatter = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 2 });
-    const byId = (id) => document.getElementById(id);
-    const formatMoney = (value) => brl.format(Number(value || 0));
-    const formatNumber = (value) => numberFormatter.format(Number(value || 0));
-    const formatBalance = (value, formatter) => {
-      const amount = Number(value || 0);
-      if (amount > 0) return formatter(-amount);
-      if (amount < 0) return `+${formatter(Math.abs(amount))}`;
-      return formatter(0);
-    };
-    const moneyClass = (value) => Number(value) <= 0 ? "good" : "bad";
-    const setText = (id, value) => { byId(id).textContent = value; };
-    const views = {
-      sales: {
-        endpoint: "/api/data",
-        title: "Performance Varejo por vendedor",
-        commitmentLabel: "Compromisso",
-        pendingText: "vendedores pendentes",
-        positiveText: "acima da meta",
-        format: formatMoney,
-        columns: [
-          { key: "seller", label: "Vendedor", value: (row) => row.seller },
-          { key: "commitment", label: "Compromisso", value: (row) => formatMoney(row.commitment) },
-          { key: "reached", label: "Atingido", value: (row) => formatMoney(row.reached) },
-          { key: "missing", label: "Falta", value: (row) => formatBalance(row.missing, formatMoney), className: (row) => `money ${moneyClass(row.missing)}` },
-          { key: "percent", label: "%", value: (row) => `${row.percent}%` },
-        ],
-      },
+  const state = { rows: [], weeks: [], sortKey: "missing", sortDir: "desc" };
+
+  let activeView = "sales";
+  let loadRequestId = 0;
+  let sellerScrollFrame = null;
+  let weeklyScrollFrame = null;
+
+  const brl = new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL"
+  });
+
+  const numberFormatter = new Intl.NumberFormat("pt-BR", {
+    maximumFractionDigits: 2
+  });
+
+  const byId = (id) => document.getElementById(id);
+
+  const formatMoney = (value) =>
+    brl.format(Number(value || 0));
+
+  const formatMoneyCompact = (value) => {
+    const number = Number(value || 0);
+    const absValue = Math.abs(number);
+
+    if (absValue >= 1000000) {
+      const compact = (number / 1000000).toLocaleString("pt-BR", {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      });
+
+      return `R$ ${compact} Mi`;
+    }
+
+    return formatMoney(number);
+  };
+
+  const formatNumber = (value) =>
+    numberFormatter.format(Number(value || 0));
+
+  const formatBalance = (value, formatter) => {
+    const amount = Number(value || 0);
+
+    if (amount > 0) return formatter(-amount);
+    if (amount < 0) return `+${formatter(Math.abs(amount))}`;
+
+    return formatter(0);
+  };
+
+  const moneyClass = (value) =>
+    Number(value) <= 0 ? "good" : "bad";
+
+  const setText = (id, value) => {
+    byId(id).textContent = value;
+  };
+
+  const views = {
+    sales: {
+      endpoint: "/api/data",
+      title: "Performance Varejo por vendedor",
+      commitmentLabel: "Compromisso",
+      pendingText: "vendedores pendentes",
+      positiveText: "acima da meta",
+      format: formatMoney,
+      columns: [
+        {
+          key: "seller",
+          label: "Vendedor",
+          value: (row) => row.seller
+        },
+        {
+          key: "commitment",
+          label: "Compromisso",
+          value: (row) => formatMoney(row.commitment)
+        },
+        {
+          key: "reached",
+          label: "Atingido",
+          value: (row) => formatMoney(row.reached)
+        },
+        {
+          key: "missing",
+          label: "Falta",
+          value: (row) => formatBalance(row.missing, formatMoney),
+          className: (row) => `money ${moneyClass(row.missing)}`
+        },
+        {
+          key: "percent",
+          label: "%",
+          value: (row) => `${row.percent}%`
+        },
+      ],
+    },
       general: {
         endpoint: "/api/geral",
         title: "Performance Geral por vendedor",
@@ -863,54 +960,304 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     function renderLoading(viewName) {
-      const config = views[viewName];
-      setText("workbook", `Carregando ${config.commitmentLabel.toLowerCase()}...`);
-      setText("updated", "");
-      setText("tableTitle", config.title);
-      setText("commitmentLabel", config.commitmentLabel);
-      setText("commitment", config.format(0));
-      setText("reached", config.format(0));
-      setText("missing", config.format(0));
-      byId("missing").className = "value";
-      setText("percent", "0%");
-      setText("pendingCount", "");
-      setText("positiveCount", "");
-      byId("totalProgress").style.width = "0%";
-      renderTableHead(config);
-      byId("tableBody").innerHTML = `<tr><td data-label="Carregando" colspan="${config.columns.length + 1}">Carregando...</td></tr>`;
-      byId("weekly").innerHTML = `<div class="week-card">Carregando...</div>`;
+  const config = views[viewName];
+
+  const projectionCard = byId("projectionCard");
+const cardsContainer = document.querySelector(".cards");
+
+if (viewName === "general") {
+  projectionCard.style.display = "";
+  cardsContainer.style.gridTemplateColumns =
+    "1.2fr 1.2fr 1.2fr 0.9fr 1.4fr";
+
+  const resultado = calcularProjecaoMes(summary.reached);
+
+  const diferenca =
+    resultado.projecao - Number(summary.commitment || 0);
+
+  setText(
+    "monthProjection",
+    formatMoneyCompact(resultado.projecao)
+  );
+
+  setText(
+    "projectionDays",
+    `${resultado.diasUteisDecorridos} de ${resultado.diasUteisMes} dias úteis`
+  );
+
+  if (diferenca >= 0) {
+    setText(
+      "projectionDifference",
+      `+${formatMoney(diferenca)} (acima da meta)`
+    );
+
+    byId("projectionDifference").className =
+      "projection-difference good";
+  } else {
+    setText(
+      "projectionDifference",
+      `-${formatMoney(Math.abs(diferenca))} (abaixo da meta)`
+    );
+
+    byId("projectionDifference").className =
+      "projection-difference bad";
+  }
+
+} else {
+  projectionCard.style.display = "none";
+  cardsContainer.style.gridTemplateColumns =
+    "repeat(4, minmax(0, 1fr))";
+}
+
+  setText(
+    "workbook",
+    `Carregando ${config.commitmentLabel.toLowerCase()}...`
+  );
+
+  setText("updated", "");
+  setText("tableTitle", config.title);
+  setText("commitmentLabel", config.commitmentLabel);
+  setText("commitment", config.format(0));
+  setText("reached", config.format(0));
+  setText("missing", config.format(0));
+
+  byId("missing").className = "value";
+
+  setText("percent", "0%");
+  setText("pendingCount", "");
+  setText("positiveCount", "");
+
+  byId("totalProgress").style.width = "0%";
+
+  renderTableHead(config);
+
+  byId("tableBody").innerHTML =
+    `<tr><td data-label="Carregando" colspan="${config.columns.length + 1}">Carregando...</td></tr>`;
+
+  byId("weekly").innerHTML =
+    `<div class="week-card">Carregando...</div>`;
+}
+
+function normalizeWeeks(data) {
+  if (Array.isArray(data.weeks) && data.weeks.length) return data.weeks;
+
+  const summary = data.summary || {};
+  const goal = Number(summary.weekGoal || 0);
+
+  return [1, 2, 3, 4].map((week) => ({
+    name: `Semana ${week}`,
+    goal,
+    reached: week === 1 ? Number(summary.weekRevenue || 0) : 0,
+    missing: week === 1 ? Number(summary.weekMissing || goal) : goal,
+    percent: week === 1 ? Number(summary.weekPercent || 0) : 0,
+  }));
+}
+
+const feriados = [
+  "2026-09-07",
+  "2026-10-12",
+  "2026-11-02",
+  "2026-11-20",
+  "2026-12-25"
+];
+
+function dataChave(data) {
+  const ano = data.getFullYear();
+  const mes = String(data.getMonth() + 1).padStart(2, "0");
+  const dia = String(data.getDate()).padStart(2, "0");
+
+  return `${ano}-${mes}-${dia}`;
+}
+
+function contarDiasUteis(inicio, fim) {
+  let quantidade = 0;
+  const data = new Date(inicio);
+
+  data.setHours(12, 0, 0, 0);
+
+  while (data <= fim) {
+    const diaSemana = data.getDay();
+    const fimDeSemana = diaSemana === 0 || diaSemana === 6;
+    const ehFeriado = feriados.includes(dataChave(data));
+
+    if (!fimDeSemana && !ehFeriado) {
+      quantidade++;
     }
 
-    function normalizeWeeks(data) {
-      if (Array.isArray(data.weeks) && data.weeks.length) return data.weeks;
-      const summary = data.summary || {};
-      const goal = Number(summary.weekGoal || 0);
-      return [1, 2, 3, 4].map((week) => ({
-        name: `Semana ${week}`,
-        goal,
-        reached: week === 1 ? Number(summary.weekRevenue || 0) : 0,
-        missing: week === 1 ? Number(summary.weekMissing || goal) : goal,
-        percent: week === 1 ? Number(summary.weekPercent || 0) : 0,
-      }));
+    data.setDate(data.getDate() + 1);
+  }
+
+  return quantidade;
+}
+
+function calcularProjecaoMes(atingido) {
+  const hoje = new Date();
+  hoje.setHours(12, 0, 0, 0);
+
+  const inicioMes = new Date(
+    hoje.getFullYear(),
+    hoje.getMonth(),
+    1,
+    12
+  );
+
+  const fimMes = new Date(
+    hoje.getFullYear(),
+    hoje.getMonth() + 1,
+    0,
+    12
+  );
+
+  const diasUteisDecorridos = contarDiasUteis(inicioMes, hoje);
+  const diasUteisMes = contarDiasUteis(inicioMes, fimMes);
+
+  const projecao = diasUteisDecorridos > 0
+    ? (Number(atingido || 0) / diasUteisDecorridos) * diasUteisMes
+    : 0;
+
+  return {
+    projecao,
+    diasUteisDecorridos,
+    diasUteisMes
+  };
+}
+
+function renderSummary(data, viewName = activeView) {
+
+  const summary = data.summary || {};
+
+  setText("workbook", data.workbook || "data.json");
+  setText("updated", "Atualizado em " + (data.lastModified || "-"));
+
+  const config = views[viewName];
+
+  setText("tableTitle", config.title);
+  setText("commitmentLabel", config.commitmentLabel);
+
+  const commitmentValue =
+    viewName === "keys" ? summary.weekGoal : summary.commitment;
+
+  if (viewName === "general") {
+
+  setText(
+    "commitment",
+    formatMoneyCompact(commitmentValue)
+  );
+
+  setText(
+    "reached",
+    formatMoneyCompact(summary.reached)
+  );
+
+  const missingValue = Number(summary.missing || 0);
+
+  if (missingValue > 0) {
+    setText(
+      "missing",
+      "-" + formatMoneyCompact(missingValue)
+    );
+  } else if (missingValue < 0) {
+    setText(
+      "missing",
+      "+" + formatMoneyCompact(Math.abs(missingValue))
+    );
+  } else {
+    setText(
+      "missing",
+      formatMoneyCompact(0)
+    );
+  }
+
+} else {
+
+  setText(
+    "commitment",
+    config.format(commitmentValue)
+  );
+
+  setText(
+    "reached",
+    config.format(summary.reached)
+  );
+
+  setText(
+    "missing",
+    formatBalance(summary.missing, config.format)
+  );
+}
+
+  byId("missing").className =
+    `value ${moneyClass(summary.missing)}`;
+
+  setText("percent", `${summary.percent || 0}%`);
+
+  setText(
+    "pendingCount",
+    `${summary.pendingCount || 0} ${config.pendingText}`
+  );
+
+  setText(
+    "positiveCount",
+    `${summary.positiveCount || 0} ${config.positiveText}`
+  );
+
+  byId("totalProgress").style.width =
+    `${Math.min(Number(summary.percent || 0), 100)}%`;
+
+  const projectionCard = byId("projectionCard");
+  const cardsContainer = document.querySelector(".cards");
+
+  if (viewName === "general") {
+
+    projectionCard.style.display = "";
+
+    cardsContainer.style.gridTemplateColumns =
+      "1.2fr 1.2fr 1.2fr 0.9fr 1.4fr";
+
+    const resultado = calcularProjecaoMes(summary.reached);
+
+    const diferenca =
+      resultado.projecao - Number(summary.commitment || 0);
+
+    setText(
+      "monthProjection",
+      formatMoneyCompact(resultado.projecao)
+    );
+
+    setText(
+      "projectionDays",
+      `${resultado.diasUteisDecorridos} de ${resultado.diasUteisMes} dias úteis`
+    );
+
+    if (diferenca >= 0) {
+
+      setText(
+        "projectionDifference",
+        `+${formatMoney(diferenca)} (acima da meta)`
+      );
+
+      byId("projectionDifference").className =
+        "projection-difference good";
+
+    } else {
+
+      setText(
+        "projectionDifference",
+        `-${formatMoney(Math.abs(diferenca))} (abaixo da meta)`
+      );
+
+      byId("projectionDifference").className =
+        "projection-difference bad";
     }
 
-    function renderSummary(data, viewName = activeView) {
-      const summary = data.summary || {};
-      setText("workbook", data.workbook || "data.json");
-      setText("updated", "Atualizado em " + (data.lastModified || "-"));
-      const config = views[viewName];
-      setText("tableTitle", config.title);
-      setText("commitmentLabel", config.commitmentLabel);
-      const commitmentValue = viewName === "keys" ? summary.weekGoal : summary.commitment;
-      setText("commitment", config.format(commitmentValue));
-      setText("reached", config.format(summary.reached));
-      setText("missing", formatBalance(summary.missing, config.format));
-      byId("missing").className = `value ${moneyClass(summary.missing)}`;
-      setText("percent", `${summary.percent || 0}%`);
-      setText("pendingCount", `${summary.pendingCount || 0} ${config.pendingText}`);
-      setText("positiveCount", `${summary.positiveCount || 0} ${config.positiveText}`);
-      byId("totalProgress").style.width = `${Math.min(Number(summary.percent || 0), 100)}%`;
-    }
+  } else {
+
+    projectionCard.style.display = "none";
+
+    cardsContainer.style.gridTemplateColumns =
+      "repeat(4, minmax(0, 1fr))";
+  }
+}
 
     function filteredRows() {
       const term = byId("search").value.trim().toLowerCase();
