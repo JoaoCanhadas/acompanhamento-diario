@@ -989,7 +989,7 @@ const cardsContainer = document.querySelector(".cards");
 if (viewName === "general") {
   projectionCard.style.display = "";
   cardsContainer.style.gridTemplateColumns =
-    "1.2fr 1.2fr 1.2fr 0.9fr 1.4fr";
+  "1.25fr 1.25fr 1.25fr 0.7fr 1.55fr";
 
   const resultado = calcularProjecaoMes(summary.reached);
 
@@ -1233,7 +1233,7 @@ function renderSummary(data, viewName = activeView) {
     projectionCard.style.display = "";
 
     cardsContainer.style.gridTemplateColumns =
-      "1.2fr 1.2fr 1.2fr 0.9fr 1.4fr";
+  "1.25fr 1.25fr 1.25fr 0.7fr 1.55fr";
 
     const resultado = calcularProjecaoMes(summary.reached);
 
