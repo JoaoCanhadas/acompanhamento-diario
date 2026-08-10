@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "10/08/2026 11:02",
+  "lastModified": "10/08/2026 11:03",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1321731.0,
-    "missing": 4462769.0,
-    "percent": 22.8,
+    "reached": 1328898.2,
+    "missing": 4455601.8,
+    "percent": 23.0,
     "weekGoal": 1377262,
     "weekRevenue": 1205087.71,
     "weekMissing": 172174.29,
@@ -40,11 +40,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 425000.0,
-      "reached": 74713.01,
-      "missing": 350286.99,
+      "reached": 80880.21,
+      "missing": 344119.79,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 17.6,
+      "percent": 19.0,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 330000.0,
-      "reached": 123581.13,
-      "missing": 206418.87,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 37.4,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 24.5,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 330000.0,
+      "reached": 124581.13,
+      "missing": 205418.87,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 37.8,
       "status": "pending"
     },
     {
@@ -313,9 +313,9 @@
     {
       "name": "Semana 2",
       "goal": 1377262,
-      "reached": 116643.29,
-      "missing": 1260618.71,
-      "percent": 8.5
+      "reached": 123810.49,
+      "missing": 1253451.51,
+      "percent": 9.0
     },
     {
       "name": "Semana 3",
