@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "10/08/2026 10:50",
+  "lastModified": "10/08/2026 10:51",
   "summary": {
     "commitment": 300050.0,
-    "reached": 91979.23,
-    "missing": 208070.77,
-    "percent": 30.7,
+    "reached": 99522.34,
+    "missing": 200527.66,
+    "percent": 33.2,
     "weekGoal": 692023.81,
     "weekRevenue": 615368.22,
     "weekMissing": 76655.59,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 28880.0,
-      "reached": 9081.26,
-      "missing": 19798.74,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 31.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 19860.0,
@@ -70,14 +59,14 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 16310.0,
-      "reached": 1511.0,
-      "missing": 14799.0,
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 28880.0,
+      "reached": 11060.26,
+      "missing": 17819.74,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 9.3,
+      "percent": 38.3,
       "status": "pending"
     },
     {
@@ -95,11 +84,22 @@
       "reference": "LESTE PENHA",
       "seller": "LESTE PENHA",
       "commitment": 18920.0,
-      "reached": 5322.8,
-      "missing": 13597.2,
+      "reached": 6802.2,
+      "missing": 12117.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 28.1,
+      "percent": 36.0,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 16310.0,
+      "reached": 4681.07,
+      "missing": 11628.93,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 28.7,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 10520.0,
-      "reached": 4354.8,
-      "missing": 6165.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 41.4,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 15180.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 60.3,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 10520.0,
+      "reached": 5269.44,
+      "missing": 5250.56,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.1,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 91979.23,
-      "missing": 600044.58,
-      "percent": 13.3
+      "reached": 99522.34,
+      "missing": 592501.47,
+      "percent": 14.4
     },
     {
       "name": "Semana 3",
