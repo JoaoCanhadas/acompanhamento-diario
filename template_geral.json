@@ -10,8 +10,8 @@
     "weekRevenue": 1205128.01,
     "weekMissing": 172133.89,
     "weekPercent": 87.5,
-    "positiveCount": 0,
-    "pendingCount": 24
+    "positiveCount": 1,
+    "pendingCount": 25
   },
   "rows": [
     {
@@ -277,6 +277,28 @@
       "difference": 0.0,
       "percent": 31.5,
       "status": "pending"
+    },
+    {
+      "reference": "ECOMMERCE",
+      "seller": "ECOMMERCE",
+      "commitment": 1000.0,
+      "reached": 644.28,
+      "missing": 355.72,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.4,
+      "status": "pending"
+    },
+    {
+      "reference": "IATAGAM JUNIOR",
+      "seller": "ECOMMERCE",
+      "commitment": 0.0,
+      "reached": 89.0,
+      "missing": -89.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
     }
   ],
   "history": [],
