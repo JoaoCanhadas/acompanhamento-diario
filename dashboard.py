@@ -2111,8 +2111,8 @@ def read_general_planilha1_data(excel_path, workbook):
         reference = normalize_text(sheet.cell(row_number, reference_col).value)
         seller = normalize_text(sheet.cell(row_number, seller_col).value)
 
-        if normalize_key(seller) in {"ECOMMERCE", "KEY PIRACICABA"}:
-            continue
+        if normalize_key(seller) == "KEY PIRACICABA":
+    	    continue
 
         if not reference and not seller:
             break
