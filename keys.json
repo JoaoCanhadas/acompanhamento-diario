@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "10/08/2026 11:37",
+  "lastModified": "10/08/2026 11:38",
   "summary": {
     "commitment": 42500.0,
-    "reached": 24430.0,
-    "missing": 18070.0,
-    "percent": 57.5,
+    "reached": 25261.6,
+    "missing": 17238.4,
+    "percent": 59.4,
     "weekGoal": 0,
     "weekRevenue": 0,
     "weekMissing": 0,
@@ -48,8 +48,8 @@
       "status": "ok"
     },
     {
-      "reference": "KEY CASA",
-      "seller": "KEY CASA",
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
       "commitment": 0.0,
       "reached": 0.0,
       "missing": 0.0,
@@ -59,11 +59,11 @@
       "status": "ok"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
+      "reference": "KEY CASA",
+      "seller": "KEY CASA",
       "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
+      "reached": 831.6,
+      "missing": -831.6,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
