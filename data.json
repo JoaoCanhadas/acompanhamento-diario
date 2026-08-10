@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "10/08/2026 10:53",
+  "lastModified": "10/08/2026 10:54",
   "summary": {
     "commitment": 300050.0,
-    "reached": 99522.34,
-    "missing": 200527.66,
-    "percent": 33.2,
+    "reached": 99912.94,
+    "missing": 200137.06,
+    "percent": 33.3,
     "weekGoal": 692023.81,
     "weekRevenue": 615368.22,
     "weekMissing": 76655.59,
@@ -95,11 +95,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 16310.0,
-      "reached": 4681.07,
-      "missing": 11628.93,
+      "reached": 4846.67,
+      "missing": 11463.33,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 28.7,
+      "percent": 29.7,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 10520.0,
-      "reached": 5269.44,
-      "missing": 5250.56,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.1,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 9940.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 49.3,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 10520.0,
+      "reached": 5494.44,
+      "missing": 5025.56,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.2,
       "status": "pending"
     },
     {
@@ -225,8 +225,8 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 99522.34,
-      "missing": 592501.47,
+      "reached": 99912.94,
+      "missing": 592110.87,
       "percent": 14.4
     },
     {
