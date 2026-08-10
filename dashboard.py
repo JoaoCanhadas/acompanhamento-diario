@@ -349,11 +349,11 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .table-wrap {
-      height: 560px;
-      max-height: 560px;
-      overflow: hidden;
-      position: relative;
-    }
+  height: 560px;
+  max-height: 560px;
+  overflow: hidden;
+  position: relative;
+}
 
     table {
       width: 100%;
@@ -384,10 +384,16 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     thead {
-      display: table;
-      width: 100%;
-      table-layout: fixed;
-    }
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+   thead th {
+  position: relative;
+  z-index: 20;
+  background: #0c111d;
+}
 
     tbody {
       display: block;
@@ -578,12 +584,12 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       .panel-header {
-        padding: 14px;
+        padding: 8px 12px;
         align-items: flex-start;
       }
 
       h2 {
-        font-size: 18px;
+        font-size: 16px;
       }
 
       .controls {
@@ -603,10 +609,11 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       .table-wrap {
-        height: auto;
-        max-height: none;
-        overflow: visible;
-      }
+  height: 520px;
+  max-height: 520px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
       thead {
         display: none;
@@ -706,7 +713,7 @@ INDEX_HTML = r"""<!doctype html>
         <div class="view-tabs" aria-label="Telas do acompanhamento">
           <button class="view-tab active" data-view="sales" type="button">Varejo</button>
           <button class="view-tab" data-view="general" type="button">Geral</button>
-          <button class="view-tab" data-view="keys" type="button">Keys</button>
+          <button class="view-tab" data-view="keys" type="button">Key</button>
           <button class="view-tab" data-view="milho" type="button">Positivação</button>
         </div>
         <span class="pill" id="workbook">Carregando...</span>
@@ -801,48 +808,46 @@ INDEX_HTML = r"""<!doctype html>
   let loadRequestId = 0;
   let sellerScrollFrame = null;
   let weeklyScrollFrame = null;
+  let sellerScrollOffset = 0;
 
   const brl = new Intl.NumberFormat("pt-BR", {
-    style: "currency",
-    currency: "BRL"
-  });
+  style: "currency",
+  currency: "BRL",
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 0
+});
 
-  const numberFormatter = new Intl.NumberFormat("pt-BR", {
-    maximumFractionDigits: 2
-  });
+const numberFormatter = new Intl.NumberFormat("pt-BR", {
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 0
+});
 
-  const byId = (id) => document.getElementById(id);
+const byId = (id) => document.getElementById(id);
 
-  const formatMoney = (value) =>
-    brl.format(Number(value || 0));
+const formatMoney = (value) => {
+  const number = Number(value || 0);
+  return brl.format(Math.trunc(number));
+};
 
-  const formatMoneyCompact = (value) => {
-    const number = Number(value || 0);
-    const absValue = Math.abs(number);
+const formatMoneyCompact = (value) => {
+  const number = Math.abs(Number(value || 0));
 
-    if (absValue >= 1000000) {
-      const compact = (number / 1000000).toLocaleString("pt-BR", {
-        minimumFractionDigits: 2,
-        maximumFractionDigits: 2
-      });
+  return `R$ ${Math.trunc(number).toLocaleString("pt-BR")}`;
+};
 
-      return `R$ ${compact} Mi`;
-    }
+const formatNumber = (value) => {
+  const number = Number(value || 0);
+  return numberFormatter.format(Math.trunc(number));
+};
 
-    return formatMoney(number);
-  };
+const formatBalance = (value, formatter) => {
+  const amount = Number(value || 0);
 
-  const formatNumber = (value) =>
-    numberFormatter.format(Number(value || 0));
+  if (amount > 0) return formatter(-amount);
+  if (amount < 0) return `+${formatter(Math.abs(amount))}`;
 
-  const formatBalance = (value, formatter) => {
-    const amount = Number(value || 0);
-
-    if (amount > 0) return formatter(-amount);
-    if (amount < 0) return `+${formatter(Math.abs(amount))}`;
-
-    return formatter(0);
-  };
+  return formatter(0);
+};
 
   const moneyClass = (value) =>
     Number(value) <= 0 ? "good" : "bad";
@@ -896,26 +901,42 @@ INDEX_HTML = r"""<!doctype html>
         positiveText: "acima da meta",
         format: formatMoney,
         columns: [
-          { key: "seller", label: "Vendedor", value: (row) => row.seller },
-          { key: "commitment", label: "Meta", value: (row) => formatMoney(row.commitment) },
-          { key: "reached", label: "Atingido", value: (row) => formatMoney(row.reached) },
-          { key: "missing", label: "Falta", value: (row) => formatMoney(row.missing), className: (row) => `money ${moneyClass(row.missing)}` },
-        ],
+  	{ key: "seller", label: "Vendedor", value: (row) => row.seller },
+  	{ key: "commitment", label: "Meta", value: (row) => formatMoney(row.commitment) },
+  	{ key: "reached", label: "Atingido", value: (row) => formatMoney(row.reached) },
+  	{ key: "missing", label: "Falta", value: (row) => formatMoney(row.missing), className: (row) => `money ${moneyClass(row.missing)}` },
+  	{ key: "percent", label: "%", value: (row) => `${Number(row.percent || 0).toFixed(1)}%` },
+      ],
       },
       milho: {
-        endpoint: "/api/positivacao-milho",
-        title: "Performance Positivação por vendedor",
-        commitmentLabel: "Meta mes",
-        pendingText: "vendedores pendentes",
-        positiveText: "bateram a meta",
-        format: formatNumber,
-        columns: [
-          { key: "seller", label: "Vendedor", value: (row) => row.seller },
-          { key: "commitment", label: "Meta", value: (row) => formatNumber(row.commitment) },
-          { key: "reached", label: "Atingido", value: (row) => formatNumber(row.reached) },
-          { key: "missing", label: "Falta", value: (row) => formatBalance(row.missing, formatNumber), className: (row) => `money ${moneyClass(row.missing)}` },
-        ],
-      },
+
+  endpoint: "/api/positivacao-milho",
+
+  title: "Performance Positivação por vendedor",
+
+  commitmentLabel: "Meta mes",
+
+  pendingText: "vendedores pendentes",
+
+  positiveText: "bateram a meta",
+
+  format: formatNumber,
+
+  columns: [
+
+    { key: "seller", label: "Vendedor", value: (row) => row.seller },
+
+    { key: "commitment", label: "Meta", value: (row) => formatNumber(row.commitment) },
+
+    { key: "reached", label: "Atingido", value: (row) => formatNumber(row.reached) },
+
+    { key: "missing", label: "Falta", value: (row) => formatBalance(row.missing, formatNumber), className: (row) => `money ${moneyClass(row.missing)}` },
+
+    { key: "percent", label: "%", value: (row) => `${Number(row.percent || 0).toFixed(1)}%` },
+
+  ],
+
+},
       keys: {
         endpoint: "/api/keys",
         title: "Performance Keys por vendedor",
@@ -1260,21 +1281,89 @@ function renderSummary(data, viewName = activeView) {
 }
 
     function filteredRows() {
-      const term = byId("search").value.trim().toLowerCase();
-      const status = byId("status").value;
-      return state.rows
-        .filter((row) => !term || row.seller.toLowerCase().includes(term))
-        .filter((row) => status === "all" || row.status === status)
-        .sort((a, b) => {
-          const av = a[state.sortKey];
-          const bv = b[state.sortKey];
-          const result = typeof av === "string" ? av.localeCompare(bv) : Number(av) - Number(bv);
-          return state.sortDir === "asc" ? result : -result;
-        });
+  const term = byId("search").value.trim().toLowerCase();
+  const status = byId("status").value;
+
+  const rows = state.rows
+  .filter((row) =>
+    !term ||
+    String(row.seller || "").toLowerCase().includes(term)
+  )
+  .filter((row) =>
+    status === "all" || row.status === status
+  )
+  .filter((row) => {
+    const seller = String(row.seller || "")
+      .trim()
+      .toUpperCase();
+
+    if (activeView === "general" && seller === "IATAGAM JUNIOR") {
+      return false;
     }
 
-    function renderTableHead(config) {
-      byId("tableHead").innerHTML = `
+    return true;
+  });
+
+  // REGRA ESPECIAL SOMENTE PARA O PAINEL GERAL
+  if (activeView === "general") {
+
+    // Converte o percentual para número
+    const getPercent = (row) => {
+      const value = String(row.percent ?? 0)
+        .replace("%", "")
+        .replace(",", ".");
+
+      return Number(value) || 0;
+    };
+
+    // Separa os vendedores comuns
+    const varejo = rows.filter((row) => {
+      const seller = String(row.seller || "")
+        .trim()
+        .toUpperCase();
+
+      return !seller.startsWith("KEY");
+    });
+
+    // Separa os vendedores KEY
+    const keys = rows.filter((row) => {
+      const seller = String(row.seller || "")
+        .trim()
+        .toUpperCase();
+
+      return seller.startsWith("KEY");
+    });
+
+    // Varejo: maior % para menor %
+    varejo.sort((a, b) =>
+      getPercent(b) - getPercent(a)
+    );
+
+    // KEY: maior % para menor %
+    keys.sort((a, b) =>
+      getPercent(b) - getPercent(a)
+    );
+
+    // Primeiro Varejo, depois KEY
+return [...varejo, ...keys];
+}
+
+return rows.sort((a, b) => {
+  const getPercent = (row) => {
+    const value = String(row.percent ?? 0)
+      .replace("%", "")
+      .replace(",", ".");
+
+    return Number(value) || 0;
+  };
+
+  return getPercent(b) - getPercent(a);
+});
+
+} // FECHA A FUNÇÃO filteredRows()
+
+function renderTableHead(config) {
+  byId("tableHead").innerHTML = `
         <tr>
           ${config.columns.map((column) => `<th data-sort="${column.key}">${column.label}</th>`).join("")}
           <th>Status</th>
@@ -1300,40 +1389,74 @@ function renderSummary(data, viewName = activeView) {
         </tr>
       `).join("");
       tableBody.innerHTML = rows.length > 8 ? markup + duplicateMarkup : markup;
-      tableBody.classList.toggle("auto-scroll", rows.length > 8);
-      requestAnimationFrame(() => startSellerAutoScroll(rows.length > 8));
+tableBody.classList.toggle("auto-scroll", rows.length > 8);
+requestAnimationFrame(() => startSellerAutoScroll(rows.length > 8));
     }
 
     function startSellerAutoScroll(enabled) {
-      const tableWrap = document.querySelector(".table-wrap");
-      const tableBody = byId("tableBody");
-      if (sellerScrollFrame) {
-        cancelAnimationFrame(sellerScrollFrame);
-        sellerScrollFrame = null;
-      }
-      tableWrap.scrollTop = 0;
-      tableBody.style.transform = "translateY(0px)";
-      if (!enabled || window.matchMedia("(max-width: 640px)").matches) return;
+  const tableWrap = document.querySelector(".table-wrap");
+  const tableBody = byId("tableBody");
 
-      let lastTime = null;
-      const speed = 15;
-      let offset = 0;
-      const originalRows = Array.from(tableBody.querySelectorAll("tr:not(.loop-copy)"));
-      const loopHeight = originalRows.reduce(
-        (total, row) => total + row.getBoundingClientRect().height,
-        0
-      );
-      if (loopHeight <= 0) return;
-      const tick = (time) => {
-        if (lastTime === null) lastTime = time;
-        const elapsed = time - lastTime;
-        lastTime = time;
-        offset = (offset + (speed * elapsed) / 1000) % loopHeight;
-        tableBody.style.transform = `translateY(-${offset}px)`;
-        sellerScrollFrame = requestAnimationFrame(tick);
-      };
-      sellerScrollFrame = requestAnimationFrame(tick);
+  if (sellerScrollFrame) {
+    cancelAnimationFrame(sellerScrollFrame);
+    sellerScrollFrame = null;
+  }
+
+  if (!enabled || window.matchMedia("(max-width: 640px)").matches) {
+    sellerScrollOffset = 0;
+    tableBody.style.transform = "translateY(0px)";
+    return;
+  }
+
+  let lastTime = null;
+  const speed = 15;
+
+  const originalRows = Array.from(
+    tableBody.querySelectorAll("tr:not(.loop-copy)")
+  );
+
+  const originalHeight = originalRows.reduce(
+    (total, row) => total + row.getBoundingClientRect().height,
+    0
+  );
+
+  if (originalHeight <= 0) {
+    return;
+  }
+
+  // Mantém a posição mesmo depois da atualização dos dados
+  sellerScrollOffset =
+    sellerScrollOffset % originalHeight;
+
+  tableBody.style.transform =
+    `translateY(-${sellerScrollOffset}px)`;
+
+  const tick = (time) => {
+
+    if (lastTime === null) {
+      lastTime = time;
     }
+
+    const elapsed = time - lastTime;
+    lastTime = time;
+
+    sellerScrollOffset +=
+      (speed * elapsed) / 1000;
+
+    if (sellerScrollOffset >= originalHeight) {
+      sellerScrollOffset = 0;
+    }
+
+    tableBody.style.transform =
+      `translateY(-${sellerScrollOffset}px)`;
+
+    sellerScrollFrame =
+      requestAnimationFrame(tick);
+  };
+
+  sellerScrollFrame =
+    requestAnimationFrame(tick);
+}
 
     function renderWeeks(viewName = activeView) {
       const config = views[viewName];
