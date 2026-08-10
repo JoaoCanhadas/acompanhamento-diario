@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "10/08/2026 13:47",
+  "lastModified": "10/08/2026 13:48",
   "summary": {
     "commitment": 783.0,
-    "reached": 284.0,
-    "missing": 499.0,
-    "percent": 36.3,
+    "reached": 288.0,
+    "missing": 495.0,
+    "percent": 36.8,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -18,11 +18,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 53.0,
-      "reached": 11.0,
-      "missing": 42.0,
+      "reached": 12.0,
+      "missing": 41.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.8,
+      "percent": 22.6,
       "status": "pending"
     },
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 41.0,
-      "reached": 8.0,
-      "missing": 33.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 19.5,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 48.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 33.3,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 41.0,
+      "reached": 9.0,
+      "missing": 32.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 22.0,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 44.0,
-      "reached": 13.0,
-      "missing": 31.0,
+      "reached": 14.0,
+      "missing": 30.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 29.5,
+      "percent": 31.8,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 40.0,
-      "reached": 11.0,
-      "missing": 29.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 27.5,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 43.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 34.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 40.0,
+      "reached": 12.0,
+      "missing": 28.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 30.0,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 186,
-      "reached": 61.0,
-      "missing": 125.0,
-      "percent": 32.8
+      "reached": 65.0,
+      "missing": 121.0,
+      "percent": 34.9
     },
     {
       "name": "Semana 3",
