@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "10/08/2026 15:52",
+  "lastModified": "10/08/2026 15:54",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1636233.09,
-    "missing": 4148266.91,
-    "percent": 28.3,
+    "reached": 1627793.11,
+    "missing": 4156706.89,
+    "percent": 28.1,
     "weekGoal": 1377262,
     "weekRevenue": 1205128.01,
     "weekMissing": 172133.99,
     "weekPercent": 87.5,
-    "positiveCount": 2,
-    "pendingCount": 24
+    "positiveCount": 1,
+    "pendingCount": 25
   },
   "rows": [
     {
@@ -281,20 +281,20 @@
     {
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
-      "commitment": 0.0,
+      "commitment": 1000.0,
       "reached": 644.28,
-      "missing": -644.28,
+      "missing": 355.72,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
+      "percent": 64.4,
+      "status": "pending"
     },
     {
       "reference": "IATAGAM JUNIOR",
-      "seller": "IATAGAM JUNIOR",
+      "seller": "ECOMMERCE",
       "commitment": 0.0,
-      "reached": 9084.26,
-      "missing": -9084.26,
+      "reached": 644.28,
+      "missing": -644.28,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
