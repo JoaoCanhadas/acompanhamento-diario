@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "10/08/2026 15:22",
+  "lastModified": "10/08/2026 15:23",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1528479.69,
-    "missing": 4256020.31,
-    "percent": 26.4,
+    "reached": 1531140.09,
+    "missing": 4253359.91,
+    "percent": 26.5,
     "weekGoal": 1377262,
     "weekRevenue": 1205128.01,
     "weekMissing": 172133.99,
@@ -40,11 +40,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 425000.0,
-      "reached": 97099.61,
-      "missing": 327900.39,
+      "reached": 99430.01,
+      "missing": 325569.99,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 22.8,
+      "percent": 23.4,
       "status": "pending"
     },
     {
@@ -235,17 +235,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 75000.0,
-      "reached": 25340.4,
-      "missing": 49659.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 33.8,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
@@ -254,6 +243,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 36.5,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 75000.0,
+      "reached": 25670.4,
+      "missing": 49329.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 34.2,
       "status": "pending"
     },
     {
@@ -313,9 +313,9 @@
     {
       "name": "Semana 2",
       "goal": 1377262,
-      "reached": 323351.68,
-      "missing": 1053910.32,
-      "percent": 23.5
+      "reached": 326012.08,
+      "missing": 1051249.92,
+      "percent": 23.7
     },
     {
       "name": "Semana 3",
