@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "10/08/2026 12:34",
+  "lastModified": "10/08/2026 12:35",
   "summary": {
     "commitment": 300050.0,
-    "reached": 152379.68,
-    "missing": 147670.32,
-    "percent": 50.8,
+    "reached": 153731.58,
+    "missing": 146318.42,
+    "percent": 51.2,
     "weekGoal": 692023.81,
     "weekRevenue": 615408.52,
     "weekMissing": 76615.29,
@@ -40,11 +40,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 28880.0,
-      "reached": 14940.8,
-      "missing": 13939.2,
+      "reached": 15118.4,
+      "missing": 13761.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 51.7,
+      "percent": 52.3,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 21970.0,
-      "reached": 13660.65,
-      "missing": 8309.35,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 62.2,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 16310.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 45.3,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 21970.0,
+      "reached": 14834.95,
+      "missing": 7135.05,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 67.5,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 152379.68,
-      "missing": 539644.13,
-      "percent": 22.0
+      "reached": 153731.58,
+      "missing": 538292.23,
+      "percent": 22.2
     },
     {
       "name": "Semana 3",
