@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "11/08/2026 12:04",
+  "lastModified": "11/08/2026 12:06",
   "summary": {
     "commitment": 783.0,
-    "reached": 325.0,
-    "missing": 458.0,
-    "percent": 41.5,
+    "reached": 328.0,
+    "missing": 455.0,
+    "percent": 41.9,
     "weekGoal": 200,
     "weekRevenue": 251.0,
     "weekMissing": -51.0,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 41.0,
-      "reached": 11.0,
-      "missing": 30.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 26.8,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 63.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 39.6,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 41.0,
+      "reached": 12.0,
+      "missing": 29.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 29.3,
       "status": "pending"
     },
     {
@@ -117,11 +117,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 47.0,
-      "reached": 21.0,
-      "missing": 26.0,
+      "reached": 22.0,
+      "missing": 25.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 44.7,
+      "percent": 46.8,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 38.0,
-      "reached": 16.0,
-      "missing": 22.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.1,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 40.5,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 38.0,
+      "reached": 17.0,
+      "missing": 21.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 44.7,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 200,
-      "reached": 114.0,
-      "missing": 86.0,
-      "percent": 57.0
+      "reached": 117.0,
+      "missing": 83.0,
+      "percent": 58.5
     },
     {
       "name": "Semana 3",
