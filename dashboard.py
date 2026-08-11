@@ -939,7 +939,7 @@ const formatBalance = (value, formatter) => {
 },
       keys: {
         endpoint: "/api/keys",
-        title: "Performance Keys por vendedor",
+        title: "Performance Key por vendedor",
         commitmentLabel: "Meta semanal",
         pendingText: "vendedores pendentes",
         positiveText: "superaram a meta",
@@ -989,7 +989,7 @@ const cardsContainer = document.querySelector(".cards");
 if (viewName === "general") {
   projectionCard.style.display = "";
   cardsContainer.style.gridTemplateColumns =
-  "1.25fr 1.25fr 1.55fr 0.7fr 1.25fr";
+  "1.25fr 1.25fr 1.70fr 0.70fr 0.90fr";
 
   const resultado = calcularProjecaoMes(summary.reached);
 
@@ -1993,29 +1993,55 @@ def find_block_start_any(sheet, titles):
             continue
     raise ValueError(f"Bloco nao encontrado em {sheet.title}: {', '.join(titles)}")
 
-
 def read_base_python_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
     block_start = find_block_start(sheet, "VAREJO")
-    reference_col = block_start - 1
-    seller_col = block_start
+
+    seller_col = block_start - 1
+    reference_col = block_start
     commitment_col = block_start + 1
     reached_col = block_start + 2
     missing_col = block_start + 3
 
     rows = []
+
     for row_number in range(10, sheet.max_row + 1):
-        seller = normalize_text(sheet.cell(row_number, seller_col).value)
-        reference = normalize_text(sheet.cell(row_number, reference_col).value)
+        seller = normalize_text(
+            sheet.cell(row_number, seller_col).value
+        )
+
+        reference = normalize_text(
+            sheet.cell(row_number, reference_col).value
+        )
+
         if not seller:
             continue
-        if normalize_key(seller) in {"SEMANAL", "TOTAL", "VENDEDOR"}:
+
+        if normalize_key(seller) in {
+            "SEMANAL",
+            "TOTAL",
+            "VENDEDOR"
+        }:
             break
 
-        commitment = money(sheet.cell(row_number, commitment_col).value)
-        reached = money(sheet.cell(row_number, reached_col).value)
-        missing = money(sheet.cell(row_number, missing_col).value)
-        percent = (reached / commitment * 100) if commitment else 0
+        commitment = money(
+            sheet.cell(row_number, commitment_col).value
+        )
+
+        reached = money(
+            sheet.cell(row_number, reached_col).value
+        )
+
+        missing = money(
+            sheet.cell(row_number, missing_col).value
+        )
+
+        percent = (
+            reached / commitment * 100
+            if commitment
+            else 0
+        )
+
         rows.append(
             {
                 "seller": seller,
@@ -2031,30 +2057,66 @@ def read_base_python_planilha1_data(excel_path, workbook):
         )
 
     indicators = {}
-    for row_number in range(4, 8):
-        key = normalize_key(sheet.cell(row_number, reference_col).value)
-        if key:
-            raw_value = sheet.cell(row_number, commitment_col).value
-            if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
-                continue
-            indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
 
-        weeks = []
+    for row_number in range(4, 8):
+        key = normalize_key(
+            sheet.cell(row_number, reference_col).value
+        )
+
+        if key:
+            raw_value = sheet.cell(
+                row_number,
+                commitment_col
+            ).value
+
+            if (
+                isinstance(raw_value, str)
+                and raw_value.strip().startswith("#")
+            ):
+                continue
+
+            indicators[key] = (
+                round(as_number(raw_value), 4)
+                if key == "REALIZADO"
+                else money(raw_value)
+            )
+
+    weeks = []
     weekly_header_row = None
+
     for row_number in range(10, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
+        if (
+            normalize_key(
+                sheet.cell(row_number, reference_col).value
+            )
+            == "SEMANAL"
+        ):
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
-        for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
+        for row_number in range(
+            weekly_header_row + 1,
+            sheet.max_row + 1
+        ):
+            raw_label = normalize_text(
+                sheet.cell(row_number, reference_col).value
+            )
+
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
 
-            goal = money(sheet.cell(row_number, commitment_col).value)
-            reached = money(sheet.cell(row_number, reached_col).value)
-            missing = money(sheet.cell(row_number, missing_col).value)
+            goal = money(
+                sheet.cell(row_number, commitment_col).value
+            )
+
+            reached = money(
+                sheet.cell(row_number, reached_col).value
+            )
+
+            missing = money(
+                sheet.cell(row_number, missing_col).value
+            )
 
             weeks.append(
                 {
@@ -2062,68 +2124,175 @@ def read_base_python_planilha1_data(excel_path, workbook):
                     "goal": goal,
                     "reached": reached,
                     "missing": missing,
-                    "percent": round((reached / goal * 100) if goal else 0, 1),
+                    "percent": round(
+                        (reached / goal * 100)
+                        if goal
+                        else 0,
+                        1
+                    ),
                 }
             )
 
-    total_commitment = money(indicators.get("META DIA", sum(item["commitment"] for item in rows)))
-    total_reached = money(indicators.get("ATINGIDO", sum(item["reached"] for item in rows)))
-    total_missing = money(indicators.get("FALTA", total_commitment - total_reached))
-    total_percent = (total_reached / total_commitment * 100) if total_commitment else 0
+    total_commitment = money(
+        indicators.get(
+            "META DIA",
+            sum(item["commitment"] for item in rows)
+        )
+    )
+
+    total_reached = money(
+        indicators.get(
+            "ATINGIDO",
+            sum(item["reached"] for item in rows)
+        )
+    )
+
+    total_missing = money(
+        indicators.get(
+            "FALTA",
+            total_commitment - total_reached
+        )
+    )
+
+    total_percent = (
+        total_reached / total_commitment * 100
+        if total_commitment
+        else 0
+    )
 
     return {
         "workbook": excel_path.name,
-        "lastModified": datetime.fromtimestamp(excel_path.stat().st_mtime).strftime(
-            "%d/%m/%Y %H:%M"
-        ),
+
+        "lastModified": datetime.fromtimestamp(
+            excel_path.stat().st_mtime
+        ).strftime("%d/%m/%Y %H:%M"),
+
         "summary": {
             "commitment": total_commitment,
             "reached": total_reached,
             "missing": total_missing,
             "percent": round(total_percent, 1),
+
             "weekGoal": weeks[0]["goal"] if weeks else 0,
             "weekRevenue": weeks[0]["reached"] if weeks else 0,
             "weekMissing": weeks[0]["missing"] if weeks else 0,
             "weekPercent": weeks[0]["percent"] if weeks else 0,
-            "positiveCount": sum(1 for item in rows if item["missing"] <= 0),
-            "pendingCount": sum(1 for item in rows if item["missing"] > 0),
+
+            "positiveCount": sum(
+                1 for item in rows
+                if item["missing"] <= 0
+            ),
+
+            "pendingCount": sum(
+                1 for item in rows
+                if item["missing"] > 0
+            ),
         },
-        "rows": sorted(rows, key=lambda item: item["missing"], reverse=True),
+
+        "rows": sorted(
+            rows,
+            key=lambda item: item["missing"],
+            reverse=True
+        ),
+
         "history": [],
         "weeks": weeks,
     }
 
+def find_block_table_header(
+    sheet,
+    reference_col,
+    seller_col,
+    commitment_col,
+    reached_col,
+    max_rows=25
+):
+    for row_number in range(
+        1,
+        min(sheet.max_row, max_rows) + 1
+    ):
+        reference = normalize_key(
+            sheet.cell(row_number, reference_col).value
+        )
+
+        seller = normalize_key(
+            sheet.cell(row_number, seller_col).value
+        )
+
+        commitment = normalize_key(
+            sheet.cell(row_number, commitment_col).value
+        )
+
+        reached = normalize_key(
+            sheet.cell(row_number, reached_col).value
+        )
+
+        if (
+            reference in {"REFERENCIA", "REFERENCA"}
+            and seller == "VENDEDOR"
+            and commitment in {"COMPROMISSO", "META", "META A"}
+            and reached == "ATINGIDO"
+        ):
+            return row_number
+
+    raise ValueError("Cabecalho do bloco nao encontrado")
 
 def read_general_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
     title_col = find_block_start(sheet, "GERAL")
+
     reference_col = title_col - 1
     seller_col = title_col
     commitment_col = title_col + 1
     reached_col = title_col + 2
     missing_col = title_col + 3
+
     header_row = find_block_table_header(
-        sheet, reference_col, seller_col, commitment_col, reached_col
+        sheet,
+        reference_col,
+        seller_col,
+        commitment_col,
+        reached_col
     )
 
     rows = []
-    for row_number in range(header_row + 1, sheet.max_row + 1):
-        reference = normalize_text(sheet.cell(row_number, reference_col).value)
-        seller = normalize_text(sheet.cell(row_number, seller_col).value)
 
-        if normalize_key(seller) == "KEY PIRACICABA":
-    	    continue
+    for row_number in range(header_row + 1, sheet.max_row + 1):
+        reference = normalize_text(
+            sheet.cell(row_number, reference_col).value
+        )
+
+        seller = normalize_text(
+            sheet.cell(row_number, seller_col).value
+        )
 
         if not reference and not seller:
             break
 
-        if normalize_key(reference) in {"SEMANAL", "TOTAL"} or normalize_key(seller) in {"SEMANAL", "TOTAL"}:
+        if (
+            normalize_key(reference) in {"SEMANAL", "TOTAL"}
+            or normalize_key(seller) in {"SEMANAL", "TOTAL"}
+        ):
             break
 
-        commitment = money(sheet.cell(row_number, commitment_col).value)
-        reached = money(sheet.cell(row_number, reached_col).value)
-        missing = money(sheet.cell(row_number, missing_col).value)
-        percent = (reached / commitment * 100) if commitment else 0
+        commitment = money(
+            sheet.cell(row_number, commitment_col).value
+        )
+
+        reached = money(
+            sheet.cell(row_number, reached_col).value
+        )
+
+        missing = money(
+            sheet.cell(row_number, missing_col).value
+        )
+
+        percent = (
+            reached / commitment * 100
+            if commitment
+            else 0
+        )
+
         rows.append(
             {
                 "reference": reference or seller,
@@ -2139,31 +2308,69 @@ def read_general_planilha1_data(excel_path, workbook):
         )
 
     indicators = {}
-    for row_number in range(4, 8):
-        key = normalize_key(sheet.cell(row_number, title_col).value)
-        if key:
-            raw_value = sheet.cell(row_number, commitment_col).value
-            if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
-                continue
-            indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
 
-        weeks = []
+    for row_number in range(4, 8):
+        key = normalize_key(
+            sheet.cell(row_number, title_col).value
+        )
+
+        if key:
+            raw_value = sheet.cell(
+                row_number,
+                commitment_col
+            ).value
+
+            if (
+                isinstance(raw_value, str)
+                and raw_value.strip().startswith("#")
+            ):
+                continue
+
+            indicators[key] = (
+                round(as_number(raw_value), 4)
+                if key == "REALIZADO"
+                else money(raw_value)
+            )
+
+    weeks = []
     weekly_header_row = None
-    for row_number in range(header_row + 1, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
+
+    for row_number in range(
+        header_row + 1,
+        sheet.max_row + 1
+    ):
+        if (
+            normalize_key(
+                sheet.cell(row_number, reference_col).value
+            )
+            == "SEMANAL"
+        ):
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
-        for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, seller_col).value)
+        for row_number in range(
+            weekly_header_row + 1,
+            sheet.max_row + 1
+        ):
+            raw_label = normalize_text(
+                sheet.cell(row_number, reference_col).value
+            )
 
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
 
-            goal = money(sheet.cell(row_number, commitment_col).value)
-            reached = money(sheet.cell(row_number, reached_col).value)
-            missing = money(sheet.cell(row_number, missing_col).value)
+            goal = money(
+                sheet.cell(row_number, commitment_col).value
+            )
+
+            reached = money(
+                sheet.cell(row_number, reached_col).value
+            )
+
+            missing = money(
+                sheet.cell(row_number, missing_col).value
+            )
 
             weeks.append(
                 {
@@ -2171,38 +2378,85 @@ def read_general_planilha1_data(excel_path, workbook):
                     "goal": goal,
                     "reached": reached,
                     "missing": missing,
-                    "percent": round((reached / goal * 100) if goal else 0, 1),
+                    "percent": round(
+                        (reached / goal * 100)
+                        if goal
+                        else 0,
+                        1
+                    ),
                 }
             )
 
-    total_commitment = money(indicators.get("META MES", sum(item["commitment"] for item in rows)))
-    total_reached = money(indicators.get("ATINGIDO", sum(item["reached"] for item in rows)))
-    total_missing = money(indicators.get("FALTA", total_commitment - total_reached))
+    total_commitment = money(
+        indicators.get(
+            "META MES",
+            sum(item["commitment"] for item in rows)
+        )
+    )
+
+    total_reached = money(
+        indicators.get(
+            "ATINGIDO",
+            sum(item["reached"] for item in rows)
+        )
+    )
+
+    total_missing = money(
+        indicators.get(
+            "FALTA",
+            total_commitment - total_reached
+        )
+    )
+
     realized_indicator = indicators.get("REALIZADO")
+
     total_percent = (
         realized_indicator * 100
         if realized_indicator is not None
-        else (total_reached / total_commitment * 100) if total_commitment else 0
+        else (
+            total_reached / total_commitment * 100
+            if total_commitment
+            else 0
+        )
     )
 
     return {
         "workbook": excel_path.name,
-        "lastModified": datetime.fromtimestamp(excel_path.stat().st_mtime).strftime(
-            "%d/%m/%Y %H:%M"
-        ),
+
+        "lastModified": datetime.fromtimestamp(
+            excel_path.stat().st_mtime
+        ).strftime("%d/%m/%Y %H:%M"),
+
         "summary": {
             "commitment": total_commitment,
             "reached": total_reached,
             "missing": total_missing,
             "percent": round(total_percent, 1),
+
             "weekGoal": weeks[0]["goal"] if weeks else 0,
             "weekRevenue": weeks[0]["reached"] if weeks else 0,
             "weekMissing": weeks[0]["missing"] if weeks else 0,
             "weekPercent": weeks[0]["percent"] if weeks else 0,
-            "positiveCount": sum(1 for item in rows if item["missing"] <= 0),
-            "pendingCount": sum(1 for item in rows if item["missing"] > 0),
+
+            "positiveCount": sum(
+                1
+                for item in rows
+                if item["missing"] <= 0
+            ),
+
+            "pendingCount": sum(
+                1
+                for item in rows
+                if item["missing"] > 0
+            ),
         },
-        "rows": sorted(rows, key=lambda item: item["missing"], reverse=True),
+
+        "rows": sorted(
+            rows,
+            key=lambda item: item["missing"],
+            reverse=True
+        ),
+
         "history": [],
         "weeks": weeks,
     }
@@ -2215,25 +2469,52 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
         ("POSITIVACAO MILHO", "POSITIVACAO BRIOCHE")
     )
 
-    reference_col = title_col - 1
-    seller_col = title_col
+    seller_col = title_col - 1
+    reference_col = title_col
     commitment_col = title_col + 1
     reached_col = title_col + 2
     missing_col = title_col + 3
 
     rows = []
+
     for row_number in range(10, sheet.max_row + 1):
-        reference = normalize_text(sheet.cell(row_number, reference_col).value)
-        seller = normalize_text(sheet.cell(row_number, seller_col).value)
+        reference = normalize_text(
+            sheet.cell(row_number, reference_col).value
+        )
+
+        seller = normalize_text(
+            sheet.cell(row_number, seller_col).value
+        )
+
         if not reference and not seller:
             continue
-        if normalize_key(reference) in {"SEMANAL", "TOTAL", "REFERENCA"} or normalize_key(seller) in {"SEMANAL", "TOTAL", "VENDEDOR"}:
+
+        if (
+            normalize_key(reference)
+            in {"SEMANAL", "TOTAL", "REFERENCA"}
+            or normalize_key(seller)
+            in {"SEMANAL", "TOTAL", "VENDEDOR"}
+        ):
             break
 
-        commitment = money(sheet.cell(row_number, commitment_col).value)
-        reached = money(sheet.cell(row_number, reached_col).value)
-        missing = money(sheet.cell(row_number, missing_col).value)
-        percent = (reached / commitment * 100) if commitment else 0
+        commitment = money(
+            sheet.cell(row_number, commitment_col).value
+        )
+
+        reached = money(
+            sheet.cell(row_number, reached_col).value
+        )
+
+        missing = money(
+            sheet.cell(row_number, missing_col).value
+        )
+
+        percent = (
+            reached / commitment * 100
+            if commitment
+            else 0
+        )
+
         rows.append(
             {
                 "reference": reference or seller,
@@ -2249,31 +2530,55 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
         )
 
     indicators = {}
-    for row_number in range(4, 8):
-        key = normalize_key(sheet.cell(row_number, seller_col).value)
-        if key:
-            raw_value = sheet.cell(row_number, commitment_col).value
-            indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
 
-        weeks = []
+    for row_number in range(4, 8):
+        key = normalize_key(
+            sheet.cell(row_number, seller_col).value
+        )
+
+        if key:
+            raw_value = sheet.cell(
+                row_number,
+                commitment_col
+            ).value
+
+            indicators[key] = (
+                round(as_number(raw_value), 4)
+                if key == "REALIZADO"
+                else money(raw_value)
+            )
+
+    weeks = []
     weekly_header_row = None
 
     for row_number in range(10, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, seller_col).value) == "SEMANAL":
+        if (
+            normalize_key(
+                sheet.cell(row_number, reference_col).value
+            )
+            == "SEMANAL"
+        ):
             weekly_header_row = row_number
             break
 
     if weekly_header_row:
-        for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
+        for row_number in range(
+            weekly_header_row + 1,
+            sheet.max_row + 1
+        ):
             raw_label = normalize_text(
-                sheet.cell(row_number, seller_col).value
+                sheet.cell(row_number, reference_col).value
             )
 
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
 
-            goal = money(sheet.cell(row_number, commitment_col).value)
-            reached = money(sheet.cell(row_number, reached_col).value)
+            goal = POSITIVACAO_MILHO_WEEKLY_GOAL
+
+            reached = money(
+                sheet.cell(row_number, reached_col).value
+            )
+
             missing = money(goal - reached)
 
             weeks.append(
@@ -2283,86 +2588,148 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
                     "reached": reached,
                     "missing": missing,
                     "percent": round(
-                        (reached / goal * 100) if goal else 0,
+                        (reached / goal * 100)
+                        if goal
+                        else 0,
                         1
                     ),
                 }
             )
 
-    total_commitment = money(indicators.get("META MES", sum(item["commitment"] for item in rows)))
-    total_reached = money(indicators.get("ATINGIDO", sum(item["reached"] for item in rows)))
-    total_missing = money(indicators.get("FALTA", total_commitment - total_reached))
+    total_commitment = money(
+        indicators.get(
+            "META MES",
+            sum(item["commitment"] for item in rows)
+        )
+    )
+
+    total_reached = money(
+        indicators.get(
+            "ATINGIDO",
+            sum(item["reached"] for item in rows)
+        )
+    )
+
+    total_missing = money(
+        indicators.get(
+            "FALTA",
+            total_commitment - total_reached
+        )
+    )
+
     realized_indicator = indicators.get("REALIZADO")
+
     total_percent = (
         realized_indicator * 100
         if realized_indicator is not None
-        else (total_reached / total_commitment * 100) if total_commitment else 0
+        else (
+            total_reached / total_commitment * 100
+            if total_commitment
+            else 0
+        )
     )
 
     return {
         "workbook": excel_path.name,
-        "lastModified": datetime.fromtimestamp(excel_path.stat().st_mtime).strftime(
-            "%d/%m/%Y %H:%M"
-        ),
+
+        "lastModified": datetime.fromtimestamp(
+            excel_path.stat().st_mtime
+        ).strftime("%d/%m/%Y %H:%M"),
+
         "summary": {
             "commitment": total_commitment,
             "reached": total_reached,
             "missing": total_missing,
             "percent": round(total_percent, 1),
+
             "weekGoal": weeks[0]["goal"] if weeks else 0,
             "weekRevenue": weeks[0]["reached"] if weeks else 0,
             "weekMissing": weeks[0]["missing"] if weeks else 0,
             "weekPercent": weeks[0]["percent"] if weeks else 0,
-            "positiveCount": sum(1 for item in rows if item["missing"] <= 0),
-            "pendingCount": sum(1 for item in rows if item["missing"] > 0),
+
+            "positiveCount": sum(
+                1 for item in rows
+                if item["missing"] <= 0
+            ),
+
+            "pendingCount": sum(
+                1 for item in rows
+                if item["missing"] > 0
+            ),
         },
-        "rows": sorted(rows, key=lambda item: item["missing"], reverse=True),
+
+        "rows": sorted(
+            rows,
+            key=lambda item: item["missing"],
+            reverse=True
+        ),
+
         "history": [],
         "weeks": weeks,
     }
 
-
-def find_block_table_header(sheet, reference_col, seller_col, commitment_col, reached_col, max_rows=25):
-    for row_number in range(1, min(sheet.max_row, max_rows) + 1):
-        reference = normalize_key(sheet.cell(row_number, reference_col).value)
-        seller = normalize_key(sheet.cell(row_number, seller_col).value)
-        commitment = normalize_key(sheet.cell(row_number, commitment_col).value)
-        reached = normalize_key(sheet.cell(row_number, reached_col).value)
-        if (
-            reference in {"REFERENCIA", "REFERENCA"}
-            and seller == "VENDEDOR"
-            and commitment in {"COMPROMISSO", "META", "META A"}
-            and reached == "ATINGIDO"
-        ):
-            return row_number
-    raise ValueError("Cabecalho do bloco nao encontrado")
-
-
 def read_keys_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
+
     title_col = find_block_start(sheet, "KEY")
     reference_col = title_col - 1
     seller_col = title_col
     commitment_col = title_col + 1
     reached_col = title_col + 2
     missing_col = title_col + 3
+
     header_row = find_block_table_header(
-        sheet, reference_col, seller_col, commitment_col, reached_col
+        sheet,
+        reference_col,
+        seller_col,
+        commitment_col,
+        reached_col
     )
 
     rows = []
-    for row_number in range(header_row + 1, sheet.max_row + 1):
-        reference = normalize_text(sheet.cell(row_number, reference_col).value)
-        seller = normalize_text(sheet.cell(row_number, seller_col).value)
+
+    for row_number in range(
+        header_row + 1,
+        sheet.max_row + 1
+    ):
+        reference = normalize_text(
+            sheet.cell(row_number, reference_col).value
+        )
+
+        seller = normalize_text(
+            sheet.cell(row_number, seller_col).value
+        )
+
         if not reference and not seller:
             break
-        if normalize_key(reference) in {"SEMANAL", "TOTAL"} or normalize_key(seller) in {"SEMANAL", "TOTAL"}:
+
+        if (
+            normalize_key(reference) in {"SEMANAL", "TOTAL"}
+            or normalize_key(seller) in {"SEMANAL", "TOTAL"}
+        ):
             break
 
-        commitment = money(sheet.cell(row_number, commitment_col).value)
-        reached = money(sheet.cell(row_number, reached_col).value)
-        missing = money(sheet.cell(row_number, missing_col).value)
-        percent = (reached / commitment * 100) if commitment else 0
+        if normalize_key(seller) == "KEY PIRACICABA":
+            continue
+
+        commitment = money(
+            sheet.cell(row_number, commitment_col).value
+        )
+
+        reached = money(
+            sheet.cell(row_number, reached_col).value
+        )
+
+        missing = money(
+            sheet.cell(row_number, missing_col).value
+        )
+
+        percent = (
+            reached / commitment * 100
+            if commitment
+            else 0
+        )
+
         rows.append(
             {
                 "reference": reference or seller,
@@ -2378,73 +2745,175 @@ def read_keys_planilha1_data(excel_path, workbook):
         )
 
     indicators = {}
+
     for row_number in range(4, 8):
-        key = normalize_key(sheet.cell(row_number, title_col).value)
+
+        reference_key = normalize_key(
+            sheet.cell(row_number, reference_col).value
+        )
+
+        seller_key = normalize_key(
+            sheet.cell(row_number, seller_col).value
+        )
+
+        key = seller_key or reference_key
+
         if key:
-            raw_value = sheet.cell(row_number, commitment_col).value
-            if isinstance(raw_value, str) and raw_value.strip().startswith("#"):
+            raw_value = sheet.cell(
+                row_number,
+                commitment_col
+            ).value
+
+            if (
+                isinstance(raw_value, str)
+                and raw_value.strip().startswith("#")
+            ):
                 continue
-            indicators[key] = round(as_number(raw_value), 4) if key == "REALIZADO" else money(raw_value)
+
+            indicators[key] = (
+                round(as_number(raw_value), 4)
+                if key == "REALIZADO"
+                else money(raw_value)
+            )
 
     weeks = []
     weekly_header_row = None
-    for row_number in range(header_row + 1, sheet.max_row + 1):
-        if normalize_key(sheet.cell(row_number, reference_col).value) == "SEMANAL":
+    weekly_label_col = None
+
+    for row_number in range(
+        header_row + 1,
+        sheet.max_row + 1
+    ):
+        reference_value = normalize_key(
+            sheet.cell(row_number, reference_col).value
+        )
+
+        seller_value = normalize_key(
+            sheet.cell(row_number, seller_col).value
+        )
+
+        if seller_value == "SEMANAL":
             weekly_header_row = row_number
+            weekly_label_col = seller_col
+            break
+
+        if reference_value == "SEMANAL":
+            weekly_header_row = row_number
+            weekly_label_col = reference_col
             break
 
     if weekly_header_row:
-        for row_number in range(weekly_header_row + 1, sheet.max_row + 1):
-            raw_label = normalize_text(sheet.cell(row_number, reference_col).value)
+        for row_number in range(
+            weekly_header_row + 1,
+            sheet.max_row + 1
+        ):
+            raw_label = normalize_text(
+                sheet.cell(row_number, weekly_label_col).value
+            )
+
+            if not raw_label:
+                break
+
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
-            goal = money(sheet.cell(row_number, commitment_col).value)
-            reached = money(sheet.cell(row_number, reached_col).value)
-            missing = money(sheet.cell(row_number, missing_col).value)
+
+            goal = money(
+                sheet.cell(row_number, commitment_col).value
+            )
+
+            reached = money(
+                sheet.cell(row_number, reached_col).value
+            )
+
+            missing = money(
+                sheet.cell(row_number, missing_col).value
+            )
+
             weeks.append(
                 {
                     "name": normalize_week_name(raw_label),
                     "goal": goal,
                     "reached": reached,
                     "missing": missing,
-                    "percent": round((reached / goal * 100) if goal else 0, 1),
+                    "percent": round(
+                        (reached / goal * 100)
+                        if goal
+                        else 0,
+                        1
+                    ),
                 }
             )
 
     total_commitment = money(
-        indicators.get("META SEMANAL", sum(item["commitment"] for item in rows))
+        indicators.get(
+            "META SEMANAL",
+            sum(item["commitment"] for item in rows)
+        )
     )
-    total_reached = money(indicators.get("ATINGIDO", sum(item["reached"] for item in rows)))
-    total_missing = money(indicators.get("FALTA", total_commitment - total_reached))
+
+    total_reached = money(
+        indicators.get(
+            "ATINGIDO",
+            sum(item["reached"] for item in rows)
+        )
+    )
+
+    total_missing = money(
+        indicators.get(
+            "FALTA",
+            total_commitment - total_reached
+        )
+    )
+
     realized_indicator = indicators.get("REALIZADO")
+
     total_percent = (
         realized_indicator * 100
         if realized_indicator is not None
-        else (total_reached / total_commitment * 100) if total_commitment else 0
+        else (
+            total_reached / total_commitment * 100
+            if total_commitment
+            else 0
+        )
     )
 
     return {
         "workbook": excel_path.name,
-        "lastModified": datetime.fromtimestamp(excel_path.stat().st_mtime).strftime(
-            "%d/%m/%Y %H:%M"
-        ),
+        "lastModified": datetime.fromtimestamp(
+            excel_path.stat().st_mtime
+        ).strftime("%d/%m/%Y %H:%M"),
+
         "summary": {
             "commitment": total_commitment,
             "reached": total_reached,
             "missing": total_missing,
             "percent": round(total_percent, 1),
+
             "weekGoal": weeks[0]["goal"] if weeks else 0,
             "weekRevenue": weeks[0]["reached"] if weeks else 0,
             "weekMissing": weeks[0]["missing"] if weeks else 0,
             "weekPercent": weeks[0]["percent"] if weeks else 0,
-            "positiveCount": sum(1 for item in rows if item["missing"] <= 0),
-            "pendingCount": sum(1 for item in rows if item["missing"] > 0),
+
+            "positiveCount": sum(
+                1 for item in rows
+                if item["missing"] <= 0
+            ),
+
+            "pendingCount": sum(
+                1 for item in rows
+                if item["missing"] > 0
+            ),
         },
-        "rows": sorted(rows, key=lambda item: item["missing"], reverse=True),
+
+        "rows": sorted(
+            rows,
+            key=lambda item: item["missing"],
+            reverse=True
+        ),
+
         "history": [],
         "weeks": weeks,
     }
-
 
 def select_daily_total(daily_totals):
     if not daily_totals:
