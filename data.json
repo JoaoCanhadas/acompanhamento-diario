@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/08/2026 10:47",
+  "lastModified": "11/08/2026 10:48",
   "summary": {
     "commitment": 200000.0,
-    "reached": 65445.37,
-    "missing": 134554.63,
-    "percent": 32.7,
+    "reached": 68199.72,
+    "missing": 131800.28,
+    "percent": 34.1,
     "weekGoal": 692023.81,
     "weekRevenue": 615412.52,
     "weekMissing": 76611.29,
@@ -18,11 +18,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 20960.0,
-      "reached": 5560.15,
-      "missing": 15399.85,
+      "reached": 6369.55,
+      "missing": 14590.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 26.5,
+      "percent": 30.4,
       "status": "pending"
     },
     {
@@ -73,11 +73,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 11040.0,
-      "reached": 509.7,
-      "missing": 10530.3,
+      "reached": 1391.15,
+      "missing": 9648.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 4.6,
+      "percent": 12.6,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 13640.0,
-      "reached": 8912.45,
-      "missing": 4727.55,
+      "reached": 9569.95,
+      "missing": 4070.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 65.3,
+      "percent": 70.2,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5080.0,
-      "reached": 1527.93,
-      "missing": 3552.07,
+      "reached": 1933.93,
+      "missing": 3146.07,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.1,
+      "percent": 38.1,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 305063.13,
-      "missing": 386960.68,
-      "percent": 44.1
+      "reached": 307817.48,
+      "missing": 384206.33,
+      "percent": 44.5
     },
     {
       "name": "Semana 3",
