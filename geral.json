@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "11/08/2026 14:59",
+  "lastModified": "11/08/2026 15:00",
   "summary": {
     "commitment": 5784500.0,
     "reached": 1857128.13,
     "missing": 3927371.87,
     "percent": 32.1,
-    "weekGoal": 0,
+    "weekGoal": 1377262,
     "weekRevenue": 1204104.71,
-    "weekMissing": -1204104.71,
-    "weekPercent": 0,
+    "weekMissing": 173157.29,
+    "weekPercent": 87.4,
     "positiveCount": 2,
     "pendingCount": 25
   },
@@ -315,25 +315,18 @@
   "history": [],
   "weeks": [
     {
-      "name": "Semanal",
-      "goal": 0,
-      "reached": 1204104.71,
-      "missing": -1204104.71,
-      "percent": 0
-    },
-    {
       "name": "Semana 1",
       "goal": 1377262,
-      "reached": 653023.43,
-      "missing": 724238.57,
-      "percent": 47.4
+      "reached": 1204104.71,
+      "missing": 173157.29,
+      "percent": 87.4
     },
     {
       "name": "Semana 2",
       "goal": 1377262,
-      "reached": 0.0,
-      "missing": 1377262.0,
-      "percent": 0.0
+      "reached": 653023.43,
+      "missing": 724238.57,
+      "percent": 47.4
     },
     {
       "name": "Semana 3",
@@ -347,6 +340,13 @@
       "goal": 1377262,
       "reached": 0.0,
       "missing": 1377262.0,
+      "percent": 0.0
+    },
+    {
+      "name": "Semana 5",
+      "goal": 275452,
+      "reached": 0.0,
+      "missing": 275452.0,
       "percent": 0.0
     }
   ]
