@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "11/08/2026 13:41",
+  "lastModified": "11/08/2026 13:42",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1827934.28,
-    "missing": 3956565.72,
+    "reached": 1830655.73,
+    "missing": 3953844.27,
     "percent": 31.6,
     "weekGoal": 0,
     "weekRevenue": 0,
@@ -84,11 +84,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 88900.16,
-      "missing": 184099.84,
+      "reached": 89307.36,
+      "missing": 183692.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 32.6,
+      "percent": 32.7,
       "status": "pending"
     },
     {
@@ -117,22 +117,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 242000.0,
-      "reached": 82223.81,
-      "missing": 159776.19,
+      "reached": 82461.86,
+      "missing": 159538.14,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 34.0,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 200000.0,
-      "reached": 60761.87,
-      "missing": 139238.13,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 30.4,
+      "percent": 34.1,
       "status": "pending"
     },
     {
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 3.0,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 200000.0,
+      "reached": 62838.07,
+      "missing": 137161.93,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.4,
       "status": "pending"
     },
     {
