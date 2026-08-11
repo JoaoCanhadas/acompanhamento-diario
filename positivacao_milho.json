@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "11/08/2026 14:05",
+  "lastModified": "11/08/2026 14:06",
   "summary": {
     "commitment": 783.0,
-    "reached": 343.0,
-    "missing": 440.0,
-    "percent": 43.8,
+    "reached": 346.0,
+    "missing": 437.0,
+    "percent": 44.2,
     "weekGoal": 200,
     "weekRevenue": 251.0,
     "weekMissing": -51.0,
@@ -73,11 +73,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 48.0,
-      "reached": 20.0,
-      "missing": 28.0,
+      "reached": 21.0,
+      "missing": 27.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 41.7,
+      "percent": 43.8,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 51.0,
-      "reached": 26.0,
-      "missing": 25.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 51.0,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 43.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 41.9,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 51.0,
+      "reached": 27.0,
+      "missing": 24.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.9,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 37.0,
-      "reached": 15.0,
-      "missing": 22.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 40.5,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 38.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 44.7,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 37.0,
+      "reached": 16.0,
+      "missing": 21.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 43.2,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 200,
-      "reached": 138.0,
-      "missing": 62.0,
-      "percent": 69.0
+      "reached": 141.0,
+      "missing": 59.0,
+      "percent": 70.5
     },
     {
       "name": "Semana 3",
