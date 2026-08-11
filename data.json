@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/08/2026 11:56",
+  "lastModified": "11/08/2026 11:57",
   "summary": {
     "commitment": 200000.0,
-    "reached": 87692.57,
-    "missing": 112307.43,
-    "percent": 43.8,
+    "reached": 92144.37,
+    "missing": 107855.63,
+    "percent": 46.1,
     "weekGoal": 692023.81,
     "weekRevenue": 615412.52,
     "weekMissing": 76611.29,
@@ -23,17 +23,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 13.0,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 22330.0,
-      "reached": 10479.26,
-      "missing": 11850.74,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 46.9,
       "status": "pending"
     },
     {
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 52.3,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 22330.0,
+      "reached": 12373.66,
+      "missing": 9956.34,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.4,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 13770.0,
-      "reached": 6648.2,
-      "missing": 7121.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 48.3,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 7100.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 24.2,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 13770.0,
+      "reached": 9205.6,
+      "missing": 4564.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 66.9,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 327310.33,
-      "missing": 364713.48,
-      "percent": 47.3
+      "reached": 331762.13,
+      "missing": 360261.68,
+      "percent": 47.9
     },
     {
       "name": "Semana 3",
