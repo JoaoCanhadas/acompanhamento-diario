@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/08/2026 12:13",
+  "lastModified": "11/08/2026 12:14",
   "summary": {
     "commitment": 200000.0,
-    "reached": 95188.11,
-    "missing": 104811.89,
+    "reached": 95243.11,
+    "missing": 104756.89,
     "percent": 47.6,
     "weekGoal": 692023.81,
     "weekRevenue": 614385.22,
@@ -84,11 +84,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 22330.0,
-      "reached": 13488.16,
-      "missing": 8841.84,
+      "reached": 13538.16,
+      "missing": 8791.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 60.4,
+      "percent": 60.6,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "VALE",
       "seller": "SJC/VALE",
       "commitment": 3480.0,
-      "reached": 1394.25,
-      "missing": 2085.75,
+      "reached": 1399.25,
+      "missing": 2080.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 40.1,
+      "percent": 40.2,
       "status": "pending"
     },
     {
@@ -225,8 +225,8 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 334805.87,
-      "missing": 357217.94,
+      "reached": 334860.87,
+      "missing": 357162.94,
       "percent": 48.4
     },
     {
