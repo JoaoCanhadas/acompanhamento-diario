@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "11/08/2026 14:20",
+  "lastModified": "11/08/2026 14:21",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1845709.23,
-    "missing": 3938790.77,
-    "percent": 31.9,
+    "reached": 1852035.73,
+    "missing": 3932464.27,
+    "percent": 32.0,
     "weekGoal": 0,
     "weekRevenue": 0,
     "weekMissing": 0,
@@ -29,11 +29,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 560000.0,
-      "reached": 114671.22,
-      "missing": 445328.78,
+      "reached": 120006.72,
+      "missing": 439993.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.5,
+      "percent": 21.4,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 330000.0,
-      "reached": 151966.2,
-      "missing": 178033.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 46.1,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 33.1,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 330000.0,
+      "reached": 152957.2,
+      "missing": 177042.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 46.4,
       "status": "pending"
     },
     {
