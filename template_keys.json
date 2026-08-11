@@ -1,16 +1,16 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "11/08/2026 08:50",
+  "lastModified": "11/08/2026 10:39",
   "summary": {
     "commitment": 523000.0,
-    "reached": 252591.32,
-    "missing": 270408.68,
-    "percent": 48.3,
-    "weekGoal": 0,
-    "weekRevenue": 0,
-    "weekMissing": 0,
-    "weekPercent": 0,
-    "positiveCount": 3,
+    "reached": 256382.92,
+    "missing": 266617.08,
+    "percent": 49.0,
+    "weekGoal": 685000.0,
+    "weekRevenue": 589719.49,
+    "weekMissing": 95280.51,
+    "weekPercent": 86.1,
+    "positiveCount": 2,
     "pendingCount": 4
   },
   "rows": [
@@ -40,11 +40,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 99000.0,
-      "reached": 31535.6,
-      "missing": 67464.4,
+      "reached": 32612.6,
+      "missing": 66387.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 31.9,
+      "percent": 32.9,
       "status": "pending"
     },
     {
@@ -57,17 +57,6 @@
       "difference": 0.0,
       "percent": 52.2,
       "status": "pending"
-    },
-    {
-      "reference": "PIRACICABA",
-      "seller": "KEY PIRACICABA",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
     },
     {
       "reference": "KEY SJC",
@@ -84,14 +73,50 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 160000.0,
-      "reached": 172951.8,
-      "missing": -12951.8,
+      "reached": 175666.4,
+      "missing": -15666.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 108.1,
+      "percent": 109.8,
       "status": "ok"
     }
   ],
   "history": [],
-  "weeks": []
+  "weeks": [
+    {
+      "name": "Semana 1",
+      "goal": 685000.0,
+      "reached": 589719.49,
+      "missing": 95280.51,
+      "percent": 86.1
+    },
+    {
+      "name": "Semana 2",
+      "goal": 685000.0,
+      "reached": 256382.92,
+      "missing": 428617.08,
+      "percent": 37.4
+    },
+    {
+      "name": "Semana 3",
+      "goal": 685000.0,
+      "reached": 0.0,
+      "missing": 685000.0,
+      "percent": 0.0
+    },
+    {
+      "name": "Semana 4",
+      "goal": 685000.0,
+      "reached": 0.0,
+      "missing": 685000.0,
+      "percent": 0.0
+    },
+    {
+      "name": "Semana 5",
+      "goal": 137000.0,
+      "reached": 0.0,
+      "missing": 137000.0,
+      "percent": 0.0
+    }
+  ]
 }
