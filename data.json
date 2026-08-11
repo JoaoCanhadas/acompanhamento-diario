@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/08/2026 10:36",
+  "lastModified": "11/08/2026 10:37",
   "summary": {
     "commitment": 200000.0,
-    "reached": 57623.77,
-    "missing": 142376.23,
-    "percent": 28.8,
+    "reached": 60264.02,
+    "missing": 139735.98,
+    "percent": 30.1,
     "weekGoal": 692023.81,
     "weekRevenue": 615412.52,
     "weekMissing": 76611.29,
@@ -14,17 +14,6 @@
     "pendingCount": 18
   },
   "rows": [
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 22330.0,
-      "reached": 4827.69,
-      "missing": 17502.31,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 21.6,
-      "status": "pending"
-    },
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
@@ -37,14 +26,25 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 22330.0,
+      "reached": 7292.94,
+      "missing": 15037.06,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 32.7,
+      "status": "pending"
+    },
+    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 14070.0,
-      "reached": 1675.59,
-      "missing": 12394.41,
+      "reached": 1830.59,
+      "missing": 12239.41,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 11.9,
+      "percent": 13.0,
       "status": "pending"
     },
     {
@@ -73,11 +73,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 13770.0,
-      "reached": 3168.6,
-      "missing": 10601.4,
+      "reached": 3188.6,
+      "missing": 10581.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 23.0,
+      "percent": 23.2,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 297241.53,
-      "missing": 394782.28,
-      "percent": 43.0
+      "reached": 299881.78,
+      "missing": 392142.03,
+      "percent": 43.3
     },
     {
       "name": "Semana 3",
