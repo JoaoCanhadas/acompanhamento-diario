@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "11/08/2026 13:43",
+  "lastModified": "11/08/2026 13:45",
   "summary": {
     "commitment": 783.0,
-    "reached": 339.0,
-    "missing": 444.0,
-    "percent": 43.3,
+    "reached": 341.0,
+    "missing": 442.0,
+    "percent": 43.6,
     "weekGoal": 200,
     "weekRevenue": 251.0,
     "weekMissing": -51.0,
@@ -18,11 +18,11 @@
       "reference": "TATUAPE",
       "seller": "LESTE TATUAPE",
       "commitment": 53.0,
-      "reached": 13.0,
-      "missing": 40.0,
+      "reached": 14.0,
+      "missing": 39.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 24.5,
+      "percent": 26.4,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOOCA",
-      "seller": "LESTE MOOCA",
-      "commitment": 51.0,
-      "reached": 24.0,
-      "missing": 27.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.1,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 63.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 58.7,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 51.0,
+      "reached": 25.0,
+      "missing": 26.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 49.0,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 200,
-      "reached": 134.0,
-      "missing": 66.0,
-      "percent": 67.0
+      "reached": 136.0,
+      "missing": 64.0,
+      "percent": 68.0
     },
     {
       "name": "Semana 3",
