@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "10/08/2026 16:05",
+  "lastModified": "11/08/2026 07:19",
   "summary": {
     "commitment": 69500.0,
-    "reached": 76509.42,
-    "missing": -7009.42,
-    "percent": 110.1,
+    "reached": 252591.32,
+    "missing": -183091.32,
+    "percent": 363.4,
     "weekGoal": 0,
     "weekRevenue": 0,
     "weekMissing": 0,
@@ -18,11 +18,11 @@
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 69500.0,
-      "reached": 0.0,
-      "missing": 69500.0,
+      "reached": 1680.5,
+      "missing": 67819.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 2.4,
       "status": "pending"
     },
     {
@@ -48,17 +48,6 @@
       "status": "ok"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 0.0,
-      "reached": 9825.6,
-      "missing": -9825.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 0.0,
@@ -73,8 +62,8 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 0.0,
-      "reached": 20260.4,
-      "missing": -20260.4,
+      "reached": 31535.6,
+      "missing": -31535.6,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -86,6 +75,17 @@
       "commitment": 0.0,
       "reached": 32649.7,
       "missing": -32649.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 0.0,
+      "reached": 172951.8,
+      "missing": -172951.8,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
