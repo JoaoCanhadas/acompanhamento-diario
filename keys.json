@@ -1,19 +1,30 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "11/08/2026 08:50",
+  "lastModified": "11/08/2026 08:51",
   "summary": {
-    "commitment": 69500.0,
+    "commitment": 523000.0,
     "reached": 252591.32,
-    "missing": -183091.32,
-    "percent": 363.4,
+    "missing": 270408.68,
+    "percent": 48.3,
     "weekGoal": 0,
     "weekRevenue": 0,
     "weekMissing": 0,
     "weekPercent": 0,
-    "positiveCount": 6,
-    "pendingCount": 1
+    "positiveCount": 3,
+    "pendingCount": 4
   },
   "rows": [
+    {
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 132000.0,
+      "reached": 13773.72,
+      "missing": 118226.28,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 10.4,
+      "status": "pending"
+    },
     {
       "reference": "KEY ABC",
       "seller": "KEY ABC",
@@ -23,6 +34,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 2.4,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 99000.0,
+      "reached": 31535.6,
+      "missing": 67464.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.9,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY CASA",
+      "seller": "KEY CASA",
+      "commitment": 62500.0,
+      "reached": 32649.7,
+      "missing": 29850.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.2,
       "status": "pending"
     },
     {
@@ -48,47 +81,14 @@
       "status": "ok"
     },
     {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
-      "commitment": 0.0,
-      "reached": 13773.72,
-      "missing": -13773.72,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 0.0,
-      "reached": 31535.6,
-      "missing": -31535.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY CASA",
-      "seller": "KEY CASA",
-      "commitment": 0.0,
-      "reached": 32649.7,
-      "missing": -32649.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
-      "commitment": 0.0,
+      "commitment": 160000.0,
       "reached": 172951.8,
-      "missing": -172951.8,
+      "missing": -12951.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0,
+      "percent": 108.1,
       "status": "ok"
     }
   ],
