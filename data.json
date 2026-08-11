@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/08/2026 07:41",
+  "lastModified": "11/08/2026 07:42",
   "summary": {
     "commitment": 200000.0,
-    "reached": 0.0,
-    "missing": 200000.0,
-    "percent": 0.0,
+    "reached": 2536.1,
+    "missing": 197463.9,
+    "percent": 1.3,
     "weekGoal": 692023.81,
     "weekRevenue": 615412.52,
     "weekMissing": 76611.29,
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15810.0,
-      "reached": 0.0,
-      "missing": 15810.0,
+      "reached": 1152.9,
+      "missing": 14657.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 7.3,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 5080.0,
-      "reached": 0.0,
-      "missing": 5080.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 4480.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 5080.0,
+      "reached": 618.2,
+      "missing": 4461.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 12.2,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 2700.0,
-      "reached": 0.0,
-      "missing": 2700.0,
+      "reached": 765.0,
+      "missing": 1935.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 28.3,
       "status": "pending"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 239617.76,
-      "missing": 452406.05,
-      "percent": 34.6
+      "reached": 242153.86,
+      "missing": 449869.95,
+      "percent": 35.0
     },
     {
       "name": "Semana 3",
