@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/08/2026 10:53",
+  "lastModified": "11/08/2026 10:54",
   "summary": {
     "commitment": 200000.0,
-    "reached": 68199.72,
-    "missing": 131800.28,
-    "percent": 34.1,
+    "reached": 69434.82,
+    "missing": 130565.18,
+    "percent": 34.7,
     "weekGoal": 692023.81,
     "weekRevenue": 615412.52,
     "weekMissing": 76611.29,
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 13640.0,
-      "reached": 9569.95,
-      "missing": 4070.05,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 70.2,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 4480.0,
@@ -158,14 +147,14 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 5080.0,
-      "reached": 1933.93,
-      "missing": 3146.07,
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 13640.0,
+      "reached": 10289.35,
+      "missing": 3350.65,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.1,
+      "percent": 75.4,
       "status": "pending"
     },
     {
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 53.5,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 5080.0,
+      "reached": 2449.63,
+      "missing": 2630.37,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 48.2,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 307817.48,
-      "missing": 384206.33,
-      "percent": 44.5
+      "reached": 309052.58,
+      "missing": 382971.23,
+      "percent": 44.7
     },
     {
       "name": "Semana 3",
