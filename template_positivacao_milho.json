@@ -1,22 +1,22 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "11/08/2026 08:50",
+  "lastModified": "11/08/2026 10:39",
   "summary": {
     "commitment": 783.0,
-    "reached": 297.0,
-    "missing": 486.0,
-    "percent": 37.9,
-    "weekGoal": 186.43,
+    "reached": 304.0,
+    "missing": 479.0,
+    "percent": 38.8,
+    "weekGoal": 200.0,
     "weekRevenue": 249.0,
-    "weekMissing": -62.57,
-    "weekPercent": 133.6,
+    "weekMissing": -49.0,
+    "weekPercent": 124.5,
     "positiveCount": 0,
     "pendingCount": 17
   },
   "rows": [
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
       "commitment": 53.0,
       "reached": 13.0,
       "missing": 40.0,
@@ -29,22 +29,22 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 55.0,
-      "reached": 19.0,
-      "missing": 36.0,
+      "reached": 20.0,
+      "missing": 35.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 34.5,
+      "percent": 36.4,
       "status": "pending"
     },
     {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 63.0,
-      "reached": 29.0,
-      "missing": 34.0,
+      "reached": 30.0,
+      "missing": 33.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 46.0,
+      "percent": 47.6,
       "status": "pending"
     },
     {
@@ -59,25 +59,14 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
+      "reference": "PENHA",
+      "seller": "LESTE PENHA",
       "commitment": 41.0,
       "reached": 9.0,
       "missing": 32.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 22.0,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 61.0,
-      "reached": 31.0,
-      "missing": 30.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.8,
       "status": "pending"
     },
     {
@@ -103,14 +92,25 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 51.0,
-      "reached": 23.0,
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 61.0,
+      "reached": 33.0,
       "missing": 28.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 45.1,
+      "percent": 54.1,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
+      "commitment": 51.0,
+      "reached": 24.0,
+      "missing": 27.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 47.1,
       "status": "pending"
     },
     {
@@ -172,16 +172,16 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37.0,
-      "reached": 13.0,
-      "missing": 24.0,
+      "reached": 15.0,
+      "missing": 22.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 35.1,
+      "percent": 40.5,
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
+      "reference": "VALE",
+      "seller": "SJC/VALE",
       "commitment": 38.0,
       "reached": 16.0,
       "missing": 22.0,
@@ -206,37 +206,37 @@
   "weeks": [
     {
       "name": "Semana 1",
-      "goal": 186.43,
+      "goal": 200.0,
       "reached": 249.0,
-      "missing": -62.57,
-      "percent": 133.6
+      "missing": -49.0,
+      "percent": 124.5
     },
     {
       "name": "Semana 2",
-      "goal": 186.43,
-      "reached": 80.0,
-      "missing": 106.43,
-      "percent": 42.9
+      "goal": 200.0,
+      "reached": 90.0,
+      "missing": 110.0,
+      "percent": 45.0
     },
     {
       "name": "Semana 3",
-      "goal": 186.43,
+      "goal": 200.0,
       "reached": 0.0,
-      "missing": 186.43,
+      "missing": 200.0,
       "percent": 0.0
     },
     {
       "name": "Semana 4",
-      "goal": 186.43,
+      "goal": 200.0,
       "reached": 0.0,
-      "missing": 186.43,
+      "missing": 200.0,
       "percent": 0.0
     },
     {
       "name": "Semana 5",
-      "goal": 37.29,
+      "goal": 200.0,
       "reached": 0.0,
-      "missing": 37.29,
+      "missing": 200.0,
       "percent": 0.0
     }
   ]
