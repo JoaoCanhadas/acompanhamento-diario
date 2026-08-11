@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/08/2026 11:15",
+  "lastModified": "11/08/2026 11:22",
   "summary": {
     "commitment": 200000.0,
-    "reached": 72877.42,
-    "missing": 127122.58,
-    "percent": 36.4,
+    "reached": 76146.02,
+    "missing": 123853.98,
+    "percent": 38.1,
     "weekGoal": 692023.81,
     "weekRevenue": 615412.52,
     "weekMissing": 76611.29,
@@ -14,17 +14,6 @@
     "pendingCount": 18
   },
   "rows": [
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 20960.0,
-      "reached": 6369.55,
-      "missing": 14590.45,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 30.4,
-      "status": "pending"
-    },
     {
       "reference": "OSASCO",
       "seller": "OSASCO",
@@ -37,8 +26,8 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
+      "reference": "TATUAPE",
+      "seller": "LESTE TATUAPE",
       "commitment": 14070.0,
       "reached": 1830.59,
       "missing": 12239.41,
@@ -59,8 +48,19 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 20960.0,
+      "reached": 9638.15,
+      "missing": 11321.85,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 46.0,
+      "status": "pending"
+    },
+    {
+      "reference": "MOOCA",
+      "seller": "LESTE MOOCA",
       "commitment": 13770.0,
       "reached": 3188.6,
       "missing": 10581.4,
@@ -158,8 +158,8 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
+      "reference": "VALE",
+      "seller": "SJC/VALE",
       "commitment": 3480.0,
       "reached": 629.8,
       "missing": 2850.2,
@@ -202,8 +202,8 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
+      "reference": "INTERNO 1",
+      "seller": "VENDEDOR INTERNO 1",
       "commitment": 2700.0,
       "reached": 1692.0,
       "missing": 1008.0,
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 312495.18,
-      "missing": 379528.63,
-      "percent": 45.2
+      "reached": 315763.78,
+      "missing": 376260.03,
+      "percent": 45.6
     },
     {
       "name": "Semana 3",
