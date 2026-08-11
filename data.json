@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/08/2026 13:48",
+  "lastModified": "11/08/2026 13:49",
   "summary": {
     "commitment": 200000.0,
-    "reached": 122229.91,
-    "missing": 77770.09,
-    "percent": 61.1,
+    "reached": 125127.61,
+    "missing": 74872.39,
+    "percent": 62.6,
     "weekGoal": 692023.81,
     "weekRevenue": 614385.22,
     "weekMissing": 77638.59,
@@ -40,11 +40,11 @@
       "reference": "LESTE PENHA",
       "seller": "LESTE PENHA",
       "commitment": 14040.0,
-      "reached": 5683.5,
-      "missing": 8356.5,
+      "reached": 5952.2,
+      "missing": 8087.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 40.5,
+      "percent": 42.4,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 5080.0,
-      "reached": 2449.63,
-      "missing": 2630.37,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 48.2,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 5650.0,
@@ -202,6 +191,17 @@
       "status": "pending"
     },
     {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 5080.0,
+      "reached": 5078.63,
+      "missing": 1.37,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "pending"
+    },
+    {
       "reference": "MOOCA",
       "seller": "LESTE MOOCA",
       "commitment": 13770.0,
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 361847.67,
-      "missing": 330176.14,
-      "percent": 52.3
+      "reached": 364745.37,
+      "missing": 327278.44,
+      "percent": 52.7
     },
     {
       "name": "Semana 3",
