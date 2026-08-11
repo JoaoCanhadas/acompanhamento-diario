@@ -1,16 +1,16 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "11/08/2026 11:24",
+  "lastModified": "11/08/2026 11:25",
   "summary": {
     "commitment": 523000.0,
-    "reached": 260232.85,
-    "missing": 262767.15,
-    "percent": 49.8,
-    "weekGoal": 0,
-    "weekRevenue": 0,
-    "weekMissing": 0,
-    "weekPercent": 0,
-    "positiveCount": 3,
+    "reached": 261156.45,
+    "missing": 261843.55,
+    "percent": 49.9,
+    "weekGoal": 685000,
+    "weekRevenue": 589719.49,
+    "weekMissing": 95280.51,
+    "weekPercent": 86.1,
+    "positiveCount": 2,
     "pendingCount": 4
   },
   "rows": [
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRACICABA",
-      "seller": "KEY PIRACICABA",
-      "commitment": 0.0,
-      "reached": 0.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 0.0,
@@ -84,14 +73,50 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 160000.0,
-      "reached": 175666.4,
-      "missing": -15666.4,
+      "reached": 176590.0,
+      "missing": -16590.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 109.8,
+      "percent": 110.4,
       "status": "ok"
     }
   ],
   "history": [],
-  "weeks": []
+  "weeks": [
+    {
+      "name": "Semana 1",
+      "goal": 685000,
+      "reached": 589719.49,
+      "missing": 95280.51,
+      "percent": 86.1
+    },
+    {
+      "name": "Semana 2",
+      "goal": 685000,
+      "reached": 261156.45,
+      "missing": 423843.55,
+      "percent": 38.1
+    },
+    {
+      "name": "Semana 3",
+      "goal": 685000,
+      "reached": 0.0,
+      "missing": 685000.0,
+      "percent": 0.0
+    },
+    {
+      "name": "Semana 4",
+      "goal": 685000,
+      "reached": 0.0,
+      "missing": 685000.0,
+      "percent": 0.0
+    },
+    {
+      "name": "Semana 5",
+      "goal": 137000,
+      "reached": 0.0,
+      "missing": 137000.0,
+      "percent": 0.0
+    }
+  ]
 }

@@ -1,16 +1,16 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "11/08/2026 11:24",
+  "lastModified": "11/08/2026 11:25",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 1781128.64,
-    "missing": 4003371.36,
+    "reached": 1783202.59,
+    "missing": 4001297.41,
     "percent": 30.8,
-    "weekGoal": 1377262,
-    "weekRevenue": 1205132.01,
-    "weekMissing": 172129.99,
-    "weekPercent": 87.5,
-    "positiveCount": 1,
+    "weekGoal": 0,
+    "weekRevenue": 0,
+    "weekMissing": 0,
+    "weekPercent": 0,
+    "positiveCount": 2,
     "pendingCount": 25
   },
   "rows": [
@@ -18,11 +18,11 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 980000.0,
-      "reached": 409440.5,
-      "missing": 570559.5,
+      "reached": 410364.1,
+      "missing": 569635.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 41.8,
+      "percent": 41.9,
       "status": "pending"
     },
     {
@@ -227,11 +227,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
-      "reached": 23023.67,
-      "missing": 66976.33,
+      "reached": 23800.47,
+      "missing": 66199.53,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 25.6,
+      "percent": 26.4,
       "status": "pending"
     },
     {
@@ -271,11 +271,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 55000.0,
-      "reached": 18008.18,
-      "missing": 36991.82,
+      "reached": 18381.73,
+      "missing": 36618.27,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 32.7,
+      "percent": 33.4,
       "status": "pending"
     },
     {
@@ -290,6 +290,17 @@
       "status": "pending"
     },
     {
+      "reference": "KEY PIRACICABA",
+      "seller": "KEY PIRACICABA",
+      "commitment": 0.0,
+      "reached": 0.0,
+      "missing": 0.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
       "reference": "IATAGAM JUNIOR",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -302,41 +313,5 @@
     }
   ],
   "history": [],
-  "weeks": [
-    {
-      "name": "Semana 1",
-      "goal": 1377262,
-      "reached": 1205132.01,
-      "missing": 172129.99,
-      "percent": 87.5
-    },
-    {
-      "name": "Semana 2",
-      "goal": 1377262,
-      "reached": 575996.63,
-      "missing": 801265.37,
-      "percent": 41.8
-    },
-    {
-      "name": "Semana 3",
-      "goal": 1377262,
-      "reached": 0.0,
-      "missing": 1377262.0,
-      "percent": 0.0
-    },
-    {
-      "name": "Semana 4",
-      "goal": 1377262,
-      "reached": 0.0,
-      "missing": 1377262.0,
-      "percent": 0.0
-    },
-    {
-      "name": "Semana 5",
-      "goal": 275452,
-      "reached": 0.0,
-      "missing": 275452.0,
-      "percent": 0.0
-    }
-  ]
+  "weeks": []
 }
