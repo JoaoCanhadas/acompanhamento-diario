@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "11/08/2026 08:50",
+  "lastModified": "11/08/2026 10:39",
   "summary": {
     "commitment": 200000.0,
-    "reached": 6901.83,
-    "missing": 193098.17,
-    "percent": 3.5,
+    "reached": 36357.45,
+    "missing": 163642.55,
+    "percent": 18.2,
     "weekGoal": 692023.81,
     "weekRevenue": 576966.17,
     "weekMissing": 115057.64,
@@ -18,22 +18,11 @@
       "seller": "OSASCO",
       "reference": "OSASCO",
       "commitment": 22330.0,
-      "reached": 0.0,
-      "missing": 22330.0,
+      "reached": 4119.99,
+      "missing": 18210.01,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "seller": "SBC",
-      "reference": "SBC",
-      "commitment": 22280.0,
-      "reached": 0.0,
-      "missing": 22280.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
+      "percent": 18.5,
       "status": "pending"
     },
     {
@@ -48,44 +37,11 @@
       "status": "pending"
     },
     {
-      "seller": "INTERLAGOS",
-      "reference": "INTERLAGOS",
-      "commitment": 15810.0,
-      "reached": 1152.9,
-      "missing": 14657.1,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 7.3,
-      "status": "pending"
-    },
-    {
-      "seller": "TATUAPE",
-      "reference": "LESTE TATUAPE",
+      "seller": "LESTE TATUAPE",
+      "reference": "TATUAPE",
       "commitment": 14070.0,
       "reached": 0.0,
       "missing": 14070.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "seller": "LESTE PENHA",
-      "reference": "LESTE PENHA",
-      "commitment": 14040.0,
-      "reached": 0.0,
-      "missing": 14040.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "seller": "MOOCA",
-      "reference": "LESTE MOOCA",
-      "commitment": 13770.0,
-      "reached": 0.0,
-      "missing": 13770.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
@@ -103,6 +59,17 @@
       "status": "pending"
     },
     {
+      "seller": "INTERLAGOS",
+      "reference": "INTERLAGOS",
+      "commitment": 15810.0,
+      "reached": 3652.3,
+      "missing": 12157.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 23.1,
+      "status": "pending"
+    },
+    {
       "seller": "SANTO ANDRE",
       "reference": "SANTO ANDRE",
       "commitment": 11350.0,
@@ -114,25 +81,58 @@
       "status": "pending"
     },
     {
+      "seller": "LESTE MOOCA",
+      "reference": "MOOCA",
+      "commitment": 13770.0,
+      "reached": 2609.2,
+      "missing": 11160.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 18.9,
+      "status": "pending"
+    },
+    {
+      "seller": "SBC",
+      "reference": "SBC",
+      "commitment": 22280.0,
+      "reached": 11201.53,
+      "missing": 11078.47,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.3,
+      "status": "pending"
+    },
+    {
       "seller": "PIRITUBA",
       "reference": "PIRITUBA",
       "commitment": 11040.0,
-      "reached": 0.0,
-      "missing": 11040.0,
+      "reached": 503.1,
+      "missing": 10536.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 4.6,
+      "status": "pending"
+    },
+    {
+      "seller": "LESTE PENHA",
+      "reference": "LESTE PENHA",
+      "commitment": 14040.0,
+      "reached": 4104.8,
+      "missing": 9935.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 29.2,
       "status": "pending"
     },
     {
       "seller": "MOGI",
       "reference": "MOGI",
       "commitment": 7100.0,
-      "reached": 0.0,
-      "missing": 7100.0,
+      "reached": 144.9,
+      "missing": 6955.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 2.0,
       "status": "pending"
     },
     {
@@ -158,41 +158,30 @@
       "status": "pending"
     },
     {
-      "seller": "SJC",
-      "reference": "SJC",
-      "commitment": 5650.0,
-      "reached": 299.8,
-      "missing": 5350.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 5.3,
-      "status": "pending"
-    },
-    {
       "seller": "INDAIATUBA",
       "reference": "INDAIATUBA",
       "commitment": 4480.0,
-      "reached": 0.0,
-      "missing": 4480.0,
+      "reached": 220.8,
+      "missing": 4259.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 4.9,
       "status": "pending"
     },
     {
       "seller": "JUNDIAI",
       "reference": "JUNDIAI",
       "commitment": 5080.0,
-      "reached": 618.2,
-      "missing": 4461.8,
+      "reached": 1527.93,
+      "missing": 3552.07,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 12.2,
+      "percent": 30.1,
       "status": "pending"
     },
     {
-      "seller": "VALE",
-      "reference": "SJC/VALE",
+      "seller": "SJC/VALE",
+      "reference": "VALE",
       "commitment": 3480.0,
       "reached": 0.0,
       "missing": 3480.0,
@@ -202,14 +191,25 @@
       "status": "pending"
     },
     {
-      "seller": "INTERNO 1",
-      "reference": "VENDEDOR INTERNO 1",
-      "commitment": 2700.0,
-      "reached": 1516.98,
-      "missing": 1183.02,
+      "seller": "SJC",
+      "reference": "SJC",
+      "commitment": 5650.0,
+      "reached": 3266.95,
+      "missing": 2383.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 56.2,
+      "percent": 57.8,
+      "status": "pending"
+    },
+    {
+      "seller": "VENDEDOR INTERNO 1",
+      "reference": "INTERNO 1",
+      "commitment": 2700.0,
+      "reached": 1692.0,
+      "missing": 1008.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 62.7,
       "status": "pending"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 236223.09,
-      "missing": 455800.72,
-      "percent": 34.1
+      "reached": 263069.51,
+      "missing": 428954.3,
+      "percent": 38.0
     },
     {
       "name": "Semana 3",
