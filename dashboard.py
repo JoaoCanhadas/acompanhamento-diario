@@ -2298,6 +2298,18 @@ def read_general_planilha1_data(excel_path, workbook):
             sheet.cell(row_number, seller_col).value
         )
 
+        if normalize_key(reference) in {
+            "KEY PIRACICABA",
+            "IATAGAM JUNIOR"
+        }:
+            continue
+
+        if normalize_key(seller) in {
+            "KEY PIRACICABA",
+            "IATAGAM JUNIOR"
+        }:
+            continue
+
         if not reference and not seller:
             break
 
@@ -2325,7 +2337,11 @@ def read_general_planilha1_data(excel_path, workbook):
             else 0
         )
 
-        rows.append(
+        if normalize_key(seller or reference) not in {
+            "KEY PIRACICABA",
+            "IATAGAM JUNIOR"
+        }:
+                    rows.append(
             {
                 "reference": reference or seller,
                 "seller": seller or reference,
@@ -2338,6 +2354,14 @@ def read_general_planilha1_data(excel_path, workbook):
                 "status": "ok" if missing <= 0 else "pending",
             }
         )
+
+    rows = [
+        item for item in rows
+        if normalize_key(item["seller"]) not in {
+            "KEY PIRACICABA",
+            "IATAGAM JUNIOR"
+        }
+    ]
 
     indicators = {}
 
@@ -2471,6 +2495,7 @@ def read_general_planilha1_data(excel_path, workbook):
         "history": [],
         "weeks": weeks,
     }
+
 def read_positivacao_milho_planilha1_data(excel_path, workbook):
     sheet = workbook["Planilha1"]
 
@@ -2564,7 +2589,7 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
     for row_number in range(10, sheet.max_row + 1):
         if (
             normalize_key(
-                sheet.cell(row_number, reference_col).value
+                sheet.cell(row_number, seller_col).value
             )
             == "SEMANAL"
         ):
@@ -2577,19 +2602,23 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
             sheet.max_row + 1
         ):
             raw_label = normalize_text(
-                sheet.cell(row_number, reference_col).value
+                sheet.cell(row_number, seller_col).value
             )
 
             if not normalize_key(raw_label).startswith("SEMANA"):
                 continue
 
-            goal = POSITIVACAO_MILHO_WEEKLY_GOAL
+            goal = money(
+                sheet.cell(row_number, commitment_col).value
+            )
 
             reached = money(
                 sheet.cell(row_number, reached_col).value
             )
 
-            missing = money(goal - reached)
+            missing = money(
+                sheet.cell(row_number, missing_col).value
+            )
 
             weeks.append(
                 {
@@ -2641,39 +2670,32 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
 
     return {
         "workbook": excel_path.name,
-
         "lastModified": datetime.fromtimestamp(
             excel_path.stat().st_mtime
         ).strftime("%d/%m/%Y %H:%M"),
-
         "summary": {
             "commitment": total_commitment,
             "reached": total_reached,
             "missing": total_missing,
             "percent": round(total_percent, 1),
-
             "weekGoal": weeks[0]["goal"] if weeks else 0,
             "weekRevenue": weeks[0]["reached"] if weeks else 0,
             "weekMissing": weeks[0]["missing"] if weeks else 0,
             "weekPercent": weeks[0]["percent"] if weeks else 0,
-
             "positiveCount": sum(
                 1 for item in rows
                 if item["missing"] <= 0
             ),
-
             "pendingCount": sum(
                 1 for item in rows
                 if item["missing"] > 0
             ),
         },
-
         "rows": sorted(
             rows,
             key=lambda item: item["missing"],
             reverse=True
         ),
-
         "history": [],
         "weeks": weeks,
     }
