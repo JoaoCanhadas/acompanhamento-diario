@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "12/08/2026 10:25",
+  "lastModified": "12/08/2026 10:26",
   "summary": {
     "commitment": 150230.0,
-    "reached": 57601.19,
-    "missing": 92628.81,
-    "percent": 38.3,
+    "reached": 59577.33,
+    "missing": 90652.67,
+    "percent": 39.7,
     "weekGoal": 692023.81,
     "weekRevenue": 614385.22,
     "weekMissing": 77638.59,
@@ -29,22 +29,22 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 16640.0,
-      "reached": 6462.1,
-      "missing": 10177.9,
+      "reached": 6762.1,
+      "missing": 9877.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.8,
+      "percent": 40.6,
       "status": "pending"
     },
     {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 13800.0,
-      "reached": 4232.65,
-      "missing": 9567.35,
+      "reached": 4331.63,
+      "missing": 9468.37,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.7,
+      "percent": 31.4,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 4230.0,
-      "reached": 548.55,
-      "missing": 3681.45,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 13.0,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 12320.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 72.4,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 4230.0,
+      "reached": 2125.71,
+      "missing": 2104.29,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.3,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 436015.31,
-      "missing": 256008.5,
-      "percent": 63.0
+      "reached": 437991.45,
+      "missing": 254032.36,
+      "percent": 63.3
     },
     {
       "name": "Semana 3",
