@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "12/08/2026 10:49",
+  "lastModified": "12/08/2026 10:50",
   "summary": {
     "commitment": 150230.0,
-    "reached": 62807.07,
-    "missing": 87422.93,
-    "percent": 41.8,
+    "reached": 65154.17,
+    "missing": 85075.83,
+    "percent": 43.4,
     "weekGoal": 692023.81,
     "weekRevenue": 614385.22,
     "weekMissing": 77638.59,
@@ -51,11 +51,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 13800.0,
-      "reached": 5066.03,
-      "missing": 8733.97,
+      "reached": 6758.73,
+      "missing": 7041.27,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 36.7,
+      "percent": 49.0,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 5400.0,
-      "reached": 888.2,
-      "missing": 4511.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 16.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 11580.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 27.7,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 5400.0,
+      "reached": 1542.6,
+      "missing": 3857.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 28.6,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 441221.19,
-      "missing": 250802.62,
-      "percent": 63.8
+      "reached": 443568.29,
+      "missing": 248455.52,
+      "percent": 64.1
     },
     {
       "name": "Semana 3",
