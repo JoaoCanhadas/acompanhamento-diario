@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "12/08/2026 13:11",
+  "lastModified": "12/08/2026 13:12",
   "summary": {
     "commitment": 150230.0,
-    "reached": 91048.18,
-    "missing": 59181.82,
-    "percent": 60.6,
+    "reached": 93875.78,
+    "missing": 56354.22,
+    "percent": 62.5,
     "weekGoal": 692023.81,
     "weekRevenue": 614465.22,
     "weekMissing": 77558.59,
     "weekPercent": 88.8,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 6090.0,
-      "reached": 2710.0,
-      "missing": 3380.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.5,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 16640.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 77.2,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 6090.0,
+      "reached": 3045.4,
+      "missing": 3044.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.0,
       "status": "pending"
     },
     {
@@ -133,17 +133,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 50.3,
-      "status": "pending"
-    },
-    {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 12320.0,
-      "reached": 10540.25,
-      "missing": 1779.75,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 85.6,
       "status": "pending"
     },
     {
@@ -202,6 +191,17 @@
       "status": "ok"
     },
     {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 12320.0,
+      "reached": 13032.45,
+      "missing": -712.45,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 105.8,
+      "status": "ok"
+    },
+    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 3900.0,
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 469821.2,
-      "missing": 222202.61,
-      "percent": 67.9
+      "reached": 472648.8,
+      "missing": 219375.01,
+      "percent": 68.3
     },
     {
       "name": "Semana 3",
