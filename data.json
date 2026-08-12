@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "12/08/2026 09:59",
+  "lastModified": "12/08/2026 10:00",
   "summary": {
     "commitment": 150230.0,
-    "reached": 41690.95,
-    "missing": 108539.05,
-    "percent": 27.8,
+    "reached": 44901.15,
+    "missing": 105328.85,
+    "percent": 29.9,
     "weekGoal": 692023.81,
     "weekRevenue": 614385.22,
     "weekMissing": 77638.59,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 17760.0,
-      "reached": 6925.4,
-      "missing": 10834.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 39.0,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 11900.0,
@@ -70,14 +59,14 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 10190.0,
-      "reached": 1490.38,
-      "missing": 8699.62,
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 17760.0,
+      "reached": 8143.95,
+      "missing": 9616.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.6,
+      "percent": 45.9,
       "status": "pending"
     },
     {
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 34.5,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 10190.0,
+      "reached": 3133.78,
+      "missing": 7056.22,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 30.8,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 3900.0,
-      "reached": 2126.15,
-      "missing": 1773.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 54.5,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 2080.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 16.2,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 3900.0,
+      "reached": 2474.4,
+      "missing": 1425.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 63.4,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 420105.07,
-      "missing": 271918.74,
-      "percent": 60.7
+      "reached": 423315.27,
+      "missing": 268708.54,
+      "percent": 61.2
     },
     {
       "name": "Semana 3",
