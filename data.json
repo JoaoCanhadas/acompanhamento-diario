@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "12/08/2026 12:30",
+  "lastModified": "12/08/2026 12:31",
   "summary": {
     "commitment": 150230.0,
-    "reached": 87165.18,
-    "missing": 63064.82,
-    "percent": 58.0,
+    "reached": 89667.78,
+    "missing": 60562.22,
+    "percent": 59.7,
     "weekGoal": 692023.81,
     "weekRevenue": 614465.22,
     "weekMissing": 77558.59,
@@ -29,11 +29,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 17760.0,
-      "reached": 8572.55,
-      "missing": 9187.45,
+      "reached": 10389.15,
+      "missing": 7370.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 48.3,
+      "percent": 58.5,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 13800.0,
-      "reached": 9961.23,
-      "missing": 3838.77,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 72.2,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 6090.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 40.8,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 13800.0,
+      "reached": 10647.23,
+      "missing": 3152.77,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.2,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 465938.2,
-      "missing": 226085.61,
-      "percent": 67.3
+      "reached": 468440.8,
+      "missing": 223583.01,
+      "percent": 67.7
     },
     {
       "name": "Semana 3",
