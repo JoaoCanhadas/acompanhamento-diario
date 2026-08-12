@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "12/08/2026 14:07",
+  "lastModified": "12/08/2026 14:08",
   "summary": {
     "commitment": 150230.0,
-    "reached": 118677.04,
-    "missing": 31552.96,
-    "percent": 79.0,
+    "reached": 119365.36,
+    "missing": 30864.64,
+    "percent": 79.5,
     "weekGoal": 692023.81,
     "weekRevenue": 614465.22,
     "weekMissing": 77558.59,
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 11900.0,
-      "reached": 7846.35,
-      "missing": 4053.65,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 65.9,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 5310.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 26.3,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 11900.0,
+      "reached": 8152.35,
+      "missing": 3747.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 68.5,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 2080.0,
-      "reached": 336.45,
-      "missing": 1743.55,
+      "reached": 718.77,
+      "missing": 1361.23,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.2,
+      "percent": 34.6,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 497450.06,
-      "missing": 194573.75,
-      "percent": 71.9
+      "reached": 498138.38,
+      "missing": 193885.43,
+      "percent": 72.0
     },
     {
       "name": "Semana 3",
