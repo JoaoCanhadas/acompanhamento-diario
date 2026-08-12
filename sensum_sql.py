@@ -457,8 +457,20 @@ def build_pedido_summary(rows, weeks, template, panel):
         "weekRevenue": current_week.get("reached", 0),
         "weekMissing": current_week.get("missing", 0),
         "weekPercent": current_week.get("percent", 0),
-        "positiveCount": sum(1 for item in rows if item["missing"] <= 0),
-        "pendingCount": sum(1 for item in rows if item["missing"] > 0),
+
+        "positiveCount": sum(
+            1
+            for item in rows
+            if item["commitment"] > 0
+            and item["missing"] <= 0
+        ),
+
+        "pendingCount": sum(
+            1
+            for item in rows
+            if item["commitment"] > 0
+            and item["missing"] > 0
+        ),
     }
 
 
@@ -518,8 +530,18 @@ def build_summary(rows, weeks, summary_items, panel):
         "weekRevenue": current_week.get("reached", 0),
         "weekMissing": current_week.get("missing", 0),
         "weekPercent": current_week.get("percent", 0),
-        "positiveCount": sum(1 for item in rows if item["missing"] <= 0),
-        "pendingCount": sum(1 for item in rows if item["missing"] > 0),
+        "positiveCount": sum(
+            1
+            for item in rows
+            if item["commitment"] > 0
+            and item["missing"] <= 0
+        ),
+        "pendingCount": sum(
+            1
+            for item in rows
+            if item["commitment"] > 0
+            and item["missing"] > 0
+        ),
     }
 
 
