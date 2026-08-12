@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "12/08/2026 10:52",
+  "lastModified": "12/08/2026 10:54",
   "summary": {
     "commitment": 783.0,
     "reached": 365.0,
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 43.0,
-      "reached": 20.0,
-      "missing": 23.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 46.5,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 40.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 42.5,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 43.0,
+      "reached": 20.0,
+      "missing": 23.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 46.5,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 38.0,
-      "reached": 19.0,
-      "missing": 19.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.0,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 29.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 34.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 38.0,
+      "reached": 19.0,
+      "missing": 19.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.0,
       "status": "pending"
     },
     {
