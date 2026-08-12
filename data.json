@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "12/08/2026 13:51",
+  "lastModified": "12/08/2026 13:52",
   "summary": {
     "commitment": 150230.0,
-    "reached": 109675.64,
-    "missing": 40554.36,
-    "percent": 73.0,
+    "reached": 114473.64,
+    "missing": 35756.36,
+    "percent": 76.2,
     "weekGoal": 692023.81,
     "weekRevenue": 614465.22,
     "weekMissing": 77558.59,
     "weekPercent": 88.8,
-    "positiveCount": 4,
-    "pendingCount": 14
+    "positiveCount": 5,
+    "pendingCount": 13
   },
   "rows": [
     {
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 10190.0,
-      "reached": 6745.73,
-      "missing": 3444.27,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.2,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 13800.0,
@@ -81,25 +70,14 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 6090.0,
-      "reached": 3045.4,
-      "missing": 3044.6,
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 10190.0,
+      "reached": 7725.23,
+      "missing": 2464.77,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.0,
-      "status": "pending"
-    },
-    {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 5400.0,
-      "reached": 2411.8,
-      "missing": 2988.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.7,
+      "percent": 75.8,
       "status": "pending"
     },
     {
@@ -111,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 79.4,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 5400.0,
+      "reached": 3111.3,
+      "missing": 2288.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 57.6,
       "status": "pending"
     },
     {
@@ -180,6 +169,17 @@
       "status": "ok"
     },
     {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 6090.0,
+      "reached": 6164.4,
+      "missing": -74.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.2,
+      "status": "ok"
+    },
+    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 12320.0,
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 488448.66,
-      "missing": 203575.15,
-      "percent": 70.6
+      "reached": 493246.66,
+      "missing": 198777.15,
+      "percent": 71.3
     },
     {
       "name": "Semana 3",
