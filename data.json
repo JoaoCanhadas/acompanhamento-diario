@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "12/08/2026 10:38",
+  "lastModified": "12/08/2026 10:39",
   "summary": {
     "commitment": 150230.0,
-    "reached": 61227.23,
-    "missing": 89002.77,
-    "percent": 40.8,
+    "reached": 62409.23,
+    "missing": 87820.77,
+    "percent": 41.5,
     "weekGoal": 692023.81,
     "weekRevenue": 614385.22,
     "weekMissing": 77638.59,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 13800.0,
-      "reached": 4331.63,
-      "missing": 9468.37,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 31.4,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 17760.0,
@@ -59,14 +48,25 @@
       "status": "pending"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 13800.0,
+      "reached": 5066.03,
+      "missing": 8733.97,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 36.7,
+      "status": "pending"
+    },
+    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 11900.0,
-      "reached": 4806.6,
-      "missing": 7093.4,
+      "reached": 5017.5,
+      "missing": 6882.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 40.4,
+      "percent": 42.2,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 11580.0,
-      "reached": 6560.45,
-      "missing": 5019.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 56.7,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 6090.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 20.9,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 11580.0,
+      "reached": 6797.15,
+      "missing": 4782.85,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 58.7,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 439641.35,
-      "missing": 252382.46,
-      "percent": 63.5
+      "reached": 440823.35,
+      "missing": 251200.46,
+      "percent": 63.7
     },
     {
       "name": "Semana 3",
