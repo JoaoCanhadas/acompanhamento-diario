@@ -918,7 +918,7 @@ const formatBalance = (value, formatter) => {
 
   pendingText: "vendedores pendentes",
 
-  positiveText: "bateram a meta",
+  positiveText: "acima da meta",
 
   format: formatNumber,
 
@@ -942,7 +942,7 @@ const formatBalance = (value, formatter) => {
         title: "Performance Key por vendedor",
         commitmentLabel: "Meta semanal",
         pendingText: "vendedores pendentes",
-        positiveText: "superaram a meta",
+        positiveText: "acima da meta",
         format: formatMoney,
         columns: [
           { key: "seller", label: "Vendedor", value: (row) => row.seller },
