@@ -6,10 +6,10 @@
     "reached": 0.0,
     "missing": 783.0,
     "percent": 0.0,
-    "weekGoal": 0,
-    "weekRevenue": 0,
-    "weekMissing": 0,
-    "weekPercent": 0,
+    "weekGoal": 186.43,
+    "weekRevenue": 249.0,
+    "weekMissing": -62.57,
+    "weekPercent": 133.6,
     "positiveCount": 0,
     "pendingCount": 17
   },
@@ -203,5 +203,41 @@
     }
   ],
   "history": [],
-  "weeks": []
+  "weeks": [
+    {
+      "name": "Semana 1",
+      "goal": 186.43,
+      "reached": 249.0,
+      "missing": -62.57,
+      "percent": 133.6
+    },
+    {
+      "name": "Semana 2",
+      "goal": 186.43,
+      "reached": 142.0,
+      "missing": 44.43,
+      "percent": 76.2
+    },
+    {
+      "name": "Semana 3",
+      "goal": 186.43,
+      "reached": 0.0,
+      "missing": 186.43,
+      "percent": 0.0
+    },
+    {
+      "name": "Semana 4",
+      "goal": 186.43,
+      "reached": 0.0,
+      "missing": 186.43,
+      "percent": 0.0
+    },
+    {
+      "name": "Semana 5",
+      "goal": 37.29,
+      "reached": 0.0,
+      "missing": 37.29,
+      "percent": 0.0
+    }
+  ]
 }
