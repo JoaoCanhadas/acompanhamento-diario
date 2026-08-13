@@ -570,7 +570,7 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       .value {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.12;
         word-break: normal;
         overflow-wrap: normal;
