@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "13/08/2026 14:48",
+  "lastModified": "13/08/2026 14:49",
   "summary": {
     "commitment": 130000.0,
-    "reached": 87096.97,
-    "missing": 42903.03,
-    "percent": 67.0,
+    "reached": 88213.13,
+    "missing": 41786.87,
+    "percent": 67.9,
     "weekGoal": 692023.81,
-    "weekRevenue": 614465.22,
-    "weekMissing": 77558.59,
-    "weekPercent": 88.8,
+    "weekRevenue": 614141.12,
+    "weekMissing": 77882.69,
+    "weekPercent": 88.7,
     "positiveCount": 3,
     "pendingCount": 15
   },
@@ -73,22 +73,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 16150.0,
-      "reached": 12578.6,
-      "missing": 3571.4,
+      "reached": 13209.0,
+      "missing": 2941.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 77.9,
-      "status": "pending"
-    },
-    {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 2480.0,
-      "reached": 0.0,
-      "missing": 2480.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
+      "percent": 81.8,
       "status": "pending"
     },
     {
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 16.7,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 2480.0,
+      "reached": 485.76,
+      "missing": 1994.24,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 19.6,
       "status": "pending"
     },
     {
@@ -218,16 +218,16 @@
     {
       "name": "Semana 1",
       "goal": 692023.81,
-      "reached": 614465.22,
-      "missing": 77558.59,
-      "percent": 88.8
+      "reached": 614141.12,
+      "missing": 77882.69,
+      "percent": 88.7
     },
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 585643.7,
-      "missing": 106380.11,
-      "percent": 84.6
+      "reached": 586759.86,
+      "missing": 105263.95,
+      "percent": 84.8
     },
     {
       "name": "Semana 3",
