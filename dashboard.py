@@ -552,8 +552,12 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       .cards {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
         gap: 10px;
+      }
+
+      .projection-card {
+        grid-column: 1 / -1;
       }
 
       .card {
@@ -568,8 +572,9 @@ INDEX_HTML = r"""<!doctype html>
       .value {
         font-size: 22px;
         line-height: 1.12;
+        word-break: normal;
+        overflow-wrap: normal;
       }
-
       .hint {
         font-size: 12px;
       }
@@ -633,31 +638,37 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       tbody tr {
-        margin: 12px;
+        width: calc(100% - 16px);
+        margin: 10px 8px;
         padding: 12px;
         border: 1px solid var(--line);
         border-radius: 8px;
         background: rgba(8,13,22,.76);
+        box-sizing: border-box;
       }
 
       td {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 12px;
+        gap: 10px;
         padding: 8px 0;
         border-bottom: 1px solid rgba(34,48,71,.5);
         text-align: right;
         white-space: normal;
         font-size: 14px;
+        box-sizing: border-box;
       }
 
-      td:last-child {
-        border-bottom: 0;
+      td:not(.seller) {
+        min-width: 0;
+        padding-right: 4px;
       }
 
       td::before {
         content: attr(data-label);
+        flex: 0 0 42%;
+        min-width: 0;
         color: var(--soft);
         font-size: 12px;
         font-weight: 900;
