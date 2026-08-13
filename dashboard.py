@@ -1140,12 +1140,9 @@ function calcularProjecaoMes(atingido) {
     12
   );
 
-  const ontem = new Date(hoje);
-  ontem.setDate(ontem.getDate() - 1);
-
   const diasUteisDecorridos = contarDiasUteis(
     inicioMes,
-    ontem
+    hoje
   );
 
   const diasUteisMes = contarDiasUteis(
