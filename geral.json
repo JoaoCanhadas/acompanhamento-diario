@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "13/08/2026 13:20",
+  "lastModified": "13/08/2026 13:21",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 2237974.91,
-    "missing": 3546525.09,
-    "percent": 38.7,
+    "reached": 2243412.37,
+    "missing": 3541087.63,
+    "percent": 38.8,
     "weekGoal": 1377262,
     "weekRevenue": 1204184.71,
     "weekMissing": 173077.29,
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 145000.0,
-      "reached": 48403.74,
-      "missing": 96596.26,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 33.4,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 44.8,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 145000.0,
+      "reached": 53271.6,
+      "missing": 91728.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 36.7,
       "status": "pending"
     },
     {
@@ -271,11 +271,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 55000.0,
-      "reached": 21719.98,
-      "missing": 33280.02,
+      "reached": 22289.58,
+      "missing": 32710.42,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 39.5,
+      "percent": 40.5,
       "status": "pending"
     },
     {
@@ -313,9 +313,9 @@
     {
       "name": "Semana 2",
       "goal": 1377262,
-      "reached": 1033790.21,
-      "missing": 343471.79,
-      "percent": 75.1
+      "reached": 1039227.67,
+      "missing": 338034.33,
+      "percent": 75.5
     },
     {
       "name": "Semana 3",
