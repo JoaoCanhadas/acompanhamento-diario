@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "14/08/2026 07:57",
+  "lastModified": "14/08/2026 07:58",
   "summary": {
     "commitment": 120100.0,
-    "reached": 709.7,
-    "missing": 119390.3,
-    "percent": 0.6,
+    "reached": 1049.5,
+    "missing": 119050.5,
+    "percent": 0.9,
     "weekGoal": 692023.81,
     "weekRevenue": 614141.12,
     "weekMissing": 77882.69,
@@ -84,11 +84,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 7860.0,
-      "reached": 0.0,
-      "missing": 7860.0,
+      "reached": 99.9,
+      "missing": 7760.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 1.3,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 1530.0,
-      "reached": 0.0,
-      "missing": 1530.0,
+      "reached": 239.9,
+      "missing": 1290.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 15.7,
       "status": "pending"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 595227.83,
-      "missing": 96795.98,
-      "percent": 86.0
+      "reached": 595567.63,
+      "missing": 96456.18,
+      "percent": 86.1
     },
     {
       "name": "Semana 3",
