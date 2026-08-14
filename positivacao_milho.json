@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "14/08/2026 08:29",
+  "lastModified": "14/08/2026 08:30",
   "summary": {
     "commitment": 783.0,
-    "reached": 413.0,
-    "missing": 370.0,
-    "percent": 52.7,
+    "reached": 414.0,
+    "missing": 369.0,
+    "percent": 52.9,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 47.0,
-      "reached": 27.0,
-      "missing": 20.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 57.4,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 43.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 64.8,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 47.0,
+      "reached": 28.0,
+      "missing": 19.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 59.6,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 186,
-      "reached": 243.0,
-      "missing": -57.0,
-      "percent": 130.6
+      "reached": 244.0,
+      "missing": -58.0,
+      "percent": 131.2
     },
     {
       "name": "Semana 3",
