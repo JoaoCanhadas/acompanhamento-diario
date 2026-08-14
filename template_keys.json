@@ -1,17 +1,17 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "14/08/2026 07:12",
+  "lastModified": "14/08/2026 15:28",
   "summary": {
     "commitment": 523000.0,
-    "reached": 492746.49,
-    "missing": 30253.51,
-    "percent": 94.2,
+    "reached": 535634.29,
+    "missing": -12634.29,
+    "percent": 102.4,
     "weekGoal": 685000.0,
     "weekRevenue": 589719.49,
     "weekMissing": 95280.51,
     "weekPercent": 86.1,
-    "positiveCount": 3,
-    "pendingCount": 3
+    "positiveCount": 4,
+    "pendingCount": 2
   },
   "rows": [
     {
@@ -29,30 +29,30 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 99000.0,
-      "reached": 53859.06,
-      "missing": 45140.94,
+      "reached": 88198.56,
+      "missing": 10801.44,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 54.4,
+      "percent": 89.1,
       "status": "pending"
     },
     {
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 69500.0,
-      "reached": 67278.9,
-      "missing": 2221.1,
+      "reached": 73334.4,
+      "missing": -3834.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 96.8,
-      "status": "pending"
+      "percent": 105.5,
+      "status": "ok"
     },
     {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 0.0,
-      "reached": 12656.2,
-      "missing": -12656.2,
+      "reached": 15149.0,
+      "missing": -15149.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -93,9 +93,9 @@
     {
       "name": "Semana 2",
       "goal": 685000.0,
-      "reached": 492746.49,
-      "missing": 192253.51,
-      "percent": 71.9
+      "reached": 535634.29,
+      "missing": 149365.71,
+      "percent": 78.2
     },
     {
       "name": "Semana 3",
