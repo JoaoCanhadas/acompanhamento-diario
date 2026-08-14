@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "14/08/2026 08:44",
+  "lastModified": "14/08/2026 08:46",
   "summary": {
     "commitment": 783.0,
-    "reached": 416.0,
-    "missing": 367.0,
-    "percent": 53.1,
+    "reached": 419.0,
+    "missing": 364.0,
+    "percent": 53.5,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 61.0,
-      "reached": 37.0,
-      "missing": 24.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 60.7,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 44.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 41.5,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 61.0,
+      "reached": 38.0,
+      "missing": 23.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 62.3,
       "status": "pending"
     },
     {
@@ -136,30 +136,8 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 54.0,
-      "reached": 36.0,
-      "missing": 18.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.7,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
-      "commitment": 38.0,
-      "reached": 20.0,
-      "missing": 18.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 52.6,
-      "status": "pending"
-    },
-    {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
       "commitment": 38.0,
       "reached": 20.0,
       "missing": 18.0,
@@ -180,6 +158,17 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 54.0,
+      "reached": 37.0,
+      "missing": 17.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 68.5,
+      "status": "pending"
+    },
+    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 40.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 57.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 38.0,
+      "reached": 21.0,
+      "missing": 17.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.3,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 186,
-      "reached": 246.0,
-      "missing": -60.0,
-      "percent": 132.3
+      "reached": 249.0,
+      "missing": -63.0,
+      "percent": 133.9
     },
     {
       "name": "Semana 3",
