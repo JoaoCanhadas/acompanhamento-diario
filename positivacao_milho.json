@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "14/08/2026 11:09",
+  "lastModified": "14/08/2026 11:10",
   "summary": {
     "commitment": 783.0,
-    "reached": 435.0,
-    "missing": 348.0,
-    "percent": 55.6,
+    "reached": 436.0,
+    "missing": 347.0,
+    "percent": 55.7,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 29.0,
-      "reached": 12.0,
-      "missing": 17.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 41.4,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 54.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.4,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 29.0,
+      "reached": 13.0,
+      "missing": 16.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 44.8,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 186,
-      "reached": 266.0,
-      "missing": -80.0,
-      "percent": 143.0
+      "reached": 267.0,
+      "missing": -81.0,
+      "percent": 143.5
     },
     {
       "name": "Semana 3",
