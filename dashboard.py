@@ -1564,7 +1564,7 @@ byId("search").addEventListener("input", renderTable);
 byId("status").addEventListener("change", renderTable);
 byId("refresh").addEventListener("click", loadData);
 
-const autoRotateViews = ["sales", "general"];
+const autoRotateViews = ["sales", "general", "keys", "milho"];
 let autoRotateTimer = null;
 
 function changeToNextView() {
