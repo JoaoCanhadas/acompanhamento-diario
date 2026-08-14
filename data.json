@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "14/08/2026 13:16",
+  "lastModified": "14/08/2026 13:17",
   "summary": {
     "commitment": 120100.0,
-    "reached": 54741.33,
-    "missing": 65358.67,
-    "percent": 45.6,
+    "reached": 58526.53,
+    "missing": 61573.47,
+    "percent": 48.7,
     "weekGoal": 692023.81,
     "weekRevenue": 614141.12,
     "weekMissing": 77882.69,
     "weekPercent": 88.7,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -29,11 +29,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 13240.0,
-      "reached": 4249.95,
-      "missing": 8990.05,
+      "reached": 4952.1,
+      "missing": 8287.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 32.1,
+      "percent": 37.4,
       "status": "pending"
     },
     {
@@ -51,11 +51,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 7860.0,
-      "reached": 1036.6,
-      "missing": 6823.4,
+      "reached": 1326.6,
+      "missing": 6533.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 13.2,
+      "percent": 16.9,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 3700.0,
-      "reached": 1761.7,
-      "missing": 1938.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.6,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 3860.0,
@@ -211,6 +200,17 @@
       "difference": 0.0,
       "percent": 103.9,
       "status": "ok"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 3700.0,
+      "reached": 4554.75,
+      "missing": -854.75,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 123.1,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 692023.81,
-      "reached": 649612.06,
-      "missing": 42411.75,
-      "percent": 93.9
+      "reached": 653397.26,
+      "missing": 38626.55,
+      "percent": 94.4
     },
     {
       "name": "Semana 3",
