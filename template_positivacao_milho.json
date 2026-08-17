@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "14/08/2026 15:28",
+  "lastModified": "17/08/2026 09:34",
   "summary": {
     "commitment": 783.0,
-    "reached": 450.0,
-    "missing": 333.0,
-    "percent": 57.5,
+    "reached": 452.0,
+    "missing": 331.0,
+    "percent": 57.7,
     "weekGoal": 186.43,
     "weekRevenue": 249.0,
     "weekMissing": -62.57,
@@ -51,11 +51,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 41.0,
-      "reached": 18.0,
-      "missing": 23.0,
+      "reached": 19.0,
+      "missing": 22.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 43.9,
+      "percent": 46.3,
       "status": "pending"
     },
     {
@@ -67,17 +67,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 52.3,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 43.0,
-      "reached": 24.0,
-      "missing": 19.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 55.8,
       "status": "pending"
     },
     {
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 52.6,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 43.0,
+      "reached": 25.0,
+      "missing": 18.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 58.1,
       "status": "pending"
     },
     {
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 186.43,
-      "reached": 0.0,
-      "missing": 186.43,
-      "percent": 0.0
+      "reached": 6.0,
+      "missing": 180.43,
+      "percent": 3.2
     },
     {
       "name": "Semana 4",
