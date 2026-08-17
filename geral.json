@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "14/08/2026 16:31",
+  "lastModified": "17/08/2026 08:10",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 2477631.17,
-    "missing": 3306868.83,
-    "percent": 42.8,
+    "reached": 2488297.67,
+    "missing": 3296202.33,
+    "percent": 43.0,
     "weekGoal": 1377262,
     "weekRevenue": 1203860.61,
     "weekMissing": 173401.39,
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 273000.0,
-      "reached": 126110.66,
-      "missing": 146889.34,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 46.2,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 44.7,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 273000.0,
+      "reached": 129069.96,
+      "missing": 143930.04,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 47.3,
       "status": "pending"
     },
     {
@@ -117,11 +117,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 330000.0,
-      "reached": 187843.7,
-      "missing": 142156.3,
+      "reached": 190715.8,
+      "missing": 139284.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 56.9,
+      "percent": 57.8,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 54598.2,
-      "missing": 90401.8,
+      "reached": 55170.65,
+      "missing": 89829.35,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 37.7,
+      "percent": 38.0,
       "status": "pending"
     },
     {
@@ -227,22 +227,22 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
-      "reached": 32900.47,
-      "missing": 57099.53,
+      "reached": 35724.08,
+      "missing": 54275.92,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 36.6,
+      "percent": 39.7,
       "status": "pending"
     },
     {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 75000.0,
-      "reached": 35144.7,
-      "missing": 39855.3,
+      "reached": 36533.37,
+      "missing": 38466.63,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 46.9,
+      "percent": 48.7,
       "status": "pending"
     },
     {
@@ -293,8 +293,8 @@
       "reference": "IATAGAM JUNIOR",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
-      "reached": 9084.26,
-      "missing": -9084.26,
+      "reached": 9134.63,
+      "missing": -9134.63,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -313,16 +313,16 @@
     {
       "name": "Semana 2",
       "goal": 1377262,
-      "reached": 1273770.57,
-      "missing": 103491.43,
-      "percent": 92.5
+      "reached": 1245840.94,
+      "missing": 131421.06,
+      "percent": 90.5
     },
     {
       "name": "Semana 3",
       "goal": 1377262,
-      "reached": 0.0,
-      "missing": 1377262.0,
-      "percent": 0.0
+      "reached": 38596.12,
+      "missing": 1338665.88,
+      "percent": 2.8
     },
     {
       "name": "Semana 4",
