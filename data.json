@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "18/08/2026 10:36",
+  "lastModified": "18/08/2026 10:37",
   "summary": {
     "commitment": 200610.0,
-    "reached": 45206.9,
-    "missing": 155403.1,
-    "percent": 22.5,
+    "reached": 46639.7,
+    "missing": 153970.3,
+    "percent": 23.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20000.0,
-      "reached": 8372.97,
-      "missing": 11627.03,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 41.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 13380.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 30.0,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20000.0,
+      "reached": 9549.93,
+      "missing": 10450.07,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 47.7,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 6590.0,
-      "reached": 913.4,
-      "missing": 5676.6,
+      "reached": 1169.24,
+      "missing": 5420.76,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 13.9,
+      "percent": 17.7,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 285359.27,
-      "missing": 406664.54,
-      "percent": 41.2
+      "reached": 286792.07,
+      "missing": 405231.74,
+      "percent": 41.4
     },
     {
       "name": "Semana 4",
