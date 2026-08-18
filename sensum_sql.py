@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).resolve().parent
+AJUSTES_REGIAO_PATH = BASE_DIR / "ajustes_regiao.json"
 PANEL_JSON = {
     "sales": BASE_DIR / "data.json",
     "general": BASE_DIR / "geral.json",
@@ -246,17 +247,78 @@ def open_connection():
     )
 
 
+def general_region_sql():
+    if not AJUSTES_REGIAO_PATH.exists():
+        return "REGIAO"
+
+    try:
+        ajustes = json.loads(
+            AJUSTES_REGIAO_PATH.read_text(encoding="utf-8")
+        )
+    except Exception:
+        return "REGIAO"
+
+    mes_atual = datetime.now().strftime("%Y-%m")
+    ajustes_mes = ajustes.get(mes_atual, {})
+
+    if not ajustes_mes:
+        return "REGIAO"
+
+    grupos = {}
+
+    for pedido, regiao in ajustes_mes.items():
+        pedido = str(pedido).strip()
+        regiao = str(regiao).strip()
+
+        if not pedido or not regiao:
+            continue
+
+        grupos.setdefault(regiao, []).append(pedido)
+
+    if not grupos:
+        return "REGIAO"
+
+    cases = []
+
+    for regiao, pedidos in grupos.items():
+        pedidos_sql = ", ".join(
+            f"'{pedido}'"
+            for pedido in pedidos
+        )
+
+        regiao_sql = regiao.replace("'", "''")
+
+        cases.append(
+            f"WHEN CAST(PED AS VARCHAR(50)) IN ({pedidos_sql}) "
+            f"THEN '{regiao_sql}'"
+        )
+
+    return (
+        "CASE "
+        + " ".join(cases)
+        + " ELSE REGIAO END"
+    )
+
+
 def pedido_panel_sql(panel):
     seller_column = os.environ.get("SENSUM_SQL_SELLER_COLUMN", "REGIAO")
+
     if panel == "general":
-        return "REGIAO", "", "SUM(TOTAL)"
+        return general_region_sql(), "", "SUM(TOTAL)"
+
     if panel == "sales":
         return seller_column, sales_filter_sql(), "SUM(TOTAL)"
+
     if panel == "keys":
         return "REGIAO", keys_filter_sql(), "SUM(TOTAL)"
+
     if panel == "milho":
-        metric = os.environ.get("SENSUM_SQL_MILHO_METRIC", "COUNT(DISTINCT COD_CLIENTE)")
+        metric = os.environ.get(
+            "SENSUM_SQL_MILHO_METRIC",
+            "COUNT(DISTINCT COD_CLIENTE)"
+        )
         return "REGIAO", milho_filter_sql(), metric
+
     raise ValueError(f"Painel SQL desconhecido: {panel}")
 
 
