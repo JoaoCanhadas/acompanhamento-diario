@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "18/08/2026 08:39",
+  "lastModified": "18/08/2026 08:40",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 2819313.8,
-    "missing": 2965186.2,
+    "reached": 2819865.8,
+    "missing": 2964634.2,
     "percent": 48.7,
     "weekGoal": 1377262,
     "weekRevenue": 1203860.61,
@@ -235,17 +235,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 75000.0,
-      "reached": 41449.71,
-      "missing": 33550.29,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 55.3,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
@@ -254,6 +243,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 57.4,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 75000.0,
+      "reached": 42001.71,
+      "missing": 32998.29,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 56.0,
       "status": "pending"
     },
     {
@@ -320,8 +320,8 @@
     {
       "name": "Semana 3",
       "goal": 1377262,
-      "reached": 401811.85,
-      "missing": 975450.15,
+      "reached": 402363.85,
+      "missing": 974898.15,
       "percent": 29.2
     },
     {
