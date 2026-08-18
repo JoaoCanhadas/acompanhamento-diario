@@ -36,14 +36,22 @@ def load_env_file():
 
 
 def gh_api(*args, stdin_data=None):
+    env = os.environ.copy()
+
+    env.pop("GH_TOKEN", None)
+    env.pop("GITHUB_TOKEN", None)
+
     result = subprocess.run(
         [str(GH), "api", *args],
         capture_output=True,
         text=True,
         input=stdin_data,
+        env=env,
     )
+
     if result.returncode != 0:
         raise RuntimeError(result.stderr or result.stdout)
+
     return result.stdout
 
 
