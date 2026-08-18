@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "18/08/2026 07:09",
+  "lastModified": "18/08/2026 07:10",
   "summary": {
     "commitment": 783.0,
     "reached": 478.0,
@@ -81,6 +81,17 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 51.0,
+      "reached": 34.0,
+      "missing": 17.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 66.7,
+      "status": "pending"
+    },
+    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 47.0,
@@ -100,17 +111,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 60.5,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 51.0,
-      "reached": 34.0,
-      "missing": 17.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.7,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 38.0,
-      "reached": 23.0,
-      "missing": 15.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 60.5,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 54.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 72.2,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 38.0,
+      "reached": 23.0,
+      "missing": 15.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.5,
       "status": "pending"
     },
     {
