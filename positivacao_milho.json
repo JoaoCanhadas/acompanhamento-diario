@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "18/08/2026 09:48",
+  "lastModified": "18/08/2026 09:50",
   "summary": {
     "commitment": 783.0,
-    "reached": 481.0,
-    "missing": 302.0,
-    "percent": 61.4,
+    "reached": 482.0,
+    "missing": 301.0,
+    "percent": 61.6,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 40.0,
-      "reached": 24.0,
-      "missing": 16.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 60.0,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 63.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 76.2,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 40.0,
+      "reached": 25.0,
+      "missing": 15.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 62.5,
       "status": "pending"
     },
     {
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 186,
-      "reached": 91.0,
-      "missing": 95.0,
-      "percent": 48.9
+      "reached": 94.0,
+      "missing": 92.0,
+      "percent": 50.5
     },
     {
       "name": "Semana 4",
