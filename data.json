@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "18/08/2026 15:35",
+  "lastModified": "18/08/2026 15:36",
   "summary": {
     "commitment": 200610.0,
-    "reached": 121440.19,
-    "missing": 79169.81,
-    "percent": 60.5,
+    "reached": 122868.39,
+    "missing": 77741.61,
+    "percent": 61.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 5920.0,
-      "reached": 2615.34,
-      "missing": 3304.66,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.2,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 4870.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 66.7,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 5920.0,
+      "reached": 4043.54,
+      "missing": 1876.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 68.3,
       "status": "pending"
     },
     {
@@ -243,9 +243,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 361632.56,
-      "missing": 330391.25,
-      "percent": 52.3
+      "reached": 363060.76,
+      "missing": 328963.05,
+      "percent": 52.5
     },
     {
       "name": "Semana 4",
