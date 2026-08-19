@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "19/08/2026 13:53",
+  "lastModified": "19/08/2026 13:54",
   "summary": {
     "commitment": 150010.0,
-    "reached": 97178.56,
-    "missing": 52831.44,
-    "percent": 64.8,
+    "reached": 98837.16,
+    "missing": 51172.84,
+    "percent": 65.9,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -18,11 +18,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 18000.0,
-      "reached": 5487.95,
-      "missing": 12512.05,
+      "reached": 6087.55,
+      "missing": 11912.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.5,
+      "percent": 33.8,
       "status": "pending"
     },
     {
@@ -95,22 +95,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 4650.0,
-      "reached": 2111.75,
-      "missing": 2538.25,
+      "reached": 2294.95,
+      "missing": 2355.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 45.4,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 5330.0,
-      "reached": 3260.65,
-      "missing": 2069.35,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 61.2,
+      "percent": 49.4,
       "status": "pending"
     },
     {
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 59.6,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 5330.0,
+      "reached": 4136.45,
+      "missing": 1193.55,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.6,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 461404.04,
-      "missing": 230619.77,
-      "percent": 66.7
+      "reached": 463062.64,
+      "missing": 228961.17,
+      "percent": 66.9
     },
     {
       "name": "Semana 4",
