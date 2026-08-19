@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "19/08/2026 09:17",
+  "lastModified": "19/08/2026 09:18",
   "summary": {
     "commitment": 783.0,
     "reached": 521.0,
@@ -103,6 +103,17 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 54.0,
+      "reached": 41.0,
+      "missing": 13.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 75.9,
+      "status": "pending"
+    },
+    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 47.0,
@@ -111,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 72.3,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 29.0,
+      "reached": 16.0,
+      "missing": 13.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.2,
       "status": "pending"
     },
     {
@@ -125,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 54.0,
-      "reached": 41.0,
-      "missing": 13.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 75.9,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 40.0,
@@ -144,17 +155,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 67.5,
-      "status": "pending"
-    },
-    {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 29.0,
-      "reached": 16.0,
-      "missing": 13.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 55.2,
       "status": "pending"
     },
     {
