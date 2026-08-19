@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "19/08/2026 10:10",
+  "lastModified": "19/08/2026 10:11",
   "summary": {
     "commitment": 783.0,
-    "reached": 523.0,
-    "missing": 260.0,
-    "percent": 66.8,
+    "reached": 526.0,
+    "missing": 257.0,
+    "percent": 67.2,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 38.0,
-      "reached": 24.0,
-      "missing": 14.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 63.2,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 54.0,
@@ -125,14 +114,14 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 29.0,
-      "reached": 16.0,
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 38.0,
+      "reached": 25.0,
       "missing": 13.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.2,
+      "percent": 65.8,
       "status": "pending"
     },
     {
@@ -169,6 +158,17 @@
       "status": "pending"
     },
     {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 29.0,
+      "reached": 17.0,
+      "missing": 12.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 58.6,
+      "status": "pending"
+    },
+    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 38.0,
@@ -194,11 +194,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37.0,
-      "reached": 31.0,
-      "missing": 6.0,
+      "reached": 32.0,
+      "missing": 5.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.8,
+      "percent": 86.5,
       "status": "pending"
     }
   ],
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 186,
-      "reached": 164.0,
-      "missing": 22.0,
-      "percent": 88.2
+      "reached": 167.0,
+      "missing": 19.0,
+      "percent": 89.8
     },
     {
       "name": "Semana 4",
