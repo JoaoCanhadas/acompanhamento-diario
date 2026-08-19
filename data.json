@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "19/08/2026 13:14",
+  "lastModified": "19/08/2026 13:15",
   "summary": {
     "commitment": 150010.0,
-    "reached": 87736.64,
-    "missing": 62273.36,
-    "percent": 58.5,
+    "reached": 88945.74,
+    "missing": 61064.26,
+    "percent": 59.3,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -26,25 +26,25 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 10070.0,
-      "reached": 2301.72,
-      "missing": 7768.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 22.9,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 17000.0,
-      "reached": 9703.59,
-      "missing": 7296.41,
+      "reached": 9718.89,
+      "missing": 7281.11,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 57.1,
+      "percent": 57.2,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 10070.0,
+      "reached": 3078.62,
+      "missing": 6991.38,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 30.6,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 12040.0,
-      "reached": 7658.0,
-      "missing": 4382.0,
+      "reached": 7668.2,
+      "missing": 4371.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 63.6,
+      "percent": 63.7,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 11100.0,
-      "reached": 10375.15,
-      "missing": 724.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 93.5,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 12580.0,
@@ -211,6 +200,17 @@
       "difference": 0.0,
       "percent": 90.6,
       "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 11100.0,
+      "reached": 10781.85,
+      "missing": 318.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.1,
+      "status": "pending"
     }
   ],
   "history": [],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 451962.12,
-      "missing": 240061.69,
-      "percent": 65.3
+      "reached": 453171.22,
+      "missing": 238852.59,
+      "percent": 65.5
     },
     {
       "name": "Semana 4",
