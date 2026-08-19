@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "19/08/2026 13:42",
+  "lastModified": "19/08/2026 13:44",
   "summary": {
     "commitment": 150010.0,
-    "reached": 94112.88,
-    "missing": 55897.12,
-    "percent": 62.7,
+    "reached": 96305.36,
+    "missing": 53704.64,
+    "percent": 64.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -29,22 +29,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 10070.0,
-      "reached": 3078.62,
-      "missing": 6991.38,
+      "reached": 4038.12,
+      "missing": 6031.88,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.6,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 17000.0,
-      "reached": 10539.09,
-      "missing": 6460.91,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 62.0,
+      "percent": 40.1,
       "status": "pending"
     },
     {
@@ -59,14 +48,25 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 17000.0,
+      "reached": 11257.77,
+      "missing": 5742.23,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 66.2,
+      "status": "pending"
+    },
+    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 12040.0,
-      "reached": 7668.2,
-      "missing": 4371.8,
+      "reached": 7808.1,
+      "missing": 4231.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 63.7,
+      "percent": 64.9,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 4640.0,
-      "reached": 2386.5,
-      "missing": 2253.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 51.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 5330.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 67.0,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 4640.0,
+      "reached": 2760.9,
+      "missing": 1879.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 59.5,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 458338.36,
-      "missing": 233685.45,
-      "percent": 66.2
+      "reached": 460530.84,
+      "missing": 231492.97,
+      "percent": 66.5
     },
     {
       "name": "Semana 4",
