@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "19/08/2026 13:11",
+  "lastModified": "19/08/2026 13:12",
   "summary": {
     "commitment": 150010.0,
-    "reached": 86144.14,
-    "missing": 63865.86,
-    "percent": 57.4,
+    "reached": 87736.64,
+    "missing": 62273.36,
+    "percent": 58.5,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -29,11 +29,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 10070.0,
-      "reached": 1837.32,
-      "missing": 8232.68,
+      "reached": 2301.72,
+      "missing": 7768.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 18.2,
+      "percent": 22.9,
       "status": "pending"
     },
     {
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 4650.0,
-      "reached": 938.85,
-      "missing": 3711.15,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 20.2,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 5330.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 31.5,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 4650.0,
+      "reached": 1538.35,
+      "missing": 3111.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 33.1,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 11100.0,
-      "reached": 9846.55,
-      "missing": 1253.45,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 88.7,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 2930.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 62.4,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 11100.0,
+      "reached": 10375.15,
+      "missing": 724.85,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 93.5,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 450369.62,
-      "missing": 241654.19,
-      "percent": 65.1
+      "reached": 451962.12,
+      "missing": 240061.69,
+      "percent": 65.3
     },
     {
       "name": "Semana 4",
