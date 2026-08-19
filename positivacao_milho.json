@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "19/08/2026 11:35",
+  "lastModified": "19/08/2026 11:36",
   "summary": {
     "commitment": 783.0,
-    "reached": 529.0,
-    "missing": 254.0,
-    "percent": 67.6,
+    "reached": 531.0,
+    "missing": 252.0,
+    "percent": 67.8,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 41.0,
-      "reached": 19.0,
-      "missing": 22.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 46.3,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 55.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 60.0,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 41.0,
+      "reached": 20.0,
+      "missing": 21.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 48.8,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 61.0,
-      "reached": 49.0,
-      "missing": 12.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.3,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 29.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 58.6,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 61.0,
+      "reached": 50.0,
+      "missing": 11.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 82.0,
       "status": "pending"
     },
     {
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 186,
-      "reached": 172.0,
-      "missing": 14.0,
-      "percent": 92.5
+      "reached": 177.0,
+      "missing": 9.0,
+      "percent": 95.2
     },
     {
       "name": "Semana 4",
