@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "19/08/2026 11:18",
+  "lastModified": "19/08/2026 11:19",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3146952.53,
-    "missing": 2637547.47,
-    "percent": 54.4,
+    "reached": 3151394.83,
+    "missing": 2633105.17,
+    "percent": 54.5,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 265000.0,
-      "reached": 161489.34,
-      "missing": 103510.66,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 60.9,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 242000.0,
@@ -125,14 +114,25 @@
       "status": "pending"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 265000.0,
+      "reached": 163077.34,
+      "missing": 101922.66,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 61.5,
+      "status": "pending"
+    },
+    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 330000.0,
-      "reached": 236041.52,
-      "missing": 93958.48,
+      "reached": 236975.42,
+      "missing": 93024.58,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 71.5,
+      "percent": 71.8,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 167000.0,
-      "reached": 111812.13,
-      "missing": 55187.87,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 67.0,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 56.3,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 167000.0,
+      "reached": 113732.53,
+      "missing": 53267.47,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 68.1,
       "status": "pending"
     },
     {
@@ -320,9 +320,9 @@
     {
       "name": "Semana 3",
       "goal": 1377262,
-      "reached": 730373.78,
-      "missing": 646888.22,
-      "percent": 53.0
+      "reached": 734816.08,
+      "missing": 642445.92,
+      "percent": 53.4
     },
     {
       "name": "Semana 4",
