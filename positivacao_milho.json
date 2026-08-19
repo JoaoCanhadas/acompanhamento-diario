@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "19/08/2026 10:43",
+  "lastModified": "19/08/2026 10:44",
   "summary": {
     "commitment": 783.0,
     "reached": 528.0,
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 55.0,
-      "reached": 33.0,
-      "missing": 22.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 60.0,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 41.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 46.3,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 55.0,
+      "reached": 33.0,
+      "missing": 22.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.0,
       "status": "pending"
     },
     {
@@ -103,28 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 47.0,
-      "reached": 34.0,
-      "missing": 13.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 72.3,
-      "status": "pending"
-    },
-    {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 38.0,
-      "reached": 25.0,
-      "missing": 13.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 65.8,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 51.0,
@@ -136,6 +114,17 @@
       "status": "pending"
     },
     {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 47.0,
+      "reached": 34.0,
+      "missing": 13.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 72.3,
+      "status": "pending"
+    },
+    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 40.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 67.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 38.0,
+      "reached": 25.0,
+      "missing": 13.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.8,
       "status": "pending"
     },
     {
