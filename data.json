@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "20/08/2026 09:53",
+  "lastModified": "20/08/2026 09:55",
   "summary": {
     "commitment": 150010.0,
-    "reached": 16401.06,
-    "missing": 133608.94,
-    "percent": 10.9,
+    "reached": 17956.2,
+    "missing": 132053.8,
+    "percent": 12.0,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 2930.0,
-      "reached": 450.5,
-      "missing": 2479.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 15.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 3640.0,
@@ -191,25 +180,36 @@
       "status": "pending"
     },
     {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 2930.0,
+      "reached": 1250.0,
+      "missing": 1680.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 42.7,
+      "status": "pending"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 2420.0,
-      "reached": 843.3,
-      "missing": 1576.7,
+      "reached": 993.3,
+      "missing": 1426.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 34.8,
+      "percent": 41.0,
       "status": "pending"
     },
     {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 1760.0,
-      "reached": 277.5,
-      "missing": 1482.5,
+      "reached": 883.14,
+      "missing": 876.86,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.8,
+      "percent": 50.2,
       "status": "pending"
     }
   ],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 490655.55,
-      "missing": 201368.26,
-      "percent": 70.9
+      "reached": 492210.69,
+      "missing": 199813.12,
+      "percent": 71.1
     },
     {
       "name": "Semana 4",
