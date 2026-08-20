@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "20/08/2026 15:37",
+  "lastModified": "20/08/2026 15:39",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3395123.52,
-    "missing": 2389376.48,
-    "percent": 58.7,
+    "reached": 3406844.52,
+    "missing": 2377655.48,
+    "percent": 58.9,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 142000.0,
-      "reached": 39477.15,
-      "missing": 102522.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 27.8,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 69.2,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 142000.0,
+      "reached": 51198.15,
+      "missing": 90801.85,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 36.1,
       "status": "pending"
     },
     {
@@ -320,9 +320,9 @@
     {
       "name": "Semana 3",
       "goal": 1377262,
-      "reached": 981595.57,
-      "missing": 395666.43,
-      "percent": 71.3
+      "reached": 993316.57,
+      "missing": 383945.43,
+      "percent": 72.1
     },
     {
       "name": "Semana 4",
