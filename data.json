@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "20/08/2026 13:17",
+  "lastModified": "20/08/2026 13:19",
   "summary": {
     "commitment": 150010.0,
-    "reached": 75267.09,
-    "missing": 74742.91,
-    "percent": 50.2,
+    "reached": 76077.22,
+    "missing": 73932.78,
+    "percent": 50.7,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 1760.0,
-      "reached": 1003.04,
-      "missing": 756.96,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 57.0,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 14130.0,
@@ -200,6 +189,17 @@
       "difference": 0.0,
       "percent": 95.0,
       "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 1760.0,
+      "reached": 1813.17,
+      "missing": -53.17,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 103.0,
+      "status": "ok"
     },
     {
       "reference": "CAMPINAS",
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 549521.59,
-      "missing": 142502.22,
-      "percent": 79.4
+      "reached": 550331.72,
+      "missing": 141692.09,
+      "percent": 79.5
     },
     {
       "name": "Semana 4",
