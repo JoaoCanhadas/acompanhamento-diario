@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "20/08/2026 10:24",
+  "lastModified": "20/08/2026 10:26",
   "summary": {
     "commitment": 150010.0,
-    "reached": 24010.34,
-    "missing": 125999.66,
-    "percent": 16.0,
+    "reached": 28840.89,
+    "missing": 121169.11,
+    "percent": 19.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -37,28 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 17000.0,
-      "reached": 3819.66,
-      "missing": 13180.34,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 22.5,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 18000.0,
-      "reached": 5379.6,
-      "missing": 12620.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 29.9,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 12580.0,
@@ -70,14 +48,36 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 18000.0,
+      "reached": 6178.05,
+      "missing": 11821.95,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 34.3,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 17000.0,
+      "reached": 7170.86,
+      "missing": 9829.14,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 42.2,
+      "status": "pending"
+    },
+    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 12040.0,
-      "reached": 1711.7,
-      "missing": 10328.3,
+      "reached": 2392.6,
+      "missing": 9647.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.2,
+      "percent": 19.9,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 498264.83,
-      "missing": 193758.98,
-      "percent": 72.0
+      "reached": 503095.38,
+      "missing": 188928.43,
+      "percent": 72.7
     },
     {
       "name": "Semana 4",
