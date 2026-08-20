@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "20/08/2026 09:56",
+  "lastModified": "20/08/2026 09:58",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3240194.46,
-    "missing": 2544305.54,
+    "reached": 3241204.76,
+    "missing": 2543295.24,
     "percent": 56.0,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -183,11 +183,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 139500.0,
-      "reached": 81412.41,
-      "missing": 58087.59,
+      "reached": 82055.61,
+      "missing": 57444.39,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.4,
+      "percent": 58.8,
       "status": "pending"
     },
     {
@@ -257,17 +257,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 64500.0,
-      "reached": 41369.45,
-      "missing": 23130.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 64.1,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 55000.0,
@@ -276,6 +265,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 58.3,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 64500.0,
+      "reached": 41736.55,
+      "missing": 22763.45,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.7,
       "status": "pending"
     },
     {
@@ -320,9 +320,9 @@
     {
       "name": "Semana 3",
       "goal": 1377262,
-      "reached": 826666.51,
-      "missing": 550595.49,
-      "percent": 60.0
+      "reached": 827676.81,
+      "missing": 549585.19,
+      "percent": 60.1
     },
     {
       "name": "Semana 4",
