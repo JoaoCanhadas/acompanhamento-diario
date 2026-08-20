@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "20/08/2026 13:28",
+  "lastModified": "20/08/2026 13:30",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3344572.24,
-    "missing": 2439927.76,
-    "percent": 57.8,
+    "reached": 3359582.89,
+    "missing": 2424917.11,
+    "percent": 58.1,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
-      "commitment": 350000.0,
-      "reached": 156920.14,
-      "missing": 193079.86,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.8,
-      "status": "pending"
-    },
-    {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 425000.0,
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 56.6,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 350000.0,
+      "reached": 170336.14,
+      "missing": 179663.86,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 48.7,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 330000.0,
-      "reached": 248906.47,
-      "missing": 81093.53,
+      "reached": 249746.67,
+      "missing": 80253.33,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 75.4,
+      "percent": 75.7,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 78282.01,
-      "missing": 66717.99,
+      "reached": 78728.76,
+      "missing": 66271.24,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 54.0,
+      "percent": 54.3,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 122000.0,
-      "reached": 73689.32,
-      "missing": 48310.68,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 60.4,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 51.8,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 122000.0,
+      "reached": 73997.02,
+      "missing": 48002.98,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.7,
       "status": "pending"
     },
     {
@@ -320,9 +320,9 @@
     {
       "name": "Semana 3",
       "goal": 1377262,
-      "reached": 931044.29,
-      "missing": 446217.71,
-      "percent": 67.6
+      "reached": 946054.94,
+      "missing": 431207.06,
+      "percent": 68.7
     },
     {
       "name": "Semana 4",
