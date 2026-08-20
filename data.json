@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "20/08/2026 13:45",
+  "lastModified": "20/08/2026 13:46",
   "summary": {
     "commitment": 150010.0,
-    "reached": 86198.33,
-    "missing": 63811.67,
-    "percent": 57.5,
+    "reached": 87068.03,
+    "missing": 62941.97,
+    "percent": 58.0,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 12040.0,
-      "reached": 8902.2,
-      "missing": 3137.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 73.9,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 4650.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 38.2,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 12040.0,
+      "reached": 9516.9,
+      "missing": 2523.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 79.0,
       "status": "pending"
     },
     {
@@ -183,12 +183,12 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 14130.0,
-      "reached": 14099.65,
-      "missing": 30.35,
+      "reached": 14354.65,
+      "missing": -224.65,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.8,
-      "status": "pending"
+      "percent": 101.6,
+      "status": "ok"
     },
     {
       "reference": "SJC/VALE",
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 560452.82,
-      "missing": 131570.99,
-      "percent": 81.0
+      "reached": 561322.52,
+      "missing": 130701.29,
+      "percent": 81.1
     },
     {
       "name": "Semana 4",
