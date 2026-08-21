@@ -13,6 +13,7 @@ EXPORTS = [
     ("Geral", "template_geral.json", dashboard.read_general_planilha1_data),
     ("Postivacao", "template_positivacao_milho.json", dashboard.read_positivacao_milho_planilha1_data),
     ("Keys", "template_keys.json", dashboard.read_keys_planilha1_data),
+    ("Premiacao", "template_premiacao.json", dashboard.read_premiacao_planilha1_data),
 ]
 
 
