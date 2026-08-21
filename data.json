@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "21/08/2026 14:12",
+  "lastModified": "21/08/2026 14:14",
   "summary": {
     "commitment": 120360.0,
-    "reached": 39527.7,
-    "missing": 80832.3,
-    "percent": 32.8,
+    "reached": 39938.8,
+    "missing": 80421.2,
+    "percent": 33.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -62,11 +62,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 10680.0,
-      "reached": 3967.61,
-      "missing": 6712.39,
+      "reached": 4115.71,
+      "missing": 6564.29,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 37.1,
+      "percent": 38.5,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 3630.0,
-      "reached": 676.5,
-      "missing": 2953.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 18.6,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 3730.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 23.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 3630.0,
+      "reached": 939.5,
+      "missing": 2690.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 25.9,
       "status": "pending"
     },
     {
@@ -232,8 +232,8 @@
     {
       "name": "Semana 3",
       "goal": 692023.81,
-      "reached": 622643.85,
-      "missing": 69379.96,
+      "reached": 623054.95,
+      "missing": 68968.86,
       "percent": 90.0
     },
     {
