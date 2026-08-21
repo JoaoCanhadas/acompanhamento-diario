@@ -2,11 +2,15 @@ from __future__ import annotations
 
 import json
 import os
+import math
 from datetime import datetime, timedelta
 from pathlib import Path
 
 
 BASE_DIR = Path(__file__).resolve().parent
+
+BASE_PYTHON_PATH = BASE_DIR / "BASE PYTHON.xlsx"
+
 AJUSTES_REGIAO_PATH = BASE_DIR / "ajustes_regiao.json"
 PANEL_JSON = {
     "sales": BASE_DIR / "data.json",
@@ -181,8 +185,275 @@ def query_pedido_reached(panel):
     """
     return sql_fetch(sql, start_date, end_date, area_filter, area_filter)
 
+def query_premiacao_faturamento():
+    select_name = general_region_sql()
+    where_extra = sales_filter_sql()
+    aggregate = "SUM(TOTAL)"
+    start_date, end_date = period_range()
+
+    view_name = os.environ.get(
+        "SENSUM_SQL_VIEW",
+        "dbo.VIW_IATAGEM_PEDIDO"
+    )
+
+    area_filter = os.environ.get(
+        "SENSUM_SQL_AREA",
+        "IATAGAM"
+    )
+
+    date_expr = pedido_date_expr()
+
+    sql = f"""
+        SELECT
+            {select_name} AS seller,
+            {aggregate} AS reached
+        FROM {view_name}
+        WHERE {date_expr} >= ? AND {date_expr} < ?
+          AND (? = '' OR AREA = ?)
+          {where_extra}
+        GROUP BY {select_name}
+    """
+
+    return sql_fetch(
+        sql,
+        start_date,
+        end_date,
+        area_filter,
+        area_filter
+    )
+
+def read_premiacao_meta_a():
+    import openpyxl
+
+    workbook = openpyxl.load_workbook(
+        BASE_PYTHON_PATH,
+        data_only=True,
+        read_only=True,
+    )
+
+    try:
+        sheet = workbook["Planilha1"]
+
+        metas_positivacao = {}
+        metas_faturamento = {}
+
+        # PREMIACAO POSITIVACAO
+        # Y = VENDEDOR
+        # Z = META A
+        for row in range(3, 21):
+            seller = sheet.cell(row, 25).value   # Y
+            meta_a = sheet.cell(row, 26).value   # Z
+
+            if seller and meta_a is not None:
+                seller = str(seller).strip().upper()
+
+                if seller != "TOTAL":
+                    metas_positivacao[seller] = float(meta_a)
+
+        # PREMIACAO FATURAMENTO
+        # AI = VENDEDOR
+        # AJ = META A
+        for row in range(3, 21):
+            seller = sheet.cell(row, 35).value   # AI
+            meta_a = sheet.cell(row, 36).value   # AJ
+
+            if seller and meta_a is not None:
+                seller = str(seller).strip().upper()
+
+                if seller != "TOTAL":
+                    metas_faturamento[seller] = float(meta_a)
+
+        return {
+            "positivacao": metas_positivacao,
+            "faturamento": metas_faturamento,
+        }
+
+    finally:
+        workbook.close()
+
+def calcular_premiacao(meta_a, atingido, tipo="positivacao"):
+    meta_a = float(meta_a or 0)
+    atingido = float(atingido or 0)
+
+    meta_b = meta_a * 0.85
+
+    if tipo == "faturamento":
+        meta_c = meta_a * 0.595
+    else:
+        meta_c = meta_a * 0.70
+
+    meta_d = meta_a * 0.45
+
+    if meta_a <= 0:
+        return {
+            "premiacao": "NÃO ATINGIDO",
+            "proxima_meta": "D",
+            "missing": 0.0,
+        }
+
+    if atingido >= meta_a:
+        return {
+            "premiacao": "A",
+            "proxima_meta": "",
+            "missing": meta_a - atingido,
+    }
+
+    if atingido >= meta_b:
+        return {
+            "premiacao": "B",
+            "proxima_meta": "A",
+            "missing": max(meta_a - atingido, 0),
+        }
+
+    if atingido >= meta_c:
+        return {
+            "premiacao": "C",
+            "proxima_meta": "B",
+            "missing": max(meta_b - atingido, 0),
+        }
+
+    if atingido >= meta_d:
+        return {
+            "premiacao": "D",
+            "proxima_meta": "C",
+            "missing": max(meta_c - atingido, 0),
+        }
+
+    return {
+        "premiacao": "NÃO ATINGIDO",
+        "proxima_meta": "D",
+        "missing": max(meta_d - atingido, 0),
+    }
+
+def query_premiacao_positivacao():
+    select_name = general_region_sql()
+    start_date, end_date = period_range()
+
+    view_name = os.environ.get(
+        "SENSUM_SQL_VIEW",
+        "dbo.VIW_IATAGEM_PEDIDO"
+    )
+
+    date_expr = pedido_date_expr()
+
+    sql = f"""
+        SELECT
+            {select_name} AS seller,
+            COUNT(DISTINCT COD_CLIENTE) AS reached
+        FROM {view_name}
+        WHERE {date_expr} >= ?
+          AND {date_expr} < ?
+          AND UPPER(PRODUTO) LIKE '%BRIOCHE%'
+          AND UPPER(PRODUTO) NOT LIKE '%CONCENTRADO%'
+        GROUP BY {select_name}
+    """
+
+    return sql_fetch(
+        sql,
+        start_date,
+        end_date
+    )
+
+def read_premiacao_sql():
+    metas = read_premiacao_meta_a()
+
+    atingido_positivacao = {
+    str(item["seller"]).strip().upper(): float(item["reached"] or 0)
+    for item in query_premiacao_positivacao()
+}
+
+    inicio, fim = period_range()
+
+    sql_interno = f"""
+        SELECT
+            REGIAO AS seller,
+            COUNT(DISTINCT COD_CLIENTE) AS reached
+        FROM dbo.VIW_IATAGEM_PEDIDO
+        WHERE {pedido_date_expr()} >= ?
+          AND {pedido_date_expr()} < ?
+          AND UPPER(REGIAO) = 'VENDEDOR INTERNO 1'
+        GROUP BY REGIAO
+    """
+
+    interno_rows = sql_fetch(
+        sql_interno,
+        inicio,
+        fim
+    )
+
+    if interno_rows:
+        atingido_positivacao["VENDEDOR INTERNO 1"] = float(
+            interno_rows[0]["reached"] or 0
+        )
+
+    atingido_faturamento = {
+        str(item["seller"]).strip().upper(): float(item["reached"] or 0)
+        for item in query_premiacao_faturamento()
+    }
+
+    ...
+
+    positivacao = []
+    faturamento = []
+
+    # POSITIVACAO
+    for seller, meta_a in metas["positivacao"].items():
+        atingido = atingido_positivacao.get(seller, 0)
+
+        resultado = calcular_premiacao(
+            meta_a,
+            atingido
+        )
+
+        falta_positivacao = math.ceil(
+            resultado["missing"]
+        )
+
+        positivacao.append({
+            "seller": seller,
+            "premiacao": resultado["premiacao"],
+            "proxima_meta": resultado["proxima_meta"],
+            "missing": falta_positivacao,
+            "reached": atingido,
+            "meta_a": meta_a,
+        })
+
+    # FATURAMENTO
+    for seller, meta_a in metas["faturamento"].items():
+        if seller in {
+            "IATAGAM JUNIOR",
+            "ECOMMERCE",
+        }:
+            continue
+
+        atingido = atingido_faturamento.get(seller, 0)
+
+        resultado = calcular_premiacao(
+            meta_a,
+            atingido,
+            tipo="faturamento"
+        )
+
+        faturamento.append({
+            "seller": seller,
+            "premiacao": resultado["premiacao"],
+            "proxima_meta": resultado["proxima_meta"],
+            "missing": round(resultado["missing"], 2),
+            "reached": round(atingido, 2),
+            "meta_a": meta_a,
+        })
+
+    return {
+        "workbook": "Sensum SQL - Premiação",
+        "lastModified": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "positivacao": positivacao,
+        "faturamento": faturamento,
+        "rows": positivacao + faturamento,
+    }
+
 
 def query_pedido_weeks(panel):
+
     _, where_extra, aggregate = pedido_panel_sql(panel)
     start_date, end_date = period_range()
     view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGEM_PEDIDO")
