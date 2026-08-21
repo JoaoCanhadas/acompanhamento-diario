@@ -20,6 +20,8 @@ FILES_TO_SYNC = [
     "geral.json",
     "keys.json",
     "positivacao_milho.json",
+    "premiacao.json",
+    "template_premiacao.json",
 ]
 
 
@@ -59,14 +61,50 @@ def gh_json(*args, stdin_data=None):
     return json.loads(gh_api(*args, stdin_data=stdin_data))
 
 
+def generate_templates():
+    result = subprocess.run(
+        [sys.executable, str(BASE_DIR / "exportar_templates.py")]
+    )
+
+    if result.returncode != 0:
+        raise RuntimeError(
+            "Falha ao atualizar os templates da BASE PYTHON."
+        )
+
+
 def generate_files():
-    result = subprocess.run([sys.executable, str(BASE_DIR / "exportar_dados.py")])
+    result = subprocess.run(
+        [sys.executable, str(BASE_DIR / "exportar_dados.py")]
+    )
+
     if result.returncode != 0:
         raise RuntimeError("Falha ao gerar os dados pelo SQL.")
 
 
-def publish_json_files():
-    changed = [filename for filename in FILES_TO_SYNC if remote_content(filename) != (BASE_DIR / filename).read_bytes()]
+def has_sales_today():
+    import sensum_sql
+
+    rows = sensum_sql.query_pedido_reached("sales")
+
+    total = sum(
+        float(item.get("reached") or 0)
+        for item in rows
+    )
+
+    return total != 0
+
+
+def publish_json_files(files_to_publish=None):
+    if files_to_publish is None:
+        files_to_publish = FILES_TO_SYNC
+
+    changed = [
+        filename
+        for filename in files_to_publish
+        if remote_content(filename)
+        != (BASE_DIR / filename).read_bytes()
+    ]
+
     if not changed:
         return None
 
@@ -139,12 +177,47 @@ def remote_content(filename):
 
 
 def sync_once():
+    # Atualiza metas/compromissos da BASE PYTHON
+    generate_templates()
+
+    # Verifica se já existe venda no dia
+    sales_started = has_sales_today()
+
+    # Gera os JSONs normalmente
     generate_files()
-    commit_sha = publish_json_files()
-    if commit_sha:
-        print(f"[{datetime.now().strftime('%H:%M:%S')}] Online atualizado: {commit_sha[:7]}", flush=True)
+
+    if sales_started:
+        print(
+            f"[{datetime.now().strftime('%H:%M:%S')}] "
+            "Venda do dia detectada - sincronizacao completa.",
+            flush=True,
+        )
+
+        files_to_publish = FILES_TO_SYNC
+
     else:
-        print(f"[{datetime.now().strftime('%H:%M:%S')}] Sem alteracoes nos dados.", flush=True)
+        print(
+            f"[{datetime.now().strftime('%H:%M:%S')}] "
+            "Ainda sem venda no dia - atualizando somente Varejo.",
+            flush=True,
+        )
+
+        files_to_publish = ["data.json"]
+
+    commit_sha = publish_json_files(files_to_publish)
+
+    if commit_sha:
+        print(
+            f"[{datetime.now().strftime('%H:%M:%S')}] "
+            f"Online atualizado: {commit_sha[:7]}",
+            flush=True,
+        )
+    else:
+        print(
+            f"[{datetime.now().strftime('%H:%M:%S')}] "
+            "Sem alteracoes nos dados.",
+            flush=True,
+        )
 
 
 def main():
