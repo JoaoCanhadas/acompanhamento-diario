@@ -1,7 +1,586 @@
 {
   "workbook": "Sensum SQL - Premiação",
-  "lastModified": "21/08/2026 14:14",
-  "positivacao": [],
-  "faturamento": [],
-  "rows": []
+  "lastModified": "21/08/2026 14:31",
+  "positivacao": [
+    {
+      "seller": "SJC",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 5,
+      "reached": 32.0,
+      "meta_a": 37.0
+    },
+    {
+      "seller": "VENDEDOR INTERNO 1",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 9,
+      "reached": 70.0,
+      "meta_a": 79.0
+    },
+    {
+      "seller": "CENTRO",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 5,
+      "reached": 41.0,
+      "meta_a": 54.0
+    },
+    {
+      "seller": "OSASCO",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 8,
+      "reached": 55.0,
+      "meta_a": 63.0
+    },
+    {
+      "seller": "INTERLAGOS",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 6,
+      "reached": 55.0,
+      "meta_a": 61.0
+    },
+    {
+      "seller": "LESTE MOOCA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 5,
+      "reached": 39.0,
+      "meta_a": 51.0
+    },
+    {
+      "seller": "SANTO ANDRE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 6,
+      "reached": 28.0,
+      "meta_a": 40.0
+    },
+    {
+      "seller": "NORTE",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 3,
+      "reached": 44.0,
+      "meta_a": 47.0
+    },
+    {
+      "seller": "LESTE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 7,
+      "reached": 34.0,
+      "meta_a": 48.0
+    },
+    {
+      "seller": "SJC/VALE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 4,
+      "reached": 29.0,
+      "meta_a": 38.0
+    },
+    {
+      "seller": "INDAIATUBA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 6,
+      "reached": 31.0,
+      "meta_a": 43.0
+    },
+    {
+      "seller": "CAMPINAS",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 4,
+      "reached": 29.0,
+      "meta_a": 38.0
+    },
+    {
+      "seller": "JUNDIAI",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 3,
+      "reached": 18.0,
+      "meta_a": 29.0
+    },
+    {
+      "seller": "PIRITUBA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 7,
+      "reached": 31.0,
+      "meta_a": 44.0
+    },
+    {
+      "seller": "LESTE PENHA",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 5,
+      "reached": 24.0,
+      "meta_a": 41.0
+    },
+    {
+      "seller": "SBC",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 5,
+      "reached": 34.0,
+      "meta_a": 55.0
+    },
+    {
+      "seller": "MOGI",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 7,
+      "reached": 22.0,
+      "meta_a": 41.0
+    },
+    {
+      "seller": "LESTE TATUAPE",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 13,
+      "reached": 25.0,
+      "meta_a": 53.0
+    }
+  ],
+  "faturamento": [
+    {
+      "seller": "SJC",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 6987.62,
+      "reached": 52512.38,
+      "meta_a": 100000.0
+    },
+    {
+      "seller": "VENDEDOR INTERNO 1",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 16676.85,
+      "reached": 47073.15,
+      "meta_a": 75000.0
+    },
+    {
+      "seller": "CENTRO",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 23368.63,
+      "reached": 257131.37,
+      "meta_a": 330000.0
+    },
+    {
+      "seller": "OSASCO",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 47725.06,
+      "reached": 227249.94,
+      "meta_a": 323500.0
+    },
+    {
+      "seller": "INTERLAGOS",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 51671.15,
+      "reached": 180378.85,
+      "meta_a": 273000.0
+    },
+    {
+      "seller": "LESTE MOOCA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 33607.57,
+      "reached": 136392.43,
+      "meta_a": 200000.0
+    },
+    {
+      "seller": "SANTO ANDRE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 21084.81,
+      "reached": 120865.19,
+      "meta_a": 167000.0
+    },
+    {
+      "seller": "NORTE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 44539.66,
+      "reached": 161160.34,
+      "meta_a": 242000.0
+    },
+    {
+      "seller": "LESTE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 28178.18,
+      "reached": 75521.82,
+      "meta_a": 122000.0
+    },
+    {
+      "seller": "SJC/VALE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 13099.79,
+      "reached": 33650.21,
+      "meta_a": 55000.0
+    },
+    {
+      "seller": "INDAIATUBA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 14589.96,
+      "reached": 61910.04,
+      "meta_a": 90000.0
+    },
+    {
+      "seller": "CAMPINAS",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 9252.25,
+      "reached": 45572.75,
+      "meta_a": 64500.0
+    },
+    {
+      "seller": "JUNDIAI",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 8574.04,
+      "reached": 57725.96,
+      "meta_a": 78000.0
+    },
+    {
+      "seller": "PIRITUBA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 31259.87,
+      "reached": 87315.13,
+      "meta_a": 139500.0
+    },
+    {
+      "seller": "LESTE PENHA",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 2867.89,
+      "reached": 83407.11,
+      "meta_a": 145000.0
+    },
+    {
+      "seller": "SBC",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 43330.07,
+      "reached": 181919.93,
+      "meta_a": 265000.0
+    },
+    {
+      "seller": "MOGI",
+      "premiacao": "NÃO ATINGIDO",
+      "proxima_meta": "D",
+      "missing": 12124.68,
+      "reached": 28375.32,
+      "meta_a": 90000.0
+    },
+    {
+      "seller": "LESTE TATUAPE",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 5991.76,
+      "reached": 81473.24,
+      "meta_a": 147000.0
+    }
+  ],
+  "rows": [
+    {
+      "seller": "SJC",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 5,
+      "reached": 32.0,
+      "meta_a": 37.0
+    },
+    {
+      "seller": "VENDEDOR INTERNO 1",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 9,
+      "reached": 70.0,
+      "meta_a": 79.0
+    },
+    {
+      "seller": "CENTRO",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 5,
+      "reached": 41.0,
+      "meta_a": 54.0
+    },
+    {
+      "seller": "OSASCO",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 8,
+      "reached": 55.0,
+      "meta_a": 63.0
+    },
+    {
+      "seller": "INTERLAGOS",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 6,
+      "reached": 55.0,
+      "meta_a": 61.0
+    },
+    {
+      "seller": "LESTE MOOCA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 5,
+      "reached": 39.0,
+      "meta_a": 51.0
+    },
+    {
+      "seller": "SANTO ANDRE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 6,
+      "reached": 28.0,
+      "meta_a": 40.0
+    },
+    {
+      "seller": "NORTE",
+      "premiacao": "B",
+      "proxima_meta": "A",
+      "missing": 3,
+      "reached": 44.0,
+      "meta_a": 47.0
+    },
+    {
+      "seller": "LESTE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 7,
+      "reached": 34.0,
+      "meta_a": 48.0
+    },
+    {
+      "seller": "SJC/VALE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 4,
+      "reached": 29.0,
+      "meta_a": 38.0
+    },
+    {
+      "seller": "INDAIATUBA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 6,
+      "reached": 31.0,
+      "meta_a": 43.0
+    },
+    {
+      "seller": "CAMPINAS",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 4,
+      "reached": 29.0,
+      "meta_a": 38.0
+    },
+    {
+      "seller": "JUNDIAI",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 3,
+      "reached": 18.0,
+      "meta_a": 29.0
+    },
+    {
+      "seller": "PIRITUBA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 7,
+      "reached": 31.0,
+      "meta_a": 44.0
+    },
+    {
+      "seller": "LESTE PENHA",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 5,
+      "reached": 24.0,
+      "meta_a": 41.0
+    },
+    {
+      "seller": "SBC",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 5,
+      "reached": 34.0,
+      "meta_a": 55.0
+    },
+    {
+      "seller": "MOGI",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 7,
+      "reached": 22.0,
+      "meta_a": 41.0
+    },
+    {
+      "seller": "LESTE TATUAPE",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 13,
+      "reached": 25.0,
+      "meta_a": 53.0
+    },
+    {
+      "seller": "SJC",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 6987.62,
+      "reached": 52512.38,
+      "meta_a": 100000.0
+    },
+    {
+      "seller": "VENDEDOR INTERNO 1",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 16676.85,
+      "reached": 47073.15,
+      "meta_a": 75000.0
+    },
+    {
+      "seller": "CENTRO",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 23368.63,
+      "reached": 257131.37,
+      "meta_a": 330000.0
+    },
+    {
+      "seller": "OSASCO",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 47725.06,
+      "reached": 227249.94,
+      "meta_a": 323500.0
+    },
+    {
+      "seller": "INTERLAGOS",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 51671.15,
+      "reached": 180378.85,
+      "meta_a": 273000.0
+    },
+    {
+      "seller": "LESTE MOOCA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 33607.57,
+      "reached": 136392.43,
+      "meta_a": 200000.0
+    },
+    {
+      "seller": "SANTO ANDRE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 21084.81,
+      "reached": 120865.19,
+      "meta_a": 167000.0
+    },
+    {
+      "seller": "NORTE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 44539.66,
+      "reached": 161160.34,
+      "meta_a": 242000.0
+    },
+    {
+      "seller": "LESTE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 28178.18,
+      "reached": 75521.82,
+      "meta_a": 122000.0
+    },
+    {
+      "seller": "SJC/VALE",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 13099.79,
+      "reached": 33650.21,
+      "meta_a": 55000.0
+    },
+    {
+      "seller": "INDAIATUBA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 14589.96,
+      "reached": 61910.04,
+      "meta_a": 90000.0
+    },
+    {
+      "seller": "CAMPINAS",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 9252.25,
+      "reached": 45572.75,
+      "meta_a": 64500.0
+    },
+    {
+      "seller": "JUNDIAI",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 8574.04,
+      "reached": 57725.96,
+      "meta_a": 78000.0
+    },
+    {
+      "seller": "PIRITUBA",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 31259.87,
+      "reached": 87315.13,
+      "meta_a": 139500.0
+    },
+    {
+      "seller": "LESTE PENHA",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 2867.89,
+      "reached": 83407.11,
+      "meta_a": 145000.0
+    },
+    {
+      "seller": "SBC",
+      "premiacao": "C",
+      "proxima_meta": "B",
+      "missing": 43330.07,
+      "reached": 181919.93,
+      "meta_a": 265000.0
+    },
+    {
+      "seller": "MOGI",
+      "premiacao": "NÃO ATINGIDO",
+      "proxima_meta": "D",
+      "missing": 12124.68,
+      "reached": 28375.32,
+      "meta_a": 90000.0
+    },
+    {
+      "seller": "LESTE TATUAPE",
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 5991.76,
+      "reached": 81473.24,
+      "meta_a": 147000.0
+    }
+  ]
 }
