@@ -26,30 +26,29 @@ DATA_PATH = BASE_DIR / "data.json"
 GERAL_DATA_PATH = BASE_DIR / "geral.json"
 POSITIVACAO_MILHO_DATA_PATH = BASE_DIR / "positivacao_milho.json"
 KEYS_DATA_PATH = BASE_DIR / "keys.json"
+PREMIACAO_DATA_PATH = BASE_DIR / "premiacao.json"
 WEEKLY_GOALS_PATH = BASE_DIR / "weekly_goals.json"
 LOGO_PATH = BASE_DIR / "iatagam_site_logo_cor.png"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
+
+DEFAULT_WEEKLY_GOAL = 700000.0
+
 REMOTE_RAW_BASE = os.environ.get(
     "DASHBOARD_RAW_BASE",
     "https://raw.githubusercontent.com/JoaoCanhadas/acompanhamento-diario/main",
 ).rstrip("/")
+
 REMOTE_API_BASE = os.environ.get(
     "DASHBOARD_API_BASE",
     "https://api.github.com/repos/JoaoCanhadas/acompanhamento-diario/contents",
 ).rstrip("/")
-REMOTE_CACHE_TTL_SECONDS = int(os.environ.get("DASHBOARD_REMOTE_CACHE_SECONDS", "55"))
+
+REMOTE_CACHE_TTL_SECONDS = int(
+    os.environ.get("DASHBOARD_REMOTE_CACHE_SECONDS", "55")
+)
+
 REMOTE_CACHE = {}
-DEFAULT_WEEKLY_GOAL = 700000.0
-POSITIVACAO_MILHO_WEEKLY_GOAL = 200.0
-DEPLOY_VERSION = "2026-06-25 08:39"
-WEEKDAY_LABELS = {
-    0: "SEG",
-    1: "TER",
-    2: "QUA",
-    3: "QUI",
-    4: "SEX",
-}
 
 
 INDEX_HTML = r"""<!doctype html>
@@ -712,6 +711,272 @@ INDEX_HTML = r"""<!doctype html>
       }
     }
 
+/* =========================
+   PAINEL PREMIAÇÃO - TV
+========================= */
+
+#premiacaoView {
+  width: 100%;
+}
+
+.premiacao-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+
+.premiacao-panel {
+  overflow: hidden;
+}
+
+.premiacao-panel .panel-header {
+  min-height: 48px;
+  padding: 0 16px;
+}
+
+.premiacao-panel .panel-header h2 {
+  font-size: 21px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.premiacao-table-wrap {
+  height: auto;
+  max-height: none;
+  overflow: visible;
+  position: relative;
+}
+
+.premiacao-panel table {
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.premiacao-panel thead {
+  display: table-header-group;
+}
+
+.premiacao-panel tbody {
+  display: table-row-group;
+  will-change: transform;
+  transform: translateY(0);
+}
+
+.premiacao-panel tbody tr {
+  display: table-row;
+}
+
+.premiacao-panel th,
+.premiacao-panel td {
+  padding: 6px 14px;
+  font-size: 16px;
+  font-weight: 650;
+  height: 37px;
+  text-align: center;
+}
+
+.premiacao-panel th {
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #aeb8ca;
+  text-align: center;
+}
+
+.premiacao-panel td {
+  padding: 5px 12px;
+  font-size: 15px;
+  font-weight: 650;
+  height: 34px;
+  text-align: center;
+}
+
+.premiacao-panel th:first-child,
+.premiacao-panel td:first-child {
+  width: 34%;
+  text-align: left;
+}
+
+.premiacao-panel th:nth-child(2),
+.premiacao-panel td:nth-child(2) {
+  width: 24%;
+  text-align: center;
+}
+
+.premiacao-panel th:nth-child(3),
+.premiacao-panel td:nth-child(3) {
+  width: 22%;
+  text-align: center;
+}
+
+.premiacao-panel th:nth-child(4),
+.premiacao-panel td:nth-child(4) {
+  width: 20%;
+  text-align: right;
+}
+
+.premiacao-panel td.seller {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.premiacao-nivel {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  height: 28px;
+  padding: 0 9px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.premiacao-a {
+  background: rgba(31, 170, 90, 0.82);
+}
+
+.premiacao-b {
+  background: rgba(22, 119, 205, 0.82);
+}
+
+.premiacao-c {
+  background: rgba(126, 87, 255, 0.82);
+}
+
+.premiacao-d {
+  background: rgba(218, 126, 0, 0.86);
+}
+
+.premiacao-falta {
+  color: #ff5267 !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.3px;
+  text-shadow: 0 0 8px rgba(255, 82, 103, 0.20);
+}
+
+@media (max-width: 900px) {
+
+  #premiacaoView {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  #premiacaoView .premiacao-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    width: 100%;
+  }
+
+  #premiacaoView .premiacao-panel {
+    width: 100%;
+    min-width: 0;
+  }
+
+  #premiacaoView .premiacao-table-wrap {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    overflow-x: hidden;
+    overflow-y: visible;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #premiacaoView .premiacao-panel table {
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
+}
+
+#premiacaoView .premiacao-panel th,
+#premiacaoView .premiacao-panel td {
+  padding: 8px 4px;
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#premiacaoView .premiacao-panel th:first-child,
+#premiacaoView .premiacao-panel td:first-child {
+  width: 42%;
+}
+
+#premiacaoView .premiacao-panel th:nth-child(2),
+#premiacaoView .premiacao-panel td:nth-child(2) {
+  width: 20%;
+  text-align: center;
+}
+
+#premiacaoView .premiacao-panel th:nth-child(3),
+#premiacaoView .premiacao-panel td:nth-child(3) {
+  width: 18%;
+  text-align: center;
+}
+
+#premiacaoView .premiacao-panel th:nth-child(4),
+#premiacaoView .premiacao-panel td:nth-child(4) {
+  width: 20%;
+  text-align: right;
+  padding-right: 8px;
+}
+
+  #premiacaoView .premiacao-nivel {
+    min-width: 28px;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  #premiacaoView .premiacao-falta {
+    font-size: 14px !important;
+  }
+
+  /* Mantém a Premiação como tabela no mobile */
+  #premiacaoView thead {
+    display: table-header-group !important;
+  }
+
+  #premiacaoView table {
+    display: table !important;
+  }
+
+  #premiacaoView tbody {
+    display: table-row-group !important;
+  }
+
+  #premiacaoView tr {
+    display: table-row !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  #premiacaoView th,
+  #premiacaoView td {
+    display: table-cell !important;
+    min-width: 0;
+    padding: 9px 8px;
+    white-space: nowrap;
+  }
+
+  #premiacaoView td::before {
+    display: none !important;
+    content: none !important;
+  }
+
+  #premiacaoView td.seller {
+    text-align: left !important;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -726,6 +991,7 @@ INDEX_HTML = r"""<!doctype html>
           <button class="view-tab" data-view="general" type="button">Geral</button>
           <button class="view-tab" data-view="keys" type="button">Key</button>
           <button class="view-tab" data-view="milho" type="button">Positivação</button>
+          <button class="view-tab" data-view="premiacao" type="button">Premiação</button>
         </div>
         <span class="pill" id="workbook">Carregando...</span>
         <span class="pill" id="updated"></span>
@@ -735,7 +1001,7 @@ INDEX_HTML = r"""<!doctype html>
   <main>
     <div id="error"></div>
 
-    <section class="cards">
+    <section class="cards" id="mainCards">
       <article class="card">
         <div class="label" id="commitmentLabel">Compromisso</div>
         <div class="value" id="commitment">R$ 0,00</div>
@@ -778,7 +1044,7 @@ INDEX_HTML = r"""<!doctype html>
       </article>
     </section>
 
-    <section class="layout">
+    <section class="layout" id="mainLayout">
       <article class="panel">
         <div class="panel-header">
           <h2 id="tableTitle">Performance Varejo</h2>
@@ -808,7 +1074,53 @@ INDEX_HTML = r"""<!doctype html>
         <div class="weekly-wrap">
           <div class="weekly" id="weekly"></div>
         </div>
-      </aside>
+            </aside>
+    </section>
+
+    <section id="premiacaoView" style="display: none;">
+      <div class="premiacao-grid">
+
+        <article class="panel premiacao-panel">
+          <div class="panel-header">
+            <h2>Positivação</h2>
+          </div>
+
+          <div class="table-wrap premiacao-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Vendedor</th>
+                  <th>Premiação Atingida</th>
+                  <th>Próxima Meta</th>
+                  <th>Falta</th>
+                </tr>
+              </thead>
+              <tbody id="premiacaoPositivacaoBody"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel premiacao-panel">
+          <div class="panel-header">
+            <h2>Faturamento</h2>
+          </div>
+
+          <div class="table-wrap premiacao-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Vendedor</th>
+                  <th>Premiação Atingida</th>
+                  <th>Próxima Meta</th>
+                  <th>Falta</th>
+                </tr>
+              </thead>
+              <tbody id="premiacaoFaturamentoBody"></tbody>
+            </table>
+          </div>
+        </article>
+
+      </div>
     </section>
   </main>
 
@@ -817,17 +1129,17 @@ INDEX_HTML = r"""<!doctype html>
 
   let activeView = "sales";
   let loadRequestId = 0;
+
   let sellerScrollFrame = null;
   let weeklyScrollFrame = null;
   let sellerScrollOffset = 0;
 
   const brl = new Intl.NumberFormat("pt-BR", {
-  style: "currency",
-  currency: "BRL",
-  minimumFractionDigits: 0,
-  maximumFractionDigits: 0
-});
-
+    style: "currency",
+    currency: "BRL",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
+  });
 const numberFormatter = new Intl.NumberFormat("pt-BR", {
   minimumFractionDigits: 0,
   maximumFractionDigits: 0
@@ -854,10 +1166,7 @@ const formatNumber = (value) => {
 const formatBalance = (value, formatter) => {
   const amount = Number(value || 0);
 
-  if (amount > 0) return formatter(-amount);
-  if (amount < 0) return `+${formatter(Math.abs(amount))}`;
-
-  return formatter(0);
+  return formatter(Math.abs(amount));
 };
 
   const moneyClass = (value) =>
@@ -970,6 +1279,39 @@ const formatBalance = (value, formatter) => {
   const viewForRequest = activeView;
   byId("error").innerHTML = "";
 
+  if (viewForRequest === "premiacao") {
+    try {
+      const response = await fetch("/api/premiacao?ts=" + Date.now());
+
+      if (!response.ok) {
+        throw new Error(await response.text());
+      }
+
+      const data = await response.json();
+
+      if (
+        requestId !== loadRequestId ||
+        viewForRequest !== activeView
+      ) {
+        return;
+      }
+
+      renderPremiacao(data);
+    } catch (error) {
+      if (
+        requestId !== loadRequestId ||
+        viewForRequest !== activeView
+      ) {
+        return;
+      }
+
+      byId("error").innerHTML =
+        `<div class="error">${error.message}</div>`;
+    }
+
+    return;
+  }
+
   if (!state.rows.length) {
     renderLoading(viewForRequest);
   }
@@ -1070,8 +1412,82 @@ if (viewName === "general") {
     `<div class="week-card">Carregando...</div>`;
 }
 
+function renderPremiacao(data) {
+  byId("mainCards").style.display = "none";
+  byId("mainLayout").style.display = "none";
+  byId("premiacaoView").style.display = "block";
+
+  setText("workbook", data.workbook || "BASE PYTHON.xlsx");
+  setText("updated", "");
+
+const badge = (valor) => {
+  const nivel = String(valor || "").trim().toUpperCase();
+
+  if (
+    !nivel ||
+    nivel === "NÃO ATINGIDO" ||
+    nivel === "NAO ATINGIDO" ||
+    nivel === "NÃƒO ATINGIDO"
+  ) {
+    return `<span class="premiacao-nivel premiacao-nao">—</span>`;
+  }
+
+  const classe = `premiacao-${nivel.toLowerCase()}`;
+
+  return `
+    <span class="premiacao-nivel ${classe}">
+      ${nivel}
+    </span>
+  `;
+};
+
+  const prepararRows = (rows) => {
+    return [...(rows || [])].sort(
+      (a, b) =>
+        Number(a.missing || 0) -
+        Number(b.missing || 0)
+    );
+  };
+
+  const montarMarkup = (rows, tipo) => {
+    return rows.map((row) => {
+      const falta = Number(row.missing || 0);
+
+      const faltaFormatada =
+        tipo === "positivacao"
+          ? formatNumber(falta)
+          : formatMoney(falta);
+
+      const classeFalta =
+        falta < 0
+          ? "premiacao-falta premiacao-falta-superou"
+          : "premiacao-falta";
+
+      return `
+        <tr>
+          <td class="seller">${row.seller || ""}</td>
+          <td>${badge(row.premiacao)}</td>
+          <td>${badge(row.proxima_meta)}</td>
+          <td class="${classeFalta}">${faltaFormatada}</td>
+        </tr>
+      `;
+    }).join("");
+  };
+
+  const positivacao = prepararRows(data.positivacao);
+  const faturamento = prepararRows(data.faturamento);
+
+  byId("premiacaoPositivacaoBody").innerHTML =
+    montarMarkup(positivacao, "positivacao");
+
+  byId("premiacaoFaturamentoBody").innerHTML =
+    montarMarkup(faturamento, "faturamento");
+}
+
 function normalizeWeeks(data) {
-  if (Array.isArray(data.weeks) && data.weeks.length) return data.weeks;
+  if (Array.isArray(data.weeks) && data.weeks.length) {
+    return data.weeks;
+  }
 
   const summary = data.summary || {};
   const goal = Number(summary.weekGoal || 0);
@@ -1084,6 +1500,7 @@ function normalizeWeeks(data) {
     percent: week === 1 ? Number(summary.weekPercent || 0) : 0,
   }));
 }
+
 
 const feriados = [
   "2026-09-07",
@@ -1533,22 +1950,44 @@ requestAnimationFrame(() => startSellerAutoScroll(rows.length > 8));
       weeklyScrollFrame = requestAnimationFrame(tick);
     }
 
-    byId("tableHead").addEventListener("click", (event) => {
-      const header = event.target.closest("th[data-sort]");
-      if (!header) return;
-      const key = header.dataset.sort;
-      if (state.sortKey === key) {
-        state.sortDir = state.sortDir === "asc" ? "desc" : "asc";
-      } else {
-        state.sortKey = key === "reference" ? "seller" : key;
-        state.sortDir = key === "seller" || key === "reference" ? "asc" : "desc";
-      }
-      renderTable();
-    });
+byId("tableHead").addEventListener("click", (event) => {
+  const header = event.target.closest("th[data-sort]");
+  if (!header) return;
 
-    document.querySelectorAll(".view-tab").forEach((button) => {
+  const key = header.dataset.sort;
+
+  if (state.sortKey === key) {
+    state.sortDir = state.sortDir === "asc" ? "desc" : "asc";
+  } else {
+    state.sortKey = key === "reference" ? "seller" : key;
+    state.sortDir =
+      key === "seller" || key === "reference"
+        ? "asc"
+        : "desc";
+  }
+
+  renderTable();
+});
+
+
+function updateViewLayout() {
+  const isPremiacao = activeView === "premiacao";
+
+  byId("premiacaoView").style.display =
+    isPremiacao ? "block" : "none";
+
+  byId("mainCards").style.display =
+    isPremiacao ? "none" : "";
+
+  byId("mainLayout").style.display =
+    isPremiacao ? "none" : "";
+}
+
+
+document.querySelectorAll(".view-tab").forEach((button) => {
   button.addEventListener("click", () => {
     activeView = button.dataset.view;
+
     state.sortKey = "missing";
     state.sortDir = "desc";
 
@@ -1556,6 +1995,7 @@ requestAnimationFrame(() => startSellerAutoScroll(rows.length > 8));
       tab.classList.toggle("active", tab === button);
     });
 
+    updateViewLayout();
     loadData();
   });
 });
@@ -1564,7 +2004,7 @@ byId("search").addEventListener("input", renderTable);
 byId("status").addEventListener("change", renderTable);
 byId("refresh").addEventListener("click", loadData);
 
-const autoRotateViews = ["sales", "general", "keys", "milho"];
+const autoRotateViews = ["sales", "general", "keys", "milho", "premiacao"];
 let autoRotateTimer = null;
 
 function changeToNextView() {
@@ -1580,6 +2020,7 @@ function changeToNextView() {
     tab.classList.toggle("active", tab.dataset.view === activeView);
   });
 
+  updateViewLayout();
   loadData();
 }
 
@@ -2965,6 +3406,61 @@ def read_keys_planilha1_data(excel_path, workbook):
         "weeks": weeks,
     }
 
+
+def read_premiacao_planilha1_data(excel_path, workbook):
+    sheet = workbook["Planilha1"]
+
+    def read_block(start_col, start_row=3):
+        rows = []
+
+        row_number = start_row + 1
+
+        while row_number <= sheet.max_row:
+            seller = normalize_text(
+                sheet.cell(row_number, start_col).value
+            )
+
+            premiacao = normalize_text(
+                sheet.cell(row_number, start_col + 1).value
+            )
+
+            proxima_meta = normalize_text(
+                sheet.cell(row_number, start_col + 2).value
+            )
+
+            falta = sheet.cell(
+                row_number,
+                start_col + 3
+            ).value
+
+            if not seller:
+                break
+
+            rows.append(
+                {
+                    "seller": seller,
+                    "premiacao": premiacao,
+                    "proxima_meta": proxima_meta,
+                    "missing": money(falta),
+                }
+            )
+
+            row_number += 1
+
+        return rows
+
+    positivacao = read_block(25, 3)   # Y = coluna 25
+    faturamento = read_block(30, 3)   # AD = coluna 30
+
+    return {
+        "workbook": excel_path.name,
+        "title": "Premiação",
+        "positivacao": positivacao,
+        "faturamento": faturamento,
+        "rows": positivacao + faturamento,
+    }
+
+
 def select_daily_total(daily_totals):
     if not daily_totals:
         return None
@@ -3236,12 +3732,50 @@ def read_keys_data():
     raise FileNotFoundError(f"Arquivo nao encontrado: {KEYS_DATA_PATH}")
 
 
+def read_premiacao_data():
+    # 1. Prioridade: arquivo remoto já calculado
+    remote_data = read_remote_payload("premiacao.json")
+
+    if remote_data:
+        return remote_data
+
+    # 2. Fallback: arquivo local já calculado
+    if PREMIACAO_DATA_PATH.exists():
+        return json.loads(
+            PREMIACAO_DATA_PATH.read_text(
+                encoding="utf-8"
+            )
+        )
+
+    # 3. Último fallback: cálculo direto
+    try:
+        if sensum_sql.enabled():
+            sql_data = sensum_sql.read_premiacao_sql()
+
+            if sql_data:
+                return sql_data
+    except Exception as exc:
+        print(
+            f"[PREMIACAO] Falha ao carregar pelo SQL: {exc}",
+            flush=True
+        )
+
+    raise FileNotFoundError(
+        f"Arquivo nao encontrado: {PREMIACAO_DATA_PATH}"
+    )
+
+
 def read_published_payload(path, *, weekly_goals=False):
     if not path.exists():
         return None
-    payload = json.loads(path.read_text(encoding="utf-8"))
+
+    payload = json.loads(
+        path.read_text(encoding="utf-8")
+    )
+
     if weekly_goals:
         return apply_weekly_goals(payload)
+
     return payload
 
 
@@ -3368,6 +3902,21 @@ class DashboardHandler(BaseHTTPRequestHandler):
             except Exception as exc:
                 self.send_text(str(exc), "text/plain; charset=utf-8", status=500)
             return
+
+        if parsed.path == "/api/premiacao":
+            try:
+                data = read_premiacao_data()
+                payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+            except Exception as exc:
+                self.send_text(str(exc), "text/plain; charset=utf-8", status=500)
+            return
+
         self.send_text("Nao encontrado", "text/plain; charset=utf-8", status=404)
 
     def do_POST(self):
