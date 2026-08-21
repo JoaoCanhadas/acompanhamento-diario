@@ -19,11 +19,16 @@ from dashboard import (
     read_positivacao_milho_data,
 )
 
+import sensum_sql
+
+PREMIACAO_DATA_PATH = BASE_DIR / "premiacao.json"
+
 EXPORTS = [
     ("Faturamento", DATA_PATH, read_dashboard_data),
     ("Geral", GERAL_DATA_PATH, read_general_data),
-    ("Postivação", POSITIVACAO_MILHO_DATA_PATH, read_positivacao_milho_data),
+    ("PostivaÃ§Ã£o", POSITIVACAO_MILHO_DATA_PATH, read_positivacao_milho_data),
     ("Keys", KEYS_DATA_PATH, read_keys_data),
+    ("Premiacao", PREMIACAO_DATA_PATH, sensum_sql.read_premiacao_sql),
 ]
 
 
