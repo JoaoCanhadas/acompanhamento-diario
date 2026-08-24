@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "24/08/2026 10:59",
+  "lastModified": "24/08/2026 11:00",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3679041.04,
-    "missing": 2105458.96,
-    "percent": 63.6,
+    "reached": 3684978.19,
+    "missing": 2099521.81,
+    "percent": 63.7,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -139,11 +139,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 200000.0,
-      "reached": 139461.7,
-      "missing": 60538.3,
+      "reached": 142386.1,
+      "missing": 57613.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 69.7,
+      "percent": 71.2,
       "status": "pending"
     },
     {
@@ -216,22 +216,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
-      "reached": 128843.74,
-      "missing": 38156.26,
+      "reached": 130782.49,
+      "missing": 36217.51,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 77.2,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 90000.0,
-      "reached": 68471.62,
-      "missing": 21528.38,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.1,
+      "percent": 78.3,
       "status": "pending"
     },
     {
@@ -243,6 +232,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 72.7,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 90000.0,
+      "reached": 69545.62,
+      "missing": 20454.38,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.3,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 90583.76,
-      "missing": 1286678.24,
-      "percent": 6.6
+      "reached": 96520.91,
+      "missing": 1280741.09,
+      "percent": 7.0
     },
     {
       "name": "Semana 5",
