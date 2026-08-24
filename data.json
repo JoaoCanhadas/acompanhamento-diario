@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/08/2026 13:58",
+  "lastModified": "24/08/2026 13:59",
   "summary": {
     "commitment": 300280.0,
-    "reached": 201924.82,
-    "missing": 98355.18,
-    "percent": 67.2,
+    "reached": 210696.91,
+    "missing": 89583.09,
+    "percent": 70.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
     {
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 35710.0,
-      "reached": 25596.12,
-      "missing": 10113.88,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 71.7,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 13600.0,
@@ -48,25 +37,14 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 11380.0,
-      "reached": 2206.83,
-      "missing": 9173.17,
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 35710.0,
+      "reached": 26777.02,
+      "missing": 8932.98,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 19.4,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 16990.0,
-      "reached": 8055.29,
-      "missing": 8934.71,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.4,
+      "percent": 75.0,
       "status": "pending"
     },
     {
@@ -78,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 59.5,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 11380.0,
+      "reached": 3605.83,
+      "missing": 7774.17,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.7,
       "status": "pending"
     },
     {
@@ -95,22 +84,22 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 24870.0,
-      "reached": 17904.68,
-      "missing": 6965.32,
+      "reached": 18066.08,
+      "missing": 6803.92,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 72.0,
+      "percent": 72.6,
       "status": "pending"
     },
     {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 28170.0,
-      "reached": 21466.6,
-      "missing": 6703.4,
+      "reached": 21644.2,
+      "missing": 6525.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.2,
+      "percent": 76.8,
       "status": "pending"
     },
     {
@@ -136,14 +125,25 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 16990.0,
+      "reached": 12531.49,
+      "missing": 4458.51,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 73.8,
+      "status": "pending"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 13400.0,
-      "reached": 9033.27,
-      "missing": 4366.73,
+      "reached": 9180.36,
+      "missing": 4219.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 67.4,
+      "percent": 68.5,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 17970.0,
-      "reached": 17696.12,
-      "missing": 273.88,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 98.5,
-      "status": "pending"
-    },
-    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 17970.0,
+      "reached": 18926.02,
+      "missing": -956.02,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 105.3,
       "status": "ok"
     },
     {
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 201924.82,
-      "missing": 490098.99,
-      "percent": 29.2
+      "reached": 210696.91,
+      "missing": 481326.9,
+      "percent": 30.4
     },
     {
       "name": "Semana 5",
