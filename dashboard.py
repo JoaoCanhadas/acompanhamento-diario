@@ -1762,21 +1762,32 @@ function filteredRows() {
     .filter((row) =>
       status === "all" || row.status === status
     )
-    .filter((row) => {
-      const seller = String(row.seller || "")
-        .trim()
-        .toUpperCase();
+.filter((row) => {
+  const seller = String(row.seller || "")
+    .trim()
+    .toUpperCase();
 
-      // Oculta IATAGAM JUNIOR no Geral e no Varejo
-      if (
-        (activeView === "general" || activeView === "sales") &&
-        seller === "IATAGAM JUNIOR"
-      ) {
-        return false;
-      }
+  // VAREJO: oculta IATAGAM JUNIOR e ECOMMERCE
+  if (
+    activeView === "sales" &&
+    (
+      seller === "IATAGAM JUNIOR" ||
+      seller === "ECOMMERCE"
+    )
+  ) {
+    return false;
+  }
 
-      return true;
-    });
+  // GERAL: oculta somente IATAGAM JUNIOR
+  if (
+    activeView === "general" &&
+    seller === "IATAGAM JUNIOR"
+  ) {
+    return false;
+  }
+
+  return true;
+});
 
   // REGRA ESPECIAL SOMENTE PARA O PAINEL GERAL
   if (activeView === "general") {
