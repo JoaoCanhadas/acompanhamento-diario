@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/08/2026 08:32",
+  "lastModified": "24/08/2026 08:33",
   "summary": {
     "commitment": 300280.0,
-    "reached": 23001.7,
-    "missing": 277278.3,
-    "percent": 7.7,
+    "reached": 23955.9,
+    "missing": 276324.1,
+    "percent": 8.0,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -147,25 +147,14 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 10820.0,
-      "reached": 0.0,
-      "missing": 10820.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 13400.0,
-      "reached": 2823.33,
-      "missing": 10576.67,
+      "reached": 2973.33,
+      "missing": 10426.67,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.1,
+      "percent": 22.2,
       "status": "pending"
     },
     {
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 30.8,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 10820.0,
+      "reached": 804.2,
+      "missing": 10015.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 7.4,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 23001.7,
-      "missing": 669022.11,
-      "percent": 3.3
+      "reached": 23955.9,
+      "missing": 668067.91,
+      "percent": 3.5
     },
     {
       "name": "Semana 5",
