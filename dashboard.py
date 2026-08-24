@@ -348,8 +348,9 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .table-wrap {
-  height: 560px;
-  max-height: 560px;
+  height: calc(100vh - 300px);
+  min-height: 560px;
+  max-height: none;
   overflow: hidden;
   position: relative;
 }
@@ -362,7 +363,7 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     th, td {
-      padding: 14px 16px;
+      padding: 8px 16px;
       border-bottom: 1px solid rgba(34,48,71,.8);
       text-align: right;
       white-space: nowrap;
@@ -442,11 +443,12 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .weekly-wrap {
-      height: 560px;
-      max-height: 560px;
-      overflow: hidden;
-      position: relative;
-    }
+  height: calc(100vh - 300px);
+  min-height: 560px;
+  max-height: none;
+  overflow: hidden;
+  position: relative;
+}
 
     .weekly {
       display: grid;
@@ -613,10 +615,11 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       .table-wrap {
-  height: 520px;
-  max-height: 520px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  height: calc(100vh - 300px);
+  min-height: 560px;
+  max-height: none;
+  overflow: hidden;
+  position: relative;
 }
 
       thead {
@@ -731,25 +734,27 @@ INDEX_HTML = r"""<!doctype html>
 }
 
 .premiacao-panel .panel-header {
-  min-height: 48px;
-  padding: 0 16px;
+  min-height: 40px;
+  padding: 0 14px;
 }
 
 .premiacao-panel .panel-header h2 {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 800;
   color: #ffffff;
 }
 
 .premiacao-table-wrap {
-  height: auto;
+  height: calc(100vh - 150px);
   max-height: none;
-  overflow: visible;
+  overflow: hidden;
   position: relative;
+  display: flex;
 }
 
 .premiacao-panel table {
   width: 100%;
+  height: 100%;
   min-width: 0;
   table-layout: fixed;
   border-collapse: collapse;
@@ -769,28 +774,19 @@ INDEX_HTML = r"""<!doctype html>
   display: table-row;
 }
 
-.premiacao-panel th,
-.premiacao-panel td {
-  padding: 6px 14px;
-  font-size: 16px;
-  font-weight: 650;
-  height: 37px;
-  text-align: center;
-}
-
 .premiacao-panel th {
-  padding: 7px 12px;
+  padding: 3px 10px;
   font-size: 12px;
   font-weight: 800;
   color: #aeb8ca;
   text-align: center;
+  height: 22px;
 }
 
 .premiacao-panel td {
-  padding: 5px 12px;
+  padding: 2px 10px;
   font-size: 15px;
   font-weight: 650;
-  height: 34px;
   text-align: center;
 }
 
@@ -828,9 +824,9 @@ INDEX_HTML = r"""<!doctype html>
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 34px;
-  height: 28px;
-  padding: 0 9px;
+  min-width: 32px;
+  height: 24px;
+  padding: 0 8px;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 800;
@@ -855,11 +851,23 @@ INDEX_HTML = r"""<!doctype html>
 
 .premiacao-falta {
   color: #ff5267 !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
   font-weight: 900 !important;
   letter-spacing: 0.3px;
   text-shadow: 0 0 8px rgba(255, 82, 103, 0.20);
 }
+
+/* Quando ultrapassar a Meta A */
+.premiacao-falta-superou {
+  color: #22c55e !important;
+  font-weight: 900 !important;
+}
+
+
+
+/* =========================
+   PREMIAÇÃO - MOBILE
+========================= */
 
 @media (max-width: 900px) {
 
@@ -887,64 +895,17 @@ INDEX_HTML = r"""<!doctype html>
     overflow-x: hidden;
     overflow-y: visible;
     position: relative;
-    -webkit-overflow-scrolling: touch;
   }
 
   #premiacaoView .premiacao-panel table {
-  width: 100%;
-  min-width: 0;
-  table-layout: fixed;
-}
-
-#premiacaoView .premiacao-panel th,
-#premiacaoView .premiacao-panel td {
-  padding: 8px 4px;
-  font-size: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-#premiacaoView .premiacao-panel th:first-child,
-#premiacaoView .premiacao-panel td:first-child {
-  width: 42%;
-}
-
-#premiacaoView .premiacao-panel th:nth-child(2),
-#premiacaoView .premiacao-panel td:nth-child(2) {
-  width: 20%;
-  text-align: center;
-}
-
-#premiacaoView .premiacao-panel th:nth-child(3),
-#premiacaoView .premiacao-panel td:nth-child(3) {
-  width: 18%;
-  text-align: center;
-}
-
-#premiacaoView .premiacao-panel th:nth-child(4),
-#premiacaoView .premiacao-panel td:nth-child(4) {
-  width: 20%;
-  text-align: right;
-  padding-right: 8px;
-}
-
-  #premiacaoView .premiacao-nivel {
-    min-width: 28px;
-    padding: 4px 8px;
-    font-size: 12px;
+    display: table !important;
+    width: 100%;
+    min-width: 0;
+    table-layout: fixed;
   }
 
-  #premiacaoView .premiacao-falta {
-    font-size: 14px !important;
-  }
-
-  /* Mantém a Premiação como tabela no mobile */
   #premiacaoView thead {
     display: table-header-group !important;
-  }
-
-  #premiacaoView table {
-    display: table !important;
   }
 
   #premiacaoView tbody {
@@ -963,8 +924,45 @@ INDEX_HTML = r"""<!doctype html>
   #premiacaoView td {
     display: table-cell !important;
     min-width: 0;
-    padding: 9px 8px;
+    padding: 8px 4px;
+    font-size: 10px;
     white-space: nowrap;
+    overflow: hidden;
+  }
+
+  #premiacaoView .premiacao-panel th:first-child,
+  #premiacaoView .premiacao-panel td:first-child {
+    width: 42%;
+  }
+
+  #premiacaoView .premiacao-panel th:nth-child(2),
+  #premiacaoView .premiacao-panel td:nth-child(2) {
+    width: 20%;
+    text-align: center;
+  }
+
+  #premiacaoView .premiacao-panel th:nth-child(3),
+  #premiacaoView .premiacao-panel td:nth-child(3) {
+    width: 18%;
+    text-align: center;
+  }
+
+  #premiacaoView .premiacao-panel th:nth-child(4),
+  #premiacaoView .premiacao-panel td:nth-child(4) {
+    width: 20%;
+    text-align: right;
+    padding-right: 8px;
+  }
+
+  #premiacaoView .premiacao-nivel {
+    min-width: 28px;
+    height: 24px;
+    padding: 0 7px;
+    font-size: 12px;
+  }
+
+  #premiacaoView .premiacao-falta {
+    font-size: 14px !important;
   }
 
   #premiacaoView td::before {
