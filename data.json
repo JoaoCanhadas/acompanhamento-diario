@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/08/2026 13:15",
+  "lastModified": "24/08/2026 13:17",
   "summary": {
     "commitment": 300280.0,
-    "reached": 165116.94,
-    "missing": 135163.06,
-    "percent": 55.0,
+    "reached": 170314.89,
+    "missing": 129965.11,
+    "percent": 56.7,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 0,
-    "pendingCount": 18
+    "positiveCount": 1,
+    "pendingCount": 17
   },
   "rows": [
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 24870.0,
-      "reached": 14293.1,
-      "missing": 10576.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 57.5,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 13600.0,
@@ -70,25 +59,25 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 28170.0,
-      "reached": 18294.41,
-      "missing": 9875.59,
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 24870.0,
+      "reached": 14620.38,
+      "missing": 10249.62,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 64.9,
+      "percent": 58.8,
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 21620.0,
-      "reached": 12069.45,
-      "missing": 9550.55,
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 28170.0,
+      "reached": 18507.09,
+      "missing": 9662.91,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.8,
+      "percent": 65.7,
       "status": "pending"
     },
     {
@@ -114,14 +103,25 @@
       "status": "pending"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 21620.0,
+      "reached": 12870.54,
+      "missing": 8749.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 59.5,
+      "status": "pending"
+    },
+    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 14420.0,
-      "reached": 6342.0,
-      "missing": 8078.0,
+      "reached": 7158.0,
+      "missing": 7262.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 44.0,
+      "percent": 49.6,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 17680.0,
-      "reached": 16380.42,
-      "missing": 1299.58,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 92.6,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 14750.0,
@@ -221,6 +210,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 17680.0,
+      "reached": 19421.32,
+      "missing": -1741.32,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 109.8,
       "status": "ok"
     }
   ],
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 165116.94,
-      "missing": 526906.87,
-      "percent": 23.9
+      "reached": 170314.89,
+      "missing": 521708.92,
+      "percent": 24.6
     },
     {
       "name": "Semana 5",
