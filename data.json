@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/08/2026 11:23",
+  "lastModified": "24/08/2026 11:25",
   "summary": {
     "commitment": 300280.0,
-    "reached": 105226.46,
-    "missing": 195053.54,
-    "percent": 35.0,
+    "reached": 109288.33,
+    "missing": 190991.67,
+    "percent": 36.4,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -51,22 +51,22 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 28170.0,
-      "reached": 11560.06,
-      "missing": 16609.94,
+      "reached": 12031.81,
+      "missing": 16138.19,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 41.0,
+      "percent": 42.7,
       "status": "pending"
     },
     {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 21620.0,
-      "reached": 6132.65,
-      "missing": 15487.35,
+      "reached": 7948.95,
+      "missing": 13671.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 28.4,
+      "percent": 36.8,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 11380.0,
-      "reached": 1524.48,
-      "missing": 9855.52,
+      "reached": 1676.78,
+      "missing": 9703.22,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 13.4,
+      "percent": 14.7,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 17970.0,
-      "reached": 9877.5,
-      "missing": 8092.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 55.0,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 8720.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 16.9,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 17970.0,
+      "reached": 11499.02,
+      "missing": 6470.98,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.0,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 105226.46,
-      "missing": 586797.35,
-      "percent": 15.2
+      "reached": 109288.33,
+      "missing": 582735.48,
+      "percent": 15.8
     },
     {
       "name": "Semana 5",
