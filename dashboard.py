@@ -1003,8 +1003,8 @@ INDEX_HTML = r"""<!doctype html>
       </div>
       <div class="meta">
         <div class="view-tabs" aria-label="Telas do acompanhamento">
-          <button class="view-tab active" data-view="sales" type="button">Varejo</button>
-          <button class="view-tab" data-view="general" type="button">Geral</button>
+          <button class="view-tab active" data-view="general" type="button">Geral</button>
+          <button class="view-tab" data-view="sales" type="button">Varejo</button>
           <button class="view-tab" data-view="keys" type="button">Key</button>
           <button class="view-tab" data-view="milho" type="button">Positivação</button>
           <button class="view-tab" data-view="premiacao" type="button">Premiação</button>
@@ -1143,7 +1143,7 @@ INDEX_HTML = r"""<!doctype html>
   <script>
   const state = { rows: [], weeks: [], sortKey: "missing", sortDir: "desc" };
 
-  let activeView = "sales";
+  let activeView = "general";
   let loadRequestId = 0;
 
   let sellerScrollFrame = null;
@@ -2040,7 +2040,7 @@ byId("search").addEventListener("input", renderTable);
 byId("status").addEventListener("change", renderTable);
 byId("refresh").addEventListener("click", loadData);
 
-const autoRotateViews = ["sales", "general", "keys", "milho", "premiacao"];
+const autoRotateViews = ["general", "sales", "keys", "milho", "premiacao"];
 let autoRotateTimer = null;
 
 function changeToNextView() {
