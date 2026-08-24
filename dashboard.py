@@ -739,9 +739,12 @@ INDEX_HTML = r"""<!doctype html>
 }
 
 .premiacao-panel .panel-header h2 {
+  width: 100%;
   font-size: 20px;
-  font-weight: 800;
-  color: #ffffff;
+  font-weight: 900;
+  color: #aeb8ca;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .premiacao-table-wrap {
@@ -775,18 +778,20 @@ INDEX_HTML = r"""<!doctype html>
 }
 
 .premiacao-panel th {
-  padding: 3px 10px;
-  font-size: 12px;
+  padding: 5px 10px;
+  font-size: 13px;
   font-weight: 800;
-  color: #aeb8ca;
-  text-align: center;
-  height: 22px;
+  color: var(--soft);
+  text-transform: uppercase;
+  letter-spacing: 0;
+  height: 28px;
 }
 
 .premiacao-panel td {
   padding: 2px 10px;
   font-size: 15px;
   font-weight: 650;
+  height: 28px;
   text-align: center;
 }
 
@@ -811,7 +816,7 @@ INDEX_HTML = r"""<!doctype html>
 .premiacao-panel th:nth-child(4),
 .premiacao-panel td:nth-child(4) {
   width: 20%;
-  text-align: right;
+  text-align: center;
 }
 
 .premiacao-panel td.seller {
@@ -827,26 +832,33 @@ INDEX_HTML = r"""<!doctype html>
   min-width: 32px;
   height: 24px;
   padding: 0 8px;
-  border-radius: 6px;
+  border-radius: 4px;
   font-size: 14px;
-  font-weight: 800;
-  color: #ffffff;
+  font-weight: 900;
 }
 
 .premiacao-a {
-  background: rgba(31, 170, 90, 0.82);
+  background: rgba(34, 197, 94, 0.08);
+  color: #22c55e;
+  border: 1px solid #22c55e;
 }
 
 .premiacao-b {
-  background: rgba(22, 119, 205, 0.82);
+  background: rgba(14, 165, 233, 0.08);
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
 }
 
 .premiacao-c {
-  background: rgba(126, 87, 255, 0.82);
+  background: rgba(139, 92, 246, 0.08);
+  color: #a78bfa;
+  border: 1px solid #8b5cf6;
 }
 
 .premiacao-d {
-  background: rgba(218, 126, 0, 0.86);
+  background: rgba(249, 115, 22, 0.08);
+  color: #fb923c;
+  border: 1px solid #f97316;
 }
 
 .premiacao-falta {
@@ -855,6 +867,12 @@ INDEX_HTML = r"""<!doctype html>
   font-weight: 900 !important;
   letter-spacing: 0.3px;
   text-shadow: 0 0 8px rgba(255, 82, 103, 0.20);
+}
+
+/* FALTA - vermelho igual aos outros painéis */
+.premiacao-panel tbody td:nth-child(4) {
+  color: #ff5267 !important;
+  font-weight: 900 !important;
 }
 
 /* Quando ultrapassar a Meta A */
@@ -1440,12 +1458,32 @@ const badge = (valor) => {
 };
 
   const prepararRows = (rows) => {
-    return [...(rows || [])].sort(
-      (a, b) =>
-        Number(a.missing || 0) -
-        Number(b.missing || 0)
-    );
+  const ordemPremiacao = {
+    "A": 1,
+    "B": 2,
+    "C": 3,
+    "D": 4,
+    "NÃO ATINGIDO": 5,
+    "NAO ATINGIDO": 5,
+    "": 6
   };
+
+  return [...(rows || [])].sort((a, b) => {
+    const premioA = String(a.premiacao || "").trim().toUpperCase();
+    const premioB = String(b.premiacao || "").trim().toUpperCase();
+
+    const ordemA = ordemPremiacao[premioA] ?? 99;
+    const ordemB = ordemPremiacao[premioB] ?? 99;
+
+    /* Primeiro agrupa pela premiação atingida */
+    if (ordemA !== ordemB) {
+      return ordemA - ordemB;
+    }
+
+    /* Dentro do mesmo grupo, ordena pela falta do menor para o maior */
+    return Number(a.missing || 0) - Number(b.missing || 0);
+  });
+};
 
   const montarMarkup = (rows, tipo) => {
     return rows.map((row) => {
