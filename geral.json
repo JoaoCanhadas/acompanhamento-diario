@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "24/08/2026 08:14",
+  "lastModified": "24/08/2026 08:15",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3597688.65,
-    "missing": 2186811.35,
+    "reached": 3600057.55,
+    "missing": 2184442.45,
     "percent": 62.2,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -73,11 +73,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 182622.25,
-      "missing": 90377.75,
+      "reached": 182792.15,
+      "missing": 90207.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 66.9,
+      "percent": 67.0,
       "status": "pending"
     },
     {
@@ -216,22 +216,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
-      "reached": 123855.59,
-      "missing": 43144.41,
+      "reached": 125409.59,
+      "missing": 41590.41,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.2,
-      "status": "pending"
-    },
-    {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 75000.0,
-      "reached": 47523.15,
-      "missing": 27476.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 63.4,
+      "percent": 75.1,
       "status": "pending"
     },
     {
@@ -243,6 +232,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 69.5,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 75000.0,
+      "reached": 48168.15,
+      "missing": 26831.85,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.2,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 9034.45,
-      "missing": 1368227.55,
-      "percent": 0.7
+      "reached": 11403.35,
+      "missing": 1365858.65,
+      "percent": 0.8
     },
     {
       "name": "Semana 5",
