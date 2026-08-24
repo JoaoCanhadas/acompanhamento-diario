@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "24/08/2026 09:34",
+  "lastModified": "24/08/2026 09:36",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3631816.81,
-    "missing": 2152683.19,
+    "reached": 3634211.76,
+    "missing": 2150288.24,
     "percent": 62.8,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -73,8 +73,8 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 183964.95,
-      "missing": 89035.05,
+      "reached": 183988.75,
+      "missing": 89011.25,
       "average": 0.0,
       "difference": 0.0,
       "percent": 67.4,
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 330000.0,
-      "reached": 263721.69,
-      "missing": 66278.31,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 79.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 147000.0,
@@ -136,14 +125,25 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 330000.0,
+      "reached": 265390.44,
+      "missing": 64609.56,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 80.4,
+      "status": "pending"
+    },
+    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 200000.0,
-      "reached": 136467.38,
-      "missing": 63532.62,
+      "reached": 137169.78,
+      "missing": 62830.22,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 68.2,
+      "percent": 68.6,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 43162.61,
-      "missing": 1334099.39,
-      "percent": 3.1
+      "reached": 45557.56,
+      "missing": 1331704.44,
+      "percent": 3.3
     },
     {
       "name": "Semana 5",
