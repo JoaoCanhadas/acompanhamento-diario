@@ -3,9 +3,9 @@
   "lastModified": "24/08/2026 08:20",
   "summary": {
     "commitment": 300280.0,
-    "reached": 11403.35,
-    "missing": 288876.65,
-    "percent": 3.8,
+    "reached": 19032.5,
+    "missing": 281247.5,
+    "percent": 6.3,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -18,11 +18,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 35710.0,
-      "reached": 1422.5,
-      "missing": 34287.5,
+      "reached": 3147.4,
+      "missing": 32562.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 4.0,
+      "percent": 8.8,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 17970.0,
-      "reached": 466.9,
-      "missing": 17503.1,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 2.6,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 16990.0,
@@ -136,14 +125,25 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 17970.0,
+      "reached": 5593.1,
+      "missing": 12376.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.1,
+      "status": "pending"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 13400.0,
-      "reached": 1095.0,
-      "missing": 12305.0,
+      "reached": 1873.05,
+      "missing": 11526.95,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 8.2,
+      "percent": 14.0,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 11403.35,
-      "missing": 680620.46,
-      "percent": 1.6
+      "reached": 19032.5,
+      "missing": 672991.31,
+      "percent": 2.8
     },
     {
       "name": "Semana 5",

@@ -3,9 +3,9 @@
   "lastModified": "24/08/2026 08:20",
   "summary": {
     "commitment": 783.0,
-    "reached": 573.0,
-    "missing": 210.0,
-    "percent": 73.2,
+    "reached": 575.0,
+    "missing": 208.0,
+    "percent": 73.4,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -51,11 +51,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 41.0,
-      "reached": 24.0,
-      "missing": 17.0,
+      "reached": 25.0,
+      "missing": 16.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.5,
+      "percent": 61.0,
       "status": "pending"
     },
     {
@@ -67,17 +67,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.8,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 54.0,
-      "reached": 41.0,
-      "missing": 13.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 75.9,
       "status": "pending"
     },
     {
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 69.8,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 54.0,
+      "reached": 42.0,
+      "missing": 12.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.8,
       "status": "pending"
     },
     {
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 186,
-      "reached": 6.0,
-      "missing": 180.0,
-      "percent": 3.2
+      "reached": 9.0,
+      "missing": 177.0,
+      "percent": 4.8
     },
     {
       "name": "Semana 5",
