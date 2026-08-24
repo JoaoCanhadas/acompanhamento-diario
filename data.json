@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/08/2026 15:07",
+  "lastModified": "24/08/2026 15:08",
   "summary": {
     "commitment": 300280.0,
-    "reached": 228008.41,
-    "missing": 72271.59,
-    "percent": 75.9,
+    "reached": 229957.01,
+    "missing": 70322.99,
+    "percent": 76.6,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 3,
-    "pendingCount": 15
+    "positiveCount": 4,
+    "pendingCount": 14
   },
   "rows": [
     {
@@ -73,11 +73,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 28170.0,
-      "reached": 22126.62,
-      "missing": 6043.38,
+      "reached": 22186.62,
+      "missing": 5983.38,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.5,
+      "percent": 78.8,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 14750.0,
-      "reached": 13731.05,
-      "missing": 1018.95,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 93.1,
-      "status": "pending"
-    },
-    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 14750.0,
+      "reached": 15619.65,
+      "missing": -869.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 105.9,
       "status": "ok"
     },
     {
@@ -261,9 +261,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 228008.41,
-      "missing": 464015.4,
-      "percent": 32.9
+      "reached": 229957.01,
+      "missing": 462066.8,
+      "percent": 33.2
     },
     {
       "name": "Semana 5",
