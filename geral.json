@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "24/08/2026 15:02",
+  "lastModified": "24/08/2026 15:03",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3917926.61,
-    "missing": 1866573.39,
-    "percent": 67.7,
+    "reached": 3920567.51,
+    "missing": 1863932.49,
+    "percent": 67.8,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 273000.0,
-      "reached": 199329.43,
-      "missing": 73670.57,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 73.0,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 323500.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 77.6,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 273000.0,
+      "reached": 201970.33,
+      "missing": 71029.67,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 74.0,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 329469.33,
-      "missing": 1047792.67,
-      "percent": 23.9
+      "reached": 332110.23,
+      "missing": 1045151.77,
+      "percent": 24.1
     },
     {
       "name": "Semana 5",
