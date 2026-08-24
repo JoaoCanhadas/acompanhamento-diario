@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/08/2026 14:27",
+  "lastModified": "24/08/2026 14:29",
   "summary": {
     "commitment": 300280.0,
-    "reached": 217607.31,
-    "missing": 82672.69,
-    "percent": 72.5,
+    "reached": 218889.54,
+    "missing": 81390.46,
+    "percent": 72.9,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -139,11 +139,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 13400.0,
-      "reached": 9180.36,
-      "missing": 4219.64,
+      "reached": 9330.36,
+      "missing": 4069.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 68.5,
+      "percent": 69.6,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 5810.0,
-      "reached": 4788.82,
-      "missing": 1021.18,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 82.4,
-      "status": "pending"
-    },
-    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 5810.0,
+      "reached": 5921.05,
+      "missing": -111.05,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.9,
       "status": "ok"
     },
     {
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 217607.31,
-      "missing": 474416.5,
-      "percent": 31.4
+      "reached": 218889.54,
+      "missing": 473134.27,
+      "percent": 31.6
     },
     {
       "name": "Semana 5",
