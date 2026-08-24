@@ -1751,29 +1751,32 @@ function renderSummary(data, viewName = activeView) {
   }
 }
 
-    function filteredRows() {
+function filteredRows() {
   const term = byId("search").value.trim().toLowerCase();
   const status = byId("status").value;
 
   const rows = state.rows
-  .filter((row) =>
-    !term ||
-    String(row.seller || "").toLowerCase().includes(term)
-  )
-  .filter((row) =>
-    status === "all" || row.status === status
-  )
-  .filter((row) => {
-    const seller = String(row.seller || "")
-      .trim()
-      .toUpperCase();
+    .filter((row) =>
+      String(row.seller || "").toLowerCase().includes(term)
+    )
+    .filter((row) =>
+      status === "all" || row.status === status
+    )
+    .filter((row) => {
+      const seller = String(row.seller || "")
+        .trim()
+        .toUpperCase();
 
-    if (activeView === "general" && seller === "IATAGAM JUNIOR") {
-      return false;
-    }
+      // Oculta IATAGAM JUNIOR no Geral e no Varejo
+      if (
+        (activeView === "general" || activeView === "sales") &&
+        seller === "IATAGAM JUNIOR"
+      ) {
+        return false;
+      }
 
-    return true;
-  });
+      return true;
+    });
 
   // REGRA ESPECIAL SOMENTE PARA O PAINEL GERAL
   if (activeView === "general") {
