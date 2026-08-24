@@ -1146,6 +1146,14 @@ INDEX_HTML = r"""<!doctype html>
   let activeView = "general";
   let loadRequestId = 0;
 
+  const viewCache = {
+    general: null,
+    sales: null,
+    keys: null,
+    milho: null,
+    premiacao: null
+  };
+
   let sellerScrollFrame = null;
   let weeklyScrollFrame = null;
   let sellerScrollOffset = 0;
@@ -1156,10 +1164,11 @@ INDEX_HTML = r"""<!doctype html>
     minimumFractionDigits: 0,
     maximumFractionDigits: 0
   });
-const numberFormatter = new Intl.NumberFormat("pt-BR", {
-  minimumFractionDigits: 0,
-  maximumFractionDigits: 0
-});
+
+  const numberFormatter = new Intl.NumberFormat("pt-BR", {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
+  });
 
 const byId = (id) => document.getElementById(id);
 
@@ -1293,11 +1302,35 @@ const formatBalance = (value, formatter) => {
     async function loadData() {
   const requestId = ++loadRequestId;
   const viewForRequest = activeView;
+
   byId("error").innerHTML = "";
 
+  const cachedData = viewCache[viewForRequest];
+
+  // Se já existir cache, mostra imediatamente
+  if (cachedData) {
+    if (viewForRequest === "premiacao") {
+      renderPremiacao(cachedData);
+    } else {
+      state.rows = cachedData.rows || [];
+      state.weeks = normalizeWeeks(cachedData);
+
+      renderSummary(cachedData, viewForRequest);
+      renderTable(viewForRequest);
+      renderWeeks(viewForRequest);
+    }
+  } else if (viewForRequest !== "premiacao") {
+    renderLoading(viewForRequest);
+  }
+
+  // =========================
+  // PREMIAÇÃO
+  // =========================
   if (viewForRequest === "premiacao") {
     try {
-      const response = await fetch("/api/premiacao?ts=" + Date.now());
+      const response = await fetch(
+        "/api/premiacao?ts=" + Date.now()
+      );
 
       if (!response.ok) {
         throw new Error(await response.text());
@@ -1312,7 +1345,11 @@ const formatBalance = (value, formatter) => {
         return;
       }
 
+      // Salva para a próxima abertura
+      viewCache.premiacao = data;
+
       renderPremiacao(data);
+
     } catch (error) {
       if (
         requestId !== loadRequestId ||
@@ -1321,33 +1358,65 @@ const formatBalance = (value, formatter) => {
         return;
       }
 
-      byId("error").innerHTML =
-        `<div class="error">${error.message}</div>`;
+      // Se já existe cache, mantém os dados anteriores na tela
+      if (!viewCache.premiacao) {
+        byId("error").innerHTML =
+          `<div class="error">${error.message}</div>`;
+      }
     }
 
     return;
   }
 
-  if (!state.rows.length) {
-    renderLoading(viewForRequest);
-  }
-
+  // =========================
+  // GERAL / VAREJO / KEY /
+  // POSITIVAÇÃO
+  // =========================
   try {
-        const config = views[viewForRequest];
-        const response = await fetch(config.endpoint + "?ts=" + Date.now());
-        if (!response.ok) throw new Error(await response.text());
-        const data = await response.json();
-        if (requestId !== loadRequestId || viewForRequest !== activeView) return;
-        state.rows = data.rows || [];
-        state.weeks = normalizeWeeks(data);
-        renderSummary(data, viewForRequest);
-        renderTable(viewForRequest);
-        renderWeeks(viewForRequest);
-      } catch (error) {
-        if (requestId !== loadRequestId || viewForRequest !== activeView) return;
-        byId("error").innerHTML = `<div class="error">${error.message}</div>`;
-      }
+    const config = views[viewForRequest];
+
+    const response = await fetch(
+      config.endpoint + "?ts=" + Date.now()
+    );
+
+    if (!response.ok) {
+      throw new Error(await response.text());
     }
+
+    const data = await response.json();
+
+    if (
+      requestId !== loadRequestId ||
+      viewForRequest !== activeView
+    ) {
+      return;
+    }
+
+    // Salva os dados deste painel
+    viewCache[viewForRequest] = data;
+
+    state.rows = data.rows || [];
+    state.weeks = normalizeWeeks(data);
+
+    renderSummary(data, viewForRequest);
+    renderTable(viewForRequest);
+    renderWeeks(viewForRequest);
+
+  } catch (error) {
+    if (
+      requestId !== loadRequestId ||
+      viewForRequest !== activeView
+    ) {
+      return;
+    }
+
+    // Se já existe cache, mantém o painel carregado
+    if (!viewCache[viewForRequest]) {
+      byId("error").innerHTML =
+        `<div class="error">${error.message}</div>`;
+    }
+  }
+}
 
     function renderLoading(viewName) {
   const config = views[viewName];
