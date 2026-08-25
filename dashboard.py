@@ -870,7 +870,7 @@ INDEX_HTML = r"""<!doctype html>
 }
 
 /* FALTA - vermelho igual aos outros painéis */
-.premiacao-panel tbody td:nth-child(4) {
+.premiacao-panel tbody td:nth-child(4):not(.premiacao-falta-superou) {
   color: #ff5267 !important;
   font-weight: 900 !important;
 }
