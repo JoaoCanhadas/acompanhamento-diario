@@ -1422,51 +1422,22 @@ const formatBalance = (value, formatter) => {
   const config = views[viewName];
 
   const projectionCard = byId("projectionCard");
-const cardsContainer = document.querySelector(".cards");
+  const cardsContainer = document.querySelector(".cards");
 
-if (viewName === "general") {
-  projectionCard.style.display = "";
-  cardsContainer.style.gridTemplateColumns =
-  "1.25fr 1.25fr 1.30fr 0.70fr 1.30fr";
+  // Apenas prepara o layout do card de projeção.
+  // O cálculo será feito depois no renderSummary().
+  if (viewName === "general") {
+    projectionCard.style.display = "";
 
-  const resultado = calcularProjecaoMes(summary.reached);
+    cardsContainer.style.gridTemplateColumns =
+      "1.25fr 1.25fr 1.30fr 0.70fr 1.30fr";
 
-  const diferenca =
-    resultado.projecao - Number(summary.commitment || 0);
-
-  setText(
-    "monthProjection",
-    formatMoneyCompact(resultado.projecao)
-  );
-
-  setText(
-    "projectionDays",
-    `${resultado.diasUteisDecorridos} de ${resultado.diasUteisMes} dias úteis`
-  );
-
-  if (diferenca >= 0) {
-    setText(
-      "projectionDifference",
-      `+${formatMoney(diferenca)} (acima da meta)`
-    );
-
-    byId("projectionDifference").className =
-      "projection-difference good";
   } else {
-    setText(
-      "projectionDifference",
-      `-${formatMoney(Math.abs(diferenca))} (abaixo da meta)`
-    );
+    projectionCard.style.display = "none";
 
-    byId("projectionDifference").className =
-      "projection-difference bad";
+    cardsContainer.style.gridTemplateColumns =
+      "repeat(4, minmax(0, 1fr))";
   }
-
-} else {
-  projectionCard.style.display = "none";
-  cardsContainer.style.gridTemplateColumns =
-    "repeat(4, minmax(0, 1fr))";
-}
 
   setText(
     "workbook",
