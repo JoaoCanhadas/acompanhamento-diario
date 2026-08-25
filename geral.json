@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "25/08/2026 15:29",
+  "lastModified": "25/08/2026 15:30",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4187315.29,
-    "missing": 1597184.71,
+    "reached": 4188338.79,
+    "missing": 1596161.21,
     "percent": 72.4,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 100000.0,
-      "reached": 62080.72,
-      "missing": 37919.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 62.1,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 74.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 100000.0,
+      "reached": 63104.22,
+      "missing": 36895.78,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 63.1,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 598858.02,
-      "missing": 778403.98,
-      "percent": 43.5
+      "reached": 599881.52,
+      "missing": 777380.48,
+      "percent": 43.6
     },
     {
       "name": "Semana 5",
