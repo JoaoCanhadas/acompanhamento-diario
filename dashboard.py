@@ -615,10 +615,10 @@ INDEX_HTML = r"""<!doctype html>
       }
 
       .table-wrap {
-  height: calc(100vh - 300px);
-  min-height: 560px;
+  height: auto;
+  min-height: 0;
   max-height: none;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
 }
 
@@ -635,8 +635,8 @@ INDEX_HTML = r"""<!doctype html>
         min-width: 0;
       }
 
-      tr.loop-copy {
-        display: none;
+      .week-card.loop-copy {
+        display: none !important;
       }
 
       tbody tr {
@@ -701,6 +701,7 @@ INDEX_HTML = r"""<!doctype html>
 
       .weekly-wrap {
         height: auto;
+        min-height: 0;
         max-height: none;
         overflow: visible;
       }
