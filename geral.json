@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "25/08/2026 12:39",
+  "lastModified": "25/08/2026 12:40",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4055462.15,
-    "missing": 1729037.85,
+    "reached": 4056500.65,
+    "missing": 1727999.35,
     "percent": 70.1,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -81,25 +81,25 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 323500.0,
-      "reached": 264096.16,
-      "missing": 59403.84,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 81.6,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
-      "reached": 205600.67,
-      "missing": 59399.33,
+      "reached": 205900.47,
+      "missing": 59099.53,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 77.6,
+      "percent": 77.7,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 323500.0,
+      "reached": 264834.86,
+      "missing": 58665.14,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.9,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 467004.87,
-      "missing": 910257.13,
-      "percent": 33.9
+      "reached": 468043.37,
+      "missing": 909218.63,
+      "percent": 34.0
     },
     {
       "name": "Semana 5",
