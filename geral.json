@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "25/08/2026 09:52",
+  "lastModified": "25/08/2026 09:53",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 3983337.0,
-    "missing": 1801163.0,
+    "reached": 3984377.46,
+    "missing": 1800122.54,
     "percent": 68.9,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
     "weekPercent": 87.4,
-    "positiveCount": 0,
-    "pendingCount": 25
+    "positiveCount": 1,
+    "pendingCount": 24
   },
   "rows": [
     {
@@ -73,11 +73,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 323500.0,
-      "reached": 252239.04,
-      "missing": 71260.96,
+      "reached": 253128.84,
+      "missing": 70371.16,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.0,
+      "percent": 78.2,
       "status": "pending"
     },
     {
@@ -282,12 +282,12 @@
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
-      "reached": 891.3,
-      "missing": 108.7,
+      "reached": 1041.96,
+      "missing": -41.96,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.1,
-      "status": "pending"
+      "percent": 104.2,
+      "status": "ok"
     },
     {
       "reference": "IATAGAM JUNIOR",
@@ -327,8 +327,8 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 394879.72,
-      "missing": 982382.28,
+      "reached": 395920.18,
+      "missing": 981341.82,
       "percent": 28.7
     },
     {
