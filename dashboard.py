@@ -540,6 +540,25 @@ INDEX_HTML = r"""<!doctype html>
         justify-content: flex-start;
       }
 
+      .view-tabs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 4px;
+        padding: 4px;
+        box-sizing: border-box;
+      }
+
+     .view-tab {
+       width: 100%;
+       min-width: 0;
+       height: 36px;
+       padding: 0 3px;
+       font-size: 11px;
+       white-space: nowrap;
+       text-align: center;
+      }
+
       .pill {
         max-width: 100%;
         overflow: hidden;
