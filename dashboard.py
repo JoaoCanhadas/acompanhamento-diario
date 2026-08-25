@@ -519,28 +519,58 @@ INDEX_HTML = r"""<!doctype html>
         background: var(--bg);
       }
 
-      .topbar-inner, main {
+      .topbar-inner,
+      main {
         padding-left: 14px;
         padding-right: 14px;
       }
 
       .topbar-inner {
-        align-items: flex-start;
-        gap: 14px;
+        display: grid;
+        grid-template-columns: 160px minmax(0, 1fr);
+        align-items: center;
+        gap: 8px 10px;
       }
 
       .brand-logo {
-        width: min(300px, 100%);
-        height: 66px;
+        width: 160px;
+        height: 56px;
         min-width: 0;
       }
 
-      .meta {
+      .brand-logo img {
         width: 100%;
-        justify-content: flex-start;
+        height: 100%;
+        object-fit: contain;
+        object-position: left center;
       }
 
+      .meta {
+        display: contents;
+      }
+
+      /* Oculta a informação técnica no mobile */
+      #workbook {
+        display: none;
+      }
+
+      /* Data/hora ao lado do logo */
+      #updated {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        align-self: center;
+        max-width: 100%;
+        padding: 5px 7px;
+        font-size: 9px;
+        line-height: 1.2;
+        white-space: nowrap;
+      }
+
+      /* Menu ocupa toda a largura abaixo do logo */
       .view-tabs {
+        grid-column: 1 / -1;
+        grid-row: 2;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -549,14 +579,14 @@ INDEX_HTML = r"""<!doctype html>
         box-sizing: border-box;
       }
 
-     .view-tab {
-       width: 100%;
-       min-width: 0;
-       height: 36px;
-       padding: 0 3px;
-       font-size: 11px;
-       white-space: nowrap;
-       text-align: center;
+      .view-tab {
+        width: 100%;
+        min-width: 0;
+        height: 42px;
+        padding: 0 3px;
+        font-size: 11px;
+        white-space: nowrap;
+        text-align: center;
       }
 
       .pill {
@@ -2135,7 +2165,17 @@ function changeToNextView() {
 }
 
 function startAutoRotate() {
-  if (autoRotateTimer) clearInterval(autoRotateTimer);
+  if (autoRotateTimer) {
+    clearInterval(autoRotateTimer);
+    autoRotateTimer = null;
+  }
+
+  // No mobile não faz transição automática
+  if (window.matchMedia("(max-width: 640px)").matches) {
+    return;
+  }
+
+  // PC / TV: troca de painel a cada 30 segundos
   autoRotateTimer = setInterval(changeToNextView, 30000);
 }
 
