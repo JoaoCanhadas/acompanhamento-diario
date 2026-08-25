@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "24/08/2026 16:32",
+  "lastModified": "25/08/2026 08:02",
   "summary": {
     "commitment": 783.0,
     "reached": 598.0,
@@ -48,6 +48,17 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 48.0,
+      "reached": 34.0,
+      "missing": 14.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.8,
+      "status": "pending"
+    },
+    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 41.0,
@@ -59,14 +70,14 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 48.0,
-      "reached": 34.0,
-      "missing": 14.0,
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 54.0,
+      "reached": 43.0,
+      "missing": 11.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 70.8,
+      "percent": 79.6,
       "status": "pending"
     },
     {
@@ -89,17 +100,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 74.4,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 54.0,
-      "reached": 43.0,
-      "missing": 11.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 79.6,
       "status": "pending"
     },
     {
