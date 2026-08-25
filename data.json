@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "25/08/2026 10:19",
+  "lastModified": "25/08/2026 10:20",
   "summary": {
     "commitment": 220030.0,
-    "reached": 40402.19,
-    "missing": 179627.81,
-    "percent": 18.4,
+    "reached": 41638.29,
+    "missing": 178391.71,
+    "percent": 18.9,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -128,11 +128,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 9340.0,
-      "reached": 744.3,
-      "missing": 8595.7,
+      "reached": 1950.2,
+      "missing": 7389.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 8.0,
+      "percent": 20.9,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 8960.0,
-      "reached": 3405.75,
-      "missing": 5554.25,
+      "reached": 3435.95,
+      "missing": 5524.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.0,
+      "percent": 38.3,
       "status": "pending"
     },
     {
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 277263.63,
-      "missing": 414760.18,
-      "percent": 40.1
+      "reached": 278499.73,
+      "missing": 413524.08,
+      "percent": 40.2
     },
     {
       "name": "Semana 5",
