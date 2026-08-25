@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "24/08/2026 11:36",
+  "lastModified": "25/08/2026 08:02",
   "summary": {
     "commitment": 642000.0,
-    "reached": 23581.98,
-    "missing": 618418.02,
-    "percent": 3.7,
+    "reached": 117176.82,
+    "missing": 524823.18,
+    "percent": 18.2,
     "weekGoal": 685000.0,
     "weekRevenue": 589719.49,
     "weekMissing": 95280.51,
@@ -18,22 +18,22 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 216000.0,
-      "reached": 0.0,
-      "missing": 216000.0,
+      "reached": 54273.0,
+      "missing": 161727.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 25.1,
       "status": "pending"
     },
     {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 165500.0,
-      "reached": 4790.98,
-      "missing": 160709.02,
+      "reached": 17725.98,
+      "missing": 147774.02,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 2.9,
+      "percent": 10.7,
       "status": "pending"
     },
     {
@@ -51,22 +51,22 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 86000.0,
-      "reached": 0.0,
-      "missing": 86000.0,
+      "reached": 16560.9,
+      "missing": 69439.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 19.3,
       "status": "pending"
     },
     {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 78000.0,
-      "reached": 18791.0,
-      "missing": 59209.0,
+      "reached": 28616.94,
+      "missing": 49383.06,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 24.1,
+      "percent": 36.7,
       "status": "pending"
     },
     {
@@ -107,9 +107,9 @@
     {
       "name": "Semana 4",
       "goal": 685000.0,
-      "reached": 23581.98,
-      "missing": 661418.02,
-      "percent": 3.4
+      "reached": 117176.82,
+      "missing": 567823.18,
+      "percent": 17.1
     },
     {
       "name": "Semana 5",
