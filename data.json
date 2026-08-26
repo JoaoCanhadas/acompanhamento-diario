@@ -1,41 +1,19 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "26/08/2026 10:45",
+  "lastModified": "26/08/2026 10:47",
   "summary": {
     "commitment": 160000.0,
-    "reached": 61851.78,
-    "missing": 98148.22,
-    "percent": 38.7,
+    "reached": 71519.93,
+    "missing": 88480.07,
+    "percent": 44.7,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 15000.0,
-      "reached": 679.4,
-      "missing": 14320.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 4.5,
-      "status": "pending"
-    },
-    {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 11520.0,
-      "reached": 796.44,
-      "missing": 10723.56,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 6.9,
-      "status": "pending"
-    },
     {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
@@ -45,6 +23,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 27.0,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 11520.0,
+      "reached": 1239.74,
+      "missing": 10280.26,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 10.8,
       "status": "pending"
     },
     {
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 5.7,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 15000.0,
+      "reached": 8986.0,
+      "missing": 6014.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 59.9,
       "status": "pending"
     },
     {
@@ -194,12 +194,12 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 3110.0,
-      "reached": 2456.22,
-      "missing": 653.78,
+      "reached": 3374.47,
+      "missing": -264.47,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.0,
-      "status": "pending"
+      "percent": 108.5,
+      "status": "ok"
     },
     {
       "reference": "LESTE TATUAPE",
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 434342.86,
-      "missing": 257680.95,
-      "percent": 62.8
+      "reached": 444011.01,
+      "missing": 248012.8,
+      "percent": 64.2
     },
     {
       "name": "Semana 5",

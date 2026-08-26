@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "26/08/2026 10:45",
+  "lastModified": "26/08/2026 10:47",
   "summary": {
     "commitment": 783.0,
-    "reached": 636.0,
-    "missing": 147.0,
-    "percent": 81.2,
+    "reached": 638.0,
+    "missing": 145.0,
+    "percent": 81.5,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 38.0,
-      "reached": 29.0,
-      "missing": 9.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.3,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 38.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 81.4,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 38.0,
+      "reached": 30.0,
+      "missing": 8.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 78.9,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "ok"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 47.0,
-      "reached": 49.0,
-      "missing": -2.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 104.3,
-      "status": "ok"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 63.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 104.8,
+      "status": "ok"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 47.0,
+      "reached": 50.0,
+      "missing": -3.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 106.4,
       "status": "ok"
     }
   ],
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 186,
-      "reached": 185.0,
-      "missing": 1.0,
-      "percent": 99.5
+      "reached": 187.0,
+      "missing": -1.0,
+      "percent": 100.5
     },
     {
       "name": "Semana 5",
