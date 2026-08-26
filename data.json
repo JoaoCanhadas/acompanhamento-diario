@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "26/08/2026 13:41",
+  "lastModified": "26/08/2026 13:43",
   "summary": {
     "commitment": 160000.0,
-    "reached": 120108.33,
-    "missing": 39891.67,
-    "percent": 75.1,
+    "reached": 122467.38,
+    "missing": 37532.62,
+    "percent": 76.5,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -23,17 +23,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 53.3,
-      "status": "pending"
-    },
-    {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 11520.0,
-      "reached": 5137.72,
-      "missing": 6382.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.6,
       "status": "pending"
     },
     {
@@ -70,14 +59,25 @@
       "status": "pending"
     },
     {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 11520.0,
+      "reached": 7069.72,
+      "missing": 4450.28,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 61.4,
+      "status": "pending"
+    },
+    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 5410.0,
-      "reached": 1542.42,
-      "missing": 3867.58,
+      "reached": 1817.32,
+      "missing": 3592.68,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 28.5,
+      "percent": 33.6,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5480.0,
-      "reached": 5529.3,
-      "missing": -49.3,
+      "reached": 5681.45,
+      "missing": -201.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 100.9,
+      "percent": 103.7,
       "status": "ok"
     },
     {
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 492599.41,
-      "missing": 199424.4,
-      "percent": 71.2
+      "reached": 494958.46,
+      "missing": 197065.35,
+      "percent": 71.5
     },
     {
       "name": "Semana 5",

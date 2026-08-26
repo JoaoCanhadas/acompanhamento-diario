@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "26/08/2026 13:41",
+  "lastModified": "26/08/2026 13:43",
   "summary": {
     "commitment": 783.0,
-    "reached": 656.0,
-    "missing": 127.0,
-    "percent": 83.8,
+    "reached": 657.0,
+    "missing": 126.0,
+    "percent": 83.9,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
     "weekPercent": 134.9,
-    "positiveCount": 3,
-    "pendingCount": 14
+    "positiveCount": 4,
+    "pendingCount": 13
   },
   "rows": [
     {
@@ -161,12 +161,12 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37.0,
-      "reached": 36.0,
-      "missing": 1.0,
+      "reached": 37.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 97.3,
-      "status": "pending"
+      "percent": 100.0,
+      "status": "ok"
     },
     {
       "reference": "INTERLAGOS",
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 186,
-      "reached": 216.0,
-      "missing": -30.0,
-      "percent": 116.1
+      "reached": 218.0,
+      "missing": -32.0,
+      "percent": 117.2
     },
     {
       "name": "Semana 5",
