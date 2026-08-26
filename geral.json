@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "26/08/2026 09:41",
+  "lastModified": "26/08/2026 09:42",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4270099.26,
-    "missing": 1514400.74,
-    "percent": 73.8,
+    "reached": 4275080.06,
+    "missing": 1509419.94,
+    "percent": 73.9,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 167000.0,
-      "reached": 145127.72,
-      "missing": 21872.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 86.9,
-      "status": "pending"
-    },
-    {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 420000.0,
@@ -213,14 +202,14 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 330000.0,
-      "reached": 313306.59,
-      "missing": 16693.41,
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 167000.0,
+      "reached": 146796.72,
+      "missing": 20203.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 94.9,
+      "percent": 87.9,
       "status": "pending"
     },
     {
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 79.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 330000.0,
+      "reached": 316618.39,
+      "missing": 13381.61,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 95.9,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 681641.99,
-      "missing": 695620.01,
-      "percent": 49.5
+      "reached": 686622.79,
+      "missing": 690639.21,
+      "percent": 49.9
     },
     {
       "name": "Semana 5",
