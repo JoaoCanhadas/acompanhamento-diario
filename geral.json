@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "26/08/2026 12:15",
+  "lastModified": "26/08/2026 12:16",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4339207.76,
-    "missing": 1445292.24,
-    "percent": 75.0,
+    "reached": 4344136.36,
+    "missing": 1440363.64,
+    "percent": 75.1,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -73,11 +73,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 213702.36,
-      "missing": 59297.64,
+      "reached": 214527.16,
+      "missing": 58472.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.3,
+      "percent": 78.6,
       "status": "pending"
     },
     {
@@ -92,22 +92,11 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 323500.0,
-      "reached": 279086.14,
-      "missing": 44413.86,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 86.3,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
-      "reached": 221710.19,
-      "missing": 43289.81,
+      "reached": 221735.19,
+      "missing": 43264.81,
       "average": 0.0,
       "difference": 0.0,
       "percent": 83.7,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 72.2,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 323500.0,
+      "reached": 283164.94,
+      "missing": 40335.06,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 87.5,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 750750.49,
-      "missing": 626511.51,
-      "percent": 54.5
+      "reached": 755679.09,
+      "missing": 621582.91,
+      "percent": 54.9
     },
     {
       "name": "Semana 5",
