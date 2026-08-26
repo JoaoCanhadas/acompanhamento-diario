@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "26/08/2026 14:34",
+  "lastModified": "26/08/2026 14:35",
   "summary": {
     "commitment": 642000.0,
-    "reached": 380403.07,
-    "missing": 261596.93,
-    "percent": 59.3,
+    "reached": 438825.27,
+    "missing": 203174.73,
+    "percent": 68.4,
     "weekGoal": 685000,
     "weekRevenue": 589719.49,
     "weekMissing": 95280.51,
     "weekPercent": 86.1,
-    "positiveCount": 0,
-    "pendingCount": 5
+    "positiveCount": 1,
+    "pendingCount": 4
   },
   "rows": [
     {
@@ -29,11 +29,11 @@
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 96500.0,
-      "reached": 22233.0,
-      "missing": 74267.0,
+      "reached": 23577.4,
+      "missing": 72922.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 23.0,
+      "percent": 24.4,
       "status": "pending"
     },
     {
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 216000.0,
-      "reached": 203445.8,
-      "missing": 12554.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.2,
-      "status": "pending"
-    },
-    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 0.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 216000.0,
+      "reached": 260523.6,
+      "missing": -44523.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 120.6,
       "status": "ok"
     }
   ],
@@ -107,9 +107,9 @@
     {
       "name": "Semana 4",
       "goal": 685000,
-      "reached": 380403.07,
-      "missing": 304596.93,
-      "percent": 55.5
+      "reached": 438825.27,
+      "missing": 246174.73,
+      "percent": 64.1
     },
     {
       "name": "Semana 5",
