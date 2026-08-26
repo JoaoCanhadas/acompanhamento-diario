@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "26/08/2026 12:14",
+  "lastModified": "26/08/2026 12:15",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4337659.68,
-    "missing": 1446840.32,
+    "reached": 4339207.76,
+    "missing": 1445292.24,
     "percent": 75.0,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -73,11 +73,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 213009.36,
-      "missing": 59990.64,
+      "reached": 213702.36,
+      "missing": 59297.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.0,
+      "percent": 78.3,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
-      "reached": 221510.19,
-      "missing": 43489.81,
+      "reached": 221710.19,
+      "missing": 43289.81,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.6,
+      "percent": 83.7,
       "status": "pending"
     },
     {
@@ -238,11 +238,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 90000.0,
-      "reached": 78016.02,
-      "missing": 11983.98,
+      "reached": 78402.42,
+      "missing": 11597.58,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 86.7,
+      "percent": 87.1,
       "status": "pending"
     },
     {
@@ -279,17 +279,6 @@
       "status": "pending"
     },
     {
-      "reference": "ECOMMERCE",
-      "seller": "ECOMMERCE",
-      "commitment": 1000.0,
-      "reached": 1192.2,
-      "missing": -192.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 119.2,
-      "status": "ok"
-    },
-    {
       "reference": "IATAGAM JUNIOR",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -298,6 +287,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "ECOMMERCE",
+      "seller": "ECOMMERCE",
+      "commitment": 1000.0,
+      "reached": 1460.88,
+      "missing": -460.88,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 146.1,
       "status": "ok"
     }
   ],
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 749202.41,
-      "missing": 628059.59,
-      "percent": 54.4
+      "reached": 750750.49,
+      "missing": 626511.51,
+      "percent": 54.5
     },
     {
       "name": "Semana 5",
