@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "26/08/2026 10:30",
+  "lastModified": "26/08/2026 10:31",
   "summary": {
     "commitment": 160000.0,
-    "reached": 42617.26,
-    "missing": 117382.74,
-    "percent": 26.6,
+    "reached": 50198.86,
+    "missing": 109801.14,
+    "percent": 31.4,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -14,17 +14,6 @@
     "pendingCount": 17
   },
   "rows": [
-    {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 14740.0,
-      "reached": 0.0,
-      "missing": 14740.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
     {
       "reference": "NORTE",
       "seller": "NORTE",
@@ -37,14 +26,14 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 15810.0,
-      "reached": 3332.45,
-      "missing": 12477.55,
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 14740.0,
+      "reached": 3223.7,
+      "missing": 11516.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.1,
+      "percent": 21.9,
       "status": "pending"
     },
     {
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 27.0,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 15810.0,
+      "reached": 7511.65,
+      "missing": 8298.35,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 47.5,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 3110.0,
-      "reached": 0.0,
-      "missing": 3110.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5480.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 46.3,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 3110.0,
+      "reached": 178.7,
+      "missing": 2931.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 5.7,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 415108.34,
-      "missing": 276915.47,
-      "percent": 60.0
+      "reached": 422689.94,
+      "missing": 269333.87,
+      "percent": 61.1
     },
     {
       "name": "Semana 5",
