@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "25/08/2026 11:55",
+  "lastModified": "26/08/2026 07:13",
   "summary": {
     "commitment": 642000.0,
-    "reached": 135504.82,
-    "missing": 506495.18,
-    "percent": 21.1,
+    "reached": 234168.13,
+    "missing": 407831.87,
+    "percent": 36.5,
     "weekGoal": 685000.0,
     "weekRevenue": 589719.49,
     "weekMissing": 95280.51,
@@ -15,58 +15,58 @@
   },
   "rows": [
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 216000.0,
-      "reached": 54273.0,
-      "missing": 161727.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 25.1,
-      "status": "pending"
-    },
-    {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 165500.0,
-      "reached": 33184.18,
-      "missing": 132315.82,
+      "reached": 41736.78,
+      "missing": 123763.22,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.1,
+      "percent": 25.2,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 216000.0,
+      "reached": 111891.6,
+      "missing": 104108.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 51.8,
       "status": "pending"
     },
     {
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 96500.0,
-      "reached": 0.0,
-      "missing": 96500.0,
+      "reached": 22233.0,
+      "missing": 74267.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 23.0,
       "status": "pending"
     },
     {
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 86000.0,
-      "reached": 16560.9,
-      "missing": 69439.1,
+      "reached": 22332.5,
+      "missing": 63667.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 19.3,
+      "percent": 26.0,
       "status": "pending"
     },
     {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 78000.0,
-      "reached": 29230.14,
-      "missing": 48769.86,
+      "reached": 33717.65,
+      "missing": 44282.35,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 37.5,
+      "percent": 43.2,
       "status": "pending"
     },
     {
@@ -107,9 +107,9 @@
     {
       "name": "Semana 4",
       "goal": 685000.0,
-      "reached": 135504.82,
-      "missing": 549495.18,
-      "percent": 19.8
+      "reached": 234168.13,
+      "missing": 450831.87,
+      "percent": 34.2
     },
     {
       "name": "Semana 5",
