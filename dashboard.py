@@ -1585,7 +1585,7 @@ const badge = (valor) => {
           : formatMoney(falta);
 
       const classeFalta =
-        falta < 0
+        falta <= 0
           ? "premiacao-falta premiacao-falta-superou"
           : "premiacao-falta";
 
