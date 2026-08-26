@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "26/08/2026 11:10",
+  "lastModified": "26/08/2026 11:11",
   "summary": {
     "commitment": 160000.0,
-    "reached": 82102.86,
-    "missing": 77897.14,
-    "percent": 51.3,
+    "reached": 83860.59,
+    "missing": 76139.41,
+    "percent": 52.4,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -62,11 +62,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 15810.0,
-      "reached": 8694.05,
-      "missing": 7115.95,
+      "reached": 8939.75,
+      "missing": 6870.25,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.0,
+      "percent": 56.5,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 6480.0,
-      "reached": 1430.31,
-      "missing": 5049.69,
+      "reached": 1905.94,
+      "missing": 4574.06,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 22.1,
+      "percent": 29.4,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5480.0,
-      "reached": 2534.8,
-      "missing": 2945.2,
+      "reached": 2617.0,
+      "missing": 2863.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 46.3,
+      "percent": 47.8,
       "status": "pending"
     },
     {
@@ -144,17 +144,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 6.1,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 5250.0,
-      "reached": 2643.45,
-      "missing": 2606.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.4,
       "status": "pending"
     },
     {
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 88.3,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 5250.0,
+      "reached": 3597.65,
+      "missing": 1652.35,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 68.5,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 454593.94,
-      "missing": 237429.87,
-      "percent": 65.7
+      "reached": 456351.67,
+      "missing": 235672.14,
+      "percent": 65.9
     },
     {
       "name": "Semana 5",
