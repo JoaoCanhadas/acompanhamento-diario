@@ -2144,20 +2144,35 @@ byId("search").addEventListener("input", renderTable);
 byId("status").addEventListener("change", renderTable);
 byId("refresh").addEventListener("click", loadData);
 
-const autoRotateViews = ["general", "sales", "keys", "milho", "premiacao"];
+const autoRotateViews = [
+  "general",
+  "sales",
+  "general",
+  "sales",
+  "general",
+  "sales",
+  "keys",
+  "milho",
+  "premiacao"
+];
+
 let autoRotateTimer = null;
+let autoRotateIndex = 0;
 
 function changeToNextView() {
-  const currentIndex = autoRotateViews.indexOf(activeView);
-  const nextIndex = (currentIndex + 1) % autoRotateViews.length;
+  autoRotateIndex =
+    (autoRotateIndex + 1) % autoRotateViews.length;
 
-  activeView = autoRotateViews[nextIndex];
+  activeView = autoRotateViews[autoRotateIndex];
 
   state.sortKey = "missing";
   state.sortDir = "desc";
 
   document.querySelectorAll(".view-tab").forEach((tab) => {
-    tab.classList.toggle("active", tab.dataset.view === activeView);
+    tab.classList.toggle(
+      "active",
+      tab.dataset.view === activeView
+    );
   });
 
   updateViewLayout();
