@@ -1524,7 +1524,11 @@ function renderPremiacao(data) {
   byId("premiacaoView").style.display = "block";
 
   setText("workbook", data.workbook || "BASE PYTHON.xlsx");
-  setText("updated", "");
+
+  setText(
+    "updated",
+    "Atualizado em " + (data.lastModified || "-")
+  );
 
 const badge = (valor) => {
   const nivel = String(valor || "").trim().toUpperCase();
