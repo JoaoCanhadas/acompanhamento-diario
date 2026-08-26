@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "26/08/2026 13:27",
+  "lastModified": "26/08/2026 13:28",
   "summary": {
     "commitment": 160000.0,
-    "reached": 112071.11,
-    "missing": 47928.89,
-    "percent": 70.0,
+    "reached": 114547.61,
+    "missing": 45452.39,
+    "percent": 71.6,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -18,22 +18,22 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 14360.0,
-      "reached": 6896.0,
-      "missing": 7464.0,
+      "reached": 7081.0,
+      "missing": 7279.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 48.0,
+      "percent": 49.3,
       "status": "pending"
     },
     {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 11520.0,
-      "reached": 4108.32,
-      "missing": 7411.68,
+      "reached": 4667.92,
+      "missing": 6852.08,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 35.7,
+      "percent": 40.5,
       "status": "pending"
     },
     {
@@ -194,22 +194,22 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 15810.0,
-      "reached": 16278.1,
-      "missing": -468.1,
+      "reached": 16568.4,
+      "missing": -758.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 103.0,
+      "percent": 104.8,
       "status": "ok"
     },
     {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 15000.0,
-      "reached": 16205.68,
-      "missing": -1205.68,
+      "reached": 17647.28,
+      "missing": -2647.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 108.0,
+      "percent": 117.6,
       "status": "ok"
     },
     {
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 484562.19,
-      "missing": 207461.62,
-      "percent": 70.0
+      "reached": 487038.69,
+      "missing": 204985.12,
+      "percent": 70.4
     },
     {
       "name": "Semana 5",
