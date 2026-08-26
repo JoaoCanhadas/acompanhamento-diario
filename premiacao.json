@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Premiação",
-  "lastModified": "26/08/2026 12:46",
+  "lastModified": "26/08/2026 12:47",
   "positivacao": [
     {
       "seller": "SJC",
@@ -22,8 +22,8 @@
       "seller": "CENTRO",
       "premiacao": "B",
       "proxima_meta": "A",
-      "missing": 5,
-      "reached": 49.0,
+      "missing": 4,
+      "reached": 50.0,
       "meta_a": 54.0
     },
     {
@@ -38,8 +38,8 @@
       "seller": "INTERLAGOS",
       "premiacao": "A",
       "proxima_meta": "",
-      "missing": 0,
-      "reached": 61.0,
+      "missing": -1,
+      "reached": 62.0,
       "meta_a": 61.0
     },
     {
@@ -168,8 +168,8 @@
       "seller": "CENTRO",
       "premiacao": "B",
       "proxima_meta": "A",
-      "missing": 11471.76,
-      "reached": 318528.24,
+      "missing": 11341.86,
+      "reached": 318658.14,
       "meta_a": 330000.0
     },
     {
@@ -184,8 +184,8 @@
       "seller": "INTERLAGOS",
       "premiacao": "C",
       "proxima_meta": "B",
-      "missing": 17522.84,
-      "reached": 214527.16,
+      "missing": 17382.94,
+      "reached": 214667.06,
       "meta_a": 273000.0
     },
     {
@@ -288,8 +288,8 @@
       "seller": "LESTE TATUAPE",
       "premiacao": "C",
       "proxima_meta": "B",
-      "missing": 18889.41,
-      "reached": 106060.59,
+      "missing": 18291.26,
+      "reached": 106658.74,
       "meta_a": 147000.0
     }
   ],
@@ -314,8 +314,8 @@
       "seller": "CENTRO",
       "premiacao": "B",
       "proxima_meta": "A",
-      "missing": 5,
-      "reached": 49.0,
+      "missing": 4,
+      "reached": 50.0,
       "meta_a": 54.0
     },
     {
@@ -330,8 +330,8 @@
       "seller": "INTERLAGOS",
       "premiacao": "A",
       "proxima_meta": "",
-      "missing": 0,
-      "reached": 61.0,
+      "missing": -1,
+      "reached": 62.0,
       "meta_a": 61.0
     },
     {
@@ -458,8 +458,8 @@
       "seller": "CENTRO",
       "premiacao": "B",
       "proxima_meta": "A",
-      "missing": 11471.76,
-      "reached": 318528.24,
+      "missing": 11341.86,
+      "reached": 318658.14,
       "meta_a": 330000.0
     },
     {
@@ -474,8 +474,8 @@
       "seller": "INTERLAGOS",
       "premiacao": "C",
       "proxima_meta": "B",
-      "missing": 17522.84,
-      "reached": 214527.16,
+      "missing": 17382.94,
+      "reached": 214667.06,
       "meta_a": 273000.0
     },
     {
@@ -578,8 +578,8 @@
       "seller": "LESTE TATUAPE",
       "premiacao": "C",
       "proxima_meta": "B",
-      "missing": 18889.41,
-      "reached": 106060.59,
+      "missing": 18291.26,
+      "reached": 106658.74,
       "meta_a": 147000.0
     }
   ]
