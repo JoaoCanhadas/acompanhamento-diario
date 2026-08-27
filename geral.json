@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "27/08/2026 10:14",
+  "lastModified": "27/08/2026 10:15",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4794948.72,
-    "missing": 989551.28,
+    "reached": 4798204.17,
+    "missing": 986295.83,
     "percent": 82.9,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 323500.0,
-      "reached": 292551.9,
-      "missing": 30948.1,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.4,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 242000.0,
@@ -158,14 +147,25 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 323500.0,
+      "reached": 295382.35,
+      "missing": 28117.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 91.3,
+      "status": "pending"
+    },
+    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 139500.0,
-      "reached": 111773.27,
-      "missing": 27726.73,
+      "reached": 112063.27,
+      "missing": 27436.73,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.1,
+      "percent": 80.3,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 200000.0,
-      "reached": 181796.1,
-      "missing": 18203.9,
+      "reached": 181931.1,
+      "missing": 18068.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.9,
+      "percent": 91.0,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1206491.44,
-      "missing": 170770.56,
-      "percent": 87.6
+      "reached": 1209746.89,
+      "missing": 167515.11,
+      "percent": 87.8
     },
     {
       "name": "Semana 5",
