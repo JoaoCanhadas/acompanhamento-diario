@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "27/08/2026 11:20",
+  "lastModified": "27/08/2026 11:21",
   "summary": {
     "commitment": 140000.0,
-    "reached": 43456.57,
-    "missing": 96543.43,
-    "percent": 31.0,
+    "reached": 44458.17,
+    "missing": 95541.83,
+    "percent": 31.8,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 8400.0,
-      "reached": 1280.14,
-      "missing": 7119.86,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 15.2,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 7490.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 30.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 8400.0,
+      "reached": 2281.74,
+      "missing": 6118.26,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 27.2,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 546405.14,
-      "missing": 145618.67,
-      "percent": 79.0
+      "reached": 547406.74,
+      "missing": 144617.07,
+      "percent": 79.1
     },
     {
       "name": "Semana 5",
