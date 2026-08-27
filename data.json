@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "27/08/2026 15:04",
+  "lastModified": "27/08/2026 15:06",
   "summary": {
     "commitment": 140000.0,
-    "reached": 89136.11,
-    "missing": 50863.89,
+    "reached": 89208.63,
+    "missing": 50791.37,
     "percent": 63.7,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
@@ -180,6 +180,17 @@
       "status": "pending"
     },
     {
+      "reference": "",
+      "seller": "IATAGAM JUNIOR",
+      "commitment": 0.0,
+      "reached": 72.52,
+      "missing": -72.52,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 4090.0,
@@ -239,8 +250,8 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 592084.68,
-      "missing": 99939.13,
+      "reached": 592157.2,
+      "missing": 99866.61,
       "percent": 85.6
     },
     {
