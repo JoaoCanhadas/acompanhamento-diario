@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "27/08/2026 13:01",
+  "lastModified": "27/08/2026 13:02",
   "summary": {
     "commitment": 140000.0,
-    "reached": 65730.63,
-    "missing": 74269.37,
-    "percent": 47.0,
+    "reached": 67766.68,
+    "missing": 72233.32,
+    "percent": 48.4,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -18,22 +18,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 17070.0,
-      "reached": 8206.6,
-      "missing": 8863.4,
+      "reached": 8864.6,
+      "missing": 8205.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 48.1,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 15930.0,
-      "reached": 8745.09,
-      "missing": 7184.91,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 54.9,
+      "percent": 51.9,
       "status": "pending"
     },
     {
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 8.1,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 15930.0,
+      "reached": 9634.49,
+      "missing": 6295.51,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.5,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 13000.0,
-      "reached": 8916.2,
-      "missing": 4083.8,
+      "reached": 9404.85,
+      "missing": 3595.15,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 68.6,
+      "percent": 72.3,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 568679.2,
-      "missing": 123344.61,
-      "percent": 82.2
+      "reached": 570715.25,
+      "missing": 121308.56,
+      "percent": 82.5
     },
     {
       "name": "Semana 5",
