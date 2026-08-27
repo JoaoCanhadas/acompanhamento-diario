@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "27/08/2026 13:44",
+  "lastModified": "27/08/2026 13:45",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4880139.08,
-    "missing": 904360.92,
-    "percent": 84.4,
+    "reached": 4885201.98,
+    "missing": 899298.02,
+    "percent": 84.5,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
     "weekPercent": 87.4,
-    "positiveCount": 2,
-    "pendingCount": 23
+    "positiveCount": 3,
+    "pendingCount": 22
   },
   "rows": [
     {
@@ -84,11 +84,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
-      "reached": 225431.03,
-      "missing": 39568.97,
+      "reached": 228013.43,
+      "missing": 36986.57,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 85.1,
+      "percent": 86.0,
       "status": "pending"
     },
     {
@@ -257,17 +257,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 330000.0,
-      "reached": 329569.43,
-      "missing": 430.57,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.9,
-      "status": "pending"
-    },
-    {
       "reference": "IATAGAM JUNIOR",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -287,6 +276,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 146.1,
+      "status": "ok"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 330000.0,
+      "reached": 332049.93,
+      "missing": -2049.93,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.6,
       "status": "ok"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1291681.79,
-      "missing": 85580.21,
-      "percent": 93.8
+      "reached": 1296744.69,
+      "missing": 80517.31,
+      "percent": 94.2
     },
     {
       "name": "Semana 5",
