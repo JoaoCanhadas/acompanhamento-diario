@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "27/08/2026 11:13",
+  "lastModified": "27/08/2026 11:15",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4812719.3,
-    "missing": 971780.7,
+    "reached": 4814645.85,
+    "missing": 969854.15,
     "percent": 83.2,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 90000.0,
-      "reached": 40363.8,
-      "missing": 49636.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.8,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 82.1,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 90000.0,
+      "reached": 41810.65,
+      "missing": 48189.35,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 46.5,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 139500.0,
-      "reached": 112063.27,
-      "missing": 27436.73,
+      "reached": 112542.97,
+      "missing": 26957.03,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.3,
+      "percent": 80.7,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1224262.02,
-      "missing": 152999.98,
-      "percent": 88.9
+      "reached": 1226188.57,
+      "missing": 151073.43,
+      "percent": 89.0
     },
     {
       "name": "Semana 5",
