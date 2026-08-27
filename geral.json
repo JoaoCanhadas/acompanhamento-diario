@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "27/08/2026 09:05",
+  "lastModified": "27/08/2026 09:06",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4626087.73,
-    "missing": 1158412.27,
-    "percent": 80.0,
+    "reached": 4635824.23,
+    "missing": 1148675.77,
+    "percent": 80.1,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 425000.0,
-      "reached": 341286.88,
-      "missing": 83713.12,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.3,
-      "status": "pending"
-    },
-    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 142000.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 42.5,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 425000.0,
+      "reached": 348356.88,
+      "missing": 76643.12,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 82.0,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 242000.0,
-      "reached": 207650.14,
-      "missing": 34349.86,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 85.8,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
@@ -150,11 +139,22 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
-      "reached": 66370.64,
-      "missing": 33629.36,
+      "reached": 66540.54,
+      "missing": 33459.46,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 66.4,
+      "percent": 66.5,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 242000.0,
+      "reached": 210146.74,
+      "missing": 31853.26,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 86.8,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1037630.45,
-      "missing": 339631.55,
-      "percent": 75.3
+      "reached": 1047366.95,
+      "missing": 329895.05,
+      "percent": 76.0
     },
     {
       "name": "Semana 5",
