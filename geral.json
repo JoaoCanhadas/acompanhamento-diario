@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "27/08/2026 09:20",
+  "lastModified": "27/08/2026 09:22",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4697673.09,
-    "missing": 1086826.91,
-    "percent": 81.2,
+    "reached": 4720596.29,
+    "missing": 1063903.71,
+    "percent": 81.6,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
     "weekPercent": 87.4,
-    "positiveCount": 1,
-    "pendingCount": 24
+    "positiveCount": 2,
+    "pendingCount": 23
   },
   "rows": [
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 425000.0,
-      "reached": 405664.88,
-      "missing": 19335.12,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.5,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 167000.0,
@@ -299,6 +288,17 @@
       "difference": 0.0,
       "percent": 146.1,
       "status": "ok"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 425000.0,
+      "reached": 428588.08,
+      "missing": -3588.08,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.8,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1109215.81,
-      "missing": 268046.19,
-      "percent": 80.5
+      "reached": 1132139.01,
+      "missing": 245122.99,
+      "percent": 82.2
     },
     {
       "name": "Semana 5",
