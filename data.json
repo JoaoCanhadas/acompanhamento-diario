@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "27/08/2026 10:19",
+  "lastModified": "27/08/2026 10:21",
   "summary": {
     "commitment": 140000.0,
-    "reached": 34480.35,
-    "missing": 105519.65,
-    "percent": 24.6,
+    "reached": 34645.15,
+    "missing": 105354.85,
+    "percent": 24.7,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -117,11 +117,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 7350.0,
-      "reached": 2144.6,
-      "missing": 5205.4,
+      "reached": 2009.6,
+      "missing": 5340.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 29.2,
+      "percent": 27.3,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 3230.0,
-      "reached": 439.7,
-      "missing": 2790.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 13.6,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 2870.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 7.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 3230.0,
+      "reached": 739.5,
+      "missing": 2490.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 22.9,
       "status": "pending"
     },
     {
@@ -239,8 +239,8 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 537428.92,
-      "missing": 154594.89,
+      "reached": 537593.72,
+      "missing": 154430.09,
       "percent": 77.7
     },
     {
