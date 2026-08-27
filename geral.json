@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "27/08/2026 10:05",
+  "lastModified": "27/08/2026 10:06",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4792931.57,
-    "missing": 991568.43,
+    "reached": 4794653.82,
+    "missing": 989846.18,
     "percent": 82.9,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 200000.0,
-      "reached": 180561.3,
-      "missing": 19438.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.3,
-      "status": "pending"
-    },
-    {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 420000.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 95.4,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 200000.0,
+      "reached": 181796.1,
+      "missing": 18203.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 90.9,
       "status": "pending"
     },
     {
@@ -249,11 +249,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 64500.0,
-      "reached": 58213.85,
-      "missing": 6286.15,
+      "reached": 58701.3,
+      "missing": 5798.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.3,
+      "percent": 91.0,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1204474.29,
-      "missing": 172787.71,
-      "percent": 87.5
+      "reached": 1206196.54,
+      "missing": 171065.46,
+      "percent": 87.6
     },
     {
       "name": "Semana 5",
