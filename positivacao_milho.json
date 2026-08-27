@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "27/08/2026 11:17",
+  "lastModified": "27/08/2026 11:18",
   "summary": {
     "commitment": 783.0,
-    "reached": 677.0,
-    "missing": 106.0,
-    "percent": 86.5,
+    "reached": 678.0,
+    "missing": 105.0,
+    "percent": 86.6,
     "weekGoal": 186,
     "weekRevenue": 251.0,
     "weekMissing": -65.0,
@@ -180,17 +180,6 @@
       "status": "ok"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 47.0,
-      "reached": 53.0,
-      "missing": -6.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 112.8,
-      "status": "ok"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 63.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 111.1,
+      "status": "ok"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 47.0,
+      "reached": 54.0,
+      "missing": -7.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 114.9,
       "status": "ok"
     }
   ],
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 186,
-      "reached": 257.0,
-      "missing": -71.0,
-      "percent": 138.2
+      "reached": 258.0,
+      "missing": -72.0,
+      "percent": 138.7
     },
     {
       "name": "Semana 5",
