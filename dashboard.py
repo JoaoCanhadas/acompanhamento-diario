@@ -1951,26 +1951,68 @@ function renderTableHead(config) {
     }
 
     function renderTable(viewName = activeView) {
-      const config = views[viewName];
-      const rows = filteredRows();
-      const tableBody = byId("tableBody");
-      renderTableHead(config);
-      const markup = rows.map((row) => `
-        <tr>
-          ${config.columns.map((column) => `<td data-label="${column.label}" class="${column.key === "seller" ? "seller" : ""} ${column.className ? column.className(row) : ""}">${column.value(row)}</td>`).join("")}
-          <td data-label="Status"><span class="tag ${row.status}">${row.status === "ok" ? "Superou" : "Falta"}</span></td>
-        </tr>
-      `).join("");
-      const duplicateMarkup = rows.map((row) => `
-        <tr class="loop-copy">
-          ${config.columns.map((column) => `<td data-label="${column.label}" class="${column.key === "seller" ? "seller" : ""} ${column.className ? column.className(row) : ""}">${column.value(row)}</td>`).join("")}
-          <td data-label="Status"><span class="tag ${row.status}">${row.status === "ok" ? "Superou" : "Falta"}</span></td>
-        </tr>
-      `).join("");
-      tableBody.innerHTML = rows.length > 8 ? markup + duplicateMarkup : markup;
-tableBody.classList.toggle("auto-scroll", rows.length > 8);
-requestAnimationFrame(() => startSellerAutoScroll(rows.length > 8));
-    }
+  const config = views[viewName];
+  const rows = filteredRows();
+  const tableBody = byId("tableBody");
+
+  renderTableHead(config);
+
+  const markup = rows.map((row) => `
+    <tr>
+      ${config.columns.map((column) => `
+        <td
+          data-label="${column.label}"
+          class="${column.key === "seller" ? "seller" : ""} ${column.className ? column.className(row) : ""}"
+        >
+          ${column.value(row)}
+        </td>
+      `).join("")}
+      <td data-label="Status">
+        <span class="tag ${row.status}">
+          ${row.status === "ok" ? "Superou" : "Falta"}
+        </span>
+      </td>
+    </tr>
+  `).join("");
+
+  const duplicateMarkup = rows.map((row) => `
+    <tr class="loop-copy">
+      ${config.columns.map((column) => `
+        <td
+          data-label="${column.label}"
+          class="${column.key === "seller" ? "seller" : ""} ${column.className ? column.className(row) : ""}"
+        >
+          ${column.value(row)}
+        </td>
+      `).join("")}
+      <td data-label="Status">
+        <span class="tag ${row.status}">
+          ${row.status === "ok" ? "Superou" : "Falta"}
+        </span>
+      </td>
+    </tr>
+  `).join("");
+
+  const isMobile =
+    window.matchMedia("(max-width: 640px)").matches;
+
+  const usarRolagem =
+    rows.length > 8 && !isMobile;
+
+  tableBody.innerHTML =
+    usarRolagem
+      ? markup + duplicateMarkup
+      : markup;
+
+  tableBody.classList.toggle(
+    "auto-scroll",
+    usarRolagem
+  );
+
+  requestAnimationFrame(() =>
+    startSellerAutoScroll(usarRolagem)
+  );
+}
 
     function startSellerAutoScroll(enabled) {
   const tableWrap = document.querySelector(".table-wrap");
