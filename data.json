@@ -1,28 +1,28 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/08/2026 13:27",
+  "lastModified": "28/08/2026 13:29",
   "summary": {
     "commitment": 130000.0,
-    "reached": 50951.1,
-    "missing": 79048.9,
-    "percent": 39.2,
+    "reached": 53492.8,
+    "missing": 76507.2,
+    "percent": 41.1,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
     {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 12280.0,
-      "reached": 1592.45,
-      "missing": 10687.55,
+      "reached": 1967.2,
+      "missing": 10312.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 13.0,
+      "percent": 16.0,
       "status": "pending"
     },
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 7710.0,
-      "reached": 522.1,
-      "missing": 7187.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 6.8,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 8830.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 36.7,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 7710.0,
+      "reached": 1022.0,
+      "missing": 6688.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 13.3,
       "status": "pending"
     },
     {
@@ -194,22 +194,22 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 6090.0,
-      "reached": 6049.3,
-      "missing": 40.7,
+      "reached": 6364.2,
+      "missing": -274.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.3,
-      "status": "pending"
+      "percent": 104.5,
+      "status": "ok"
     },
     {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 13540.0,
-      "reached": 15774.4,
-      "missing": -2234.4,
+      "reached": 17126.55,
+      "missing": -3586.55,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 116.5,
+      "percent": 126.5,
       "status": "ok"
     }
   ],
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 642871.68,
-      "missing": 49152.13,
-      "percent": 92.9
+      "reached": 645413.38,
+      "missing": 46610.43,
+      "percent": 93.3
     },
     {
       "name": "Semana 5",
