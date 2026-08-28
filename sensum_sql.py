@@ -456,9 +456,146 @@ def query_pedido_weeks(panel):
 
     _, where_extra, aggregate = pedido_panel_sql(panel)
     start_date, end_date = period_range()
-    view_name = os.environ.get("SENSUM_SQL_VIEW", "dbo.VIW_IATAGEM_PEDIDO")
-    area_filter = os.environ.get("SENSUM_SQL_AREA", "IATAGAM")
+
+    view_name = os.environ.get(
+        "SENSUM_SQL_VIEW",
+        "dbo.VIW_IATAGEM_PEDIDO"
+    )
+
+    area_filter = os.environ.get(
+        "SENSUM_SQL_AREA",
+        "IATAGAM"
+    )
+
     date_expr = pedido_date_expr()
+
+    if panel == "milho":
+
+        # --------------------------------------------------------
+        # POSITIVAÇÃO BRIOCHE
+        #
+        # 1. Localiza os clientes que compraram Brioche no mês.
+        # 2. Para esses clientes, busca a primeira VENDA/VENDA SAT
+        #    do mês, independentemente do produto.
+        # 3. Classifica cada cliente somente na primeira semana.
+        #
+        # As consultas são feitas em lotes para evitar timeout.
+        # --------------------------------------------------------
+
+        primeiro_dia = start_date
+
+        inicio_semana_1 = primeiro_dia + timedelta(
+            days=7 - primeiro_dia.weekday()
+        )
+
+        # 1) Clientes que compraram Brioche no período
+        sql_clientes = f"""
+            SELECT DISTINCT
+                COD_CLIENTE
+            FROM {view_name}
+            WHERE {date_expr} >= ?
+              AND {date_expr} < ?
+              AND (? = '' OR AREA = ?)
+              AND COD_CLIENTE IS NOT NULL
+              {where_extra}
+        """
+
+        resultado_clientes = sql_fetch(
+            sql_clientes,
+            start_date,
+            end_date,
+            area_filter,
+            area_filter
+        )
+
+        clientes = [
+            str(linha["cod_cliente"]).strip()
+            for linha in resultado_clientes
+            if linha.get("cod_cliente") is not None
+        ]
+
+        if not clientes:
+            return []
+
+        # 2) Busca a primeira VENDA / VENDA SAT do mês
+        #    em lotes menores para evitar timeout.
+        primeiras_compras = []
+
+        tamanho_lote = 100
+
+        for posicao in range(0, len(clientes), tamanho_lote):
+
+            lote = clientes[
+                posicao:posicao + tamanho_lote
+            ]
+
+            lista_clientes = ",".join(lote)
+
+            sql_primeira_compra = f"""
+                SELECT
+                    COD_CLIENTE,
+                    MIN({date_expr}) AS primeira_data
+                FROM {view_name}
+                WHERE {date_expr} >= ?
+                  AND {date_expr} < ?
+                  AND (? = '' OR AREA = ?)
+                  AND COD_CLIENTE IN ({lista_clientes})
+                  AND UPPER(DES_TIPO_OPERACAO) IN (
+                      'VENDA',
+                      'VENDA SAT'
+                  )
+                GROUP BY COD_CLIENTE
+            """
+
+            resultado_lote = sql_fetch(
+                sql_primeira_compra,
+                start_date,
+                end_date,
+                area_filter,
+                area_filter
+            )
+
+            primeiras_compras.extend(
+                resultado_lote
+            )
+
+        # 3) Classifica cada cliente na semana correspondente
+        semanas = {}
+
+        inicio_semana = inicio_semana_1
+
+        if hasattr(inicio_semana, "date"):
+            inicio_semana = inicio_semana.date()
+
+        for linha in primeiras_compras:
+
+            primeira_data = linha.get(
+                "primeira_data"
+            )
+
+            if primeira_data is None:
+                continue
+
+            if hasattr(primeira_data, "date"):
+                primeira_data = primeira_data.date()
+
+            numero_semana = (
+                (primeira_data - inicio_semana).days // 7
+            ) + 1
+
+            if 1 <= numero_semana <= 5:
+                semanas[numero_semana] = (
+                    semanas.get(numero_semana, 0) + 1
+                )
+
+        return [
+            {
+                "week_number": semana,
+                "reached": semanas[semana]
+            }
+            for semana in sorted(semanas)
+        ]
+
     sql = f"""
         SELECT
             DATEPART(ISO_WEEK, {date_expr}) AS week_number,
@@ -470,7 +607,14 @@ def query_pedido_weeks(panel):
         GROUP BY DATEPART(ISO_WEEK, {date_expr})
         ORDER BY DATEPART(ISO_WEEK, {date_expr})
     """
-    return sql_fetch(sql, start_date, end_date, area_filter, area_filter)
+
+    return sql_fetch(
+        sql,
+        start_date,
+        end_date,
+        area_filter,
+        area_filter
+    )
 
 
 def sql_fetch(sql, *params):
@@ -572,7 +716,10 @@ def general_region_sql():
 
 
 def pedido_panel_sql(panel):
-    seller_column = os.environ.get("SENSUM_SQL_SELLER_COLUMN", "REGIAO")
+    seller_column = os.environ.get(
+        "SENSUM_SQL_SELLER_COLUMN",
+        "REGIAO"
+    )
 
     if panel == "general":
         return general_region_sql(), "", "SUM(TOTAL)"
@@ -588,7 +735,7 @@ def pedido_panel_sql(panel):
             "SENSUM_SQL_MILHO_METRIC",
             "COUNT(DISTINCT COD_CLIENTE)"
         )
-        return "REGIAO", milho_filter_sql(), metric
+        return general_region_sql(), milho_filter_sql(), metric
 
     raise ValueError(f"Painel SQL desconhecido: {panel}")
 
@@ -611,10 +758,25 @@ def keys_filter_sql():
 
 
 def milho_filter_sql():
+    regiao = general_region_sql()
+
     value = os.environ.get(
         "SENSUM_SQL_MILHO_FILTER",
-        "(UPPER(GRUPO) LIKE '%BRIOCHE%' OR UPPER(PRODUTO) LIKE '%BRIOCHE%') AND UPPER(REGIAO) NOT LIKE 'KEY%'",
+        f"""
+        RTRIM(UPPER(PRODUTO)) IN (
+            'MIST PAO BRIOCHE FRANCES VIAPANE 10KG',
+            'MIST PAO BRIOCHE FRANCES VIAPANE 20KG CAIXA'
+        )
+        AND UPPER(DES_TIPO_OPERACAO) IN ('VENDA', 'VENDA SAT')
+        AND UPPER({regiao}) NOT LIKE 'KEY%'
+        AND UPPER({regiao}) NOT IN (
+            'ECOMMERCE',
+            'IATAGAM JUNIOR',
+            'VENDEDOR INTERNO 1'
+        )
+        """,
     )
+
     return f" AND ({value})" if value else ""
 
 
