@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "27/08/2026 16:09",
+  "lastModified": "28/08/2026 07:12",
   "summary": {
     "commitment": 642000.0,
-    "reached": 712530.77,
-    "missing": -70530.77,
-    "percent": 111.0,
+    "reached": 756651.37,
+    "missing": -114651.37,
+    "percent": 117.9,
     "weekGoal": 685000.0,
     "weekRevenue": 589719.49,
     "weekMissing": 95280.51,
@@ -29,33 +29,33 @@
       "reference": "KEY ABC",
       "seller": "KEY ABC",
       "commitment": 96500.0,
-      "reached": 62838.3,
-      "missing": 33661.7,
+      "reached": 78270.9,
+      "missing": 18229.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 65.1,
+      "percent": 81.1,
       "status": "pending"
-    },
-    {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
-      "commitment": 86000.0,
-      "reached": 91519.94,
-      "missing": -5519.94,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 106.4,
-      "status": "ok"
     },
     {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 0.0,
-      "reached": 6153.6,
-      "missing": -6153.6,
+      "reached": 8485.8,
+      "missing": -8485.8,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 86000.0,
+      "reached": 117875.74,
+      "missing": -31875.74,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 137.1,
       "status": "ok"
     },
     {
@@ -107,9 +107,9 @@
     {
       "name": "Semana 4",
       "goal": 685000.0,
-      "reached": 712530.77,
-      "missing": -27530.77,
-      "percent": 104.0
+      "reached": 756651.37,
+      "missing": -71651.37,
+      "percent": 110.5
     },
     {
       "name": "Semana 5",
