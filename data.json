@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/08/2026 13:47",
+  "lastModified": "28/08/2026 13:49",
   "summary": {
     "commitment": 130000.0,
-    "reached": 59706.54,
-    "missing": 70293.46,
-    "percent": 45.9,
+    "reached": 65573.94,
+    "missing": 64426.06,
+    "percent": 50.4,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -40,11 +40,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 12280.0,
-      "reached": 3739.85,
-      "missing": 8540.15,
+      "reached": 4709.75,
+      "missing": 7570.25,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.5,
+      "percent": 38.4,
       "status": "pending"
     },
     {
@@ -67,17 +67,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 13.3,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 8830.0,
-      "reached": 2756.35,
-      "missing": 6073.65,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 31.2,
       "status": "pending"
     },
     {
@@ -180,6 +169,17 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 8830.0,
+      "reached": 7653.85,
+      "missing": 1176.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 86.7,
+      "status": "pending"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 3840.0,
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 651627.12,
-      "missing": 40396.69,
-      "percent": 94.2
+      "reached": 657494.52,
+      "missing": 34529.29,
+      "percent": 95.0
     },
     {
       "name": "Semana 5",
