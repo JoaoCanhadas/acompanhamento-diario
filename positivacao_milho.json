@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "28/08/2026 08:39",
+  "lastModified": "28/08/2026 08:41",
   "summary": {
     "commitment": 783.0,
-    "reached": 694.0,
-    "missing": 89.0,
-    "percent": 88.6,
+    "reached": 695.0,
+    "missing": 88.0,
+    "percent": 88.8,
     "weekGoal": 186,
-    "weekRevenue": 395.0,
-    "weekMissing": -209.0,
-    "weekPercent": 212.4,
-    "positiveCount": 6,
-    "pendingCount": 11
+    "weekRevenue": 396.0,
+    "weekMissing": -210.0,
+    "weekPercent": 212.9,
+    "positiveCount": 7,
+    "pendingCount": 10
   },
   "rows": [
     {
@@ -125,21 +125,21 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 51.0,
-      "reached": 50.0,
-      "missing": 1.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 98.0,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 54.0,
       "reached": 54.0,
+      "missing": 0.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 51.0,
+      "reached": 51.0,
       "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 186,
-      "reached": 395.0,
-      "missing": -209.0,
-      "percent": 212.4
+      "reached": 396.0,
+      "missing": -210.0,
+      "percent": 212.9
     },
     {
       "name": "Semana 2",
