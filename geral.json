@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/08/2026 08:54",
+  "lastModified": "28/08/2026 08:56",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4946274.11,
-    "missing": 838225.89,
-    "percent": 85.5,
+    "reached": 4953019.91,
+    "missing": 831480.09,
+    "percent": 85.6,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 273000.0,
-      "reached": 230885.51,
-      "missing": 42114.49,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 84.6,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 86.1,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 273000.0,
+      "reached": 236588.51,
+      "missing": 36411.49,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 86.7,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 145000.0,
-      "reached": 111682.71,
-      "missing": 33317.29,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 77.0,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 66.8,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 145000.0,
+      "reached": 112605.61,
+      "missing": 32394.39,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.7,
       "status": "pending"
     },
     {
@@ -172,8 +172,8 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 200000.0,
-      "reached": 184115.18,
-      "missing": 15884.82,
+      "reached": 184235.08,
+      "missing": 15764.92,
       "average": 0.0,
       "difference": 0.0,
       "percent": 92.1,
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1357816.82,
-      "missing": 19445.18,
-      "percent": 98.6
+      "reached": 1364562.62,
+      "missing": 12699.38,
+      "percent": 99.1
     },
     {
       "name": "Semana 5",
