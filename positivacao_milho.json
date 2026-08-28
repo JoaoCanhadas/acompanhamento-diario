@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "28/08/2026 09:07",
+  "lastModified": "28/08/2026 09:09",
   "summary": {
     "commitment": 783.0,
-    "reached": 681.0,
-    "missing": 102.0,
-    "percent": 87.0,
+    "reached": 683.0,
+    "missing": 100.0,
+    "percent": 87.2,
     "weekGoal": 186,
-    "weekRevenue": 380.0,
-    "weekMissing": -194.0,
-    "weekPercent": 204.3,
+    "weekRevenue": 381.0,
+    "weekMissing": -195.0,
+    "weekPercent": 204.8,
     "positiveCount": 5,
     "pendingCount": 12
   },
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 47.0,
-      "reached": 47.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "ok"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 29.0,
@@ -180,14 +169,14 @@
       "status": "ok"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 61.0,
-      "reached": 67.0,
-      "missing": -6.0,
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 47.0,
+      "reached": 48.0,
+      "missing": -1.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 109.8,
+      "percent": 102.1,
       "status": "ok"
     },
     {
@@ -200,6 +189,17 @@
       "difference": 0.0,
       "percent": 109.5,
       "status": "ok"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 61.0,
+      "reached": 68.0,
+      "missing": -7.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 111.5,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -207,16 +207,16 @@
     {
       "name": "Semana 1",
       "goal": 186,
-      "reached": 380.0,
-      "missing": -194.0,
-      "percent": 204.3
+      "reached": 381.0,
+      "missing": -195.0,
+      "percent": 204.8
     },
     {
       "name": "Semana 2",
       "goal": 186,
-      "reached": 177.0,
-      "missing": 9.0,
-      "percent": 95.2
+      "reached": 178.0,
+      "missing": 8.0,
+      "percent": 95.7
     },
     {
       "name": "Semana 3",
