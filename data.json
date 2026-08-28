@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/08/2026 09:03",
+  "lastModified": "28/08/2026 09:05",
   "summary": {
     "commitment": 130000.0,
-    "reached": 12083.43,
-    "missing": 117916.57,
-    "percent": 9.3,
+    "reached": 13004.08,
+    "missing": 116995.92,
+    "percent": 10.0,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -18,11 +18,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 13460.0,
-      "reached": 0.0,
-      "missing": 13460.0,
+      "reached": 620.85,
+      "missing": 12839.15,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 4.6,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 13540.0,
-      "reached": 6626.85,
-      "missing": 6913.15,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 48.9,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 7210.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 7.4,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 13540.0,
+      "reached": 6926.65,
+      "missing": 6613.35,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 51.2,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 605596.41,
-      "missing": 86427.4,
-      "percent": 87.5
+      "reached": 606517.06,
+      "missing": 85506.75,
+      "percent": 87.6
     },
     {
       "name": "Semana 5",
