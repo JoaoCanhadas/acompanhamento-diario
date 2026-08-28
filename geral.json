@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/08/2026 15:31",
+  "lastModified": "28/08/2026 15:33",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5234281.91,
-    "missing": 550218.09,
+    "reached": 5234875.91,
+    "missing": 549624.09,
     "percent": 90.5,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 75000.0,
-      "reached": 65490.26,
-      "missing": 9509.74,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 87.3,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 200000.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 83.6,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 75000.0,
+      "reached": 66084.26,
+      "missing": 8915.74,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 88.1,
       "status": "pending"
     },
     {
@@ -327,8 +327,8 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1645824.62,
-      "missing": -268562.62,
+      "reached": 1646418.62,
+      "missing": -269156.62,
       "percent": 119.5
     },
     {
