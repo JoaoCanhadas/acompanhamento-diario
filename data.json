@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/08/2026 13:24",
+  "lastModified": "28/08/2026 13:26",
   "summary": {
     "commitment": 130000.0,
-    "reached": 48671.25,
-    "missing": 81328.75,
-    "percent": 37.4,
+    "reached": 50951.1,
+    "missing": 79048.9,
+    "percent": 39.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 8830.0,
-      "reached": 1432.8,
-      "missing": 7397.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 16.2,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 7710.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 6.8,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 8830.0,
+      "reached": 2012.45,
+      "missing": 6817.55,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 22.8,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 6090.0,
-      "reached": 4349.1,
-      "missing": 1740.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 71.4,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 1520.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 71.7,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 6090.0,
+      "reached": 6049.3,
+      "missing": 40.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.3,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 641874.23,
-      "missing": 50149.58,
-      "percent": 92.8
+      "reached": 642871.68,
+      "missing": 49152.13,
+      "percent": 92.9
     },
     {
       "name": "Semana 5",
