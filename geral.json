@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/08/2026 10:12",
+  "lastModified": "28/08/2026 10:13",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 4969693.23,
-    "missing": 814806.77,
+    "reached": 4970869.03,
+    "missing": 813630.97,
     "percent": 85.9,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 273000.0,
-      "reached": 239685.36,
-      "missing": 33314.64,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 87.8,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
@@ -114,11 +103,22 @@
       "status": "pending"
     },
     {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 273000.0,
+      "reached": 239859.36,
+      "missing": 33140.64,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 87.9,
+      "status": "pending"
+    },
+    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 112625.61,
-      "missing": 32374.39,
+      "reached": 112635.61,
+      "missing": 32364.39,
       "average": 0.0,
       "difference": 0.0,
       "percent": 77.7,
@@ -216,11 +216,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 55000.0,
-      "reached": 45181.62,
-      "missing": 9818.38,
+      "reached": 45301.52,
+      "missing": 9698.48,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 82.1,
+      "percent": 82.4,
       "status": "pending"
     },
     {
@@ -235,17 +235,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 78000.0,
-      "reached": 74473.98,
-      "missing": 3526.02,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.5,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 64500.0,
@@ -254,6 +243,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 95.2,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 78000.0,
+      "reached": 75345.88,
+      "missing": 2654.12,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 96.6,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1381235.94,
-      "missing": -3973.94,
-      "percent": 100.3
+      "reached": 1382411.74,
+      "missing": -5149.74,
+      "percent": 100.4
     },
     {
       "name": "Semana 5",
