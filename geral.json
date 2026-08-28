@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/08/2026 13:39",
+  "lastModified": "28/08/2026 13:41",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5067246.59,
-    "missing": 717253.41,
-    "percent": 87.6,
+    "reached": 5116726.19,
+    "missing": 667773.81,
+    "percent": 88.5,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -23,17 +23,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 79.2,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
-      "commitment": 560000.0,
-      "reached": 469090.21,
-      "missing": 90909.79,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 83.8,
       "status": "pending"
     },
     {
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 44.1,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 560000.0,
+      "reached": 513666.21,
+      "missing": 46333.79,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 91.7,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 247842.36,
-      "missing": 25157.64,
+      "reached": 249257.96,
+      "missing": 23742.04,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.8,
+      "percent": 91.3,
       "status": "pending"
     },
     {
@@ -161,22 +161,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 242000.0,
-      "reached": 225746.73,
-      "missing": 16253.27,
+      "reached": 226612.08,
+      "missing": 15387.92,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 93.3,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 200000.0,
-      "reached": 185692.68,
-      "missing": 14307.32,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 92.8,
+      "percent": 93.6,
       "status": "pending"
     },
     {
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 91.6,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 200000.0,
+      "reached": 188315.33,
+      "missing": 11684.67,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 94.2,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1377262,
-      "reached": 1478789.3,
-      "missing": -101527.3,
-      "percent": 107.4
+      "reached": 1528268.9,
+      "missing": -151006.9,
+      "percent": 111.0
     },
     {
       "name": "Semana 5",
