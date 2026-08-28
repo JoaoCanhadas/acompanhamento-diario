@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/08/2026 16:04",
+  "lastModified": "28/08/2026 16:05",
   "summary": {
     "commitment": 130000.0,
-    "reached": 81038.16,
-    "missing": 48961.84,
-    "percent": 62.3,
+    "reached": 81665.16,
+    "missing": 48334.84,
+    "percent": 62.8,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 3,
-    "pendingCount": 15
+    "positiveCount": 4,
+    "pendingCount": 14
   },
   "rows": [
     {
@@ -172,12 +172,12 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 4540.0,
-      "reached": 4148.34,
-      "missing": 391.66,
+      "reached": 4775.34,
+      "missing": -235.34,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 91.4,
-      "status": "pending"
+      "percent": 105.2,
+      "status": "ok"
     },
     {
       "reference": "LESTE",
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 692023.81,
-      "reached": 672958.74,
-      "missing": 19065.07,
-      "percent": 97.2
+      "reached": 673585.74,
+      "missing": 18438.07,
+      "percent": 97.3
     },
     {
       "name": "Semana 5",
