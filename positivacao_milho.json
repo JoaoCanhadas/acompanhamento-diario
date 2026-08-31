@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "28/08/2026 16:59",
+  "lastModified": "31/08/2026 07:19",
   "summary": {
     "commitment": 783.0,
     "reached": 749.0,
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 43.0,
-      "reached": 43.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "ok"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 54.0,
@@ -136,14 +125,14 @@
       "status": "ok"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 29.0,
-      "reached": 30.0,
-      "missing": -1.0,
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 43.0,
+      "reached": 43.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 103.4,
+      "percent": 100.0,
       "status": "ok"
     },
     {
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 102.7,
+      "status": "ok"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 29.0,
+      "reached": 30.0,
+      "missing": -1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 103.4,
       "status": "ok"
     },
     {
