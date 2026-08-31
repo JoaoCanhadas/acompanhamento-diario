@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 10:05",
+  "lastModified": "31/08/2026 10:07",
   "summary": {
     "commitment": 404000.0,
-    "reached": 62518.28,
-    "missing": 341481.72,
-    "percent": 15.5,
+    "reached": 65306.38,
+    "missing": 338693.62,
+    "percent": 16.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -62,11 +62,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 32000.0,
-      "reached": 4518.5,
-      "missing": 27481.5,
+      "reached": 6589.6,
+      "missing": 25410.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.1,
+      "percent": 20.6,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 10000.0,
-      "reached": 3384.0,
-      "missing": 6616.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 33.8,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 7000.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 5.9,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 10000.0,
+      "reached": 4101.0,
+      "missing": 5899.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 41.0,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 62518.28,
-      "missing": 75886.48,
-      "percent": 45.2
+      "reached": 65306.38,
+      "missing": 73098.38,
+      "percent": 47.2
     }
   ]
 }
