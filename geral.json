@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 17:14",
+  "lastModified": "31/08/2026 17:15",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5964179.22,
-    "missing": -179679.22,
+    "reached": 5966089.52,
+    "missing": -181589.52,
     "percent": 103.1,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -180,25 +180,25 @@
       "status": "ok"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 139500.0,
-      "reached": 140050.36,
-      "missing": -550.36,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.4,
-      "status": "ok"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 242000.0,
-      "reached": 242615.5,
-      "missing": -615.5,
+      "reached": 242845.4,
+      "missing": -845.4,
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.3,
+      "status": "ok"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 139500.0,
+      "reached": 140360.36,
+      "missing": -860.36,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.6,
       "status": "ok"
     },
     {
@@ -216,11 +216,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 276085.8,
-      "missing": -3085.8,
+      "reached": 276269.2,
+      "missing": -3269.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 101.1,
+      "percent": 101.2,
       "status": "ok"
     },
     {
@@ -271,11 +271,11 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 420000.0,
-      "reached": 551983.9,
-      "missing": -131983.9,
+      "reached": 553170.9,
+      "missing": -133170.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 131.4,
+      "percent": 131.7,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 672281.51,
-      "missing": -396829.51,
-      "percent": 244.1
+      "reached": 674191.81,
+      "missing": -398739.81,
+      "percent": 244.8
     }
   ]
 }

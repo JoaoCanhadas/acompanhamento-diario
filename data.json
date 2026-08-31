@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 17:14",
+  "lastModified": "31/08/2026 17:15",
   "summary": {
     "commitment": 404000.0,
-    "reached": 239936.19,
-    "missing": 164063.81,
-    "percent": 59.4,
+    "reached": 240659.49,
+    "missing": 163340.51,
+    "percent": 59.6,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -117,11 +117,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 21000.0,
-      "reached": 17583.64,
-      "missing": 3416.36,
+      "reached": 17813.54,
+      "missing": 3186.46,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.7,
+      "percent": 84.8,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 22000.0,
-      "reached": 21034.04,
-      "missing": 965.96,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.6,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 4000.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 78.0,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 22000.0,
+      "reached": 21344.04,
+      "missing": 655.96,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.0,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 22000.0,
-      "reached": 23902.24,
-      "missing": -1902.24,
+      "reached": 24085.64,
+      "missing": -2085.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 108.6,
+      "percent": 109.5,
       "status": "ok"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 239936.19,
-      "missing": -101531.43,
-      "percent": 173.4
+      "reached": 240659.49,
+      "missing": -102254.73,
+      "percent": 173.9
     }
   ]
 }
