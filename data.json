@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 14:53",
+  "lastModified": "31/08/2026 14:54",
   "summary": {
     "commitment": 404000.0,
-    "reached": 214841.68,
-    "missing": 189158.32,
-    "percent": 53.2,
+    "reached": 216800.13,
+    "missing": 187199.87,
+    "percent": 53.7,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -51,11 +51,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 39000.0,
-      "reached": 15570.84,
-      "missing": 23429.16,
+      "reached": 17252.84,
+      "missing": 21747.16,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 39.9,
+      "percent": 44.2,
       "status": "pending"
     },
     {
@@ -84,8 +84,8 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 23000.0,
-      "reached": 15339.04,
-      "missing": 7660.96,
+      "reached": 15345.49,
+      "missing": 7654.51,
       "average": 0.0,
       "difference": 0.0,
       "percent": 66.7,
@@ -150,22 +150,22 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 15000.0,
-      "reached": 11944.32,
-      "missing": 3055.68,
+      "reached": 12064.32,
+      "missing": 2935.68,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.6,
+      "percent": 80.4,
       "status": "pending"
     },
     {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 10000.0,
-      "reached": 8186.04,
-      "missing": 1813.96,
+      "reached": 8336.04,
+      "missing": 1663.96,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.9,
+      "percent": 83.4,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 214841.68,
-      "missing": -76436.92,
-      "percent": 155.2
+      "reached": 216800.13,
+      "missing": -78395.37,
+      "percent": 156.6
     }
   ]
 }
