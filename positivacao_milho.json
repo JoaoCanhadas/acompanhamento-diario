@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "31/08/2026 13:33",
+  "lastModified": "31/08/2026 13:34",
   "summary": {
     "commitment": 783.0,
-    "reached": 772.0,
-    "missing": 11.0,
-    "percent": 98.6,
+    "reached": 774.0,
+    "missing": 9.0,
+    "percent": 98.9,
     "weekGoal": 186,
-    "weekRevenue": 423.0,
-    "weekMissing": -237.0,
-    "weekPercent": 227.4,
+    "weekRevenue": 424.0,
+    "weekMissing": -238.0,
+    "weekPercent": 228.0,
     "positiveCount": 10,
     "pendingCount": 7
   },
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 44.0,
-      "reached": 44.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "ok"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 38.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.0,
+      "status": "ok"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 44.0,
+      "reached": 45.0,
+      "missing": -1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 102.3,
       "status": "ok"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 63.0,
-      "reached": 71.0,
-      "missing": -8.0,
+      "reached": 72.0,
+      "missing": -9.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 112.7,
+      "percent": 114.3,
       "status": "ok"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 186,
-      "reached": 423.0,
-      "missing": -237.0,
-      "percent": 227.4
+      "reached": 424.0,
+      "missing": -238.0,
+      "percent": 228.0
     },
     {
       "name": "Semana 2",
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 39,
-      "reached": 5.0,
-      "missing": 34.0,
-      "percent": 12.8
+      "reached": 6.0,
+      "missing": 33.0,
+      "percent": 15.4
     }
   ]
 }
