@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 13:19",
+  "lastModified": "31/08/2026 13:20",
   "summary": {
     "commitment": 404000.0,
-    "reached": 175067.53,
-    "missing": 228932.47,
-    "percent": 43.3,
+    "reached": 175959.13,
+    "missing": 228040.87,
+    "percent": 43.6,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 32000.0,
-      "reached": 15481.34,
-      "missing": 16518.66,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 48.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 26000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 37.3,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 32000.0,
+      "reached": 16277.99,
+      "missing": 15722.01,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.9,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 10000.0,
-      "reached": 3442.26,
-      "missing": 6557.74,
+      "reached": 3537.21,
+      "missing": 6462.79,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 34.4,
+      "percent": 35.4,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 175067.53,
-      "missing": -36662.77,
-      "percent": 126.5
+      "reached": 175959.13,
+      "missing": -37554.37,
+      "percent": 127.1
     }
   ]
 }
