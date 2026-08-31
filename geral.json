@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 16:19",
+  "lastModified": "31/08/2026 16:49",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5829220.69,
-    "missing": -44720.69,
-    "percent": 100.8,
+    "reached": 5872692.94,
+    "missing": -88192.94,
+    "percent": 101.5,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
     "weekPercent": 87.4,
-    "positiveCount": 12,
-    "pendingCount": 13
+    "positiveCount": 13,
+    "pendingCount": 12
   },
   "rows": [
     {
@@ -73,11 +73,11 @@
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 142000.0,
-      "reached": 124949.35,
-      "missing": 17050.65,
+      "reached": 125604.95,
+      "missing": 16395.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 88.0,
+      "percent": 88.5,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 139500.0,
-      "reached": 131850.17,
-      "missing": 7649.83,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.5,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
@@ -136,26 +125,37 @@
       "status": "pending"
     },
     {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 139500.0,
+      "reached": 136229.58,
+      "missing": 3270.42,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.7,
+      "status": "pending"
+    },
+    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 242000.0,
-      "reached": 238898.26,
-      "missing": 3101.74,
+      "reached": 239601.1,
+      "missing": 2398.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 98.7,
+      "percent": 99.0,
       "status": "pending"
     },
     {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 75000.0,
-      "reached": 74910.6,
-      "missing": 89.4,
+      "reached": 75060.6,
+      "missing": -60.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.9,
-      "status": "pending"
+      "percent": 100.1,
+      "status": "ok"
     },
     {
       "reference": "CAMPINAS",
@@ -268,17 +268,6 @@
       "status": "ok"
     },
     {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
-      "commitment": 560000.0,
-      "reached": 656273.51,
-      "missing": -96273.51,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 117.2,
-      "status": "ok"
-    },
-    {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 425000.0,
@@ -293,11 +282,22 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 420000.0,
-      "reached": 551554.5,
-      "missing": -131554.5,
+      "reached": 551848.9,
+      "missing": -131848.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 131.3,
+      "percent": 131.4,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY SP",
+      "seller": "KEY SP",
+      "commitment": 560000.0,
+      "reached": 693563.51,
+      "missing": -133563.51,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 123.9,
       "status": "ok"
     }
   ],
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 537604.88,
-      "missing": -262152.88,
-      "percent": 195.2
+      "reached": 581077.13,
+      "missing": -305625.13,
+      "percent": 211.0
     }
   ]
 }
