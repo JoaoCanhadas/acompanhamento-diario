@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 09:26",
+  "lastModified": "31/08/2026 09:29",
   "summary": {
     "commitment": 404000.0,
-    "reached": 30511.88,
-    "missing": 373488.12,
-    "percent": 7.6,
+    "reached": 34650.7,
+    "missing": 369349.3,
+    "percent": 8.6,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -18,11 +18,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 47000.0,
-      "reached": 502.88,
-      "missing": 46497.12,
+      "reached": 805.88,
+      "missing": 46194.12,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 1.1,
+      "percent": 1.7,
       "status": "pending"
     },
     {
@@ -40,11 +40,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37000.0,
-      "reached": 608.4,
-      "missing": 36391.6,
+      "reached": 1707.8,
+      "missing": 35292.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 1.6,
+      "percent": 4.6,
       "status": "pending"
     },
     {
@@ -73,11 +73,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 26000.0,
-      "reached": 0.0,
-      "missing": 26000.0,
+      "reached": 1540.82,
+      "missing": 24459.18,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 5.9,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 18000.0,
-      "reached": 424.2,
-      "missing": 17575.8,
+      "reached": 1619.8,
+      "missing": 16380.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 2.4,
+      "percent": 9.0,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 30511.88,
-      "missing": 107892.88,
-      "percent": 22.0
+      "reached": 34650.7,
+      "missing": 103754.06,
+      "percent": 25.0
     }
   ]
 }
