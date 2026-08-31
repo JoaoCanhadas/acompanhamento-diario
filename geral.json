@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 10:28",
+  "lastModified": "31/08/2026 10:30",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5420988.58,
-    "missing": 363511.42,
-    "percent": 93.7,
+    "reached": 5427958.9,
+    "missing": 356541.1,
+    "percent": 93.8,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -106,8 +106,8 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 139500.0,
-      "reached": 122440.42,
-      "missing": 17059.58,
+      "reached": 122452.34,
+      "missing": 17047.66,
       "average": 0.0,
       "difference": 0.0,
       "percent": 87.8,
@@ -117,11 +117,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 107040.65,
-      "missing": 14959.35,
+      "reached": 108535.75,
+      "missing": 13464.25,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 87.7,
+      "percent": 89.0,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 323500.0,
-      "reached": 315309.1,
-      "missing": 8190.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.5,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 55000.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 85.8,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 323500.0,
+      "reached": 316633.2,
+      "missing": 6866.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.9,
       "status": "pending"
     },
     {
@@ -293,11 +293,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 425000.0,
-      "reached": 512326.5,
-      "missing": -87326.5,
+      "reached": 516465.7,
+      "missing": -91465.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 120.5,
+      "percent": 121.5,
       "status": "ok"
     }
   ],
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 128743.27,
-      "missing": 146708.73,
-      "percent": 46.7
+      "reached": 135713.59,
+      "missing": 139738.41,
+      "percent": 49.3
     }
   ]
 }
