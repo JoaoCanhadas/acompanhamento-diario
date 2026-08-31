@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 09:18",
+  "lastModified": "31/08/2026 09:26",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5350410.37,
-    "missing": 434089.63,
-    "percent": 92.5,
+    "reached": 5361434.29,
+    "missing": 423065.71,
+    "percent": 92.7,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -51,11 +51,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 90000.0,
-      "reached": 45936.82,
-      "missing": 44063.18,
+      "reached": 46086.82,
+      "missing": 43913.18,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 51.0,
+      "percent": 51.2,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 120380.96,
-      "missing": 24619.04,
+      "reached": 122491.96,
+      "missing": 22508.04,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.0,
+      "percent": 84.5,
       "status": "pending"
     },
     {
@@ -136,28 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 242000.0,
-      "reached": 227370.26,
-      "missing": 14629.74,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.0,
-      "status": "pending"
-    },
-    {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 167000.0,
-      "reached": 152908.74,
-      "missing": 14091.26,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 91.6,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
@@ -166,6 +144,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 94.9,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 242000.0,
+      "reached": 228129.66,
+      "missing": 13870.34,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 94.3,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 167000.0,
+      "reached": 153332.94,
+      "missing": 13667.06,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 91.8,
       "status": "pending"
     },
     {
@@ -202,17 +202,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 90000.0,
-      "reached": 87324.94,
-      "missing": 2675.06,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.0,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 78000.0,
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 96.9,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 90000.0,
+      "reached": 88186.34,
+      "missing": 1813.66,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 98.0,
       "status": "pending"
     },
     {
@@ -282,11 +282,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 560000.0,
-      "reached": 613322.49,
-      "missing": -53322.49,
+      "reached": 620040.41,
+      "missing": -60040.41,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 109.5,
+      "percent": 110.7,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 55946.56,
-      "missing": 219505.44,
-      "percent": 20.3
+      "reached": 66970.48,
+      "missing": 208481.52,
+      "percent": 24.3
     }
   ]
 }
