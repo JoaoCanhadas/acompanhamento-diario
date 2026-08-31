@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 13:28",
+  "lastModified": "31/08/2026 13:29",
   "summary": {
     "commitment": 404000.0,
-    "reached": 178883.19,
-    "missing": 225116.81,
-    "percent": 44.3,
+    "reached": 180449.09,
+    "missing": 223550.91,
+    "percent": 44.7,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -40,11 +40,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37000.0,
-      "reached": 9245.84,
-      "missing": 27754.16,
+      "reached": 9775.64,
+      "missing": 27224.36,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 25.0,
+      "percent": 26.4,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 10000.0,
-      "reached": 3645.79,
-      "missing": 6354.21,
+      "reached": 4002.69,
+      "missing": 5997.31,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 36.5,
+      "percent": 40.0,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 9000.0,
-      "reached": 7410.55,
-      "missing": 1589.45,
+      "reached": 8089.75,
+      "missing": 910.25,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 82.3,
+      "percent": 89.9,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 178883.19,
-      "missing": -40478.43,
-      "percent": 129.2
+      "reached": 180449.09,
+      "missing": -42044.33,
+      "percent": 130.4
     }
   ]
 }
