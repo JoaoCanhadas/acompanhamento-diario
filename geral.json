@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 17:09",
+  "lastModified": "31/08/2026 17:11",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5894178.32,
-    "missing": -109678.32,
-    "percent": 101.9,
+    "reached": 5961483.62,
+    "missing": -176983.62,
+    "percent": 103.1,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -216,11 +216,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 273000.0,
-      "reached": 275811.8,
-      "missing": -2811.8,
+      "reached": 276085.8,
+      "missing": -3085.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 101.0,
+      "percent": 101.1,
       "status": "ok"
     },
     {
@@ -268,17 +268,6 @@
       "status": "ok"
     },
     {
-      "reference": "KEY ZL",
-      "seller": "KEY ZL",
-      "commitment": 425000.0,
-      "reached": 542458.47,
-      "missing": -117458.47,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 127.6,
-      "status": "ok"
-    },
-    {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 420000.0,
@@ -298,6 +287,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 126.7,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY ZL",
+      "seller": "KEY ZL",
+      "commitment": 425000.0,
+      "reached": 609489.77,
+      "missing": -184489.77,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 143.4,
       "status": "ok"
     }
   ],
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 602280.61,
-      "missing": -326828.61,
-      "percent": 218.7
+      "reached": 669585.91,
+      "missing": -394133.91,
+      "percent": 243.1
     }
   ]
 }
