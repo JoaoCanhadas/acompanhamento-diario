@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 15:43",
+  "lastModified": "31/08/2026 15:45",
   "summary": {
     "commitment": 404000.0,
-    "reached": 223636.33,
-    "missing": 180363.67,
+    "reached": 223734.31,
+    "missing": 180265.69,
     "percent": 55.4,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
@@ -62,11 +62,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 22000.0,
-      "reached": 8396.22,
-      "missing": 13603.78,
+      "reached": 8494.2,
+      "missing": 13505.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.2,
+      "percent": 38.6,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 223636.33,
-      "missing": -85231.57,
-      "percent": 161.6
+      "reached": 223734.31,
+      "missing": -85329.55,
+      "percent": 161.7
     }
   ]
 }
