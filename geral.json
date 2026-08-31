@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 15:40",
+  "lastModified": "31/08/2026 15:42",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5788946.86,
-    "missing": -4446.86,
-    "percent": 100.1,
+    "reached": 5798196.16,
+    "missing": -13696.16,
+    "percent": 100.2,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 139500.0,
-      "reached": 126740.24,
-      "missing": 12759.76,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 91.4,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 139500.0,
+      "reached": 127412.54,
+      "missing": 12087.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 91.3,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 75000.0,
-      "reached": 74453.3,
-      "missing": 546.7,
+      "reached": 74603.3,
+      "missing": 396.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.3,
+      "percent": 99.5,
       "status": "pending"
     },
     {
@@ -279,17 +279,6 @@
       "status": "ok"
     },
     {
-      "reference": "KEY CASA",
-      "seller": "KEY CASA",
-      "commitment": 420000.0,
-      "reached": 531470.9,
-      "missing": -111470.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 126.5,
-      "status": "ok"
-    },
-    {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 425000.0,
@@ -298,6 +287,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 127.6,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY CASA",
+      "seller": "KEY CASA",
+      "commitment": 420000.0,
+      "reached": 539897.9,
+      "missing": -119897.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 128.5,
       "status": "ok"
     }
   ],
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 496929.25,
-      "missing": -221477.25,
-      "percent": 180.4
+      "reached": 506178.55,
+      "missing": -230726.55,
+      "percent": 183.8
     }
   ]
 }
