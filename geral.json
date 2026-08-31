@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 08:24",
+  "lastModified": "31/08/2026 08:26",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5322145.54,
-    "missing": 462354.46,
-    "percent": 92.0,
+    "reached": 5327279.54,
+    "missing": 457220.46,
+    "percent": 92.1,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 273000.0,
-      "reached": 252628.36,
-      "missing": 20371.64,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 92.5,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 139500.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 94.6,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 273000.0,
+      "reached": 257537.36,
+      "missing": 15462.64,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 94.3,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 75000.0,
-      "reached": 67851.26,
-      "missing": 7148.74,
+      "reached": 68076.26,
+      "missing": 6923.74,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.5,
+      "percent": 90.8,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 27681.73,
-      "missing": 247770.27,
-      "percent": 10.0
+      "reached": 32815.73,
+      "missing": 242636.27,
+      "percent": 11.9
     }
   ]
 }
