@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 17:29",
+  "lastModified": "31/08/2026 17:31",
   "summary": {
     "commitment": 404000.0,
-    "reached": 243434.19,
-    "missing": 160565.81,
-    "percent": 60.3,
+    "reached": 243938.89,
+    "missing": 160061.11,
+    "percent": 60.4,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
     "weekPercent": 88.7,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -73,11 +73,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 23000.0,
-      "reached": 15605.29,
-      "missing": 7394.71,
+      "reached": 15715.19,
+      "missing": 7284.81,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 67.8,
+      "percent": 68.3,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 22000.0,
-      "reached": 21913.84,
-      "missing": 86.16,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.6,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 9000.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 101.5,
+      "status": "ok"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 22000.0,
+      "reached": 22308.64,
+      "missing": -308.64,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.4,
       "status": "ok"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 243434.19,
-      "missing": -105029.43,
-      "percent": 175.9
+      "reached": 243938.89,
+      "missing": -105534.13,
+      "percent": 176.3
     }
   ]
 }
