@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 11:08",
+  "lastModified": "31/08/2026 11:10",
   "summary": {
     "commitment": 404000.0,
-    "reached": 109489.79,
-    "missing": 294510.21,
-    "percent": 27.1,
+    "reached": 112445.6,
+    "missing": 291554.4,
+    "percent": 27.8,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -40,22 +40,22 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 37000.0,
-      "reached": 4545.97,
-      "missing": 32454.03,
+      "reached": 4925.82,
+      "missing": 32074.18,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 12.3,
+      "percent": 13.3,
       "status": "pending"
     },
     {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 36000.0,
-      "reached": 4625.85,
-      "missing": 31374.15,
+      "reached": 5153.11,
+      "missing": 30846.89,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 12.8,
+      "percent": 14.3,
       "status": "pending"
     },
     {
@@ -161,22 +161,22 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 15000.0,
-      "reached": 7801.41,
-      "missing": 7198.59,
+      "reached": 9212.91,
+      "missing": 5787.09,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 52.0,
+      "percent": 61.4,
       "status": "pending"
     },
     {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 10000.0,
-      "reached": 4101.0,
-      "missing": 5899.0,
+      "reached": 4738.2,
+      "missing": 5261.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 41.0,
+      "percent": 47.4,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 109489.79,
-      "missing": 28914.97,
-      "percent": 79.1
+      "reached": 112445.6,
+      "missing": 25959.16,
+      "percent": 81.2
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 11:08",
+  "lastModified": "31/08/2026 11:10",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5466256.7,
-    "missing": 318243.3,
-    "percent": 94.5,
+    "reached": 5470377.46,
+    "missing": 314122.54,
+    "percent": 94.6,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
     "weekPercent": 87.4,
-    "positiveCount": 6,
-    "pendingCount": 19
+    "positiveCount": 7,
+    "pendingCount": 18
   },
   "rows": [
     {
@@ -62,22 +62,22 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 147000.0,
-      "reached": 117512.94,
-      "missing": 29487.06,
+      "reached": 118040.2,
+      "missing": 28959.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.9,
+      "percent": 80.3,
       "status": "pending"
     },
     {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
-      "reached": 71556.21,
-      "missing": 28443.79,
+      "reached": 71936.06,
+      "missing": 28063.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 71.6,
+      "percent": 71.9,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 75000.0,
-      "reached": 70218.26,
-      "missing": 4781.74,
+      "reached": 70855.46,
+      "missing": 4144.54,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 93.6,
+      "percent": 94.5,
       "status": "pending"
     },
     {
@@ -188,17 +188,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 97.7,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 200000.0,
-      "reached": 198636.76,
-      "missing": 1363.24,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.3,
       "status": "pending"
     },
     {
@@ -229,6 +218,17 @@
       "commitment": 78000.0,
       "reached": 78036.33,
       "missing": -36.33,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 200000.0,
+      "reached": 200048.26,
+      "missing": -48.26,
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.0,
@@ -271,11 +271,11 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 420000.0,
-      "reached": 460207.45,
-      "missing": -40207.45,
+      "reached": 461372.4,
+      "missing": -41372.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 109.6,
+      "percent": 109.9,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 174011.39,
-      "missing": 101440.61,
-      "percent": 63.2
+      "reached": 178132.15,
+      "missing": 97319.85,
+      "percent": 64.7
     }
   ]
 }
