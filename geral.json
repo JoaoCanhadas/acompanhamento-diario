@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 13:25",
+  "lastModified": "31/08/2026 13:26",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5581822.29,
-    "missing": 202677.71,
+    "reached": 5584746.35,
+    "missing": 199753.65,
     "percent": 96.5,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
     "weekPercent": 87.4,
-    "positiveCount": 9,
-    "pendingCount": 16
+    "positiveCount": 10,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -73,11 +73,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
-      "reached": 244512.1,
-      "missing": 20487.9,
+      "reached": 244952.48,
+      "missing": 20047.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.3,
+      "percent": 92.4,
       "status": "pending"
     },
     {
@@ -128,22 +128,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 55000.0,
-      "reached": 49496.93,
-      "missing": 5503.07,
+      "reached": 49605.51,
+      "missing": 5394.49,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.0,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 273000.0,
-      "reached": 270907.4,
-      "missing": 2092.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.2,
+      "percent": 90.2,
       "status": "pending"
     },
     {
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.0,
+      "status": "ok"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 273000.0,
+      "reached": 273282.5,
+      "missing": -282.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.1,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 289576.98,
-      "missing": -14124.98,
-      "percent": 105.1
+      "reached": 292501.04,
+      "missing": -17049.04,
+      "percent": 106.2
     }
   ]
 }
