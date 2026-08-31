@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 13:37",
+  "lastModified": "31/08/2026 13:39",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5592017.6,
-    "missing": 192482.4,
+    "reached": 5595347.1,
+    "missing": 189152.9,
     "percent": 96.7,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
     "weekMissing": 173626.39,
     "weekPercent": 87.4,
-    "positiveCount": 10,
-    "pendingCount": 15
+    "positiveCount": 11,
+    "pendingCount": 14
   },
   "rows": [
     {
@@ -62,11 +62,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 100000.0,
-      "reached": 76256.08,
-      "missing": 23743.92,
+      "reached": 76915.78,
+      "missing": 23084.22,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.3,
+      "percent": 76.9,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 167000.0,
-      "reached": 165344.82,
-      "missing": 1655.18,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.0,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 242000.0,
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.4,
+      "status": "ok"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 167000.0,
+      "reached": 168014.62,
+      "missing": -1014.62,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.6,
       "status": "ok"
     },
     {
