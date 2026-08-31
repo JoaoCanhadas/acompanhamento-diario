@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "31/08/2026 17:11",
+  "lastModified": "31/08/2026 17:12",
   "summary": {
     "commitment": 404000.0,
-    "reached": 238452.59,
-    "missing": 165547.41,
-    "percent": 59.0,
+    "reached": 238972.19,
+    "missing": 165027.81,
+    "percent": 59.2,
     "weekGoal": 692023.81,
     "weekRevenue": 613916.12,
     "weekMissing": 78107.69,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 21000.0,
-      "reached": 16100.04,
-      "missing": 4899.96,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.7,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 10000.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 51.2,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 21000.0,
+      "reached": 16619.64,
+      "missing": 4380.36,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 79.1,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 138404.76,
-      "reached": 238452.59,
-      "missing": -100047.83,
-      "percent": 172.3
+      "reached": 238972.19,
+      "missing": -100567.43,
+      "percent": 172.7
     }
   ]
 }
