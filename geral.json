@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "31/08/2026 17:23",
+  "lastModified": "31/08/2026 17:25",
   "summary": {
     "commitment": 5784500.0,
-    "reached": 5967019.02,
-    "missing": -182519.02,
+    "reached": 5971263.22,
+    "missing": -186763.22,
     "percent": 103.2,
     "weekGoal": 1377262,
     "weekRevenue": 1203635.61,
@@ -180,17 +180,6 @@
       "status": "ok"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 242000.0,
-      "reached": 243205.1,
-      "missing": -1205.1,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.5,
-      "status": "ok"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 139500.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 102.6,
+      "status": "ok"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 242000.0,
+      "reached": 245050.3,
+      "missing": -3050.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.3,
       "status": "ok"
     },
     {
@@ -293,11 +293,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 425000.0,
-      "reached": 610566.77,
-      "missing": -185566.77,
+      "reached": 612965.77,
+      "missing": -187965.77,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 143.7,
+      "percent": 144.2,
       "status": "ok"
     }
   ],
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 275452,
-      "reached": 675121.31,
-      "missing": -399669.31,
-      "percent": 245.1
+      "reached": 679365.51,
+      "missing": -403913.51,
+      "percent": 246.6
     }
   ]
 }
