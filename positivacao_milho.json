@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "04/09/2026 14:10",
+  "lastModified": "04/09/2026 14:44",
   "summary": {
     "commitment": 340.0,
-    "reached": 145.0,
-    "missing": 195.0,
-    "percent": 42.6,
+    "reached": 147.0,
+    "missing": 193.0,
+    "percent": 43.2,
     "weekGoal": 81,
     "weekRevenue": 0.0,
     "weekMissing": 81.0,
@@ -84,11 +84,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 20.0,
-      "reached": 6.0,
-      "missing": 14.0,
+      "reached": 7.0,
+      "missing": 13.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.0,
+      "percent": 35.0,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.0,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 20.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 50.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 20.0,
+      "reached": 11.0,
+      "missing": 9.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.0,
       "status": "pending"
     },
     {
