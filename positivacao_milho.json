@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 09:07",
+  "lastModified": "08/09/2026 09:09",
   "summary": {
     "commitment": 340.0,
-    "reached": 156.0,
-    "missing": 184.0,
-    "percent": 45.9,
+    "reached": 158.0,
+    "missing": 182.0,
+    "percent": 46.5,
     "weekGoal": 81,
-    "weekRevenue": 9.0,
-    "weekMissing": 72.0,
-    "weekPercent": 11.1,
+    "weekRevenue": 11.0,
+    "weekMissing": 70.0,
+    "weekPercent": 13.6,
     "positiveCount": 1,
     "pendingCount": 16
   },
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 20.0,
-      "reached": 11.0,
-      "missing": 9.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 55.0,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 20.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 55.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 20.0,
+      "reached": 12.0,
+      "missing": 8.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.0,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20.0,
-      "reached": 20.0,
-      "missing": 0.0,
+      "reached": 21.0,
+      "missing": -1.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 100.0,
+      "percent": 105.0,
       "status": "ok"
     }
   ],
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 81,
-      "reached": 9.0,
-      "missing": 72.0,
-      "percent": 11.1
+      "reached": 11.0,
+      "missing": 70.0,
+      "percent": 13.6
     },
     {
       "name": "Semana 2",

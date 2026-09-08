@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "08/09/2026 09:07",
+  "lastModified": "08/09/2026 09:09",
   "summary": {
     "commitment": 300910.0,
-    "reached": 40651.66,
-    "missing": 260258.34,
-    "percent": 13.5,
+    "reached": 45594.66,
+    "missing": 255315.34,
+    "percent": 15.2,
     "weekGoal": 695119.05,
     "weekRevenue": 450016.53,
     "weekMissing": 245102.52,
@@ -23,17 +23,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 30000.0,
-      "reached": 2937.9,
-      "missing": 27062.1,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 9.8,
       "status": "pending"
     },
     {
@@ -59,14 +48,25 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 30000.0,
+      "reached": 6273.5,
+      "missing": 23726.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 20.9,
+      "status": "pending"
+    },
+    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 29000.0,
-      "reached": 6113.05,
-      "missing": 22886.95,
+      "reached": 6888.25,
+      "missing": 22111.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.1,
+      "percent": 23.8,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 6720.0,
-      "reached": 1105.7,
-      "missing": 5614.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 16.5,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 5930.0,
@@ -202,14 +191,25 @@
       "status": "pending"
     },
     {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 6720.0,
+      "reached": 1677.9,
+      "missing": 5042.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 25.0,
+      "status": "pending"
+    },
+    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 3800.0,
-      "reached": 0.0,
-      "missing": 3800.0,
+      "reached": 260.0,
+      "missing": 3540.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 6.8,
       "status": "pending"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 695119.05,
-      "reached": 40651.66,
-      "missing": 654467.39,
-      "percent": 5.8
+      "reached": 45594.66,
+      "missing": 649524.39,
+      "percent": 6.6
     },
     {
       "name": "Semana 3",
