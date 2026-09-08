@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 11:51",
+  "lastModified": "08/09/2026 11:53",
   "summary": {
     "commitment": 340.0,
-    "reached": 187.0,
-    "missing": 153.0,
-    "percent": 55.0,
+    "reached": 189.0,
+    "missing": 151.0,
+    "percent": 55.6,
     "weekGoal": 65,
-    "weekRevenue": 36.0,
-    "weekMissing": 29.0,
-    "weekPercent": 55.4,
+    "weekRevenue": 38.0,
+    "weekMissing": 27.0,
+    "weekPercent": 58.5,
     "positiveCount": 2,
     "pendingCount": 15
   },
@@ -37,19 +37,19 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
+      "reference": "MOGI",
+      "seller": "MOGI",
       "commitment": 20.0,
-      "reached": 5.0,
-      "missing": 15.0,
+      "reached": 6.0,
+      "missing": 14.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 25.0,
+      "percent": 30.0,
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
       "commitment": 20.0,
       "reached": 6.0,
       "missing": 14.0,
@@ -161,11 +161,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 20.0,
-      "reached": 15.0,
-      "missing": 5.0,
+      "reached": 16.0,
+      "missing": 4.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 75.0,
+      "percent": 80.0,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 65,
-      "reached": 36.0,
-      "missing": 29.0,
-      "percent": 55.4
+      "reached": 38.0,
+      "missing": 27.0,
+      "percent": 58.5
     },
     {
       "name": "Semana 2",
