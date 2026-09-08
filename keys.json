@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "08/09/2026 14:10",
+  "lastModified": "08/09/2026 14:11",
   "summary": {
     "commitment": 526300.0,
-    "reached": 197538.3,
-    "missing": 328761.7,
-    "percent": 37.5,
+    "reached": 196750.25,
+    "missing": 329549.75,
+    "percent": 37.4,
     "weekGoal": 568000,
     "weekRevenue": 168854.91,
     "weekMissing": 399145.09,
@@ -51,11 +51,11 @@
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 23000.0,
-      "reached": 2398.8,
-      "missing": 20601.2,
+      "reached": 0.0,
+      "missing": 23000.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 10.4,
+      "percent": 0.0,
       "status": "pending"
     },
     {
@@ -73,8 +73,8 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 0.0,
-      "reached": 28118.8,
-      "missing": -28118.8,
+      "reached": 29729.55,
+      "missing": -29729.55,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -93,9 +93,9 @@
     {
       "name": "Semana 2",
       "goal": 568000,
-      "reached": 197538.3,
-      "missing": 370461.7,
-      "percent": 34.8
+      "reached": 196750.25,
+      "missing": 371249.75,
+      "percent": 34.6
     },
     {
       "name": "Semana 3",
