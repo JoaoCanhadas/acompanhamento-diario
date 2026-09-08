@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "08/09/2026 13:28",
+  "lastModified": "08/09/2026 13:29",
   "summary": {
     "commitment": 300910.0,
-    "reached": 206234.19,
-    "missing": 94675.81,
-    "percent": 68.5,
+    "reached": 209291.99,
+    "missing": 91618.01,
+    "percent": 69.6,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 29000.0,
-      "reached": 17031.03,
-      "missing": 11968.97,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 58.7,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 26220.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 56.4,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 29000.0,
+      "reached": 17926.03,
+      "missing": 11073.97,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 61.8,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 15090.0,
-      "reached": 7620.5,
-      "missing": 7469.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.5,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 13120.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 45.4,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 15090.0,
+      "reached": 9418.4,
+      "missing": 5671.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 62.4,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 30000.0,
-      "reached": 39919.9,
-      "missing": -9919.9,
+      "reached": 40284.8,
+      "missing": -10284.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 133.1,
+      "percent": 134.3,
       "status": "ok"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 206234.19,
-      "missing": 349861.05,
-      "percent": 37.1
+      "reached": 209291.99,
+      "missing": 346803.25,
+      "percent": 37.6
     },
     {
       "name": "Semana 3",
