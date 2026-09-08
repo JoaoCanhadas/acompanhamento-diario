@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 09:04",
+  "lastModified": "08/09/2026 09:05",
   "summary": {
     "commitment": 340.0,
-    "reached": 155.0,
-    "missing": 185.0,
-    "percent": 45.6,
+    "reached": 156.0,
+    "missing": 184.0,
+    "percent": 45.9,
     "weekGoal": 81,
-    "weekRevenue": 8.0,
-    "weekMissing": 73.0,
-    "weekPercent": 9.9,
-    "positiveCount": 0,
-    "pendingCount": 17
+    "weekRevenue": 9.0,
+    "weekMissing": 72.0,
+    "weekPercent": 11.1,
+    "positiveCount": 1,
+    "pendingCount": 16
   },
   "rows": [
     {
@@ -194,12 +194,12 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20.0,
-      "reached": 19.0,
-      "missing": 1.0,
+      "reached": 20.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 95.0,
-      "status": "pending"
+      "percent": 100.0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 81,
-      "reached": 8.0,
-      "missing": 73.0,
-      "percent": 9.9
+      "reached": 9.0,
+      "missing": 72.0,
+      "percent": 11.1
     },
     {
       "name": "Semana 2",
