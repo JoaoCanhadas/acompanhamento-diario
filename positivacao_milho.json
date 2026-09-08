@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 13:44",
+  "lastModified": "08/09/2026 13:45",
   "summary": {
     "commitment": 340.0,
-    "reached": 206.0,
-    "missing": 134.0,
-    "percent": 60.6,
+    "reached": 209.0,
+    "missing": 131.0,
+    "percent": 61.5,
     "weekGoal": 65,
-    "weekRevenue": 51.0,
-    "weekMissing": 14.0,
-    "weekPercent": 78.5,
+    "weekRevenue": 53.0,
+    "weekMissing": 12.0,
+    "weekPercent": 81.5,
     "positiveCount": 3,
     "pendingCount": 14
   },
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.0,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 20.0,
@@ -103,14 +92,14 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
       "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
+      "reached": 11.0,
+      "missing": 9.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.0,
+      "percent": 55.0,
       "status": "pending"
     },
     {
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 55.0,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 20.0,
+      "reached": 12.0,
+      "missing": 8.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.0,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 65,
-      "reached": 51.0,
-      "missing": 14.0,
-      "percent": 78.5
+      "reached": 53.0,
+      "missing": 12.0,
+      "percent": 81.5
     },
     {
       "name": "Semana 2",
