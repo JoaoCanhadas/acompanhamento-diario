@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 07:25",
+  "lastModified": "08/09/2026 08:04",
   "summary": {
     "commitment": 340.0,
-    "reached": 147.0,
-    "missing": 193.0,
-    "percent": 43.2,
+    "reached": 149.0,
+    "missing": 191.0,
+    "percent": 43.8,
     "weekGoal": 81,
-    "weekRevenue": 0.0,
-    "weekMissing": 81.0,
-    "weekPercent": 0.0,
+    "weekRevenue": 2.0,
+    "weekMissing": 79.0,
+    "weekPercent": 2.5,
     "positiveCount": 0,
     "pendingCount": 17
   },
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 20.0,
-      "reached": 8.0,
-      "missing": 12.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 40.0,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 20.0,
@@ -125,14 +114,14 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
       "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
+      "reached": 9.0,
+      "missing": 11.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.0,
+      "percent": 45.0,
       "status": "pending"
     },
     {
@@ -149,6 +138,17 @@
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
+      "commitment": 20.0,
+      "reached": 11.0,
+      "missing": 9.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.0,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
       "commitment": 20.0,
       "reached": 11.0,
       "missing": 9.0,
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 81,
-      "reached": 0.0,
-      "missing": 81.0,
-      "percent": 0.0
+      "reached": 2.0,
+      "missing": 79.0,
+      "percent": 2.5
     },
     {
       "name": "Semana 2",
