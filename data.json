@@ -3,9 +3,9 @@
   "lastModified": "08/09/2026 13:53",
   "summary": {
     "commitment": 300910.0,
-    "reached": 241666.16,
-    "missing": 59243.84,
-    "percent": 80.3,
+    "reached": 244055.96,
+    "missing": 56854.04,
+    "percent": 81.1,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 24240.0,
-      "reached": 19096.19,
-      "missing": 5143.81,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 78.8,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 13120.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 64.3,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 24240.0,
+      "reached": 20486.49,
+      "missing": 3753.51,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 84.5,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 30000.0,
-      "reached": 41284.3,
-      "missing": -11284.3,
+      "reached": 42283.8,
+      "missing": -12283.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 137.6,
+      "percent": 140.9,
       "status": "ok"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 241666.16,
-      "missing": 314429.08,
-      "percent": 43.5
+      "reached": 244055.96,
+      "missing": 312039.28,
+      "percent": 43.9
     },
     {
       "name": "Semana 3",
