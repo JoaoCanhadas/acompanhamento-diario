@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "08/09/2026 14:16",
+  "lastModified": "08/09/2026 14:17",
   "summary": {
     "commitment": 300910.0,
-    "reached": 254142.22,
-    "missing": 46767.78,
-    "percent": 84.5,
+    "reached": 255864.68,
+    "missing": 45045.32,
+    "percent": 85.0,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
     "weekPercent": 80.9,
-    "positiveCount": 5,
-    "pendingCount": 13
+    "positiveCount": 6,
+    "pendingCount": 12
   },
   "rows": [
     {
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 26220.0,
-      "reached": 17401.21,
-      "missing": 8818.79,
+      "reached": 18724.11,
+      "missing": 7495.89,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 66.4,
+      "percent": 71.4,
       "status": "pending"
     },
     {
@@ -150,12 +150,12 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 24240.0,
-      "reached": 23911.12,
-      "missing": 328.88,
+      "reached": 24310.68,
+      "missing": -70.68,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 98.6,
-      "status": "pending"
+      "percent": 100.3,
+      "status": "ok"
     },
     {
       "reference": "SJC/VALE",
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 254142.21,
-      "missing": 301953.03,
-      "percent": 45.7
+      "reached": 255864.67,
+      "missing": 300230.57,
+      "percent": 46.0
     },
     {
       "name": "Semana 3",
