@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 09:44",
+  "lastModified": "08/09/2026 09:45",
   "summary": {
     "commitment": 340.0,
-    "reached": 163.0,
-    "missing": 177.0,
-    "percent": 47.9,
+    "reached": 165.0,
+    "missing": 175.0,
+    "percent": 48.5,
     "weekGoal": 81,
-    "weekRevenue": 16.0,
-    "weekMissing": 65.0,
-    "weekPercent": 19.8,
+    "weekRevenue": 17.0,
+    "weekMissing": 64.0,
+    "weekPercent": 21.0,
     "positiveCount": 1,
     "pendingCount": 16
   },
@@ -136,28 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 20.0,
-      "reached": 11.0,
-      "missing": 9.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 55.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 20.0,
-      "reached": 12.0,
-      "missing": 8.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 60.0,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 20.0,
@@ -166,6 +144,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 60.0,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 20.0,
+      "reached": 12.0,
+      "missing": 8.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 20.0,
+      "reached": 13.0,
+      "missing": 7.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.0,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 81,
-      "reached": 16.0,
-      "missing": 65.0,
-      "percent": 19.8
+      "reached": 17.0,
+      "missing": 64.0,
+      "percent": 21.0
     },
     {
       "name": "Semana 2",
