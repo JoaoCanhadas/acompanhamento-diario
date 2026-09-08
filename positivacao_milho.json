@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 09:14",
+  "lastModified": "08/09/2026 09:15",
   "summary": {
     "commitment": 340.0,
-    "reached": 160.0,
-    "missing": 180.0,
-    "percent": 47.1,
+    "reached": 162.0,
+    "missing": 178.0,
+    "percent": 47.6,
     "weekGoal": 81,
-    "weekRevenue": 13.0,
-    "weekMissing": 68.0,
-    "weekPercent": 16.0,
+    "weekRevenue": 15.0,
+    "weekMissing": 66.0,
+    "weekPercent": 18.5,
     "positiveCount": 1,
     "pendingCount": 16
   },
@@ -23,17 +23,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 15.0,
-      "status": "pending"
-    },
-    {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 20.0,
-      "reached": 4.0,
-      "missing": 16.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 20.0,
       "status": "pending"
     },
     {
@@ -70,6 +59,17 @@
       "status": "pending"
     },
     {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 20.0,
+      "reached": 5.0,
+      "missing": 15.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 25.0,
+      "status": "pending"
+    },
+    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 20.0,
@@ -89,17 +89,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 35.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.0,
       "status": "pending"
     },
     {
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 50.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 20.0,
+      "reached": 11.0,
+      "missing": 9.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.0,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 81,
-      "reached": 13.0,
-      "missing": 68.0,
-      "percent": 16.0
+      "reached": 15.0,
+      "missing": 66.0,
+      "percent": 18.5
     },
     {
       "name": "Semana 2",
