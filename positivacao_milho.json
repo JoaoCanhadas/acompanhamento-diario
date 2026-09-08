@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 14:08",
+  "lastModified": "08/09/2026 14:09",
   "summary": {
     "commitment": 340.0,
-    "reached": 211.0,
-    "missing": 129.0,
-    "percent": 62.1,
+    "reached": 212.0,
+    "missing": 128.0,
+    "percent": 62.4,
     "weekGoal": 65,
     "weekRevenue": 55.0,
     "weekMissing": 10.0,
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.0,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 20.0,
@@ -105,6 +94,17 @@
     {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
+      "commitment": 20.0,
+      "reached": 11.0,
+      "missing": 9.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.0,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
       "commitment": 20.0,
       "reached": 11.0,
       "missing": 9.0,
