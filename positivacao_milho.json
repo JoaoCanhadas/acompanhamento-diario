@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 09:11",
+  "lastModified": "08/09/2026 09:13",
   "summary": {
     "commitment": 340.0,
-    "reached": 158.0,
-    "missing": 182.0,
-    "percent": 46.5,
+    "reached": 160.0,
+    "missing": 180.0,
+    "percent": 47.1,
     "weekGoal": 81,
-    "weekRevenue": 11.0,
-    "weekMissing": 70.0,
-    "weekPercent": 13.6,
+    "weekRevenue": 13.0,
+    "weekMissing": 68.0,
+    "weekPercent": 16.0,
     "positiveCount": 1,
     "pendingCount": 16
   },
@@ -95,22 +95,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 20.0,
-      "reached": 9.0,
-      "missing": 11.0,
+      "reached": 10.0,
+      "missing": 10.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 45.0,
-      "status": "pending"
-    },
-    {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 20.0,
-      "reached": 9.0,
-      "missing": 11.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 45.0,
+      "percent": 50.0,
       "status": "pending"
     },
     {
@@ -127,6 +116,17 @@
     {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
+      "commitment": 20.0,
+      "reached": 10.0,
+      "missing": 10.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.0,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
       "commitment": 20.0,
       "reached": 10.0,
       "missing": 10.0,
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 81,
-      "reached": 11.0,
-      "missing": 70.0,
-      "percent": 13.6
+      "reached": 13.0,
+      "missing": 68.0,
+      "percent": 16.0
     },
     {
       "name": "Semana 2",
