@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "08/09/2026 11:11",
+  "lastModified": "08/09/2026 11:13",
   "summary": {
     "commitment": 340.0,
-    "reached": 177.0,
-    "missing": 163.0,
-    "percent": 52.1,
+    "reached": 178.0,
+    "missing": 162.0,
+    "percent": 52.4,
     "weekGoal": 65,
-    "weekRevenue": 29.0,
-    "weekMissing": 36.0,
-    "weekPercent": 44.6,
+    "weekRevenue": 30.0,
+    "weekMissing": 35.0,
+    "weekPercent": 46.2,
     "positiveCount": 2,
     "pendingCount": 15
   },
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 20.0,
-      "reached": 14.0,
-      "missing": 6.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 70.0,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 20.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 20.0,
+      "reached": 15.0,
+      "missing": 5.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 75.0,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 65,
-      "reached": 29.0,
-      "missing": 36.0,
-      "percent": 44.6
+      "reached": 30.0,
+      "missing": 35.0,
+      "percent": 46.2
     },
     {
       "name": "Semana 2",

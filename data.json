@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "08/09/2026 11:11",
+  "lastModified": "08/09/2026 11:13",
   "summary": {
     "commitment": 300910.0,
-    "reached": 103971.69,
-    "missing": 196938.31,
-    "percent": 34.6,
+    "reached": 111240.19,
+    "missing": 189669.81,
+    "percent": 37.0,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -40,11 +40,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 29000.0,
-      "reached": 7250.85,
-      "missing": 21749.15,
+      "reached": 8346.15,
+      "missing": 20653.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 25.0,
+      "percent": 28.8,
       "status": "pending"
     },
     {
@@ -95,22 +95,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 30000.0,
-      "reached": 17686.7,
-      "missing": 12313.3,
+      "reached": 20158.4,
+      "missing": 9841.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 59.0,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 15090.0,
-      "reached": 3919.0,
-      "missing": 11171.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 26.0,
+      "percent": 67.2,
       "status": "pending"
     },
     {
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 31.9,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 15090.0,
+      "reached": 7620.5,
+      "missing": 7469.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.5,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 103971.69,
-      "missing": 452123.55,
-      "percent": 18.7
+      "reached": 111240.19,
+      "missing": 444855.05,
+      "percent": 20.0
     },
     {
       "name": "Semana 3",
