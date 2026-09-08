@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "08/09/2026 08:19",
+  "lastModified": "08/09/2026 08:20",
   "summary": {
     "commitment": 300910.0,
-    "reached": 14529.93,
-    "missing": 286380.07,
-    "percent": 4.8,
+    "reached": 19119.73,
+    "missing": 281790.27,
+    "percent": 6.4,
     "weekGoal": 695119.05,
     "weekRevenue": 450016.53,
     "weekMissing": 245102.52,
@@ -62,11 +62,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 26220.0,
-      "reached": 1694.8,
-      "missing": 24525.2,
+      "reached": 1952.1,
+      "missing": 24267.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 6.5,
+      "percent": 7.4,
       "status": "pending"
     },
     {
@@ -78,17 +78,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.9,
-      "status": "pending"
-    },
-    {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 20150.0,
-      "reached": 3064.15,
-      "missing": 17085.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 15.2,
       "status": "pending"
     },
     {
@@ -114,6 +103,17 @@
       "status": "pending"
     },
     {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 20150.0,
+      "reached": 6303.25,
+      "missing": 13846.75,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.3,
+      "status": "pending"
+    },
+    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 13120.0,
@@ -128,11 +128,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 15090.0,
-      "reached": 2825.6,
-      "missing": 12264.4,
+      "reached": 3919.0,
+      "missing": 11171.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 18.7,
+      "percent": 26.0,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 695119.05,
-      "reached": 14529.93,
-      "missing": 680589.12,
-      "percent": 2.1
+      "reached": 19119.73,
+      "missing": 675999.32,
+      "percent": 2.8
     },
     {
       "name": "Semana 3",
