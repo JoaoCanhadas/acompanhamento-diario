@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "09/09/2026 11:38",
+  "lastModified": "09/09/2026 11:39",
   "summary": {
     "commitment": 200170.0,
-    "reached": 91580.48,
-    "missing": 108589.52,
-    "percent": 45.8,
+    "reached": 92237.84,
+    "missing": 107932.16,
+    "percent": 46.1,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20000.0,
-      "reached": 8541.39,
-      "missing": 11458.61,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.7,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15960.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 29.2,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20000.0,
+      "reached": 8894.79,
+      "missing": 11105.21,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 44.5,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 15000.0,
-      "reached": 8939.8,
-      "missing": 6060.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 59.6,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 8120.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 28.9,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 15000.0,
+      "reached": 9243.76,
+      "missing": 5756.24,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 61.6,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 355120.56,
-      "missing": 200974.68,
-      "percent": 63.9
+      "reached": 355777.92,
+      "missing": 200317.32,
+      "percent": 64.0
     },
     {
       "name": "Semana 3",
