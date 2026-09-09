@@ -3,13 +3,13 @@
   "lastModified": "09/09/2026 07:57",
   "summary": {
     "commitment": 340.0,
-    "reached": 216.0,
-    "missing": 124.0,
-    "percent": 63.5,
+    "reached": 218.0,
+    "missing": 122.0,
+    "percent": 64.1,
     "weekGoal": 65,
-    "weekRevenue": 59.0,
-    "weekMissing": 6.0,
-    "weekPercent": 90.8,
+    "weekRevenue": 60.0,
+    "weekMissing": 5.0,
+    "weekPercent": 92.3,
     "positiveCount": 3,
     "pendingCount": 14
   },
@@ -17,17 +17,6 @@
     {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
-      "commitment": 20.0,
-      "reached": 5.0,
-      "missing": 15.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 25.0,
-      "status": "pending"
-    },
-    {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
       "commitment": 20.0,
       "reached": 5.0,
       "missing": 15.0,
@@ -50,6 +39,17 @@
     {
       "reference": "MOGI",
       "seller": "MOGI",
+      "commitment": 20.0,
+      "reached": 6.0,
+      "missing": 14.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 30.0,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
       "commitment": 20.0,
       "reached": 6.0,
       "missing": 14.0,
@@ -95,11 +95,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 20.0,
-      "reached": 11.0,
-      "missing": 9.0,
+      "reached": 12.0,
+      "missing": 8.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.0,
+      "percent": 60.0,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 65,
-      "reached": 59.0,
-      "missing": 6.0,
-      "percent": 90.8
+      "reached": 60.0,
+      "missing": 5.0,
+      "percent": 92.3
     },
     {
       "name": "Semana 2",
