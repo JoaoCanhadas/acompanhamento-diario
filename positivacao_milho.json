@@ -1,30 +1,19 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "09/09/2026 13:52",
+  "lastModified": "09/09/2026 13:53",
   "summary": {
     "commitment": 340.0,
-    "reached": 254.0,
-    "missing": 86.0,
-    "percent": 74.7,
+    "reached": 256.0,
+    "missing": 84.0,
+    "percent": 75.3,
     "weekGoal": 65,
-    "weekRevenue": 83.0,
-    "weekMissing": -18.0,
-    "weekPercent": 127.7,
+    "weekRevenue": 84.0,
+    "weekMissing": -19.0,
+    "weekPercent": 129.2,
     "positiveCount": 5,
     "pendingCount": 12
   },
   "rows": [
-    {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 20.0,
-      "reached": 7.0,
-      "missing": 13.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 35.0,
-      "status": "pending"
-    },
     {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 35.0,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 20.0,
+      "reached": 8.0,
+      "missing": 12.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 40.0,
       "status": "pending"
     },
     {
@@ -73,11 +73,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
+      "reached": 11.0,
+      "missing": 9.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.0,
+      "percent": 55.0,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 65,
-      "reached": 83.0,
-      "missing": -18.0,
-      "percent": 127.7
+      "reached": 84.0,
+      "missing": -19.0,
+      "percent": 129.2
     },
     {
       "name": "Semana 2",
