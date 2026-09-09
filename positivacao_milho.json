@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "09/09/2026 11:28",
+  "lastModified": "09/09/2026 11:29",
   "summary": {
     "commitment": 340.0,
-    "reached": 233.0,
-    "missing": 107.0,
-    "percent": 68.5,
+    "reached": 236.0,
+    "missing": 104.0,
+    "percent": 69.4,
     "weekGoal": 65,
-    "weekRevenue": 73.0,
-    "weekMissing": -8.0,
-    "weekPercent": 112.3,
-    "positiveCount": 3,
-    "pendingCount": 14
+    "weekRevenue": 76.0,
+    "weekMissing": -11.0,
+    "weekPercent": 116.9,
+    "positiveCount": 4,
+    "pendingCount": 13
   },
   "rows": [
     {
@@ -84,11 +84,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 20.0,
-      "reached": 11.0,
-      "missing": 9.0,
+      "reached": 12.0,
+      "missing": 8.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.0,
+      "percent": 60.0,
       "status": "pending"
     },
     {
@@ -161,22 +161,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 20.0,
-      "reached": 19.0,
-      "missing": 1.0,
+      "reached": 20.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 95.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 20.0,
-      "reached": 23.0,
-      "missing": -3.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 115.0,
+      "percent": 100.0,
       "status": "ok"
     },
     {
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 115.0,
+      "status": "ok"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 20.0,
+      "reached": 24.0,
+      "missing": -4.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 120.0,
       "status": "ok"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 65,
-      "reached": 73.0,
-      "missing": -8.0,
-      "percent": 112.3
+      "reached": 76.0,
+      "missing": -11.0,
+      "percent": 116.9
     },
     {
       "name": "Semana 2",
