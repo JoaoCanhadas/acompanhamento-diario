@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "09/09/2026 11:44",
+  "lastModified": "09/09/2026 11:45",
   "summary": {
     "commitment": 200170.0,
-    "reached": 92237.84,
-    "missing": 107932.16,
-    "percent": 46.1,
+    "reached": 100320.34,
+    "missing": 99849.66,
+    "percent": 50.1,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
     "weekPercent": 80.9,
-    "positiveCount": 0,
-    "pendingCount": 18
+    "positiveCount": 1,
+    "pendingCount": 17
   },
   "rows": [
     {
@@ -34,17 +34,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 29.2,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20000.0,
-      "reached": 8894.79,
-      "missing": 11105.21,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.5,
       "status": "pending"
     },
     {
@@ -103,6 +92,17 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20000.0,
+      "reached": 13883.59,
+      "missing": 6116.41,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 69.4,
+      "status": "pending"
+    },
+    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 8120.0,
@@ -111,17 +111,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 28.9,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 15000.0,
-      "reached": 9243.76,
-      "missing": 5756.24,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 61.6,
       "status": "pending"
     },
     {
@@ -147,14 +136,14 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 5550.0,
-      "reached": 2297.1,
-      "missing": 3252.9,
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 15000.0,
+      "reached": 11711.16,
+      "missing": 3288.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 41.4,
+      "percent": 78.1,
       "status": "pending"
     },
     {
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 2.4,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 5550.0,
+      "reached": 2601.5,
+      "missing": 2948.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 46.9,
       "status": "pending"
     },
     {
@@ -205,12 +205,12 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 5170.0,
-      "reached": 5147.28,
-      "missing": 22.72,
+      "reached": 5469.18,
+      "missing": -299.18,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.6,
-      "status": "pending"
+      "percent": 105.8,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 355777.92,
-      "missing": 200317.32,
-      "percent": 64.0
+      "reached": 363860.42,
+      "missing": 192234.82,
+      "percent": 65.4
     },
     {
       "name": "Semana 3",
