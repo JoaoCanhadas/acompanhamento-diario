@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "09/09/2026 11:32",
+  "lastModified": "09/09/2026 11:33",
   "summary": {
     "commitment": 200170.0,
-    "reached": 88433.92,
-    "missing": 111736.08,
-    "percent": 44.2,
+    "reached": 88961.73,
+    "missing": 111208.27,
+    "percent": 44.4,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -18,11 +18,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 15830.0,
-      "reached": 2648.8,
-      "missing": 13181.2,
+      "reached": 2772.64,
+      "missing": 13057.36,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.7,
+      "percent": 17.5,
       "status": "pending"
     },
     {
@@ -51,11 +51,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 17130.0,
-      "reached": 6044.7,
-      "missing": 11085.3,
+      "reached": 6165.5,
+      "missing": 10964.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 35.3,
+      "percent": 36.0,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 9890.0,
-      "reached": 8880.24,
-      "missing": 1009.76,
+      "reached": 9163.41,
+      "missing": 726.59,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.8,
+      "percent": 92.7,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 351974.0,
-      "missing": 204121.24,
-      "percent": 63.3
+      "reached": 352501.81,
+      "missing": 203593.43,
+      "percent": 63.4
     },
     {
       "name": "Semana 3",
