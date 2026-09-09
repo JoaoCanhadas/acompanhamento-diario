@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "09/09/2026 08:16",
+  "lastModified": "09/09/2026 08:17",
   "summary": {
     "commitment": 340.0,
-    "reached": 220.0,
-    "missing": 120.0,
-    "percent": 64.7,
+    "reached": 222.0,
+    "missing": 118.0,
+    "percent": 65.3,
     "weekGoal": 65,
-    "weekRevenue": 62.0,
-    "weekMissing": 3.0,
-    "weekPercent": 95.4,
+    "weekRevenue": 64.0,
+    "weekMissing": 1.0,
+    "weekPercent": 98.5,
     "positiveCount": 3,
     "pendingCount": 14
   },
@@ -59,19 +59,19 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
+      "reference": "LESTE",
+      "seller": "LESTE",
       "commitment": 20.0,
-      "reached": 8.0,
-      "missing": 12.0,
+      "reached": 9.0,
+      "missing": 11.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 40.0,
+      "percent": 45.0,
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
       "commitment": 20.0,
       "reached": 9.0,
       "missing": 11.0,
@@ -136,19 +136,19 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
       "commitment": 20.0,
-      "reached": 14.0,
-      "missing": 6.0,
+      "reached": 15.0,
+      "missing": 5.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 70.0,
+      "percent": 75.0,
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
       "commitment": 20.0,
       "reached": 15.0,
       "missing": 5.0,
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 65,
-      "reached": 62.0,
-      "missing": 3.0,
-      "percent": 95.4
+      "reached": 64.0,
+      "missing": 1.0,
+      "percent": 98.5
     },
     {
       "name": "Semana 2",
