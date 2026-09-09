@@ -3,9 +3,9 @@
   "lastModified": "09/09/2026 13:09",
   "summary": {
     "commitment": 200170.0,
-    "reached": 116982.28,
-    "missing": 83187.72,
-    "percent": 58.4,
+    "reached": 118012.4,
+    "missing": 82157.6,
+    "percent": 59.0,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 16670.0,
-      "reached": 10594.77,
-      "missing": 6075.23,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 63.6,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 8120.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 28.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 16670.0,
+      "reached": 11285.99,
+      "missing": 5384.01,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 67.7,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2800.0,
-      "reached": 1328.37,
-      "missing": 1471.63,
+      "reached": 1667.27,
+      "missing": 1132.73,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 47.4,
+      "percent": 59.5,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 380522.36,
-      "missing": 175572.88,
-      "percent": 68.4
+      "reached": 381552.48,
+      "missing": 174542.76,
+      "percent": 68.6
     },
     {
       "name": "Semana 3",
