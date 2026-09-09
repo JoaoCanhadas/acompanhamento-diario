@@ -3,9 +3,9 @@
   "lastModified": "09/09/2026 13:48",
   "summary": {
     "commitment": 200170.0,
-    "reached": 135180.82,
-    "missing": 64989.18,
-    "percent": 67.5,
+    "reached": 136107.31,
+    "missing": 64062.69,
+    "percent": 68.0,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -29,11 +29,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 15830.0,
-      "reached": 8162.97,
-      "missing": 7667.03,
+      "reached": 8322.87,
+      "missing": 7507.13,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 51.6,
+      "percent": 52.6,
       "status": "pending"
     },
     {
@@ -136,25 +136,25 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 13760.0,
-      "reached": 11554.4,
-      "missing": 2205.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 84.0,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 5120.0,
-      "reached": 3038.59,
-      "missing": 2081.41,
+      "reached": 3314.48,
+      "missing": 1805.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 59.3,
+      "percent": 64.7,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 13760.0,
+      "reached": 12045.1,
+      "missing": 1714.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 87.5,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 398720.9,
-      "missing": 157374.34,
-      "percent": 71.7
+      "reached": 399647.39,
+      "missing": 156447.85,
+      "percent": 71.9
     },
     {
       "name": "Semana 3",
