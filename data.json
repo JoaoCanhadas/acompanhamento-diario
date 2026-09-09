@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "09/09/2026 13:32",
+  "lastModified": "09/09/2026 13:33",
   "summary": {
     "commitment": 200170.0,
-    "reached": 127843.84,
-    "missing": 72326.16,
-    "percent": 63.9,
+    "reached": 132822.37,
+    "missing": 67347.63,
+    "percent": 66.4,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -15,25 +15,25 @@
   },
   "rows": [
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 17130.0,
-      "reached": 7184.5,
-      "missing": 9945.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 41.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 15830.0,
-      "reached": 6936.17,
-      "missing": 8893.83,
+      "reached": 7406.17,
+      "missing": 8423.83,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 43.8,
+      "percent": 46.8,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 17130.0,
+      "reached": 9069.13,
+      "missing": 8060.87,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.9,
       "status": "pending"
     },
     {
@@ -45,17 +45,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 29.9,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 12950.0,
-      "reached": 6670.82,
-      "missing": 6279.18,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 51.5,
       "status": "pending"
     },
     {
@@ -114,6 +103,17 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 12950.0,
+      "reached": 9154.82,
+      "missing": 3795.18,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.7,
+      "status": "pending"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 3060.0,
@@ -150,11 +150,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 5120.0,
-      "reached": 2699.79,
-      "missing": 2420.21,
+      "reached": 2839.69,
+      "missing": 2280.31,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 52.7,
+      "percent": 55.5,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 391383.92,
-      "missing": 164711.32,
-      "percent": 70.4
+      "reached": 396362.45,
+      "missing": 159732.79,
+      "percent": 71.3
     },
     {
       "name": "Semana 3",
