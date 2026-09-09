@@ -3,9 +3,9 @@
   "lastModified": "09/09/2026 12:49",
   "summary": {
     "commitment": 200170.0,
-    "reached": 114789.68,
-    "missing": 85380.32,
-    "percent": 57.3,
+    "reached": 114974.68,
+    "missing": 85195.32,
+    "percent": 57.4,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 15960.0,
-      "reached": 9592.6,
-      "missing": 6367.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 60.1,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 12950.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 62.4,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 15960.0,
+      "reached": 9777.6,
+      "missing": 6182.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 61.3,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 378329.76,
-      "missing": 177765.48,
-      "percent": 68.0
+      "reached": 378514.76,
+      "missing": 177580.48,
+      "percent": 68.1
     },
     {
       "name": "Semana 3",
