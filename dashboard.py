@@ -3171,7 +3171,7 @@ def read_positivacao_milho_planilha1_data(excel_path, workbook):
 
     title_col = find_block_start_any(
         sheet,
-        ("POSITIVACAO MILHO", "POSITIVACAO BRIOCHE")
+        ("POSITIVACAO MILHO", "POSITIVACAO PAO DA FAZENDA")
     )
 
     reference_col = title_col - 1
