@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "10/09/2026 11:02",
+  "lastModified": "10/09/2026 11:03",
   "summary": {
     "commitment": 340.0,
-    "reached": 271.0,
-    "missing": 69.0,
-    "percent": 79.7,
+    "reached": 272.0,
+    "missing": 68.0,
+    "percent": 80.0,
     "weekGoal": 65,
     "weekRevenue": 97.0,
     "weekMissing": -32.0,
@@ -147,8 +147,8 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
       "commitment": 20.0,
       "reached": 22.0,
       "missing": -2.0,
@@ -158,14 +158,14 @@
       "status": "ok"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
+      "reference": "SBC",
+      "seller": "SBC",
       "commitment": 20.0,
-      "reached": 22.0,
-      "missing": -2.0,
+      "reached": 23.0,
+      "missing": -3.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 110.0,
+      "percent": 115.0,
       "status": "ok"
     },
     {
