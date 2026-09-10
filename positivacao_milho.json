@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "10/09/2026 13:42",
+  "lastModified": "10/09/2026 13:44",
   "summary": {
     "commitment": 340.0,
-    "reached": 209.0,
-    "missing": 131.0,
-    "percent": 61.5,
+    "reached": 210.0,
+    "missing": 130.0,
+    "percent": 61.8,
     "weekGoal": 65,
     "weekRevenue": 58.0,
     "weekMissing": 7.0,
     "weekPercent": 89.2,
-    "positiveCount": 1,
-    "pendingCount": 16
+    "positiveCount": 2,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -183,12 +183,12 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 20.0,
-      "reached": 19.0,
-      "missing": 1.0,
+      "reached": 20.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 95.0,
-      "status": "pending"
+      "percent": 100.0,
+      "status": "ok"
     },
     {
       "reference": "INTERLAGOS",
