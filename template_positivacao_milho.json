@@ -1,15 +1,15 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "10/09/2026 13:11",
+  "lastModified": "10/09/2026 14:20",
   "summary": {
     "commitment": 340.0,
-    "reached": 201.0,
-    "missing": 139.0,
-    "percent": 59.1,
+    "reached": 211.0,
+    "missing": 129.0,
+    "percent": 62.1,
     "weekGoal": 64.76,
-    "weekRevenue": 149.0,
-    "weekMissing": -84.24,
-    "weekPercent": 230.1,
+    "weekRevenue": 153.0,
+    "weekMissing": -88.24,
+    "weekPercent": 236.3,
     "positiveCount": 2,
     "pendingCount": 15
   },
@@ -34,17 +34,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 30.0,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 20.0,
-      "reached": 8.0,
-      "missing": 12.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 40.0,
       "status": "pending"
     },
     {
@@ -81,8 +70,8 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
       "commitment": 20.0,
       "reached": 9.0,
       "missing": 11.0,
@@ -92,30 +81,19 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 20.0,
+      "reached": 10.0,
+      "missing": 10.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.0,
+      "status": "pending"
+    },
+    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
-      "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.0,
-      "status": "pending"
-    },
-    {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 20.0,
-      "reached": 10.0,
-      "missing": 10.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 50.0,
-      "status": "pending"
-    },
-    {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
       "commitment": 20.0,
       "reached": 10.0,
       "missing": 10.0,
@@ -136,25 +114,36 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
+      "reference": "SJC/VALE",
+      "seller": "VALE",
       "commitment": 20.0,
-      "reached": 13.0,
-      "missing": 7.0,
+      "reached": 11.0,
+      "missing": 9.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 65.0,
+      "percent": 55.0,
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
       "commitment": 20.0,
-      "reached": 16.0,
-      "missing": 4.0,
+      "reached": 12.0,
+      "missing": 8.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.0,
+      "percent": 60.0,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 20.0,
+      "reached": 14.0,
+      "missing": 6.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.0,
       "status": "pending"
     },
     {
@@ -169,14 +158,25 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
+      "reference": "SBC",
+      "seller": "SBC",
       "commitment": 20.0,
       "reached": 18.0,
       "missing": 2.0,
       "average": 0.0,
       "difference": 0.0,
       "percent": 90.0,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20.0,
+      "reached": 19.0,
+      "missing": 1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 95.0,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 20.0,
-      "reached": 24.0,
-      "missing": -4.0,
+      "reached": 25.0,
+      "missing": -5.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 120.0,
+      "percent": 125.0,
       "status": "ok"
     }
   ],
@@ -207,16 +207,16 @@
     {
       "name": "Semana 1",
       "goal": 64.76,
-      "reached": 149.0,
-      "missing": -84.24,
-      "percent": 230.1
+      "reached": 153.0,
+      "missing": -88.24,
+      "percent": 236.3
     },
     {
       "name": "Semana 2",
       "goal": 64.76,
-      "reached": 52.0,
-      "missing": 12.76,
-      "percent": 80.3
+      "reached": 58.0,
+      "missing": 6.76,
+      "percent": 89.6
     },
     {
       "name": "Semana 3",
