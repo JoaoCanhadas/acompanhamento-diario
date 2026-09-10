@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "10/09/2026 09:41",
+  "lastModified": "10/09/2026 09:42",
   "summary": {
     "commitment": 150140.0,
-    "reached": 18250.59,
-    "missing": 131889.41,
-    "percent": 12.2,
+    "reached": 19138.25,
+    "missing": 131001.75,
+    "percent": 12.7,
     "weekGoal": 556095.24,
     "weekRevenue": 450016.53,
     "weekMissing": 106078.71,
@@ -73,11 +73,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 8680.0,
-      "reached": 1341.7,
-      "missing": 7338.3,
+      "reached": 1641.7,
+      "missing": 7038.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.5,
+      "percent": 18.9,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 2800.0,
-      "reached": 275.8,
-      "missing": 2524.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 9.8,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 3250.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 33.2,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 2800.0,
+      "reached": 863.46,
+      "missing": 1936.54,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 30.8,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 426676.09,
-      "missing": 129419.15,
-      "percent": 76.7
+      "reached": 427563.75,
+      "missing": 128531.49,
+      "percent": 76.9
     },
     {
       "name": "Semana 3",
