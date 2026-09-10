@@ -343,7 +343,7 @@ def query_premiacao_positivacao():
         FROM {view_name}
         WHERE {date_expr} >= ?
           AND {date_expr} < ?
-          AND UPPER(PRODUTO) LIKE '%BRIOCHE%'
+          AND UPPER(PRODUTO) LIKE '%PAO DA FAZENDA%'
           AND UPPER(PRODUTO) NOT LIKE '%CONCENTRADO%'
         GROUP BY {select_name}
     """
