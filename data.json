@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "10/09/2026 14:47",
+  "lastModified": "10/09/2026 14:48",
   "summary": {
     "commitment": 150140.0,
-    "reached": 117378.26,
-    "missing": 32761.74,
-    "percent": 78.2,
+    "reached": 117523.16,
+    "missing": 32616.84,
+    "percent": 78.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448263.93,
     "weekMissing": 107831.31,
@@ -180,6 +180,17 @@
       "status": "pending"
     },
     {
+      "reference": "",
+      "seller": "ECOMMERCE",
+      "commitment": 0.0,
+      "reached": 144.9,
+      "missing": -144.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 2800.0,
@@ -225,8 +236,8 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 525803.76,
-      "missing": 30291.48,
+      "reached": 525948.66,
+      "missing": 30146.58,
       "percent": 94.6
     },
     {
