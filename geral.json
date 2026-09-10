@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "10/09/2026 09:56",
+  "lastModified": "10/09/2026 09:57",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 1588745.68,
-    "missing": 4313754.32,
-    "percent": 26.9,
+    "reached": 1592529.46,
+    "missing": 4309970.54,
+    "percent": 27.0,
     "weekGoal": 1124286,
     "weekRevenue": 617528.64,
     "weekMissing": 506757.36,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 326500.0,
-      "reached": 100797.01,
-      "missing": 225702.99,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 30.9,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 340000.0,
@@ -92,14 +81,25 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 326500.0,
+      "reached": 102968.24,
+      "missing": 223531.76,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.5,
+      "status": "pending"
+    },
+    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 276000.0,
-      "reached": 71828.38,
-      "missing": 204171.62,
+      "reached": 73291.03,
+      "missing": 202708.97,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 26.0,
+      "percent": 26.6,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 35418.27,
-      "missing": 106581.73,
+      "reached": 35568.17,
+      "missing": 106431.83,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 24.9,
+      "percent": 25.0,
       "status": "pending"
     },
     {
@@ -313,9 +313,9 @@
     {
       "name": "Semana 2",
       "goal": 1124286,
-      "reached": 971217.05,
-      "missing": 153068.95,
-      "percent": 86.4
+      "reached": 975000.83,
+      "missing": 149285.17,
+      "percent": 86.7
     },
     {
       "name": "Semana 3",
