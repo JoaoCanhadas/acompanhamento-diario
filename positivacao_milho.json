@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "10/09/2026 14:20",
+  "lastModified": "10/09/2026 14:21",
   "summary": {
     "commitment": 340.0,
     "reached": 211.0,
@@ -103,8 +103,8 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
       "commitment": 20.0,
       "reached": 11.0,
       "missing": 9.0,
@@ -114,8 +114,8 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
+      "reference": "SJC/VALE",
+      "seller": "VALE",
       "commitment": 20.0,
       "reached": 11.0,
       "missing": 9.0,
@@ -147,8 +147,8 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
       "commitment": 20.0,
       "reached": 18.0,
       "missing": 2.0,
@@ -158,8 +158,8 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
+      "reference": "SBC",
+      "seller": "SBC",
       "commitment": 20.0,
       "reached": 18.0,
       "missing": 2.0,
