@@ -2242,7 +2242,7 @@ function startAutoRotate() {
 
 loadData();
 setInterval(loadData, 30000);
-// startAutoRotate(); // transição automática temporariamente desativada
+startAutoRotate();
   </script>
 </body>
 </html>
