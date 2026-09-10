@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "10/09/2026 13:33",
+  "lastModified": "10/09/2026 13:34",
   "summary": {
     "commitment": 150140.0,
-    "reached": 102038.16,
-    "missing": 48101.84,
-    "percent": 68.0,
+    "reached": 104509.51,
+    "missing": 45630.49,
+    "percent": 69.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448263.93,
     "weekMissing": 107831.31,
     "weekPercent": 80.6,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
     {
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 14780.0,
-      "reached": 10320.35,
-      "missing": 4459.65,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 69.8,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 5350.0,
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 22.8,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 14780.0,
+      "reached": 10680.7,
+      "missing": 4099.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 72.3,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 2800.0,
-      "reached": 863.46,
-      "missing": 1936.54,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 30.8,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 5390.0,
@@ -202,6 +191,17 @@
       "status": "pending"
     },
     {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 2800.0,
+      "reached": 2974.46,
+      "missing": -174.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 106.2,
+      "status": "ok"
+    },
+    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 6700.0,
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 510463.66,
-      "missing": 45631.58,
-      "percent": 91.8
+      "reached": 512935.01,
+      "missing": 43160.23,
+      "percent": 92.2
     },
     {
       "name": "Semana 3",
