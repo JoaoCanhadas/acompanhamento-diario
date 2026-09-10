@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "10/09/2026 10:13",
+  "lastModified": "10/09/2026 10:14",
   "summary": {
     "commitment": 150140.0,
-    "reached": 27039.25,
-    "missing": 123100.75,
-    "percent": 18.0,
+    "reached": 30601.52,
+    "missing": 119538.48,
+    "percent": 20.4,
     "weekGoal": 556095.24,
     "weekRevenue": 448263.93,
     "weekMissing": 107831.31,
@@ -37,25 +37,14 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 19310.0,
-      "reached": 5923.75,
-      "missing": 13386.25,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 30.7,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 17000.0,
-      "reached": 4702.23,
-      "missing": 12297.77,
+      "reached": 5340.86,
+      "missing": 11659.14,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 27.7,
+      "percent": 31.4,
       "status": "pending"
     },
     {
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 19310.0,
+      "reached": 8060.15,
+      "missing": 11249.85,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 41.7,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 5390.0,
-      "reached": 245.3,
-      "missing": 5144.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 4.6,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 5350.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 10.1,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 5390.0,
+      "reached": 910.1,
+      "missing": 4479.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 16.9,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 5290.0,
-      "reached": 1137.73,
-      "missing": 4152.27,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 21.5,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 4600.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 12.3,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 5290.0,
+      "reached": 1260.17,
+      "missing": 4029.83,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 23.8,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 435464.75,
-      "missing": 120630.49,
-      "percent": 78.3
+      "reached": 439027.01,
+      "missing": 117068.23,
+      "percent": 78.9
     },
     {
       "name": "Semana 3",
