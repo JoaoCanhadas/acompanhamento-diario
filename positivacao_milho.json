@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "11/09/2026 10:59",
+  "lastModified": "11/09/2026 11:01",
   "summary": {
     "commitment": 340.0,
-    "reached": 217.0,
-    "missing": 123.0,
-    "percent": 63.8,
+    "reached": 219.0,
+    "missing": 121.0,
+    "percent": 64.4,
     "weekGoal": 65,
     "weekRevenue": 127.0,
     "weekMissing": -62.0,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 20.0,
-      "reached": 11.0,
-      "missing": 9.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 55.0,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 20.0,
@@ -116,6 +105,17 @@
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
+      "commitment": 20.0,
+      "reached": 12.0,
+      "missing": 8.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
       "commitment": 20.0,
       "reached": 12.0,
       "missing": 8.0,
@@ -183,11 +183,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 20.0,
-      "reached": 20.0,
-      "missing": 0.0,
+      "reached": 21.0,
+      "missing": -1.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 100.0,
+      "percent": 105.0,
       "status": "ok"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 65,
-      "reached": 95.0,
-      "missing": -30.0,
-      "percent": 146.2
+      "reached": 97.0,
+      "missing": -32.0,
+      "percent": 149.2
     },
     {
       "name": "Semana 3",
