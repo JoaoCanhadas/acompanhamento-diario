@@ -1,28 +1,28 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "11/09/2026 13:52",
+  "lastModified": "11/09/2026 13:54",
   "summary": {
     "commitment": 661000.0,
-    "reached": 696702.88,
-    "missing": -35702.88,
-    "percent": 105.4,
+    "reached": 704268.88,
+    "missing": -43268.88,
+    "percent": 106.5,
     "weekGoal": 568000,
     "weekRevenue": 168854.91,
     "weekMissing": 399145.09,
     "weekPercent": 29.7,
-    "positiveCount": 1,
-    "pendingCount": 5
+    "positiveCount": 2,
+    "pendingCount": 4
   },
   "rows": [
     {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 81000.0,
-      "reached": 54558.71,
-      "missing": 26441.29,
+      "reached": 57083.21,
+      "missing": 23916.79,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 67.4,
+      "percent": 70.5,
       "status": "pending"
     },
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
-      "commitment": 69500.0,
-      "reached": 66736.0,
-      "missing": 2764.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 96.0,
-      "status": "pending"
-    },
-    {
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 68000.0,
@@ -68,6 +57,17 @@
       "difference": 0.0,
       "percent": 98.0,
       "status": "pending"
+    },
+    {
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 69500.0,
+      "reached": 71777.5,
+      "missing": -2277.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 103.3,
+      "status": "ok"
     },
     {
       "reference": "KEY CASA",
@@ -93,9 +93,9 @@
     {
       "name": "Semana 2",
       "goal": 568000,
-      "reached": 696702.88,
-      "missing": -128702.88,
-      "percent": 122.7
+      "reached": 704268.88,
+      "missing": -136268.88,
+      "percent": 124.0
     },
     {
       "name": "Semana 3",
