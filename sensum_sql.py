@@ -472,128 +472,86 @@ def query_pedido_weeks(panel):
     if panel == "milho":
 
         # --------------------------------------------------------
-        # POSITIVAÇÃO BRIOCHE
+        # POSITIVAÇÃO PAO DA FAZENDA
         #
-        # 1. Localiza os clientes que compraram Brioche no mês.
-        # 2. Para esses clientes, busca a primeira VENDA/VENDA SAT
-        #    do mês, independentemente do produto.
-        # 3. Classifica cada cliente somente na primeira semana.
+        # Conta clientes exclusivos que compraram Pão da Fazenda
+        # em cada semana do mês.
         #
-        # As consultas são feitas em lotes para evitar timeout.
+        # Os 4 códigos/produtos são definidos pelo where_extra.
+        # Se o mesmo cliente comprar mais de um código na mesma
+        # semana, conta somente 1 cliente.
         # --------------------------------------------------------
 
         primeiro_dia = start_date
 
-        inicio_semana_1 = primeiro_dia + timedelta(
-            days=7 - primeiro_dia.weekday()
-        )
+        # Semana 1 começa na segunda-feira da semana
+        # que contém o primeiro dia do mês.
+        inicio_semana_1 = primeiro_dia
 
-        # 1) Clientes que compraram Brioche no período
-        sql_clientes = f"""
-            SELECT DISTINCT
-                COD_CLIENTE
+        sql = f"""
+            SELECT
+                COD_CLIENTE,
+                {date_expr} AS data_venda
             FROM {view_name}
             WHERE {date_expr} >= ?
               AND {date_expr} < ?
               AND (? = '' OR AREA = ?)
               AND COD_CLIENTE IS NOT NULL
               {where_extra}
+              AND UPPER(DES_TIPO_OPERACAO) IN (
+                  'VENDA',
+                  'VENDA SAT'
+              )
         """
 
-        resultado_clientes = sql_fetch(
-            sql_clientes,
+        resultado = sql_fetch(
+            sql,
             start_date,
             end_date,
             area_filter,
             area_filter
         )
 
-        clientes = [
-            str(linha["cod_cliente"]).strip()
-            for linha in resultado_clientes
-            if linha.get("cod_cliente") is not None
-        ]
+        # Clientes exclusivos por semana
+        clientes_por_semana = {
+            1: set(),
+            2: set(),
+            3: set(),
+            4: set(),
+            5: set()
+        }
 
-        if not clientes:
-            return []
+        for linha in resultado:
 
-        # 2) Busca a primeira VENDA / VENDA SAT do mês
-        #    em lotes menores para evitar timeout.
-        primeiras_compras = []
+            cod_cliente = linha.get("cod_cliente")
+            data_venda = linha.get("data_venda")
 
-        tamanho_lote = 100
-
-        for posicao in range(0, len(clientes), tamanho_lote):
-
-            lote = clientes[
-                posicao:posicao + tamanho_lote
-            ]
-
-            lista_clientes = ",".join(lote)
-
-            sql_primeira_compra = f"""
-                SELECT
-                    COD_CLIENTE,
-                    MIN({date_expr}) AS primeira_data
-                FROM {view_name}
-                WHERE {date_expr} >= ?
-                  AND {date_expr} < ?
-                  AND (? = '' OR AREA = ?)
-                  AND COD_CLIENTE IN ({lista_clientes})
-                  AND UPPER(DES_TIPO_OPERACAO) IN (
-                      'VENDA',
-                      'VENDA SAT'
-                  )
-                GROUP BY COD_CLIENTE
-            """
-
-            resultado_lote = sql_fetch(
-                sql_primeira_compra,
-                start_date,
-                end_date,
-                area_filter,
-                area_filter
-            )
-
-            primeiras_compras.extend(
-                resultado_lote
-            )
-
-        # 3) Classifica cada cliente na semana correspondente
-        semanas = {}
-
-        inicio_semana = inicio_semana_1
-
-        if hasattr(inicio_semana, "date"):
-            inicio_semana = inicio_semana.date()
-
-        for linha in primeiras_compras:
-
-            primeira_data = linha.get(
-                "primeira_data"
-            )
-
-            if primeira_data is None:
+            if cod_cliente is None or data_venda is None:
                 continue
 
-            if hasattr(primeira_data, "date"):
-                primeira_data = primeira_data.date()
+            if hasattr(data_venda, "date"):
+                data_venda = data_venda.date()
+
+            inicio_semana = inicio_semana_1
+
+            if hasattr(inicio_semana, "date"):
+                inicio_semana = inicio_semana.date()
 
             numero_semana = (
-                (primeira_data - inicio_semana).days // 7
+                (data_venda - inicio_semana).days // 7
             ) + 1
 
             if 1 <= numero_semana <= 5:
-                semanas[numero_semana] = (
-                    semanas.get(numero_semana, 0) + 1
+                clientes_por_semana[numero_semana].add(
+                    str(cod_cliente).strip()
                 )
 
         return [
             {
                 "week_number": semana,
-                "reached": semanas[semana]
+                "reached": len(clientes_por_semana[semana])
             }
-            for semana in sorted(semanas)
+            for semana in range(1, 6)
         ]
 
     sql = f"""
