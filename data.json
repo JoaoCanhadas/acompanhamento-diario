@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "11/09/2026 13:30",
+  "lastModified": "11/09/2026 13:32",
   "summary": {
     "commitment": 150140.0,
-    "reached": 56720.41,
-    "missing": 93419.59,
-    "percent": 37.8,
+    "reached": 58661.91,
+    "missing": 91478.09,
+    "percent": 39.1,
     "weekGoal": 556095.24,
     "weekRevenue": 448183.43,
     "weekMissing": 107911.81,
@@ -37,25 +37,25 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 8680.0,
-      "reached": 882.8,
-      "missing": 7797.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 10.2,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 19310.0,
-      "reached": 12084.3,
-      "missing": 7225.7,
+      "reached": 12254.2,
+      "missing": 7055.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 62.6,
+      "percent": 63.5,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 8680.0,
+      "reached": 1747.6,
+      "missing": 6932.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 20.1,
       "status": "pending"
     },
     {
@@ -84,22 +84,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 6430.0,
-      "reached": 710.15,
-      "missing": 5719.85,
+      "reached": 900.15,
+      "missing": 5529.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 11.0,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 14780.0,
-      "reached": 9308.51,
-      "missing": 5471.49,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 63.0,
+      "percent": 14.0,
       "status": "pending"
     },
     {
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 11.2,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 14780.0,
+      "reached": 10025.31,
+      "missing": 4754.69,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 67.8,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 556095.24,
-      "reached": 587590.97,
-      "missing": -31495.73,
-      "percent": 105.7
+      "reached": 589532.47,
+      "missing": -33437.23,
+      "percent": 106.0
     },
     {
       "name": "Semana 3",
