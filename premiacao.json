@@ -1,21 +1,21 @@
 {
   "workbook": "Sensum SQL - Premiação",
-  "lastModified": "11/09/2026 16:38",
+  "lastModified": "14/09/2026 09:02",
   "positivacao": [
     {
       "seller": "SJC",
-      "premiacao": "NÃO ATINGIDO",
-      "proxima_meta": "D",
-      "missing": 1,
-      "reached": 8.0,
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 5,
+      "reached": 9.0,
       "meta_a": 20.0
     },
     {
       "seller": "VENDEDOR INTERNO 1",
       "premiacao": "D",
       "proxima_meta": "C",
-      "missing": 9,
-      "reached": 47.0,
+      "missing": 7,
+      "reached": 49.0,
       "meta_a": 79.0
     },
     {
@@ -38,8 +38,8 @@
       "seller": "INTERLAGOS",
       "premiacao": "A",
       "proxima_meta": "",
-      "missing": -8,
-      "reached": 28.0,
+      "missing": -9,
+      "reached": 29.0,
       "meta_a": 20.0
     },
     {
@@ -152,24 +152,24 @@
       "seller": "SJC",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 12616.67,
-      "reached": 25633.33,
+      "missing": 10314.27,
+      "reached": 27935.73,
       "meta_a": 85000.0
     },
     {
       "seller": "VENDEDOR INTERNO 1",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 9324.8,
-      "reached": 25100.2,
+      "missing": 6387.8,
+      "reached": 28037.2,
       "meta_a": 76500.0
     },
     {
       "seller": "CENTRO",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 17738.34,
-      "reached": 135261.66,
+      "missing": 13116.64,
+      "reached": 139883.36,
       "meta_a": 340000.0
     },
     {
@@ -184,8 +184,8 @@
       "seller": "INTERLAGOS",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 26347.12,
-      "reached": 97852.88,
+      "missing": 23918.42,
+      "reached": 100281.58,
       "meta_a": 276000.0
     },
     {
@@ -200,8 +200,8 @@
       "seller": "SANTO ANDRE",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 9060.91,
-      "reached": 67439.09,
+      "missing": 7728.11,
+      "reached": 68771.89,
       "meta_a": 170000.0
     },
     {
@@ -224,8 +224,8 @@
       "seller": "SJC/VALE",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 5363.65,
-      "reached": 19386.35,
+      "missing": 3074.53,
+      "reached": 21675.47,
       "meta_a": 55000.0
     },
     {
@@ -256,16 +256,16 @@
       "seller": "PIRITUBA",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 24656.38,
-      "reached": 39243.62,
+      "missing": 23236.28,
+      "reached": 40663.72,
       "meta_a": 142000.0
     },
     {
       "seller": "LESTE PENHA",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 24443.39,
-      "reached": 40806.61,
+      "missing": 21394.24,
+      "reached": 43855.76,
       "meta_a": 145000.0
     },
     {
@@ -280,8 +280,8 @@
       "seller": "MOGI",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 6960.15,
-      "reached": 29039.85,
+      "missing": 6455.3,
+      "reached": 29544.7,
       "meta_a": 80000.0
     },
     {
@@ -296,18 +296,18 @@
   "rows": [
     {
       "seller": "SJC",
-      "premiacao": "NÃO ATINGIDO",
-      "proxima_meta": "D",
-      "missing": 1,
-      "reached": 8.0,
+      "premiacao": "D",
+      "proxima_meta": "C",
+      "missing": 5,
+      "reached": 9.0,
       "meta_a": 20.0
     },
     {
       "seller": "VENDEDOR INTERNO 1",
       "premiacao": "D",
       "proxima_meta": "C",
-      "missing": 9,
-      "reached": 47.0,
+      "missing": 7,
+      "reached": 49.0,
       "meta_a": 79.0
     },
     {
@@ -330,8 +330,8 @@
       "seller": "INTERLAGOS",
       "premiacao": "A",
       "proxima_meta": "",
-      "missing": -8,
-      "reached": 28.0,
+      "missing": -9,
+      "reached": 29.0,
       "meta_a": 20.0
     },
     {
@@ -442,24 +442,24 @@
       "seller": "SJC",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 12616.67,
-      "reached": 25633.33,
+      "missing": 10314.27,
+      "reached": 27935.73,
       "meta_a": 85000.0
     },
     {
       "seller": "VENDEDOR INTERNO 1",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 9324.8,
-      "reached": 25100.2,
+      "missing": 6387.8,
+      "reached": 28037.2,
       "meta_a": 76500.0
     },
     {
       "seller": "CENTRO",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 17738.34,
-      "reached": 135261.66,
+      "missing": 13116.64,
+      "reached": 139883.36,
       "meta_a": 340000.0
     },
     {
@@ -474,8 +474,8 @@
       "seller": "INTERLAGOS",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 26347.12,
-      "reached": 97852.88,
+      "missing": 23918.42,
+      "reached": 100281.58,
       "meta_a": 276000.0
     },
     {
@@ -490,8 +490,8 @@
       "seller": "SANTO ANDRE",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 9060.91,
-      "reached": 67439.09,
+      "missing": 7728.11,
+      "reached": 68771.89,
       "meta_a": 170000.0
     },
     {
@@ -514,8 +514,8 @@
       "seller": "SJC/VALE",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 5363.65,
-      "reached": 19386.35,
+      "missing": 3074.53,
+      "reached": 21675.47,
       "meta_a": 55000.0
     },
     {
@@ -546,16 +546,16 @@
       "seller": "PIRITUBA",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 24656.38,
-      "reached": 39243.62,
+      "missing": 23236.28,
+      "reached": 40663.72,
       "meta_a": 142000.0
     },
     {
       "seller": "LESTE PENHA",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 24443.39,
-      "reached": 40806.61,
+      "missing": 21394.24,
+      "reached": 43855.76,
       "meta_a": 145000.0
     },
     {
@@ -570,8 +570,8 @@
       "seller": "MOGI",
       "premiacao": "NÃO ATINGIDO",
       "proxima_meta": "D",
-      "missing": 6960.15,
-      "reached": 29039.85,
+      "missing": 6455.3,
+      "reached": 29544.7,
       "meta_a": 80000.0
     },
     {
