@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "14/09/2026 11:34",
+  "lastModified": "14/09/2026 11:35",
   "summary": {
     "commitment": 300630.0,
-    "reached": 101816.22,
-    "missing": 198813.78,
-    "percent": 33.9,
+    "reached": 104816.72,
+    "missing": 195813.28,
+    "percent": 34.9,
     "weekGoal": 556095.24,
     "weekRevenue": 448183.43,
     "weekMissing": 107911.81,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 38000.0,
-      "reached": 16270.65,
-      "missing": 21729.35,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.8,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 27640.0,
@@ -59,14 +48,25 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 38000.0,
+      "reached": 17142.65,
+      "missing": 20857.35,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 45.1,
+      "status": "pending"
+    },
+    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 23440.0,
-      "reached": 3508.3,
-      "missing": 19931.7,
+      "reached": 4531.9,
+      "missing": 18908.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.0,
+      "percent": 19.3,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 16180.0,
-      "reached": 9411.15,
-      "missing": 6768.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 58.2,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 13350.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 55.0,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 16180.0,
+      "reached": 10288.65,
+      "missing": 5891.35,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 63.6,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 6100.0,
-      "reached": 4246.96,
-      "missing": 1853.04,
+      "reached": 4474.36,
+      "missing": 1625.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 69.6,
+      "percent": 73.4,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 101816.22,
-      "missing": 593302.83,
-      "percent": 14.6
+      "reached": 104816.72,
+      "missing": 590302.33,
+      "percent": 15.1
     },
     {
       "name": "Semana 4",
