@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "14/09/2026 12:41",
+  "lastModified": "14/09/2026 12:42",
   "summary": {
     "commitment": 300630.0,
-    "reached": 168599.19,
-    "missing": 132030.81,
-    "percent": 56.1,
+    "reached": 170629.29,
+    "missing": 130000.71,
+    "percent": 56.8,
     "weekGoal": 556095.24,
     "weekRevenue": 448183.43,
     "weekMissing": 107911.81,
@@ -14,17 +14,6 @@
     "pendingCount": 18
   },
   "rows": [
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 27640.0,
-      "reached": 10419.42,
-      "missing": 17220.58,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 37.7,
-      "status": "pending"
-    },
     {
       "reference": "NORTE",
       "seller": "NORTE",
@@ -37,14 +26,25 @@
       "status": "pending"
     },
     {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 27640.0,
+      "reached": 11517.02,
+      "missing": 16122.98,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 41.7,
+      "status": "pending"
+    },
+    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 38000.0,
-      "reached": 23869.25,
-      "missing": 14130.75,
+      "reached": 24675.95,
+      "missing": 13324.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 62.8,
+      "percent": 64.9,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 5240.0,
-      "reached": 2808.05,
-      "missing": 2431.95,
+      "reached": 2933.85,
+      "missing": 2306.15,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 53.6,
+      "percent": 56.0,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 168599.18,
-      "missing": 526519.87,
-      "percent": 24.3
+      "reached": 170629.28,
+      "missing": 524489.77,
+      "percent": 24.5
     },
     {
       "name": "Semana 4",
