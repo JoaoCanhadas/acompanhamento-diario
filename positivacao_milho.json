@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "14/09/2026 13:01",
+  "lastModified": "14/09/2026 13:02",
   "summary": {
     "commitment": 340.0,
-    "reached": 254.0,
-    "missing": 86.0,
-    "percent": 74.7,
+    "reached": 256.0,
+    "missing": 84.0,
+    "percent": 75.3,
     "weekGoal": 65,
     "weekRevenue": 127.0,
     "weekMissing": -62.0,
@@ -26,8 +26,8 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
+      "reference": "LESTE",
+      "seller": "LESTE",
       "commitment": 20.0,
       "reached": 8.0,
       "missing": 12.0,
@@ -37,14 +37,14 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
+      "reference": "MOGI",
+      "seller": "MOGI",
       "commitment": 20.0,
-      "reached": 8.0,
-      "missing": 12.0,
+      "reached": 9.0,
+      "missing": 11.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 40.0,
+      "percent": 45.0,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 20.0,
-      "reached": 26.0,
-      "missing": -6.0,
+      "reached": 27.0,
+      "missing": -7.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 130.0,
+      "percent": 135.0,
       "status": "ok"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 65,
-      "reached": 133.0,
-      "missing": -68.0,
-      "percent": 204.6
+      "reached": 135.0,
+      "missing": -70.0,
+      "percent": 207.7
     },
     {
       "name": "Semana 3",
