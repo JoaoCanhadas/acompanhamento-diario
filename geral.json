@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "14/09/2026 09:02",
+  "lastModified": "14/09/2026 09:03",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 1963372.99,
-    "missing": 3939127.01,
+    "reached": 1963862.49,
+    "missing": 3938637.51,
     "percent": 33.3,
     "weekGoal": 1124286,
     "weekRevenue": 617038.34,
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 147000.0,
-      "reached": 45658.21,
-      "missing": 101341.79,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 31.1,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 30.2,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 147000.0,
+      "reached": 46147.71,
+      "missing": 100852.29,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.4,
       "status": "pending"
     },
     {
@@ -320,9 +320,9 @@
     {
       "name": "Semana 3",
       "goal": 1405357,
-      "reached": 27234.22,
-      "missing": 1378122.78,
-      "percent": 1.9
+      "reached": 27723.72,
+      "missing": 1377633.28,
+      "percent": 2.0
     },
     {
       "name": "Semana 4",
