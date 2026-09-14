@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "14/09/2026 11:58",
+  "lastModified": "14/09/2026 11:59",
   "summary": {
     "commitment": 300630.0,
-    "reached": 136859.36,
-    "missing": 163770.64,
-    "percent": 45.5,
+    "reached": 144812.77,
+    "missing": 155817.23,
+    "percent": 48.2,
     "weekGoal": 556095.24,
     "weekRevenue": 448183.43,
     "weekMissing": 107911.81,
@@ -14,28 +14,6 @@
     "pendingCount": 18
   },
   "rows": [
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 27160.0,
-      "reached": 5321.8,
-      "missing": 21838.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 19.6,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 30650.0,
-      "reached": 9717.6,
-      "missing": 20932.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 31.7,
-      "status": "pending"
-    },
     {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
@@ -48,14 +26,36 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 30650.0,
+      "reached": 11590.31,
+      "missing": 19059.69,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 37.8,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 27160.0,
+      "reached": 9423.0,
+      "missing": 17737.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 34.7,
+      "status": "pending"
+    },
+    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 38000.0,
-      "reached": 22051.45,
-      "missing": 15948.55,
+      "reached": 22806.05,
+      "missing": 15193.95,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.0,
+      "percent": 60.0,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 16550.0,
-      "reached": 6665.55,
-      "missing": 9884.45,
+      "reached": 7335.27,
+      "missing": 9214.73,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 40.3,
+      "percent": 44.3,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 13170.0,
-      "reached": 9660.33,
-      "missing": 3509.67,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 73.4,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 10460.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 67.0,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 13170.0,
+      "reached": 10105.51,
+      "missing": 3064.49,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 76.7,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 2760.0,
-      "reached": 2553.85,
-      "missing": 206.15,
+      "reached": 2663.85,
+      "missing": 96.15,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.5,
+      "percent": 96.5,
       "status": "pending"
     }
   ],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 136859.36,
-      "missing": 558259.69,
-      "percent": 19.7
+      "reached": 144812.76,
+      "missing": 550306.29,
+      "percent": 20.8
     },
     {
       "name": "Semana 4",
