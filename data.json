@@ -3,9 +3,9 @@
   "lastModified": "14/09/2026 13:53",
   "summary": {
     "commitment": 300630.0,
-    "reached": 228270.07,
-    "missing": 72359.93,
-    "percent": 75.9,
+    "reached": 231440.87,
+    "missing": 69189.13,
+    "percent": 77.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448183.43,
     "weekMissing": 107911.81,
@@ -18,11 +18,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 38000.0,
-      "reached": 25576.75,
-      "missing": 12423.25,
+      "reached": 27686.75,
+      "missing": 10313.25,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 67.3,
+      "percent": 72.9,
       "status": "pending"
     },
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 27640.0,
-      "reached": 19797.7,
-      "missing": 7842.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 71.6,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 15600.0,
@@ -70,14 +59,25 @@
       "status": "pending"
     },
     {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 27640.0,
+      "reached": 20437.3,
+      "missing": 7202.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 73.9,
+      "status": "pending"
+    },
+    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 30650.0,
-      "reached": 23947.08,
-      "missing": 6702.92,
+      "reached": 24368.28,
+      "missing": 6281.72,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.1,
+      "percent": 79.5,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 228270.06,
-      "missing": 466848.99,
-      "percent": 32.8
+      "reached": 231440.86,
+      "missing": 463678.19,
+      "percent": 33.3
     },
     {
       "name": "Semana 4",
