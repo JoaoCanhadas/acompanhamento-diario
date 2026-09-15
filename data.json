@@ -3,9 +3,9 @@
   "lastModified": "15/09/2026 12:14",
   "summary": {
     "commitment": 200210.0,
-    "reached": 80718.6,
-    "missing": 119491.4,
-    "percent": 40.3,
+    "reached": 85647.6,
+    "missing": 114562.4,
+    "percent": 42.8,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -26,28 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 20000.0,
-      "reached": 5520.98,
-      "missing": 14479.02,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 27.6,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 21000.0,
-      "reached": 7446.85,
-      "missing": 13553.15,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 35.5,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 15000.0,
@@ -59,6 +37,17 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 21000.0,
+      "reached": 7755.85,
+      "missing": 13244.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 36.9,
+      "status": "pending"
+    },
+    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20000.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 50.1,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 20000.0,
+      "reached": 10140.98,
+      "missing": 9859.02,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.7,
       "status": "pending"
     },
     {
@@ -243,9 +243,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 332255.25,
-      "missing": 362863.8,
-      "percent": 47.8
+      "reached": 337184.25,
+      "missing": 357934.8,
+      "percent": 48.5
     },
     {
       "name": "Semana 4",
