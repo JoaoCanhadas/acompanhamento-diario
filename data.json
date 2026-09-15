@@ -3,9 +3,9 @@
   "lastModified": "15/09/2026 10:12",
   "summary": {
     "commitment": 200210.0,
-    "reached": 32188.21,
-    "missing": 168021.79,
-    "percent": 16.1,
+    "reached": 33389.85,
+    "missing": 166820.15,
+    "percent": 16.7,
     "weekGoal": 556095.24,
     "weekRevenue": 448183.43,
     "weekMissing": 107911.81,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20000.0,
-      "reached": 3723.27,
-      "missing": 16276.73,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 18.6,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 21000.0,
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 23.3,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20000.0,
+      "reached": 4717.17,
+      "missing": 15282.83,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 23.6,
       "status": "pending"
     },
     {
@@ -73,11 +73,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 12220.0,
-      "reached": 0.0,
-      "missing": 12220.0,
+      "reached": 207.74,
+      "missing": 12012.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 1.7,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 283724.85,
-      "missing": 411394.2,
-      "percent": 40.8
+      "reached": 284926.49,
+      "missing": 410192.56,
+      "percent": 41.0
     },
     {
       "name": "Semana 4",
