@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "15/09/2026 09:35",
+  "lastModified": "15/09/2026 09:36",
   "summary": {
     "commitment": 200210.0,
-    "reached": 19857.52,
-    "missing": 180352.48,
-    "percent": 9.9,
+    "reached": 21934.42,
+    "missing": 178275.58,
+    "percent": 11.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448183.43,
     "weekMissing": 107911.81,
@@ -84,11 +84,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 12670.0,
-      "reached": 1695.43,
-      "missing": 10974.57,
+      "reached": 2105.33,
+      "missing": 10564.67,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 13.4,
+      "percent": 16.6,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 7480.0,
-      "reached": 2399.45,
-      "missing": 5080.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 32.1,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 7250.0,
@@ -180,25 +169,36 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 4230.0,
-      "reached": 0.0,
-      "missing": 4230.0,
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 7480.0,
+      "reached": 3098.95,
+      "missing": 4381.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 41.4,
       "status": "pending"
     },
     {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 4180.0,
-      "reached": 0.0,
-      "missing": 4180.0,
+      "reached": 397.8,
+      "missing": 3782.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 9.5,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 4230.0,
+      "reached": 569.7,
+      "missing": 3660.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 13.5,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 271394.16,
-      "missing": 423724.89,
-      "percent": 39.0
+      "reached": 273471.06,
+      "missing": 421647.99,
+      "percent": 39.3
     },
     {
       "name": "Semana 4",
