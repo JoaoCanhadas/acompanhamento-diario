@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "15/09/2026 09:26",
+  "lastModified": "15/09/2026 09:27",
   "summary": {
     "commitment": 200210.0,
-    "reached": 12518.89,
-    "missing": 187691.11,
-    "percent": 6.3,
+    "reached": 14865.74,
+    "missing": 185344.26,
+    "percent": 7.4,
     "weekGoal": 556095.24,
     "weekRevenue": 448183.43,
     "weekMissing": 107911.81,
@@ -51,11 +51,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 21000.0,
-      "reached": 4416.95,
-      "missing": 16583.05,
+      "reached": 4886.7,
+      "missing": 16113.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.0,
+      "percent": 23.3,
       "status": "pending"
     },
     {
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 12670.0,
-      "reached": 0.0,
-      "missing": 12670.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 12220.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 12670.0,
+      "reached": 533.25,
+      "missing": 12136.75,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 4.2,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 7480.0,
-      "reached": 0.0,
-      "missing": 7480.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 9360.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 11.3,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 7480.0,
+      "reached": 1343.85,
+      "missing": 6136.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 18.0,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 264055.53,
-      "missing": 431063.52,
-      "percent": 38.0
+      "reached": 266402.38,
+      "missing": 428716.67,
+      "percent": 38.3
     },
     {
       "name": "Semana 4",
