@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "16/09/2026 13:01",
+  "lastModified": "16/09/2026 13:02",
   "summary": {
     "commitment": 180470.0,
-    "reached": 77735.7,
-    "missing": 102734.3,
-    "percent": 43.1,
+    "reached": 78715.48,
+    "missing": 101754.52,
+    "percent": 43.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -18,8 +18,8 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15270.0,
-      "reached": 1719.51,
-      "missing": 13550.49,
+      "reached": 1719.5,
+      "missing": 13550.5,
       "average": 0.0,
       "difference": 0.0,
       "percent": 11.3,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 16000.0,
-      "reached": 7415.9,
-      "missing": 8584.1,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 46.3,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 10940.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 48.1,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 16000.0,
+      "reached": 8395.7,
+      "missing": 7604.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.5,
       "status": "pending"
     },
     {
@@ -128,8 +128,8 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 15780.0,
-      "reached": 11458.41,
-      "missing": 4321.59,
+      "reached": 11458.4,
+      "missing": 4321.6,
       "average": 0.0,
       "difference": 0.0,
       "percent": 72.6,
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 462394.86,
-      "missing": 232724.19,
-      "percent": 66.5
+      "reached": 463374.63,
+      "missing": 231744.42,
+      "percent": 66.7
     },
     {
       "name": "Semana 4",
