@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "16/09/2026 14:05",
+  "lastModified": "16/09/2026 14:06",
   "summary": {
     "commitment": 180470.0,
-    "reached": 110061.14,
-    "missing": 70408.86,
-    "percent": 61.0,
+    "reached": 112511.66,
+    "missing": 67958.34,
+    "percent": 62.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -29,8 +29,8 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15270.0,
-      "reached": 6237.95,
-      "missing": 9032.05,
+      "reached": 6237.96,
+      "missing": 9032.04,
       "average": 0.0,
       "difference": 0.0,
       "percent": 40.9,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 10940.0,
-      "reached": 6112.89,
-      "missing": 4827.11,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 55.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 8520.0,
@@ -103,14 +92,14 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 6830.0,
-      "reached": 2948.26,
-      "missing": 3881.74,
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 10940.0,
+      "reached": 7207.91,
+      "missing": 3732.09,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 43.2,
+      "percent": 65.9,
       "status": "pending"
     },
     {
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 69.0,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 6830.0,
+      "reached": 4027.86,
+      "missing": 2802.14,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 59.0,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2130.0,
-      "reached": 3129.41,
-      "missing": -999.41,
+      "reached": 3405.3,
+      "missing": -1275.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 146.9,
+      "percent": 159.9,
       "status": "ok"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 494720.3,
-      "missing": 200398.75,
-      "percent": 71.2
+      "reached": 497170.82,
+      "missing": 197948.23,
+      "percent": 71.5
     },
     {
       "name": "Semana 4",
