@@ -3,9 +3,9 @@
   "lastModified": "16/09/2026 14:42",
   "summary": {
     "commitment": 180470.0,
-    "reached": 113613.99,
-    "missing": 66856.01,
-    "percent": 63.0,
+    "reached": 113954.39,
+    "missing": 66515.61,
+    "percent": 63.1,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 4480.0,
-      "reached": 1475.7,
-      "missing": 3004.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 32.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 9370.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 69.0,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 4480.0,
+      "reached": 1635.6,
+      "missing": 2844.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 36.5,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 9650.0,
-      "reached": 12070.39,
-      "missing": -2420.39,
+      "reached": 12250.89,
+      "missing": -2600.89,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 125.1,
+      "percent": 127.0,
       "status": "ok"
     }
   ],
@@ -232,8 +232,8 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 498273.15,
-      "missing": 196845.9,
+      "reached": 498613.55,
+      "missing": 196505.5,
       "percent": 71.7
     },
     {

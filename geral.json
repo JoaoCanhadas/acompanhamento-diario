@@ -3,8 +3,8 @@
   "lastModified": "16/09/2026 14:42",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 2603692.86,
-    "missing": 3298807.14,
+    "reached": 2604033.26,
+    "missing": 3298466.74,
     "percent": 44.1,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -172,11 +172,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 73366.69,
-      "missing": 71633.31,
+      "reached": 73547.19,
+      "missing": 71452.81,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.6,
+      "percent": 50.7,
       "status": "pending"
     },
     {
@@ -224,17 +224,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 85000.0,
-      "reached": 43399.03,
-      "missing": 41600.97,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 51.1,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 81000.0,
@@ -243,6 +232,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 48.8,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 85000.0,
+      "reached": 43558.93,
+      "missing": 41441.07,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 51.2,
       "status": "pending"
     },
     {
@@ -320,8 +320,8 @@
     {
       "name": "Semana 3",
       "goal": 1405357,
-      "reached": 692907.69,
-      "missing": 712449.31,
+      "reached": 693248.09,
+      "missing": 712108.91,
       "percent": 49.3
     },
     {
