@@ -3,9 +3,9 @@
   "lastModified": "16/09/2026 11:12",
   "summary": {
     "commitment": 180470.0,
-    "reached": 48836.22,
-    "missing": 131633.78,
-    "percent": 27.1,
+    "reached": 50749.17,
+    "missing": 129720.83,
+    "percent": 28.1,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -73,11 +73,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 10940.0,
-      "reached": 1739.9,
-      "missing": 9200.1,
+      "reached": 1899.0,
+      "missing": 9041.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.9,
+      "percent": 17.4,
       "status": "pending"
     },
     {
@@ -103,25 +103,25 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 9370.0,
-      "reached": 1352.79,
-      "missing": 8017.21,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 14.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 9650.0,
-      "reached": 2707.39,
-      "missing": 6942.61,
+      "reached": 2867.39,
+      "missing": 6782.61,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 28.1,
+      "percent": 29.7,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 9370.0,
+      "reached": 2751.79,
+      "missing": 6618.21,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 29.4,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 4480.0,
-      "reached": 610.4,
-      "missing": 3869.6,
+      "reached": 805.25,
+      "missing": 3674.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 13.6,
+      "percent": 18.0,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 433495.38,
-      "missing": 261623.67,
-      "percent": 62.4
+      "reached": 435408.33,
+      "missing": 259710.72,
+      "percent": 62.6
     },
     {
       "name": "Semana 4",
