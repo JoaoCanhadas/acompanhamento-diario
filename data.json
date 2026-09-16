@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "16/09/2026 13:49",
+  "lastModified": "16/09/2026 13:50",
   "summary": {
     "commitment": 180470.0,
-    "reached": 98092.8,
-    "missing": 82377.2,
-    "percent": 54.4,
+    "reached": 108554.76,
+    "missing": 71915.24,
+    "percent": 60.2,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
     {
@@ -29,22 +29,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15270.0,
-      "reached": 3571.8,
-      "missing": 11698.2,
+      "reached": 6237.95,
+      "missing": 9032.05,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 23.4,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 15000.0,
-      "reached": 6443.36,
-      "missing": 8556.64,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 43.0,
+      "percent": 40.9,
       "status": "pending"
     },
     {
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 51.8,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 15000.0,
+      "reached": 7741.56,
+      "missing": 7258.44,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 51.6,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 9650.0,
-      "reached": 5947.49,
-      "missing": 3702.51,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 61.6,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 4480.0,
@@ -150,19 +139,19 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 5850.0,
-      "reached": 3256.2,
-      "missing": 2593.8,
+      "reached": 3450.4,
+      "missing": 2399.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.7,
+      "percent": 59.0,
       "status": "pending"
     },
     {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 15780.0,
-      "reached": 13660.24,
-      "missing": 2119.76,
+      "reached": 13660.25,
+      "missing": 2119.75,
       "average": 0.0,
       "difference": 0.0,
       "percent": 86.6,
@@ -211,6 +200,17 @@
       "difference": 0.0,
       "percent": 146.9,
       "status": "ok"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 9650.0,
+      "reached": 12250.89,
+      "missing": -2600.89,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 127.0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 482751.96,
-      "missing": 212367.09,
-      "percent": 69.4
+      "reached": 493213.92,
+      "missing": 201905.13,
+      "percent": 71.0
     },
     {
       "name": "Semana 4",
