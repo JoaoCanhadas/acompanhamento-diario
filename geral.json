@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "16/09/2026 10:37",
+  "lastModified": "16/09/2026 10:38",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 2514905.67,
-    "missing": 3387594.33,
+    "reached": 2515961.31,
+    "missing": 3386538.69,
     "percent": 42.6,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 326500.0,
-      "reached": 170895.99,
-      "missing": 155604.01,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 52.3,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 340000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 54.3,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 326500.0,
+      "reached": 171403.53,
+      "missing": 155096.47,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.5,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 63455.59,
-      "missing": 81544.41,
+      "reached": 64003.69,
+      "missing": 80996.31,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 43.8,
+      "percent": 44.1,
       "status": "pending"
     },
     {
@@ -320,9 +320,9 @@
     {
       "name": "Semana 3",
       "goal": 1405357,
-      "reached": 604120.49,
-      "missing": 801236.51,
-      "percent": 43.0
+      "reached": 605176.13,
+      "missing": 800180.87,
+      "percent": 43.1
     },
     {
       "name": "Semana 4",
