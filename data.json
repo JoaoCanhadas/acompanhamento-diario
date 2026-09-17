@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "17/09/2026 10:14",
+  "lastModified": "17/09/2026 10:15",
   "summary": {
     "commitment": 150430.0,
-    "reached": 22048.79,
-    "missing": 128381.21,
-    "percent": 14.7,
+    "reached": 22940.8,
+    "missing": 127489.2,
+    "percent": 15.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -51,11 +51,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 20000.0,
-      "reached": 5710.4,
-      "missing": 14289.6,
+      "reached": 6023.8,
+      "missing": 13976.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 28.6,
+      "percent": 30.1,
       "status": "pending"
     },
     {
@@ -139,22 +139,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 7300.0,
-      "reached": 3298.28,
-      "missing": 4001.72,
+      "reached": 3298.29,
+      "missing": 4001.71,
       "average": 0.0,
       "difference": 0.0,
       "percent": 45.2,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 3690.0,
-      "reached": 393.8,
-      "missing": 3296.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 10.7,
       "status": "pending"
     },
     {
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 24.1,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 3690.0,
+      "reached": 972.4,
+      "missing": 2717.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 26.4,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 522048.97,
-      "missing": 173070.08,
-      "percent": 75.1
+      "reached": 522940.98,
+      "missing": 172178.07,
+      "percent": 75.2
     },
     {
       "name": "Semana 4",
