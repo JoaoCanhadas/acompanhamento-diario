@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "17/09/2026 10:24",
+  "lastModified": "17/09/2026 10:25",
   "summary": {
     "commitment": 150430.0,
-    "reached": 24207.09,
-    "missing": 126222.91,
-    "percent": 16.1,
+    "reached": 25922.19,
+    "missing": 124507.81,
+    "percent": 17.2,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 5500.0,
-      "reached": 969.45,
-      "missing": 4530.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 17.6,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 4960.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 24.1,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 5500.0,
+      "reached": 2684.55,
+      "missing": 2815.45,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 48.8,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 524207.27,
-      "missing": 170911.78,
-      "percent": 75.4
+      "reached": 525922.37,
+      "missing": 169196.68,
+      "percent": 75.7
     },
     {
       "name": "Semana 4",
