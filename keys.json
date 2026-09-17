@@ -3,15 +3,15 @@
   "lastModified": "17/09/2026 11:46",
   "summary": {
     "commitment": 391000.0,
-    "reached": 227524.64,
-    "missing": 163475.36,
-    "percent": 58.2,
+    "reached": 293899.84,
+    "missing": 97100.16,
+    "percent": 75.2,
     "weekGoal": 568000,
     "weekRevenue": 168854.91,
     "weekMissing": 399145.09,
     "weekPercent": 29.7,
-    "positiveCount": 0,
-    "pendingCount": 4
+    "positiveCount": 1,
+    "pendingCount": 3
   },
   "rows": [
     {
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 73000.0,
-      "reached": 38475.2,
-      "missing": 34524.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 52.7,
-      "status": "pending"
-    },
-    {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 23000.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 73000.0,
+      "reached": 104850.4,
+      "missing": -31850.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 143.6,
       "status": "ok"
     },
     {
@@ -100,9 +100,9 @@
     {
       "name": "Semana 3",
       "goal": 710000,
-      "reached": 227524.64,
-      "missing": 482475.36,
-      "percent": 32.0
+      "reached": 293899.84,
+      "missing": 416100.16,
+      "percent": 41.4
     },
     {
       "name": "Semana 4",
