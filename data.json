@@ -3,9 +3,9 @@
   "lastModified": "17/09/2026 09:07",
   "summary": {
     "commitment": 150430.0,
-    "reached": 12561.4,
-    "missing": 137868.6,
-    "percent": 8.4,
+    "reached": 13121.06,
+    "missing": 137308.94,
+    "percent": 8.7,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -128,11 +128,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 4960.0,
-      "reached": 327.94,
-      "missing": 4632.06,
+      "reached": 537.79,
+      "missing": 4422.21,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 6.6,
+      "percent": 10.8,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 3230.0,
-      "reached": 619.71,
-      "missing": 2610.29,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 19.2,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 2860.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 18.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 3230.0,
+      "reached": 969.52,
+      "missing": 2260.48,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 30.0,
       "status": "pending"
     }
   ],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 512521.58,
-      "missing": 182597.47,
-      "percent": 73.7
+      "reached": 513081.24,
+      "missing": 182037.81,
+      "percent": 73.8
     },
     {
       "name": "Semana 4",
