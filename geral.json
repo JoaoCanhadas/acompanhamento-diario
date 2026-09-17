@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "17/09/2026 09:02",
+  "lastModified": "17/09/2026 09:03",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 2629124.08,
-    "missing": 3273375.92,
-    "percent": 44.5,
+    "reached": 2635454.2,
+    "missing": 3267045.8,
+    "percent": 44.6,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -95,11 +95,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 276000.0,
-      "reached": 142534.26,
-      "missing": 133465.74,
+      "reached": 148244.66,
+      "missing": 127755.34,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 51.6,
+      "percent": 53.7,
       "status": "pending"
     },
     {
@@ -172,8 +172,8 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 74115.79,
-      "missing": 70884.21,
+      "reached": 74115.8,
+      "missing": 70884.2,
       "average": 0.0,
       "difference": 0.0,
       "percent": 51.1,
@@ -213,17 +213,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 85000.0,
-      "reached": 43758.83,
-      "missing": 41241.17,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 51.5,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 81000.0,
@@ -243,6 +232,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 46.6,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 85000.0,
+      "reached": 44378.54,
+      "missing": 40621.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.2,
       "status": "pending"
     },
     {
@@ -320,9 +320,9 @@
     {
       "name": "Semana 3",
       "goal": 1405357,
-      "reached": 718338.9,
-      "missing": 687018.1,
-      "percent": 51.1
+      "reached": 724669.02,
+      "missing": 680687.98,
+      "percent": 51.6
     },
     {
       "name": "Semana 4",
