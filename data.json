@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "17/09/2026 13:51",
+  "lastModified": "17/09/2026 13:52",
   "summary": {
     "commitment": 150430.0,
-    "reached": 87254.34,
-    "missing": 63175.66,
-    "percent": 58.0,
+    "reached": 90260.54,
+    "missing": 60169.46,
+    "percent": 60.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -18,11 +18,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 19610.0,
-      "reached": 6306.49,
-      "missing": 13303.51,
+      "reached": 7643.89,
+      "missing": 11966.11,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 32.2,
+      "percent": 39.0,
       "status": "pending"
     },
     {
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 4740.0,
-      "reached": 1381.1,
-      "missing": 3358.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 29.1,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 4310.0,
@@ -114,6 +103,17 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 4740.0,
+      "reached": 2384.25,
+      "missing": 2355.75,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.3,
+      "status": "pending"
+    },
+    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 5770.0,
@@ -122,17 +122,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 59.2,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 3690.0,
-      "reached": 1448.19,
-      "missing": 2241.81,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 39.2,
       "status": "pending"
     },
     {
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 61.5,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 3690.0,
+      "reached": 1837.94,
+      "missing": 1852.06,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 49.8,
       "status": "pending"
     },
     {
@@ -216,11 +216,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 7300.0,
-      "reached": 7909.71,
-      "missing": -609.71,
+      "reached": 8185.61,
+      "missing": -885.61,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 108.4,
+      "percent": 112.1,
       "status": "ok"
     }
   ],
@@ -243,9 +243,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 587254.52,
-      "missing": 107864.53,
-      "percent": 84.5
+      "reached": 590260.72,
+      "missing": 104858.33,
+      "percent": 84.9
     },
     {
       "name": "Semana 4",
