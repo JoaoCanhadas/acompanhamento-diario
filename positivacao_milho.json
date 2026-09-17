@@ -3,9 +3,9 @@
   "lastModified": "17/09/2026 09:11",
   "summary": {
     "commitment": 340.0,
-    "reached": 312.0,
-    "missing": 28.0,
-    "percent": 91.8,
+    "reached": 313.0,
+    "missing": 27.0,
+    "percent": 92.1,
     "weekGoal": 65,
     "weekRevenue": 126.0,
     "weekMissing": -61.0,
@@ -26,8 +26,8 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
+      "reference": "MOGI",
+      "seller": "MOGI",
       "commitment": 20.0,
       "reached": 11.0,
       "missing": 9.0,
@@ -37,14 +37,14 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
+      "reference": "LESTE",
+      "seller": "LESTE",
       "commitment": 20.0,
-      "reached": 11.0,
-      "missing": 9.0,
+      "reached": 12.0,
+      "missing": 8.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.0,
+      "percent": 60.0,
       "status": "pending"
     },
     {
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 81,
-      "reached": 53.0,
-      "missing": 28.0,
-      "percent": 65.4
+      "reached": 54.0,
+      "missing": 27.0,
+      "percent": 66.7
     },
     {
       "name": "Semana 4",
