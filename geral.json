@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "17/09/2026 10:30",
+  "lastModified": "17/09/2026 10:31",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 2658008.39,
-    "missing": 3244491.61,
-    "percent": 45.0,
+    "reached": 2660168.22,
+    "missing": 3242331.78,
+    "percent": 45.1,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -73,11 +73,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 340000.0,
-      "reached": 189997.69,
-      "missing": 150002.31,
+      "reached": 190677.29,
+      "missing": 149322.71,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.9,
+      "percent": 56.1,
       "status": "pending"
     },
     {
@@ -150,22 +150,22 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 62387.72,
-      "missing": 79612.28,
+      "reached": 62967.02,
+      "missing": 79032.98,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 43.9,
+      "percent": 44.3,
       "status": "pending"
     },
     {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 170000.0,
-      "reached": 98716.43,
-      "missing": 71283.57,
+      "reached": 99267.22,
+      "missing": 70732.78,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.1,
+      "percent": 58.4,
       "status": "pending"
     },
     {
@@ -202,17 +202,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 93000.0,
-      "reached": 52058.77,
-      "missing": 40941.23,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 56.0,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 49.7,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 93000.0,
+      "reached": 52258.67,
+      "missing": 40741.33,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 56.2,
       "status": "pending"
     },
     {
@@ -282,11 +282,11 @@
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
-      "reached": 445.38,
-      "missing": 554.62,
+      "reached": 595.62,
+      "missing": 404.38,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 44.5,
+      "percent": 59.6,
       "status": "pending"
     },
     {
@@ -320,9 +320,9 @@
     {
       "name": "Semana 3",
       "goal": 1405357,
-      "reached": 747223.21,
-      "missing": 658133.79,
-      "percent": 53.2
+      "reached": 749383.04,
+      "missing": 655973.96,
+      "percent": 53.3
     },
     {
       "name": "Semana 4",
