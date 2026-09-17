@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "17/09/2026 11:18",
+  "lastModified": "17/09/2026 11:19",
   "summary": {
     "commitment": 150430.0,
-    "reached": 35803.1,
-    "missing": 114626.9,
-    "percent": 23.8,
+    "reached": 42109.09,
+    "missing": 108320.91,
+    "percent": 28.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -18,11 +18,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 19610.0,
-      "reached": 1216.11,
-      "missing": 18393.89,
+      "reached": 1835.85,
+      "missing": 17774.15,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 6.2,
+      "percent": 9.4,
       "status": "pending"
     },
     {
@@ -34,17 +34,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 21.7,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 14860.0,
-      "reached": 0.0,
-      "missing": 14860.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
       "status": "pending"
     },
     {
@@ -70,6 +59,17 @@
       "status": "pending"
     },
     {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 14860.0,
+      "reached": 4134.4,
+      "missing": 10725.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 27.8,
+      "status": "pending"
+    },
+    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 7500.0,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 4960.0,
-      "reached": 549.79,
-      "missing": 4410.21,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 11.1,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 6470.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 21.5,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 4960.0,
+      "reached": 1651.14,
+      "missing": 3308.86,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 33.3,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 5500.0,
-      "reached": 2684.55,
-      "missing": 2815.45,
+      "reached": 3135.05,
+      "missing": 2364.95,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 48.8,
+      "percent": 57.0,
       "status": "pending"
     },
     {
@@ -243,9 +243,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 535803.28,
-      "missing": 159315.77,
-      "percent": 77.1
+      "reached": 542109.27,
+      "missing": 153009.78,
+      "percent": 78.0
     },
     {
       "name": "Semana 4",
