@@ -3,9 +3,9 @@
   "lastModified": "18/09/2026 12:33",
   "summary": {
     "commitment": 120060.0,
-    "reached": 36351.23,
-    "missing": 83708.77,
-    "percent": 30.3,
+    "reached": 38434.53,
+    "missing": 81625.47,
+    "percent": 32.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -40,11 +40,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 10000.0,
-      "reached": 938.5,
-      "missing": 9061.5,
+      "reached": 1564.8,
+      "missing": 8435.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 9.4,
+      "percent": 15.6,
       "status": "pending"
     },
     {
@@ -56,17 +56,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 3.8,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 13000.0,
-      "reached": 6210.35,
-      "missing": 6789.65,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.8,
       "status": "pending"
     },
     {
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 23.8,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 13000.0,
+      "reached": 7667.35,
+      "missing": 5332.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 59.0,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 648075.23,
-      "missing": 47043.82,
-      "percent": 93.2
+      "reached": 650158.53,
+      "missing": 44960.52,
+      "percent": 93.5
     },
     {
       "name": "Semana 4",
