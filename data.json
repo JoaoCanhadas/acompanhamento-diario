@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "18/09/2026 13:37",
+  "lastModified": "18/09/2026 13:38",
   "summary": {
     "commitment": 120060.0,
-    "reached": 60748.14,
-    "missing": 59311.86,
-    "percent": 50.6,
+    "reached": 62451.53,
+    "missing": 57608.47,
+    "percent": 52.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -18,22 +18,22 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 15000.0,
-      "reached": 4487.43,
-      "missing": 10512.57,
+      "reached": 5596.13,
+      "missing": 9403.87,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 29.9,
+      "percent": 37.3,
       "status": "pending"
     },
     {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 11940.0,
-      "reached": 3312.74,
-      "missing": 8627.26,
+      "reached": 3447.74,
+      "missing": 8492.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 27.7,
+      "percent": 28.9,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 8140.0,
-      "reached": 3423.38,
-      "missing": 4716.62,
+      "reached": 3883.08,
+      "missing": 4256.92,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 42.1,
+      "percent": 47.7,
       "status": "pending"
     },
     {
@@ -128,8 +128,8 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 4090.0,
-      "reached": 1667.36,
-      "missing": 2422.64,
+      "reached": 1667.35,
+      "missing": 2422.65,
       "average": 0.0,
       "difference": 0.0,
       "percent": 40.8,
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 672472.13,
-      "missing": 22646.92,
-      "percent": 96.7
+      "reached": 674175.53,
+      "missing": 20943.52,
+      "percent": 97.0
     },
     {
       "name": "Semana 4",
