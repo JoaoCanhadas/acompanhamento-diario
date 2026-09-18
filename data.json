@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "18/09/2026 13:24",
+  "lastModified": "18/09/2026 13:25",
   "summary": {
     "commitment": 120060.0,
-    "reached": 47791.96,
-    "missing": 72268.04,
-    "percent": 39.8,
+    "reached": 55714.46,
+    "missing": 64345.54,
+    "percent": 46.4,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 7420.0,
-      "reached": 927.59,
-      "missing": 6492.41,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 12.5,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 8140.0,
@@ -92,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 10000.0,
-      "reached": 5748.88,
-      "missing": 4251.12,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 57.5,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 6240.0,
@@ -111,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 37.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 10000.0,
+      "reached": 6432.08,
+      "missing": 3567.92,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.3,
       "status": "pending"
     },
     {
@@ -183,11 +172,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 8000.0,
-      "reached": 7421.45,
-      "missing": 578.55,
+      "reached": 7761.25,
+      "missing": 238.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.8,
+      "percent": 97.0,
       "status": "pending"
     },
     {
@@ -211,6 +200,17 @@
       "difference": 0.0,
       "percent": 109.5,
       "status": "ok"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 7420.0,
+      "reached": 7827.09,
+      "missing": -407.09,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 105.5,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 659515.95,
-      "missing": 35603.1,
-      "percent": 94.9
+      "reached": 667438.45,
+      "missing": 27680.6,
+      "percent": 96.0
     },
     {
       "name": "Semana 4",
