@@ -3,9 +3,9 @@
   "lastModified": "18/09/2026 13:09",
   "summary": {
     "commitment": 120060.0,
-    "reached": 41667.71,
-    "missing": 78392.29,
-    "percent": 34.7,
+    "reached": 44252.99,
+    "missing": 75807.01,
+    "percent": 36.9,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 10000.0,
-      "reached": 3804.2,
-      "missing": 6195.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 38.0,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 8140.0,
@@ -103,6 +92,17 @@
       "status": "pending"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 10000.0,
+      "reached": 5350.8,
+      "missing": 4649.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 53.5,
+      "status": "pending"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 6240.0,
@@ -111,17 +111,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 37.9,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 8000.0,
-      "reached": 4599.45,
-      "missing": 3400.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 57.5,
       "status": "pending"
     },
     {
@@ -147,14 +136,25 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 8000.0,
+      "reached": 5137.6,
+      "missing": 2862.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.2,
+      "status": "pending"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 4090.0,
-      "reached": 1166.83,
-      "missing": 2923.17,
+      "reached": 1667.36,
+      "missing": 2422.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 28.5,
+      "percent": 40.8,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 653391.71,
-      "missing": 41727.34,
-      "percent": 94.0
+      "reached": 655976.98,
+      "missing": 39142.07,
+      "percent": 94.4
     },
     {
       "name": "Semana 4",
