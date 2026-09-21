@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "21/09/2026 09:38",
+  "lastModified": "21/09/2026 09:39",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 3285652.93,
-    "missing": 2616847.07,
+    "reached": 3289112.63,
+    "missing": 2613387.37,
     "percent": 55.7,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -172,11 +172,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 170000.0,
-      "reached": 108638.09,
-      "missing": 61361.91,
+      "reached": 111347.79,
+      "missing": 58652.21,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 63.9,
+      "percent": 65.5,
       "status": "pending"
     },
     {
@@ -213,17 +213,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 76500.0,
-      "reached": 43725.9,
-      "missing": 32774.1,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 57.2,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 80000.0,
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 59.5,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 76500.0,
+      "reached": 44475.9,
+      "missing": 32024.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 58.1,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 48169.21,
-      "missing": 1357187.79,
-      "percent": 3.4
+      "reached": 51628.91,
+      "missing": 1353728.09,
+      "percent": 3.7
     },
     {
       "name": "Semana 5",
