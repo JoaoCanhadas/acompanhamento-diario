@@ -3,9 +3,9 @@
   "lastModified": "21/09/2026 11:24",
   "summary": {
     "commitment": 300000.0,
-    "reached": 114910.37,
-    "missing": 185089.63,
-    "percent": 38.3,
+    "reached": 117413.08,
+    "missing": 182586.92,
+    "percent": 39.1,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 23250.0,
-      "reached": 4866.29,
-      "missing": 18383.71,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 20.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 20610.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 12.2,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 23250.0,
+      "reached": 6760.0,
+      "missing": 16490.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 29.1,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 12140.0,
-      "reached": 6307.13,
-      "missing": 5832.87,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 52.0,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 13000.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 58.5,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 12140.0,
+      "reached": 6916.13,
+      "missing": 5223.87,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 57.0,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 114910.37,
-      "missing": 580208.68,
-      "percent": 16.5
+      "reached": 117413.08,
+      "missing": 577705.97,
+      "percent": 16.9
     },
     {
       "name": "Semana 5",
