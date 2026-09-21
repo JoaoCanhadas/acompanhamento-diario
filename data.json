@@ -1,28 +1,28 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "21/09/2026 13:56",
+  "lastModified": "21/09/2026 13:57",
   "summary": {
     "commitment": 300000.0,
-    "reached": 219294.79,
-    "missing": 80705.21,
-    "percent": 73.1,
+    "reached": 220694.32,
+    "missing": 79305.68,
+    "percent": 73.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 37580.0,
-      "reached": 20775.47,
-      "missing": 16804.53,
+      "reached": 21471.27,
+      "missing": 16108.73,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 55.3,
+      "percent": 57.1,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 16800.0,
-      "reached": 9719.21,
-      "missing": 7080.79,
+      "reached": 9889.21,
+      "missing": 6910.79,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 57.9,
+      "percent": 58.9,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 12140.0,
-      "reached": 9765.33,
-      "missing": 2374.67,
+      "reached": 9934.61,
+      "missing": 2205.39,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.4,
+      "percent": 81.8,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 4070.0,
-      "reached": 4067.17,
-      "missing": 2.83,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.9,
-      "status": "pending"
-    },
-    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 4070.0,
+      "reached": 4431.62,
+      "missing": -361.62,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 108.9,
       "status": "ok"
     },
     {
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 219294.79,
-      "missing": 475824.26,
-      "percent": 31.5
+      "reached": 220694.32,
+      "missing": 474424.73,
+      "percent": 31.7
     },
     {
       "name": "Semana 5",
