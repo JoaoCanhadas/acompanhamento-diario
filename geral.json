@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "21/09/2026 10:59",
+  "lastModified": "21/09/2026 11:00",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 3382667.63,
-    "missing": 2519832.37,
-    "percent": 57.3,
+    "reached": 3391078.75,
+    "missing": 2511421.25,
+    "percent": 57.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -18,11 +18,11 @@
       "reference": "KEY INTERIOR",
       "seller": "KEY INTERIOR",
       "commitment": 980000.0,
-      "reached": 445796.6,
-      "missing": 534203.4,
+      "reached": 453378.6,
+      "missing": 526621.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 45.5,
+      "percent": 46.3,
       "status": "pending"
     },
     {
@@ -73,8 +73,8 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 340000.0,
-      "reached": 226749.11,
-      "missing": 113250.89,
+      "reached": 226769.11,
+      "missing": 113230.89,
       "average": 0.0,
       "difference": 0.0,
       "percent": 66.7,
@@ -161,8 +161,8 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 62359.84,
-      "missing": 59640.16,
+      "reached": 62359.86,
+      "missing": 59640.14,
       "average": 0.0,
       "difference": 0.0,
       "percent": 51.1,
@@ -202,17 +202,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 81000.0,
-      "reached": 49912.91,
-      "missing": 31087.09,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 61.6,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 80000.0,
@@ -224,14 +213,25 @@
       "status": "pending"
     },
     {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 81000.0,
+      "reached": 50552.91,
+      "missing": 30447.09,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 62.4,
+      "status": "pending"
+    },
+    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 85000.0,
-      "reached": 55980.81,
-      "missing": 29019.19,
+      "reached": 56149.91,
+      "missing": 28850.09,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 65.9,
+      "percent": 66.1,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 145873.41,
-      "missing": 1259483.59,
-      "percent": 10.4
+      "reached": 154284.53,
+      "missing": 1251072.47,
+      "percent": 11.0
     },
     {
       "name": "Semana 5",
