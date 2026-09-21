@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "21/09/2026 13:14",
+  "lastModified": "21/09/2026 13:15",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 3472537.77,
-    "missing": 2429962.23,
-    "percent": 58.8,
+    "reached": 3481849.41,
+    "missing": 2420650.59,
+    "percent": 59.0,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -95,11 +95,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 276000.0,
-      "reached": 178184.12,
-      "missing": 97815.88,
+      "reached": 180381.4,
+      "missing": 95618.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 64.6,
+      "percent": 65.4,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 203000.0,
-      "reached": 126353.72,
-      "missing": 76646.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 62.2,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 245000.0,
@@ -136,25 +125,36 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 203000.0,
+      "reached": 129775.27,
+      "missing": 73224.73,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 63.9,
+      "status": "pending"
+    },
+    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 74391.31,
-      "missing": 67608.69,
+      "reached": 76154.92,
+      "missing": 65845.08,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 52.4,
+      "percent": 53.6,
       "status": "pending"
     },
     {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 85775.04,
-      "missing": 59224.96,
+      "reached": 86950.44,
+      "missing": 58049.56,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 59.2,
+      "percent": 60.0,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 147000.0,
-      "reached": 94965.39,
-      "missing": 52034.61,
+      "reached": 95719.19,
+      "missing": 51280.81,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 64.6,
+      "percent": 65.1,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 235699.1,
-      "missing": 1169657.9,
-      "percent": 16.8
+      "reached": 245010.74,
+      "missing": 1160346.26,
+      "percent": 17.4
     },
     {
       "name": "Semana 5",
