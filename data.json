@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "21/09/2026 12:06",
+  "lastModified": "21/09/2026 12:07",
   "summary": {
     "commitment": 300000.0,
-    "reached": 142127.42,
-    "missing": 157872.58,
-    "percent": 47.4,
+    "reached": 144892.68,
+    "missing": 155107.32,
+    "percent": 48.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 23250.0,
-      "reached": 9045.0,
-      "missing": 14205.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 38.9,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 16800.0,
@@ -84,11 +73,22 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 30960.0,
-      "reached": 18007.56,
-      "missing": 12952.44,
+      "reached": 18622.52,
+      "missing": 12337.48,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.2,
+      "percent": 60.2,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 23250.0,
+      "reached": 11195.3,
+      "missing": 12054.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 48.2,
       "status": "pending"
     },
     {
@@ -243,16 +243,16 @@
     {
       "name": "Semana 3",
       "goal": 695119.05,
-      "reached": 686063.14,
-      "missing": 9055.91,
+      "reached": 686123.09,
+      "missing": 8995.96,
       "percent": 98.7
     },
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 142127.42,
-      "missing": 552991.63,
-      "percent": 20.4
+      "reached": 144892.68,
+      "missing": 550226.37,
+      "percent": 20.8
     },
     {
       "name": "Semana 5",
