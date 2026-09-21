@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "21/09/2026 13:26",
+  "lastModified": "21/09/2026 13:27",
   "summary": {
     "commitment": 300000.0,
-    "reached": 188205.19,
-    "missing": 111794.81,
-    "percent": 62.7,
+    "reached": 189843.99,
+    "missing": 110156.01,
+    "percent": 63.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 0,
-    "pendingCount": 18
+    "positiveCount": 1,
+    "pendingCount": 17
   },
   "rows": [
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 20610.0,
-      "reached": 9910.23,
-      "missing": 10699.77,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 48.1,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 23250.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 54.5,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 20610.0,
+      "reached": 10885.23,
+      "missing": 9724.77,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.8,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 14890.0,
-      "reached": 14776.85,
-      "missing": 113.15,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.2,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 4070.0,
@@ -221,6 +210,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 14890.0,
+      "reached": 15440.65,
+      "missing": -550.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 103.7,
       "status": "ok"
     }
   ],
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 188205.19,
-      "missing": 506913.86,
-      "percent": 27.1
+      "reached": 189843.99,
+      "missing": 505275.06,
+      "percent": 27.3
     },
     {
       "name": "Semana 5",
