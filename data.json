@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "21/09/2026 13:02",
+  "lastModified": "21/09/2026 13:03",
   "summary": {
     "commitment": 300000.0,
-    "reached": 164933.59,
-    "missing": 135066.41,
-    "percent": 55.0,
+    "reached": 166464.49,
+    "missing": 133535.51,
+    "percent": 55.5,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -95,11 +95,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 16050.0,
-      "reached": 7357.05,
-      "missing": 8692.95,
+      "reached": 8622.05,
+      "missing": 7427.95,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 45.8,
+      "percent": 53.7,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 5560.0,
-      "reached": 3461.6,
-      "missing": 2098.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 62.3,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 4510.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 57.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 5560.0,
+      "reached": 3727.5,
+      "missing": 1832.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 67.0,
       "status": "pending"
     },
     {
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 164933.59,
-      "missing": 530185.46,
-      "percent": 23.7
+      "reached": 166464.49,
+      "missing": 528654.56,
+      "percent": 23.9
     },
     {
       "name": "Semana 5",
