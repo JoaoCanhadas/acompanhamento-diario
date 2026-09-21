@@ -3,9 +3,9 @@
   "lastModified": "21/09/2026 10:21",
   "summary": {
     "commitment": 300000.0,
-    "reached": 81000.49,
-    "missing": 218999.51,
-    "percent": 27.0,
+    "reached": 85764.49,
+    "missing": 214235.51,
+    "percent": 28.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -62,11 +62,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 30960.0,
-      "reached": 10924.2,
-      "missing": 20035.8,
+      "reached": 11509.1,
+      "missing": 19450.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 35.3,
+      "percent": 37.2,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 19400.0,
-      "reached": 6678.52,
-      "missing": 12721.48,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 34.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 13000.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 37.5,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 19400.0,
+      "reached": 10105.62,
+      "missing": 9294.38,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 52.1,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 4510.0,
-      "reached": 1860.36,
-      "missing": 2649.64,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 41.2,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 14890.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 83.2,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 4510.0,
+      "reached": 2612.36,
+      "missing": 1897.64,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 57.9,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 81000.49,
-      "missing": 614118.56,
-      "percent": 11.7
+      "reached": 85764.49,
+      "missing": 609354.56,
+      "percent": 12.3
     },
     {
       "name": "Semana 5",
