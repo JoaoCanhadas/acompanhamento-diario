@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "21/09/2026 09:42",
+  "lastModified": "21/09/2026 09:43",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 3289112.63,
-    "missing": 2613387.37,
-    "percent": 55.7,
+    "reached": 3292058.43,
+    "missing": 2610441.57,
+    "percent": 55.8,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -62,11 +62,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 326500.0,
-      "reached": 203969.32,
-      "missing": 122530.68,
+      "reached": 204455.97,
+      "missing": 122044.03,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 62.5,
+      "percent": 62.6,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
-      "reached": 165210.53,
-      "missing": 99789.47,
+      "reached": 166400.23,
+      "missing": 98599.77,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 62.3,
+      "percent": 62.8,
       "status": "pending"
     },
     {
@@ -213,25 +213,25 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 80000.0,
-      "reached": 47622.07,
-      "missing": 32377.93,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 59.5,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
-      "reached": 44475.9,
-      "missing": 32024.1,
+      "reached": 44775.9,
+      "missing": 31724.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.1,
+      "percent": 58.5,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 80000.0,
+      "reached": 48591.52,
+      "missing": 31408.48,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 60.7,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 51628.91,
-      "missing": 1353728.09,
-      "percent": 3.7
+      "reached": 54574.71,
+      "missing": 1350782.29,
+      "percent": 3.9
     },
     {
       "name": "Semana 5",
