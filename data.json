@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "21/09/2026 14:18",
+  "lastModified": "21/09/2026 14:19",
   "summary": {
     "commitment": 300000.0,
-    "reached": 228716.15,
-    "missing": 71283.85,
-    "percent": 76.2,
+    "reached": 232388.66,
+    "missing": 67611.34,
+    "percent": 77.5,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -18,11 +18,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 37580.0,
-      "reached": 23798.37,
-      "missing": 13781.63,
+      "reached": 25612.97,
+      "missing": 11967.03,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 63.3,
+      "percent": 68.2,
       "status": "pending"
     },
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 16800.0,
-      "reached": 10304.64,
-      "missing": 6495.36,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 61.3,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 30960.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 79.1,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 16800.0,
+      "reached": 10754.34,
+      "missing": 6045.66,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.0,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 27420.0,
-      "reached": 22253.09,
-      "missing": 5166.91,
+      "reached": 23661.29,
+      "missing": 3758.71,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 81.2,
+      "percent": 86.3,
       "status": "pending"
     },
     {
@@ -216,8 +216,8 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 14890.0,
-      "reached": 21631.69,
-      "missing": -6741.69,
+      "reached": 21631.7,
+      "missing": -6741.7,
       "average": 0.0,
       "difference": 0.0,
       "percent": 145.3,
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 228716.15,
-      "missing": 466402.9,
-      "percent": 32.9
+      "reached": 232388.66,
+      "missing": 462730.39,
+      "percent": 33.4
     },
     {
       "name": "Semana 5",
