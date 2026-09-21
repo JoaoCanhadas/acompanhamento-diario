@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "21/09/2026 15:02",
+  "lastModified": "21/09/2026 15:03",
   "summary": {
     "commitment": 300000.0,
-    "reached": 236704.45,
-    "missing": 63295.55,
-    "percent": 78.9,
+    "reached": 242653.45,
+    "missing": 57346.55,
+    "percent": 80.9,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -117,11 +117,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 13000.0,
-      "reached": 10523.22,
-      "missing": 2476.78,
+      "reached": 10689.72,
+      "missing": 2310.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.9,
+      "percent": 82.2,
       "status": "pending"
     },
     {
@@ -133,17 +133,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 81.8,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 16050.0,
-      "reached": 14103.85,
-      "missing": 1946.15,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 87.9,
       "status": "pending"
     },
     {
@@ -213,6 +202,17 @@
       "status": "ok"
     },
     {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 16050.0,
+      "reached": 19886.35,
+      "missing": -3836.35,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 123.9,
+      "status": "ok"
+    },
+    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 14890.0,
@@ -250,9 +250,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 236704.45,
-      "missing": 458414.6,
-      "percent": 34.1
+      "reached": 242653.45,
+      "missing": 452465.6,
+      "percent": 34.9
     },
     {
       "name": "Semana 5",
