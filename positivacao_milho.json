@@ -3,9 +3,9 @@
   "lastModified": "21/09/2026 13:55",
   "summary": {
     "commitment": 340.0,
-    "reached": 389.0,
-    "missing": -49.0,
-    "percent": 114.4,
+    "reached": 390.0,
+    "missing": -50.0,
+    "percent": 114.7,
     "weekGoal": 65,
     "weekRevenue": 126.0,
     "weekMissing": -61.0,
@@ -180,8 +180,8 @@
       "status": "ok"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
+      "reference": "NORTE",
+      "seller": "NORTE",
       "commitment": 20.0,
       "reached": 43.0,
       "missing": -23.0,
@@ -191,14 +191,14 @@
       "status": "ok"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
       "commitment": 20.0,
-      "reached": 43.0,
-      "missing": -23.0,
+      "reached": 44.0,
+      "missing": -24.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 215.0,
+      "percent": 220.0,
       "status": "ok"
     }
   ],
@@ -221,9 +221,9 @@
     {
       "name": "Semana 3",
       "goal": 81,
-      "reached": 143.0,
-      "missing": -62.0,
-      "percent": 176.5
+      "reached": 144.0,
+      "missing": -63.0,
+      "percent": 177.8
     },
     {
       "name": "Semana 4",
