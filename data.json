@@ -3,9 +3,9 @@
   "lastModified": "22/09/2026 11:47",
   "summary": {
     "commitment": 200130.0,
-    "reached": 92743.36,
-    "missing": 107386.64,
-    "percent": 46.3,
+    "reached": 93761.41,
+    "missing": 106368.59,
+    "percent": 46.9,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -62,11 +62,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 9170.0,
-      "reached": 1532.23,
-      "missing": 7637.77,
+      "reached": 1981.63,
+      "missing": 7188.37,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.7,
+      "percent": 21.6,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 4700.0,
-      "reached": 897.72,
-      "missing": 3802.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 19.1,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 5960.0,
@@ -169,6 +158,17 @@
       "status": "pending"
     },
     {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 4700.0,
+      "reached": 1097.62,
+      "missing": 3602.38,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 23.4,
+      "status": "pending"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 4630.0,
@@ -177,17 +177,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 25.6,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20570.0,
-      "reached": 17870.35,
-      "missing": 2699.65,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 86.9,
       "status": "pending"
     },
     {
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 36.7,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20570.0,
+      "reached": 18239.1,
+      "missing": 2330.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 88.7,
       "status": "pending"
     }
   ],
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 338727.44,
-      "missing": 356391.61,
-      "percent": 48.7
+      "reached": 339296.09,
+      "missing": 355822.96,
+      "percent": 48.8
     },
     {
       "name": "Semana 5",
