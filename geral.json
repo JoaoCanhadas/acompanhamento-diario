@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "22/09/2026 10:24",
+  "lastModified": "22/09/2026 10:25",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 3691654.46,
-    "missing": 2210845.54,
-    "percent": 62.5,
+    "reached": 3692317.46,
+    "missing": 2210182.54,
+    "percent": 62.6,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -29,11 +29,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
-      "reached": 251765.8,
-      "missing": 328234.2,
+      "reached": 252087.8,
+      "missing": 327912.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 43.4,
+      "percent": 43.5,
       "status": "pending"
     },
     {
@@ -224,17 +224,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 81000.0,
-      "reached": 56787.8,
-      "missing": 24212.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 70.1,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 85000.0,
@@ -243,6 +232,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 71.7,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 81000.0,
+      "reached": 57128.8,
+      "missing": 23871.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.5,
       "status": "pending"
     },
     {
@@ -327,8 +327,8 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 454815.79,
-      "missing": 950541.21,
+      "reached": 455478.79,
+      "missing": 949878.21,
       "percent": 32.4
     },
     {
