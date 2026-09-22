@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "22/09/2026 09:44",
+  "lastModified": "22/09/2026 09:45",
   "summary": {
     "commitment": 200130.0,
-    "reached": 33312.49,
-    "missing": 166817.51,
-    "percent": 16.6,
+    "reached": 33822.4,
+    "missing": 166307.6,
+    "percent": 16.9,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -117,19 +117,19 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 11980.0,
-      "reached": 4334.0,
-      "missing": 7646.0,
+      "reached": 4618.9,
+      "missing": 7361.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 36.2,
+      "percent": 38.6,
       "status": "pending"
     },
     {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 9370.0,
-      "reached": 3290.2,
-      "missing": 6079.8,
+      "reached": 3290.21,
+      "missing": 6079.79,
       "average": 0.0,
       "difference": 0.0,
       "percent": 35.1,
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 4700.0,
-      "reached": 432.8,
-      "missing": 4267.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 9.2,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 6950.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 31.7,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 4700.0,
+      "reached": 657.8,
+      "missing": 4042.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 14.0,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 278842.07,
-      "missing": 416276.98,
-      "percent": 40.1
+      "reached": 279351.98,
+      "missing": 415767.07,
+      "percent": 40.2
     },
     {
       "name": "Semana 5",
