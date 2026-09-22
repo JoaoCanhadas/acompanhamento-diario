@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "22/09/2026 11:36",
+  "lastModified": "22/09/2026 11:37",
   "summary": {
     "commitment": 200130.0,
-    "reached": 83107.47,
-    "missing": 117022.53,
-    "percent": 41.5,
+    "reached": 84137.4,
+    "missing": 115992.6,
+    "percent": 42.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20570.0,
-      "reached": 9675.99,
-      "missing": 10894.01,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.0,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 12780.0,
@@ -62,22 +51,33 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 15000.0,
-      "reached": 4562.75,
-      "missing": 10437.25,
+      "reached": 4562.77,
+      "missing": 10437.23,
       "average": 0.0,
       "difference": 0.0,
       "percent": 30.4,
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20570.0,
+      "reached": 10425.49,
+      "missing": 10144.51,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 50.7,
+      "status": "pending"
+    },
+    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 9170.0,
-      "reached": 497.92,
-      "missing": 8672.08,
+      "reached": 778.33,
+      "missing": 8391.67,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 5.4,
+      "percent": 8.5,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 328642.15,
-      "missing": 366476.9,
-      "percent": 47.3
+      "reached": 329672.08,
+      "missing": 365446.97,
+      "percent": 47.4
     },
     {
       "name": "Semana 5",
