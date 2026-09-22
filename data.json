@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "22/09/2026 10:34",
+  "lastModified": "22/09/2026 10:35",
   "summary": {
     "commitment": 200130.0,
-    "reached": 50932.45,
-    "missing": 149197.55,
-    "percent": 25.4,
+    "reached": 52767.89,
+    "missing": 147362.11,
+    "percent": 26.4,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -15,17 +15,6 @@
   },
   "rows": [
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20570.0,
-      "reached": 2622.4,
-      "missing": 17947.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 12.7,
-      "status": "pending"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 18500.0,
@@ -34,6 +23,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 4.2,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20570.0,
+      "reached": 3164.9,
+      "missing": 17405.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 15.4,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 12320.0,
-      "reached": 8554.6,
-      "missing": 3765.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 69.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 9390.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 21.1,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 12320.0,
+      "reached": 9847.54,
+      "missing": 2472.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 79.9,
       "status": "pending"
     }
   ],
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 296467.13,
-      "missing": 398651.92,
-      "percent": 42.6
+      "reached": 298302.57,
+      "missing": 396816.48,
+      "percent": 42.9
     },
     {
       "name": "Semana 5",
