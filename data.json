@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "22/09/2026 13:20",
+  "lastModified": "22/09/2026 13:21",
   "summary": {
     "commitment": 200130.0,
-    "reached": 115550.31,
-    "missing": 84579.69,
-    "percent": 57.7,
+    "reached": 117381.27,
+    "missing": 82748.73,
+    "percent": 58.7,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -161,22 +161,22 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 9390.0,
-      "reached": 6681.75,
-      "missing": 2708.25,
+      "reached": 7214.66,
+      "missing": 2175.34,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 71.2,
+      "percent": 76.8,
       "status": "pending"
     },
     {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 3840.0,
-      "reached": 1999.67,
-      "missing": 1840.33,
+      "reached": 2229.52,
+      "missing": 1610.48,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 52.1,
+      "percent": 58.1,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20570.0,
-      "reached": 20780.06,
-      "missing": -210.06,
+      "reached": 21848.26,
+      "missing": -1278.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 101.0,
+      "percent": 106.2,
       "status": "ok"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 361084.98,
-      "missing": 334034.07,
-      "percent": 51.9
+      "reached": 362915.94,
+      "missing": 332203.11,
+      "percent": 52.2
     },
     {
       "name": "Semana 5",
