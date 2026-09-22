@@ -3,9 +3,9 @@
   "lastModified": "22/09/2026 09:41",
   "summary": {
     "commitment": 340.0,
-    "reached": 392.0,
-    "missing": -52.0,
-    "percent": 115.3,
+    "reached": 393.0,
+    "missing": -53.0,
+    "percent": 115.6,
     "weekGoal": 65,
     "weekRevenue": 124.0,
     "weekMissing": -59.0,
@@ -103,8 +103,8 @@
       "status": "ok"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
       "commitment": 20.0,
       "reached": 20.0,
       "missing": 0.0,
@@ -114,14 +114,14 @@
       "status": "ok"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
       "commitment": 20.0,
-      "reached": 20.0,
-      "missing": 0.0,
+      "reached": 21.0,
+      "missing": -1.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 100.0,
+      "percent": 105.0,
       "status": "ok"
     },
     {
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 81,
-      "reached": 3.0,
-      "missing": 78.0,
-      "percent": 3.7
+      "reached": 4.0,
+      "missing": 77.0,
+      "percent": 4.9
     },
     {
       "name": "Semana 5",
