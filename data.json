@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "22/09/2026 13:12",
+  "lastModified": "22/09/2026 13:13",
   "summary": {
     "commitment": 200130.0,
-    "reached": 108687.89,
-    "missing": 91442.11,
-    "percent": 54.3,
+    "reached": 112659.91,
+    "missing": 87470.09,
+    "percent": 56.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -26,25 +26,14 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 21000.0,
-      "reached": 10200.12,
-      "missing": 10799.88,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 48.6,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 15000.0,
-      "reached": 4562.75,
-      "missing": 10437.25,
+      "reached": 4740.07,
+      "missing": 10259.93,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.4,
+      "percent": 31.6,
       "status": "pending"
     },
     {
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 39.8,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 21000.0,
+      "reached": 13804.92,
+      "missing": 7195.08,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.7,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20570.0,
-      "reached": 18264.56,
-      "missing": 2305.44,
+      "reached": 18454.46,
+      "missing": 2115.54,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 88.8,
+      "percent": 89.7,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 354222.56,
-      "missing": 340896.49,
-      "percent": 51.0
+      "reached": 358194.58,
+      "missing": 336924.47,
+      "percent": 51.5
     },
     {
       "name": "Semana 5",
