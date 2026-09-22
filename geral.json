@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "22/09/2026 09:28",
+  "lastModified": "22/09/2026 09:29",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 3649324.37,
-    "missing": 2253175.63,
-    "percent": 61.8,
+    "reached": 3661623.47,
+    "missing": 2240876.53,
+    "percent": 62.0,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 142000.0,
-      "reached": 34231.5,
-      "missing": 107768.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 24.1,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 326500.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 69.0,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 142000.0,
+      "reached": 44514.5,
+      "missing": 97485.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 31.3,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 81811.32,
-      "missing": 60188.68,
+      "reached": 83827.42,
+      "missing": 58172.58,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 57.6,
+      "percent": 59.0,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 412485.7,
-      "missing": 992871.3,
-      "percent": 29.4
+      "reached": 424784.8,
+      "missing": 980572.2,
+      "percent": 30.2
     },
     {
       "name": "Semana 5",
