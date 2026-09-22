@@ -3,9 +3,9 @@
   "lastModified": "22/09/2026 10:59",
   "summary": {
     "commitment": 200130.0,
-    "reached": 70016.25,
-    "missing": 130113.75,
-    "percent": 35.0,
+    "reached": 70881.25,
+    "missing": 129248.75,
+    "percent": 35.4,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 18500.0,
-      "reached": 7861.58,
-      "missing": 10638.42,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.5,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 15000.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 30.4,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 18500.0,
+      "reached": 8726.58,
+      "missing": 9773.42,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 47.2,
       "status": "pending"
     },
     {
