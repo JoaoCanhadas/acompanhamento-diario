@@ -3,15 +3,15 @@
   "lastModified": "23/09/2026 14:02",
   "summary": {
     "commitment": 180260.0,
-    "reached": 119141.15,
-    "missing": 61118.85,
-    "percent": 66.1,
+    "reached": 119366.15,
+    "missing": 60893.85,
+    "percent": 66.2,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 3,
-    "pendingCount": 15
+    "positiveCount": 4,
+    "pendingCount": 14
   },
   "rows": [
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 1780.0,
-      "reached": 1701.0,
-      "missing": 79.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.6,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 14000.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.9,
+      "status": "ok"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 1780.0,
+      "reached": 1926.0,
+      "missing": -146.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 108.2,
       "status": "ok"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 520154.34,
-      "missing": 174964.71,
-      "percent": 74.8
+      "reached": 520379.34,
+      "missing": 174739.71,
+      "percent": 74.9
     },
     {
       "name": "Semana 5",
