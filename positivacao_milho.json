@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "22/09/2026 16:32",
+  "lastModified": "23/09/2026 07:53",
   "summary": {
     "commitment": 340.0,
-    "reached": 406.0,
-    "missing": -66.0,
-    "percent": 119.4,
+    "reached": 407.0,
+    "missing": -67.0,
+    "percent": 119.7,
     "weekGoal": 65,
     "weekRevenue": 124.0,
     "weekMissing": -59.0,
@@ -37,8 +37,8 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
       "commitment": 20.0,
       "reached": 17.0,
       "missing": 3.0,
@@ -48,14 +48,14 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
       "commitment": 20.0,
-      "reached": 17.0,
-      "missing": 3.0,
+      "reached": 18.0,
+      "missing": 2.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 85.0,
+      "percent": 90.0,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 20.0,
-      "reached": 20.0,
-      "missing": 0.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "ok"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 20.0,
@@ -105,6 +94,17 @@
     {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
+      "commitment": 20.0,
+      "reached": 20.0,
+      "missing": 0.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "ok"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
       "commitment": 20.0,
       "reached": 20.0,
       "missing": 0.0,
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 81,
-      "reached": 23.0,
-      "missing": 58.0,
-      "percent": 28.4
+      "reached": 24.0,
+      "missing": 57.0,
+      "percent": 29.6
     },
     {
       "name": "Semana 5",
