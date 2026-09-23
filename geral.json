@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "23/09/2026 09:01",
+  "lastModified": "23/09/2026 09:02",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 3948392.26,
-    "missing": 1954107.74,
+    "reached": 3949272.06,
+    "missing": 1953227.94,
     "percent": 66.9,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 80000.0,
-      "reached": 52497.22,
-      "missing": 27502.78,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 65.6,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 93000.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.6,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 80000.0,
+      "reached": 52737.02,
+      "missing": 27262.98,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.9,
       "status": "pending"
     },
     {
@@ -249,11 +249,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 81000.0,
-      "reached": 61548.63,
-      "missing": 19451.37,
+      "reached": 62188.63,
+      "missing": 18811.37,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.0,
+      "percent": 76.8,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 711553.59,
-      "missing": 693803.41,
-      "percent": 50.6
+      "reached": 712433.39,
+      "missing": 692923.61,
+      "percent": 50.7
     },
     {
       "name": "Semana 5",
