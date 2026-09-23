@@ -3,9 +3,9 @@
   "lastModified": "23/09/2026 13:44",
   "summary": {
     "commitment": 180260.0,
-    "reached": 114075.23,
-    "missing": 66184.77,
-    "percent": 63.3,
+    "reached": 114878.73,
+    "missing": 65381.27,
+    "percent": 63.7,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 15570.0,
-      "reached": 10567.05,
-      "missing": 5002.95,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 67.9,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 10500.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 39.4,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 15570.0,
+      "reached": 10928.95,
+      "missing": 4641.05,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 70.2,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 19290.0,
-      "reached": 17236.44,
-      "missing": 2053.56,
+      "reached": 17678.04,
+      "missing": 1611.96,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.4,
+      "percent": 91.6,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 515088.42,
-      "missing": 180030.63,
-      "percent": 74.1
+      "reached": 515891.92,
+      "missing": 179227.13,
+      "percent": 74.2
     },
     {
       "name": "Semana 5",
