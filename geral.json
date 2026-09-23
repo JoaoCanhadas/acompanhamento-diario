@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "23/09/2026 08:58",
+  "lastModified": "23/09/2026 08:59",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 3947432.26,
-    "missing": 1955067.74,
+    "reached": 3948392.26,
+    "missing": 1954107.74,
     "percent": 66.9,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -216,11 +216,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
-      "reached": 50847.66,
-      "missing": 25652.34,
+      "reached": 51189.66,
+      "missing": 25310.34,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 66.5,
+      "percent": 66.9,
       "status": "pending"
     },
     {
@@ -235,25 +235,25 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 81000.0,
-      "reached": 60940.63,
-      "missing": 20059.37,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 75.2,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 67500.0,
-      "reached": 47637.76,
-      "missing": 19862.24,
+      "reached": 47647.76,
+      "missing": 19852.24,
       "average": 0.0,
       "difference": 0.0,
       "percent": 70.6,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 81000.0,
+      "reached": 61548.63,
+      "missing": 19451.37,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 76.0,
       "status": "pending"
     },
     {
@@ -327,8 +327,8 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 710593.59,
-      "missing": 694763.41,
+      "reached": 711553.59,
+      "missing": 693803.41,
       "percent": 50.6
     },
     {
