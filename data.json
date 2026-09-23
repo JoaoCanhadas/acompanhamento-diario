@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "23/09/2026 13:33",
+  "lastModified": "23/09/2026 13:34",
   "summary": {
     "commitment": 180260.0,
-    "reached": 110689.25,
-    "missing": 69570.75,
-    "percent": 61.4,
+    "reached": 112204.55,
+    "missing": 68055.45,
+    "percent": 62.2,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -128,11 +128,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 9840.0,
-      "reached": 6118.37,
-      "missing": 3721.63,
+      "reached": 6258.27,
+      "missing": 3581.73,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 62.2,
+      "percent": 63.6,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 4880.0,
-      "reached": 2012.79,
-      "missing": 2867.21,
+      "reached": 2288.69,
+      "missing": 2591.31,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 41.2,
+      "percent": 46.9,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 14000.0,
-      "reached": 13027.81,
-      "missing": 972.19,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 93.1,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 1780.0,
@@ -189,6 +178,17 @@
       "difference": 0.0,
       "percent": 95.6,
       "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 14000.0,
+      "reached": 14127.31,
+      "missing": -127.31,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.9,
+      "status": "ok"
     },
     {
       "reference": "SJC",
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 511702.44,
-      "missing": 183416.61,
-      "percent": 73.6
+      "reached": 513217.74,
+      "missing": 181901.31,
+      "percent": 73.8
     },
     {
       "name": "Semana 5",
