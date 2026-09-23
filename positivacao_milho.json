@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "23/09/2026 14:16",
+  "lastModified": "23/09/2026 14:17",
   "summary": {
     "commitment": 340.0,
-    "reached": 422.0,
-    "missing": -82.0,
-    "percent": 124.1,
+    "reached": 423.0,
+    "missing": -83.0,
+    "percent": 124.4,
     "weekGoal": 65,
     "weekRevenue": 124.0,
     "weekMissing": -59.0,
     "weekPercent": 190.8,
-    "positiveCount": 11,
-    "pendingCount": 6
+    "positiveCount": 12,
+    "pendingCount": 5
   },
   "rows": [
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 20.0,
-      "reached": 19.0,
-      "missing": 1.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.0,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 20.0,
@@ -79,6 +68,17 @@
       "difference": 0.0,
       "percent": 95.0,
       "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 20.0,
+      "reached": 20.0,
+      "missing": 0.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "ok"
     },
     {
       "reference": "CENTRO",
@@ -228,9 +228,9 @@
     {
       "name": "Semana 4",
       "goal": 81,
-      "reached": 45.0,
-      "missing": 36.0,
-      "percent": 55.6
+      "reached": 46.0,
+      "missing": 35.0,
+      "percent": 56.8
     },
     {
       "name": "Semana 5",
