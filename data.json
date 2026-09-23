@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "23/09/2026 10:34",
+  "lastModified": "23/09/2026 10:35",
   "summary": {
     "commitment": 180260.0,
-    "reached": 40235.2,
-    "missing": 140024.8,
-    "percent": 22.3,
+    "reached": 42543.15,
+    "missing": 137716.85,
+    "percent": 23.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 0,
-    "pendingCount": 18
+    "positiveCount": 1,
+    "pendingCount": 17
   },
   "rows": [
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 14000.0,
-      "reached": 812.3,
-      "missing": 13187.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 5.8,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 14000.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 19.6,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 14000.0,
+      "reached": 2334.91,
+      "missing": 11665.09,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 16.7,
       "status": "pending"
     },
     {
@@ -205,12 +205,12 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2230.0,
-      "reached": 2038.61,
-      "missing": 191.39,
+      "reached": 2823.95,
+      "missing": -593.95,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 91.4,
-      "status": "pending"
+      "percent": 126.6,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 441646.4,
-      "missing": 253472.65,
-      "percent": 63.5
+      "reached": 443954.35,
+      "missing": 251164.7,
+      "percent": 63.9
     },
     {
       "name": "Semana 5",
