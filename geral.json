@@ -3,9 +3,9 @@
   "lastModified": "23/09/2026 13:26",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 4136306.83,
-    "missing": 1766193.17,
-    "percent": 70.1,
+    "reached": 4142564.91,
+    "missing": 1759935.09,
+    "percent": 70.2,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -29,11 +29,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
-      "reached": 277963.68,
-      "missing": 302036.32,
+      "reached": 280375.48,
+      "missing": 299624.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 47.9,
+      "percent": 48.3,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 245000.0,
-      "reached": 186217.2,
-      "missing": 58782.8,
+      "reached": 188433.08,
+      "missing": 56566.92,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.0,
+      "percent": 76.9,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 95554.86,
-      "missing": 46445.14,
+      "reached": 96463.46,
+      "missing": 45536.54,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 67.3,
+      "percent": 67.9,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 147000.0,
-      "reached": 118743.09,
-      "missing": 28256.91,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.8,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 170000.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 83.4,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 147000.0,
+      "reached": 119464.89,
+      "missing": 27535.11,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.3,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 900744.96,
-      "missing": 504612.04,
-      "percent": 64.1
+      "reached": 907003.04,
+      "missing": 498353.96,
+      "percent": 64.5
     },
     {
       "name": "Semana 5",
