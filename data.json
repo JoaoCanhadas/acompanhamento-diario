@@ -3,9 +3,9 @@
   "lastModified": "23/09/2026 09:32",
   "summary": {
     "commitment": 180260.0,
-    "reached": 22580.7,
-    "missing": 157679.3,
-    "percent": 12.5,
+    "reached": 23925.8,
+    "missing": 156334.2,
+    "percent": 13.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -117,11 +117,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 9520.0,
-      "reached": 2471.81,
-      "missing": 7048.19,
+      "reached": 2966.81,
+      "missing": 6553.19,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 26.0,
+      "percent": 31.2,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 5200.0,
-      "reached": 239.8,
-      "missing": 4960.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 4.6,
-      "status": "pending"
-    },
-    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 4880.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 5200.0,
+      "reached": 1089.9,
+      "missing": 4110.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 21.0,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 423991.9,
-      "missing": 271127.15,
-      "percent": 61.0
+      "reached": 425337.0,
+      "missing": 269782.05,
+      "percent": 61.2
     },
     {
       "name": "Semana 5",
