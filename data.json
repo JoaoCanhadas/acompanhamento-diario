@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/09/2026 10:44",
+  "lastModified": "24/09/2026 10:45",
   "summary": {
     "commitment": 130060.0,
-    "reached": 42255.9,
-    "missing": 87804.1,
-    "percent": 32.5,
+    "reached": 42685.0,
+    "missing": 87375.0,
+    "percent": 32.8,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 3100.0,
-      "reached": 2795.5,
-      "missing": 304.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.2,
-      "status": "pending"
-    },
-    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 3100.0,
+      "reached": 3224.6,
+      "missing": -124.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 104.0,
       "status": "ok"
     },
     {
@@ -261,9 +261,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 569272.82,
-      "missing": 125846.23,
-      "percent": 81.9
+      "reached": 569701.92,
+      "missing": 125417.13,
+      "percent": 82.0
     },
     {
       "name": "Semana 5",
