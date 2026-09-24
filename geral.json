@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "24/09/2026 13:32",
+  "lastModified": "24/09/2026 13:33",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 4548074.76,
-    "missing": 1354425.24,
-    "percent": 77.1,
+    "reached": 4555221.26,
+    "missing": 1347278.74,
+    "percent": 77.2,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -62,22 +62,11 @@
       "reference": "KEY SJC",
       "seller": "KEY SJC",
       "commitment": 142000.0,
-      "reached": 52182.1,
-      "missing": 89817.9,
+      "reached": 55168.7,
+      "missing": 86831.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 36.7,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 276000.0,
-      "reached": 214031.19,
-      "missing": 61968.81,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 77.5,
+      "percent": 38.9,
       "status": "pending"
     },
     {
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 82.7,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 276000.0,
+      "reached": 217696.19,
+      "missing": 58303.81,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 78.9,
       "status": "pending"
     },
     {
@@ -249,11 +249,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 67500.0,
-      "reached": 54236.32,
-      "missing": 13263.68,
+      "reached": 54731.22,
+      "missing": 12768.78,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.4,
+      "percent": 81.1,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 1312512.88,
-      "missing": 92844.12,
-      "percent": 93.4
+      "reached": 1319659.38,
+      "missing": 85697.62,
+      "percent": 93.9
     },
     {
       "name": "Semana 5",
