@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/09/2026 10:14",
+  "lastModified": "24/09/2026 10:15",
   "summary": {
     "commitment": 130060.0,
-    "reached": 28140.46,
-    "missing": 101919.54,
-    "percent": 21.6,
+    "reached": 30741.86,
+    "missing": 99318.14,
+    "percent": 23.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -29,11 +29,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 18500.0,
-      "reached": 2589.36,
-      "missing": 15910.64,
+      "reached": 3630.56,
+      "missing": 14869.44,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.0,
+      "percent": 19.6,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 4440.0,
-      "reached": 763.1,
-      "missing": 3676.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 17.2,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 4160.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 18.7,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 4440.0,
+      "reached": 1270.0,
+      "missing": 3170.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 28.6,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 3100.0,
-      "reached": 1687.19,
-      "missing": 1412.81,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 54.4,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 2330.0,
@@ -202,11 +191,33 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 3100.0,
+      "reached": 2595.59,
+      "missing": 504.41,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 83.7,
+      "status": "pending"
+    },
+    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
       "reached": 51.0,
       "missing": -51.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "",
+      "seller": "ECOMMERCE",
+      "commitment": 0.0,
+      "reached": 144.9,
+      "missing": -144.9,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -250,9 +261,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 555146.83,
-      "missing": 139972.22,
-      "percent": 79.9
+      "reached": 557748.23,
+      "missing": 137370.82,
+      "percent": 80.2
     },
     {
       "name": "Semana 5",
