@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "24/09/2026 10:23",
+  "lastModified": "24/09/2026 10:24",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 4302150.51,
-    "missing": 1600349.49,
-    "percent": 72.9,
+    "reached": 4400399.61,
+    "missing": 1502100.39,
+    "percent": 74.6,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -26,17 +26,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 980000.0,
-      "reached": 684463.3,
-      "missing": 295536.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 69.8,
-      "status": "pending"
-    },
-    {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 41.7,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 980000.0,
+      "reached": 782712.4,
+      "missing": 197287.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 79.9,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 1066588.64,
-      "missing": 338768.36,
-      "percent": 75.9
+      "reached": 1164837.74,
+      "missing": 240519.26,
+      "percent": 82.9
     },
     {
       "name": "Semana 5",
