@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/09/2026 12:04",
+  "lastModified": "24/09/2026 12:05",
   "summary": {
     "commitment": 130060.0,
-    "reached": 66199.49,
-    "missing": 63860.51,
-    "percent": 50.9,
+    "reached": 67997.29,
+    "missing": 62062.71,
+    "percent": 52.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 6050.0,
-      "reached": 4639.7,
-      "missing": 1410.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.7,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 4440.0,
@@ -155,17 +144,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 75.0,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 3600.0,
-      "reached": 2761.8,
-      "missing": 838.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.7,
       "status": "pending"
     },
     {
@@ -191,6 +169,17 @@
       "status": "pending"
     },
     {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 3600.0,
+      "reached": 2931.7,
+      "missing": 668.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.4,
+      "status": "pending"
+    },
+    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 6050.0,
+      "reached": 6267.6,
+      "missing": -217.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 103.6,
       "status": "ok"
     },
     {
@@ -261,9 +261,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 593216.41,
-      "missing": 101902.64,
-      "percent": 85.3
+      "reached": 595014.21,
+      "missing": 100104.84,
+      "percent": 85.6
     },
     {
       "name": "Semana 5",
