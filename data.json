@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "24/09/2026 12:12",
+  "lastModified": "24/09/2026 12:13",
   "summary": {
     "commitment": 130060.0,
-    "reached": 68596.79,
-    "missing": 61463.21,
-    "percent": 52.7,
+    "reached": 69225.39,
+    "missing": 60834.61,
+    "percent": 53.2,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 3,
-    "pendingCount": 15
+    "positiveCount": 4,
+    "pendingCount": 14
   },
   "rows": [
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 3600.0,
-      "reached": 3531.2,
-      "missing": 68.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 98.1,
-      "status": "pending"
-    },
-    {
       "reference": "",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -224,6 +213,17 @@
       "status": "ok"
     },
     {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 3600.0,
+      "reached": 4159.8,
+      "missing": -559.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 115.5,
+      "status": "ok"
+    },
+    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 6400.0,
@@ -261,9 +261,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 595613.71,
-      "missing": 99505.34,
-      "percent": 85.7
+      "reached": 596242.31,
+      "missing": 98876.74,
+      "percent": 85.8
     },
     {
       "name": "Semana 5",
