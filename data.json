@@ -3,9 +3,9 @@
   "lastModified": "24/09/2026 10:30",
   "summary": {
     "commitment": 130060.0,
-    "reached": 40139.11,
-    "missing": 89920.89,
-    "percent": 30.9,
+    "reached": 40676.89,
+    "missing": 89383.11,
+    "percent": 31.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -150,22 +150,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 3330.0,
-      "reached": 1285.85,
-      "missing": 2044.15,
+      "reached": 1343.61,
+      "missing": 1986.39,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.6,
-      "status": "pending"
-    },
-    {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 2370.0,
-      "reached": 1112.1,
-      "missing": 1257.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 46.9,
+      "percent": 40.3,
       "status": "pending"
     },
     {
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 76.7,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 2370.0,
+      "reached": 1592.12,
+      "missing": 777.88,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 67.2,
       "status": "pending"
     },
     {
