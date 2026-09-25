@@ -3,9 +3,9 @@
   "lastModified": "25/09/2026 16:02",
   "summary": {
     "commitment": 100830.0,
-    "reached": 80726.55,
-    "missing": 20103.45,
-    "percent": 80.1,
+    "reached": 80226.55,
+    "missing": 20603.45,
+    "percent": 79.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -92,6 +92,17 @@
       "status": "pending"
     },
     {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 4710.0,
+      "reached": 2951.5,
+      "missing": 1758.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 62.7,
+      "status": "pending"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 2940.0,
@@ -100,17 +111,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 52.1,
-      "status": "pending"
-    },
-    {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 4710.0,
-      "reached": 3451.5,
-      "missing": 1258.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 73.3,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 720258.01,
-      "missing": -25138.96,
-      "percent": 103.6
+      "reached": 719758.01,
+      "missing": -24638.96,
+      "percent": 103.5
     },
     {
       "name": "Semana 5",
