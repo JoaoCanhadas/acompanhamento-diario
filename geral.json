@@ -3,8 +3,8 @@
   "lastModified": "25/09/2026 12:28",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 4666791.89,
-    "missing": 1235708.11,
+    "reached": 4668529.89,
+    "missing": 1233970.11,
     "percent": 79.1,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 276000.0,
-      "reached": 223003.19,
-      "missing": 52996.81,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.8,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 340000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 84.7,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 276000.0,
+      "reached": 224741.19,
+      "missing": 51258.81,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.4,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 1431230.01,
-      "missing": -25873.01,
-      "percent": 101.8
+      "reached": 1432968.01,
+      "missing": -27611.01,
+      "percent": 102.0
     },
     {
       "name": "Semana 5",
