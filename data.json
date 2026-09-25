@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "25/09/2026 11:48",
+  "lastModified": "25/09/2026 11:49",
   "summary": {
     "commitment": 100830.0,
-    "reached": 39863.97,
-    "missing": 60966.03,
-    "percent": 39.5,
+    "reached": 41357.31,
+    "missing": 59472.69,
+    "percent": 41.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -51,11 +51,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 9400.0,
-      "reached": 3475.77,
-      "missing": 5924.23,
+      "reached": 3916.56,
+      "missing": 5483.44,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 37.0,
+      "percent": 41.7,
       "status": "pending"
     },
     {
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 7690.0,
-      "reached": 4026.94,
-      "missing": 3663.06,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 52.4,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 4710.0,
@@ -103,14 +92,14 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 3020.0,
-      "reached": 275.9,
-      "missing": 2744.1,
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 7690.0,
+      "reached": 4569.79,
+      "missing": 3120.21,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 9.1,
+      "percent": 59.4,
       "status": "pending"
     },
     {
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 56.9,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 3020.0,
+      "reached": 785.6,
+      "missing": 2234.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 26.0,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 679395.43,
-      "missing": 15723.62,
-      "percent": 97.7
+      "reached": 680888.77,
+      "missing": 14230.28,
+      "percent": 98.0
     },
     {
       "name": "Semana 5",
