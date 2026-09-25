@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "25/09/2026 15:08",
+  "lastModified": "25/09/2026 15:09",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 4748417.03,
-    "missing": 1154082.97,
-    "percent": 80.4,
+    "reached": 4749521.04,
+    "missing": 1152978.96,
+    "percent": 80.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -95,8 +95,8 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 326500.0,
-      "reached": 284671.19,
-      "missing": 41828.81,
+      "reached": 284671.2,
+      "missing": 41828.8,
       "average": 0.0,
       "difference": 0.0,
       "percent": 87.2,
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 76500.0,
-      "reached": 58014.41,
-      "missing": 18485.59,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 75.8,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 80000.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 81.1,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 76500.0,
+      "reached": 59118.41,
+      "missing": 17381.59,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.3,
       "status": "pending"
     },
     {
@@ -327,9 +327,9 @@
     {
       "name": "Semana 4",
       "goal": 1405357,
-      "reached": 1512855.16,
-      "missing": -107498.16,
-      "percent": 107.6
+      "reached": 1513959.16,
+      "missing": -108602.16,
+      "percent": 107.7
     },
     {
       "name": "Semana 5",
