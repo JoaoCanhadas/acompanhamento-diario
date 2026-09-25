@@ -3,26 +3,26 @@
   "lastModified": "25/09/2026 13:12",
   "summary": {
     "commitment": 100830.0,
-    "reached": 55915.96,
-    "missing": 44914.04,
-    "percent": 55.5,
+    "reached": 57133.41,
+    "missing": 43696.59,
+    "percent": 56.7,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 3,
-    "pendingCount": 15
+    "positiveCount": 4,
+    "pendingCount": 14
   },
   "rows": [
     {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 12100.0,
-      "reached": 3173.31,
-      "missing": 8926.69,
+      "reached": 3870.16,
+      "missing": 8229.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 26.2,
+      "percent": 32.0,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 9400.0,
-      "reached": 5796.01,
-      "missing": 3603.99,
+      "reached": 5886.91,
+      "missing": 3513.09,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 61.7,
+      "percent": 62.6,
       "status": "pending"
     },
     {
@@ -172,12 +172,12 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 1740.0,
-      "reached": 1565.01,
-      "missing": 174.99,
+      "reached": 1994.71,
+      "missing": -254.71,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 89.9,
-      "status": "pending"
+      "percent": 114.6,
+      "status": "ok"
     },
     {
       "reference": "SANTO ANDRE",
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 695747.21,
-      "missing": -628.16,
-      "percent": 100.1
+      "reached": 696664.86,
+      "missing": -1545.81,
+      "percent": 100.2
     },
     {
       "name": "Semana 5",
