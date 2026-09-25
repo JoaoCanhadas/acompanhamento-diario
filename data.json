@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "25/09/2026 10:12",
+  "lastModified": "25/09/2026 10:13",
   "summary": {
     "commitment": 100830.0,
-    "reached": 17236.78,
-    "missing": 83593.22,
-    "percent": 17.1,
+    "reached": 20721.8,
+    "missing": 80108.2,
+    "percent": 20.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -29,11 +29,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 12100.0,
-      "reached": 0.0,
-      "missing": 12100.0,
+      "reached": 542.5,
+      "missing": 11557.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 4.5,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 3520.0,
-      "reached": 0.0,
-      "missing": 3520.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 4710.0,
@@ -150,8 +139,8 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5520.0,
-      "reached": 3138.25,
-      "missing": 2381.75,
+      "reached": 3138.27,
+      "missing": 2381.73,
       "average": 0.0,
       "difference": 0.0,
       "percent": 56.9,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 57.4,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 3520.0,
+      "reached": 2942.5,
+      "missing": 577.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 83.6,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 656768.24,
-      "missing": 38350.81,
-      "percent": 94.5
+      "reached": 660253.26,
+      "missing": 34865.79,
+      "percent": 95.0
     },
     {
       "name": "Semana 5",
