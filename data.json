@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "25/09/2026 10:20",
+  "lastModified": "25/09/2026 10:21",
   "summary": {
     "commitment": 100830.0,
-    "reached": 20871.48,
-    "missing": 79958.52,
-    "percent": 20.7,
+    "reached": 21844.56,
+    "missing": 78985.44,
+    "percent": 21.7,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -29,11 +29,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 12100.0,
-      "reached": 692.18,
-      "missing": 11407.82,
+      "reached": 1164.68,
+      "missing": 10935.32,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 5.7,
+      "percent": 9.6,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 6050.0,
-      "reached": 0.0,
-      "missing": 6050.0,
+      "reached": 299.8,
+      "missing": 5750.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 5.0,
       "status": "pending"
     },
     {
@@ -139,22 +139,22 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5520.0,
-      "reached": 3138.27,
-      "missing": 2381.73,
+      "reached": 3177.15,
+      "missing": 2342.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 56.9,
+      "percent": 57.6,
       "status": "pending"
     },
     {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 2560.0,
-      "reached": 762.81,
-      "missing": 1797.19,
+      "reached": 924.71,
+      "missing": 1635.29,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 29.8,
+      "percent": 36.1,
       "status": "pending"
     },
     {
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 660441.82,
-      "missing": 34677.23,
-      "percent": 95.0
+      "reached": 661376.02,
+      "missing": 33743.03,
+      "percent": 95.1
     },
     {
       "name": "Semana 5",
