@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "25/09/2026 09:40",
+  "lastModified": "25/09/2026 09:41",
   "summary": {
     "commitment": 100830.0,
-    "reached": 11176.37,
-    "missing": 89653.63,
-    "percent": 11.1,
+    "reached": 13360.58,
+    "missing": 87469.42,
+    "percent": 13.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 5520.0,
-      "reached": 1147.8,
-      "missing": 4372.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 20.8,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 3520.0,
@@ -147,14 +136,25 @@
       "status": "pending"
     },
     {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 5520.0,
+      "reached": 2934.8,
+      "missing": 2585.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 53.2,
+      "status": "pending"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 2940.0,
-      "reached": 0.0,
-      "missing": 2940.0,
+      "reached": 397.2,
+      "missing": 2542.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 13.5,
       "status": "pending"
     },
     {
@@ -205,8 +205,8 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 1630.0,
-      "reached": 3093.0,
-      "missing": -1463.0,
+      "reached": 3093.01,
+      "missing": -1463.01,
       "average": 0.0,
       "difference": 0.0,
       "percent": 189.8,
@@ -239,9 +239,9 @@
     {
       "name": "Semana 4",
       "goal": 695119.05,
-      "reached": 650707.83,
-      "missing": 44411.22,
-      "percent": 93.6
+      "reached": 652892.04,
+      "missing": 42227.01,
+      "percent": 93.9
     },
     {
       "name": "Semana 5",
