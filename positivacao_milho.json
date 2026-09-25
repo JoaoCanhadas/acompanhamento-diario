@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "24/09/2026 16:13",
+  "lastModified": "25/09/2026 07:36",
   "summary": {
     "commitment": 340.0,
     "reached": 434.0,
@@ -81,17 +81,6 @@
       "status": "ok"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 20.0,
-      "reached": 21.0,
-      "missing": -1.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 105.0,
-      "status": "ok"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 20.0,
@@ -116,6 +105,17 @@
     {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
+      "commitment": 20.0,
+      "reached": 21.0,
+      "missing": -1.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 105.0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
       "commitment": 20.0,
       "reached": 21.0,
       "missing": -1.0,
