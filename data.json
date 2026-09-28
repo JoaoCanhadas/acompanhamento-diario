@@ -3,9 +3,9 @@
   "lastModified": "28/09/2026 07:59",
   "summary": {
     "commitment": 100830.0,
-    "reached": 12546.76,
-    "missing": 88283.24,
-    "percent": 12.4,
+    "reached": 10854.06,
+    "missing": 89975.94,
+    "percent": 10.8,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -81,6 +81,17 @@
       "status": "pending"
     },
     {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 7690.0,
+      "reached": 1976.8,
+      "missing": 5713.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 25.7,
+      "status": "pending"
+    },
+    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5520.0,
@@ -100,17 +111,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 7690.0,
-      "reached": 3669.5,
-      "missing": 4020.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.7,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 12546.76,
-      "missing": 404524.67,
-      "percent": 3.0
+      "reached": 10854.06,
+      "missing": 406217.37,
+      "percent": 2.6
     }
   ]
 }
