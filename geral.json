@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/09/2026 13:19",
+  "lastModified": "28/09/2026 13:20",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 4978780.28,
-    "missing": 923719.72,
+    "reached": 4980717.23,
+    "missing": 921782.77,
     "percent": 84.4,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -161,11 +161,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 203000.0,
-      "reached": 188217.79,
-      "missing": 14782.21,
+      "reached": 189341.99,
+      "missing": 13658.01,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.7,
+      "percent": 93.3,
       "status": "pending"
     },
     {
@@ -213,17 +213,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 147000.0,
-      "reached": 139746.37,
-      "missing": 7253.63,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.1,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 67500.0,
@@ -232,6 +221,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 89.5,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 147000.0,
+      "reached": 140001.22,
+      "missing": 6998.78,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 95.2,
       "status": "pending"
     },
     {
@@ -282,11 +282,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 170000.0,
-      "reached": 172735.29,
-      "missing": -2735.29,
+      "reached": 173293.19,
+      "missing": -3293.19,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 101.6,
+      "percent": 101.9,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 226675.49,
-      "missing": 616538.51,
-      "percent": 26.9
+      "reached": 228612.44,
+      "missing": 614601.56,
+      "percent": 27.1
     }
   ]
 }
