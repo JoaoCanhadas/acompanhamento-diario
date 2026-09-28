@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/09/2026 09:10",
+  "lastModified": "28/09/2026 09:11",
   "summary": {
     "commitment": 100830.0,
-    "reached": 32067.01,
-    "missing": 68762.99,
-    "percent": 31.8,
+    "reached": 36210.91,
+    "missing": 64619.09,
+    "percent": 35.9,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 2,
-    "pendingCount": 16
+    "positiveCount": 3,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 7690.0,
-      "reached": 6373.9,
-      "missing": 1316.1,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 82.9,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 1270.0,
@@ -191,14 +180,14 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 2940.0,
-      "reached": 2973.78,
-      "missing": -33.78,
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 7690.0,
+      "reached": 7713.0,
+      "missing": -23.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 101.1,
+      "percent": 100.3,
       "status": "ok"
     },
     {
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 154.3,
+      "status": "ok"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 2940.0,
+      "reached": 5778.58,
+      "missing": -2838.58,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 196.6,
       "status": "ok"
     }
   ],
@@ -246,8 +246,8 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 36207.51,
-      "missing": 380863.92,
+      "reached": 36210.91,
+      "missing": 380860.52,
       "percent": 8.7
     }
   ]
