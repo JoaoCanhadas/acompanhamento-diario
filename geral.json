@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "25/09/2026 16:30",
+  "lastModified": "28/09/2026 07:35",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 4753715.74,
-    "missing": 1148784.26,
-    "percent": 80.5,
+    "reached": 4759754.93,
+    "missing": 1142745.07,
+    "percent": 80.6,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -81,22 +81,11 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 276000.0,
-      "reached": 233913.59,
-      "missing": 42086.41,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 84.8,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 326500.0,
-      "reached": 284671.2,
-      "missing": 41828.8,
+      "reached": 284671.19,
+      "missing": 41828.81,
       "average": 0.0,
       "difference": 0.0,
       "percent": 87.2,
@@ -114,6 +103,17 @@
       "status": "pending"
     },
     {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 276000.0,
+      "reached": 236098.19,
+      "missing": 39901.81,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 85.5,
+      "status": "pending"
+    },
+    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 265000.0,
@@ -128,22 +128,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 103869.48,
-      "missing": 38130.52,
+      "reached": 104768.68,
+      "missing": 37231.32,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 73.1,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 145000.0,
-      "reached": 110472.71,
-      "missing": 34527.29,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.2,
+      "percent": 73.8,
       "status": "pending"
     },
     {
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 86.0,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 145000.0,
+      "reached": 113428.11,
+      "missing": 31571.89,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 78.2,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 0.0,
-      "missing": 843214.0,
-      "percent": 0.0
+      "reached": 6039.2,
+      "missing": 837174.8,
+      "percent": 0.7
     }
   ]
 }
