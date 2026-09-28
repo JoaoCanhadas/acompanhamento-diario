@@ -3,8 +3,8 @@
   "lastModified": "28/09/2026 14:01",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5028302.56,
-    "missing": 874197.44,
+    "reached": 5030060.41,
+    "missing": 872439.59,
     "percent": 85.2,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 279142.69,
-      "missing": 200857.31,
+      "reached": 280137.04,
+      "missing": 199862.96,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.2,
+      "percent": 58.4,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 276000.0,
-      "reached": 250046.57,
-      "missing": 25953.43,
+      "reached": 250616.57,
+      "missing": 25383.43,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.6,
+      "percent": 90.8,
       "status": "pending"
     },
     {
@@ -227,11 +227,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 67500.0,
-      "reached": 62277.02,
-      "missing": 5222.98,
+      "reached": 62470.52,
+      "missing": 5029.48,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.3,
+      "percent": 92.5,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 276197.77,
-      "missing": 567016.23,
-      "percent": 32.8
+      "reached": 277955.62,
+      "missing": 565258.38,
+      "percent": 33.0
     }
   ]
 }
