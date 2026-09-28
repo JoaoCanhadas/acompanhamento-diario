@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/09/2026 13:49",
+  "lastModified": "28/09/2026 13:50",
   "summary": {
     "commitment": 300550.0,
-    "reached": 220373.45,
-    "missing": 80176.55,
+    "reached": 220381.45,
+    "missing": 80168.55,
     "percent": 73.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
@@ -194,11 +194,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 5790.0,
-      "reached": 6469.94,
-      "missing": -679.94,
+      "reached": 6477.94,
+      "missing": -687.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 111.7,
+      "percent": 111.9,
       "status": "ok"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 220373.45,
-      "missing": 196697.98,
-      "percent": 52.8
+      "reached": 222109.94,
+      "missing": 194961.49,
+      "percent": 53.3
     }
   ]
 }
