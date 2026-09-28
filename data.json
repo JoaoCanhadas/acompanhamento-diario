@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/09/2026 14:05",
+  "lastModified": "28/09/2026 14:06",
   "summary": {
     "commitment": 300550.0,
-    "reached": 227030.06,
-    "missing": 73519.94,
-    "percent": 75.5,
+    "reached": 227614.97,
+    "missing": 72935.03,
+    "percent": 75.7,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -18,22 +18,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 37000.0,
-      "reached": 24142.35,
-      "missing": 12857.65,
+      "reached": 24212.35,
+      "missing": 12787.65,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 65.2,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 26000.0,
-      "reached": 16702.98,
-      "missing": 9297.02,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 64.2,
+      "percent": 65.4,
       "status": "pending"
     },
     {
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 68.1,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 26000.0,
+      "reached": 17142.89,
+      "missing": 8857.11,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.9,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 10910.0,
-      "reached": 5483.25,
-      "missing": 5426.75,
+      "reached": 5558.25,
+      "missing": 5351.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.3,
+      "percent": 50.9,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 227030.06,
-      "missing": 190041.37,
-      "percent": 54.4
+      "reached": 227614.97,
+      "missing": 189456.46,
+      "percent": 54.6
     }
   ]
 }

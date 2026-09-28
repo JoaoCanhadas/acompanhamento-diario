@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "28/09/2026 14:05",
+  "lastModified": "28/09/2026 14:06",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5030071.51,
-    "missing": 872428.49,
-    "percent": 85.2,
+    "reached": 5032956.27,
+    "missing": 869543.73,
+    "percent": 85.3,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 280137.04,
-      "missing": 199862.96,
+      "reached": 282436.89,
+      "missing": 197563.11,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.4,
+      "percent": 58.8,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 276000.0,
-      "reached": 250616.57,
-      "missing": 25383.43,
+      "reached": 251056.48,
+      "missing": 24943.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.8,
+      "percent": 91.0,
       "status": "pending"
     },
     {
@@ -117,8 +117,8 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 340000.0,
-      "reached": 318129.55,
-      "missing": 21870.45,
+      "reached": 318199.55,
+      "missing": 21800.45,
       "average": 0.0,
       "difference": 0.0,
       "percent": 93.6,
@@ -172,11 +172,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
-      "reached": 64320.16,
-      "missing": 12179.84,
+      "reached": 64395.16,
+      "missing": 12104.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 84.1,
+      "percent": 84.2,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 277966.72,
-      "missing": 565247.28,
-      "percent": 33.0
+      "reached": 280851.48,
+      "missing": 562362.52,
+      "percent": 33.3
     }
   ]
 }
