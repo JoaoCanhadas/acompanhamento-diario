@@ -3,9 +3,9 @@
   "lastModified": "28/09/2026 09:42",
   "summary": {
     "commitment": 300550.0,
-    "reached": 43841.53,
-    "missing": 256708.47,
-    "percent": 14.6,
+    "reached": 44661.93,
+    "missing": 255888.07,
+    "percent": 14.9,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -15,17 +15,6 @@
   },
   "rows": [
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 37000.0,
-      "reached": 7713.0,
-      "missing": 29287.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 20.8,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 29000.0,
@@ -34,6 +23,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 37000.0,
+      "reached": 8533.4,
+      "missing": 28466.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 23.1,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 43841.53,
-      "missing": 373229.9,
-      "percent": 10.5
+      "reached": 44661.93,
+      "missing": 372409.5,
+      "percent": 10.7
     }
   ]
 }
