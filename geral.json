@@ -3,8 +3,8 @@
   "lastModified": "28/09/2026 08:23",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 4772069.04,
-    "missing": 1130430.96,
+    "reached": 4771831.54,
+    "missing": 1130668.46,
     "percent": 80.8,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -180,6 +180,17 @@
       "status": "pending"
     },
     {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 80000.0,
+      "reached": 62312.85,
+      "missing": 17687.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.9,
+      "status": "pending"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
@@ -199,17 +210,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 81.1,
-      "status": "pending"
-    },
-    {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 80000.0,
-      "reached": 62550.35,
-      "missing": 17449.65,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 78.2,
       "status": "pending"
     },
     {
