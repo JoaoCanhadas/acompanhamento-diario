@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/09/2026 10:13",
+  "lastModified": "28/09/2026 10:14",
   "summary": {
     "commitment": 300550.0,
-    "reached": 61360.2,
-    "missing": 239189.8,
-    "percent": 20.4,
+    "reached": 63798.6,
+    "missing": 236751.4,
+    "percent": 21.2,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -23,17 +23,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 23.6,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 29000.0,
-      "reached": 4727.06,
-      "missing": 24272.94,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 16.3,
       "status": "pending"
     },
     {
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 10.2,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 29000.0,
+      "reached": 6304.76,
+      "missing": 22695.24,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 21.7,
       "status": "pending"
     },
     {
@@ -106,22 +106,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 15180.0,
-      "reached": 3365.15,
-      "missing": 11814.85,
+      "reached": 3581.65,
+      "missing": 11598.35,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 22.2,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 15500.0,
-      "reached": 3777.17,
-      "missing": 11722.83,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 24.4,
+      "percent": 23.6,
       "status": "pending"
     },
     {
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 16.1,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 15500.0,
+      "reached": 4421.37,
+      "missing": 11078.63,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 28.5,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 61360.2,
-      "missing": 355711.23,
-      "percent": 14.7
+      "reached": 63798.6,
+      "missing": 353272.83,
+      "percent": 15.3
     }
   ]
 }
