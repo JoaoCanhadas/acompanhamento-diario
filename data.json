@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/09/2026 13:09",
+  "lastModified": "28/09/2026 13:10",
   "summary": {
     "commitment": 300550.0,
-    "reached": 171211.78,
-    "missing": 129338.22,
-    "percent": 57.0,
+    "reached": 178996.07,
+    "missing": 121553.93,
+    "percent": 59.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -23,17 +23,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 51.2,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 26210.0,
-      "reached": 12990.7,
-      "missing": 13219.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 49.6,
       "status": "pending"
     },
     {
@@ -81,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 16710.0,
-      "reached": 5953.65,
-      "missing": 10756.35,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 35.6,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 15180.0,
@@ -103,14 +81,14 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 13240.0,
-      "reached": 4844.23,
-      "missing": 8395.77,
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 26210.0,
+      "reached": 16515.31,
+      "missing": 9694.69,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 36.6,
+      "percent": 63.0,
       "status": "pending"
     },
     {
@@ -122,6 +100,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 51.6,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 13240.0,
+      "reached": 5550.33,
+      "missing": 7689.67,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 41.9,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 16710.0,
+      "reached": 9205.35,
+      "missing": 7504.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 55.1,
       "status": "pending"
     },
     {
@@ -139,22 +139,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 20200.0,
-      "reached": 15864.5,
-      "missing": 4335.5,
+      "reached": 16016.48,
+      "missing": 4183.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 78.5,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 15500.0,
-      "reached": 12929.66,
-      "missing": 2570.34,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 83.4,
+      "percent": 79.3,
       "status": "pending"
     },
     {
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 80.5,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 15500.0,
+      "reached": 13079.56,
+      "missing": 2420.44,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 84.4,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 171211.78,
-      "missing": 245859.65,
-      "percent": 41.1
+      "reached": 178996.07,
+      "missing": 238075.36,
+      "percent": 42.9
     }
   ]
 }
