@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "28/09/2026 07:36",
+  "lastModified": "28/09/2026 07:37",
   "summary": {
     "commitment": 100830.0,
-    "reached": 6039.2,
-    "missing": 94790.8,
-    "percent": 6.0,
+    "reached": 6519.01,
+    "missing": 94310.99,
+    "percent": 6.5,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -95,11 +95,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5520.0,
-      "reached": 0.0,
-      "missing": 5520.0,
+      "reached": 479.81,
+      "missing": 5040.19,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 8.7,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 6039.2,
-      "missing": 411032.23,
-      "percent": 1.4
+      "reached": 6519.01,
+      "missing": 410552.42,
+      "percent": 1.6
     }
   ]
 }
