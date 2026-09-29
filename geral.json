@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/09/2026 11:03",
+  "lastModified": "29/09/2026 11:04",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5166694.22,
-    "missing": 735805.78,
+    "reached": 5167074.62,
+    "missing": 735425.38,
     "percent": 87.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -202,17 +202,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 67500.0,
-      "reached": 62959.52,
-      "missing": 4540.48,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 93.3,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 147000.0,
@@ -221,6 +210,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 97.2,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 67500.0,
+      "reached": 63339.92,
+      "missing": 4160.08,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 93.8,
       "status": "pending"
     },
     {
@@ -334,8 +334,8 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 415388.94,
-      "missing": 427825.06,
+      "reached": 415769.34,
+      "missing": 427444.66,
       "percent": 49.3
     }
   ]
