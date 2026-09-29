@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "29/09/2026 13:48",
+  "lastModified": "29/09/2026 13:49",
   "summary": {
     "commitment": 200230.0,
-    "reached": 116090.52,
-    "missing": 84139.48,
-    "percent": 58.0,
+    "reached": 123601.52,
+    "missing": 76628.48,
+    "percent": 61.7,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 1,
-    "pendingCount": 17
+    "positiveCount": 2,
+    "pendingCount": 16
   },
   "rows": [
     {
@@ -59,28 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 10020.0,
-      "reached": 3834.45,
-      "missing": 6185.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 38.3,
-      "status": "pending"
-    },
-    {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 20690.0,
-      "reached": 14727.6,
-      "missing": 5962.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 71.2,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 8900.0,
@@ -92,14 +70,14 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 10430.0,
-      "reached": 4885.87,
-      "missing": 5544.13,
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 10020.0,
+      "reached": 4388.55,
+      "missing": 5631.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 46.8,
+      "percent": 43.8,
       "status": "pending"
     },
     {
@@ -114,6 +92,28 @@
       "status": "pending"
     },
     {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 10430.0,
+      "reached": 5698.47,
+      "missing": 4731.53,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 54.6,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 20690.0,
+      "reached": 16872.5,
+      "missing": 3817.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.5,
+      "status": "pending"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 6690.0,
@@ -122,17 +122,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 45.8,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 6600.0,
-      "reached": 3126.02,
-      "missing": 3473.98,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.4,
       "status": "pending"
     },
     {
@@ -211,6 +200,17 @@
       "difference": 0.0,
       "percent": 108.1,
       "status": "ok"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 6600.0,
+      "reached": 7125.42,
+      "missing": -525.42,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 108.0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 350907.23,
-      "missing": 66164.2,
-      "percent": 84.1
+      "reached": 358418.23,
+      "missing": 58653.2,
+      "percent": 85.9
     }
   ]
 }
