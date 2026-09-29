@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "29/09/2026 15:01",
+  "lastModified": "29/09/2026 15:02",
   "summary": {
     "commitment": 549000.0,
-    "reached": 202492.65,
-    "missing": 346507.35,
-    "percent": 36.9,
+    "reached": 217551.25,
+    "missing": 331448.75,
+    "percent": 39.6,
     "weekGoal": 568000,
     "weekRevenue": 168854.91,
     "weekMissing": 399145.09,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 75000.0,
-      "reached": 17579.15,
-      "missing": 57420.85,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 23.4,
-      "status": "pending"
-    },
-    {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 89000.0,
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 43.4,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 75000.0,
+      "reached": 32637.75,
+      "missing": 42362.25,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 43.5,
       "status": "pending"
     },
     {
@@ -114,9 +114,9 @@
     {
       "name": "Semana 5",
       "goal": 426000,
-      "reached": 202492.65,
-      "missing": 223507.35,
-      "percent": 47.5
+      "reached": 217551.25,
+      "missing": 208448.75,
+      "percent": 51.1
     }
   ]
 }
