@@ -3,9 +3,9 @@
   "lastModified": "29/09/2026 13:33",
   "summary": {
     "commitment": 200230.0,
-    "reached": 108283.58,
-    "missing": 91946.42,
-    "percent": 54.1,
+    "reached": 113756.76,
+    "missing": 86473.24,
+    "percent": 56.8,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -48,25 +48,14 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20000.0,
-      "reached": 11633.03,
-      "missing": 8366.97,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 58.2,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 10020.0,
-      "reached": 3261.46,
-      "missing": 6758.54,
+      "reached": 3499.41,
+      "missing": 6520.59,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 32.5,
+      "percent": 34.9,
       "status": "pending"
     },
     {
@@ -78,17 +67,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 27.2,
-      "status": "pending"
-    },
-    {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 10430.0,
-      "reached": 4402.25,
-      "missing": 6027.75,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.2,
       "status": "pending"
     },
     {
@@ -114,6 +92,17 @@
       "status": "pending"
     },
     {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 10430.0,
+      "reached": 4885.87,
+      "missing": 5544.13,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 46.8,
+      "status": "pending"
+    },
+    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 6670.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 26.8,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20000.0,
+      "reached": 16099.64,
+      "missing": 3900.36,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 80.5,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 5620.0,
-      "reached": 4272.92,
-      "missing": 1347.08,
+      "reached": 4557.92,
+      "missing": 1062.08,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 76.0,
+      "percent": 81.1,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 343100.29,
-      "missing": 73971.14,
-      "percent": 82.3
+      "reached": 348573.46,
+      "missing": 68497.97,
+      "percent": 83.6
     }
   ]
 }
