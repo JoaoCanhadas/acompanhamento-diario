@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/09/2026 16:16",
+  "lastModified": "29/09/2026 16:17",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5339674.35,
-    "missing": 562825.65,
+    "reached": 5339174.35,
+    "missing": 563325.65,
     "percent": 90.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -128,11 +128,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
-      "reached": 70934.02,
-      "missing": 5565.98,
+      "reached": 70434.02,
+      "missing": 6065.98,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.7,
+      "percent": 92.1,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 588369.07,
-      "missing": 254844.93,
-      "percent": 69.8
+      "reached": 587869.07,
+      "missing": 255344.93,
+      "percent": 69.7
     }
   ]
 }
