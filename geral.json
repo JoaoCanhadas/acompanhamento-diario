@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/09/2026 11:35",
+  "lastModified": "29/09/2026 11:36",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5177773.84,
-    "missing": 724726.16,
-    "percent": 87.7,
+    "reached": 5172150.34,
+    "missing": 730349.66,
+    "percent": 87.6,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 305726.99,
-      "missing": 174273.01,
+      "reached": 299292.79,
+      "missing": 180707.21,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 63.7,
+      "percent": 62.4,
       "status": "pending"
     },
     {
@@ -106,8 +106,8 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 276000.0,
-      "reached": 258221.03,
-      "missing": 17778.97,
+      "reached": 258291.03,
+      "missing": 17708.97,
       "average": 0.0,
       "difference": 0.0,
       "percent": 93.6,
@@ -161,11 +161,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
-      "reached": 69103.66,
-      "missing": 7396.34,
+      "reached": 69175.66,
+      "missing": 7324.34,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.3,
+      "percent": 90.4,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 93000.0,
-      "reached": 88521.55,
-      "missing": 4478.45,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.2,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 147000.0,
@@ -221,6 +210,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 94.1,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 93000.0,
+      "reached": 89190.25,
+      "missing": 3809.75,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 95.9,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 425792.56,
-      "missing": 417421.44,
-      "percent": 50.5
+      "reached": 420845.06,
+      "missing": 422368.94,
+      "percent": 49.9
     }
   ]
 }
