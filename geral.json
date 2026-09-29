@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/09/2026 08:08",
+  "lastModified": "29/09/2026 08:09",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5079463.95,
-    "missing": 823036.05,
+    "reached": 5081191.43,
+    "missing": 821308.57,
     "percent": 86.1,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 340000.0,
-      "reached": 320791.77,
-      "missing": 19208.23,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.4,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 87.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 340000.0,
+      "reached": 322369.17,
+      "missing": 17630.83,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 94.8,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 203000.0,
-      "reached": 191802.28,
-      "missing": 11197.72,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.5,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 85.4,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 203000.0,
+      "reached": 191952.36,
+      "missing": 11047.64,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 94.6,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 328158.66,
-      "missing": 515055.34,
-      "percent": 38.9
+      "reached": 329886.14,
+      "missing": 513327.86,
+      "percent": 39.1
     }
   ]
 }
