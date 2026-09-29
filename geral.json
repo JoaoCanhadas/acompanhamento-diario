@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/09/2026 09:35",
+  "lastModified": "29/09/2026 09:36",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5106415.16,
-    "missing": 796084.84,
+    "reached": 5108577.44,
+    "missing": 793922.56,
     "percent": 86.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -18,11 +18,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
-      "reached": 316150.64,
-      "missing": 263849.36,
+      "reached": 316923.12,
+      "missing": 263076.88,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 54.5,
+      "percent": 54.6,
       "status": "pending"
     },
     {
@@ -70,25 +70,25 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 122000.0,
-      "reached": 93023.99,
-      "missing": 28976.01,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.2,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 113303.73,
-      "missing": 28696.27,
+      "reached": 113683.03,
+      "missing": 28316.97,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.8,
+      "percent": 80.1,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 122000.0,
+      "reached": 94034.49,
+      "missing": 27965.51,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 77.1,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 355109.87,
-      "missing": 488104.13,
-      "percent": 42.1
+      "reached": 357272.15,
+      "missing": 485941.85,
+      "percent": 42.4
     }
   ]
 }
