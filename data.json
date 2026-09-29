@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "29/09/2026 09:20",
+  "lastModified": "29/09/2026 09:21",
   "summary": {
     "commitment": 200230.0,
-    "reached": 21271.74,
-    "missing": 178958.26,
-    "percent": 10.6,
+    "reached": 22183.74,
+    "missing": 178046.26,
+    "percent": 11.1,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -29,22 +29,22 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20000.0,
-      "reached": 0.0,
-      "missing": 20000.0,
+      "reached": 183.2,
+      "missing": 19816.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 0.9,
       "status": "pending"
     },
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 22510.0,
-      "reached": 3227.2,
-      "missing": 19282.8,
+      "reached": 3371.65,
+      "missing": 19138.35,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.3,
+      "percent": 15.0,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 5620.0,
-      "reached": 855.7,
-      "missing": 4764.3,
+      "reached": 1095.05,
+      "missing": 4524.95,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.2,
+      "percent": 19.5,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 4310.0,
-      "reached": 2246.0,
-      "missing": 2064.0,
+      "reached": 2591.0,
+      "missing": 1719.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 52.1,
+      "percent": 60.1,
       "status": "pending"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 256088.44,
-      "missing": 160982.99,
-      "percent": 61.4
+      "reached": 257000.44,
+      "missing": 160070.99,
+      "percent": 61.6
     }
   ]
 }
