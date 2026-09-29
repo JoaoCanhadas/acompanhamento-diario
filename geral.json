@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/09/2026 11:56",
+  "lastModified": "29/09/2026 11:57",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5178351.37,
-    "missing": 724148.63,
-    "percent": 87.7,
+    "reached": 5181710.68,
+    "missing": 720789.32,
+    "percent": 87.8,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
     "weekPercent": 54.9,
-    "positiveCount": 4,
-    "pendingCount": 21
+    "positiveCount": 5,
+    "pendingCount": 20
   },
   "rows": [
     {
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 301274.59,
-      "missing": 178725.41,
+      "reached": 303947.59,
+      "missing": 176052.41,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 62.8,
+      "percent": 63.3,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 326500.0,
-      "reached": 314882.97,
-      "missing": 11617.03,
+      "reached": 315449.38,
+      "missing": 11050.62,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 96.4,
+      "percent": 96.6,
       "status": "pending"
     },
     {
@@ -235,17 +235,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 81000.0,
-      "reached": 80967.13,
-      "missing": 32.87,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "pending"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
@@ -254,6 +243,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.4,
+      "status": "ok"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 81000.0,
+      "reached": 81087.03,
+      "missing": -87.03,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.1,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 427046.09,
-      "missing": 416167.91,
-      "percent": 50.6
+      "reached": 430405.4,
+      "missing": 412808.6,
+      "percent": 51.0
     }
   ]
 }
