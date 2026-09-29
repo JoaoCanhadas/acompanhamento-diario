@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "29/09/2026 08:44",
+  "lastModified": "29/09/2026 08:45",
   "summary": {
     "commitment": 200230.0,
-    "reached": 9303.92,
-    "missing": 190926.08,
-    "percent": 4.6,
+    "reached": 10443.92,
+    "missing": 189786.08,
+    "percent": 5.2,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 8900.0,
-      "reached": 1849.0,
-      "missing": 7051.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 20.8,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 6670.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 2.4,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 8900.0,
+      "reached": 2489.0,
+      "missing": 6411.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 28.0,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 4310.0,
-      "reached": 0.0,
-      "missing": 4310.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 4830.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 17.3,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 4310.0,
+      "reached": 500.0,
+      "missing": 3810.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 11.6,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 244830.62,
-      "missing": 172240.81,
-      "percent": 58.7
+      "reached": 245970.62,
+      "missing": 171100.81,
+      "percent": 59.0
     }
   ]
 }
