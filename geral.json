@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "29/09/2026 15:32",
+  "lastModified": "29/09/2026 15:33",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5337500.93,
-    "missing": 564999.07,
-    "percent": 90.4,
+    "reached": 5339304.68,
+    "missing": 563195.32,
+    "percent": 90.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 313645.19,
-      "missing": 166354.81,
+      "reached": 314804.59,
+      "missing": 165195.41,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 65.3,
+      "percent": 65.6,
       "status": "pending"
     },
     {
@@ -139,8 +139,8 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 326500.0,
-      "reached": 321137.08,
-      "missing": 5362.92,
+      "reached": 321137.05,
+      "missing": 5362.95,
       "average": 0.0,
       "difference": 0.0,
       "percent": 98.4,
@@ -150,8 +150,8 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 340000.0,
-      "reached": 334681.93,
-      "missing": 5318.07,
+      "reached": 334681.92,
+      "missing": 5318.08,
       "average": 0.0,
       "difference": 0.0,
       "percent": 98.4,
@@ -166,17 +166,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 98.4,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 147000.0,
-      "reached": 142830.98,
-      "missing": 4169.02,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.2,
       "status": "pending"
     },
     {
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 96.1,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 147000.0,
+      "reached": 143475.38,
+      "missing": 3524.62,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.6,
       "status": "pending"
     },
     {
@@ -260,8 +260,8 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 81000.0,
-      "reached": 84784.48,
-      "missing": -3784.48,
+      "reached": 84784.47,
+      "missing": -3784.47,
       "average": 0.0,
       "difference": 0.0,
       "percent": 104.7,
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 586195.65,
-      "missing": 257018.35,
-      "percent": 69.5
+      "reached": 587999.4,
+      "missing": 255214.6,
+      "percent": 69.7
     }
   ]
 }
