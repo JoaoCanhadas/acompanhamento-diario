@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "29/09/2026 16:21",
+  "lastModified": "29/09/2026 16:22",
   "summary": {
     "commitment": 200230.0,
-    "reached": 134341.72,
-    "missing": 65888.28,
-    "percent": 67.1,
+    "reached": 134841.72,
+    "missing": 65388.28,
+    "percent": 67.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -191,17 +191,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 4310.0,
-      "reached": 5116.36,
-      "missing": -806.36,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 118.7,
-      "status": "ok"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 6600.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 116.7,
+      "status": "ok"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 4310.0,
+      "reached": 5616.36,
+      "missing": -1306.36,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 130.3,
       "status": "ok"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 369158.42,
-      "missing": 47913.01,
-      "percent": 88.5
+      "reached": 369658.42,
+      "missing": 47413.01,
+      "percent": 88.6
     }
   ]
 }
