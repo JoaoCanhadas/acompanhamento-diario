@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 16:59",
+  "lastModified": "30/09/2026 17:00",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5881392.04,
-    "missing": 21107.96,
+    "reached": 5881723.59,
+    "missing": 20776.41,
     "percent": 99.6,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
     "weekPercent": 54.9,
-    "positiveCount": 17,
-    "pendingCount": 8
+    "positiveCount": 18,
+    "pendingCount": 7
   },
   "rows": [
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 80000.0,
-      "reached": 79994.75,
-      "missing": 5.25,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "pending"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
@@ -114,6 +103,17 @@
       "status": "ok"
     },
     {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 80000.0,
+      "reached": 80054.7,
+      "missing": -54.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.1,
+      "status": "ok"
+    },
+    {
       "reference": "IATAGAM JUNIOR",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -122,17 +122,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 67500.0,
-      "reached": 68157.7,
-      "missing": -657.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 101.0,
       "status": "ok"
     },
     {
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 101.1,
+      "status": "ok"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 67500.0,
+      "reached": 68429.3,
+      "missing": -929.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.4,
       "status": "ok"
     },
     {
@@ -334,8 +334,8 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 1130536.46,
-      "missing": -287322.46,
+      "reached": 1130868.01,
+      "missing": -287654.01,
       "percent": 134.1
     }
   ]
