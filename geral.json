@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 13:11",
+  "lastModified": "30/09/2026 13:12",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5569540.02,
-    "missing": 332959.98,
+    "reached": 5572598.77,
+    "missing": 329901.23,
     "percent": 94.4,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 342244.49,
-      "missing": 137755.51,
+      "reached": 343299.69,
+      "missing": 136700.31,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 71.3,
+      "percent": 71.5,
       "status": "pending"
     },
     {
@@ -117,22 +117,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 80000.0,
-      "reached": 77711.71,
-      "missing": 2288.29,
+      "reached": 78126.26,
+      "missing": 1873.74,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 97.1,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 276000.0,
-      "reached": 273863.38,
-      "missing": 2136.62,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.2,
+      "percent": 97.7,
       "status": "pending"
     },
     {
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 98.2,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 276000.0,
+      "reached": 275452.38,
+      "missing": 547.62,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.8,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 818684.44,
-      "missing": 24529.56,
-      "percent": 97.1
+      "reached": 821743.19,
+      "missing": 21470.81,
+      "percent": 97.5
     }
   ]
 }
