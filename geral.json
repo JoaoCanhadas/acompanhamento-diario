@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 16:20",
+  "lastModified": "30/09/2026 16:21",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5833425.79,
-    "missing": 69074.21,
-    "percent": 98.8,
+    "reached": 5835240.84,
+    "missing": 67259.16,
+    "percent": 98.9,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -18,11 +18,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 358211.53,
-      "missing": 121788.47,
+      "reached": 359836.73,
+      "missing": 120163.27,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.6,
+      "percent": 75.0,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 80000.0,
-      "reached": 79804.88,
-      "missing": 195.12,
+      "reached": 79994.73,
+      "missing": 5.27,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.8,
+      "percent": 100.0,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 1082570.21,
-      "missing": -239356.21,
-      "percent": 128.4
+      "reached": 1084385.26,
+      "missing": -241171.26,
+      "percent": 128.6
     }
   ]
 }
