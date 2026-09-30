@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 13:48",
+  "lastModified": "30/09/2026 13:49",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5601721.82,
-    "missing": 300778.18,
+    "reached": 5601566.82,
+    "missing": 300933.18,
     "percent": 94.9,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
     "weekPercent": 54.9,
-    "positiveCount": 12,
-    "pendingCount": 13
+    "positiveCount": 11,
+    "pendingCount": 14
   },
   "rows": [
     {
@@ -158,6 +158,17 @@
       "status": "pending"
     },
     {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 276000.0,
+      "reached": 275927.5,
+      "missing": 72.5,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "pending"
+    },
+    {
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
@@ -166,17 +177,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.4,
-      "status": "ok"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 276000.0,
-      "reached": 276082.5,
-      "missing": -82.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
       "status": "ok"
     },
     {
@@ -334,8 +334,8 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 850866.24,
-      "missing": -7652.24,
+      "reached": 850711.24,
+      "missing": -7497.24,
       "percent": 100.9
     }
   ]
