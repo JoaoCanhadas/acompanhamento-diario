@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 10:41",
+  "lastModified": "30/09/2026 10:42",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5498401.91,
-    "missing": 404098.09,
+    "reached": 5500513.23,
+    "missing": 401986.77,
     "percent": 93.2,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
     "weekPercent": 54.9,
-    "positiveCount": 7,
-    "pendingCount": 18
+    "positiveCount": 8,
+    "pendingCount": 17
   },
   "rows": [
     {
@@ -95,11 +95,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 134751.58,
-      "missing": 10248.42,
+      "reached": 135262.3,
+      "missing": 9737.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 92.9,
+      "percent": 93.3,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 265000.0,
-      "reached": 263731.37,
-      "missing": 1268.63,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.5,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 326500.0,
@@ -224,6 +213,17 @@
       "status": "ok"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 265000.0,
+      "reached": 265082.67,
+      "missing": -82.67,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
+      "status": "ok"
+    },
+    {
       "reference": "IATAGAM JUNIOR",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -238,11 +238,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 147000.0,
-      "reached": 147880.98,
-      "missing": -880.98,
+      "reached": 148130.28,
+      "missing": -1130.28,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 100.6,
+      "percent": 100.8,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 747096.63,
-      "missing": 96117.37,
-      "percent": 88.6
+      "reached": 749207.95,
+      "missing": 94006.05,
+      "percent": 88.9
     }
   ]
 }
