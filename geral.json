@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 17:15",
+  "lastModified": "30/09/2026 17:16",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5907398.59,
-    "missing": -4898.59,
-    "percent": 100.1,
+    "reached": 5918830.29,
+    "missing": -16330.29,
+    "percent": 100.3,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -51,11 +51,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
-      "reached": 555291.03,
-      "missing": 24708.97,
+      "reached": 557369.73,
+      "missing": 22630.27,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 95.7,
+      "percent": 96.1,
       "status": "pending"
     },
     {
@@ -169,17 +169,6 @@
       "status": "ok"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 147000.0,
-      "reached": 148751.36,
-      "missing": -1751.36,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 101.2,
-      "status": "ok"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 276000.0,
@@ -279,6 +268,17 @@
       "status": "ok"
     },
     {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 147000.0,
+      "reached": 158104.36,
+      "missing": -11104.36,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 107.6,
+      "status": "ok"
+    },
+    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 170000.0,
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 1156543.01,
-      "missing": -313329.01,
-      "percent": 137.2
+      "reached": 1167974.71,
+      "missing": -324760.71,
+      "percent": 138.5
     }
   ]
 }
