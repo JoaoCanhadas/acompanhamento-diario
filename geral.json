@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 14:12",
+  "lastModified": "30/09/2026 14:13",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5676313.37,
-    "missing": 226186.63,
-    "percent": 96.2,
+    "reached": 5681863.07,
+    "missing": 220636.93,
+    "percent": 96.3,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -18,11 +18,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
-      "reached": 426854.86,
-      "missing": 153145.14,
+      "reached": 432238.06,
+      "missing": 147761.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 73.6,
+      "percent": 74.5,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 76500.0,
-      "reached": 74668.27,
-      "missing": 1831.73,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.6,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 85000.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 97.9,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 76500.0,
+      "reached": 74834.77,
+      "missing": 1665.23,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.8,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 925457.79,
-      "missing": -82243.79,
-      "percent": 109.8
+      "reached": 931007.49,
+      "missing": -87793.49,
+      "percent": 110.4
     }
   ]
 }
