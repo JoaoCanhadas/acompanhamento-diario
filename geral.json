@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 14:36",
+  "lastModified": "30/09/2026 14:37",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5716460.82,
-    "missing": 186039.18,
-    "percent": 96.8,
+    "reached": 5723635.62,
+    "missing": 178864.38,
+    "percent": 97.0,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
     "weekPercent": 54.9,
-    "positiveCount": 13,
-    "pendingCount": 12
+    "positiveCount": 14,
+    "pendingCount": 11
   },
   "rows": [
     {
@@ -29,11 +29,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
-      "reached": 462772.26,
-      "missing": 117227.74,
+      "reached": 467602.76,
+      "missing": 112397.24,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 79.8,
+      "percent": 80.6,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 103322.54,
-      "missing": 18677.46,
+      "reached": 103863.44,
+      "missing": 18136.56,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 84.7,
+      "percent": 85.1,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
-      "reached": 74972.77,
-      "missing": 1527.23,
+      "reached": 75722.77,
+      "missing": 777.23,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 98.0,
+      "percent": 99.0,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 85000.0,
-      "reached": 84846.51,
-      "missing": 153.49,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.8,
-      "status": "pending"
-    },
-    {
       "reference": "ECOMMERCE",
       "seller": "ECOMMERCE",
       "commitment": 1000.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.1,
+      "status": "ok"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 85000.0,
+      "reached": 85899.91,
+      "missing": -899.91,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.1,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 965605.24,
-      "missing": -122391.24,
-      "percent": 114.5
+      "reached": 972780.04,
+      "missing": -129566.04,
+      "percent": 115.4
     }
   ]
 }

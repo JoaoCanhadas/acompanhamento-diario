@@ -1,28 +1,28 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 14:35",
+  "lastModified": "30/09/2026 14:36",
   "summary": {
     "commitment": 150480.0,
-    "reached": 108091.89,
-    "missing": 42388.11,
-    "percent": 71.8,
+    "reached": 110436.19,
+    "missing": 40043.81,
+    "percent": 73.4,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 5,
-    "pendingCount": 13
+    "positiveCount": 6,
+    "pendingCount": 12
   },
   "rows": [
     {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 24600.0,
-      "reached": 6354.7,
-      "missing": 18245.3,
+      "reached": 6895.6,
+      "missing": 17704.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 25.8,
+      "percent": 28.0,
       "status": "pending"
     },
     {
@@ -84,11 +84,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 6100.0,
-      "reached": 3558.75,
-      "missing": 2541.25,
+      "reached": 4308.75,
+      "missing": 1791.25,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.3,
+      "percent": 70.6,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 3700.0,
-      "reached": 3495.08,
-      "missing": 204.92,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 94.5,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2000.0,
@@ -156,6 +145,17 @@
       "difference": 0.0,
       "percent": 93.6,
       "status": "pending"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 3700.0,
+      "reached": 4548.48,
+      "missing": -848.48,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 122.9,
+      "status": "ok"
     },
     {
       "reference": "LESTE TATUAPE",
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 478100.61,
-      "missing": -61029.18,
-      "percent": 114.6
+      "reached": 480444.91,
+      "missing": -63373.48,
+      "percent": 115.2
     }
   ]
 }
