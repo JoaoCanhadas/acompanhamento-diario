@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 15:34",
+  "lastModified": "30/09/2026 15:35",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5812003.8,
-    "missing": 90496.2,
+    "reached": 5816765.8,
+    "missing": 85734.2,
     "percent": 98.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
     "weekPercent": 54.9,
-    "positiveCount": 16,
-    "pendingCount": 9
+    "positiveCount": 17,
+    "pendingCount": 8
   },
   "rows": [
     {
@@ -100,17 +100,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 99.4,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 142000.0,
-      "reached": 141719.8,
-      "missing": 280.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.8,
       "status": "pending"
     },
     {
@@ -224,6 +213,17 @@
       "status": "ok"
     },
     {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 142000.0,
+      "reached": 146481.8,
+      "missing": -4481.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 103.2,
+      "status": "ok"
+    },
+    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 55000.0,
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 1061148.22,
-      "missing": -217934.22,
-      "percent": 125.8
+      "reached": 1065910.22,
+      "missing": -222696.22,
+      "percent": 126.4
     }
   ]
 }
