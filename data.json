@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 12:59",
+  "lastModified": "30/09/2026 13:00",
   "summary": {
     "commitment": 150480.0,
-    "reached": 79891.23,
-    "missing": 70588.77,
-    "percent": 53.1,
+    "reached": 81018.13,
+    "missing": 69461.87,
+    "percent": 53.8,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 3500.0,
-      "reached": 1743.2,
-      "missing": 1756.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 49.8,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 7000.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 80.6,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 3500.0,
+      "reached": 2252.9,
+      "missing": 1247.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 64.4,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "ok"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 5000.0,
-      "reached": 7619.34,
-      "missing": -2619.34,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 152.4,
-      "status": "ok"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 5350.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 151.3,
+      "status": "ok"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 5000.0,
+      "reached": 8236.54,
+      "missing": -3236.54,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 164.7,
       "status": "ok"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 449899.95,
-      "missing": -32828.52,
-      "percent": 107.9
+      "reached": 451026.85,
+      "missing": -33955.42,
+      "percent": 108.1
     }
   ]
 }
