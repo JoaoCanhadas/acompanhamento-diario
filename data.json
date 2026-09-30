@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 13:08",
+  "lastModified": "30/09/2026 13:09",
   "summary": {
     "commitment": 150480.0,
-    "reached": 86401.43,
-    "missing": 64078.57,
-    "percent": 57.4,
+    "reached": 89361.43,
+    "missing": 61118.57,
+    "percent": 59.4,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -18,11 +18,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 24600.0,
-      "reached": 4535.1,
-      "missing": 20064.9,
+      "reached": 5044.1,
+      "missing": 19555.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 18.4,
+      "percent": 20.5,
       "status": "pending"
     },
     {
@@ -40,11 +40,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 11300.0,
-      "reached": 3102.52,
-      "missing": 8197.48,
+      "reached": 3323.32,
+      "missing": 7976.68,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 27.5,
+      "percent": 29.4,
       "status": "pending"
     },
     {
@@ -56,17 +56,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 13100.0,
-      "reached": 8727.2,
-      "missing": 4372.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.6,
       "status": "pending"
     },
     {
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 77.4,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 13100.0,
+      "reached": 10957.4,
+      "missing": 2142.6,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 83.6,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 456410.15,
-      "missing": -39338.72,
-      "percent": 109.4
+      "reached": 459370.15,
+      "missing": -42298.72,
+      "percent": 110.1
     }
   ]
 }

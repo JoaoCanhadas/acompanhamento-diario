@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 13:08",
+  "lastModified": "30/09/2026 13:09",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5562247.62,
-    "missing": 340252.38,
-    "percent": 94.2,
+    "reached": 5569540.02,
+    "missing": 332959.98,
+    "percent": 94.4,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -29,11 +29,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 337912.09,
-      "missing": 142087.91,
+      "reached": 342244.49,
+      "missing": 137755.51,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 70.4,
+      "percent": 71.3,
       "status": "pending"
     },
     {
@@ -73,11 +73,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 101502.94,
-      "missing": 20497.06,
+      "reached": 102011.94,
+      "missing": 19988.06,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.2,
+      "percent": 83.6,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 136809.1,
-      "missing": 8190.9,
+      "reached": 137029.9,
+      "missing": 7970.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 94.4,
+      "percent": 94.5,
       "status": "pending"
     },
     {
@@ -114,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 276000.0,
-      "reached": 271633.18,
-      "missing": 4366.82,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 98.4,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 80000.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 97.1,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 276000.0,
+      "reached": 273863.38,
+      "missing": 2136.62,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.2,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 811392.04,
-      "missing": 31821.96,
-      "percent": 96.2
+      "reached": 818684.44,
+      "missing": 24529.56,
+      "percent": 97.1
     }
   ]
 }
