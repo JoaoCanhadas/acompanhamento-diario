@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "30/09/2026 14:04",
+  "lastModified": "30/09/2026 14:05",
   "summary": {
     "commitment": 549000.0,
-    "reached": 395123.33,
-    "missing": 153876.67,
-    "percent": 72.0,
+    "reached": 438785.73,
+    "missing": 110214.27,
+    "percent": 79.9,
     "weekGoal": 568000,
     "weekRevenue": 168854.91,
     "weekMissing": 399145.09,
@@ -18,11 +18,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 253000.0,
-      "reached": 124451.48,
-      "missing": 128548.52,
+      "reached": 128313.88,
+      "missing": 124686.12,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 49.2,
+      "percent": 50.7,
       "status": "pending"
     },
     {
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 75000.0,
-      "reached": 34433.55,
-      "missing": 40566.45,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 45.9,
-      "status": "pending"
-    },
-    {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 89000.0,
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 81.6,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 75000.0,
+      "reached": 74233.55,
+      "missing": 766.45,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.0,
       "status": "pending"
     },
     {
@@ -114,9 +114,9 @@
     {
       "name": "Semana 5",
       "goal": 426000,
-      "reached": 395123.33,
-      "missing": 30876.67,
-      "percent": 92.8
+      "reached": 438785.73,
+      "missing": -12785.73,
+      "percent": 103.0
     }
   ]
 }
