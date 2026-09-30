@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 13:56",
+  "lastModified": "30/09/2026 13:57",
   "summary": {
     "commitment": 150480.0,
-    "reached": 99427.84,
-    "missing": 51052.16,
-    "percent": 66.1,
+    "reached": 101779.74,
+    "missing": 48700.26,
+    "percent": 67.6,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 5000.0,
-      "reached": 1154.07,
-      "missing": 3845.93,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 23.1,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 10000.0,
@@ -70,14 +59,14 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 6100.0,
-      "reached": 2586.75,
-      "missing": 3513.25,
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 5000.0,
+      "reached": 1443.87,
+      "missing": 3556.13,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 42.4,
+      "percent": 28.9,
       "status": "pending"
     },
     {
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 64.2,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 6100.0,
+      "reached": 3254.25,
+      "missing": 2845.75,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 53.3,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 4400.0,
-      "reached": 6126.3,
-      "missing": -1726.3,
+      "reached": 7114.1,
+      "missing": -2714.1,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 139.2,
+      "percent": 161.7,
       "status": "ok"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 5350.0,
-      "reached": 10718.21,
-      "missing": -5368.21,
+      "reached": 11125.01,
+      "missing": -5775.01,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 200.3,
+      "percent": 207.9,
       "status": "ok"
     }
   ],
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 469436.56,
-      "missing": -52365.13,
-      "percent": 112.6
+      "reached": 471788.46,
+      "missing": -54717.03,
+      "percent": 113.1
     }
   ]
 }
