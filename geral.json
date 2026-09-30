@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 09:52",
+  "lastModified": "30/09/2026 09:53",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5477155.34,
-    "missing": 425344.66,
+    "reached": 5478280.84,
+    "missing": 424219.16,
     "percent": 92.8,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 276000.0,
-      "reached": 265670.0,
-      "missing": 10330.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 96.3,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 92.9,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 276000.0,
+      "reached": 265977.9,
+      "missing": 10022.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 96.4,
       "status": "pending"
     },
     {
@@ -260,11 +260,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 81000.0,
-      "reached": 85120.92,
-      "missing": -4120.92,
+      "reached": 85938.52,
+      "missing": -4938.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 105.1,
+      "percent": 106.1,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 725850.06,
-      "missing": 117363.94,
-      "percent": 86.1
+      "reached": 726975.56,
+      "missing": 116238.44,
+      "percent": 86.2
     }
   ]
 }
