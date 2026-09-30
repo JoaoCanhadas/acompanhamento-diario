@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 13:38",
+  "lastModified": "30/09/2026 13:39",
   "summary": {
     "commitment": 150480.0,
-    "reached": 90083.27,
-    "missing": 60396.73,
-    "percent": 59.9,
+    "reached": 91926.61,
+    "missing": 58553.39,
+    "percent": 61.1,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -18,11 +18,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 24600.0,
-      "reached": 5164.02,
-      "missing": 19435.98,
+      "reached": 5335.92,
+      "missing": 19264.08,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.0,
+      "percent": 21.7,
       "status": "pending"
     },
     {
@@ -51,11 +51,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 6100.0,
-      "reached": 0.0,
-      "missing": 6100.0,
+      "reached": 792.0,
+      "missing": 5308.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 13.0,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 10200.0,
-      "reached": 8306.58,
-      "missing": 1893.42,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 81.4,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 3700.0,
@@ -114,14 +103,14 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 7000.0,
-      "reached": 5644.1,
-      "missing": 1355.9,
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 10200.0,
+      "reached": 8486.52,
+      "missing": 1713.48,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 80.6,
+      "percent": 83.2,
       "status": "pending"
     },
     {
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 64.4,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 7000.0,
+      "reached": 6343.6,
+      "missing": 656.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 90.6,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 460091.99,
-      "missing": -43020.56,
-      "percent": 110.3
+      "reached": 461935.33,
+      "missing": -44863.9,
+      "percent": 110.8
     }
   ]
 }
