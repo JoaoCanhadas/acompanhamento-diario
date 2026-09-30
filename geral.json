@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 14:44",
+  "lastModified": "30/09/2026 14:45",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5723730.12,
-    "missing": 178769.88,
-    "percent": 97.0,
+    "reached": 5728645.62,
+    "missing": 173854.38,
+    "percent": 97.1,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
     "weekPercent": 54.9,
-    "positiveCount": 14,
-    "pendingCount": 11
+    "positiveCount": 15,
+    "pendingCount": 10
   },
   "rows": [
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 76500.0,
-      "reached": 75722.77,
-      "missing": 777.23,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 99.0,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 80000.0,
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.4,
+      "status": "ok"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 76500.0,
+      "reached": 76522.27,
+      "missing": -22.27,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.0,
       "status": "ok"
     },
     {
@@ -293,11 +293,11 @@
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 450000.0,
-      "reached": 684931.99,
-      "missing": -234931.99,
+      "reached": 689047.99,
+      "missing": -239047.99,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 152.2,
+      "percent": 153.1,
       "status": "ok"
     }
   ],
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 972874.54,
-      "missing": -129660.54,
-      "percent": 115.4
+      "reached": 977790.04,
+      "missing": -134576.04,
+      "percent": 116.0
     }
   ]
 }
