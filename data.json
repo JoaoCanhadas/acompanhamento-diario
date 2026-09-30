@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 14:27",
+  "lastModified": "30/09/2026 14:28",
   "summary": {
     "commitment": 150480.0,
-    "reached": 106061.84,
-    "missing": 44418.16,
-    "percent": 70.5,
+    "reached": 106492.89,
+    "missing": 43987.11,
+    "percent": 70.8,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -29,8 +29,8 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 22280.0,
-      "reached": 4653.32,
-      "missing": 17626.68,
+      "reached": 4660.36,
+      "missing": 17619.64,
       "average": 0.0,
       "difference": 0.0,
       "percent": 20.9,
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 3500.0,
-      "reached": 2818.2,
-      "missing": 681.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 80.5,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 10200.0,
@@ -147,11 +136,22 @@
       "status": "pending"
     },
     {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 3500.0,
+      "reached": 3242.2,
+      "missing": 257.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 92.6,
+      "status": "pending"
+    },
+    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2000.0,
-      "reached": 1871.06,
-      "missing": 128.94,
+      "reached": 1871.07,
+      "missing": 128.93,
       "average": 0.0,
       "difference": 0.0,
       "percent": 93.6,
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 476070.56,
-      "missing": -58999.13,
-      "percent": 114.1
+      "reached": 476501.61,
+      "missing": -59430.18,
+      "percent": 114.2
     }
   ]
 }
