@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 11:56",
+  "lastModified": "30/09/2026 11:57",
   "summary": {
     "commitment": 150480.0,
-    "reached": 66230.34,
-    "missing": 84249.66,
-    "percent": 44.0,
+    "reached": 72769.84,
+    "missing": 77710.16,
+    "percent": 48.4,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 4,
-    "pendingCount": 14
+    "positiveCount": 5,
+    "pendingCount": 13
   },
   "rows": [
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 5000.0,
-      "reached": 525.6,
-      "missing": 4474.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 10.5,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 5000.0,
@@ -122,17 +111,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 23.1,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 7000.0,
-      "reached": 5194.4,
-      "missing": 1805.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 74.2,
       "status": "pending"
     },
     {
@@ -155,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 55.3,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 7000.0,
+      "reached": 5644.1,
+      "missing": 1355.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 80.6,
       "status": "pending"
     },
     {
@@ -202,6 +191,17 @@
       "status": "ok"
     },
     {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 5000.0,
+      "reached": 6615.4,
+      "missing": -1615.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 132.3,
+      "status": "ok"
+    },
+    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 4400.0,
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 436239.06,
-      "missing": -19167.63,
-      "percent": 104.6
+      "reached": 442778.56,
+      "missing": -25707.13,
+      "percent": 106.2
     }
   ]
 }
