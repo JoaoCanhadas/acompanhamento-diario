@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 13:41",
+  "lastModified": "30/09/2026 13:42",
   "summary": {
     "commitment": 150480.0,
-    "reached": 91926.61,
-    "missing": 58553.39,
-    "percent": 61.1,
+    "reached": 95289.33,
+    "missing": 55190.67,
+    "percent": 63.3,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -29,33 +29,33 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 22280.0,
-      "reached": 3531.17,
-      "missing": 18748.83,
+      "reached": 3786.02,
+      "missing": 18493.98,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.8,
+      "percent": 17.0,
       "status": "pending"
     },
     {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 11300.0,
-      "reached": 3698.32,
-      "missing": 7601.68,
+      "reached": 5136.88,
+      "missing": 6163.12,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 32.7,
+      "percent": 45.5,
       "status": "pending"
     },
     {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 6100.0,
-      "reached": 792.0,
-      "missing": 5308.0,
+      "reached": 1896.0,
+      "missing": 4204.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 13.0,
+      "percent": 31.1,
       "status": "pending"
     },
     {
@@ -117,11 +117,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 3500.0,
-      "reached": 2252.9,
-      "missing": 1247.1,
+      "reached": 2818.21,
+      "missing": 681.79,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 64.4,
+      "percent": 80.5,
       "status": "pending"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 461935.33,
-      "missing": -44863.9,
-      "percent": 110.8
+      "reached": 465298.05,
+      "missing": -48226.62,
+      "percent": 111.6
     }
   ]
 }

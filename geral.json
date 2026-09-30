@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 13:41",
+  "lastModified": "30/09/2026 13:42",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5588072.24,
-    "missing": 314427.76,
+    "reached": 5591434.96,
+    "missing": 311065.04,
     "percent": 94.7,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
@@ -84,33 +84,33 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 123263.35,
-      "missing": 18736.65,
+      "reached": 123518.2,
+      "missing": 18481.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 86.8,
+      "percent": 87.0,
       "status": "pending"
     },
     {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 145000.0,
-      "reached": 137404.9,
-      "missing": 7595.1,
+      "reached": 138843.46,
+      "missing": 6156.54,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 94.8,
+      "percent": 95.8,
       "status": "pending"
     },
     {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
-      "reached": 72206.02,
-      "missing": 4293.98,
+      "reached": 73310.02,
+      "missing": 3189.98,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 94.4,
+      "percent": 95.8,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 67500.0,
-      "reached": 66276.6,
-      "missing": 1223.4,
+      "reached": 66841.91,
+      "missing": 658.09,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 98.2,
+      "percent": 99.0,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 837216.66,
-      "missing": 5997.34,
-      "percent": 99.3
+      "reached": 840579.38,
+      "missing": 2634.62,
+      "percent": 99.7
     }
   ]
 }
