@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 14:08",
+  "lastModified": "30/09/2026 14:09",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5670273.17,
-    "missing": 232226.83,
-    "percent": 96.1,
+    "reached": 5676313.37,
+    "missing": 226186.63,
+    "percent": 96.2,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
     "weekPercent": 54.9,
-    "positiveCount": 12,
-    "pendingCount": 13
+    "positiveCount": 13,
+    "pendingCount": 12
   },
   "rows": [
     {
@@ -62,11 +62,11 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 102303.76,
-      "missing": 19696.24,
+      "reached": 103040.96,
+      "missing": 18959.04,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 83.9,
+      "percent": 84.5,
       "status": "pending"
     },
     {
@@ -89,17 +89,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 95.8,
-      "status": "pending"
-    },
-    {
-      "reference": "KEY SJC",
-      "seller": "KEY SJC",
-      "commitment": 142000.0,
-      "reached": 137610.95,
-      "missing": 4389.05,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 96.9,
       "status": "pending"
     },
     {
@@ -180,14 +169,14 @@
       "status": "ok"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 276000.0,
-      "reached": 276562.2,
-      "missing": -562.2,
+      "reference": "KEY SJC",
+      "seller": "KEY SJC",
+      "commitment": 142000.0,
+      "reached": 142203.75,
+      "missing": -203.75,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 100.2,
+      "percent": 100.1,
       "status": "ok"
     },
     {
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 100.3,
+      "status": "ok"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 276000.0,
+      "reached": 277272.4,
+      "missing": -1272.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.5,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 919417.59,
-      "missing": -76203.59,
-      "percent": 109.0
+      "reached": 925457.79,
+      "missing": -82243.79,
+      "percent": 109.8
     }
   ]
 }
