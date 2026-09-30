@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 13:47",
+  "lastModified": "30/09/2026 13:48",
   "summary": {
     "commitment": 150480.0,
-    "reached": 96511.88,
-    "missing": 53968.12,
-    "percent": 64.1,
+    "reached": 97782.19,
+    "missing": 52697.81,
+    "percent": 65.0,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
     "weekPercent": 80.6,
-    "positiveCount": 4,
-    "pendingCount": 14
+    "positiveCount": 5,
+    "pendingCount": 13
   },
   "rows": [
     {
@@ -161,12 +161,12 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 13100.0,
-      "reached": 13021.52,
-      "missing": 78.48,
+      "reached": 13176.52,
+      "missing": -76.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 99.4,
-      "status": "pending"
+      "percent": 100.6,
+      "status": "ok"
     },
     {
       "reference": "LESTE TATUAPE",
@@ -194,11 +194,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 5350.0,
-      "reached": 8095.2,
-      "missing": -2745.2,
+      "reached": 9210.51,
+      "missing": -3860.51,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 151.3,
+      "percent": 172.2,
       "status": "ok"
     },
     {
@@ -246,9 +246,9 @@
     {
       "name": "Semana 5",
       "goal": 417071.43,
-      "reached": 466520.6,
-      "missing": -49449.17,
-      "percent": 111.9
+      "reached": 467790.91,
+      "missing": -50719.48,
+      "percent": 112.2
     }
   ]
 }
