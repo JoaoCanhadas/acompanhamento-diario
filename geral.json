@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 16:47",
+  "lastModified": "30/09/2026 16:48",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5857684.84,
-    "missing": 44815.16,
-    "percent": 99.2,
+    "reached": 5873281.84,
+    "missing": 29218.16,
+    "percent": 99.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
-      "commitment": 350000.0,
-      "reached": 289094.0,
-      "missing": 60906.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 82.6,
-      "status": "pending"
-    },
-    {
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 90.6,
+      "status": "pending"
+    },
+    {
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 350000.0,
+      "reached": 304691.0,
+      "missing": 45309.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 87.1,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 1106829.26,
-      "missing": -263615.26,
-      "percent": 131.3
+      "reached": 1122426.26,
+      "missing": -279212.26,
+      "percent": 133.1
     }
   ]
 }
