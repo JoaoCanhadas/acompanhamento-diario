@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "30/09/2026 08:32",
+  "lastModified": "30/09/2026 08:33",
   "summary": {
     "commitment": 340.0,
-    "reached": 465.0,
-    "missing": -125.0,
-    "percent": 136.8,
+    "reached": 466.0,
+    "missing": -126.0,
+    "percent": 137.1,
     "weekGoal": 65,
     "weekRevenue": 124.0,
     "weekMissing": -59.0,
@@ -70,17 +70,6 @@
       "status": "ok"
     },
     {
-      "reference": "LESTE",
-      "seller": "LESTE",
-      "commitment": 20.0,
-      "reached": 21.0,
-      "missing": -1.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 105.0,
-      "status": "ok"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 20.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 105.0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE",
+      "seller": "LESTE",
+      "commitment": 20.0,
+      "reached": 22.0,
+      "missing": -2.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 110.0,
       "status": "ok"
     },
     {
@@ -235,9 +235,9 @@
     {
       "name": "Semana 5",
       "goal": 39,
-      "reached": 18.0,
-      "missing": 21.0,
-      "percent": 46.2
+      "reached": 19.0,
+      "missing": 20.0,
+      "percent": 48.7
     }
   ]
 }
