@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 17:23",
+  "lastModified": "30/09/2026 17:24",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5920762.29,
-    "missing": -18262.29,
-    "percent": 100.3,
+    "reached": 5923230.69,
+    "missing": -20730.69,
+    "percent": 100.4,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -51,11 +51,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
-      "reached": 556355.73,
-      "missing": 23644.27,
+      "reached": 558434.43,
+      "missing": 21565.57,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 95.9,
+      "percent": 96.3,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "ok"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 80000.0,
-      "reached": 80054.7,
-      "missing": -54.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.1,
-      "status": "ok"
-    },
-    {
       "reference": "IATAGAM JUNIOR",
       "seller": "IATAGAM JUNIOR",
       "commitment": 0.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 80000.0,
+      "reached": 80444.4,
+      "missing": -444.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 100.6,
       "status": "ok"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 1169906.71,
-      "missing": -326692.71,
-      "percent": 138.7
+      "reached": 1172375.11,
+      "missing": -329161.11,
+      "percent": 139.0
     }
   ]
 }
