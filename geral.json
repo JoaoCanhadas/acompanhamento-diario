@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "30/09/2026 14:20",
+  "lastModified": "30/09/2026 14:21",
   "summary": {
     "commitment": 5902500.0,
-    "reached": 5681949.72,
-    "missing": 220550.28,
-    "percent": 96.3,
+    "reached": 5697604.17,
+    "missing": 204895.83,
+    "percent": 96.5,
     "weekGoal": 1124286,
     "weekRevenue": 616962.35,
     "weekMissing": 507323.65,
@@ -18,11 +18,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 580000.0,
-      "reached": 432238.06,
-      "missing": 147761.94,
+      "reached": 446370.16,
+      "missing": 133629.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 74.5,
+      "percent": 77.0,
       "status": "pending"
     },
     {
@@ -62,19 +62,19 @@
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 122000.0,
-      "reached": 103042.64,
-      "missing": 18957.36,
+      "reached": 103322.54,
+      "missing": 18677.46,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 84.5,
+      "percent": 84.7,
       "status": "pending"
     },
     {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 124372.95,
-      "missing": 17627.05,
+      "reached": 124385.5,
+      "missing": 17614.5,
       "average": 0.0,
       "difference": 0.0,
       "percent": 87.6,
@@ -103,25 +103,14 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 80000.0,
-      "reached": 78306.2,
-      "missing": 1693.8,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 97.9,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 76500.0,
-      "reached": 74834.77,
-      "missing": 1665.23,
+      "reached": 74972.77,
+      "missing": 1527.23,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 97.8,
+      "percent": 98.0,
       "status": "pending"
     },
     {
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 99.0,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 80000.0,
+      "reached": 79398.1,
+      "missing": 601.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 99.2,
       "status": "pending"
     },
     {
@@ -334,9 +334,9 @@
     {
       "name": "Semana 5",
       "goal": 843214,
-      "reached": 931094.14,
-      "missing": -87880.14,
-      "percent": 110.4
+      "reached": 946748.59,
+      "missing": -103534.59,
+      "percent": 112.3
     }
   ]
 }
