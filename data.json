@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "30/09/2026 09:34",
+  "lastModified": "30/09/2026 09:35",
   "summary": {
     "commitment": 150480.0,
-    "reached": 26593.4,
-    "missing": 123886.6,
-    "percent": 17.7,
+    "reached": 26936.4,
+    "missing": 123543.6,
+    "percent": 17.9,
     "weekGoal": 556095.24,
     "weekRevenue": 448107.44,
     "weekMissing": 107987.8,
@@ -84,11 +84,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 10000.0,
-      "reached": 3127.1,
-      "missing": 6872.9,
+      "reached": 3251.1,
+      "missing": 6748.9,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 31.3,
+      "percent": 32.5,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 5350.0,
-      "reached": 3383.85,
-      "missing": 1966.15,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 63.2,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 3500.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 45.1,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 5350.0,
+      "reached": 3602.85,
+      "missing": 1747.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 67.3,
       "status": "pending"
     },
     {
