@@ -1,69 +1,69 @@
 {
   "workbook": "Sensum SQL - Keys",
-  "lastModified": "30/09/2026 18:16",
+  "lastModified": "05/10/2026 15:10",
   "summary": {
-    "commitment": 549000.0,
-    "reached": 693110.25,
-    "missing": -144110.25,
-    "percent": 126.2,
-    "weekGoal": 568000,
-    "weekRevenue": 168854.91,
-    "weekMissing": 399145.09,
-    "weekPercent": 29.7,
-    "positiveCount": 3,
-    "pendingCount": 1
+    "commitment": 0.0,
+    "reached": 61944.38,
+    "missing": -61944.38,
+    "percent": 0,
+    "weekGoal": 290476,
+    "weekRevenue": 20607.9,
+    "weekMissing": 269868.1,
+    "weekPercent": 7.1,
+    "positiveCount": 0,
+    "pendingCount": 0
   },
   "rows": [
     {
-      "reference": "KEY INTERIOR",
-      "seller": "KEY INTERIOR",
-      "commitment": 132000.0,
-      "reached": 77909.8,
-      "missing": 54090.2,
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
+      "commitment": 0.0,
+      "reached": 0.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 59.0,
-      "status": "pending"
+      "percent": 0,
+      "status": "ok"
     },
     {
-      "reference": "KEY CASA",
-      "seller": "KEY CASA",
-      "commitment": 89000.0,
-      "reached": 95978.96,
-      "missing": -6978.96,
+      "reference": "KEY INTERIOR",
+      "seller": "KEY INTERIOR",
+      "commitment": 0.0,
+      "reached": 0.0,
+      "missing": 0.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 107.8,
+      "percent": 0,
       "status": "ok"
     },
     {
       "reference": "KEY SJC",
       "seller": "KEY SJC",
-      "commitment": 75000.0,
-      "reached": 91313.1,
-      "missing": -16313.1,
+      "commitment": 0.0,
+      "reached": 4315.6,
+      "missing": -4315.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 121.8,
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "KEY CASA",
+      "seller": "KEY CASA",
+      "commitment": 0.0,
+      "reached": 9519.8,
+      "missing": -9519.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
       "status": "ok"
     },
     {
       "reference": "KEY SP",
       "seller": "KEY SP",
-      "commitment": 253000.0,
-      "reached": 283202.45,
-      "missing": -30202.45,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 111.9,
-      "status": "ok"
-    },
-    {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
       "commitment": 0.0,
-      "reached": 46943.1,
-      "missing": -46943.1,
+      "reached": 13814.5,
+      "missing": -13814.5,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -73,8 +73,8 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 0.0,
-      "reached": 97762.84,
-      "missing": -97762.84,
+      "reached": 34294.48,
+      "missing": -34294.48,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -85,38 +85,38 @@
   "weeks": [
     {
       "name": "Semana 1",
-      "goal": 568000,
-      "reached": 168854.91,
-      "missing": 399145.09,
-      "percent": 29.7
+      "goal": 290476,
+      "reached": 20607.9,
+      "missing": 269868.1,
+      "percent": 7.1
     },
     {
       "name": "Semana 2",
-      "goal": 568000,
-      "reached": 695196.28,
-      "missing": -127196.28,
-      "percent": 122.4
+      "goal": 726190,
+      "reached": 61944.38,
+      "missing": 664245.62,
+      "percent": 8.5
     },
     {
       "name": "Semana 3",
-      "goal": 710000,
-      "reached": 641093.55,
-      "missing": 68906.45,
-      "percent": 90.3
+      "goal": 580952,
+      "reached": 0.0,
+      "missing": 580952.0,
+      "percent": 0.0
     },
     {
       "name": "Semana 4",
-      "goal": 710000,
-      "reached": 796848.36,
-      "missing": -86848.36,
-      "percent": 112.2
+      "goal": 726190,
+      "reached": 0.0,
+      "missing": 726190.0,
+      "percent": 0.0
     },
     {
       "name": "Semana 5",
-      "goal": 426000,
-      "reached": 693110.25,
-      "missing": -267110.25,
-      "percent": 162.7
+      "goal": 726190,
+      "reached": 0.0,
+      "missing": 726190.0,
+      "percent": 0.0
     }
   ]
 }
