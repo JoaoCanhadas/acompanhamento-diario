@@ -3,9 +3,9 @@
   "lastModified": "06/10/2026 13:44",
   "summary": {
     "commitment": 200220.0,
-    "reached": 139602.72,
-    "missing": 60617.28,
-    "percent": 69.7,
+    "reached": 141173.01,
+    "missing": 59046.99,
+    "percent": 70.5,
     "weekGoal": 283809.52,
     "weekRevenue": 143561.58,
     "weekMissing": 140247.94,
@@ -150,11 +150,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 4820.0,
-      "reached": 4379.68,
-      "missing": 440.32,
+      "reached": 4518.28,
+      "missing": 301.72,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 90.9,
+      "percent": 93.7,
       "status": "pending"
     },
     {
@@ -166,17 +166,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
-      "status": "ok"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 13060.0,
-      "reached": 13062.16,
-      "missing": -2.16,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
       "status": "ok"
     },
     {
@@ -202,14 +191,25 @@
       "status": "ok"
     },
     {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 13060.0,
+      "reached": 13971.53,
+      "missing": -911.53,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 107.0,
+      "status": "ok"
+    },
+    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 9390.0,
-      "reached": 10608.03,
-      "missing": -1218.03,
+      "reached": 11130.35,
+      "missing": -1740.35,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 113.0,
+      "percent": 118.5,
       "status": "ok"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 369244.34,
-      "missing": 340279.47,
-      "percent": 52.0
+      "reached": 370814.63,
+      "missing": 338709.18,
+      "percent": 52.3
     },
     {
       "name": "Semana 3",
