@@ -3,9 +3,9 @@
   "lastModified": "06/10/2026 10:57",
   "summary": {
     "commitment": 200220.0,
-    "reached": 66424.46,
-    "missing": 133795.54,
-    "percent": 33.2,
+    "reached": 70890.03,
+    "missing": 129329.97,
+    "percent": 35.4,
     "weekGoal": 283312.1,
     "weekRevenue": 143561.58,
     "weekMissing": 139750.52,
@@ -14,17 +14,6 @@
     "pendingCount": 17
   },
   "rows": [
-    {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 19350.0,
-      "reached": 812.02,
-      "missing": 18537.98,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 4.2,
-      "status": "pending"
-    },
     {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 40.3,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 19350.0,
+      "reached": 5277.59,
+      "missing": 14072.41,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 27.3,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 708280.24,
-      "reached": 296066.08,
-      "missing": 412214.16,
-      "percent": 41.8
+      "reached": 300531.65,
+      "missing": 407748.59,
+      "percent": 42.4
     },
     {
       "name": "Semana 3",
