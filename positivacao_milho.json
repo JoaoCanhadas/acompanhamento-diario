@@ -3,28 +3,17 @@
   "lastModified": "06/10/2026 10:05",
   "summary": {
     "commitment": 560.0,
-    "reached": 45.0,
-    "missing": 515.0,
-    "percent": 8.0,
+    "reached": 46.0,
+    "missing": 514.0,
+    "percent": 8.2,
     "weekGoal": 53,
-    "weekRevenue": 45.0,
-    "weekMissing": 8.0,
-    "weekPercent": 84.9,
+    "weekRevenue": 46.0,
+    "weekMissing": 7.0,
+    "weekPercent": 86.8,
     "positiveCount": 0,
     "pendingCount": 16
   },
   "rows": [
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 35.0,
-      "reached": 0.0,
-      "missing": 35.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
     {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
@@ -61,6 +50,17 @@
     {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
+      "commitment": 35.0,
+      "reached": 1.0,
+      "missing": 34.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 2.9,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
       "commitment": 35.0,
       "reached": 1.0,
       "missing": 34.0,
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 53,
-      "reached": 45.0,
-      "missing": 8.0,
-      "percent": 84.9
+      "reached": 46.0,
+      "missing": 7.0,
+      "percent": 86.8
     },
     {
       "name": "Semana 2",
