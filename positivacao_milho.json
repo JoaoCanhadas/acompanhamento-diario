@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "06/10/2026 11:49",
+  "lastModified": "06/10/2026 11:50",
   "summary": {
     "commitment": 560.0,
-    "reached": 53.0,
-    "missing": 507.0,
-    "percent": 9.5,
+    "reached": 54.0,
+    "missing": 506.0,
+    "percent": 9.6,
     "weekGoal": 53,
-    "weekRevenue": 53.0,
-    "weekMissing": 0.0,
-    "weekPercent": 100.0,
+    "weekRevenue": 54.0,
+    "weekMissing": -1.0,
+    "weekPercent": 101.9,
     "positiveCount": 0,
     "pendingCount": 16
   },
@@ -136,8 +136,8 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
+      "reference": "SBC",
+      "seller": "SBC",
       "commitment": 35.0,
       "reached": 4.0,
       "missing": 31.0,
@@ -147,14 +147,14 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
       "commitment": 35.0,
-      "reached": 4.0,
-      "missing": 31.0,
+      "reached": 5.0,
+      "missing": 30.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 11.4,
+      "percent": 14.3,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 53,
-      "reached": 53.0,
-      "missing": 0.0,
-      "percent": 100.0
+      "reached": 54.0,
+      "missing": -1.0,
+      "percent": 101.9
     },
     {
       "name": "Semana 2",
