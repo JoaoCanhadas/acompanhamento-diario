@@ -1,11 +1,11 @@
 {
   "workbook": "BASE PYTHON.xlsx",
-  "lastModified": "05/10/2026 15:09",
+  "lastModified": "06/10/2026 08:25",
   "summary": {
     "commitment": 560.0,
-    "reached": 29.0,
-    "missing": 531.0,
-    "percent": 5.2,
+    "reached": 32.0,
+    "missing": 528.0,
+    "percent": 5.7,
     "weekGoal": 53.33,
     "weekRevenue": 14.0,
     "weekMissing": 39.33,
@@ -114,8 +114,8 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
+      "reference": "SJC",
+      "seller": "SJC",
       "commitment": 35.0,
       "reached": 1.0,
       "missing": 34.0,
@@ -125,14 +125,14 @@
       "status": "pending"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
       "commitment": 35.0,
-      "reached": 1.0,
-      "missing": 34.0,
+      "reached": 2.0,
+      "missing": 33.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 2.9,
+      "percent": 5.7,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 35.0,
-      "reached": 5.0,
-      "missing": 30.0,
+      "reached": 7.0,
+      "missing": 28.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.3,
+      "percent": 20.0,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 133.33,
-      "reached": 15.0,
-      "missing": 118.33,
-      "percent": 11.3
+      "reached": 18.0,
+      "missing": 115.33,
+      "percent": 13.5
     },
     {
       "name": "Semana 3",
