@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "05/10/2026 16:32",
+  "lastModified": "06/10/2026 08:57",
   "summary": {
     "commitment": 6025777.0,
-    "reached": 542969.74,
-    "missing": 5482807.26,
-    "percent": 9.0,
+    "reached": 633374.52,
+    "missing": 5392402.48,
+    "percent": 10.5,
     "weekGoal": 573884,
     "weekRevenue": 164169.48,
     "weekMissing": 409714.52,
@@ -29,33 +29,33 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 590000.0,
-      "reached": 15188.2,
-      "missing": 574811.8,
+      "reached": 25156.7,
+      "missing": 564843.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 2.6,
+      "percent": 4.3,
       "status": "pending"
     },
     {
       "reference": "KEY CASA",
       "seller": "KEY CASA",
       "commitment": 500000.0,
-      "reached": 13003.0,
-      "missing": 486997.0,
+      "reached": 63215.65,
+      "missing": 436784.35,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 2.6,
+      "percent": 12.6,
       "status": "pending"
     },
     {
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 40356.88,
-      "missing": 439643.12,
+      "reached": 58312.28,
+      "missing": 421687.72,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 8.4,
+      "percent": 12.1,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 281000.0,
-      "reached": 32988.29,
-      "missing": 248011.71,
+      "reached": 33773.66,
+      "missing": 247226.34,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 11.7,
+      "percent": 12.0,
       "status": "pending"
     },
     {
@@ -128,11 +128,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 217500.0,
-      "reached": 14652.81,
-      "missing": 202847.19,
+      "reached": 15951.81,
+      "missing": 201548.19,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 6.7,
+      "percent": 7.3,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 166598.0,
-      "reached": 24013.08,
-      "missing": 142584.92,
+      "reached": 24821.08,
+      "missing": 141776.92,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.4,
+      "percent": 14.9,
       "status": "pending"
     },
     {
@@ -194,11 +194,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 95500.0,
-      "reached": 5238.87,
-      "missing": 90261.13,
+      "reached": 5458.68,
+      "missing": 90041.32,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 5.5,
+      "percent": 5.7,
       "status": "pending"
     },
     {
@@ -216,33 +216,33 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 88000.0,
-      "reached": 13559.14,
-      "missing": 74440.86,
+      "reached": 14762.17,
+      "missing": 73237.83,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.4,
+      "percent": 16.8,
       "status": "pending"
     },
     {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 84000.0,
-      "reached": 12263.81,
-      "missing": 71736.19,
+      "reached": 13507.36,
+      "missing": 70492.64,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.6,
+      "percent": 16.1,
       "status": "pending"
     },
     {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 79000.0,
-      "reached": 9212.12,
-      "missing": 69787.88,
+      "reached": 12545.12,
+      "missing": 66454.88,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 11.7,
+      "percent": 15.9,
       "status": "pending"
     },
     {
@@ -288,6 +288,17 @@
       "difference": 0.0,
       "percent": 0,
       "status": "ok"
+    },
+    {
+      "reference": "",
+      "seller": "",
+      "commitment": 0.0,
+      "reached": 3376.47,
+      "missing": -3376.47,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -302,9 +313,9 @@
     {
       "name": "Semana 2",
       "goal": 1434709,
-      "reached": 378800.26,
-      "missing": 1055908.74,
-      "percent": 26.4
+      "reached": 469205.04,
+      "missing": 965503.96,
+      "percent": 32.7
     },
     {
       "name": "Semana 3",
