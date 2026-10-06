@@ -3,9 +3,9 @@
   "lastModified": "06/10/2026 10:13",
   "summary": {
     "commitment": 200220.0,
-    "reached": 52320.74,
-    "missing": 147899.26,
-    "percent": 26.1,
+    "reached": 55070.78,
+    "missing": 145149.22,
+    "percent": 27.5,
     "weekGoal": 283312.1,
     "weekRevenue": 143561.58,
     "weekMissing": 139750.52,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20980.0,
-      "reached": 5698.84,
-      "missing": 15281.16,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 27.2,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 25020.0,
@@ -59,25 +48,36 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20980.0,
+      "reached": 7465.62,
+      "missing": 13514.38,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 35.6,
+      "status": "pending"
+    },
+    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 13880.0,
-      "reached": 1177.96,
-      "missing": 12702.04,
+      "reached": 1354.16,
+      "missing": 12525.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 8.5,
+      "percent": 9.8,
       "status": "pending"
     },
     {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 16120.0,
-      "reached": 3800.65,
-      "missing": 12319.35,
+      "reached": 4600.15,
+      "missing": 11519.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 23.6,
+      "percent": 28.5,
       "status": "pending"
     },
     {
@@ -161,8 +161,8 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 4820.0,
-      "reached": 2736.32,
-      "missing": 2083.68,
+      "reached": 2736.33,
+      "missing": 2083.67,
       "average": 0.0,
       "difference": 0.0,
       "percent": 56.8,
@@ -183,11 +183,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 3770.0,
-      "reached": 1700.91,
-      "missing": 2069.09,
+      "reached": 1708.46,
+      "missing": 2061.54,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 45.1,
+      "percent": 45.3,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 708280.24,
-      "reached": 281962.36,
-      "missing": 426317.88,
-      "percent": 39.8
+      "reached": 284712.4,
+      "missing": 423567.84,
+      "percent": 40.2
     },
     {
       "name": "Semana 3",
