@@ -3,9 +3,9 @@
   "lastModified": "06/10/2026 12:21",
   "summary": {
     "commitment": 200220.0,
-    "reached": 95149.57,
-    "missing": 105070.43,
-    "percent": 47.5,
+    "reached": 95397.07,
+    "missing": 104822.93,
+    "percent": 47.6,
     "weekGoal": 283809.52,
     "weekRevenue": 143561.58,
     "weekMissing": 140247.94,
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 20980.0,
-      "reached": 13026.14,
-      "missing": 7953.86,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 62.1,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 9950.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 20.4,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 20980.0,
+      "reached": 13273.64,
+      "missing": 7706.36,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 63.3,
       "status": "pending"
     },
     {
@@ -225,8 +225,8 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 324791.19,
-      "missing": 384732.62,
+      "reached": 325038.69,
+      "missing": 384485.12,
       "percent": 45.8
     },
     {
