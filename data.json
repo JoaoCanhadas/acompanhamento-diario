@@ -3,9 +3,9 @@
   "lastModified": "06/10/2026 09:35",
   "summary": {
     "commitment": 200220.0,
-    "reached": 24379.61,
-    "missing": 175840.39,
-    "percent": 12.2,
+    "reached": 26072.37,
+    "missing": 174147.63,
+    "percent": 13.0,
     "weekGoal": 283312.1,
     "weekRevenue": 143561.58,
     "weekMissing": 139750.52,
@@ -15,17 +15,6 @@
   },
   "rows": [
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 25020.0,
-      "reached": 3709.3,
-      "missing": 21310.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 14.8,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20980.0,
@@ -34,6 +23,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 25020.0,
+      "reached": 4759.3,
+      "missing": 20260.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 19.0,
       "status": "pending"
     },
     {
@@ -169,28 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 5990.0,
-      "reached": 3536.71,
-      "missing": 2453.29,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 59.0,
-      "status": "pending"
-    },
-    {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 3770.0,
-      "reached": 1363.07,
-      "missing": 2406.93,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 36.2,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 5530.0,
@@ -199,6 +177,28 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 60.3,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 3770.0,
+      "reached": 1632.93,
+      "missing": 2137.07,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 43.3,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 5990.0,
+      "reached": 3909.61,
+      "missing": 2080.39,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.3,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 708280.24,
-      "reached": 253966.29,
-      "missing": 454313.95,
-      "percent": 35.9
+      "reached": 255659.05,
+      "missing": 452621.19,
+      "percent": 36.1
     },
     {
       "name": "Semana 3",

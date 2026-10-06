@@ -3,13 +3,13 @@
   "lastModified": "06/10/2026 09:35",
   "summary": {
     "commitment": 560.0,
-    "reached": 44.0,
-    "missing": 516.0,
-    "percent": 7.9,
+    "reached": 45.0,
+    "missing": 515.0,
+    "percent": 8.0,
     "weekGoal": 53,
-    "weekRevenue": 44.0,
-    "weekMissing": 9.0,
-    "weekPercent": 83.0,
+    "weekRevenue": 45.0,
+    "weekMissing": 8.0,
+    "weekPercent": 84.9,
     "positiveCount": 0,
     "pendingCount": 16
   },
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 35.0,
-      "reached": 1.0,
-      "missing": 34.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 2.9,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 35.0,
@@ -100,6 +89,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 2.9,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 35.0,
+      "reached": 2.0,
+      "missing": 33.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 5.7,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 53,
-      "reached": 44.0,
-      "missing": 9.0,
-      "percent": 83.0
+      "reached": 45.0,
+      "missing": 8.0,
+      "percent": 84.9
     },
     {
       "name": "Semana 2",
