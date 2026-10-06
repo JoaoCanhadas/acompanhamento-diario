@@ -3,9 +3,9 @@
   "lastModified": "06/10/2026 09:49",
   "summary": {
     "commitment": 200220.0,
-    "reached": 26549.43,
-    "missing": 173670.57,
-    "percent": 13.3,
+    "reached": 38403.04,
+    "missing": 161816.96,
+    "percent": 19.2,
     "weekGoal": 283312.1,
     "weekRevenue": 143561.58,
     "weekMissing": 139750.52,
@@ -18,22 +18,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20980.0,
-      "reached": 429.05,
-      "missing": 20550.95,
+      "reached": 1539.46,
+      "missing": 19440.54,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 2.0,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 25020.0,
-      "reached": 4759.3,
-      "missing": 20260.7,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 19.0,
+      "percent": 7.3,
       "status": "pending"
     },
     {
@@ -59,25 +48,25 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 13880.0,
-      "reached": 0.0,
-      "missing": 13880.0,
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 25020.0,
+      "reached": 8697.5,
+      "missing": 16322.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 34.8,
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 13060.0,
-      "reached": 0.0,
-      "missing": 13060.0,
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 13880.0,
+      "reached": 986.0,
+      "missing": 12894.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 7.1,
       "status": "pending"
     },
     {
@@ -125,6 +114,17 @@
       "status": "pending"
     },
     {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 13060.0,
+      "reached": 5656.0,
+      "missing": 7404.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 43.3,
+      "status": "pending"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 6580.0,
@@ -161,11 +161,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 4590.0,
-      "reached": 699.54,
-      "missing": 3890.46,
+      "reached": 862.54,
+      "missing": 3727.46,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 15.2,
+      "percent": 18.8,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 708280.24,
-      "reached": 256136.11,
-      "missing": 452144.13,
-      "percent": 36.2
+      "reached": 268014.72,
+      "missing": 440265.52,
+      "percent": 37.8
     },
     {
       "name": "Semana 3",
