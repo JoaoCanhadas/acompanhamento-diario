@@ -3,9 +3,9 @@
   "lastModified": "06/10/2026 12:17",
   "summary": {
     "commitment": 200220.0,
-    "reached": 93518.52,
-    "missing": 106701.48,
-    "percent": 46.7,
+    "reached": 95149.57,
+    "missing": 105070.43,
+    "percent": 47.5,
     "weekGoal": 283809.52,
     "weekRevenue": 143561.58,
     "weekMissing": 140247.94,
@@ -62,11 +62,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 20980.0,
-      "reached": 12244.74,
-      "missing": 8735.26,
+      "reached": 13026.14,
+      "missing": 7953.86,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.4,
+      "percent": 62.1,
       "status": "pending"
     },
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 13060.0,
-      "reached": 8994.02,
-      "missing": 4065.98,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 68.9,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 5850.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 22.1,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 13060.0,
+      "reached": 9843.67,
+      "missing": 3216.33,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 75.4,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 323160.14,
-      "missing": 386363.67,
-      "percent": 45.5
+      "reached": 324791.19,
+      "missing": 384732.62,
+      "percent": 45.8
     },
     {
       "name": "Semana 3",
