@@ -3,9 +3,9 @@
   "lastModified": "06/10/2026 11:17",
   "summary": {
     "commitment": 200220.0,
-    "reached": 78638.05,
-    "missing": 121581.95,
-    "percent": 39.3,
+    "reached": 79137.75,
+    "missing": 121082.25,
+    "percent": 39.5,
     "weekGoal": 283312.1,
     "weekRevenue": 143561.58,
     "weekMissing": 139750.52,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 9390.0,
-      "reached": 1941.09,
-      "missing": 7448.91,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 20.7,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 17000.0,
@@ -111,6 +100,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 57.7,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 9390.0,
+      "reached": 2440.79,
+      "missing": 6949.21,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 26.0,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 708280.24,
-      "reached": 308279.67,
-      "missing": 400000.57,
-      "percent": 43.5
+      "reached": 308779.37,
+      "missing": 399500.87,
+      "percent": 43.6
     },
     {
       "name": "Semana 3",
