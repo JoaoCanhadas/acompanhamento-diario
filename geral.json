@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "06/10/2026 15:33",
+  "lastModified": "06/10/2026 15:34",
   "summary": {
     "commitment": 6031000.0,
-    "reached": 974551.92,
-    "missing": 5056448.08,
+    "reached": 977845.36,
+    "missing": 5053154.64,
     "percent": 16.2,
     "weekGoal": 574381,
     "weekRevenue": 164169.48,
@@ -29,11 +29,11 @@
       "reference": "KEY SP",
       "seller": "KEY SP",
       "commitment": 590000.0,
-      "reached": 26643.56,
-      "missing": 563356.44,
+      "reached": 29177.06,
+      "missing": 560822.94,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 4.5,
+      "percent": 4.9,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 270000.0,
-      "reached": 48971.27,
-      "missing": 221028.73,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 18.1,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 272000.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 19.0,
+      "status": "pending"
+    },
+    {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 270000.0,
+      "reached": 49731.21,
+      "missing": 220268.79,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 18.4,
       "status": "pending"
     },
     {
@@ -302,9 +302,9 @@
     {
       "name": "Semana 2",
       "goal": 1435952,
-      "reached": 810382.44,
-      "missing": 625569.56,
-      "percent": 56.4
+      "reached": 813675.88,
+      "missing": 622276.12,
+      "percent": 56.7
     },
     {
       "name": "Semana 3",
