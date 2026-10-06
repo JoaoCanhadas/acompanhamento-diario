@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "06/10/2026 09:33",
+  "lastModified": "06/10/2026 09:34",
   "summary": {
     "commitment": 560.0,
-    "reached": 43.0,
-    "missing": 517.0,
-    "percent": 7.7,
+    "reached": 44.0,
+    "missing": 516.0,
+    "percent": 7.9,
     "weekGoal": 53,
-    "weekRevenue": 43.0,
-    "weekMissing": 10.0,
-    "weekPercent": 81.1,
+    "weekRevenue": 44.0,
+    "weekMissing": 9.0,
+    "weekPercent": 83.0,
     "positiveCount": 0,
     "pendingCount": 16
   },
@@ -59,19 +59,19 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
       "commitment": 35.0,
-      "reached": 0.0,
-      "missing": 35.0,
+      "reached": 1.0,
+      "missing": 34.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 2.9,
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
+      "reference": "SJC/VALE",
+      "seller": "VALE",
       "commitment": 35.0,
       "reached": 1.0,
       "missing": 34.0,
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 53,
-      "reached": 43.0,
-      "missing": 10.0,
-      "percent": 81.1
+      "reached": 44.0,
+      "missing": 9.0,
+      "percent": 83.0
     },
     {
       "name": "Semana 2",
