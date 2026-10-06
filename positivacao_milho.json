@@ -3,13 +3,13 @@
   "lastModified": "06/10/2026 11:25",
   "summary": {
     "commitment": 560.0,
-    "reached": 49.0,
-    "missing": 511.0,
-    "percent": 8.8,
+    "reached": 50.0,
+    "missing": 510.0,
+    "percent": 8.9,
     "weekGoal": 53,
-    "weekRevenue": 49.0,
-    "weekMissing": 4.0,
-    "weekPercent": 92.5,
+    "weekRevenue": 50.0,
+    "weekMissing": 3.0,
+    "weekPercent": 94.3,
     "positiveCount": 0,
     "pendingCount": 16
   },
@@ -158,8 +158,8 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
       "commitment": 35.0,
       "reached": 7.0,
       "missing": 28.0,
@@ -169,14 +169,14 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
+      "reference": "NORTE",
+      "seller": "NORTE",
       "commitment": 35.0,
-      "reached": 7.0,
-      "missing": 28.0,
+      "reached": 8.0,
+      "missing": 27.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.0,
+      "percent": 22.9,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 53,
-      "reached": 49.0,
-      "missing": 4.0,
-      "percent": 92.5
+      "reached": 50.0,
+      "missing": 3.0,
+      "percent": 94.3
     },
     {
       "name": "Semana 2",
