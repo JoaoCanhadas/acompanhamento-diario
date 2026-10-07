@@ -3,9 +3,9 @@
   "lastModified": "07/10/2026 13:29",
   "summary": {
     "commitment": 160100.0,
-    "reached": 87991.87,
-    "missing": 72108.13,
-    "percent": 55.0,
+    "reached": 92968.92,
+    "missing": 67131.08,
+    "percent": 58.1,
     "weekGoal": 283809.52,
     "weekRevenue": 142785.28,
     "weekMissing": 141024.24,
@@ -15,36 +15,36 @@
   },
   "rows": [
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 16760.0,
-      "reached": 7158.75,
-      "missing": 9601.25,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.7,
-      "status": "pending"
-    },
-    {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 13370.0,
-      "reached": 4029.25,
-      "missing": 9340.75,
+      "reached": 4637.35,
+      "missing": 8732.65,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.1,
+      "percent": 34.7,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 16760.0,
+      "reached": 8130.6,
+      "missing": 8629.4,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 48.5,
       "status": "pending"
     },
     {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 11680.0,
-      "reached": 2694.18,
-      "missing": 8985.82,
+      "reached": 4093.18,
+      "missing": 7586.82,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 23.1,
+      "percent": 35.0,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 16230.0,
-      "reached": 9344.09,
-      "missing": 6885.91,
+      "reached": 9499.09,
+      "missing": 6730.91,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 57.6,
+      "percent": 58.5,
       "status": "pending"
     },
     {
@@ -216,11 +216,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 13010.0,
-      "reached": 14457.35,
-      "missing": -1447.35,
+      "reached": 16300.45,
+      "missing": -3290.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 111.1,
+      "percent": 125.3,
       "status": "ok"
     }
   ],
@@ -236,9 +236,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 476040.86,
-      "missing": 233482.95,
-      "percent": 67.1
+      "reached": 481017.91,
+      "missing": 228505.9,
+      "percent": 67.8
     },
     {
       "name": "Semana 3",
