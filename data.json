@@ -3,9 +3,9 @@
   "lastModified": "07/10/2026 14:55",
   "summary": {
     "commitment": 160100.0,
-    "reached": 118826.53,
-    "missing": 41273.47,
-    "percent": 74.2,
+    "reached": 119026.43,
+    "missing": 41073.57,
+    "percent": 74.3,
     "weekGoal": 283809.52,
     "weekRevenue": 142785.28,
     "weekMissing": 141024.24,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 7100.0,
-      "reached": 2206.76,
-      "missing": 4893.24,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 31.1,
-      "status": "pending"
-    },
-    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 16760.0,
@@ -67,6 +56,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 63.6,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 7100.0,
+      "reached": 2406.66,
+      "missing": 4693.34,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 33.9,
       "status": "pending"
     },
     {
@@ -236,9 +236,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 506875.52,
-      "missing": 202648.29,
-      "percent": 71.4
+      "reached": 507075.42,
+      "missing": 202448.39,
+      "percent": 71.5
     },
     {
       "name": "Semana 3",

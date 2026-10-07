@@ -3,13 +3,13 @@
   "lastModified": "07/10/2026 14:55",
   "summary": {
     "commitment": 560.0,
-    "reached": 90.0,
-    "missing": 470.0,
-    "percent": 16.1,
+    "reached": 91.0,
+    "missing": 469.0,
+    "percent": 16.2,
     "weekGoal": 53,
-    "weekRevenue": 90.0,
-    "weekMissing": -37.0,
-    "weekPercent": 169.8,
+    "weekRevenue": 91.0,
+    "weekMissing": -38.0,
+    "weekPercent": 171.7,
     "positiveCount": 0,
     "pendingCount": 16
   },
@@ -81,8 +81,8 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
+      "reference": "SJC/VALE",
+      "seller": "VALE",
       "commitment": 35.0,
       "reached": 3.0,
       "missing": 32.0,
@@ -92,14 +92,14 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
+      "reference": "MOGI",
+      "seller": "MOGI",
       "commitment": 35.0,
-      "reached": 3.0,
-      "missing": 32.0,
+      "reached": 4.0,
+      "missing": 31.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 8.6,
+      "percent": 11.4,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 53,
-      "reached": 90.0,
-      "missing": -37.0,
-      "percent": 169.8
+      "reached": 91.0,
+      "missing": -38.0,
+      "percent": 171.7
     },
     {
       "name": "Semana 2",
