@@ -3,9 +3,9 @@
   "lastModified": "07/10/2026 11:46",
   "summary": {
     "commitment": 160100.0,
-    "reached": 55968.65,
-    "missing": 104131.35,
-    "percent": 35.0,
+    "reached": 56370.45,
+    "missing": 103729.55,
+    "percent": 35.2,
     "weekGoal": 283809.52,
     "weekRevenue": 142785.28,
     "weekMissing": 141024.24,
@@ -37,17 +37,6 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 13370.0,
-      "reached": 2809.75,
-      "missing": 10560.25,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 21.0,
-      "status": "pending"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 16230.0,
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 37.1,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 13370.0,
+      "reached": 3306.35,
+      "missing": 10063.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 24.7,
       "status": "pending"
     },
     {
@@ -172,11 +172,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 4770.0,
-      "reached": 2366.5,
-      "missing": 2403.5,
+      "reached": 2271.7,
+      "missing": 2498.3,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 49.6,
+      "percent": 47.6,
       "status": "pending"
     },
     {
@@ -236,8 +236,8 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 444017.64,
-      "missing": 265506.17,
+      "reached": 444419.44,
+      "missing": 265104.37,
       "percent": 62.6
     },
     {
