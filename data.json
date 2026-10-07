@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/10/2026 11:39",
+  "lastModified": "07/10/2026 11:40",
   "summary": {
     "commitment": 160100.0,
-    "reached": 51079.96,
-    "missing": 109020.04,
-    "percent": 31.9,
+    "reached": 53910.36,
+    "missing": 106189.64,
+    "percent": 33.7,
     "weekGoal": 283809.52,
     "weekRevenue": 142785.28,
     "weekMissing": 141024.24,
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 13010.0,
-      "reached": 9842.7,
-      "missing": 3167.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 75.7,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 4460.0,
@@ -183,11 +172,22 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 4770.0,
-      "reached": 2271.7,
-      "missing": 2498.3,
+      "reached": 2366.5,
+      "missing": 2403.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 47.6,
+      "percent": 49.6,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 13010.0,
+      "reached": 12578.3,
+      "missing": 431.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 96.7,
       "status": "pending"
     },
     {
@@ -236,9 +236,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 439128.95,
-      "missing": 270394.86,
-      "percent": 61.9
+      "reached": 441959.35,
+      "missing": 267564.46,
+      "percent": 62.3
     },
     {
       "name": "Semana 3",
