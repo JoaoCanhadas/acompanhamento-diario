@@ -3,9 +3,9 @@
   "lastModified": "07/10/2026 11:13",
   "summary": {
     "commitment": 160100.0,
-    "reached": 31897.31,
-    "missing": 128202.69,
-    "percent": 19.9,
+    "reached": 39456.07,
+    "missing": 120643.93,
+    "percent": 24.6,
     "weekGoal": 283809.52,
     "weekRevenue": 143561.58,
     "weekMissing": 140247.94,
@@ -14,17 +14,6 @@
     "pendingCount": 16
   },
   "rows": [
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 16230.0,
-      "reached": 0.0,
-      "missing": 16230.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
     {
       "reference": "SBC",
       "seller": "SBC",
@@ -40,33 +29,44 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 16760.0,
-      "reached": 2711.82,
-      "missing": 14048.18,
+      "reached": 3501.22,
+      "missing": 13258.78,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.2,
+      "percent": 20.9,
       "status": "pending"
     },
     {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 13010.0,
-      "reached": 1659.7,
-      "missing": 11350.3,
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 16230.0,
+      "reached": 4841.16,
+      "missing": 11388.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 12.8,
+      "percent": 29.8,
       "status": "pending"
     },
     {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 13370.0,
-      "reached": 2639.85,
-      "missing": 10730.15,
+      "reached": 2809.75,
+      "missing": 10560.25,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 19.7,
+      "percent": 21.0,
+      "status": "pending"
+    },
+    {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 13010.0,
+      "reached": 3278.1,
+      "missing": 9731.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 25.2,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 10320.0,
-      "reached": 6365.1,
-      "missing": 3954.9,
+      "reached": 6505.0,
+      "missing": 3815.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 61.7,
+      "percent": 63.0,
       "status": "pending"
     },
     {
@@ -236,9 +236,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 419946.3,
-      "missing": 289577.51,
-      "percent": 59.2
+      "reached": 427505.06,
+      "missing": 282018.75,
+      "percent": 60.3
     },
     {
       "name": "Semana 3",
