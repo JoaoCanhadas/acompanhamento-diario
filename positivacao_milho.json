@@ -1,15 +1,15 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "07/10/2026 13:51",
+  "lastModified": "07/10/2026 14:00",
   "summary": {
     "commitment": 560.0,
-    "reached": 86.0,
-    "missing": 474.0,
-    "percent": 15.4,
+    "reached": 88.0,
+    "missing": 472.0,
+    "percent": 15.7,
     "weekGoal": 53,
-    "weekRevenue": 86.0,
-    "weekMissing": -33.0,
-    "weekPercent": 162.3,
+    "weekRevenue": 88.0,
+    "weekMissing": -35.0,
+    "weekPercent": 166.0,
     "positiveCount": 0,
     "pendingCount": 16
   },
@@ -81,17 +81,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 35.0,
-      "reached": 3.0,
-      "missing": 32.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 8.6,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 35.0,
@@ -105,6 +94,17 @@
     {
       "reference": "MOGI",
       "seller": "MOGI",
+      "commitment": 35.0,
+      "reached": 4.0,
+      "missing": 31.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 11.4,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
       "commitment": 35.0,
       "reached": 4.0,
       "missing": 31.0,
@@ -183,11 +183,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 35.0,
-      "reached": 17.0,
-      "missing": 18.0,
+      "reached": 18.0,
+      "missing": 17.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 48.6,
+      "percent": 51.4,
       "status": "pending"
     },
     {
@@ -207,9 +207,9 @@
     {
       "name": "Semana 1",
       "goal": 53,
-      "reached": 86.0,
-      "missing": -33.0,
-      "percent": 162.3
+      "reached": 88.0,
+      "missing": -35.0,
+      "percent": 166.0
     },
     {
       "name": "Semana 2",
