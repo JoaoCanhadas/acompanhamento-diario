@@ -3,8 +3,8 @@
   "lastModified": "07/10/2026 15:11",
   "summary": {
     "commitment": 0.0,
-    "reached": 472586.86,
-    "missing": -472586.86,
+    "reached": 494546.86,
+    "missing": -494546.86,
     "percent": 0,
     "weekGoal": 290476,
     "weekRevenue": 20607.9,
@@ -26,22 +26,22 @@
       "status": "ok"
     },
     {
-      "reference": "KEY ABC",
-      "seller": "KEY ABC",
+      "reference": "KEY SP",
+      "seller": "KEY SP",
       "commitment": 0.0,
-      "reached": 39461.9,
-      "missing": -39461.9,
+      "reached": 47291.33,
+      "missing": -47291.33,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
       "status": "ok"
     },
     {
-      "reference": "KEY SP",
-      "seller": "KEY SP",
+      "reference": "KEY ABC",
+      "seller": "KEY ABC",
       "commitment": 0.0,
-      "reached": 47291.33,
-      "missing": -47291.33,
+      "reached": 61421.9,
+      "missing": -61421.9,
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
@@ -93,9 +93,9 @@
     {
       "name": "Semana 2",
       "goal": 726190,
-      "reached": 472586.86,
-      "missing": 253603.14,
-      "percent": 65.1
+      "reached": 494546.86,
+      "missing": 231643.14,
+      "percent": 68.1
     },
     {
       "name": "Semana 3",
