@@ -3,9 +3,9 @@
   "lastModified": "07/10/2026 15:37",
   "summary": {
     "commitment": 160100.0,
-    "reached": 120540.26,
-    "missing": 39559.74,
-    "percent": 75.3,
+    "reached": 120743.26,
+    "missing": 39356.74,
+    "percent": 75.4,
     "weekGoal": 283809.52,
     "weekRevenue": 142785.28,
     "weekMissing": 141024.24,
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 5440.0,
-      "reached": 3545.45,
-      "missing": 1894.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 65.2,
-      "status": "pending"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 4770.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 61.1,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 5440.0,
+      "reached": 3748.45,
+      "missing": 1691.55,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 68.9,
       "status": "pending"
     },
     {
@@ -236,8 +236,8 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 508589.25,
-      "missing": 200934.56,
+      "reached": 508792.25,
+      "missing": 200731.56,
       "percent": 71.7
     },
     {
