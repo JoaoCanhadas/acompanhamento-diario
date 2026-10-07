@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/10/2026 10:19",
+  "lastModified": "07/10/2026 10:20",
   "summary": {
     "commitment": 160100.0,
-    "reached": 22088.23,
-    "missing": 138011.77,
-    "percent": 13.8,
+    "reached": 23122.21,
+    "missing": 136977.79,
+    "percent": 14.4,
     "weekGoal": 283809.52,
     "weekRevenue": 143561.58,
     "weekMissing": 140247.94,
@@ -62,11 +62,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 13370.0,
-      "reached": 2135.45,
-      "missing": 11234.55,
+      "reached": 2639.85,
+      "missing": 10730.15,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 16.0,
+      "percent": 19.7,
       "status": "pending"
     },
     {
@@ -95,11 +95,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 11360.0,
-      "reached": 2206.02,
-      "missing": 9153.98,
+      "reached": 2541.4,
+      "missing": 8818.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 19.4,
+      "percent": 22.4,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 5070.0,
-      "reached": 0.0,
-      "missing": 5070.0,
+      "reached": 194.2,
+      "missing": 4875.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 3.8,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 410137.22,
-      "missing": 299386.59,
-      "percent": 57.8
+      "reached": 411171.2,
+      "missing": 298352.61,
+      "percent": 58.0
     },
     {
       "name": "Semana 3",
