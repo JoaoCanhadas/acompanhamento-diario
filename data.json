@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/10/2026 14:47",
+  "lastModified": "07/10/2026 14:48",
   "summary": {
     "commitment": 160100.0,
-    "reached": 117661.43,
-    "missing": 42438.57,
-    "percent": 73.5,
+    "reached": 119026.43,
+    "missing": 41073.57,
+    "percent": 74.3,
     "weekGoal": 283809.52,
     "weekRevenue": 142785.28,
     "weekMissing": 141024.24,
     "weekPercent": 50.3,
-    "positiveCount": 2,
-    "pendingCount": 15
+    "positiveCount": 3,
+    "pendingCount": 14
   },
   "rows": [
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 10320.0,
-      "reached": 9246.7,
-      "missing": 1073.3,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 89.6,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 0.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 10320.0,
+      "reached": 10611.7,
+      "missing": -291.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 102.8,
       "status": "ok"
     },
     {
@@ -236,9 +236,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 505710.42,
-      "missing": 203813.39,
-      "percent": 71.3
+      "reached": 507075.42,
+      "missing": 202448.39,
+      "percent": 71.5
     },
     {
       "name": "Semana 3",
