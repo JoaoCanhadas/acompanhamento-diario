@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/10/2026 10:24",
+  "lastModified": "07/10/2026 10:25",
   "summary": {
     "commitment": 160100.0,
-    "reached": 23456.92,
-    "missing": 136643.08,
-    "percent": 14.7,
+    "reached": 23815.91,
+    "missing": 136284.09,
+    "percent": 14.9,
     "weekGoal": 283809.52,
     "weekRevenue": 143561.58,
     "weekMissing": 140247.94,
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 5070.0,
-      "reached": 194.21,
-      "missing": 4875.79,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 3.8,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 8680.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 44.4,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 5070.0,
+      "reached": 553.2,
+      "missing": 4516.8,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 10.9,
       "status": "pending"
     },
     {
@@ -236,8 +236,8 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 411505.91,
-      "missing": 298017.9,
+      "reached": 411864.9,
+      "missing": 297658.91,
       "percent": 58.0
     },
     {
