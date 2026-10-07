@@ -1,6 +1,6 @@
 {
   "workbook": "Sensum SQL - Postivação",
-  "lastModified": "07/10/2026 14:53",
+  "lastModified": "07/10/2026 14:54",
   "summary": {
     "commitment": 560.0,
     "reached": 90.0,
@@ -81,8 +81,8 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
+      "reference": "MOGI",
+      "seller": "MOGI",
       "commitment": 35.0,
       "reached": 3.0,
       "missing": 32.0,
@@ -92,14 +92,14 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
+      "reference": "SJC/VALE",
+      "seller": "VALE",
       "commitment": 35.0,
-      "reached": 4.0,
-      "missing": 31.0,
+      "reached": 3.0,
+      "missing": 32.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 11.4,
+      "percent": 8.6,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 35.0,
-      "reached": 7.0,
-      "missing": 28.0,
+      "reached": 8.0,
+      "missing": 27.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 20.0,
+      "percent": 22.9,
       "status": "pending"
     },
     {
