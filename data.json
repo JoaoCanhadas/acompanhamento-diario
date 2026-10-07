@@ -3,9 +3,9 @@
   "lastModified": "07/10/2026 10:24",
   "summary": {
     "commitment": 160100.0,
-    "reached": 23122.22,
-    "missing": 136977.78,
-    "percent": 14.4,
+    "reached": 23456.92,
+    "missing": 136643.08,
+    "percent": 14.7,
     "weekGoal": 283809.52,
     "weekRevenue": 143561.58,
     "weekMissing": 140247.94,
@@ -211,6 +211,17 @@
       "difference": 0.0,
       "percent": 0,
       "status": "ok"
+    },
+    {
+      "reference": "",
+      "seller": "IATAGAM JUNIOR",
+      "commitment": 0.0,
+      "reached": 334.7,
+      "missing": -334.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 0,
+      "status": "ok"
     }
   ],
   "history": [],
@@ -225,8 +236,8 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 411171.21,
-      "missing": 298352.6,
+      "reached": 411505.91,
+      "missing": 298017.9,
       "percent": 58.0
     },
     {
