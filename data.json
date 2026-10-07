@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "07/10/2026 14:07",
+  "lastModified": "07/10/2026 14:08",
   "summary": {
     "commitment": 160100.0,
-    "reached": 109314.48,
-    "missing": 50785.52,
-    "percent": 68.3,
+    "reached": 113346.32,
+    "missing": 46753.68,
+    "percent": 70.8,
     "weekGoal": 283809.52,
     "weekRevenue": 142785.28,
     "weekMissing": 141024.24,
@@ -14,17 +14,6 @@
     "pendingCount": 15
   },
   "rows": [
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 13370.0,
-      "reached": 6325.75,
-      "missing": 7044.25,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 47.3,
-      "status": "pending"
-    },
     {
       "reference": "CENTRO",
       "seller": "CENTRO",
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 49.3,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 13370.0,
+      "reached": 7856.05,
+      "missing": 5513.95,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 58.8,
       "status": "pending"
     },
     {
@@ -78,17 +78,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 33.9,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 16230.0,
-      "reached": 11845.62,
-      "missing": 4384.38,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 73.0,
       "status": "pending"
     },
     {
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 50.7,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 16230.0,
+      "reached": 14347.16,
+      "missing": 1882.84,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 88.4,
       "status": "pending"
     },
     {
@@ -236,9 +236,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 497363.47,
-      "missing": 212160.34,
-      "percent": 70.1
+      "reached": 501395.31,
+      "missing": 208128.5,
+      "percent": 70.7
     },
     {
       "name": "Semana 3",
