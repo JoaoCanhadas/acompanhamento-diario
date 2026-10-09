@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "09/10/2026 09:36",
+  "lastModified": "09/10/2026 09:37",
   "summary": {
     "commitment": 100470.0,
-    "reached": 11806.53,
-    "missing": 88663.47,
-    "percent": 11.8,
+    "reached": 16444.47,
+    "missing": 84025.53,
+    "percent": 16.4,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
@@ -73,11 +73,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 8730.0,
-      "reached": 2178.25,
-      "missing": 6551.75,
+      "reached": 4061.65,
+      "missing": 4668.35,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 25.0,
+      "percent": 46.5,
       "status": "pending"
     },
     {
@@ -111,17 +111,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 8.4,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 3750.0,
-      "reached": 877.32,
-      "missing": 2872.68,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 23.4,
       "status": "pending"
     },
     {
@@ -194,11 +183,22 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 2500.0,
-      "reached": 1430.89,
-      "missing": 1069.11,
+      "reached": 1750.69,
+      "missing": 749.31,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 57.2,
+      "percent": 70.0,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 3750.0,
+      "reached": 3312.06,
+      "missing": 437.94,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 88.3,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 663147.01,
-      "missing": 46376.8,
-      "percent": 93.5
+      "reached": 667784.95,
+      "missing": 41738.86,
+      "percent": 94.1
     },
     {
       "name": "Semana 3",
