@@ -3,37 +3,37 @@
   "lastModified": "09/10/2026 13:21",
   "summary": {
     "commitment": 100470.0,
-    "reached": 60826.79,
-    "missing": 39643.21,
-    "percent": 60.5,
+    "reached": 63970.09,
+    "missing": 36499.91,
+    "percent": 63.7,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
     "weekPercent": 50.2,
-    "positiveCount": 3,
-    "pendingCount": 14
+    "positiveCount": 4,
+    "pendingCount": 13
   },
   "rows": [
     {
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 12640.0,
-      "reached": 4876.95,
-      "missing": 7763.05,
+      "reached": 5523.15,
+      "missing": 7116.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.6,
+      "percent": 43.7,
       "status": "pending"
     },
     {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 7460.0,
-      "reached": 450.69,
-      "missing": 7009.31,
+      "reached": 892.49,
+      "missing": 6567.51,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 6.0,
+      "percent": 12.0,
       "status": "pending"
     },
     {
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 8730.0,
-      "reached": 7615.51,
-      "missing": 1114.49,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 87.2,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 2000.0,
@@ -191,6 +180,17 @@
       "status": "ok"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 8730.0,
+      "reached": 9363.01,
+      "missing": -633.01,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 107.3,
+      "status": "ok"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 3750.0,
@@ -205,11 +205,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 2500.0,
-      "reached": 4869.2,
-      "missing": -2369.2,
+      "reached": 5177.0,
+      "missing": -2677.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 194.8,
+      "percent": 207.1,
       "status": "ok"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 712167.28,
-      "missing": -2643.47,
-      "percent": 100.4
+      "reached": 715310.58,
+      "missing": -5786.77,
+      "percent": 100.8
     },
     {
       "name": "Semana 3",
