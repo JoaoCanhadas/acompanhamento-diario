@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "09/10/2026 14:02",
+  "lastModified": "09/10/2026 14:03",
   "summary": {
     "commitment": 100470.0,
-    "reached": 78620.71,
-    "missing": 21849.29,
-    "percent": 78.3,
+    "reached": 79528.59,
+    "missing": 20941.41,
+    "percent": 79.2,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
     "weekPercent": 50.2,
-    "positiveCount": 4,
-    "pendingCount": 13
+    "positiveCount": 5,
+    "pendingCount": 12
   },
   "rows": [
     {
@@ -125,17 +125,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 13890.0,
-      "reached": 13318.35,
-      "missing": 571.65,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 95.9,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 1830.0,
@@ -147,14 +136,14 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 2000.0,
-      "reached": 1864.9,
-      "missing": 135.1,
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 13890.0,
+      "reached": 13605.49,
+      "missing": 284.51,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 93.2,
+      "percent": 98.0,
       "status": "pending"
     },
     {
@@ -169,6 +158,17 @@
       "status": "ok"
     },
     {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 2000.0,
+      "reached": 2019.9,
+      "missing": -19.9,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.0,
+      "status": "ok"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 3750.0,
@@ -180,17 +180,6 @@
       "status": "ok"
     },
     {
-      "reference": "SJC",
-      "seller": "SJC",
-      "commitment": 2500.0,
-      "reached": 5177.0,
-      "missing": -2677.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 207.1,
-      "status": "ok"
-    },
-    {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 8730.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 135.1,
+      "status": "ok"
+    },
+    {
+      "reference": "SJC",
+      "seller": "SJC",
+      "commitment": 2500.0,
+      "reached": 5642.74,
+      "missing": -3142.74,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 225.7,
       "status": "ok"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 729961.19,
-      "missing": -20437.38,
-      "percent": 102.9
+      "reached": 730869.07,
+      "missing": -21345.26,
+      "percent": 103.0
     },
     {
       "name": "Semana 3",
