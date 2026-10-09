@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "09/10/2026 13:28",
+  "lastModified": "09/10/2026 13:29",
   "summary": {
     "commitment": 100470.0,
-    "reached": 67608.99,
-    "missing": 32861.01,
-    "percent": 67.3,
+    "reached": 69557.3,
+    "missing": 30912.7,
+    "percent": 69.2,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
@@ -59,25 +59,14 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 13890.0,
-      "reached": 10656.72,
-      "missing": 3233.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 76.7,
-      "status": "pending"
-    },
-    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 4590.0,
-      "reached": 1412.58,
-      "missing": 3177.42,
+      "reached": 1604.54,
+      "missing": 2985.46,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.8,
+      "percent": 35.0,
       "status": "pending"
     },
     {
@@ -114,14 +103,14 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 2130.0,
-      "reached": 316.0,
-      "missing": 1814.0,
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 13890.0,
+      "reached": 12034.47,
+      "missing": 1855.53,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 14.8,
+      "percent": 86.6,
       "status": "pending"
     },
     {
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 54.7,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 2130.0,
+      "reached": 494.7,
+      "missing": 1635.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 23.2,
       "status": "pending"
     },
     {
@@ -191,17 +191,6 @@
       "status": "ok"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 1770.0,
-      "reached": 4392.02,
-      "missing": -2622.02,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 248.1,
-      "status": "ok"
-    },
-    {
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 2500.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 207.1,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 1770.0,
+      "reached": 4591.92,
+      "missing": -2821.92,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 259.4,
       "status": "ok"
     }
   ],
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 718949.48,
-      "missing": -9425.67,
-      "percent": 101.3
+      "reached": 720897.79,
+      "missing": -11373.98,
+      "percent": 101.6
     },
     {
       "name": "Semana 3",
