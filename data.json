@@ -3,9 +3,9 @@
   "lastModified": "09/10/2026 08:33",
   "summary": {
     "commitment": 100470.0,
-    "reached": 3973.32,
-    "missing": 96496.68,
-    "percent": 4.0,
+    "reached": 6114.82,
+    "missing": 94355.18,
+    "percent": 6.1,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
@@ -29,11 +29,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 13970.0,
-      "reached": 199.9,
-      "missing": 13770.1,
+      "reached": 1141.4,
+      "missing": 12828.6,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 1.4,
+      "percent": 8.2,
       "status": "pending"
     },
     {
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 4790.0,
-      "reached": 450.0,
-      "missing": 4340.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 9.4,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 3950.0,
@@ -133,6 +122,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 4790.0,
+      "reached": 1650.0,
+      "missing": 3140.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 34.4,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 655313.8,
-      "missing": 54210.01,
-      "percent": 92.4
+      "reached": 657455.3,
+      "missing": 52068.51,
+      "percent": 92.7
     },
     {
       "name": "Semana 3",
