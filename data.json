@@ -3,9 +3,9 @@
   "lastModified": "09/10/2026 13:05",
   "summary": {
     "commitment": 100470.0,
-    "reached": 53890.6,
-    "missing": 46579.4,
-    "percent": 53.6,
+    "reached": 59752.34,
+    "missing": 40717.66,
+    "percent": 59.5,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
@@ -18,19 +18,8 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 12640.0,
-      "reached": 3728.25,
-      "missing": 8911.75,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 29.5,
-      "status": "pending"
-    },
-    {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 13970.0,
-      "reached": 5395.12,
-      "missing": 8574.88,
+      "reached": 4876.95,
+      "missing": 7763.05,
       "average": 0.0,
       "difference": 0.0,
       "percent": 38.6,
@@ -45,6 +34,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 13970.0,
+      "reached": 9118.32,
+      "missing": 4851.68,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 65.3,
       "status": "pending"
     },
     {
@@ -103,17 +103,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 2130.0,
-      "reached": 0.0,
-      "missing": 2130.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 3800.0,
@@ -122,6 +111,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 50.5,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 2130.0,
+      "reached": 325.8,
+      "missing": 1804.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 15.3,
       "status": "pending"
     },
     {
@@ -147,17 +147,6 @@
       "status": "pending"
     },
     {
-      "reference": "SJC/VALE",
-      "seller": "VALE",
-      "commitment": 1830.0,
-      "reached": 820.67,
-      "missing": 1009.33,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.8,
-      "status": "pending"
-    },
-    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 2000.0,
@@ -166,6 +155,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 53.8,
+      "status": "pending"
+    },
+    {
+      "reference": "SJC/VALE",
+      "seller": "VALE",
+      "commitment": 1830.0,
+      "reached": 1484.7,
+      "missing": 345.3,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 81.1,
       "status": "pending"
     },
     {
@@ -194,8 +194,8 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 3750.0,
-      "reached": 4577.71,
-      "missing": -827.71,
+      "reached": 4577.72,
+      "missing": -827.72,
       "average": 0.0,
       "difference": 0.0,
       "percent": 122.1,
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 705231.09,
-      "missing": 4292.72,
-      "percent": 99.4
+      "reached": 711092.82,
+      "missing": -1569.01,
+      "percent": 100.2
     },
     {
       "name": "Semana 3",
