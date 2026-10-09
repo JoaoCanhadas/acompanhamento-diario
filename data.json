@@ -3,15 +3,15 @@
   "lastModified": "09/10/2026 11:45",
   "summary": {
     "commitment": 100470.0,
-    "reached": 45774.09,
-    "missing": 54695.91,
-    "percent": 45.6,
+    "reached": 46446.48,
+    "missing": 54023.52,
+    "percent": 46.2,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
     "weekPercent": 50.2,
-    "positiveCount": 2,
-    "pendingCount": 15
+    "positiveCount": 3,
+    "pendingCount": 14
   },
   "rows": [
     {
@@ -169,17 +169,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 1770.0,
-      "reached": 1181.82,
-      "missing": 588.18,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 66.8,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 0.0,
@@ -188,6 +177,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 1770.0,
+      "reached": 1799.22,
+      "missing": -29.22,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 101.7,
       "status": "ok"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 2500.0,
-      "reached": 4814.21,
-      "missing": -2314.21,
+      "reached": 4869.2,
+      "missing": -2369.2,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 192.6,
+      "percent": 194.8,
       "status": "ok"
     }
   ],
@@ -225,8 +225,8 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 697114.57,
-      "missing": 12409.24,
+      "reached": 697786.96,
+      "missing": 11736.85,
       "percent": 98.3
     },
     {
