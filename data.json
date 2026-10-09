@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "09/10/2026 13:44",
+  "lastModified": "09/10/2026 13:45",
   "summary": {
     "commitment": 100470.0,
-    "reached": 73946.32,
-    "missing": 26523.68,
-    "percent": 73.6,
+    "reached": 76659.7,
+    "missing": 23810.3,
+    "percent": 76.3,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
@@ -48,25 +48,14 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 4590.0,
-      "reached": 1604.54,
-      "missing": 2985.46,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 35.0,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 3890.0,
-      "reached": 1202.64,
-      "missing": 2687.36,
+      "reached": 1402.54,
+      "missing": 2487.46,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 30.9,
+      "percent": 36.1,
       "status": "pending"
     },
     {
@@ -81,6 +70,17 @@
       "status": "pending"
     },
     {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 4590.0,
+      "reached": 2244.54,
+      "missing": 2345.46,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 48.9,
+      "status": "pending"
+    },
+    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 4790.0,
@@ -89,17 +89,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 54.7,
-      "status": "pending"
-    },
-    {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 13890.0,
-      "reached": 12034.47,
-      "missing": 1855.53,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 86.6,
       "status": "pending"
     },
     {
@@ -125,17 +114,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 2000.0,
-      "reached": 1075.4,
-      "missing": 924.6,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 53.8,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 2130.0,
@@ -147,6 +125,17 @@
       "status": "pending"
     },
     {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 13890.0,
+      "reached": 13318.35,
+      "missing": 571.65,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 95.9,
+      "status": "pending"
+    },
+    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 1830.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 81.1,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 2000.0,
+      "reached": 1665.0,
+      "missing": 335.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 83.2,
       "status": "pending"
     },
     {
@@ -225,9 +225,9 @@
     {
       "name": "Semana 2",
       "goal": 709523.81,
-      "reached": 725286.81,
-      "missing": -15763.0,
-      "percent": 102.2
+      "reached": 728000.19,
+      "missing": -18476.38,
+      "percent": 102.6
     },
     {
       "name": "Semana 3",
