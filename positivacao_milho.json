@@ -3,9 +3,9 @@
   "lastModified": "09/10/2026 13:37",
   "summary": {
     "commitment": 560.0,
-    "reached": 120.0,
-    "missing": 440.0,
-    "percent": 21.4,
+    "reached": 121.0,
+    "missing": 439.0,
+    "percent": 21.6,
     "weekGoal": 53,
     "weekRevenue": 92.0,
     "weekMissing": -39.0,
@@ -15,8 +15,8 @@
   },
   "rows": [
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
       "commitment": 35.0,
       "reached": 2.0,
       "missing": 33.0,
@@ -26,14 +26,14 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
       "commitment": 35.0,
-      "reached": 2.0,
-      "missing": 33.0,
+      "reached": 3.0,
+      "missing": 32.0,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 5.7,
+      "percent": 8.6,
       "status": "pending"
     },
     {
@@ -214,9 +214,9 @@
     {
       "name": "Semana 2",
       "goal": 133,
-      "reached": 29.0,
-      "missing": 104.0,
-      "percent": 21.8
+      "reached": 30.0,
+      "missing": 103.0,
+      "percent": 22.6
     },
     {
       "name": "Semana 3",
