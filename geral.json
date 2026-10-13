@@ -3,9 +3,9 @@
   "lastModified": "13/10/2026 13:36",
   "summary": {
     "commitment": 6031000.0,
-    "reached": 1893611.7,
-    "missing": 4137388.3,
-    "percent": 31.4,
+    "reached": 1901050.4,
+    "missing": 4129949.6,
+    "percent": 31.5,
     "weekGoal": 574381,
     "weekRevenue": 162832.47,
     "weekMissing": 411548.53,
@@ -51,11 +51,11 @@
       "reference": "KEY ZL",
       "seller": "KEY ZL",
       "commitment": 480000.0,
-      "reached": 190444.28,
-      "missing": 289555.72,
+      "reached": 190967.48,
+      "missing": 289032.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 39.7,
+      "percent": 39.8,
       "status": "pending"
     },
     {
@@ -103,36 +103,36 @@
       "status": "pending"
     },
     {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 272000.0,
-      "reached": 102443.87,
-      "missing": 169556.13,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 37.7,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 217500.0,
-      "reached": 50258.02,
-      "missing": 167241.98,
+      "reached": 50988.87,
+      "missing": 166511.13,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 23.1,
+      "percent": 23.4,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 272000.0,
+      "reached": 106016.71,
+      "missing": 165983.29,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 39.0,
       "status": "pending"
     },
     {
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 270000.0,
-      "reached": 115449.56,
-      "missing": 154550.44,
+      "reached": 116528.27,
+      "missing": 153471.73,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 42.8,
+      "percent": 43.2,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 47980.35,
-      "missing": 94019.65,
+      "reached": 48618.55,
+      "missing": 93381.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 33.8,
+      "percent": 34.2,
       "status": "pending"
     },
     {
@@ -216,11 +216,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 88000.0,
-      "reached": 33455.27,
-      "missing": 54544.73,
+      "reached": 33994.17,
+      "missing": 54005.83,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.0,
+      "percent": 38.6,
       "status": "pending"
     },
     {
@@ -235,17 +235,6 @@
       "status": "pending"
     },
     {
-      "reference": "CAMPINAS",
-      "seller": "CAMPINAS",
-      "commitment": 70500.0,
-      "reached": 20632.72,
-      "missing": 49867.28,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 29.3,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 79000.0,
@@ -254,6 +243,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 37.3,
+      "status": "pending"
+    },
+    {
+      "reference": "CAMPINAS",
+      "seller": "CAMPINAS",
+      "commitment": 70500.0,
+      "reached": 20988.72,
+      "missing": 49511.28,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 29.8,
       "status": "pending"
     },
     {
@@ -331,9 +331,9 @@
     {
       "name": "Semana 3",
       "goal": 1148762,
-      "reached": 335302.2,
-      "missing": 813459.8,
-      "percent": 29.2
+      "reached": 342740.9,
+      "missing": 806021.1,
+      "percent": 29.8
     },
     {
       "name": "Semana 4",
