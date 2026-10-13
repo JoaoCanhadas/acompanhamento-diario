@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "13/10/2026 10:55",
+  "lastModified": "13/10/2026 10:56",
   "summary": {
     "commitment": 6031000.0,
-    "reached": 1693544.43,
-    "missing": 4337455.57,
+    "reached": 1697708.43,
+    "missing": 4333291.57,
     "percent": 28.1,
     "weekGoal": 574381,
     "weekRevenue": 162832.47,
@@ -172,11 +172,11 @@
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 175000.0,
-      "reached": 62811.74,
-      "missing": 112188.26,
+      "reached": 64494.74,
+      "missing": 110505.26,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 35.9,
+      "percent": 36.9,
       "status": "pending"
     },
     {
@@ -194,8 +194,8 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 95500.0,
-      "reached": 19407.57,
-      "missing": 76092.43,
+      "reached": 19417.57,
+      "missing": 76082.43,
       "average": 0.0,
       "difference": 0.0,
       "percent": 20.3,
@@ -227,22 +227,11 @@
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 84000.0,
-      "reached": 28499.3,
-      "missing": 55500.7,
+      "reached": 30610.3,
+      "missing": 53389.7,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 33.9,
-      "status": "pending"
-    },
-    {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 79000.0,
-      "reached": 28857.52,
-      "missing": 50142.48,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 36.5,
+      "percent": 36.4,
       "status": "pending"
     },
     {
@@ -254,6 +243,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 29.3,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 79000.0,
+      "reached": 29217.52,
+      "missing": 49782.48,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 37.0,
       "status": "pending"
     },
     {
@@ -324,16 +324,16 @@
     {
       "name": "Semana 2",
       "goal": 1435952,
-      "reached": 1395467.04,
-      "missing": 40484.96,
+      "reached": 1395477.04,
+      "missing": 40474.96,
       "percent": 97.2
     },
     {
       "name": "Semana 3",
       "goal": 1148762,
-      "reached": 135244.92,
-      "missing": 1013517.08,
-      "percent": 11.8
+      "reached": 139398.92,
+      "missing": 1009363.08,
+      "percent": 12.1
     },
     {
       "name": "Semana 4",
