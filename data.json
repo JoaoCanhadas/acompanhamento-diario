@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "13/10/2026 10:35",
+  "lastModified": "13/10/2026 10:36",
   "summary": {
     "commitment": 300010.0,
-    "reached": 111118.37,
-    "missing": 188891.63,
-    "percent": 37.0,
+    "reached": 116132.42,
+    "missing": 183877.58,
+    "percent": 38.7,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -34,28 +34,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 13.4,
-      "status": "pending"
-    },
-    {
-      "reference": "SANTO ANDRE",
-      "seller": "SANTO ANDRE",
-      "commitment": 19620.0,
-      "reached": 4220.5,
-      "missing": 15399.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 21.5,
-      "status": "pending"
-    },
-    {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 25000.0,
-      "reached": 10671.26,
-      "missing": 14328.74,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.7,
       "status": "pending"
     },
     {
@@ -114,6 +92,28 @@
       "status": "pending"
     },
     {
+      "reference": "SANTO ANDRE",
+      "seller": "SANTO ANDRE",
+      "commitment": 19620.0,
+      "reached": 6896.0,
+      "missing": 12724.0,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 35.1,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 25000.0,
+      "reached": 12334.86,
+      "missing": 12665.14,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 49.3,
+      "status": "pending"
+    },
+    {
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 15530.0,
@@ -136,17 +136,6 @@
       "status": "pending"
     },
     {
-      "reference": "MOGI",
-      "seller": "MOGI",
-      "commitment": 10110.0,
-      "reached": 784.8,
-      "missing": 9325.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 7.8,
-      "status": "pending"
-    },
-    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 8980.0,
@@ -155,6 +144,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0.0,
+      "status": "pending"
+    },
+    {
+      "reference": "MOGI",
+      "seller": "MOGI",
+      "commitment": 10110.0,
+      "reached": 1134.8,
+      "missing": 8975.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 11.2,
       "status": "pending"
     },
     {
@@ -183,11 +183,11 @@
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 5750.0,
-      "reached": 1264.19,
-      "missing": 4485.81,
+      "reached": 1589.14,
+      "missing": 4160.86,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 22.0,
+      "percent": 27.6,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 111118.37,
-      "missing": 456500.68,
-      "percent": 19.6
+      "reached": 116132.42,
+      "missing": 451486.63,
+      "percent": 20.5
     },
     {
       "name": "Semana 4",
