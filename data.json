@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "13/10/2026 12:31",
+  "lastModified": "13/10/2026 12:32",
   "summary": {
     "commitment": 300010.0,
-    "reached": 154458.41,
-    "missing": 145551.59,
-    "percent": 51.5,
+    "reached": 163360.96,
+    "missing": 136649.04,
+    "percent": 54.5,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
     "weekPercent": 50.1,
-    "positiveCount": 1,
-    "pendingCount": 16
+    "positiveCount": 2,
+    "pendingCount": 15
   },
   "rows": [
     {
@@ -29,11 +29,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 28000.0,
-      "reached": 11062.01,
-      "missing": 16937.99,
+      "reached": 13450.26,
+      "missing": 14549.74,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 39.5,
+      "percent": 48.0,
       "status": "pending"
     },
     {
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 15530.0,
-      "reached": 4484.33,
-      "missing": 11045.67,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 28.9,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 19890.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 44.7,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 15530.0,
+      "reached": 4992.43,
+      "missing": 10537.57,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 32.1,
       "status": "pending"
     },
     {
@@ -180,17 +180,6 @@
       "status": "pending"
     },
     {
-      "reference": "CENTRO",
-      "seller": "CENTRO",
-      "commitment": 31000.0,
-      "reached": 28431.82,
-      "missing": 2568.18,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 91.7,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 0.0,
@@ -210,6 +199,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 114.2,
+      "status": "ok"
+    },
+    {
+      "reference": "CENTRO",
+      "seller": "CENTRO",
+      "commitment": 31000.0,
+      "reached": 34438.02,
+      "missing": -3438.02,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 111.1,
       "status": "ok"
     }
   ],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 154458.4,
-      "missing": 413160.65,
-      "percent": 27.2
+      "reached": 163360.95,
+      "missing": 404258.1,
+      "percent": 28.8
     },
     {
       "name": "Semana 4",
