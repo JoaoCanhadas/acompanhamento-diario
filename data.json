@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "13/10/2026 13:53",
+  "lastModified": "13/10/2026 13:54",
   "summary": {
     "commitment": 300010.0,
-    "reached": 232311.25,
-    "missing": 67698.75,
-    "percent": 77.4,
+    "reached": 232930.85,
+    "missing": 67079.15,
+    "percent": 77.6,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -62,11 +62,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 14510.0,
-      "reached": 6138.91,
-      "missing": 8371.09,
+      "reached": 6748.51,
+      "missing": 7761.49,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 42.3,
+      "percent": 46.5,
       "status": "pending"
     },
     {
@@ -172,8 +172,8 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 25000.0,
-      "reached": 26045.21,
-      "missing": -1045.21,
+      "reached": 26055.21,
+      "missing": -1055.21,
       "average": 0.0,
       "difference": 0.0,
       "percent": 104.2,
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 232311.24,
-      "missing": 335307.81,
-      "percent": 40.9
+      "reached": 232930.84,
+      "missing": 334688.21,
+      "percent": 41.0
     },
     {
       "name": "Semana 4",
