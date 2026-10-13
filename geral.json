@@ -3,8 +3,8 @@
   "lastModified": "13/10/2026 09:53",
   "summary": {
     "commitment": 6031000.0,
-    "reached": 1658702.41,
-    "missing": 4372297.59,
+    "reached": 1659117.14,
+    "missing": 4371882.86,
     "percent": 27.5,
     "weekGoal": 574381,
     "weekRevenue": 162832.47,
@@ -216,11 +216,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 88000.0,
-      "reached": 29489.24,
-      "missing": 58510.76,
+      "reached": 29603.97,
+      "missing": 58396.03,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 33.5,
+      "percent": 33.6,
       "status": "pending"
     },
     {
@@ -235,17 +235,6 @@
       "status": "pending"
     },
     {
-      "reference": "VENDEDOR INTERNO 1",
-      "seller": "INTERNO 1",
-      "commitment": 79000.0,
-      "reached": 27453.52,
-      "missing": 51546.48,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 34.8,
-      "status": "pending"
-    },
-    {
       "reference": "CAMPINAS",
       "seller": "CAMPINAS",
       "commitment": 70500.0,
@@ -254,6 +243,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 27.0,
+      "status": "pending"
+    },
+    {
+      "reference": "VENDEDOR INTERNO 1",
+      "seller": "INTERNO 1",
+      "commitment": 79000.0,
+      "reached": 27753.52,
+      "missing": 51246.48,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 35.1,
       "status": "pending"
     },
     {
@@ -331,9 +331,9 @@
     {
       "name": "Semana 3",
       "goal": 1148762,
-      "reached": 99003.0,
-      "missing": 1049759.0,
-      "percent": 8.6
+      "reached": 99417.73,
+      "missing": 1049344.27,
+      "percent": 8.7
     },
     {
       "name": "Semana 4",
