@@ -3,9 +3,9 @@
   "lastModified": "13/10/2026 12:21",
   "summary": {
     "commitment": 300010.0,
-    "reached": 154997.33,
-    "missing": 145012.67,
-    "percent": 51.7,
+    "reached": 153958.13,
+    "missing": 146051.87,
+    "percent": 51.3,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -15,6 +15,17 @@
   },
   "rows": [
     {
+      "reference": "LESTE TATUAPE",
+      "seller": "TATUAPE",
+      "commitment": 19770.0,
+      "reached": 1605.3,
+      "missing": 18164.7,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 8.1,
+      "status": "pending"
+    },
+    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 28000.0,
@@ -23,17 +34,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 38.4,
-      "status": "pending"
-    },
-    {
-      "reference": "LESTE TATUAPE",
-      "seller": "TATUAPE",
-      "commitment": 19770.0,
-      "reached": 2644.5,
-      "missing": 17125.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 13.4,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 154997.32,
-      "missing": 412621.73,
-      "percent": 27.3
+      "reached": 153958.12,
+      "missing": 413660.93,
+      "percent": 27.1
     },
     {
       "name": "Semana 4",
