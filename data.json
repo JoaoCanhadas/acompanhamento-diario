@@ -3,9 +3,9 @@
   "lastModified": "13/10/2026 08:59",
   "summary": {
     "commitment": 300010.0,
-    "reached": 43480.3,
-    "missing": 256529.7,
-    "percent": 14.5,
+    "reached": 46056.95,
+    "missing": 253953.05,
+    "percent": 15.4,
     "weekGoal": 283809.52,
     "weekRevenue": 142485.48,
     "weekMissing": 141324.04,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 19890.0,
-      "reached": 355.49,
-      "missing": 19534.51,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 1.8,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 21000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 7.9,
+      "status": "pending"
+    },
+    {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 19890.0,
+      "reached": 1923.09,
+      "missing": 17966.91,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 9.7,
       "status": "pending"
     },
     {
@@ -117,11 +117,11 @@
       "reference": "INDAIATUBA",
       "seller": "INDAIATUBA",
       "commitment": 15530.0,
-      "reached": 795.43,
-      "missing": 14734.57,
+      "reached": 1804.48,
+      "missing": 13725.52,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 5.1,
+      "percent": 11.6,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 43480.31,
-      "missing": 524138.74,
-      "percent": 7.7
+      "reached": 46056.95,
+      "missing": 521562.1,
+      "percent": 8.1
     },
     {
       "name": "Semana 4",
