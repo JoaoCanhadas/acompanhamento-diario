@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "13/10/2026 14:31",
+  "lastModified": "13/10/2026 14:32",
   "summary": {
     "commitment": 6031000.0,
-    "reached": 1965545.24,
-    "missing": 4065454.76,
+    "reached": 1967630.27,
+    "missing": 4063369.73,
     "percent": 32.6,
     "weekGoal": 574381,
     "weekRevenue": 162832.47,
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE PENHA",
-      "seller": "PENHA",
-      "commitment": 169000.0,
-      "reached": 63357.84,
-      "missing": 105642.16,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 37.5,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 175000.0,
@@ -180,14 +169,25 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE PENHA",
+      "seller": "PENHA",
+      "commitment": 169000.0,
+      "reached": 64920.14,
+      "missing": 104079.86,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 38.4,
+      "status": "pending"
+    },
+    {
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 142000.0,
-      "reached": 53889.36,
-      "missing": 88110.64,
+      "reached": 54209.16,
+      "missing": 87790.84,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 38.0,
+      "percent": 38.2,
       "status": "pending"
     },
     {
@@ -216,11 +216,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 88000.0,
-      "reached": 34356.61,
-      "missing": 53643.39,
+      "reached": 34559.54,
+      "missing": 53440.46,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 39.0,
+      "percent": 39.3,
       "status": "pending"
     },
     {
@@ -331,9 +331,9 @@
     {
       "name": "Semana 3",
       "goal": 1148762,
-      "reached": 407235.74,
-      "missing": 741526.26,
-      "percent": 35.4
+      "reached": 409320.77,
+      "missing": 739441.23,
+      "percent": 35.6
     },
     {
       "name": "Semana 4",
