@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "14/10/2026 11:25",
+  "lastModified": "14/10/2026 11:26",
   "summary": {
     "commitment": 200200.0,
-    "reached": 89611.46,
-    "missing": 110588.54,
-    "percent": 44.8,
+    "reached": 90301.02,
+    "missing": 109898.98,
+    "percent": 45.1,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -29,8 +29,8 @@
       "reference": "LESTE PENHA",
       "seller": "PENHA",
       "commitment": 13510.0,
-      "reached": 2124.03,
-      "missing": 11385.97,
+      "reached": 2123.99,
+      "missing": 11386.01,
       "average": 0.0,
       "difference": 0.0,
       "percent": 15.7,
@@ -59,25 +59,25 @@
       "status": "pending"
     },
     {
-      "reference": "INTERLAGOS",
-      "seller": "INTERLAGOS",
-      "commitment": 14000.0,
-      "reached": 5037.45,
-      "missing": 8962.55,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 36.0,
-      "status": "pending"
-    },
-    {
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 10910.0,
-      "reached": 2329.72,
-      "missing": 8580.28,
+      "reached": 2459.62,
+      "missing": 8450.38,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 21.4,
+      "percent": 22.5,
+      "status": "pending"
+    },
+    {
+      "reference": "INTERLAGOS",
+      "seller": "INTERLAGOS",
+      "commitment": 14000.0,
+      "reached": 5597.15,
+      "missing": 8402.85,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 40.0,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 351246.82,
-      "missing": 216372.23,
-      "percent": 61.9
+      "reached": 351936.38,
+      "missing": 215682.67,
+      "percent": 62.0
     },
     {
       "name": "Semana 4",
