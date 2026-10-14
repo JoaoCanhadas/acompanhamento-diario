@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "14/10/2026 11:45",
+  "lastModified": "14/10/2026 11:46",
   "summary": {
     "commitment": 200200.0,
-    "reached": 94272.24,
-    "missing": 105927.76,
-    "percent": 47.1,
+    "reached": 98414.08,
+    "missing": 101785.92,
+    "percent": 49.2,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -18,11 +18,11 @@
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 17000.0,
-      "reached": 0.0,
-      "missing": 17000.0,
+      "reached": 2190.2,
+      "missing": 14809.8,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 12.9,
       "status": "pending"
     },
     {
@@ -62,11 +62,11 @@
       "reference": "MOGI",
       "seller": "MOGI",
       "commitment": 10910.0,
-      "reached": 2459.62,
-      "missing": 8450.38,
+      "reached": 2469.62,
+      "missing": 8440.38,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 22.5,
+      "percent": 22.6,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 15000.0,
-      "reached": 9318.15,
-      "missing": 5681.85,
+      "reached": 11259.79,
+      "missing": 3740.21,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 62.1,
+      "percent": 75.1,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 355907.6,
-      "missing": 211711.45,
-      "percent": 62.7
+      "reached": 360049.44,
+      "missing": 207569.61,
+      "percent": 63.4
     },
     {
       "name": "Semana 4",
