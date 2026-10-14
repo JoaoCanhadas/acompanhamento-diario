@@ -3,9 +3,9 @@
   "lastModified": "14/10/2026 09:29",
   "summary": {
     "commitment": 200200.0,
-    "reached": 39793.83,
-    "missing": 160406.17,
-    "percent": 19.9,
+    "reached": 42447.33,
+    "missing": 157752.67,
+    "percent": 21.2,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -92,17 +92,6 @@
       "status": "pending"
     },
     {
-      "reference": "LESTE MOOCA",
-      "seller": "MOOCA",
-      "commitment": 14660.0,
-      "reached": 3440.95,
-      "missing": 11219.05,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 23.5,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 15000.0,
@@ -125,14 +114,25 @@
       "status": "pending"
     },
     {
+      "reference": "LESTE MOOCA",
+      "seller": "MOOCA",
+      "commitment": 14660.0,
+      "reached": 5360.95,
+      "missing": 9299.05,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 36.6,
+      "status": "pending"
+    },
+    {
       "reference": "JUNDIAI",
       "seller": "JUNDIAI",
       "commitment": 7670.0,
-      "reached": 0.0,
-      "missing": 7670.0,
+      "reached": 419.6,
+      "missing": 7250.4,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 0.0,
+      "percent": 5.5,
       "status": "pending"
     },
     {
@@ -150,11 +150,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 6920.0,
-      "reached": 875.13,
-      "missing": 6044.87,
+      "reached": 1075.03,
+      "missing": 5844.97,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 12.6,
+      "percent": 15.5,
       "status": "pending"
     },
     {
@@ -205,11 +205,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 12910.0,
-      "reached": 16290.08,
-      "missing": -3380.08,
+      "reached": 16404.08,
+      "missing": -3494.08,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 126.2,
+      "percent": 127.1,
       "status": "ok"
     }
   ],
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 301413.81,
-      "missing": 266205.24,
-      "percent": 53.1
+      "reached": 304067.31,
+      "missing": 263551.74,
+      "percent": 53.6
     },
     {
       "name": "Semana 4",
