@@ -1,10 +1,10 @@
 {
   "workbook": "Sensum SQL - Geral",
-  "lastModified": "14/10/2026 13:54",
+  "lastModified": "14/10/2026 13:55",
   "summary": {
     "commitment": 6031000.0,
-    "reached": 2248654.9,
-    "missing": 3782345.1,
+    "reached": 2249503.55,
+    "missing": 3781496.45,
     "percent": 37.3,
     "weekGoal": 574381,
     "weekRevenue": 162832.47,
@@ -150,8 +150,8 @@
       "reference": "LESTE MOOCA",
       "seller": "MOOCA",
       "commitment": 206000.0,
-      "reached": 85185.43,
-      "missing": 120814.57,
+      "reached": 85195.43,
+      "missing": 120804.57,
       "average": 0.0,
       "difference": 0.0,
       "percent": 41.4,
@@ -224,17 +224,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 84000.0,
-      "reached": 37383.29,
-      "missing": 46616.71,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 44.5,
-      "status": "pending"
-    },
-    {
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 79000.0,
@@ -243,6 +232,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 41.2,
+      "status": "pending"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 84000.0,
+      "reached": 38221.94,
+      "missing": 45778.06,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 45.5,
       "status": "pending"
     },
     {
@@ -331,9 +331,9 @@
     {
       "name": "Semana 3",
       "goal": 1148762,
-      "reached": 689204.3,
-      "missing": 459557.7,
-      "percent": 60.0
+      "reached": 690042.95,
+      "missing": 458719.05,
+      "percent": 60.1
     },
     {
       "name": "Semana 4",
