@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "14/10/2026 09:53",
+  "lastModified": "14/10/2026 09:54",
   "summary": {
     "commitment": 200200.0,
-    "reached": 53865.66,
-    "missing": 146334.34,
-    "percent": 26.9,
+    "reached": 55216.17,
+    "missing": 144983.83,
+    "percent": 27.6,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -29,11 +29,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 18000.0,
-      "reached": 2012.55,
-      "missing": 15987.45,
+      "reached": 2507.5,
+      "missing": 15492.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 11.2,
+      "percent": 13.9,
       "status": "pending"
     },
     {
@@ -51,11 +51,11 @@
       "reference": "PIRITUBA",
       "seller": "PIRITUBA",
       "commitment": 13000.0,
-      "reached": 1174.8,
-      "missing": 11825.2,
+      "reached": 1229.79,
+      "missing": 11770.21,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 9.0,
+      "percent": 9.5,
       "status": "pending"
     },
     {
@@ -117,22 +117,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 15000.0,
-      "reached": 7631.75,
-      "missing": 7368.25,
+      "reached": 7905.55,
+      "missing": 7094.45,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 50.9,
-      "status": "pending"
-    },
-    {
-      "reference": "INDAIATUBA",
-      "seller": "INDAIATUBA",
-      "commitment": 6960.0,
-      "reached": 0.0,
-      "missing": 6960.0,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 0.0,
+      "percent": 52.7,
       "status": "pending"
     },
     {
@@ -144,6 +133,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 10.2,
+      "status": "pending"
+    },
+    {
+      "reference": "INDAIATUBA",
+      "seller": "INDAIATUBA",
+      "commitment": 6960.0,
+      "reached": 526.77,
+      "missing": 6433.23,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 7.6,
       "status": "pending"
     },
     {
@@ -232,9 +232,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 315485.65,
-      "missing": 252133.4,
-      "percent": 55.6
+      "reached": 316836.16,
+      "missing": 250782.89,
+      "percent": 55.8
     },
     {
       "name": "Semana 4",
