@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "15/10/2026 11:41",
+  "lastModified": "15/10/2026 11:42",
   "summary": {
     "commitment": 150390.0,
-    "reached": 62145.9,
-    "missing": 88244.1,
-    "percent": 41.3,
+    "reached": 64424.49,
+    "missing": 85965.51,
+    "percent": 42.8,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -29,22 +29,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 19380.0,
-      "reached": 5650.35,
-      "missing": 13729.65,
+      "reached": 7271.15,
+      "missing": 12108.85,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 29.2,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 17620.0,
-      "reached": 7553.6,
-      "missing": 10066.4,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 42.9,
+      "percent": 37.5,
       "status": "pending"
     },
     {
@@ -56,6 +45,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 42.9,
+      "status": "pending"
+    },
+    {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 17620.0,
+      "reached": 8041.49,
+      "missing": 9578.51,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 45.6,
       "status": "pending"
     },
     {
@@ -161,11 +161,11 @@
       "reference": "SJC",
       "seller": "SJC",
       "commitment": 2690.0,
-      "reached": 1574.02,
-      "missing": 1115.98,
+      "reached": 1743.92,
+      "missing": 946.08,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 58.5,
+      "percent": 64.8,
       "status": "pending"
     },
     {
@@ -243,9 +243,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 485584.38,
-      "missing": 82034.67,
-      "percent": 85.5
+      "reached": 487862.97,
+      "missing": 79756.08,
+      "percent": 85.9
     },
     {
       "name": "Semana 4",
