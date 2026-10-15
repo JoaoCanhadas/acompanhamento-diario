@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "15/10/2026 12:20",
+  "lastModified": "15/10/2026 12:21",
   "summary": {
     "commitment": 150390.0,
-    "reached": 80385.95,
-    "missing": 70004.05,
-    "percent": 53.5,
+    "reached": 83235.35,
+    "missing": 67154.65,
+    "percent": 55.3,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -18,11 +18,11 @@
       "reference": "INTERLAGOS",
       "seller": "INTERLAGOS",
       "commitment": 19620.0,
-      "reached": 3486.34,
-      "missing": 16133.66,
+      "reached": 3794.24,
+      "missing": 15825.76,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 17.8,
+      "percent": 19.3,
       "status": "pending"
     },
     {
@@ -51,11 +51,11 @@
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 17180.0,
-      "reached": 9639.58,
-      "missing": 7540.42,
+      "reached": 11621.83,
+      "missing": 5558.17,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 56.1,
+      "percent": 67.6,
       "status": "pending"
     },
     {
@@ -73,11 +73,11 @@
       "reference": "SBC",
       "seller": "SBC",
       "commitment": 12270.0,
-      "reached": 8434.58,
-      "missing": 3835.42,
+      "reached": 8811.38,
+      "missing": 3458.62,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 68.7,
+      "percent": 71.8,
       "status": "pending"
     },
     {
@@ -139,11 +139,11 @@
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2850.0,
-      "reached": 829.38,
-      "missing": 2020.62,
+      "reached": 1011.83,
+      "missing": 1838.17,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 29.1,
+      "percent": 35.5,
       "status": "pending"
     },
     {
@@ -243,9 +243,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 503824.43,
-      "missing": 63794.62,
-      "percent": 88.8
+      "reached": 506673.83,
+      "missing": 60945.22,
+      "percent": 89.3
     },
     {
       "name": "Semana 4",
