@@ -1,11 +1,11 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "15/10/2026 14:07",
+  "lastModified": "15/10/2026 14:08",
   "summary": {
     "commitment": 150390.0,
-    "reached": 119047.96,
-    "missing": 31342.04,
-    "percent": 79.2,
+    "reached": 121441.54,
+    "missing": 28948.46,
+    "percent": 80.8,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -18,11 +18,11 @@
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 19380.0,
-      "reached": 10048.19,
-      "missing": 9331.81,
+      "reached": 10434.24,
+      "missing": 8945.76,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 51.8,
+      "percent": 53.8,
       "status": "pending"
     },
     {
@@ -48,17 +48,6 @@
       "status": "pending"
     },
     {
-      "reference": "PIRITUBA",
-      "seller": "PIRITUBA",
-      "commitment": 5310.0,
-      "reached": 1602.11,
-      "missing": 3707.89,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 30.2,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 10430.0,
@@ -78,6 +67,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 27.0,
+      "status": "pending"
+    },
+    {
+      "reference": "PIRITUBA",
+      "seller": "PIRITUBA",
+      "commitment": 5310.0,
+      "reached": 3509.69,
+      "missing": 1800.31,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 66.1,
       "status": "pending"
     },
     {
@@ -158,17 +158,6 @@
       "status": "ok"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 2600.0,
-      "reached": 3164.2,
-      "missing": -564.2,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 121.7,
-      "status": "ok"
-    },
-    {
       "reference": "NORTE",
       "seller": "NORTE",
       "commitment": 17620.0,
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 2600.0,
+      "reached": 3264.15,
+      "missing": -664.15,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 125.5,
       "status": "ok"
     },
     {
@@ -243,9 +243,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 542486.44,
-      "missing": 25132.61,
-      "percent": 95.6
+      "reached": 544880.02,
+      "missing": 22739.03,
+      "percent": 96.0
     },
     {
       "name": "Semana 4",
