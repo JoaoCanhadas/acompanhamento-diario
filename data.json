@@ -3,9 +3,9 @@
   "lastModified": "15/10/2026 15:11",
   "summary": {
     "commitment": 150390.0,
-    "reached": 123248.91,
-    "missing": 27141.09,
-    "percent": 82.0,
+    "reached": 123425.12,
+    "missing": 26964.88,
+    "percent": 82.1,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
@@ -172,22 +172,11 @@
       "reference": "VENDEDOR INTERNO 1",
       "seller": "INTERNO 1",
       "commitment": 4470.0,
-      "reached": 5103.25,
-      "missing": -633.25,
+      "reached": 5179.51,
+      "missing": -709.51,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 114.2,
-      "status": "ok"
-    },
-    {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 2600.0,
-      "reached": 3264.15,
-      "missing": -664.15,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 125.5,
+      "percent": 115.9,
       "status": "ok"
     },
     {
@@ -199,6 +188,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 2600.0,
+      "reached": 3364.1,
+      "missing": -764.1,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 129.4,
       "status": "ok"
     },
     {
@@ -243,8 +243,8 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 546687.39,
-      "missing": 20931.66,
+      "reached": 546863.6,
+      "missing": 20755.45,
       "percent": 96.3
     },
     {
