@@ -1,17 +1,17 @@
 {
   "workbook": "Sensum SQL - Faturamento",
-  "lastModified": "15/10/2026 13:35",
+  "lastModified": "15/10/2026 13:36",
   "summary": {
     "commitment": 150390.0,
-    "reached": 105516.4,
-    "missing": 44873.6,
-    "percent": 70.2,
+    "reached": 108622.47,
+    "missing": 41767.53,
+    "percent": 72.2,
     "weekGoal": 283809.52,
     "weekRevenue": 142224.57,
     "weekMissing": 141584.95,
     "weekPercent": 50.1,
-    "positiveCount": 3,
-    "pendingCount": 14
+    "positiveCount": 4,
+    "pendingCount": 13
   },
   "rows": [
     {
@@ -59,17 +59,6 @@
       "status": "pending"
     },
     {
-      "reference": "SBC",
-      "seller": "SBC",
-      "commitment": 12270.0,
-      "reached": 8811.38,
-      "missing": 3458.62,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 71.8,
-      "status": "pending"
-    },
-    {
       "reference": "SANTO ANDRE",
       "seller": "SANTO ANDRE",
       "commitment": 10430.0,
@@ -103,6 +92,17 @@
       "status": "pending"
     },
     {
+      "reference": "SBC",
+      "seller": "SBC",
+      "commitment": 12270.0,
+      "reached": 10145.08,
+      "missing": 2124.92,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 82.7,
+      "status": "pending"
+    },
+    {
       "reference": "OSASCO",
       "seller": "OSASCO",
       "commitment": 17180.0,
@@ -111,17 +111,6 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 87.9,
-      "status": "pending"
-    },
-    {
-      "reference": "NORTE",
-      "seller": "NORTE",
-      "commitment": 17620.0,
-      "reached": 15945.5,
-      "missing": 1674.5,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 90.5,
       "status": "pending"
     },
     {
@@ -147,6 +136,17 @@
       "status": "pending"
     },
     {
+      "reference": "NORTE",
+      "seller": "NORTE",
+      "commitment": 17620.0,
+      "reached": 17152.77,
+      "missing": 467.23,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 97.3,
+      "status": "pending"
+    },
+    {
       "reference": "SJC/VALE",
       "seller": "VALE",
       "commitment": 2850.0,
@@ -158,17 +158,6 @@
       "status": "pending"
     },
     {
-      "reference": "JUNDIAI",
-      "seller": "JUNDIAI",
-      "commitment": 2600.0,
-      "reached": 2599.1,
-      "missing": 0.9,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 100.0,
-      "status": "pending"
-    },
-    {
       "reference": "LESTE",
       "seller": "LESTE",
       "commitment": 0.0,
@@ -177,6 +166,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "reference": "JUNDIAI",
+      "seller": "JUNDIAI",
+      "commitment": 2600.0,
+      "reached": 3164.2,
+      "missing": -564.2,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 121.7,
       "status": "ok"
     },
     {
@@ -243,9 +243,9 @@
     {
       "name": "Semana 3",
       "goal": 567619.05,
-      "reached": 528954.88,
-      "missing": 38664.17,
-      "percent": 93.2
+      "reached": 532060.95,
+      "missing": 35558.1,
+      "percent": 93.7
     },
     {
       "name": "Semana 4",
