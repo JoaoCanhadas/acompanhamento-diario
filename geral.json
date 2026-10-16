@@ -3,8 +3,8 @@
   "lastModified": "16/10/2026 11:05",
   "summary": {
     "commitment": 6031000.0,
-    "reached": 2619034.34,
-    "missing": 3411965.66,
+    "reached": 2620366.94,
+    "missing": 3410633.06,
     "percent": 43.4,
     "weekGoal": 574381,
     "weekRevenue": 162832.47,
@@ -70,17 +70,6 @@
       "status": "pending"
     },
     {
-      "reference": "OSASCO",
-      "seller": "OSASCO",
-      "commitment": 331500.0,
-      "reached": 171185.47,
-      "missing": 160314.53,
-      "average": 0.0,
-      "difference": 0.0,
-      "percent": 51.6,
-      "status": "pending"
-    },
-    {
       "reference": "CENTRO",
       "seller": "CENTRO",
       "commitment": 345000.0,
@@ -89,6 +78,17 @@
       "average": 0.0,
       "difference": 0.0,
       "percent": 53.7,
+      "status": "pending"
+    },
+    {
+      "reference": "OSASCO",
+      "seller": "OSASCO",
+      "commitment": 331500.0,
+      "reached": 171960.67,
+      "missing": 159539.33,
+      "average": 0.0,
+      "difference": 0.0,
+      "percent": 51.9,
       "status": "pending"
     },
     {
@@ -106,11 +106,11 @@
       "reference": "LESTE TATUAPE",
       "seller": "TATUAPE",
       "commitment": 217500.0,
-      "reached": 82163.1,
-      "missing": 135336.9,
+      "reached": 82720.5,
+      "missing": 134779.5,
       "average": 0.0,
       "difference": 0.0,
-      "percent": 37.8,
+      "percent": 38.0,
       "status": "pending"
     },
     {
@@ -331,9 +331,9 @@
     {
       "name": "Semana 3",
       "goal": 1148762,
-      "reached": 1059866.89,
-      "missing": 88895.11,
-      "percent": 92.3
+      "reached": 1061199.49,
+      "missing": 87562.51,
+      "percent": 92.4
     },
     {
       "name": "Semana 4",
